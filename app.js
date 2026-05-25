@@ -51,11 +51,140 @@ const state = {
   notes: loadJSON('notes', {}),
   playbackRate: loadJSON('settings', { playbackRate: 1 }).playbackRate || 1,
   subSettings: loadJSON('subSettings', { enabled: true, fontSize: 20, color: '#ffffff', bgOpacity: 0.7 }),
+  audioAnalysis: loadJSON('audioAnalysis', {}),
 }
 
 function saveSubSettings() {
   saveJSON('subSettings', state.subSettings);
   updateSubtitles(audio.currentTime);
+}
+
+function saveAudioAnalysis() {
+  saveJSON('audioAnalysis', state.audioAnalysis)
+}
+
+function getCachedAudioAnalysis(chapterId, duration) {
+  if (!chapterId) return null
+  const v = state.audioAnalysis ? state.audioAnalysis[chapterId] : null
+  if (!v || typeof v !== 'object') return null
+  if (!Number.isFinite(v.duration) || !Number.isFinite(v.leadIn)) return null
+  if (!Number.isFinite(duration) || duration <= 0) return null
+  if (Math.abs(v.duration - duration) > 0.75) return null
+  return v
+}
+
+let audioCtx = null
+const analysisInFlight = new Map()
+
+function getAudioContext() {
+  if (audioCtx) return audioCtx
+  const Ctx = window.AudioContext || window.webkitAudioContext
+  if (!Ctx) return null
+  audioCtx = new Ctx()
+  return audioCtx
+}
+
+function clamp(n, a, b) {
+  const x = Number(n)
+  if (!Number.isFinite(x)) return a
+  return Math.max(a, Math.min(b, x))
+}
+
+function computeAudioAnalysisFromBuffer(buf, duration) {
+  const channel = buf.getChannelData(0)
+  const sampleRate = buf.sampleRate || 44100
+  const step = Math.max(1, Math.floor(sampleRate * 0.05))
+  const win = step
+  const energies = []
+
+  for (let i = 0; i + win < channel.length; i += step) {
+    let sum = 0
+    for (let j = 0; j < win; j++) {
+      const s = channel[i + j]
+      sum += s * s
+    }
+    energies.push(Math.sqrt(sum / win))
+  }
+
+  if (!energies.length) return { duration, leadIn: 0, pauses: [] }
+
+  const sorted = energies.slice().sort((a, b) => a - b)
+  const noiseFloor = sorted[Math.floor(sorted.length * 0.12)] || 0
+  const startThreshold = Math.max(noiseFloor * 5, 0.012)
+  const silenceThreshold = Math.max(noiseFloor * 2.2, 0.008)
+
+  let leadIndex = 0
+  let streak = 0
+  for (let i = 0; i < energies.length; i++) {
+    if (energies[i] > startThreshold) streak++
+    else streak = 0
+    if (streak >= 4) {
+      leadIndex = Math.max(0, i - 3)
+      break
+    }
+  }
+  const leadIn = clamp((leadIndex * step) / sampleRate, 0, Math.min(8, duration * 0.4))
+
+  const pauses = []
+  let runStart = -1
+  for (let i = 0; i < energies.length; i++) {
+    const isSilence = energies[i] < silenceThreshold
+    if (isSilence) {
+      if (runStart === -1) runStart = i
+    } else if (runStart !== -1) {
+      const runLen = i - runStart
+      if (runLen >= 6) {
+        const mid = runStart + Math.floor(runLen / 2)
+        const t = (mid * step) / sampleRate
+        if (t > 0.15 && t < duration - 0.15) pauses.push(t)
+      }
+      runStart = -1
+    }
+  }
+  if (runStart !== -1) {
+    const runLen = energies.length - runStart
+    if (runLen >= 6) {
+      const mid = runStart + Math.floor(runLen / 2)
+      const t = (mid * step) / sampleRate
+      if (t > 0.15 && t < duration - 0.15) pauses.push(t)
+    }
+  }
+
+  return { duration, leadIn, pauses }
+}
+
+async function ensureAudioAnalysisForChapter(chapter) {
+  if (!chapter || !chapter.id || !chapter.audioUrl) return null
+  const duration = Number.isFinite(audio.duration) ? audio.duration : 0
+  if (!duration) return null
+
+  const cached = getCachedAudioAnalysis(chapter.id, duration)
+  if (cached) return cached
+
+  if (analysisInFlight.has(chapter.id)) return analysisInFlight.get(chapter.id)
+
+  const ctx = getAudioContext()
+  if (!ctx) return null
+
+  const p = (async () => {
+    try {
+      if (ctx.state === 'suspended') await ctx.resume()
+      const res = await fetch(chapter.audioUrl, { cache: 'force-cache' })
+      const arr = await res.arrayBuffer()
+      const buf = await ctx.decodeAudioData(arr.slice(0))
+      const a = computeAudioAnalysisFromBuffer(buf, duration || buf.duration || 0)
+      state.audioAnalysis[chapter.id] = a
+      saveAudioAnalysis()
+      return a
+    } catch {
+      return null
+    } finally {
+      analysisInFlight.delete(chapter.id)
+    }
+  })()
+
+  analysisInFlight.set(chapter.id, p)
+  return p
 }
 
 const playIcon = `<svg viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>`;
@@ -120,27 +249,89 @@ audio.addEventListener('durationchange', () => {
   generateTimings();
   updatePlayerProgress();
 })
+audio.addEventListener('loadedmetadata', () => {
+  generateTimings()
+  updatePlayerProgress()
+})
 audio.addEventListener('play', updatePlayerProgress)
 audio.addEventListener('pause', updatePlayerProgress)
 audio.addEventListener('ended', updatePlayerProgress)
+audio.addEventListener('seeked', updatePlayerProgress)
 
-function generateTimings() {
+function snapTimingsToPauses(timings, pauses, duration, opts = {}) {
+  if (!Array.isArray(timings) || timings.length < 2) return
+  if (!Array.isArray(pauses) || !pauses.length) return
+
+  const windowSec = Number.isFinite(opts.windowSec) ? opts.windowSec : 1.2
+  const minGap = Number.isFinite(opts.minGap) ? opts.minGap : 0.35
+  const tail = Number.isFinite(opts.tail) ? opts.tail : 0.35
+
+  let start = timings[0].start
+  for (let i = 0; i < timings.length - 1; i++) {
+    const proposed = timings[i].end
+    let best = null
+    let bestDist = Infinity
+    for (let p = 0; p < pauses.length; p++) {
+      const t = pauses[p]
+      if (t <= start + minGap) continue
+      if (t >= duration - tail) continue
+      const d = Math.abs(t - proposed)
+      if (d <= windowSec && d < bestDist) {
+        bestDist = d
+        best = t
+      }
+    }
+    const boundary = best !== null && best - start >= minGap ? best : proposed
+    timings[i].start = start
+    timings[i].end = boundary
+    timings[i + 1].start = boundary
+    start = boundary
+  }
+  timings[timings.length - 1].end = duration
+}
+
+function generateTimings(force = false) {
   const chapter = state.chapterId ? state.byId.get(state.chapterId) : null;
   const duration = Number.isFinite(audio.duration) ? audio.duration : 0;
   if (!chapter || !duration || !chapter.verses) return;
   
-  if (chapter.timings && Math.abs(chapter.timingsDuration - duration) < 1) return;
+  if (!force && chapter.timings && Math.abs(chapter.timingsDuration - duration) < 1) return;
 
-  const totalChars = chapter.verses.reduce((acc, v) => acc + v.arabic.length + v.translation.length, 0);
-  let start = 0;
-  chapter.timings = chapter.verses.map(v => {
-    const chars = v.arabic.length + v.translation.length;
-    const dur = (chars / totalChars) * duration;
-    const end = start + dur;
-    const t = { index: v.index, start, end, arabic: v.arabic, translation: v.translation };
-    start = end;
-    return t;
-  });
+  const analysis = getCachedAudioAnalysis(chapter.id, duration)
+  const leadIn = analysis ? clamp(analysis.leadIn, 0, Math.min(8, duration * 0.4)) : 0
+  const speechDuration = Math.max(0.1, duration - leadIn)
+
+  const verseWeights = chapter.verses.map((v) => {
+    const arabicLen = (v.arabic || '').length
+    const translitLen = (v.translit || '').length
+    const translationLen = (v.translation || '').length
+    const w = arabicLen * 1 + translitLen * 0.15 + translationLen * 0.1
+    return Math.max(1, w)
+  })
+
+  const n = chapter.verses.length
+  const minDur = 1.05
+  const baseTotal = Math.min(speechDuration, n * minDur)
+  const extraTotal = Math.max(0, speechDuration - baseTotal)
+  const weightsSum = verseWeights.reduce((a, b) => a + b, 0) || 1
+
+  let start = leadIn
+  chapter.timings = chapter.verses.map((v, i) => {
+    const base = baseTotal / n
+    const extra = (verseWeights[i] / weightsSum) * extraTotal
+    const dur = base + extra
+    const end = start + dur
+    const t = { index: v.index, start, end, arabic: v.arabic, translation: v.translation }
+    start = end
+    return t
+  })
+
+  if (chapter.timings.length) {
+    chapter.timings[chapter.timings.length - 1].end = duration
+  }
+  if (analysis && Array.isArray(analysis.pauses) && analysis.pauses.length) {
+    snapTimingsToPauses(chapter.timings, analysis.pauses, duration)
+  }
   chapter.timingsDuration = duration;
 }
 
@@ -185,7 +376,7 @@ function updateSubtitles(currentTime) {
     return;
   }
   
-  const activeVerse = chapter.timings.find(t => currentTime >= t.start && currentTime <= t.end);
+  const activeVerse = chapter.timings.find((t) => currentTime >= t.start && currentTime <= t.end);
   if (activeVerse) {
     display.style.display = 'block';
     
@@ -193,6 +384,7 @@ function updateSubtitles(currentTime) {
     
     const arEl = display.querySelector('.sub-arabic');
     const trEl = display.querySelector('.sub-translation');
+    if (!arEl || !trEl) return;
     
     if (arEl.dataset.index !== String(activeVerse.index)) {
       arEl.dataset.index = activeVerse.index;
@@ -745,6 +937,14 @@ function renderPlayer() {
             title: isPlaying ? 'Пауза' : 'Играть',
             html: isPlaying ? pauseIcon : playIcon,
             onclick: () => {
+              if (chapter) {
+                ensureAudioAnalysisForChapter(chapter).then((a) => {
+                  if (!a) return
+                  if (state.chapterId !== chapter.id) return
+                  generateTimings(true)
+                  updatePlayerProgress()
+                })
+              }
               if (audio.paused) audio.play().catch(() => {})
               else audio.pause()
             },
@@ -788,7 +988,9 @@ function renderPlayer() {
           value: Math.min(currentTime, duration || currentTime),
           oninput: (e) => {
             const t = Number(e.target.value)
-            audio.currentTime = Math.max(0, Math.min(t, duration || t))
+            const nextTime = Math.max(0, Math.min(t, duration || t))
+            audio.currentTime = nextTime
+            updateSubtitles(nextTime)
           },
         }),
         el('span', { class: 'time-text' }, [fmt(duration)]),
