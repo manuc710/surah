@@ -1,0 +1,8 @@
+node_modules/
+build_env/
+.trae/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
