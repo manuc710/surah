@@ -39,6 +39,8 @@ function fmt(sec) {
   return `${m}:${String(r).padStart(2, '0')}`
 }
 
+const savedSettings = loadJSON('settings', { playbackRate: 1, volume: 1 })
+
 const state = {
   chapters: [],
   byId: new Map(),
@@ -49,18 +51,43 @@ const state = {
   activeVerseId: null,
   bookmarks: new Set(loadJSON('bookmarks', [])),
   notes: loadJSON('notes', {}),
-  playbackRate: loadJSON('settings', { playbackRate: 1 }).playbackRate || 1,
+  playbackRate: Number.isFinite(Number(savedSettings.playbackRate)) ? Number(savedSettings.playbackRate) : 1,
+  volume: Number.isFinite(Number(savedSettings.volume)) ? Number(savedSettings.volume) : 1,
   subSettings: loadJSON('subSettings', { enabled: true, fontSize: 20, color: '#ffffff', bgOpacity: 0.7 }),
+  viewMode: loadJSON('viewMode', {}),
+  ui: { modePickerOpen: false },
   audioAnalysis: loadJSON('audioAnalysis', {}),
 }
 
 function saveSubSettings() {
-  saveJSON('subSettings', state.subSettings);
-  updateSubtitles(audio.currentTime);
+  saveJSON('subSettings', state.subSettings)
+  updateSubtitles(audio.currentTime)
 }
 
 function saveAudioAnalysis() {
   saveJSON('audioAnalysis', state.audioAnalysis)
+}
+
+function getChapterMode(chapterId) {
+  const v = chapterId ? state.viewMode[chapterId] : null
+  return v === 'listen' ? 'listen' : 'read'
+}
+
+function isListenModeActive() {
+  return state.activePage === 'chapter' && state.chapterId && getChapterMode(state.chapterId) === 'listen'
+}
+
+function syncListenModeClass() {
+  document.body.classList.toggle('listen-mode', !!isListenModeActive())
+}
+
+function setChapterMode(chapterId, mode) {
+  if (!chapterId) return
+  state.viewMode[chapterId] = mode === 'listen' ? 'listen' : 'read'
+  saveJSON('viewMode', state.viewMode)
+  state.ui.modePickerOpen = false
+  syncListenModeClass()
+  render()
 }
 
 function getCachedAudioAnalysis(chapterId, duration) {
@@ -201,14 +228,22 @@ const settingsIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
 const audio = new Audio()
 audio.preload = 'metadata'
 audio.playbackRate = state.playbackRate
+audio.volume = clamp(state.volume, 0, 1)
 
 function setPlaybackRate(rate) {
   const r = Number(rate)
   if (!Number.isFinite(r) || r <= 0) return
   state.playbackRate = r
   audio.playbackRate = r
-  saveJSON('settings', { playbackRate: r })
+  saveJSON('settings', { playbackRate: r, volume: state.volume })
   renderPlayer()
+}
+
+function setVolume(v) {
+  const n = clamp(Number(v), 0, 1)
+  state.volume = n
+  audio.volume = n
+  saveJSON('settings', { playbackRate: state.playbackRate, volume: n })
 }
 
 function setChapter(chapterId, { autoplay = false } = {}) {
@@ -339,8 +374,12 @@ function updatePlayerProgress() {
   const isPlaying = !audio.paused && !!audio.src;
   const btnPlay = document.querySelector('.btn-play');
   if (btnPlay) {
+    const host = btnPlay.closest('.player')
+    const expanded = !!(host && host.classList.contains('expanded'))
     btnPlay.title = isPlaying ? 'Пауза' : 'Играть';
-    btnPlay.innerHTML = isPlaying ? pauseIcon : playIcon;
+    btnPlay.innerHTML = expanded
+      ? `${isPlaying ? pauseIcon : playIcon}<span class="ctl-label">${isPlaying ? 'Пауза' : 'Играть'}</span>`
+      : (isPlaying ? pauseIcon : playIcon);
   }
 
   const duration = Number.isFinite(audio.duration) ? audio.duration : 0;
@@ -751,16 +790,24 @@ function renderChapter() {
 
   const arTitle = arabicTitles[chapter.id] || ''
 
+  const mode = getChapterMode(chapter.id)
+
   root.appendChild(
-    el('div', { class: 'chapterTop' }, [
+    el('div', {
+      class: `chapterTop${state.ui.modePickerOpen ? ' modeOpen' : ''}`,
+      onclick: () => {
+        state.ui.modePickerOpen = !state.ui.modePickerOpen
+        renderChapter()
+      },
+    }, [
       el('div', { class: 'arabic-title' }, [arTitle]),
       el('h1', {}, [chapter.displayTitle]),
       el('div', { class: 'actions' }, [
         chapter.audioUrl
           ? el('button', {
               class: 'btn primary',
-              onclick: () => {
-                // если уже выбран этот chapter в плеере — просто play/pause
+              onclick: (e) => {
+                e.stopPropagation()
                 if (state.chapterId === chapter.id && audio.src) {
                   if (audio.paused) audio.play().catch(() => {})
                   else audio.pause()
@@ -772,15 +819,38 @@ function renderChapter() {
           : null,
         el('button', {
           class: 'btn',
-          onclick: () => copyText(window.location.href),
+          onclick: (e) => {
+            e.stopPropagation()
+            copyText(window.location.href)
+          },
           title: 'Скопировать ссылку на главу',
         }, ['Поделиться']),
       ].filter(Boolean)),
-    ]),
+      state.ui.modePickerOpen
+        ? el('div', { class: 'modePanel', onclick: (e) => e.stopPropagation() }, [
+            el('button', {
+              class: `btn ${mode === 'listen' ? 'primary' : ''}`,
+              onclick: () => {
+                setChapterMode(chapter.id, 'listen')
+                if (chapter.audioUrl) setChapter(chapter.id, { autoplay: true })
+              },
+            }, ['Слушать']),
+            el('button', {
+              class: `btn ${mode === 'read' ? 'primary' : ''}`,
+              onclick: () => setChapterMode(chapter.id, 'read'),
+            }, ['Читать']),
+          ])
+        : null,
+    ].filter(Boolean)),
   )
 
   // Убрана видео-обложка (chapter.imageUrl)
   // Убрано предупреждение про тайминги (warning-note)
+
+  if (getChapterMode(chapter.id) === 'listen') {
+    syncListenModeClass()
+    return
+  }
 
   const verses = el('div', { class: 'verses' })
   for (const v of chapter.verses) {
@@ -899,8 +969,10 @@ function renderPlayer() {
     : userIcon;
 
   host.innerHTML = ''
+  const expanded = state.activePage === 'chapter' && getChapterMode(chapter.id) === 'listen'
+
   host.appendChild(
-    el('div', { class: 'player' }, [
+    el('div', { class: expanded ? 'player expanded' : 'player' }, [
       
       // Верхний ряд: Аватар + Инфо + Кнопки
       el('div', { class: 'row' }, [
@@ -977,7 +1049,8 @@ function renderPlayer() {
         ])
       ]),
 
-      // Нижний ряд: Таймлайн + Скорость
+      expanded ? el('div', { class: 'player-section-title muted' }, ['Перемотка']) : null,
+
       el('div', { class: 'timeline progress' }, [
         el('span', { class: 'time-text' }, [fmt(currentTime)]),
         el('input', {
@@ -986,6 +1059,7 @@ function renderPlayer() {
           max: Math.max(1, duration || 0),
           step: 0.25,
           value: Math.min(currentTime, duration || currentTime),
+          'aria-label': 'Перемотка',
           oninput: (e) => {
             const t = Number(e.target.value)
             const nextTime = Math.max(0, Math.min(t, duration || t))
@@ -1003,7 +1077,27 @@ function renderPlayer() {
             renderPlayer();
           }
         })
-      ])
+      ]),
+
+      expanded ? el('div', { class: 'player-section-title muted' }, ['Громкость']) : null,
+
+      expanded ? el('div', { class: 'volume-row' }, [
+        el('input', {
+          type: 'range',
+          min: 0,
+          max: 1,
+          step: 0.01,
+          value: String(state.volume),
+          'aria-label': 'Громкость',
+          oninput: (e) => {
+            const v = Number(e.target.value)
+            setVolume(v)
+            const out = e.target.parentElement && e.target.parentElement.querySelector('.vol-value')
+            if (out) out.textContent = `${Math.round(clamp(v, 0, 1) * 100)}%`
+          },
+        }),
+        el('span', { class: 'time-text vol-value' }, [`${Math.round(clamp(state.volume, 0, 1) * 100)}%`]),
+      ]) : null
       
     ])
   )
@@ -1019,6 +1113,7 @@ function render() {
   else if (state.activePage === 'settings') renderSettings()
   else renderHome()
   renderPlayer()
+  syncListenModeClass()
 }
 
 async function init() {
