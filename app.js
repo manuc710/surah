@@ -49,7 +49,7 @@ const savedSettings = loadJSON('settings', { playbackRate: 1, volume: 1 })
 const state = {
   chapters: [],
   byId: new Map(),
-  activePage: 'home', // home | chapter | bookmarks | surahs | settings
+  activePage: 'home', // home | chapter | bookmarks | surahs | reciters | settings
   q: '',
   chapterId: null,
   verseFocus: null,
@@ -61,6 +61,9 @@ const state = {
   subSettings: loadJSON('subSettings', { enabled: true, fontSize: 20, color: '#ffffff', bgOpacity: 0.7 }),
   viewMode: loadJSON('viewMode', {}),
   ui: { modePickerOpen: false },
+  reciters: [],
+  recitersQ: '',
+  recitersLoaded: false,
   audioAnalysis: loadJSON('audioAnalysis', {}),
 }
 
@@ -480,6 +483,9 @@ function gotoHome() {
 function gotoSurahs() {
   setHash({ page: 'surahs' })
 }
+function gotoReciters() {
+  setHash({ page: 'reciters' })
+}
 function gotoBookmarks() {
   setHash({ page: 'bookmarks' })
 }
@@ -497,7 +503,7 @@ window.addEventListener('hashchange', () => {
 
 function syncFromHash() {
   const { page, chapter, v } = parseHash()
-  state.activePage = ['chapter', 'bookmarks', 'settings', 'surahs'].includes(page) ? page : 'home'
+  state.activePage = ['chapter', 'bookmarks', 'settings', 'surahs', 'reciters'].includes(page) ? page : 'home'
   state.chapterId = chapter && state.byId.has(chapter) ? chapter : state.chapterId
   state.verseFocus = Number.isFinite(v) && v > 0 ? v : null
 }
@@ -535,11 +541,13 @@ async function copyText(text) {
 function renderNav() {
   const navHome = $('#nav-home')
   const navSurahs = $('#nav-surahs')
+  const navReciters = $('#nav-reciters')
   const navBookmarks = $('#nav-bookmarks')
   const navSettings = $('#nav-settings')
   
   if (navHome) navHome.classList.toggle('active', state.activePage === 'home')
   if (navSurahs) navSurahs.classList.toggle('active', state.activePage === 'surahs' || state.activePage === 'chapter')
+  if (navReciters) navReciters.classList.toggle('active', state.activePage === 'reciters')
   if (navBookmarks) navBookmarks.classList.toggle('active', state.activePage === 'bookmarks')
   if (navSettings) navSettings.classList.toggle('active', state.activePage === 'settings')
 }
@@ -730,6 +738,85 @@ function renderSurahs() {
 
     card.appendChild(el('div', { class: 'icon-wrapper', html: imageOrSvgHTML }))
 
+    grid.appendChild(card)
+  }
+
+  root.appendChild(grid)
+  if (!list.length) root.appendChild(el('p', { class: 'muted', style: 'margin-top:12px' }, ['Ничего не найдено.']))
+}
+
+async function ensureRecitersLoaded() {
+  if (state.recitersLoaded) return
+  const data = await (await fetch('reciters.json')).json()
+  state.reciters = Array.isArray(data.reciters) ? data.reciters : []
+  state.recitersLoaded = true
+}
+
+function renderReciters() {
+  const root = $('#view')
+  root.innerHTML = ''
+
+  root.appendChild(el('h1', {}, ['Чтецы']))
+
+  root.appendChild(
+    el('div', { class: 'searchbar' }, [
+      el('input', {
+        value: state.recitersQ,
+        placeholder: 'Поиск чтецов',
+        oninput: (e) => {
+          state.recitersQ = e.target.value || ''
+          renderReciters()
+        },
+      }),
+    ]),
+  )
+
+  if (!state.recitersLoaded) {
+    root.appendChild(el('p', { class: 'muted', style: 'margin-top:12px' }, ['Загрузка…']))
+    ensureRecitersLoaded()
+      .then(() => renderReciters())
+      .catch(() => {
+        root.appendChild(
+          el('p', { class: 'muted', style: 'margin-top:12px' }, ['Не удалось загрузить список чтецов.']),
+        )
+      })
+    return
+  }
+
+  const q = state.recitersQ.toLowerCase().trim()
+  const list = !q
+    ? state.reciters
+    : state.reciters.filter((r) => {
+        const txt = `${r.name || ''} ${r.country || ''} ${r.dialect || ''}`
+        return txt.toLowerCase().includes(q)
+      })
+
+  const grid = el('div', { class: 'reciters-grid' })
+
+  for (const r of list) {
+    const initials = String(r.name || '?')
+      .trim()
+      .split(/\s+/)
+      .slice(0, 2)
+      .map((s) => s[0])
+      .join('')
+      .toUpperCase()
+
+    const fallback = el('div', { class: 'reciter-fallback' }, [initials || '?'])
+    const img = el('img', {
+      src: r.imageUrl,
+      alt: r.name || 'Чтец',
+      loading: 'lazy',
+      onerror: () => {
+        img.style.display = 'none'
+        fallback.style.display = 'flex'
+      },
+    })
+
+    const avatar = el('div', { class: 'reciter-avatar' }, [img, fallback])
+    const name = el('div', { class: 'reciter-name' }, [r.name || ''])
+
+    const card = el('button', { class: 'reciter-card', type: 'button' }, [avatar, name])
     grid.appendChild(card)
   }
 
@@ -1126,6 +1213,7 @@ function render() {
   else if (state.activePage === 'chapter') renderChapter()
   else if (state.activePage === 'settings') renderSettings()
   else if (state.activePage === 'surahs') renderSurahs()
+  else if (state.activePage === 'reciters') renderReciters()
   else renderHome()
   renderPlayer()
   syncListenModeClass()
@@ -1159,6 +1247,12 @@ async function init() {
     $('#nav-surahs').addEventListener('click', (e) => {
       e.preventDefault()
       gotoSurahs()
+    })
+  }
+  if ($('#nav-reciters')) {
+    $('#nav-reciters').addEventListener('click', (e) => {
+      e.preventDefault()
+      gotoReciters()
     })
   }
   if ($('#nav-bookmarks')) {

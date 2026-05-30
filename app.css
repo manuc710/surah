@@ -113,9 +113,59 @@ h1{margin:10px 0 12px; font-size:28px}
   gap:16px;
   margin-top:20px;
 }
+
+.reciters-grid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap:18px 12px;
+  margin-top:18px;
+}
+.reciter-card{
+  background:transparent;
+  border:0;
+  padding:0;
+  color:inherit;
+  cursor:pointer;
+  text-align:center;
+}
+.reciter-avatar{
+  width:88px;
+  height:88px;
+  margin:0 auto 10px;
+  border-radius:999px;
+  overflow:hidden;
+  border:1px solid rgba(255, 255, 255, 0.08);
+  background:rgba(30, 41, 59, 0.5);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.reciter-avatar img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.reciter-fallback{
+  width:100%;
+  height:100%;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  letter-spacing:0.06em;
+  color:#e2e8f0;
+}
+.reciter-name{
+  font-size:14px;
+  line-height:1.2;
+  color:#e2e8f0;
+  word-break:break-word;
+}
 .card{
   display: flex;
   flex-direction: row;
+  align-items: center;
   align-items: center;
   justify-content: space-between;
   overflow:hidden;
@@ -717,12 +767,16 @@ body.listen-mode .verses{display:none;}
     gap: 4px;
   }
   .nav-item {
-    padding: 10px;
+    padding: 8px;
   }
   .nav-item.active {
-    padding: 10px 16px;
+    padding: 8px 10px;
   }
   .nav-item .nav-text {
     font-size: 13px;
+  }
+  .reciter-avatar{
+    width:72px;
+    height:72px;
   }
 }
