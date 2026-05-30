@@ -669,22 +669,36 @@ function renderHome() {
         placeholder: 'Поиск по названию, транслиту, переводу, арабскому…',
         oninput: (e) => {
           state.q = e.target.value || ''
-          renderHome()
+          if (state.q.trim()) gotoSurahs()
+          else renderHome()
         },
       }),
     ]),
   )
 
-  const last = loadJSON('lastChapterId', null)
-  if (last && state.byId.has(last)) {
-    const ch = state.byId.get(last)
-    root.appendChild(
-      el('p', { class: 'muted', style: 'margin-top:10px' }, [
-        'Продолжить: ',
-        el('a', { href: `#page=chapter&chapter=${encodeURIComponent(ch.id)}` }, [ch.displayTitle]),
-      ]),
-    )
-  }
+  root.appendChild(
+    el('div', { style: 'margin-top:14px; display:flex; justify-content:center' }, [
+      el('button', { class: 'btn primary', onclick: () => gotoSurahs() }, ['Открыть список сур']),
+    ]),
+  )
+}
+
+function renderSurahs() {
+  const root = $('#view')
+  root.innerHTML = ''
+
+  root.appendChild(
+    el('div', { class: 'searchbar' }, [
+      el('input', {
+        value: state.q,
+        placeholder: 'Поиск по названию, транслиту, переводу, арабскому…',
+        oninput: (e) => {
+          state.q = e.target.value || ''
+          renderSurahs()
+        },
+      }),
+    ]),
+  )
 
   const nq = state.q.toLowerCase().trim()
   const list = !nq
@@ -701,26 +715,21 @@ function renderHome() {
     const iconKey = chapterIcons[c.id] || 'star'
     const svgHTML = svgIcons[iconKey] || svgIcons.star
 
-    // Используем изображение суры, если оно есть, иначе fallback на SVG
-    const imageOrSvgHTML = c.imageUrl 
-      ? `<img src="${c.imageUrl}" alt="${c.title}" loading="lazy">` 
-      : svgHTML;
+    const imageOrSvgHTML = c.imageUrl ? `<img src="${c.imageUrl}" alt="${c.title}" loading="lazy">` : svgHTML
 
     const card = el('div', { class: 'card', onclick: () => gotoChapter(c.id) })
-    
+
     const arTitle = arabicTitles[c.id] || ''
 
     card.appendChild(
       el('div', { class: 'body' }, [
         el('div', { class: 'title' }, [c.displayTitle]),
-        el('div', { class: 'arabic-title' }, [arTitle])
+        el('div', { class: 'arabic-title' }, [arTitle]),
       ]),
     )
-    
-    card.appendChild(
-      el('div', { class: 'icon-wrapper', html: imageOrSvgHTML })
-    )
-    
+
+    card.appendChild(el('div', { class: 'icon-wrapper', html: imageOrSvgHTML }))
+
     grid.appendChild(card)
   }
 
@@ -1116,6 +1125,7 @@ function render() {
   if (state.activePage === 'bookmarks') renderBookmarks()
   else if (state.activePage === 'chapter') renderChapter()
   else if (state.activePage === 'settings') renderSettings()
+  else if (state.activePage === 'surahs') renderSurahs()
   else renderHome()
   renderPlayer()
   syncListenModeClass()
