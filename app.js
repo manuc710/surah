@@ -10,7 +10,12 @@ const el = (tag, props = {}, children = []) => {
     else if (k.startsWith('on') && typeof v === 'function') node.addEventListener(k.slice(2), v)
     else if (v !== null && v !== undefined) node.setAttribute(k, String(v))
   }
-  for (const c of children) node.appendChild(typeof c === 'string' ? document.createTextNode(c) : c)
+  for (const c of children) {
+    if (c === null || c === undefined) continue
+    if (typeof c === 'string') node.appendChild(document.createTextNode(c))
+    else if (c instanceof Node) node.appendChild(c)
+    else node.appendChild(document.createTextNode(String(c)))
+  }
   return node
 }
 
