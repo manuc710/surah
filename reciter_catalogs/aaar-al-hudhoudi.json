@@ -1,0 +1,778 @@
+{
+  "slug": "aaar-al-hudhoudi",
+  "count": 110,
+  "byNumber": {
+    "001": "aaar-al-hudhoudi/001.mp3",
+    "002": "aaar-al-hudhoudi/002.mp3",
+    "004": "aaar-al-hudhoudi/004.mp3",
+    "006": "aaar-al-hudhoudi/006.mp3",
+    "008": "aaar-al-hudhoudi/008.mp3",
+    "009": "aaar-al-hudhoudi/009.mp3",
+    "010": "aaar-al-hudhoudi/010.mp3",
+    "011": "aaar-al-hudhoudi/011.mp3",
+    "012": "aaar-al-hudhoudi/012.mp3",
+    "013": "aaar-al-hudhoudi/013.mp3",
+    "014": "aaar-al-hudhoudi/014.mp3",
+    "015": "aaar-al-hudhoudi/015.mp3",
+    "016": "aaar-al-hudhoudi/016.mp3",
+    "017": "aaar-al-hudhoudi/017.mp3",
+    "018": "aaar-al-hudhoudi/018.mp3",
+    "019": "aaar-al-hudhoudi/019.mp3",
+    "020": "aaar-al-hudhoudi/020.mp3",
+    "021": "aaar-al-hudhoudi/021.mp3",
+    "022": "aaar-al-hudhoudi/022.mp3",
+    "023": "aaar-al-hudhoudi/023.mp3",
+    "024": "aaar-al-hudhoudi/024.mp3",
+    "025": "aaar-al-hudhoudi/025.mp3",
+    "026": "aaar-al-hudhoudi/026.mp3",
+    "027": "aaar-al-hudhoudi/027.mp3",
+    "028": "aaar-al-hudhoudi/028.mp3",
+    "029": "aaar-al-hudhoudi/029.mp3",
+    "030": "aaar-al-hudhoudi/030.mp3",
+    "031": "aaar-al-hudhoudi/031.mp3",
+    "032": "aaar-al-hudhoudi/032.mp3",
+    "033": "aaar-al-hudhoudi/033.mp3",
+    "034": "aaar-al-hudhoudi/034.mp3",
+    "035": "aaar-al-hudhoudi/035.mp3",
+    "036": "aaar-al-hudhoudi/036.mp3",
+    "037": "aaar-al-hudhoudi/037.mp3",
+    "039": "aaar-al-hudhoudi/039.mp3",
+    "040": "aaar-al-hudhoudi/040.mp3",
+    "041": "aaar-al-hudhoudi/041.mp3",
+    "042": "aaar-al-hudhoudi/042.mp3",
+    "043": "aaar-al-hudhoudi/043.mp3",
+    "044": "aaar-al-hudhoudi/044.mp3",
+    "045": "aaar-al-hudhoudi/045.mp3",
+    "046": "aaar-al-hudhoudi/046.mp3",
+    "047": "aaar-al-hudhoudi/047.mp3",
+    "048": "aaar-al-hudhoudi/048.mp3",
+    "049": "aaar-al-hudhoudi/049.mp3",
+    "050": "aaar-al-hudhoudi/050.mp3",
+    "051": "aaar-al-hudhoudi/051.mp3",
+    "052": "aaar-al-hudhoudi/052.mp3",
+    "053": "aaar-al-hudhoudi/053.mp3",
+    "054": "aaar-al-hudhoudi/054.mp3",
+    "055": "aaar-al-hudhoudi/055.mp3",
+    "056": "aaar-al-hudhoudi/056.mp3",
+    "057": "aaar-al-hudhoudi/057.mp3",
+    "058": "aaar-al-hudhoudi/058.mp3",
+    "059": "aaar-al-hudhoudi/059.mp3",
+    "060": "aaar-al-hudhoudi/060.mp3",
+    "061": "aaar-al-hudhoudi/061.mp3",
+    "062": "aaar-al-hudhoudi/062.mp3",
+    "063": "aaar-al-hudhoudi/063.mp3",
+    "064": "aaar-al-hudhoudi/064.mp3",
+    "065": "aaar-al-hudhoudi/065.mp3",
+    "066": "aaar-al-hudhoudi/066.mp3",
+    "067": "aaar-al-hudhoudi/067.mp3",
+    "068": "aaar-al-hudhoudi/068.mp3",
+    "069": "aaar-al-hudhoudi/069.mp3",
+    "070": "aaar-al-hudhoudi/070.mp3",
+    "071": "aaar-al-hudhoudi/071.mp3",
+    "072": "aaar-al-hudhoudi/072.mp3",
+    "073": "aaar-al-hudhoudi/073.mp3",
+    "074": "aaar-al-hudhoudi/074.mp3",
+    "075": "aaar-al-hudhoudi/075.mp3",
+    "076": "aaar-al-hudhoudi/076.mp3",
+    "077": "aaar-al-hudhoudi/077.mp3",
+    "078": "aaar-al-hudhoudi/078.mp3",
+    "079": "aaar-al-hudhoudi/079.mp3",
+    "080": "aaar-al-hudhoudi/080.mp3",
+    "081": "aaar-al-hudhoudi/081.mp3",
+    "082": "aaar-al-hudhoudi/082.mp3",
+    "083": "aaar-al-hudhoudi/083.mp3",
+    "084": "aaar-al-hudhoudi/084.mp3",
+    "085": "aaar-al-hudhoudi/085.mp3",
+    "086": "aaar-al-hudhoudi/086.mp3",
+    "087": "aaar-al-hudhoudi/087.mp3",
+    "088": "aaar-al-hudhoudi/088.mp3",
+    "089": "aaar-al-hudhoudi/089.mp3",
+    "090": "aaar-al-hudhoudi/090.mp3",
+    "091": "aaar-al-hudhoudi/091.mp3",
+    "092": "aaar-al-hudhoudi/092.mp3",
+    "093": "aaar-al-hudhoudi/093.mp3",
+    "094": "aaar-al-hudhoudi/094.mp3",
+    "095": "aaar-al-hudhoudi/095.mp3",
+    "096": "aaar-al-hudhoudi/096.mp3",
+    "097": "aaar-al-hudhoudi/097.mp3",
+    "098": "aaar-al-hudhoudi/098.mp3",
+    "099": "aaar-al-hudhoudi/099.mp3",
+    "100": "aaar-al-hudhoudi/100.mp3",
+    "101": "aaar-al-hudhoudi/101.mp3",
+    "102": "aaar-al-hudhoudi/102.mp3",
+    "103": "aaar-al-hudhoudi/103.mp3",
+    "104": "aaar-al-hudhoudi/104.mp3",
+    "105": "aaar-al-hudhoudi/105.mp3",
+    "106": "aaar-al-hudhoudi/106.mp3",
+    "107": "aaar-al-hudhoudi/107.mp3",
+    "108": "aaar-al-hudhoudi/108.mp3",
+    "109": "aaar-al-hudhoudi/109.mp3",
+    "110": "aaar-al-hudhoudi/110.mp3",
+    "111": "aaar-al-hudhoudi/111.mp3",
+    "112": "aaar-al-hudhoudi/112.mp3",
+    "113": "aaar-al-hudhoudi/113.mp3",
+    "114": "aaar-al-hudhoudi/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "47",
+      "url": "aaar-al-hudhoudi/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:30:53",
+      "url": "aaar-al-hudhoudi/002.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:43:26",
+      "url": "aaar-al-hudhoudi/004.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:30:18",
+      "url": "aaar-al-hudhoudi/006.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "33:50",
+      "url": "aaar-al-hudhoudi/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "1:01:34",
+      "url": "aaar-al-hudhoudi/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "48:24",
+      "url": "aaar-al-hudhoudi/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "51:18",
+      "url": "aaar-al-hudhoudi/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "48:44",
+      "url": "aaar-al-hudhoudi/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "21:23",
+      "url": "aaar-al-hudhoudi/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "21:24",
+      "url": "aaar-al-hudhoudi/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "15:39",
+      "url": "aaar-al-hudhoudi/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "48:40",
+      "url": "aaar-al-hudhoudi/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "39:54",
+      "url": "aaar-al-hudhoudi/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "39:26",
+      "url": "aaar-al-hudhoudi/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "25:49",
+      "url": "aaar-al-hudhoudi/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "36:29",
+      "url": "aaar-al-hudhoudi/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "30:07",
+      "url": "aaar-al-hudhoudi/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "32:27",
+      "url": "aaar-al-hudhoudi/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "28:12",
+      "url": "aaar-al-hudhoudi/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "33:27",
+      "url": "aaar-al-hudhoudi/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "22:29",
+      "url": "aaar-al-hudhoudi/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "29:45",
+      "url": "aaar-al-hudhoudi/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "37:01",
+      "url": "aaar-al-hudhoudi/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "38:18",
+      "url": "aaar-al-hudhoudi/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "27:01",
+      "url": "aaar-al-hudhoudi/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "18:06",
+      "url": "aaar-al-hudhoudi/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "12:06",
+      "url": "aaar-al-hudhoudi/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "8:50",
+      "url": "aaar-al-hudhoudi/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "33:03",
+      "url": "aaar-al-hudhoudi/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "20:24",
+      "url": "aaar-al-hudhoudi/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "20:51",
+      "url": "aaar-al-hudhoudi/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "18:46",
+      "url": "aaar-al-hudhoudi/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "21:44",
+      "url": "aaar-al-hudhoudi/037.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "30:28",
+      "url": "aaar-al-hudhoudi/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "32:09",
+      "url": "aaar-al-hudhoudi/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "21:45",
+      "url": "aaar-al-hudhoudi/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "23:11",
+      "url": "aaar-al-hudhoudi/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "24:11",
+      "url": "aaar-al-hudhoudi/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "10:22",
+      "url": "aaar-al-hudhoudi/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "13:04",
+      "url": "aaar-al-hudhoudi/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "18:26",
+      "url": "aaar-al-hudhoudi/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "15:29",
+      "url": "aaar-al-hudhoudi/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "14:29",
+      "url": "aaar-al-hudhoudi/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "10:49",
+      "url": "aaar-al-hudhoudi/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "11:11",
+      "url": "aaar-al-hudhoudi/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "9:58",
+      "url": "aaar-al-hudhoudi/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "8:52",
+      "url": "aaar-al-hudhoudi/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "9:22",
+      "url": "aaar-al-hudhoudi/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "9:56",
+      "url": "aaar-al-hudhoudi/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "12:24",
+      "url": "aaar-al-hudhoudi/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "12:14",
+      "url": "aaar-al-hudhoudi/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "14:18",
+      "url": "aaar-al-hudhoudi/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "12:35",
+      "url": "aaar-al-hudhoudi/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "13:01",
+      "url": "aaar-al-hudhoudi/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "10:53",
+      "url": "aaar-al-hudhoudi/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "6:09",
+      "url": "aaar-al-hudhoudi/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "4:42",
+      "url": "aaar-al-hudhoudi/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "5:21",
+      "url": "aaar-al-hudhoudi/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "6:03",
+      "url": "aaar-al-hudhoudi/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "7:29",
+      "url": "aaar-al-hudhoudi/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "7:27",
+      "url": "aaar-al-hudhoudi/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "8:21",
+      "url": "aaar-al-hudhoudi/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "7:59",
+      "url": "aaar-al-hudhoudi/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "7:44",
+      "url": "aaar-al-hudhoudi/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:54",
+      "url": "aaar-al-hudhoudi/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "5:45",
+      "url": "aaar-al-hudhoudi/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "7:18",
+      "url": "aaar-al-hudhoudi/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:59",
+      "url": "aaar-al-hudhoudi/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "6:32",
+      "url": "aaar-al-hudhoudi/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "4:11",
+      "url": "aaar-al-hudhoudi/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "6:20",
+      "url": "aaar-al-hudhoudi/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:48",
+      "url": "aaar-al-hudhoudi/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:35",
+      "url": "aaar-al-hudhoudi/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:40",
+      "url": "aaar-al-hudhoudi/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:49",
+      "url": "aaar-al-hudhoudi/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:40",
+      "url": "aaar-al-hudhoudi/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "2:08",
+      "url": "aaar-al-hudhoudi/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:41",
+      "url": "aaar-al-hudhoudi/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:43",
+      "url": "aaar-al-hudhoudi/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:40",
+      "url": "aaar-al-hudhoudi/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:42",
+      "url": "aaar-al-hudhoudi/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:49",
+      "url": "aaar-al-hudhoudi/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:22",
+      "url": "aaar-al-hudhoudi/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:37",
+      "url": "aaar-al-hudhoudi/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "2:04",
+      "url": "aaar-al-hudhoudi/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:33",
+      "url": "aaar-al-hudhoudi/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "2:03",
+      "url": "aaar-al-hudhoudi/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:14",
+      "url": "aaar-al-hudhoudi/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "44",
+      "url": "aaar-al-hudhoudi/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "55",
+      "url": "aaar-al-hudhoudi/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:49",
+      "url": "aaar-al-hudhoudi/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "51",
+      "url": "aaar-al-hudhoudi/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "2:22",
+      "url": "aaar-al-hudhoudi/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "1:01",
+      "url": "aaar-al-hudhoudi/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:04",
+      "url": "aaar-al-hudhoudi/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "1:04",
+      "url": "aaar-al-hudhoudi/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "49",
+      "url": "aaar-al-hudhoudi/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "27",
+      "url": "aaar-al-hudhoudi/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "55",
+      "url": "aaar-al-hudhoudi/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "39",
+      "url": "aaar-al-hudhoudi/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "38",
+      "url": "aaar-al-hudhoudi/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "45",
+      "url": "aaar-al-hudhoudi/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "23",
+      "url": "aaar-al-hudhoudi/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "57",
+      "url": "aaar-al-hudhoudi/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "34",
+      "url": "aaar-al-hudhoudi/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "41",
+      "url": "aaar-al-hudhoudi/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "22",
+      "url": "aaar-al-hudhoudi/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "33",
+      "url": "aaar-al-hudhoudi/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "44",
+      "url": "aaar-al-hudhoudi/114.mp3"
+    }
+  ]
+}
