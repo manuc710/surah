@@ -61,6 +61,15 @@ const state = {
   subSettings: loadJSON('subSettings', { enabled: true, fontSize: 20, color: '#ffffff', bgOpacity: 0.7 }),
   viewMode: loadJSON('viewMode', {}),
   ui: { modePickerOpen: false },
+  selectedReciter: loadJSON('selectedReciter', null),
+  reciterCatalogCache: {},
+  audioLoadToken: 0,
+  audioSourceToken: 0,
+  audioCandidates: null,
+  audioCandidateIndex: 0,
+  playerLoading: false,
+  playerError: '',
+  playerAudioLabel: '',
   reciters: [],
   recitersQ: '',
   recitersLoaded: false,
@@ -96,6 +105,112 @@ function setChapterMode(chapterId, mode) {
   state.ui.modePickerOpen = false
   syncListenModeClass()
   render()
+}
+
+const QURAN_CENTRAL_DATA = 'https://data.qurancentral.com'
+const QURAN_CENTRAL_AUDIO_BASES = ['https://download.qurancentral.com/', 'https://audio.qurancentral.com/']
+
+const CHAPTER_TO_SURAH_NUMBER = {
+  chapter01: 93,
+  chapter02: 100,
+  chapter03: 87,
+  chapter04: 96,
+  chapter05: 103,
+  chapter06: 90,
+  chapter07: 98,
+  chapter08: 85,
+  chapter09: 89,
+  chapter10: 113,
+  chapter11: 1,
+  chapter12: 105,
+  chapter13: 88,
+  chapter14: 112,
+  chapter15: 97,
+  chapter16: 101,
+  chapter17: 108,
+  chapter18: 109,
+  chapter19: 92,
+  chapter20: 111,
+  chapter21: 107,
+  chapter22: 67,
+  chapter23: 104,
+  chapter24: 114,
+  chapter25: 110,
+  chapter26: 91,
+  chapter27: 94,
+  chapter28: 102,
+  chapter29: 86,
+  chapter30: 95,
+  chapter32: 99,
+  chapter33: 106,
+  chapter34: 36,
+}
+
+function pad3(n) {
+  const x = Number(n)
+  if (!Number.isFinite(x)) return ''
+  return String(Math.max(0, Math.floor(x))).padStart(3, '0')
+}
+
+function setSelectedReciter(reciter) {
+  if (!reciter || !reciter.slug) {
+    state.selectedReciter = null
+    saveJSON('selectedReciter', null)
+    return
+  }
+  state.selectedReciter = { slug: reciter.slug, name: reciter.name || reciter.slug }
+  saveJSON('selectedReciter', state.selectedReciter)
+}
+
+function buildAudioCandidates(path) {
+  const p = String(path || '')
+  if (!p) return []
+  if (/^https?:\/\//i.test(p)) return [p]
+  const rel = p.replace(/^\//, '')
+  return QURAN_CENTRAL_AUDIO_BASES.map((b) => `${b}${rel}`)
+}
+
+async function loadReciterCatalog(slug) {
+  const s = String(slug || '').trim()
+  if (!s) return null
+  if (state.reciterCatalogCache[s]) return state.reciterCatalogCache[s]
+
+  const url = `${QURAN_CENTRAL_DATA}/categories/${encodeURIComponent(s)}.json`
+  const data = await (await fetch(url)).json()
+  const items = Array.isArray(data.items) ? data.items : []
+
+  const byNumber = {}
+  for (const it of items) {
+    const t = String(it && it.title ? it.title : '')
+    const m = t.match(/^(\d{3})\b/)
+    if (!m) continue
+    const n = m[1]
+    const u = String(it && it.url ? it.url : '')
+    if (u) byNumber[n] = u
+  }
+
+  const catalog = { slug: s, byNumber }
+  state.reciterCatalogCache[s] = catalog
+  return catalog
+}
+
+async function resolveAudioForChapter(chapter) {
+  if (!chapter || !chapter.audioUrl) return { candidates: [], label: '' }
+  const selected = state.selectedReciter && state.selectedReciter.slug ? state.selectedReciter : null
+  if (!selected) return { candidates: [chapter.audioUrl], label: 'Локальное аудио' }
+
+  const surahNum = CHAPTER_TO_SURAH_NUMBER[chapter.id]
+  if (!surahNum) return { candidates: [chapter.audioUrl], label: 'Локальное аудио' }
+
+  try {
+    const catalog = await loadReciterCatalog(selected.slug)
+    const key = pad3(surahNum)
+    const path = catalog && catalog.byNumber ? catalog.byNumber[key] : ''
+    const candidates = buildAudioCandidates(path || `${selected.slug}/${key}.mp3`)
+    if (candidates.length) return { candidates: candidates.concat([chapter.audioUrl]), label: selected.name || selected.slug }
+  } catch {}
+
+  return { candidates: [chapter.audioUrl], label: 'Локальное аудио' }
 }
 
 function getCachedAudioAnalysis(chapterId, duration) {
@@ -254,20 +369,78 @@ function setVolume(v) {
   saveJSON('settings', { playbackRate: state.playbackRate, volume: n })
 }
 
+let prefetchAudio = null
+
+function setAudioCandidates(candidates, token) {
+  const list = Array.isArray(candidates) ? candidates.filter(Boolean) : []
+  state.audioSourceToken = token
+  state.audioCandidates = list
+  state.audioCandidateIndex = 0
+  state.playerLoading = false
+  state.playerError = ''
+  audio.pause()
+  audio.src = list[0] || ''
+  if (audio.src) audio.load()
+}
+
+function prefetchNextChapterAudio() {
+  const idx = state.chapters.findIndex((c) => c.id === state.chapterId)
+  const next = idx >= 0 ? state.chapters[Math.min(state.chapters.length - 1, idx + 1)] : null
+  if (!next) return
+
+  resolveAudioForChapter(next)
+    .then((r) => {
+      const url = r && Array.isArray(r.candidates) ? r.candidates[0] : null
+      if (!url) return
+      prefetchAudio = new Audio()
+      prefetchAudio.preload = 'auto'
+      prefetchAudio.src = url
+      prefetchAudio.load()
+    })
+    .catch(() => {})
+}
+
 function setChapter(chapterId, { autoplay = false } = {}) {
-  const ch = state.byId.get(chapterId) || null
+  const ch = chapterId ? state.byId.get(chapterId) : null
   state.chapterId = ch ? ch.id : null
   saveJSON('lastChapterId', state.chapterId)
-  if (ch && ch.audioUrl) {
-    audio.src = ch.audioUrl
-    audio.load()
-    if (autoplay) audio.play().catch(() => {})
-  } else {
+  state.playerError = ''
+  state.playerAudioLabel = ''
+  state.playerLoading = !!ch
+
+  const token = ++state.audioLoadToken
+
+  if (!ch) {
     audio.pause()
     audio.src = ''
+    state.playerLoading = false
+    renderPlayer()
+    return
   }
-  generateTimings();
+
   renderPlayer()
+  resolveAudioForChapter(ch)
+    .then((r) => {
+      if (state.audioLoadToken !== token) return
+      const candidates = r && Array.isArray(r.candidates) ? r.candidates : []
+      if (!candidates.length) {
+        state.playerLoading = false
+        state.playerError = 'Аудио недоступно'
+        renderPlayer()
+        return
+      }
+      state.playerAudioLabel = r.label || ''
+      setAudioCandidates(candidates, token)
+      renderPlayer()
+      if (autoplay) audio.play().catch(() => {})
+      prefetchNextChapterAudio()
+    })
+    .catch(() => {
+      if (state.audioLoadToken !== token) return
+      state.playerLoading = false
+      state.playerError = 'Не удалось загрузить аудио'
+      renderPlayer()
+    })
 }
 
 function nextChapter() {
@@ -300,6 +473,31 @@ audio.addEventListener('play', updatePlayerProgress)
 audio.addEventListener('pause', updatePlayerProgress)
 audio.addEventListener('ended', updatePlayerProgress)
 audio.addEventListener('seeked', updatePlayerProgress)
+audio.addEventListener('error', () => {
+  if (state.audioSourceToken !== state.audioLoadToken) return
+  if (!state.chapterId) return
+  const list = state.audioCandidates
+  if (!Array.isArray(list) || !list.length) return
+  const i = Number(state.audioCandidateIndex) || 0
+  if (i < 0 || i >= list.length) return
+  if (audio.src !== list[i]) return
+
+  const next = i + 1
+  if (next < list.length) {
+    state.audioCandidateIndex = next
+    const ch = state.byId.get(state.chapterId)
+    if (ch && list[next] === ch.audioUrl) state.playerAudioLabel = 'Локальное аудио'
+    audio.pause()
+    audio.src = list[next]
+    audio.load()
+    renderPlayer()
+    return
+  }
+
+  state.playerLoading = false
+  state.playerError = 'Не удалось загрузить аудио'
+  renderPlayer()
+})
 
 function snapTimingsToPauses(timings, pauses, duration, opts = {}) {
   if (!Array.isArray(timings) || timings.length < 2) return
@@ -794,6 +992,7 @@ function renderReciters() {
   const grid = el('div', { class: 'reciters-grid' })
 
   for (const r of list) {
+    const isActive = !!(state.selectedReciter && state.selectedReciter.slug === r.slug)
     const initials = String(r.name || '?')
       .trim()
       .split(/\s+/)
@@ -816,7 +1015,18 @@ function renderReciters() {
     const avatar = el('div', { class: 'reciter-avatar' }, [img, fallback])
     const name = el('div', { class: 'reciter-name' }, [r.name || ''])
 
-    const card = el('button', { class: 'reciter-card', type: 'button' }, [avatar, name])
+    const card = el(
+      'button',
+      {
+        class: `reciter-card${isActive ? ' active' : ''}`,
+        type: 'button',
+        onclick: () => {
+          setSelectedReciter(r)
+          gotoSurahs()
+        },
+      },
+      [avatar, name],
+    )
     grid.appendChild(card)
   }
 
@@ -1071,6 +1281,9 @@ function renderPlayer() {
 
   host.innerHTML = ''
   const expanded = state.activePage === 'chapter' && getChapterMode(chapter.id) === 'listen'
+  const subtitleText = state.playerLoading
+    ? 'Загрузка аудио…'
+    : (state.playerAudioLabel || (state.selectedReciter ? state.selectedReciter.name : 'Локальное аудио'))
 
   host.appendChild(
     el('div', { class: expanded ? 'player expanded' : 'player' }, [
@@ -1081,7 +1294,7 @@ function renderPlayer() {
           el('div', { class: 'avatar', html: imageOrSvgHTML }),
           el('div', { class: 'info' }, [
             el('a', { class: 'ptitle', href: `#page=chapter&chapter=${encodeURIComponent(chapter.id)}` }, [`${chapter.id.replace('chapter', '')}. ${chapter.displayTitle}`]),
-            el('div', { class: 'p-subtitle' }, ['Хазза аль-Балуши'])
+            el('div', { class: 'p-subtitle' }, [subtitleText])
           ]),
         ]),
         
@@ -1127,6 +1340,8 @@ function renderPlayer() {
           el('button', { class: 'btn-icon', onclick: () => setChapter(null), title: 'Закрыть плеер', html: closeIcon })
         ])
       ]),
+
+      state.playerError ? el('div', { class: 'player-error' }, [state.playerError]) : null,
 
       // Субтитры (Отображение)
       el('div', { class: 'subtitle-display', id: 'subtitle-display', style: 'display: none;' }, [

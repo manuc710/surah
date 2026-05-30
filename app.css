@@ -162,6 +162,24 @@ h1{margin:10px 0 12px; font-size:28px}
   color:#e2e8f0;
   word-break:break-word;
 }
+.reciter-card.active .reciter-avatar{
+  border-color: rgba(56, 189, 248, 0.55);
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.12);
+}
+.reciter-card:active{
+  transform: translateY(1px);
+}
+
+.player-error{
+  margin-top:10px;
+  padding:10px 12px;
+  border-radius:14px;
+  border:1px solid rgba(244, 63, 94, 0.25);
+  background: rgba(244, 63, 94, 0.12);
+  color: rgba(254, 205, 211, 0.95);
+  font-size: 13px;
+  line-height: 1.35;
+}
 .card{
   display: flex;
   flex-direction: row;
