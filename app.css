@@ -505,10 +505,10 @@ body.listen-mode .verses{display:none;}
 .player{
   width: 100%;
   max-width: 500px;
-  background: #0f172a;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(56, 189, 248, 0.15);
+  border: 1px solid rgba(56, 189, 248, 0.3);
   border-radius: 28px;
-  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.8), 0 0 15px -5px rgba(56, 189, 248, 0.3);
   pointer-events: auto;
   padding: 16px 20px;
   display: flex;
@@ -750,12 +750,5 @@ body.listen-mode .verses{display:none;}
   }
   .nav-item .nav-text {
     font-size: 13px;
-  }
-  .reciter-avatar{
-    width:72px;
-    height:72px;
-  }
-  .reciter-hero-name{
-    font-size: 26px;
   }
 }
