@@ -49,7 +49,7 @@ const savedSettings = loadJSON('settings', { playbackRate: 1, volume: 1 })
 const state = {
   chapters: [],
   byId: new Map(),
-  activePage: 'home', // home | chapter | bookmarks | surahs | reciters | reciter | settings
+  activePage: 'surahs', // surahs | chapter | bookmarks | settings
   q: '',
   chapterId: null,
   verseFocus: null,
@@ -61,10 +61,6 @@ const state = {
   subSettings: loadJSON('subSettings', { enabled: true, fontSize: 20, color: '#ffffff', bgOpacity: 0.7 }),
   viewMode: loadJSON('viewMode', {}),
   ui: { modePickerOpen: false },
-  selectedReciter: loadJSON('selectedReciter', null),
-  reciterCatalogCache: {},
-  surahsMeta: [],
-  surahsMetaLoaded: false,
   audioLoadToken: 0,
   audioSourceToken: 0,
   audioCandidates: null,
@@ -72,10 +68,6 @@ const state = {
   playerLoading: false,
   playerError: '',
   playerAudioLabel: '',
-  activeReciterSlug: null,
-  reciters: [],
-  recitersQ: '',
-  recitersLoaded: false,
   audioAnalysis: loadJSON('audioAnalysis', {}),
 }
 
@@ -110,104 +102,8 @@ function setChapterMode(chapterId, mode) {
   render()
 }
 
-const QURAN_CENTRAL_AUDIO_BASES = ['https://download.qurancentral.com/', 'https://audio.qurancentral.com/']
-
-const CHAPTER_TO_SURAH_NUMBER = {
-  chapter01: 93,
-  chapter02: 100,
-  chapter03: 87,
-  chapter04: 96,
-  chapter05: 103,
-  chapter06: 90,
-  chapter07: 98,
-  chapter08: 85,
-  chapter09: 89,
-  chapter10: 113,
-  chapter11: 1,
-  chapter12: 105,
-  chapter13: 88,
-  chapter14: 112,
-  chapter15: 97,
-  chapter16: 101,
-  chapter17: 108,
-  chapter18: 109,
-  chapter19: 92,
-  chapter20: 111,
-  chapter21: 107,
-  chapter22: 67,
-  chapter23: 104,
-  chapter24: 114,
-  chapter25: 110,
-  chapter26: 91,
-  chapter27: 94,
-  chapter28: 102,
-  chapter29: 86,
-  chapter30: 95,
-  chapter32: 99,
-  chapter33: 106,
-  chapter34: 36,
-}
-
-function pad3(n) {
-  const x = Number(n)
-  if (!Number.isFinite(x)) return ''
-  return String(Math.max(0, Math.floor(x))).padStart(3, '0')
-}
-
-function setSelectedReciter(reciter) {
-  if (!reciter || !reciter.slug) {
-    state.selectedReciter = null
-    saveJSON('selectedReciter', null)
-    return
-  }
-  state.selectedReciter = { slug: reciter.slug, name: reciter.name || reciter.slug }
-  saveJSON('selectedReciter', state.selectedReciter)
-}
-
-function buildAudioCandidates(path) {
-  const p = String(path || '')
-  if (!p) return []
-  if (/^https?:\/\//i.test(p)) return [p]
-  const rel = p.replace(/^\//, '')
-  return QURAN_CENTRAL_AUDIO_BASES.map((b) => `${b}${rel}`)
-}
-
-async function loadReciterCatalog(slug) {
-  const s = String(slug || '').trim()
-  if (!s) return null
-  if (state.reciterCatalogCache[s]) return state.reciterCatalogCache[s]
-
-  try {
-    const local = await fetch(`reciter_catalogs/${encodeURIComponent(s)}.json`)
-    if (!local.ok) return null
-    const data = await local.json()
-    const byNumber = data && typeof data.byNumber === 'object' ? data.byNumber : {}
-    const list = Array.isArray(data.list) ? data.list : []
-    const count = Number.isFinite(Number(data.count)) ? Number(data.count) : new Set(list.map((x) => x.n)).size
-    const catalog = { slug: s, byNumber, list, count }
-    state.reciterCatalogCache[s] = catalog
-    return catalog
-  } catch {
-    return null
-  }
-}
-
 async function resolveAudioForChapter(chapter) {
   if (!chapter || !chapter.audioUrl) return { candidates: [], label: '' }
-  const selected = state.selectedReciter && state.selectedReciter.slug ? state.selectedReciter : null
-  if (!selected) return { candidates: [chapter.audioUrl], label: 'Локальное аудио' }
-
-  const surahNum = CHAPTER_TO_SURAH_NUMBER[chapter.id]
-  if (!surahNum) return { candidates: [chapter.audioUrl], label: 'Локальное аудио' }
-
-  try {
-    const catalog = await loadReciterCatalog(selected.slug)
-    const key = pad3(surahNum)
-    const path = catalog && catalog.byNumber ? catalog.byNumber[key] : ''
-    const candidates = buildAudioCandidates(path || `${selected.slug}/${key}.mp3`)
-    if (candidates.length) return { candidates: candidates.concat([chapter.audioUrl]), label: selected.name || selected.slug }
-  } catch {}
-
   return { candidates: [chapter.audioUrl], label: 'Локальное аудио' }
 }
 
@@ -658,34 +554,23 @@ function updateSubtitles(currentTime) {
 function parseHash() {
   const raw = (window.location.hash || '').replace(/^#/, '')
   const params = new URLSearchParams(raw)
-  const page = params.get('page') || 'home'
+  const page = params.get('page') || 'surahs'
   const chapter = params.get('chapter')
-  const reciter = params.get('reciter')
   const v = params.get('v')
-  return { page, chapter, reciter, v: v ? Number(v) : null }
+  return { page, chapter, v: v ? Number(v) : null }
 }
 
 function setHash(obj) {
   const p = new URLSearchParams()
   if (obj.page) p.set('page', obj.page)
   if (obj.chapter) p.set('chapter', obj.chapter)
-  if (obj.reciter) p.set('reciter', obj.reciter)
   if (obj.v) p.set('v', String(obj.v))
   const s = p.toString()
   window.location.hash = s ? `#${s}` : '#'
 }
 
-function gotoHome() {
-  setHash({ page: 'home' })
-}
 function gotoSurahs() {
   setHash({ page: 'surahs' })
-}
-function gotoReciters() {
-  setHash({ page: 'reciters' })
-}
-function gotoReciter(reciterSlug) {
-  setHash({ page: 'reciter', reciter: reciterSlug })
 }
 function gotoBookmarks() {
   setHash({ page: 'bookmarks' })
@@ -703,10 +588,9 @@ window.addEventListener('hashchange', () => {
 })
 
 function syncFromHash() {
-  const { page, chapter, reciter, v } = parseHash()
-  state.activePage = ['chapter', 'bookmarks', 'settings', 'surahs', 'reciters', 'reciter'].includes(page) ? page : 'home'
+  const { page, chapter, v } = parseHash()
+  state.activePage = ['chapter', 'bookmarks', 'settings', 'surahs'].includes(page) ? page : 'surahs'
   state.chapterId = chapter && state.byId.has(chapter) ? chapter : state.chapterId
-  state.activeReciterSlug = reciter ? String(reciter) : null
   state.verseFocus = Number.isFinite(v) && v > 0 ? v : null
 }
 
@@ -741,15 +625,11 @@ async function copyText(text) {
 
 // --- render ---
 function renderNav() {
-  const navHome = $('#nav-home')
   const navSurahs = $('#nav-surahs')
-  const navReciters = $('#nav-reciters')
   const navBookmarks = $('#nav-bookmarks')
   const navSettings = $('#nav-settings')
   
-  if (navHome) navHome.classList.toggle('active', state.activePage === 'home')
   if (navSurahs) navSurahs.classList.toggle('active', state.activePage === 'surahs' || state.activePage === 'chapter')
-  if (navReciters) navReciters.classList.toggle('active', state.activePage === 'reciters' || state.activePage === 'reciter')
   if (navBookmarks) navBookmarks.classList.toggle('active', state.activePage === 'bookmarks')
   if (navSettings) navSettings.classList.toggle('active', state.activePage === 'settings')
 }
@@ -868,31 +748,6 @@ const arabicTitles = {
   "chapter34": "يس"
 };
 
-function renderHome() {
-  const root = $('#view')
-  root.innerHTML = ''
-
-  root.appendChild(
-    el('div', { class: 'searchbar' }, [
-      el('input', {
-        value: state.q,
-        placeholder: 'Поиск по названию, транслиту, переводу, арабскому…',
-        oninput: (e) => {
-          state.q = e.target.value || ''
-          if (state.q.trim()) gotoSurahs()
-          else renderHome()
-        },
-      }),
-    ]),
-  )
-
-  root.appendChild(
-    el('div', { style: 'margin-top:14px; display:flex; justify-content:center' }, [
-      el('button', { class: 'btn primary', onclick: () => gotoSurahs() }, ['Открыть список сур']),
-    ]),
-  )
-}
-
 function renderSurahs() {
   const root = $('#view')
   root.innerHTML = ''
@@ -947,284 +802,6 @@ function renderSurahs() {
   if (!list.length) root.appendChild(el('p', { class: 'muted', style: 'margin-top:12px' }, ['Ничего не найдено.']))
 }
 
-async function ensureRecitersLoaded() {
-  if (state.recitersLoaded) return
-  const data = await (await fetch('reciters.json')).json()
-  state.reciters = Array.isArray(data.reciters) ? data.reciters : []
-  state.recitersLoaded = true
-}
-
-async function ensureSurahsMetaLoaded() {
-  if (state.surahsMetaLoaded) return
-  try {
-    const data = await (await fetch('surahs.json')).json()
-    state.surahsMeta = Array.isArray(data.surahs) ? data.surahs : []
-  } catch {
-    state.surahsMeta = []
-  }
-  state.surahsMetaLoaded = true
-}
-
-function renderReciters() {
-  const root = $('#view')
-  root.innerHTML = ''
-
-  root.appendChild(el('h1', {}, ['Чтецы']))
-
-  root.appendChild(
-    el('div', { class: 'searchbar' }, [
-      el('input', {
-        value: state.recitersQ,
-        placeholder: 'Поиск чтецов',
-        oninput: (e) => {
-          state.recitersQ = e.target.value || ''
-          renderReciters()
-        },
-      }),
-    ]),
-  )
-
-  if (!state.recitersLoaded) {
-    root.appendChild(el('p', { class: 'muted', style: 'margin-top:12px' }, ['Загрузка…']))
-    ensureRecitersLoaded()
-      .then(() => renderReciters())
-      .catch(() => {
-        root.appendChild(
-          el('p', { class: 'muted', style: 'margin-top:12px' }, ['Не удалось загрузить список чтецов.']),
-        )
-      })
-    return
-  }
-
-  const q = state.recitersQ.toLowerCase().trim()
-  const list = !q
-    ? state.reciters
-    : state.reciters.filter((r) => {
-        const txt = `${r.name || ''} ${r.country || ''} ${r.dialect || ''}`
-        return txt.toLowerCase().includes(q)
-      })
-
-  const grid = el('div', { class: 'reciters-grid' })
-
-  for (const r of list) {
-    const isActive = !!(state.selectedReciter && state.selectedReciter.slug === r.slug)
-    const initials = String(r.name || '?')
-      .trim()
-      .split(/\s+/)
-      .slice(0, 2)
-      .map((s) => s[0])
-      .join('')
-      .toUpperCase()
-
-    const fallback = el('div', { class: 'reciter-fallback' }, [initials || '?'])
-    const img = el('img', {
-      src: r.imageUrl,
-      alt: r.name || 'Чтец',
-      loading: 'lazy',
-      onerror: () => {
-        img.style.display = 'none'
-        fallback.style.display = 'flex'
-      },
-    })
-
-    const avatar = el('div', { class: 'reciter-avatar' }, [img, fallback])
-    const name = el('div', { class: 'reciter-name' }, [r.name || ''])
-
-    const card = el(
-      'button',
-      {
-        class: `reciter-card${isActive ? ' active' : ''}`,
-        type: 'button',
-        onclick: () => {
-          setSelectedReciter(r)
-          gotoReciter(r.slug)
-        },
-      },
-      [avatar, name],
-    )
-    grid.appendChild(card)
-  }
-
-  root.appendChild(grid)
-  if (!list.length) root.appendChild(el('p', { class: 'muted', style: 'margin-top:12px' }, ['Ничего не найдено.']))
-}
-
-function chapterIdForSurahNumber(n) {
-  const x = Number(n)
-  if (!Number.isFinite(x)) return null
-  const target = Math.max(1, Math.min(114, Math.floor(x)))
-  for (const [id, num] of Object.entries(CHAPTER_TO_SURAH_NUMBER)) {
-    if (num === target) return id
-  }
-  return null
-}
-
-function renderReciterDetail() {
-  const root = $('#view')
-  root.innerHTML = ''
-
-  const slug = state.activeReciterSlug || (state.selectedReciter && state.selectedReciter.slug) || ''
-  const loadedReciter = state.recitersLoaded ? state.reciters.find((r) => r.slug === slug) : null
-  const name =
-    (state.selectedReciter && state.selectedReciter.slug === slug ? state.selectedReciter.name : '') ||
-    (loadedReciter ? loadedReciter.name : '') ||
-    slug
-  const imageUrl =
-    (loadedReciter && loadedReciter.imageUrl) || (slug ? `https://artwork.qurancentral.com/${slug}-300x300.jpg` : '')
-
-  if (!state.recitersLoaded) {
-    ensureRecitersLoaded()
-      .then(() => {
-        if (state.activePage === 'reciter') renderReciterDetail()
-      })
-      .catch(() => {})
-  } else if (slug && (!state.selectedReciter || state.selectedReciter.slug !== slug) && loadedReciter) {
-    setSelectedReciter(loadedReciter)
-  }
-
-  const wrap = el('div', { class: 'reciter-detail' })
-
-  const top = el('div', { class: 'reciter-hero' }, [
-    el('div', { class: 'reciter-hero-bg', style: imageUrl ? `background-image:url('${imageUrl}')` : '' }),
-    el('div', { class: 'reciter-hero-bar' }, [
-      el('button', { class: 'btn-icon', title: 'Назад', onclick: () => gotoReciters(), html: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>` }),
-      el('div', { style: 'flex:1' }),
-      el('button', { class: 'btn-icon', title: 'Скачать', html: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>` }),
-      el('button', { class: 'btn-icon', title: 'Меню', html: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></svg>` }),
-    ]),
-    el('div', { class: 'reciter-hero-title' }, [
-      el('div', { class: 'reciter-hero-name' }, [name || 'Чтец']),
-      el('div', { class: 'reciter-hero-meta muted' }, [state.playerLoading ? 'Загрузка…' : '']),
-    ]),
-  ])
-
-  wrap.appendChild(top)
-
-  const actions = el('div', { class: 'reciter-actions' }, [
-    el('button', {
-      class: 'btn primary',
-      onclick: async () => {
-        const id = chapterIdForSurahNumber(1) || state.chapters[0]?.id || null
-        if (!id) return
-        setChapter(id, { autoplay: true })
-      },
-    }, ['Слушать']),
-    el('button', {
-      class: 'btn',
-      onclick: async () => {
-        const picks = Object.keys(CHAPTER_TO_SURAH_NUMBER)
-        const id = picks.length ? picks[Math.floor(Math.random() * picks.length)] : null
-        if (!id) return
-        setChapter(id, { autoplay: true })
-      },
-    }, ['Перемешать']),
-  ])
-  wrap.appendChild(actions)
-
-  const listHost = el('div', { class: 'reciter-surahs' })
-  wrap.appendChild(listHost)
-
-  listHost.appendChild(el('p', { class: 'muted', style: 'margin-top:10px' }, ['Загрузка списка сур…']))
-
-  const normalizeDuration = (d) => {
-    const s = String(d || '').trim()
-    if (!s) return ''
-    if (/^\d+$/.test(s)) return fmt(Number(s))
-    return s
-  }
-
-  Promise.all([ensureSurahsMetaLoaded(), loadReciterCatalog(slug)])
-    .then(([, catalog]) => {
-      const meta = Array.isArray(state.surahsMeta) && state.surahsMeta.length ? state.surahsMeta : []
-
-      const byN = new Map()
-      for (const it of (catalog && Array.isArray(catalog.list) ? catalog.list : [])) {
-        const n = Number(it.n)
-        if (!Number.isFinite(n)) continue
-        byN.set(n, {
-          title: String(it.title || ''),
-          duration: normalizeDuration(it.duration),
-        })
-      }
-
-      const list = meta.length ? meta : Array.from({ length: 114 }, (_, i) => ({ n: i + 1, title: `Сура ${i + 1}` }))
-
-      listHost.innerHTML = ''
-      listHost.appendChild(
-        el('div', { class: 'muted', style: 'margin: 6px 0 12px' }, [
-          `Записано сур: ${catalog && Number.isFinite(Number(catalog.count)) ? Number(catalog.count) : 0}`,
-        ]),
-      )
-
-      const rows = el('div', { class: 'reciter-surah-list' })
-      for (const s of list) {
-        const n = Number(s.n)
-        const info = byN.get(n)
-        const title = info && info.title ? info.title.replace(/^\d{3}\s*/, '') : String(s.title || `Сура ${n}`)
-        const duration = info && info.duration ? info.duration : ''
-        const chapId = chapterIdForSurahNumber(n)
-        const canPlay = !!chapId
-
-        rows.appendChild(
-          el('button', {
-            class: `reciter-surah-row${canPlay ? '' : ' disabled'}`,
-            type: 'button',
-            onclick: () => {
-              if (!chapId) {
-                alert('Эта сура пока недоступна в приложении.')
-                return
-              }
-              setChapter(chapId, { autoplay: true })
-            },
-          }, [
-            el('div', { class: 'reciter-surah-num' }, [String(n)]),
-            el('div', { class: 'reciter-surah-body' }, [
-              el('div', { class: 'reciter-surah-title' }, [title]),
-              el('div', { class: 'reciter-surah-sub muted' }, [`Вес: ${duration || '—'}`]),
-            ]),
-            el('div', { class: 'reciter-surah-actions' }, [
-              el('span', { class: 'reciter-surah-icon', html: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>` }),
-              el('span', { class: 'reciter-surah-icon', html: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></svg>` }),
-            ]),
-          ]),
-        )
-      }
-      listHost.appendChild(rows)
-    })
-    .catch(() => {
-      const list = Array.from({ length: 114 }, (_, i) => ({ n: i + 1, title: `Сура ${i + 1}` }))
-      listHost.innerHTML = ''
-      const rows = el('div', { class: 'reciter-surah-list' })
-      for (const s of list) {
-        const n = Number(s.n)
-        const chapId = chapterIdForSurahNumber(n)
-        const canPlay = !!chapId
-        rows.appendChild(
-          el('button', {
-            class: `reciter-surah-row${canPlay ? '' : ' disabled'}`,
-            type: 'button',
-            onclick: () => {
-              if (!chapId) {
-                alert('Эта сура пока недоступна в приложении.')
-                return
-              }
-              setChapter(chapId, { autoplay: true })
-            },
-          }, [
-            el('div', { class: 'reciter-surah-num' }, [String(n)]),
-            el('div', { class: 'reciter-surah-body' }, [
-              el('div', { class: 'reciter-surah-title' }, [String(s.title)]),
-              el('div', { class: 'reciter-surah-sub muted' }, ['Вес: —']),
-            ]),
-          ]),
-        )
-      }
-      listHost.appendChild(rows)
-    })
-
-  root.appendChild(wrap)
-}
-
 function renderBookmarks() {
   const root = $('#view')
   root.innerHTML = ''
@@ -1250,7 +827,7 @@ function renderBookmarks() {
     root.appendChild(
       el('p', { class: 'muted' }, [
         'Пока пусто. Добавляйте закладки звёздочкой в главе. ',
-        el('a', { href: '#page=home' }, ['К списку глав']),
+        el('a', { href: '#page=surahs' }, ['К списку сур']),
       ]),
     )
     return
@@ -1474,7 +1051,7 @@ function renderPlayer() {
   const expanded = state.activePage === 'chapter' && getChapterMode(chapter.id) === 'listen'
   const subtitleText = state.playerLoading
     ? 'Загрузка аудио…'
-    : (state.playerAudioLabel || (state.selectedReciter ? state.selectedReciter.name : 'Локальное аудио'))
+    : (state.playerAudioLabel || 'Локальное аудио')
 
   host.appendChild(
     el('div', { class: expanded ? 'player expanded' : 'player' }, [
@@ -1619,9 +1196,7 @@ function render() {
   else if (state.activePage === 'chapter') renderChapter()
   else if (state.activePage === 'settings') renderSettings()
   else if (state.activePage === 'surahs') renderSurahs()
-  else if (state.activePage === 'reciters') renderReciters()
-  else if (state.activePage === 'reciter') renderReciterDetail()
-  else renderHome()
+  else renderSurahs()
   renderPlayer()
   syncListenModeClass()
 }
@@ -1644,22 +1219,10 @@ async function init() {
   else if (state.chapterId) setChapter(state.chapterId, { autoplay: false })
 
   // навигация
-  if ($('#nav-home')) {
-    $('#nav-home').addEventListener('click', (e) => {
-      e.preventDefault()
-      gotoHome()
-    })
-  }
   if ($('#nav-surahs')) {
     $('#nav-surahs').addEventListener('click', (e) => {
       e.preventDefault()
       gotoSurahs()
-    })
-  }
-  if ($('#nav-reciters')) {
-    $('#nav-reciters').addEventListener('click', (e) => {
-      e.preventDefault()
-      gotoReciters()
     })
   }
   if ($('#nav-bookmarks')) {
