@@ -506,20 +506,21 @@ body.listen-mode .verses{display:none;}
 .player{
   width: 100%;
   max-width: 500px;
-  background: rgba(56, 189, 248, 0.15);
-  border: 1px solid rgba(56, 189, 248, 0.3);
+  background: rgba(56, 189, 248, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 28px;
   box-shadow:
     0 10px 30px -5px rgba(0, 0, 0, 0.8),
     0 0 15px -5px rgba(56, 189, 248, 0.3),
-    0 1px 0 rgba(255, 255, 255, 0.16) inset,
-    0 -1px 0 rgba(0, 0, 0, 0.22) inset;
+    0 1px 0 rgba(255, 255, 255, 0.22) inset,
+    0 -1px 0 rgba(0, 0, 0, 0.22) inset,
+    0 0 0 1px rgba(56, 189, 248, 0.22) inset;
   pointer-events: auto;
   opacity: 1;
   position: relative;
   overflow: hidden;
-  backdrop-filter: blur(14px) saturate(140%);
-  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(22px) saturate(160%);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
   padding: 16px 20px;
   display: flex;
   flex-direction: column;
@@ -533,7 +534,7 @@ body.listen-mode .verses{display:none;}
   background:
     linear-gradient(135deg, rgba(255,255,255,0.42) 0%, rgba(255,255,255,0.12) 22%, rgba(255,255,255,0) 55%),
     radial-gradient(900px 180px at 10% 0%, rgba(255,255,255,0.32) 0%, rgba(255,255,255,0) 60%);
-  opacity: 0.65;
+  opacity: 0.55;
   pointer-events: none;
 }
 .player > *{
