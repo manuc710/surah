@@ -1,0 +1,155 @@
+{
+  "slug": "hossein-bousseksso",
+  "count": 21,
+  "byNumber": {
+    "001": "hossein-bousseksso/hossein-bousseksso-001-muslimcentral.com.mp3",
+    "018": "hossein-bousseksso/hossein-bousseksso-018-muslimcentral.com.mp3",
+    "019": "hossein-bousseksso/hossein-bousseksso-019-muslimcentral.com.mp3",
+    "020": "hossein-bousseksso/hossein-bousseksso-020-muslimcentral.com.mp3",
+    "021": "hossein-bousseksso/hossein-bousseksso-021-muslimcentral.com.mp3",
+    "027": "hossein-bousseksso/hossein-bousseksso-027-muslimcentral.com.mp3",
+    "028": "hossein-bousseksso/hossein-bousseksso-028-muslimcentral.com.mp3",
+    "046": "hossein-bousseksso/hossein-bousseksso-046-muslimcentral.com.mp3",
+    "047": "hossein-bousseksso/hossein-bousseksso-047-muslimcentral.com.mp3",
+    "048": "hossein-bousseksso/hossein-bousseksso-048-muslimcentral.com.mp3",
+    "049": "hossein-bousseksso/hossein-bousseksso-049-muslimcentral.com.mp3",
+    "050": "hossein-bousseksso/hossein-bousseksso-050-muslimcentral.com.mp3",
+    "051": "hossein-bousseksso/hossein-bousseksso-051-muslimcentral.com.mp3",
+    "052": "hossein-bousseksso/hossein-bousseksso-052-muslimcentral.com.mp3",
+    "053": "hossein-bousseksso/hossein-bousseksso-053-muslimcentral.com.mp3",
+    "054": "hossein-bousseksso/hossein-bousseksso-054-muslimcentral.com.mp3",
+    "087": "hossein-bousseksso/hossein-bousseksso-087-muslimcentral.com.mp3",
+    "109": "hossein-bousseksso/hossein-bousseksso-109-muslimcentral.com.mp3",
+    "112": "hossein-bousseksso/hossein-bousseksso-112-muslimcentral.com.mp3",
+    "113": "hossein-bousseksso/hossein-bousseksso-113-muslimcentral.com.mp3",
+    "114": "hossein-bousseksso/hossein-bousseksso-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "42",
+      "url": "hossein-bousseksso/hossein-bousseksso-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "33:08",
+      "url": "hossein-bousseksso/hossein-bousseksso-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "23:17",
+      "url": "hossein-bousseksso/hossein-bousseksso-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "26:08",
+      "url": "hossein-bousseksso/hossein-bousseksso-020-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "26:09",
+      "url": "hossein-bousseksso/hossein-bousseksso-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "24:49",
+      "url": "hossein-bousseksso/hossein-bousseksso-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "30:16",
+      "url": "hossein-bousseksso/hossein-bousseksso-028-muslimcentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "11:12",
+      "url": "hossein-bousseksso/hossein-bousseksso-046-muslimcentral.com.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "9:54",
+      "url": "hossein-bousseksso/hossein-bousseksso-047-muslimcentral.com.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "11:06",
+      "url": "hossein-bousseksso/hossein-bousseksso-048-muslimcentral.com.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "8:24",
+      "url": "hossein-bousseksso/hossein-bousseksso-049-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "9:26",
+      "url": "hossein-bousseksso/hossein-bousseksso-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "8:24",
+      "url": "hossein-bousseksso/hossein-bousseksso-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:40",
+      "url": "hossein-bousseksso/hossein-bousseksso-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:20",
+      "url": "hossein-bousseksso/hossein-bousseksso-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:45",
+      "url": "hossein-bousseksso/hossein-bousseksso-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:39",
+      "url": "hossein-bousseksso/hossein-bousseksso-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "32",
+      "url": "hossein-bousseksso/hossein-bousseksso-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "hossein-bousseksso/hossein-bousseksso-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "27",
+      "url": "hossein-bousseksso/hossein-bousseksso-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "40",
+      "url": "hossein-bousseksso/hossein-bousseksso-114-muslimcentral.com.mp3"
+    }
+  ]
+}

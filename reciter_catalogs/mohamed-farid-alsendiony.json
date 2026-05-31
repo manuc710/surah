@@ -1,0 +1,22 @@
+{
+  "slug": "mohamed-farid-alsendiony",
+  "count": 2,
+  "byNumber": {
+    "019": "mohamed-farid-alsendiony/mohamed-farid-alsendiony-019-muslimcentral.com.mp3",
+    "070": "mohamed-farid-alsendiony/mohamed-farid-alsendiony-070-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "14:46",
+      "url": "mohamed-farid-alsendiony/mohamed-farid-alsendiony-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "14:10",
+      "url": "mohamed-farid-alsendiony/mohamed-farid-alsendiony-070-muslimcentral.com.mp3"
+    }
+  ]
+}

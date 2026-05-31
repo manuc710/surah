@@ -1,0 +1,29 @@
+{
+  "slug": "khaalid-abdul-lateef",
+  "count": 3,
+  "byNumber": {
+    "018": "khaalid-abdul-lateef/018.mp3",
+    "050": "khaalid-abdul-lateef/050.mp3",
+    "055": "khaalid-abdul-lateef/055.mp3"
+  },
+  "list": [
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "31:56",
+      "url": "khaalid-abdul-lateef/018.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:56",
+      "url": "khaalid-abdul-lateef/050.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:05",
+      "url": "khaalid-abdul-lateef/055.mp3"
+    }
+  ]
+}

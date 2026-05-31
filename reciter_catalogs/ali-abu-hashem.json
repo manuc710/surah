@@ -1,0 +1,64 @@
+{
+  "slug": "ali-abu-hashem",
+  "count": 8,
+  "byNumber": {
+    "050": "ali-abu-hashem/ali-abu-hashem-050-muslimcentral.com.mp3",
+    "051": "ali-abu-hashem/ali-abu-hashem-051-muslimcentral.com.mp3",
+    "052": "ali-abu-hashem/ali-abu-hashem-052-muslimcentral.com.mp3",
+    "053": "ali-abu-hashem/ali-abu-hashem-053-muslimcentral.com.mp3",
+    "054": "ali-abu-hashem/ali-abu-hashem-054-muslimcentral.com.mp3",
+    "055": "ali-abu-hashem/ali-abu-hashem-055-muslimcentral.com.mp3",
+    "056": "ali-abu-hashem/ali-abu-hashem-056-muslimcentral.com.mp3",
+    "057": "ali-abu-hashem/ali-abu-hashem-057-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "6:38",
+      "url": "ali-abu-hashem/ali-abu-hashem-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:35",
+      "url": "ali-abu-hashem/ali-abu-hashem-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "5:39",
+      "url": "ali-abu-hashem/ali-abu-hashem-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:48",
+      "url": "ali-abu-hashem/ali-abu-hashem-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:30",
+      "url": "ali-abu-hashem/ali-abu-hashem-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "8:16",
+      "url": "ali-abu-hashem/ali-abu-hashem-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "7:26",
+      "url": "ali-abu-hashem/ali-abu-hashem-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "10:40",
+      "url": "ali-abu-hashem/ali-abu-hashem-057-muslimcentral.com.mp3"
+    }
+  ]
+}

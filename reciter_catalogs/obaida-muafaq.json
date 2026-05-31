@@ -1,0 +1,456 @@
+{
+  "slug": "obaida-muafaq",
+  "count": 64,
+  "byNumber": {
+    "001": "obaida-muafaq/001.mp3",
+    "002": "obaida-muafaq/002.mp3",
+    "004": "obaida-muafaq/004.mp3",
+    "005": "obaida-muafaq/005.mp3",
+    "006": "obaida-muafaq/006.mp3",
+    "007": "obaida-muafaq/007.mp3",
+    "008": "obaida-muafaq/008.mp3",
+    "009": "obaida-muafaq/009.mp3",
+    "010": "obaida-muafaq/010.mp3",
+    "011": "obaida-muafaq/011.mp3",
+    "012": "obaida-muafaq/012.mp3",
+    "013": "obaida-muafaq/013.mp3",
+    "014": "obaida-muafaq/014.mp3",
+    "015": "obaida-muafaq/015.mp3",
+    "016": "obaida-muafaq/016.mp3",
+    "017": "obaida-muafaq/017.mp3",
+    "018": "obaida-muafaq/018.mp3",
+    "019": "obaida-muafaq/019.mp3",
+    "020": "obaida-muafaq/020.mp3",
+    "021": "obaida-muafaq/021.mp3",
+    "022": "obaida-muafaq/022.mp3",
+    "023": "obaida-muafaq/023.mp3",
+    "024": "obaida-muafaq/024.mp3",
+    "025": "obaida-muafaq/025.mp3",
+    "026": "obaida-muafaq/026.mp3",
+    "027": "obaida-muafaq/027.mp3",
+    "028": "obaida-muafaq/028.mp3",
+    "029": "obaida-muafaq/029.mp3",
+    "030": "obaida-muafaq/030.mp3",
+    "031": "obaida-muafaq/031.mp3",
+    "032": "obaida-muafaq/032.mp3",
+    "033": "obaida-muafaq/033.mp3",
+    "034": "obaida-muafaq/034.mp3",
+    "035": "obaida-muafaq/035.mp3",
+    "036": "obaida-muafaq/036.mp3",
+    "037": "obaida-muafaq/037.mp3",
+    "038": "obaida-muafaq/038.mp3",
+    "039": "obaida-muafaq/039.mp3",
+    "040": "obaida-muafaq/040.mp3",
+    "041": "obaida-muafaq/041.mp3",
+    "042": "obaida-muafaq/042.mp3",
+    "043": "obaida-muafaq/043.mp3",
+    "044": "obaida-muafaq/044.mp3",
+    "045": "obaida-muafaq/045.mp3",
+    "046": "obaida-muafaq/046.mp3",
+    "047": "obaida-muafaq/047.mp3",
+    "048": "obaida-muafaq/048.mp3",
+    "049": "obaida-muafaq/049.mp3",
+    "050": "obaida-muafaq/050.mp3",
+    "051": "obaida-muafaq/051.mp3",
+    "052": "obaida-muafaq/052.mp3",
+    "053": "obaida-muafaq/053.mp3",
+    "054": "obaida-muafaq/054.mp3",
+    "055": "obaida-muafaq/055.mp3",
+    "057": "obaida-muafaq/057.mp3",
+    "058": "obaida-muafaq/058.mp3",
+    "059": "obaida-muafaq/059.mp3",
+    "060": "obaida-muafaq/060.mp3",
+    "061": "obaida-muafaq/061.mp3",
+    "062": "obaida-muafaq/062.mp3",
+    "063": "obaida-muafaq/063.mp3",
+    "064": "obaida-muafaq/064.mp3",
+    "065": "obaida-muafaq/065.mp3",
+    "066": "obaida-muafaq/066.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "46",
+      "url": "obaida-muafaq/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "1:58:49",
+      "url": "obaida-muafaq/002.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:12:10",
+      "url": "obaida-muafaq/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "55:33",
+      "url": "obaida-muafaq/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:01:14",
+      "url": "obaida-muafaq/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:10:01",
+      "url": "obaida-muafaq/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "25:30",
+      "url": "obaida-muafaq/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "49:37",
+      "url": "obaida-muafaq/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "36:52",
+      "url": "obaida-muafaq/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "39:06",
+      "url": "obaida-muafaq/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "34:08",
+      "url": "obaida-muafaq/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "15:23",
+      "url": "obaida-muafaq/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "15:41",
+      "url": "obaida-muafaq/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "13:12",
+      "url": "obaida-muafaq/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "34:59",
+      "url": "obaida-muafaq/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "29:25",
+      "url": "obaida-muafaq/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "30:07",
+      "url": "obaida-muafaq/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:06",
+      "url": "obaida-muafaq/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "25:14",
+      "url": "obaida-muafaq/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "25:15",
+      "url": "obaida-muafaq/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "25:53",
+      "url": "obaida-muafaq/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "21:01",
+      "url": "obaida-muafaq/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "25:55",
+      "url": "obaida-muafaq/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "16:14",
+      "url": "obaida-muafaq/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "28:01",
+      "url": "obaida-muafaq/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "24:01",
+      "url": "obaida-muafaq/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "28:17",
+      "url": "obaida-muafaq/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "19:00",
+      "url": "obaida-muafaq/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "16:10",
+      "url": "obaida-muafaq/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "9:21",
+      "url": "obaida-muafaq/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:18",
+      "url": "obaida-muafaq/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "26:53",
+      "url": "obaida-muafaq/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "17:58",
+      "url": "obaida-muafaq/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:36",
+      "url": "obaida-muafaq/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "14:00",
+      "url": "obaida-muafaq/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "19:39",
+      "url": "obaida-muafaq/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "15:21",
+      "url": "obaida-muafaq/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "24:24",
+      "url": "obaida-muafaq/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "23:33",
+      "url": "obaida-muafaq/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "17:58",
+      "url": "obaida-muafaq/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "17:56",
+      "url": "obaida-muafaq/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "20:34",
+      "url": "obaida-muafaq/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "8:18",
+      "url": "obaida-muafaq/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "10:38",
+      "url": "obaida-muafaq/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "13:39",
+      "url": "obaida-muafaq/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "12:13",
+      "url": "obaida-muafaq/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "11:02",
+      "url": "obaida-muafaq/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "8:28",
+      "url": "obaida-muafaq/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:08",
+      "url": "obaida-muafaq/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "8:01",
+      "url": "obaida-muafaq/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:43",
+      "url": "obaida-muafaq/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:51",
+      "url": "obaida-muafaq/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "8:03",
+      "url": "obaida-muafaq/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:05",
+      "url": "obaida-muafaq/055.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "10:51",
+      "url": "obaida-muafaq/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:25",
+      "url": "obaida-muafaq/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "8:46",
+      "url": "obaida-muafaq/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "8:01",
+      "url": "obaida-muafaq/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:26",
+      "url": "obaida-muafaq/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:36",
+      "url": "obaida-muafaq/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:56",
+      "url": "obaida-muafaq/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:42",
+      "url": "obaida-muafaq/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:54",
+      "url": "obaida-muafaq/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:31",
+      "url": "obaida-muafaq/066.mp3"
+    }
+  ]
+}

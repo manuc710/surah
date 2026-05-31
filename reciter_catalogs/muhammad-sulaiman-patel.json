@@ -1,0 +1,806 @@
+{
+  "slug": "muhammad-sulaiman-patel",
+  "count": 114,
+  "byNumber": {
+    "001": "muhammad-sulaiman-patel/001.mp3",
+    "002": "muhammad-sulaiman-patel/002.mp3",
+    "003": "muhammad-sulaiman-patel/003.mp3",
+    "004": "muhammad-sulaiman-patel/004.mp3",
+    "005": "muhammad-sulaiman-patel/005.mp3",
+    "006": "muhammad-sulaiman-patel/006.mp3",
+    "007": "muhammad-sulaiman-patel/007.mp3",
+    "008": "muhammad-sulaiman-patel/008.mp3",
+    "009": "muhammad-sulaiman-patel/009.mp3",
+    "010": "muhammad-sulaiman-patel/010.mp3",
+    "011": "muhammad-sulaiman-patel/011.mp3",
+    "012": "muhammad-sulaiman-patel/012.mp3",
+    "013": "muhammad-sulaiman-patel/013.mp3",
+    "014": "muhammad-sulaiman-patel/014.mp3",
+    "015": "muhammad-sulaiman-patel/015.mp3",
+    "016": "muhammad-sulaiman-patel/016.mp3",
+    "017": "muhammad-sulaiman-patel/017.mp3",
+    "018": "muhammad-sulaiman-patel/018.mp3",
+    "019": "muhammad-sulaiman-patel/019.mp3",
+    "020": "muhammad-sulaiman-patel/020.mp3",
+    "021": "muhammad-sulaiman-patel/021.mp3",
+    "022": "muhammad-sulaiman-patel/022.mp3",
+    "023": "muhammad-sulaiman-patel/023.mp3",
+    "024": "muhammad-sulaiman-patel/024.mp3",
+    "025": "muhammad-sulaiman-patel/025.mp3",
+    "026": "muhammad-sulaiman-patel/026.mp3",
+    "027": "muhammad-sulaiman-patel/027.mp3",
+    "028": "muhammad-sulaiman-patel/028.mp3",
+    "029": "muhammad-sulaiman-patel/029.mp3",
+    "030": "muhammad-sulaiman-patel/030.mp3",
+    "031": "muhammad-sulaiman-patel/031.mp3",
+    "032": "muhammad-sulaiman-patel/032.mp3",
+    "033": "muhammad-sulaiman-patel/033.mp3",
+    "034": "muhammad-sulaiman-patel/034.mp3",
+    "035": "muhammad-sulaiman-patel/035.mp3",
+    "036": "muhammad-sulaiman-patel/036.mp3",
+    "037": "muhammad-sulaiman-patel/037.mp3",
+    "038": "muhammad-sulaiman-patel/038.mp3",
+    "039": "muhammad-sulaiman-patel/039.mp3",
+    "040": "muhammad-sulaiman-patel/040.mp3",
+    "041": "muhammad-sulaiman-patel/041.mp3",
+    "042": "muhammad-sulaiman-patel/042.mp3",
+    "043": "muhammad-sulaiman-patel/043.mp3",
+    "044": "muhammad-sulaiman-patel/044.mp3",
+    "045": "muhammad-sulaiman-patel/045.mp3",
+    "046": "muhammad-sulaiman-patel/046.mp3",
+    "047": "muhammad-sulaiman-patel/047.mp3",
+    "048": "muhammad-sulaiman-patel/048.mp3",
+    "049": "muhammad-sulaiman-patel/049.mp3",
+    "050": "muhammad-sulaiman-patel/050.mp3",
+    "051": "muhammad-sulaiman-patel/051.mp3",
+    "052": "muhammad-sulaiman-patel/052.mp3",
+    "053": "muhammad-sulaiman-patel/053.mp3",
+    "054": "muhammad-sulaiman-patel/054.mp3",
+    "055": "muhammad-sulaiman-patel/055.mp3",
+    "056": "muhammad-sulaiman-patel/056.mp3",
+    "057": "muhammad-sulaiman-patel/057.mp3",
+    "058": "muhammad-sulaiman-patel/058.mp3",
+    "059": "muhammad-sulaiman-patel/059.mp3",
+    "060": "muhammad-sulaiman-patel/060.mp3",
+    "061": "muhammad-sulaiman-patel/061.mp3",
+    "062": "muhammad-sulaiman-patel/062.mp3",
+    "063": "muhammad-sulaiman-patel/063.mp3",
+    "064": "muhammad-sulaiman-patel/064.mp3",
+    "065": "muhammad-sulaiman-patel/065.mp3",
+    "066": "muhammad-sulaiman-patel/066.mp3",
+    "067": "muhammad-sulaiman-patel/067.mp3",
+    "068": "muhammad-sulaiman-patel/068.mp3",
+    "069": "muhammad-sulaiman-patel/069.mp3",
+    "070": "muhammad-sulaiman-patel/070.mp3",
+    "071": "muhammad-sulaiman-patel/071.mp3",
+    "072": "muhammad-sulaiman-patel/072.mp3",
+    "073": "muhammad-sulaiman-patel/073.mp3",
+    "074": "muhammad-sulaiman-patel/074.mp3",
+    "075": "muhammad-sulaiman-patel/075.mp3",
+    "076": "muhammad-sulaiman-patel/076.mp3",
+    "077": "muhammad-sulaiman-patel/077.mp3",
+    "078": "muhammad-sulaiman-patel/078.mp3",
+    "079": "muhammad-sulaiman-patel/079.mp3",
+    "080": "muhammad-sulaiman-patel/080.mp3",
+    "081": "muhammad-sulaiman-patel/081.mp3",
+    "082": "muhammad-sulaiman-patel/082.mp3",
+    "083": "muhammad-sulaiman-patel/083.mp3",
+    "084": "muhammad-sulaiman-patel/084.mp3",
+    "085": "muhammad-sulaiman-patel/085.mp3",
+    "086": "muhammad-sulaiman-patel/086.mp3",
+    "087": "muhammad-sulaiman-patel/087.mp3",
+    "088": "muhammad-sulaiman-patel/088.mp3",
+    "089": "muhammad-sulaiman-patel/089.mp3",
+    "090": "muhammad-sulaiman-patel/090.mp3",
+    "091": "muhammad-sulaiman-patel/091.mp3",
+    "092": "muhammad-sulaiman-patel/092.mp3",
+    "093": "muhammad-sulaiman-patel/093.mp3",
+    "094": "muhammad-sulaiman-patel/094.mp3",
+    "095": "muhammad-sulaiman-patel/095.mp3",
+    "096": "muhammad-sulaiman-patel/096.mp3",
+    "097": "muhammad-sulaiman-patel/097.mp3",
+    "098": "muhammad-sulaiman-patel/098.mp3",
+    "099": "muhammad-sulaiman-patel/099.mp3",
+    "100": "muhammad-sulaiman-patel/100.mp3",
+    "101": "muhammad-sulaiman-patel/101.mp3",
+    "102": "muhammad-sulaiman-patel/102.mp3",
+    "103": "muhammad-sulaiman-patel/103.mp3",
+    "104": "muhammad-sulaiman-patel/104.mp3",
+    "105": "muhammad-sulaiman-patel/105.mp3",
+    "106": "muhammad-sulaiman-patel/106.mp3",
+    "107": "muhammad-sulaiman-patel/107.mp3",
+    "108": "muhammad-sulaiman-patel/108.mp3",
+    "109": "muhammad-sulaiman-patel/109.mp3",
+    "110": "muhammad-sulaiman-patel/110.mp3",
+    "111": "muhammad-sulaiman-patel/111.mp3",
+    "112": "muhammad-sulaiman-patel/112.mp3",
+    "113": "muhammad-sulaiman-patel/113.mp3",
+    "114": "muhammad-sulaiman-patel/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "51",
+      "url": "muhammad-sulaiman-patel/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqara",
+      "duration": "1:35:57",
+      "url": "muhammad-sulaiman-patel/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "51:57",
+      "url": "muhammad-sulaiman-patel/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "54:23",
+      "url": "muhammad-sulaiman-patel/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "41:18",
+      "url": "muhammad-sulaiman-patel/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "44:22",
+      "url": "muhammad-sulaiman-patel/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "49:59",
+      "url": "muhammad-sulaiman-patel/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "18:32",
+      "url": "muhammad-sulaiman-patel/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "36:09",
+      "url": "muhammad-sulaiman-patel/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "26:28",
+      "url": "muhammad-sulaiman-patel/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "27:53",
+      "url": "muhammad-sulaiman-patel/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "26:25",
+      "url": "muhammad-sulaiman-patel/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "11:52",
+      "url": "muhammad-sulaiman-patel/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "12:31",
+      "url": "muhammad-sulaiman-patel/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "9:20",
+      "url": "muhammad-sulaiman-patel/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "25:41",
+      "url": "muhammad-sulaiman-patel/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "20:23",
+      "url": "muhammad-sulaiman-patel/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "21:32",
+      "url": "muhammad-sulaiman-patel/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "12:39",
+      "url": "muhammad-sulaiman-patel/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "18:37",
+      "url": "muhammad-sulaiman-patel/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "16:37",
+      "url": "muhammad-sulaiman-patel/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "17:34",
+      "url": "muhammad-sulaiman-patel/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "14:30",
+      "url": "muhammad-sulaiman-patel/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "19:09",
+      "url": "muhammad-sulaiman-patel/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "12:02",
+      "url": "muhammad-sulaiman-patel/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "18:57",
+      "url": "muhammad-sulaiman-patel/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "16:36",
+      "url": "muhammad-sulaiman-patel/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "19:49",
+      "url": "muhammad-sulaiman-patel/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "14:30",
+      "url": "muhammad-sulaiman-patel/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Room",
+      "duration": "12:09",
+      "url": "muhammad-sulaiman-patel/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "7:52",
+      "url": "muhammad-sulaiman-patel/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "5:30",
+      "url": "muhammad-sulaiman-patel/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "19:29",
+      "url": "muhammad-sulaiman-patel/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "11:35",
+      "url": "muhammad-sulaiman-patel/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "11:05",
+      "url": "muhammad-sulaiman-patel/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "9:19",
+      "url": "muhammad-sulaiman-patel/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "13:23",
+      "url": "muhammad-sulaiman-patel/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "10:23",
+      "url": "muhammad-sulaiman-patel/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "16:35",
+      "url": "muhammad-sulaiman-patel/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "16:14",
+      "url": "muhammad-sulaiman-patel/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "11:47",
+      "url": "muhammad-sulaiman-patel/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "11:44",
+      "url": "muhammad-sulaiman-patel/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "12:06",
+      "url": "muhammad-sulaiman-patel/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "5:38",
+      "url": "muhammad-sulaiman-patel/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "6:56",
+      "url": "muhammad-sulaiman-patel/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "8:42",
+      "url": "muhammad-sulaiman-patel/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "7:44",
+      "url": "muhammad-sulaiman-patel/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "7:51",
+      "url": "muhammad-sulaiman-patel/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "5:39",
+      "url": "muhammad-sulaiman-patel/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "5:11",
+      "url": "muhammad-sulaiman-patel/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "5:17",
+      "url": "muhammad-sulaiman-patel/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "4:43",
+      "url": "muhammad-sulaiman-patel/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "5:04",
+      "url": "muhammad-sulaiman-patel/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "5:17",
+      "url": "muhammad-sulaiman-patel/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "6:21",
+      "url": "muhammad-sulaiman-patel/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "6:57",
+      "url": "muhammad-sulaiman-patel/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "8:03",
+      "url": "muhammad-sulaiman-patel/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "7:00",
+      "url": "muhammad-sulaiman-patel/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "6:52",
+      "url": "muhammad-sulaiman-patel/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "5:37",
+      "url": "muhammad-sulaiman-patel/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "3:08",
+      "url": "muhammad-sulaiman-patel/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "2:25",
+      "url": "muhammad-sulaiman-patel/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "2:46",
+      "url": "muhammad-sulaiman-patel/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "3:36",
+      "url": "muhammad-sulaiman-patel/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "4:16",
+      "url": "muhammad-sulaiman-patel/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "4:09",
+      "url": "muhammad-sulaiman-patel/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:01",
+      "url": "muhammad-sulaiman-patel/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "5:04",
+      "url": "muhammad-sulaiman-patel/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "4:11",
+      "url": "muhammad-sulaiman-patel/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "3:22",
+      "url": "muhammad-sulaiman-patel/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "3:29",
+      "url": "muhammad-sulaiman-patel/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "4:07",
+      "url": "muhammad-sulaiman-patel/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "2:56",
+      "url": "muhammad-sulaiman-patel/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "3:45",
+      "url": "muhammad-sulaiman-patel/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "2:35",
+      "url": "muhammad-sulaiman-patel/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "3:49",
+      "url": "muhammad-sulaiman-patel/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "3:12",
+      "url": "muhammad-sulaiman-patel/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "2:52",
+      "url": "muhammad-sulaiman-patel/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "2:59",
+      "url": "muhammad-sulaiman-patel/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:35",
+      "url": "muhammad-sulaiman-patel/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "1:45",
+      "url": "muhammad-sulaiman-patel/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:28",
+      "url": "muhammad-sulaiman-patel/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "2:56",
+      "url": "muhammad-sulaiman-patel/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "1:47",
+      "url": "muhammad-sulaiman-patel/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "1:57",
+      "url": "muhammad-sulaiman-patel/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:13",
+      "url": "muhammad-sulaiman-patel/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:16",
+      "url": "muhammad-sulaiman-patel/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:46",
+      "url": "muhammad-sulaiman-patel/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:40",
+      "url": "muhammad-sulaiman-patel/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:29",
+      "url": "muhammad-sulaiman-patel/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:06",
+      "url": "muhammad-sulaiman-patel/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:29",
+      "url": "muhammad-sulaiman-patel/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "54",
+      "url": "muhammad-sulaiman-patel/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "31",
+      "url": "muhammad-sulaiman-patel/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "42",
+      "url": "muhammad-sulaiman-patel/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:18",
+      "url": "muhammad-sulaiman-patel/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "36",
+      "url": "muhammad-sulaiman-patel/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:39",
+      "url": "muhammad-sulaiman-patel/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "47",
+      "url": "muhammad-sulaiman-patel/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "51",
+      "url": "muhammad-sulaiman-patel/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "47",
+      "url": "muhammad-sulaiman-patel/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "40",
+      "url": "muhammad-sulaiman-patel/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "21",
+      "url": "muhammad-sulaiman-patel/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "45",
+      "url": "muhammad-sulaiman-patel/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "35",
+      "url": "muhammad-sulaiman-patel/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "29",
+      "url": "muhammad-sulaiman-patel/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "35",
+      "url": "muhammad-sulaiman-patel/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "18",
+      "url": "muhammad-sulaiman-patel/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "37",
+      "url": "muhammad-sulaiman-patel/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "26",
+      "url": "muhammad-sulaiman-patel/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "31",
+      "url": "muhammad-sulaiman-patel/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "19",
+      "url": "muhammad-sulaiman-patel/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "29",
+      "url": "muhammad-sulaiman-patel/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "39",
+      "url": "muhammad-sulaiman-patel/114.mp3"
+    }
+  ]
+}

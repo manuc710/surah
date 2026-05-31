@@ -1,0 +1,204 @@
+{
+  "slug": "khalid-al-hosni",
+  "count": 28,
+  "byNumber": {
+    "001": "khalid-al-hosni/001.mp3",
+    "012": "khalid-al-hosni/012.mp3",
+    "013": "khalid-al-hosni/013.mp3",
+    "017": "khalid-al-hosni/017.mp3",
+    "018": "khalid-al-hosni/018.mp3",
+    "019": "khalid-al-hosni/019.mp3",
+    "021": "khalid-al-hosni/021.mp3",
+    "030": "khalid-al-hosni/030.mp3",
+    "031": "khalid-al-hosni/031.mp3",
+    "032": "khalid-al-hosni/032.mp3",
+    "034": "khalid-al-hosni/034.mp3",
+    "036": "khalid-al-hosni/036.mp3",
+    "037": "khalid-al-hosni/037.mp3",
+    "039": "khalid-al-hosni/039.mp3",
+    "042": "khalid-al-hosni/042.mp3",
+    "043": "khalid-al-hosni/043.mp3",
+    "044": "khalid-al-hosni/044.mp3",
+    "067": "khalid-al-hosni/067.mp3",
+    "068": "khalid-al-hosni/068.mp3",
+    "069": "khalid-al-hosni/069.mp3",
+    "070": "khalid-al-hosni/070.mp3",
+    "071": "khalid-al-hosni/071.mp3",
+    "072": "khalid-al-hosni/072.mp3",
+    "073": "khalid-al-hosni/073.mp3",
+    "074": "khalid-al-hosni/074.mp3",
+    "075": "khalid-al-hosni/075.mp3",
+    "076": "khalid-al-hosni/076.mp3",
+    "077": "khalid-al-hosni/077.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "45",
+      "url": "khalid-al-hosni/001.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "44:32",
+      "url": "khalid-al-hosni/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "19:32",
+      "url": "khalid-al-hosni/013.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "37:29",
+      "url": "khalid-al-hosni/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "33:53",
+      "url": "khalid-al-hosni/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:15",
+      "url": "khalid-al-hosni/019.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "24:37",
+      "url": "khalid-al-hosni/021.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "16:38",
+      "url": "khalid-al-hosni/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "10:16",
+      "url": "khalid-al-hosni/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:28",
+      "url": "khalid-al-hosni/032.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "17:12",
+      "url": "khalid-al-hosni/034.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "13:48",
+      "url": "khalid-al-hosni/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "21:00",
+      "url": "khalid-al-hosni/037.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "27:39",
+      "url": "khalid-al-hosni/039.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "18:08",
+      "url": "khalid-al-hosni/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "21:09",
+      "url": "khalid-al-hosni/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "9:00",
+      "url": "khalid-al-hosni/044.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:45",
+      "url": "khalid-al-hosni/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "7:30",
+      "url": "khalid-al-hosni/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:26",
+      "url": "khalid-al-hosni/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:33",
+      "url": "khalid-al-hosni/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "5:18",
+      "url": "khalid-al-hosni/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "6:12",
+      "url": "khalid-al-hosni/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:45",
+      "url": "khalid-al-hosni/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:59",
+      "url": "khalid-al-hosni/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:45",
+      "url": "khalid-al-hosni/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "6:08",
+      "url": "khalid-al-hosni/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "5:05",
+      "url": "khalid-al-hosni/077.mp3"
+    }
+  ]
+}

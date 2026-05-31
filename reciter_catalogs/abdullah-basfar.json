@@ -1,0 +1,799 @@
+{
+  "slug": "abdullah-basfar",
+  "count": 113,
+  "byNumber": {
+    "001": "abdullah-basfar/abdullah-basfar-001.mp3",
+    "002": "abdullah-basfar/abdullah-basfar-002.mp3",
+    "003": "abdullah-basfar/abdullah-basfar-003.mp3",
+    "005": "abdullah-basfar/abdullah-basfar-005.mp3",
+    "006": "abdullah-basfar/abdullah-basfar-006.mp3",
+    "007": "abdullah-basfar/abdullah-basfar-007.mp3",
+    "008": "abdullah-basfar/abdullah-basfar-008.mp3",
+    "009": "abdullah-basfar/abdullah-basfar-009.mp3",
+    "010": "abdullah-basfar/abdullah-basfar-010.mp3",
+    "011": "abdullah-basfar/abdullah-basfar-011.mp3",
+    "012": "abdullah-basfar/abdullah-basfar-012.mp3",
+    "013": "abdullah-basfar/abdullah-basfar-013.mp3",
+    "014": "abdullah-basfar/abdullah-basfar-014.mp3",
+    "015": "abdullah-basfar/abdullah-basfar-015.mp3",
+    "016": "abdullah-basfar/abdullah-basfar-016.mp3",
+    "017": "abdullah-basfar/abdullah-basfar-017.mp3",
+    "018": "abdullah-basfar/abdullah-basfar-018.mp3",
+    "019": "abdullah-basfar/abdullah-basfar-019.mp3",
+    "020": "abdullah-basfar/abdullah-basfar-020.mp3",
+    "021": "abdullah-basfar/abdullah-basfar-021.mp3",
+    "022": "abdullah-basfar/abdullah-basfar-022.mp3",
+    "023": "abdullah-basfar/abdullah-basfar-023.mp3",
+    "024": "abdullah-basfar/abdullah-basfar-024.mp3",
+    "025": "abdullah-basfar/abdullah-basfar-025.mp3",
+    "026": "abdullah-basfar/abdullah-basfar-026.mp3",
+    "027": "abdullah-basfar/abdullah-basfar-027.mp3",
+    "028": "abdullah-basfar/abdullah-basfar-028.mp3",
+    "029": "abdullah-basfar/abdullah-basfar-029.mp3",
+    "030": "abdullah-basfar/abdullah-basfar-030.mp3",
+    "031": "abdullah-basfar/abdullah-basfar-031.mp3",
+    "032": "abdullah-basfar/abdullah-basfar-032.mp3",
+    "033": "abdullah-basfar/abdullah-basfar-033.mp3",
+    "034": "abdullah-basfar/abdullah-basfar-034.mp3",
+    "035": "abdullah-basfar/abdullah-basfar-035.mp3",
+    "036": "abdullah-basfar/abdullah-basfar-036.mp3",
+    "037": "abdullah-basfar/abdullah-basfar-037.mp3",
+    "038": "abdullah-basfar/abdullah-basfar-038.mp3",
+    "039": "abdullah-basfar/abdullah-basfar-039.mp3",
+    "040": "abdullah-basfar/abdullah-basfar-040.mp3",
+    "041": "abdullah-basfar/abdullah-basfar-041.mp3",
+    "042": "abdullah-basfar/abdullah-basfar-042.mp3",
+    "043": "abdullah-basfar/abdullah-basfar-043.mp3",
+    "044": "abdullah-basfar/abdullah-basfar-044.mp3",
+    "045": "abdullah-basfar/abdullah-basfar-045.mp3",
+    "046": "abdullah-basfar/abdullah-basfar-046.mp3",
+    "047": "abdullah-basfar/abdullah-basfar-047.mp3",
+    "048": "abdullah-basfar/abdullah-basfar-048.mp3",
+    "049": "abdullah-basfar/abdullah-basfar-049.mp3",
+    "050": "abdullah-basfar/abdullah-basfar-050.mp3",
+    "051": "abdullah-basfar/abdullah-basfar-051.mp3",
+    "052": "abdullah-basfar/abdullah-basfar-052.mp3",
+    "053": "abdullah-basfar/abdullah-basfar-053.mp3",
+    "054": "abdullah-basfar/abdullah-basfar-054.mp3",
+    "055": "abdullah-basfar/abdullah-basfar-055.mp3",
+    "056": "abdullah-basfar/abdullah-basfar-056.mp3",
+    "057": "abdullah-basfar/abdullah-basfar-057.mp3",
+    "058": "abdullah-basfar/abdullah-basfar-058.mp3",
+    "059": "abdullah-basfar/abdullah-basfar-059.mp3",
+    "060": "abdullah-basfar/abdullah-basfar-060.mp3",
+    "061": "abdullah-basfar/abdullah-basfar-061.mp3",
+    "062": "abdullah-basfar/abdullah-basfar-062.mp3",
+    "063": "abdullah-basfar/abdullah-basfar-063.mp3",
+    "064": "abdullah-basfar/abdullah-basfar-064.mp3",
+    "065": "abdullah-basfar/abdullah-basfar-065.mp3",
+    "066": "abdullah-basfar/abdullah-basfar-066.mp3",
+    "067": "abdullah-basfar/abdullah-basfar-067.mp3",
+    "068": "abdullah-basfar/abdullah-basfar-068.mp3",
+    "069": "abdullah-basfar/abdullah-basfar-069.mp3",
+    "070": "abdullah-basfar/abdullah-basfar-070.mp3",
+    "071": "abdullah-basfar/abdullah-basfar-071.mp3",
+    "072": "abdullah-basfar/abdullah-basfar-072.mp3",
+    "073": "abdullah-basfar/abdullah-basfar-073.mp3",
+    "074": "abdullah-basfar/abdullah-basfar-074.mp3",
+    "075": "abdullah-basfar/abdullah-basfar-075.mp3",
+    "076": "abdullah-basfar/abdullah-basfar-076.mp3",
+    "077": "abdullah-basfar/abdullah-basfar-077.mp3",
+    "078": "abdullah-basfar/abdullah-basfar-078.mp3",
+    "079": "abdullah-basfar/abdullah-basfar-079.mp3",
+    "080": "abdullah-basfar/abdullah-basfar-080.mp3",
+    "081": "abdullah-basfar/abdullah-basfar-081.mp3",
+    "082": "abdullah-basfar/abdullah-basfar-082.mp3",
+    "083": "abdullah-basfar/abdullah-basfar-083.mp3",
+    "084": "abdullah-basfar/abdullah-basfar-084.mp3",
+    "085": "abdullah-basfar/abdullah-basfar-085.mp3",
+    "086": "abdullah-basfar/abdullah-basfar-086.mp3",
+    "087": "abdullah-basfar/abdullah-basfar-087.mp3",
+    "088": "abdullah-basfar/abdullah-basfar-088.mp3",
+    "089": "abdullah-basfar/abdullah-basfar-089.mp3",
+    "090": "abdullah-basfar/abdullah-basfar-090.mp3",
+    "091": "abdullah-basfar/abdullah-basfar-091.mp3",
+    "092": "abdullah-basfar/abdullah-basfar-092.mp3",
+    "093": "abdullah-basfar/abdullah-basfar-093.mp3",
+    "094": "abdullah-basfar/abdullah-basfar-094.mp3",
+    "095": "abdullah-basfar/abdullah-basfar-095.mp3",
+    "096": "abdullah-basfar/abdullah-basfar-096.mp3",
+    "097": "abdullah-basfar/abdullah-basfar-097.mp3",
+    "098": "abdullah-basfar/abdullah-basfar-098.mp3",
+    "099": "abdullah-basfar/abdullah-basfar-099.mp3",
+    "100": "abdullah-basfar/abdullah-basfar-100.mp3",
+    "101": "abdullah-basfar/abdullah-basfar-101.mp3",
+    "102": "abdullah-basfar/abdullah-basfar-102.mp3",
+    "103": "abdullah-basfar/abdullah-basfar-103.mp3",
+    "104": "abdullah-basfar/abdullah-basfar-104.mp3",
+    "105": "abdullah-basfar/abdullah-basfar-105.mp3",
+    "106": "abdullah-basfar/abdullah-basfar-106.mp3",
+    "107": "abdullah-basfar/abdullah-basfar-107.mp3",
+    "108": "abdullah-basfar/abdullah-basfar-108.mp3",
+    "109": "abdullah-basfar/abdullah-basfar-109.mp3",
+    "110": "abdullah-basfar/abdullah-basfar-110.mp3",
+    "111": "abdullah-basfar/abdullah-basfar-111.mp3",
+    "112": "abdullah-basfar/abdullah-basfar-112.mp3",
+    "113": "abdullah-basfar/abdullah-basfar-113.mp3",
+    "114": "abdullah-basfar/abdullah-basfar-114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 AlFatiha",
+      "duration": "49",
+      "url": "abdullah-basfar/abdullah-basfar-001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 AlBaqara",
+      "duration": "1:59:11",
+      "url": "abdullah-basfar/abdullah-basfar-002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 AalEImran",
+      "duration": "1:11:48",
+      "url": "abdullah-basfar/abdullah-basfar-003.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 AlMaidah",
+      "duration": "56:20",
+      "url": "abdullah-basfar/abdullah-basfar-005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 AlAnaam",
+      "duration": "1:01:25",
+      "url": "abdullah-basfar/abdullah-basfar-006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 AlAraf",
+      "duration": "1:07:04",
+      "url": "abdullah-basfar/abdullah-basfar-007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 AlAnfal",
+      "duration": "25:36",
+      "url": "abdullah-basfar/abdullah-basfar-008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 AtTawba",
+      "duration": "49:03",
+      "url": "abdullah-basfar/abdullah-basfar-009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "32:22",
+      "url": "abdullah-basfar/abdullah-basfar-010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "34:40",
+      "url": "abdullah-basfar/abdullah-basfar-011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "33:57",
+      "url": "abdullah-basfar/abdullah-basfar-012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 ArRad",
+      "duration": "15:18",
+      "url": "abdullah-basfar/abdullah-basfar-013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "16:06",
+      "url": "abdullah-basfar/abdullah-basfar-014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 AlHijr",
+      "duration": "11:26",
+      "url": "abdullah-basfar/abdullah-basfar-015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 AnNahl",
+      "duration": "32:13",
+      "url": "abdullah-basfar/abdullah-basfar-016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 AlIsra",
+      "duration": "29:40",
+      "url": "abdullah-basfar/abdullah-basfar-017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 AlKahf",
+      "duration": "29:59",
+      "url": "abdullah-basfar/abdullah-basfar-018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "18:57",
+      "url": "abdullah-basfar/abdullah-basfar-019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 TaHa",
+      "duration": "24:18",
+      "url": "abdullah-basfar/abdullah-basfar-020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 AlAnbiya",
+      "duration": "21:36",
+      "url": "abdullah-basfar/abdullah-basfar-021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 AlHajj",
+      "duration": "25:22",
+      "url": "abdullah-basfar/abdullah-basfar-022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 AlMumenoon",
+      "duration": "20:01",
+      "url": "abdullah-basfar/abdullah-basfar-023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 AnNoor",
+      "duration": "26:08",
+      "url": "abdullah-basfar/abdullah-basfar-024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 AlFurqan",
+      "duration": "17:14",
+      "url": "abdullah-basfar/abdullah-basfar-025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 AshShuara",
+      "duration": "24:33",
+      "url": "abdullah-basfar/abdullah-basfar-026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 AnNaml",
+      "duration": "22:47",
+      "url": "abdullah-basfar/abdullah-basfar-027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 AlQasas",
+      "duration": "27:03",
+      "url": "abdullah-basfar/abdullah-basfar-028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 AlAnkaboot",
+      "duration": "18:45",
+      "url": "abdullah-basfar/abdullah-basfar-029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 ArRoom",
+      "duration": "15:13",
+      "url": "abdullah-basfar/abdullah-basfar-030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "10:19",
+      "url": "abdullah-basfar/abdullah-basfar-031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 AsSajda",
+      "duration": "8:03",
+      "url": "abdullah-basfar/abdullah-basfar-032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 AlAhzab",
+      "duration": "26:14",
+      "url": "abdullah-basfar/abdullah-basfar-033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "16:41",
+      "url": "abdullah-basfar/abdullah-basfar-034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "16:13",
+      "url": "abdullah-basfar/abdullah-basfar-035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 YaSeen",
+      "duration": "14:04",
+      "url": "abdullah-basfar/abdullah-basfar-036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 AsSaaffat",
+      "duration": "17:37",
+      "url": "abdullah-basfar/abdullah-basfar-037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "14:30",
+      "url": "abdullah-basfar/abdullah-basfar-038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 AzZumar",
+      "duration": "23:00",
+      "url": "abdullah-basfar/abdullah-basfar-039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "23:42",
+      "url": "abdullah-basfar/abdullah-basfar-040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "16:45",
+      "url": "abdullah-basfar/abdullah-basfar-041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 AshShura",
+      "duration": "17:36",
+      "url": "abdullah-basfar/abdullah-basfar-042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 AzZukhruf",
+      "duration": "16:53",
+      "url": "abdullah-basfar/abdullah-basfar-043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 AdDukhan",
+      "duration": "7:31",
+      "url": "abdullah-basfar/abdullah-basfar-044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 AlJathiya",
+      "duration": "9:35",
+      "url": "abdullah-basfar/abdullah-basfar-045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 AlAhqaf",
+      "duration": "11:49",
+      "url": "abdullah-basfar/abdullah-basfar-046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "11:02",
+      "url": "abdullah-basfar/abdullah-basfar-047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 AlFath",
+      "duration": "11:30",
+      "url": "abdullah-basfar/abdullah-basfar-048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 AlHujraat",
+      "duration": "7:12",
+      "url": "abdullah-basfar/abdullah-basfar-049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:45",
+      "url": "abdullah-basfar/abdullah-basfar-050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 AdhDhariyat",
+      "duration": "7:02",
+      "url": "abdullah-basfar/abdullah-basfar-051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 AtTur",
+      "duration": "6:29",
+      "url": "abdullah-basfar/abdullah-basfar-052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 AnNajm",
+      "duration": "7:02",
+      "url": "abdullah-basfar/abdullah-basfar-053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 AlQamar",
+      "duration": "7:33",
+      "url": "abdullah-basfar/abdullah-basfar-054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 ArRahman",
+      "duration": "9:07",
+      "url": "abdullah-basfar/abdullah-basfar-055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 AlWaqia",
+      "duration": "9:23",
+      "url": "abdullah-basfar/abdullah-basfar-056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 AlHadid",
+      "duration": "11:19",
+      "url": "abdullah-basfar/abdullah-basfar-057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 AlMujadila",
+      "duration": "9:08",
+      "url": "abdullah-basfar/abdullah-basfar-058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 AlHashr",
+      "duration": "8:56",
+      "url": "abdullah-basfar/abdullah-basfar-059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 AlMumtahina",
+      "duration": "6:59",
+      "url": "abdullah-basfar/abdullah-basfar-060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 AsSaff",
+      "duration": "4:13",
+      "url": "abdullah-basfar/abdullah-basfar-061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 AlJumua",
+      "duration": "3:30",
+      "url": "abdullah-basfar/abdullah-basfar-062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 AlMunafiqoon",
+      "duration": "3:55",
+      "url": "abdullah-basfar/abdullah-basfar-063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 AtTaghabun",
+      "duration": "4:37",
+      "url": "abdullah-basfar/abdullah-basfar-064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 AtTalaq",
+      "duration": "5:33",
+      "url": "abdullah-basfar/abdullah-basfar-065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 AtTahrim",
+      "duration": "5:09",
+      "url": "abdullah-basfar/abdullah-basfar-066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 AlMulk",
+      "duration": "5:58",
+      "url": "abdullah-basfar/abdullah-basfar-067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 AlQalam",
+      "duration": "5:42",
+      "url": "abdullah-basfar/abdullah-basfar-068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 AlHaaqqa",
+      "duration": "6:49",
+      "url": "abdullah-basfar/abdullah-basfar-069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 AlMaarij",
+      "duration": "5:19",
+      "url": "abdullah-basfar/abdullah-basfar-070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:23",
+      "url": "abdullah-basfar/abdullah-basfar-071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 AlJinn",
+      "duration": "5:13",
+      "url": "abdullah-basfar/abdullah-basfar-072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 AlMuzzammil",
+      "duration": "3:50",
+      "url": "abdullah-basfar/abdullah-basfar-073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 AlMuddaththir",
+      "duration": "5:07",
+      "url": "abdullah-basfar/abdullah-basfar-074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 AlQiyama",
+      "duration": "3:29",
+      "url": "abdullah-basfar/abdullah-basfar-075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 AlInsan",
+      "duration": "4:43",
+      "url": "abdullah-basfar/abdullah-basfar-076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 AlMursalat",
+      "duration": "4:00",
+      "url": "abdullah-basfar/abdullah-basfar-077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 AnNaba",
+      "duration": "3:40",
+      "url": "abdullah-basfar/abdullah-basfar-078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 AnNaziat",
+      "duration": "3:49",
+      "url": "abdullah-basfar/abdullah-basfar-079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:00",
+      "url": "abdullah-basfar/abdullah-basfar-080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 AtTakwir",
+      "duration": "2:00",
+      "url": "abdullah-basfar/abdullah-basfar-081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 AlInfitar",
+      "duration": "1:34",
+      "url": "abdullah-basfar/abdullah-basfar-082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 AlMutaffifin",
+      "duration": "3:25",
+      "url": "abdullah-basfar/abdullah-basfar-083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 AlInshiqaq",
+      "duration": "2:01",
+      "url": "abdullah-basfar/abdullah-basfar-084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 AlBurooj",
+      "duration": "2:10",
+      "url": "abdullah-basfar/abdullah-basfar-085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 AtTariq",
+      "duration": "1:17",
+      "url": "abdullah-basfar/abdullah-basfar-086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 AlAla",
+      "duration": "1:21",
+      "url": "abdullah-basfar/abdullah-basfar-087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 AlGhashiya",
+      "duration": "1:55",
+      "url": "abdullah-basfar/abdullah-basfar-088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 AlFajr",
+      "duration": "2:54",
+      "url": "abdullah-basfar/abdullah-basfar-089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 AlBalad",
+      "duration": "1:35",
+      "url": "abdullah-basfar/abdullah-basfar-090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 AshShams",
+      "duration": "1:10",
+      "url": "abdullah-basfar/abdullah-basfar-091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 AlLail",
+      "duration": "1:29",
+      "url": "abdullah-basfar/abdullah-basfar-092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 AdDhuha",
+      "duration": "54",
+      "url": "abdullah-basfar/abdullah-basfar-093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 AlInshirah",
+      "duration": "33",
+      "url": "abdullah-basfar/abdullah-basfar-094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 AtTin",
+      "duration": "43",
+      "url": "abdullah-basfar/abdullah-basfar-095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 AlAlaq",
+      "duration": "1:24",
+      "url": "abdullah-basfar/abdullah-basfar-096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 AlQadr",
+      "duration": "37",
+      "url": "abdullah-basfar/abdullah-basfar-097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 AlBayyina",
+      "duration": "1:54",
+      "url": "abdullah-basfar/abdullah-basfar-098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 AzZalzala",
+      "duration": "50",
+      "url": "abdullah-basfar/abdullah-basfar-099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 AlAdiyat",
+      "duration": "56",
+      "url": "abdullah-basfar/abdullah-basfar-100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 AlQaria",
+      "duration": "50",
+      "url": "abdullah-basfar/abdullah-basfar-101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 AtTakathur",
+      "duration": "41",
+      "url": "abdullah-basfar/abdullah-basfar-102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 AlAsr",
+      "duration": "24",
+      "url": "abdullah-basfar/abdullah-basfar-103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 AlHumaza",
+      "duration": "46",
+      "url": "abdullah-basfar/abdullah-basfar-104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 AlFil",
+      "duration": "33",
+      "url": "abdullah-basfar/abdullah-basfar-105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "30",
+      "url": "abdullah-basfar/abdullah-basfar-106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 AlMaun",
+      "duration": "37",
+      "url": "abdullah-basfar/abdullah-basfar-107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 AlKauther",
+      "duration": "18",
+      "url": "abdullah-basfar/abdullah-basfar-108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 AlKafiroon",
+      "duration": "37",
+      "url": "abdullah-basfar/abdullah-basfar-109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 AnNasr",
+      "duration": "28",
+      "url": "abdullah-basfar/abdullah-basfar-110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 AlMasadd",
+      "duration": "32",
+      "url": "abdullah-basfar/abdullah-basfar-111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 AlIkhlas",
+      "duration": "18",
+      "url": "abdullah-basfar/abdullah-basfar-112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 AlFalaq",
+      "duration": "29",
+      "url": "abdullah-basfar/abdullah-basfar-113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 AnNas",
+      "duration": "40",
+      "url": "abdullah-basfar/abdullah-basfar-114.mp3"
+    }
+  ]
+}

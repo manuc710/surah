@@ -1,0 +1,211 @@
+{
+  "slug": "hammam-al-rayyan",
+  "count": 29,
+  "byNumber": {
+    "018": "hammam-al-rayyan/018.mp3",
+    "036": "hammam-al-rayyan/036.mp3",
+    "044": "hammam-al-rayyan/044.mp3",
+    "048": "hammam-al-rayyan/048.mp3",
+    "050": "hammam-al-rayyan/050.mp3",
+    "052": "hammam-al-rayyan/052.mp3",
+    "053": "hammam-al-rayyan/053.mp3",
+    "054": "hammam-al-rayyan/054.mp3",
+    "055": "hammam-al-rayyan/055.mp3",
+    "066": "hammam-al-rayyan/066.mp3",
+    "067": "hammam-al-rayyan/067.mp3",
+    "068": "hammam-al-rayyan/068.mp3",
+    "069": "hammam-al-rayyan/069.mp3",
+    "072": "hammam-al-rayyan/072.mp3",
+    "076": "hammam-al-rayyan/076.mp3",
+    "080": "hammam-al-rayyan/080.mp3",
+    "083": "hammam-al-rayyan/083.mp3",
+    "084": "hammam-al-rayyan/084.mp3",
+    "085": "hammam-al-rayyan/085.mp3",
+    "087": "hammam-al-rayyan/087.mp3",
+    "088": "hammam-al-rayyan/088.mp3",
+    "089": "hammam-al-rayyan/089.mp3",
+    "091": "hammam-al-rayyan/091.mp3",
+    "092": "hammam-al-rayyan/092.mp3",
+    "098": "hammam-al-rayyan/098.mp3",
+    "104": "hammam-al-rayyan/104.mp3",
+    "105": "hammam-al-rayyan/105.mp3",
+    "106": "hammam-al-rayyan/106.mp3",
+    "112": "hammam-al-rayyan/112.mp3"
+  },
+  "list": [
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "34:30",
+      "url": "hammam-al-rayyan/018.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "15:56",
+      "url": "hammam-al-rayyan/036.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "8:43",
+      "url": "hammam-al-rayyan/044.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "12:07",
+      "url": "hammam-al-rayyan/048.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:45",
+      "url": "hammam-al-rayyan/050.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "8:02",
+      "url": "hammam-al-rayyan/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "9:58",
+      "url": "hammam-al-rayyan/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "8:23",
+      "url": "hammam-al-rayyan/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "11:07",
+      "url": "hammam-al-rayyan/055.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "6:44",
+      "url": "hammam-al-rayyan/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:47",
+      "url": "hammam-al-rayyan/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "7:33",
+      "url": "hammam-al-rayyan/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:12",
+      "url": "hammam-al-rayyan/069.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:44",
+      "url": "hammam-al-rayyan/072.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:29",
+      "url": "hammam-al-rayyan/076.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:04",
+      "url": "hammam-al-rayyan/080.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:22",
+      "url": "hammam-al-rayyan/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:22",
+      "url": "hammam-al-rayyan/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:33",
+      "url": "hammam-al-rayyan/085.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:35",
+      "url": "hammam-al-rayyan/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:47",
+      "url": "hammam-al-rayyan/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:03",
+      "url": "hammam-al-rayyan/089.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:12",
+      "url": "hammam-al-rayyan/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:33",
+      "url": "hammam-al-rayyan/092.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:55",
+      "url": "hammam-al-rayyan/098.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "46",
+      "url": "hammam-al-rayyan/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "39",
+      "url": "hammam-al-rayyan/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "34",
+      "url": "hammam-al-rayyan/106.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "18",
+      "url": "hammam-al-rayyan/112.mp3"
+    }
+  ]
+}

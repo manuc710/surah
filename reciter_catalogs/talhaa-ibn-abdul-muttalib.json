@@ -1,0 +1,22 @@
+{
+  "slug": "talhaa-ibn-abdul-muttalib",
+  "count": 2,
+  "byNumber": {
+    "020": "talhaa-ibn-abdul-muttalib/020.mp3",
+    "021": "talhaa-ibn-abdul-muttalib/021.mp3"
+  },
+  "list": [
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "21:56",
+      "url": "talhaa-ibn-abdul-muttalib/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "21:36",
+      "url": "talhaa-ibn-abdul-muttalib/021.mp3"
+    }
+  ]
+}

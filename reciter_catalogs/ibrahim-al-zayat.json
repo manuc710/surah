@@ -1,0 +1,29 @@
+{
+  "slug": "ibrahim-al-zayat",
+  "count": 3,
+  "byNumber": {
+    "067": "ibrahim-al-zayat/067.mp3",
+    "069": "ibrahim-al-zayat/069.mp3",
+    "070": "ibrahim-al-zayat/070.mp3"
+  },
+  "list": [
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "8:24",
+      "url": "ibrahim-al-zayat/067.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "7:39",
+      "url": "ibrahim-al-zayat/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "6:29",
+      "url": "ibrahim-al-zayat/070.mp3"
+    }
+  ]
+}

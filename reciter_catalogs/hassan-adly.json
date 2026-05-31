@@ -1,0 +1,568 @@
+{
+  "slug": "hassan-adly",
+  "count": 80,
+  "byNumber": {
+    "001": "hassan-adly/001.mp3",
+    "002": "hassan-adly/002.mp3",
+    "003": "hassan-adly/003.mp3",
+    "004": "hassan-adly/004.mp3",
+    "006": "hassan-adly/006.mp3",
+    "008": "hassan-adly/008.mp3",
+    "011": "hassan-adly/011.mp3",
+    "013": "hassan-adly/013.mp3",
+    "014": "hassan-adly/014.mp3",
+    "015": "hassan-adly/015.mp3",
+    "019": "hassan-adly/019.mp3",
+    "020": "hassan-adly/020.mp3",
+    "022": "hassan-adly/022.mp3",
+    "023": "hassan-adly/023.mp3",
+    "028": "hassan-adly/028.mp3",
+    "032": "hassan-adly/032.mp3",
+    "033": "hassan-adly/033.mp3",
+    "035": "hassan-adly/035.mp3",
+    "038": "hassan-adly/038.mp3",
+    "039": "hassan-adly/039.mp3",
+    "040": "hassan-adly/040.mp3",
+    "044": "hassan-adly/044.mp3",
+    "045": "hassan-adly/045.mp3",
+    "046": "hassan-adly/046.mp3",
+    "047": "hassan-adly/047.mp3",
+    "048": "hassan-adly/048.mp3",
+    "049": "hassan-adly/049.mp3",
+    "050": "hassan-adly/050.mp3",
+    "051": "hassan-adly/051.mp3",
+    "052": "hassan-adly/052.mp3",
+    "053": "hassan-adly/053.mp3",
+    "054": "hassan-adly/054.mp3",
+    "055": "hassan-adly/055.mp3",
+    "056": "hassan-adly/056.mp3",
+    "057": "hassan-adly/057.mp3",
+    "059": "hassan-adly/059.mp3",
+    "060": "hassan-adly/060.mp3",
+    "061": "hassan-adly/061.mp3",
+    "062": "hassan-adly/062.mp3",
+    "063": "hassan-adly/063.mp3",
+    "064": "hassan-adly/064.mp3",
+    "065": "hassan-adly/065.mp3",
+    "066": "hassan-adly/066.mp3",
+    "068": "hassan-adly/068.mp3",
+    "069": "hassan-adly/069.mp3",
+    "071": "hassan-adly/071.mp3",
+    "072": "hassan-adly/072.mp3",
+    "073": "hassan-adly/073.mp3",
+    "074": "hassan-adly/074.mp3",
+    "076": "hassan-adly/076.mp3",
+    "078": "hassan-adly/078.mp3",
+    "079": "hassan-adly/079.mp3",
+    "084": "hassan-adly/084.mp3",
+    "088": "hassan-adly/088.mp3",
+    "089": "hassan-adly/089.mp3",
+    "090": "hassan-adly/090.mp3",
+    "091": "hassan-adly/091.mp3",
+    "092": "hassan-adly/092.mp3",
+    "093": "hassan-adly/093.mp3",
+    "094": "hassan-adly/094.mp3",
+    "095": "hassan-adly/095.mp3",
+    "096": "hassan-adly/096.mp3",
+    "097": "hassan-adly/097.mp3",
+    "098": "hassan-adly/098.mp3",
+    "099": "hassan-adly/099.mp3",
+    "100": "hassan-adly/100.mp3",
+    "101": "hassan-adly/101.mp3",
+    "102": "hassan-adly/102.mp3",
+    "103": "hassan-adly/103.mp3",
+    "104": "hassan-adly/104.mp3",
+    "105": "hassan-adly/105.mp3",
+    "106": "hassan-adly/106.mp3",
+    "107": "hassan-adly/107.mp3",
+    "108": "hassan-adly/108.mp3",
+    "109": "hassan-adly/109.mp3",
+    "110": "hassan-adly/110.mp3",
+    "111": "hassan-adly/111.mp3",
+    "112": "hassan-adly/112.mp3",
+    "113": "hassan-adly/113.mp3",
+    "114": "hassan-adly/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "41",
+      "url": "hassan-adly/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:00:40",
+      "url": "hassan-adly/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:10:51",
+      "url": "hassan-adly/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:12:31",
+      "url": "hassan-adly/004.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:03:28",
+      "url": "hassan-adly/006.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "23:37",
+      "url": "hassan-adly/008.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "36:25",
+      "url": "hassan-adly/011.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "15:01",
+      "url": "hassan-adly/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "16:11",
+      "url": "hassan-adly/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "11:01",
+      "url": "hassan-adly/015.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "17:27",
+      "url": "hassan-adly/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "27:21",
+      "url": "hassan-adly/020.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "26:08",
+      "url": "hassan-adly/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "23:25",
+      "url": "hassan-adly/023.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "28:58",
+      "url": "hassan-adly/028.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "8:04",
+      "url": "hassan-adly/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "26:13",
+      "url": "hassan-adly/033.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "11:56",
+      "url": "hassan-adly/035.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "12:34",
+      "url": "hassan-adly/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "23:22",
+      "url": "hassan-adly/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "20:11",
+      "url": "hassan-adly/040.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:33",
+      "url": "hassan-adly/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "11:02",
+      "url": "hassan-adly/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "13:21",
+      "url": "hassan-adly/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "11:06",
+      "url": "hassan-adly/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "12:01",
+      "url": "hassan-adly/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:02",
+      "url": "hassan-adly/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:55",
+      "url": "hassan-adly/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "5:08",
+      "url": "hassan-adly/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "4:35",
+      "url": "hassan-adly/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "5:15",
+      "url": "hassan-adly/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "5:05",
+      "url": "hassan-adly/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "6:32",
+      "url": "hassan-adly/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "6:07",
+      "url": "hassan-adly/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "7:43",
+      "url": "hassan-adly/057.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "8:16",
+      "url": "hassan-adly/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "6:20",
+      "url": "hassan-adly/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:01",
+      "url": "hassan-adly/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:12",
+      "url": "hassan-adly/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:50",
+      "url": "hassan-adly/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:42",
+      "url": "hassan-adly/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:36",
+      "url": "hassan-adly/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:44",
+      "url": "hassan-adly/066.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:08",
+      "url": "hassan-adly/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:20",
+      "url": "hassan-adly/069.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:38",
+      "url": "hassan-adly/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "4:55",
+      "url": "hassan-adly/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:04",
+      "url": "hassan-adly/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "4:58",
+      "url": "hassan-adly/074.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:15",
+      "url": "hassan-adly/076.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:01",
+      "url": "hassan-adly/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:48",
+      "url": "hassan-adly/079.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:19",
+      "url": "hassan-adly/084.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:52",
+      "url": "hassan-adly/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:07",
+      "url": "hassan-adly/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:21",
+      "url": "hassan-adly/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:05",
+      "url": "hassan-adly/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:24",
+      "url": "hassan-adly/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "52",
+      "url": "hassan-adly/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "33",
+      "url": "hassan-adly/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "41",
+      "url": "hassan-adly/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:18",
+      "url": "hassan-adly/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "34",
+      "url": "hassan-adly/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:42",
+      "url": "hassan-adly/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "48",
+      "url": "hassan-adly/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "52",
+      "url": "hassan-adly/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "54",
+      "url": "hassan-adly/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "40",
+      "url": "hassan-adly/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "24",
+      "url": "hassan-adly/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "40",
+      "url": "hassan-adly/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "33",
+      "url": "hassan-adly/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "30",
+      "url": "hassan-adly/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "51",
+      "url": "hassan-adly/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "20",
+      "url": "hassan-adly/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "31",
+      "url": "hassan-adly/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "26",
+      "url": "hassan-adly/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "27",
+      "url": "hassan-adly/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "19",
+      "url": "hassan-adly/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "26",
+      "url": "hassan-adly/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "35",
+      "url": "hassan-adly/114.mp3"
+    }
+  ]
+}

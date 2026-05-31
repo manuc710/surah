@@ -1,0 +1,92 @@
+{
+  "slug": "ahmed-abou-kasmi",
+  "count": 12,
+  "byNumber": {
+    "002": "ahmed-abou-kasmi/ahmed-abou-kasmi-002-muslimcentral.com.mp3",
+    "017": "ahmed-abou-kasmi/ahmed-abou-kasmi-017-muslimcentral.com.mp3",
+    "019": "ahmed-abou-kasmi/ahmed-abou-kasmi-019-muslimcentral.com.mp3",
+    "021": "ahmed-abou-kasmi/ahmed-abou-kasmi-021-muslimcentral.com.mp3",
+    "027": "ahmed-abou-kasmi/ahmed-abou-kasmi-027-muslimcentral.com.mp3",
+    "030": "ahmed-abou-kasmi/ahmed-abou-kasmi-030-muslimcentral.com.mp3",
+    "031": "ahmed-abou-kasmi/ahmed-abou-kasmi-031-muslimcentral.com.mp3",
+    "033": "ahmed-abou-kasmi/ahmed-abou-kasmi-033-muslimcentral.com.mp3",
+    "039": "ahmed-abou-kasmi/ahmed-abou-kasmi-039-muslimcentral.com.mp3",
+    "042": "ahmed-abou-kasmi/ahmed-abou-kasmi-042-muslimcentral.com.mp3",
+    "057": "ahmed-abou-kasmi/ahmed-abou-kasmi-057-muslimcentral.com.mp3",
+    "058": "ahmed-abou-kasmi/ahmed-abou-kasmi-058-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "002",
+      "title": "002 Al-Baqara",
+      "duration": "6:01",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-002-muslimcentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "8:40",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-017-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "14:52",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "21",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "29:50",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Room",
+      "duration": "6:27",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-030-muslimcentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "3:38",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-031-muslimcentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "5:30",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "9:30",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-039-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "8:17",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "9:19",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-057-muslimcentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "11:20",
+      "url": "ahmed-abou-kasmi/ahmed-abou-kasmi-058-muslimcentral.com.mp3"
+    }
+  ]
+}

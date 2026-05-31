@@ -1,0 +1,29 @@
+{
+  "slug": "hazem-saif",
+  "count": 3,
+  "byNumber": {
+    "001": "hazem-saif/001.mp3",
+    "002": "hazem-saif/002.mp3",
+    "003": "hazem-saif/003.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "47",
+      "url": "hazem-saif/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:22:29",
+      "url": "hazem-saif/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:24:25",
+      "url": "hazem-saif/003.mp3"
+    }
+  ]
+}

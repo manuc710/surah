@@ -1,0 +1,491 @@
+{
+  "slug": "salaah-ar-raashid",
+  "count": 69,
+  "byNumber": {
+    "001": "salaah-ar-raashid/001.mp3",
+    "012": "salaah-ar-raashid/012.mp3",
+    "014": "salaah-ar-raashid/014.mp3",
+    "040": "salaah-ar-raashid/040.mp3",
+    "044": "salaah-ar-raashid/044.mp3",
+    "046": "salaah-ar-raashid/046.mp3",
+    "047": "salaah-ar-raashid/047.mp3",
+    "049": "salaah-ar-raashid/049.mp3",
+    "050": "salaah-ar-raashid/050.mp3",
+    "051": "salaah-ar-raashid/051.mp3",
+    "052": "salaah-ar-raashid/052.mp3",
+    "057": "salaah-ar-raashid/057.mp3",
+    "058": "salaah-ar-raashid/058.mp3",
+    "059": "salaah-ar-raashid/059.mp3",
+    "060": "salaah-ar-raashid/060.mp3",
+    "061": "salaah-ar-raashid/061.mp3",
+    "062": "salaah-ar-raashid/062.mp3",
+    "063": "salaah-ar-raashid/063.mp3",
+    "064": "salaah-ar-raashid/064.mp3",
+    "065": "salaah-ar-raashid/065.mp3",
+    "066": "salaah-ar-raashid/066.mp3",
+    "067": "salaah-ar-raashid/067.mp3",
+    "068": "salaah-ar-raashid/068.mp3",
+    "069": "salaah-ar-raashid/069.mp3",
+    "070": "salaah-ar-raashid/070.mp3",
+    "071": "salaah-ar-raashid/071.mp3",
+    "072": "salaah-ar-raashid/072.mp3",
+    "073": "salaah-ar-raashid/073.mp3",
+    "074": "salaah-ar-raashid/074.mp3",
+    "075": "salaah-ar-raashid/075.mp3",
+    "076": "salaah-ar-raashid/076.mp3",
+    "077": "salaah-ar-raashid/077.mp3",
+    "078": "salaah-ar-raashid/078.mp3",
+    "079": "salaah-ar-raashid/079.mp3",
+    "080": "salaah-ar-raashid/080.mp3",
+    "081": "salaah-ar-raashid/081.mp3",
+    "082": "salaah-ar-raashid/082.mp3",
+    "083": "salaah-ar-raashid/083.mp3",
+    "084": "salaah-ar-raashid/084.mp3",
+    "085": "salaah-ar-raashid/085.mp3",
+    "086": "salaah-ar-raashid/086.mp3",
+    "087": "salaah-ar-raashid/087.mp3",
+    "088": "salaah-ar-raashid/088.mp3",
+    "089": "salaah-ar-raashid/089.mp3",
+    "090": "salaah-ar-raashid/090.mp3",
+    "091": "salaah-ar-raashid/091.mp3",
+    "092": "salaah-ar-raashid/092.mp3",
+    "093": "salaah-ar-raashid/093.mp3",
+    "094": "salaah-ar-raashid/094.mp3",
+    "095": "salaah-ar-raashid/095.mp3",
+    "096": "salaah-ar-raashid/096.mp3",
+    "097": "salaah-ar-raashid/097.mp3",
+    "098": "salaah-ar-raashid/098.mp3",
+    "099": "salaah-ar-raashid/099.mp3",
+    "100": "salaah-ar-raashid/100.mp3",
+    "101": "salaah-ar-raashid/101.mp3",
+    "102": "salaah-ar-raashid/102.mp3",
+    "103": "salaah-ar-raashid/103.mp3",
+    "104": "salaah-ar-raashid/104.mp3",
+    "105": "salaah-ar-raashid/105.mp3",
+    "106": "salaah-ar-raashid/106.mp3",
+    "107": "salaah-ar-raashid/107.mp3",
+    "108": "salaah-ar-raashid/108.mp3",
+    "109": "salaah-ar-raashid/109.mp3",
+    "110": "salaah-ar-raashid/110.mp3",
+    "111": "salaah-ar-raashid/111.mp3",
+    "112": "salaah-ar-raashid/112.mp3",
+    "113": "salaah-ar-raashid/113.mp3",
+    "114": "salaah-ar-raashid/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "46",
+      "url": "salaah-ar-raashid/001.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "33:01",
+      "url": "salaah-ar-raashid/012.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "15:43",
+      "url": "salaah-ar-raashid/014.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "21:08",
+      "url": "salaah-ar-raashid/040.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:26",
+      "url": "salaah-ar-raashid/044.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "11:53",
+      "url": "salaah-ar-raashid/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "9:51",
+      "url": "salaah-ar-raashid/047.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "6:15",
+      "url": "salaah-ar-raashid/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:15",
+      "url": "salaah-ar-raashid/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:01",
+      "url": "salaah-ar-raashid/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:04",
+      "url": "salaah-ar-raashid/052.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "10:13",
+      "url": "salaah-ar-raashid/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "8:00",
+      "url": "salaah-ar-raashid/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "7:29",
+      "url": "salaah-ar-raashid/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "5:55",
+      "url": "salaah-ar-raashid/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "3:38",
+      "url": "salaah-ar-raashid/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:16",
+      "url": "salaah-ar-raashid/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:36",
+      "url": "salaah-ar-raashid/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:46",
+      "url": "salaah-ar-raashid/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:11",
+      "url": "salaah-ar-raashid/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "4:46",
+      "url": "salaah-ar-raashid/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:19",
+      "url": "salaah-ar-raashid/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "5:14",
+      "url": "salaah-ar-raashid/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "4:33",
+      "url": "salaah-ar-raashid/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "3:52",
+      "url": "salaah-ar-raashid/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "3:21",
+      "url": "salaah-ar-raashid/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "3:52",
+      "url": "salaah-ar-raashid/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:13",
+      "url": "salaah-ar-raashid/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "4:08",
+      "url": "salaah-ar-raashid/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "2:30",
+      "url": "salaah-ar-raashid/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:06",
+      "url": "salaah-ar-raashid/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "3:22",
+      "url": "salaah-ar-raashid/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:34",
+      "url": "salaah-ar-raashid/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:11",
+      "url": "salaah-ar-raashid/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:44",
+      "url": "salaah-ar-raashid/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "1:47",
+      "url": "salaah-ar-raashid/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:27",
+      "url": "salaah-ar-raashid/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:29",
+      "url": "salaah-ar-raashid/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "1:57",
+      "url": "salaah-ar-raashid/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "1:56",
+      "url": "salaah-ar-raashid/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:08",
+      "url": "salaah-ar-raashid/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:17",
+      "url": "salaah-ar-raashid/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:39",
+      "url": "salaah-ar-raashid/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:31",
+      "url": "salaah-ar-raashid/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:24",
+      "url": "salaah-ar-raashid/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:04",
+      "url": "salaah-ar-raashid/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:22",
+      "url": "salaah-ar-raashid/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "49",
+      "url": "salaah-ar-raashid/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "31",
+      "url": "salaah-ar-raashid/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "44",
+      "url": "salaah-ar-raashid/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:12",
+      "url": "salaah-ar-raashid/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "35",
+      "url": "salaah-ar-raashid/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:39",
+      "url": "salaah-ar-raashid/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "45",
+      "url": "salaah-ar-raashid/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "49",
+      "url": "salaah-ar-raashid/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "45",
+      "url": "salaah-ar-raashid/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "39",
+      "url": "salaah-ar-raashid/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "21",
+      "url": "salaah-ar-raashid/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "40",
+      "url": "salaah-ar-raashid/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "32",
+      "url": "salaah-ar-raashid/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "26",
+      "url": "salaah-ar-raashid/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "37",
+      "url": "salaah-ar-raashid/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "17",
+      "url": "salaah-ar-raashid/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "34",
+      "url": "salaah-ar-raashid/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "25",
+      "url": "salaah-ar-raashid/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "28",
+      "url": "salaah-ar-raashid/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "salaah-ar-raashid/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "25",
+      "url": "salaah-ar-raashid/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "32",
+      "url": "salaah-ar-raashid/114.mp3"
+    }
+  ]
+}

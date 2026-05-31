@@ -1,0 +1,57 @@
+{
+  "slug": "muhamad-abu-snina",
+  "count": 7,
+  "byNumber": {
+    "001": "muhamad-abu-snina/001.mp3",
+    "002": "muhamad-abu-snina/002.mp3",
+    "003": "muhamad-abu-snina/003.mp3",
+    "004": "muhamad-abu-snina/004.mp3",
+    "005": "muhamad-abu-snina/005.mp3",
+    "006": "muhamad-abu-snina/006.mp3",
+    "007": "muhamad-abu-snina/007.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "51",
+      "url": "muhamad-abu-snina/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:16:40",
+      "url": "muhamad-abu-snina/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:14:47",
+      "url": "muhamad-abu-snina/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:19:09",
+      "url": "muhamad-abu-snina/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "58:50",
+      "url": "muhamad-abu-snina/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:04:54",
+      "url": "muhamad-abu-snina/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:14:03",
+      "url": "muhamad-abu-snina/007.mp3"
+    }
+  ]
+}

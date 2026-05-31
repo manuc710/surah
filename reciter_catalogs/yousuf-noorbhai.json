@@ -1,0 +1,71 @@
+{
+  "slug": "yousuf-noorbhai",
+  "count": 9,
+  "byNumber": {
+    "036": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-036-ya-seen-2020-04-24-04-50-07.mp3",
+    "032": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-032-as-sajda-2020-04-24-04-48-12.mp3",
+    "034": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-034-saba-2020-04-24-04-47-24.mp3",
+    "035": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-035-fatir-2020-04-24-04-45-39.mp3",
+    "018": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-018-al-kahf-2020-04-24-04-46-03.mp3",
+    "001": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-001-al-fatihah-2020-04-24-04-42-53.mp3",
+    "091": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-091-ash-shams-2020-04-24-04-42-01.mp3",
+    "092": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-092-al-lail-2020-04-24-04-39-16.mp3",
+    "033": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-033-al-ahzab-2020-04-24-04-38-39.mp3"
+  },
+  "list": [
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "21:07",
+      "url": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-036-ya-seen-2020-04-24-04-50-07.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "9:12",
+      "url": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-032-as-sajda-2020-04-24-04-48-12.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "17:50",
+      "url": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-034-saba-2020-04-24-04-47-24.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "3:39",
+      "url": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-035-fatir-2020-04-24-04-45-39.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "32:16",
+      "url": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-018-al-kahf-2020-04-24-04-46-03.mp3"
+    },
+    {
+      "n": "001",
+      "title": "001 Al-Fatihah",
+      "duration": "58",
+      "url": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-001-al-fatihah-2020-04-24-04-42-53.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:32",
+      "url": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-091-ash-shams-2020-04-24-04-42-01.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:52",
+      "url": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-092-al-lail-2020-04-24-04-39-16.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "29:42",
+      "url": "yousuf-noorbhai/yousuf-noorbhai-qurancentral.com-033-al-ahzab-2020-04-24-04-38-39.mp3"
+    }
+  ]
+}

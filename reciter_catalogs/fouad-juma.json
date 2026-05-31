@@ -1,0 +1,78 @@
+{
+  "slug": "fouad-juma",
+  "count": 10,
+  "byNumber": {
+    "001": "fouad-juma/001.mp3",
+    "013": "fouad-juma/013.mp3",
+    "025": "fouad-juma/025.mp3",
+    "046": "fouad-juma/046.mp3",
+    "047": "fouad-juma/047.mp3",
+    "049": "fouad-juma/049.mp3",
+    "050": "fouad-juma/050.mp3",
+    "067": "fouad-juma/067.mp3",
+    "068": "fouad-juma/068.mp3",
+    "085": "fouad-juma/085.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "39",
+      "url": "fouad-juma/001.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "21:51",
+      "url": "fouad-juma/013.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "21:11",
+      "url": "fouad-juma/025.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "16:19",
+      "url": "fouad-juma/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "13:41",
+      "url": "fouad-juma/047.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "9:23",
+      "url": "fouad-juma/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "10:27",
+      "url": "fouad-juma/050.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "8:08",
+      "url": "fouad-juma/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "9:06",
+      "url": "fouad-juma/068.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "3:04",
+      "url": "fouad-juma/085.mp3"
+    }
+  ]
+}

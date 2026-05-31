@@ -1,0 +1,519 @@
+{
+  "slug": "majed-al-zamil",
+  "count": 73,
+  "byNumber": {
+    "002": "majed-al-zamil/majed-al-zamil-002-muslimcentral.com.mp3",
+    "003": "majed-al-zamil/majed-al-zamil-003-muslimcentral.com.mp3",
+    "005": "majed-al-zamil/majed-al-zamil-005-muslimcentral.com.mp3",
+    "008": "majed-al-zamil/majed-al-zamil-008-muslimcentral.com.mp3",
+    "013": "majed-al-zamil/majed-al-zamil-013-muslimcentral.com.mp3",
+    "014": "majed-al-zamil/majed-al-zamil-014-muslimcentral.com.mp3",
+    "015": "majed-al-zamil/majed-al-zamil-015-muslimcentral.com.mp3",
+    "017": "majed-al-zamil/majed-al-zamil-017-muslimcentral.com.mp3",
+    "021": "majed-al-zamil/majed-al-zamil-021-muslimcentral.com.mp3",
+    "022": "majed-al-zamil/majed-al-zamil-022-muslimcentral.com.mp3",
+    "023": "majed-al-zamil/majed-al-zamil-023-muslimcentral.com.mp3",
+    "025": "majed-al-zamil/majed-al-zamil-025-muslimcentral.com.mp3",
+    "036": "majed-al-zamil/majed-al-zamil-036-muslimcentral.com.mp3",
+    "044": "majed-al-zamil/majed-al-zamil-044-muslimcentral.com.mp3",
+    "046": "majed-al-zamil/majed-al-zamil-046-muslimcentral.com.mp3",
+    "047": "majed-al-zamil/majed-al-zamil-047-muslimcentral.com.mp3",
+    "048": "majed-al-zamil/majed-al-zamil-048-muslimcentral.com.mp3",
+    "049": "majed-al-zamil/majed-al-zamil-049-muslimcentral.com.mp3",
+    "050": "majed-al-zamil/majed-al-zamil-050-muslimcentral.com.mp3",
+    "051": "majed-al-zamil/majed-al-zamil-051-muslimcentral.com.mp3",
+    "052": "majed-al-zamil/majed-al-zamil-052-muslimcentral.com.mp3",
+    "053": "majed-al-zamil/majed-al-zamil-053-muslimcentral.com.mp3",
+    "054": "majed-al-zamil/majed-al-zamil-054-muslimcentral.com.mp3",
+    "055": "majed-al-zamil/majed-al-zamil-055-muslimcentral.com.mp3",
+    "056": "majed-al-zamil/majed-al-zamil-056-muslimcentral.com.mp3",
+    "057": "majed-al-zamil/majed-al-zamil-057-muslimcentral.com.mp3",
+    "067": "majed-al-zamil/majed-al-zamil-067-muslimcentral.com.mp3",
+    "068": "majed-al-zamil/majed-al-zamil-068-muslimcentral.com.mp3",
+    "069": "majed-al-zamil/majed-al-zamil-069-muslimcentral.com.mp3",
+    "070": "majed-al-zamil/majed-al-zamil-070-muslimcentral.com.mp3",
+    "071": "majed-al-zamil/majed-al-zamil-071-muslimcentral.com.mp3",
+    "072": "majed-al-zamil/majed-al-zamil-072-muslimcentral.com.mp3",
+    "073": "majed-al-zamil/majed-al-zamil-073-muslimcentral.com.mp3",
+    "074": "majed-al-zamil/majed-al-zamil-074-muslimcentral.com.mp3",
+    "075": "majed-al-zamil/majed-al-zamil-075-muslimcentral.com.mp3",
+    "076": "majed-al-zamil/majed-al-zamil-076-muslimcentral.com.mp3",
+    "077": "majed-al-zamil/majed-al-zamil-077-muslimcentral.com.mp3",
+    "078": "majed-al-zamil/majed-al-zamil-078-muslimcentral.com.mp3",
+    "080": "majed-al-zamil/majed-al-zamil-080-muslimcentral.com.mp3",
+    "081": "majed-al-zamil/majed-al-zamil-081-muslimcentral.com.mp3",
+    "082": "majed-al-zamil/majed-al-zamil-082-muslimcentral.com.mp3",
+    "083": "majed-al-zamil/majed-al-zamil-083-muslimcentral.com.mp3",
+    "084": "majed-al-zamil/majed-al-zamil-084-muslimcentral.com.mp3",
+    "085": "majed-al-zamil/majed-al-zamil-085-muslimcentral.com.mp3",
+    "086": "majed-al-zamil/majed-al-zamil-086-muslimcentral.com.mp3",
+    "087": "majed-al-zamil/majed-al-zamil-087-muslimcentral.com.mp3",
+    "088": "majed-al-zamil/majed-al-zamil-088-muslimcentral.com.mp3",
+    "089": "majed-al-zamil/majed-al-zamil-089-muslimcentral.com.mp3",
+    "090": "majed-al-zamil/majed-al-zamil-090-muslimcentral.com.mp3",
+    "091": "majed-al-zamil/majed-al-zamil-091-muslimcentral.com.mp3",
+    "092": "majed-al-zamil/majed-al-zamil-092-muslimcentral.com.mp3",
+    "093": "majed-al-zamil/majed-al-zamil-093-muslimcentral.com.mp3",
+    "094": "majed-al-zamil/majed-al-zamil-094-muslimcentral.com.mp3",
+    "095": "majed-al-zamil/majed-al-zamil-095-muslimcentral.com.mp3",
+    "096": "majed-al-zamil/majed-al-zamil-096-muslimcentral.com.mp3",
+    "097": "majed-al-zamil/majed-al-zamil-097-muslimcentral.com.mp3",
+    "098": "majed-al-zamil/majed-al-zamil-098-muslimcentral.com.mp3",
+    "099": "majed-al-zamil/majed-al-zamil-099-muslimcentral.com.mp3",
+    "100": "majed-al-zamil/majed-al-zamil-100-muslimcentral.com.mp3",
+    "101": "majed-al-zamil/majed-al-zamil-101-muslimcentral.com.mp3",
+    "102": "majed-al-zamil/majed-al-zamil-102-muslimcentral.com.mp3",
+    "103": "majed-al-zamil/majed-al-zamil-103-muslimcentral.com.mp3",
+    "104": "majed-al-zamil/majed-al-zamil-104-muslimcentral.com.mp3",
+    "105": "majed-al-zamil/majed-al-zamil-105-muslimcentral.com.mp3",
+    "106": "majed-al-zamil/majed-al-zamil-106-muslimcentral.com.mp3",
+    "107": "majed-al-zamil/majed-al-zamil-107-muslimcentral.com.mp3",
+    "108": "majed-al-zamil/majed-al-zamil-108-muslimcentral.com.mp3",
+    "109": "majed-al-zamil/majed-al-zamil-109-muslimcentral.com.mp3",
+    "110": "majed-al-zamil/majed-al-zamil-110-muslimcentral.com.mp3",
+    "111": "majed-al-zamil/majed-al-zamil-111-muslimcentral.com.mp3",
+    "112": "majed-al-zamil/majed-al-zamil-112-muslimcentral.com.mp3",
+    "113": "majed-al-zamil/majed-al-zamil-113-muslimcentral.com.mp3",
+    "114": "majed-al-zamil/majed-al-zamil-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "002",
+      "title": "002 Al-Baqara",
+      "duration": "1:49:40",
+      "url": "majed-al-zamil/majed-al-zamil-002-muslimcentral.com.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:00:57",
+      "url": "majed-al-zamil/majed-al-zamil-003-muslimcentral.com.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "49:54",
+      "url": "majed-al-zamil/majed-al-zamil-005-muslimcentral.com.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "21:18",
+      "url": "majed-al-zamil/majed-al-zamil-008-muslimcentral.com.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "14:39",
+      "url": "majed-al-zamil/majed-al-zamil-013-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "14:15",
+      "url": "majed-al-zamil/majed-al-zamil-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "13:20",
+      "url": "majed-al-zamil/majed-al-zamil-015-muslimcentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "28:15",
+      "url": "majed-al-zamil/majed-al-zamil-017-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "23:51",
+      "url": "majed-al-zamil/majed-al-zamil-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "23:26",
+      "url": "majed-al-zamil/majed-al-zamil-022-muslimcentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "19:19",
+      "url": "majed-al-zamil/majed-al-zamil-023-muslimcentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "18:56",
+      "url": "majed-al-zamil/majed-al-zamil-025-muslimcentral.com.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "12:30",
+      "url": "majed-al-zamil/majed-al-zamil-036-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "8:00",
+      "url": "majed-al-zamil/majed-al-zamil-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "11:41",
+      "url": "majed-al-zamil/majed-al-zamil-046-muslimcentral.com.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "10:51",
+      "url": "majed-al-zamil/majed-al-zamil-047-muslimcentral.com.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "11:20",
+      "url": "majed-al-zamil/majed-al-zamil-048-muslimcentral.com.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:55",
+      "url": "majed-al-zamil/majed-al-zamil-049-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:21",
+      "url": "majed-al-zamil/majed-al-zamil-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:53",
+      "url": "majed-al-zamil/majed-al-zamil-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:54",
+      "url": "majed-al-zamil/majed-al-zamil-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:33",
+      "url": "majed-al-zamil/majed-al-zamil-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:36",
+      "url": "majed-al-zamil/majed-al-zamil-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:58",
+      "url": "majed-al-zamil/majed-al-zamil-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "10:34",
+      "url": "majed-al-zamil/majed-al-zamil-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "11:44",
+      "url": "majed-al-zamil/majed-al-zamil-057-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:50",
+      "url": "majed-al-zamil/majed-al-zamil-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "4:49",
+      "url": "majed-al-zamil/majed-al-zamil-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:06",
+      "url": "majed-al-zamil/majed-al-zamil-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "3:54",
+      "url": "majed-al-zamil/majed-al-zamil-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "3:56",
+      "url": "majed-al-zamil/majed-al-zamil-071-muslimcentral.com.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "4:15",
+      "url": "majed-al-zamil/majed-al-zamil-072-muslimcentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:04",
+      "url": "majed-al-zamil/majed-al-zamil-073-muslimcentral.com.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "3:53",
+      "url": "majed-al-zamil/majed-al-zamil-074-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:16",
+      "url": "majed-al-zamil/majed-al-zamil-075-muslimcentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:13",
+      "url": "majed-al-zamil/majed-al-zamil-076-muslimcentral.com.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "3:14",
+      "url": "majed-al-zamil/majed-al-zamil-077-muslimcentral.com.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:32",
+      "url": "majed-al-zamil/majed-al-zamil-078-muslimcentral.com.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:38",
+      "url": "majed-al-zamil/majed-al-zamil-080-muslimcentral.com.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "1:48",
+      "url": "majed-al-zamil/majed-al-zamil-081-muslimcentral.com.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:32",
+      "url": "majed-al-zamil/majed-al-zamil-082-muslimcentral.com.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:21",
+      "url": "majed-al-zamil/majed-al-zamil-083-muslimcentral.com.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "1:59",
+      "url": "majed-al-zamil/majed-al-zamil-084-muslimcentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:14",
+      "url": "majed-al-zamil/majed-al-zamil-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:07",
+      "url": "majed-al-zamil/majed-al-zamil-086-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:14",
+      "url": "majed-al-zamil/majed-al-zamil-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:36",
+      "url": "majed-al-zamil/majed-al-zamil-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:31",
+      "url": "majed-al-zamil/majed-al-zamil-089-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:20",
+      "url": "majed-al-zamil/majed-al-zamil-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:01",
+      "url": "majed-al-zamil/majed-al-zamil-091-muslimcentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:18",
+      "url": "majed-al-zamil/majed-al-zamil-092-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "43",
+      "url": "majed-al-zamil/majed-al-zamil-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "25",
+      "url": "majed-al-zamil/majed-al-zamil-094-muslimcentral.com.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "38",
+      "url": "majed-al-zamil/majed-al-zamil-095-muslimcentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:05",
+      "url": "majed-al-zamil/majed-al-zamil-096-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "30",
+      "url": "majed-al-zamil/majed-al-zamil-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:34",
+      "url": "majed-al-zamil/majed-al-zamil-098-muslimcentral.com.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "42",
+      "url": "majed-al-zamil/majed-al-zamil-099-muslimcentral.com.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "47",
+      "url": "majed-al-zamil/majed-al-zamil-100-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "43",
+      "url": "majed-al-zamil/majed-al-zamil-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "38",
+      "url": "majed-al-zamil/majed-al-zamil-102-muslimcentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "17",
+      "url": "majed-al-zamil/majed-al-zamil-103-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "35",
+      "url": "majed-al-zamil/majed-al-zamil-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "26",
+      "url": "majed-al-zamil/majed-al-zamil-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "21",
+      "url": "majed-al-zamil/majed-al-zamil-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "30",
+      "url": "majed-al-zamil/majed-al-zamil-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "12",
+      "url": "majed-al-zamil/majed-al-zamil-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "30",
+      "url": "majed-al-zamil/majed-al-zamil-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "23",
+      "url": "majed-al-zamil/majed-al-zamil-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "24",
+      "url": "majed-al-zamil/majed-al-zamil-111-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "12",
+      "url": "majed-al-zamil/majed-al-zamil-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "20",
+      "url": "majed-al-zamil/majed-al-zamil-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "24",
+      "url": "majed-al-zamil/majed-al-zamil-114-muslimcentral.com.mp3"
+    }
+  ]
+}

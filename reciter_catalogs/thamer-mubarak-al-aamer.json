@@ -1,0 +1,232 @@
+{
+  "slug": "thamer-mubarak-al-aamer",
+  "count": 32,
+  "byNumber": {
+    "001": "thamer-mubarak-al-aamer/001.mp3",
+    "061": "thamer-mubarak-al-aamer/061.mp3",
+    "063": "thamer-mubarak-al-aamer/063.mp3",
+    "064": "thamer-mubarak-al-aamer/064.mp3",
+    "066": "thamer-mubarak-al-aamer/066.mp3",
+    "067": "thamer-mubarak-al-aamer/067.mp3",
+    "068": "thamer-mubarak-al-aamer/068.mp3",
+    "071": "thamer-mubarak-al-aamer/071.mp3",
+    "075": "thamer-mubarak-al-aamer/075.mp3",
+    "076": "thamer-mubarak-al-aamer/076.mp3",
+    "077": "thamer-mubarak-al-aamer/077.mp3",
+    "078": "thamer-mubarak-al-aamer/078.mp3",
+    "079": "thamer-mubarak-al-aamer/079.mp3",
+    "080": "thamer-mubarak-al-aamer/080.mp3",
+    "081": "thamer-mubarak-al-aamer/081.mp3",
+    "082": "thamer-mubarak-al-aamer/082.mp3",
+    "086": "thamer-mubarak-al-aamer/086.mp3",
+    "087": "thamer-mubarak-al-aamer/087.mp3",
+    "089": "thamer-mubarak-al-aamer/089.mp3",
+    "090": "thamer-mubarak-al-aamer/090.mp3",
+    "092": "thamer-mubarak-al-aamer/092.mp3",
+    "094": "thamer-mubarak-al-aamer/094.mp3",
+    "098": "thamer-mubarak-al-aamer/098.mp3",
+    "100": "thamer-mubarak-al-aamer/100.mp3",
+    "101": "thamer-mubarak-al-aamer/101.mp3",
+    "104": "thamer-mubarak-al-aamer/104.mp3",
+    "105": "thamer-mubarak-al-aamer/105.mp3",
+    "108": "thamer-mubarak-al-aamer/108.mp3",
+    "111": "thamer-mubarak-al-aamer/111.mp3",
+    "112": "thamer-mubarak-al-aamer/112.mp3",
+    "113": "thamer-mubarak-al-aamer/113.mp3",
+    "114": "thamer-mubarak-al-aamer/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "1:08",
+      "url": "thamer-mubarak-al-aamer/001.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:59",
+      "url": "thamer-mubarak-al-aamer/061.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "5:27",
+      "url": "thamer-mubarak-al-aamer/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "6:56",
+      "url": "thamer-mubarak-al-aamer/064.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "6:08",
+      "url": "thamer-mubarak-al-aamer/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:19",
+      "url": "thamer-mubarak-al-aamer/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "7:51",
+      "url": "thamer-mubarak-al-aamer/068.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "5:10",
+      "url": "thamer-mubarak-al-aamer/071.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "4:13",
+      "url": "thamer-mubarak-al-aamer/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "6:22",
+      "url": "thamer-mubarak-al-aamer/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "5:11",
+      "url": "thamer-mubarak-al-aamer/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "5:21",
+      "url": "thamer-mubarak-al-aamer/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:36",
+      "url": "thamer-mubarak-al-aamer/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:48",
+      "url": "thamer-mubarak-al-aamer/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:40",
+      "url": "thamer-mubarak-al-aamer/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "2:13",
+      "url": "thamer-mubarak-al-aamer/082.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:31",
+      "url": "thamer-mubarak-al-aamer/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:34",
+      "url": "thamer-mubarak-al-aamer/087.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:22",
+      "url": "thamer-mubarak-al-aamer/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:51",
+      "url": "thamer-mubarak-al-aamer/090.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:47",
+      "url": "thamer-mubarak-al-aamer/092.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "38",
+      "url": "thamer-mubarak-al-aamer/094.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "2:26",
+      "url": "thamer-mubarak-al-aamer/098.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:12",
+      "url": "thamer-mubarak-al-aamer/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "59",
+      "url": "thamer-mubarak-al-aamer/101.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "51",
+      "url": "thamer-mubarak-al-aamer/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "45",
+      "url": "thamer-mubarak-al-aamer/105.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "19",
+      "url": "thamer-mubarak-al-aamer/108.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "35",
+      "url": "thamer-mubarak-al-aamer/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "18",
+      "url": "thamer-mubarak-al-aamer/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "26",
+      "url": "thamer-mubarak-al-aamer/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "44",
+      "url": "thamer-mubarak-al-aamer/114.mp3"
+    }
+  ]
+}

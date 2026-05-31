@@ -1,0 +1,22 @@
+{
+  "slug": "ibraheem-kaddaaf",
+  "count": 2,
+  "byNumber": {
+    "020": "ibraheem-kaddaaf/020.mp3",
+    "021": "ibraheem-kaddaaf/021.mp3"
+  },
+  "list": [
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "23:07",
+      "url": "ibraheem-kaddaaf/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "22:48",
+      "url": "ibraheem-kaddaaf/021.mp3"
+    }
+  ]
+}

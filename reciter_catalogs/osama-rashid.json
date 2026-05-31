@@ -1,0 +1,141 @@
+{
+  "slug": "osama-rashid",
+  "count": 19,
+  "byNumber": {
+    "001": "osama-rashid/001.mp3",
+    "012": "osama-rashid/012.mp3",
+    "013": "osama-rashid/013.mp3",
+    "029": "osama-rashid/029.mp3",
+    "031": "osama-rashid/031.mp3",
+    "032": "osama-rashid/032.mp3",
+    "046": "osama-rashid/046.mp3",
+    "047": "osama-rashid/047.mp3",
+    "048": "osama-rashid/048.mp3",
+    "049": "osama-rashid/049.mp3",
+    "050": "osama-rashid/050.mp3",
+    "058": "osama-rashid/058.mp3",
+    "061": "osama-rashid/061.mp3",
+    "076": "osama-rashid/076.mp3",
+    "077": "osama-rashid/077.mp3",
+    "078": "osama-rashid/078.mp3",
+    "079": "osama-rashid/079.mp3",
+    "080": "osama-rashid/080.mp3",
+    "081": "osama-rashid/081.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "41",
+      "url": "osama-rashid/001.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "36:45",
+      "url": "osama-rashid/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "16:50",
+      "url": "osama-rashid/013.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "18:39",
+      "url": "osama-rashid/029.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "9:59",
+      "url": "osama-rashid/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:35",
+      "url": "osama-rashid/032.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "11:33",
+      "url": "osama-rashid/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "9:56",
+      "url": "osama-rashid/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "9:55",
+      "url": "osama-rashid/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "6:18",
+      "url": "osama-rashid/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "6:36",
+      "url": "osama-rashid/050.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:07",
+      "url": "osama-rashid/058.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:05",
+      "url": "osama-rashid/061.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:50",
+      "url": "osama-rashid/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:04",
+      "url": "osama-rashid/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:50",
+      "url": "osama-rashid/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:49",
+      "url": "osama-rashid/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:06",
+      "url": "osama-rashid/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:12",
+      "url": "osama-rashid/081.mp3"
+    }
+  ]
+}

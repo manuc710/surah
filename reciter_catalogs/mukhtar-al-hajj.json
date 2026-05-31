@@ -1,0 +1,113 @@
+{
+  "slug": "mukhtar-al-hajj",
+  "count": 15,
+  "byNumber": {
+    "002": "mukhtar-al-hajj/002.mp3",
+    "007": "mukhtar-al-hajj/007.mp3",
+    "012": "mukhtar-al-hajj/012.mp3",
+    "016": "mukhtar-al-hajj/016.mp3",
+    "018": "mukhtar-al-hajj/018.mp3",
+    "023": "mukhtar-al-hajj/023.mp3",
+    "032": "mukhtar-al-hajj/032.mp3",
+    "035": "mukhtar-al-hajj/035.mp3",
+    "036": "mukhtar-al-hajj/036.mp3",
+    "039": "mukhtar-al-hajj/039.mp3",
+    "041": "mukhtar-al-hajj/041.mp3",
+    "042": "mukhtar-al-hajj/042.mp3",
+    "059": "mukhtar-al-hajj/059.mp3",
+    "068": "mukhtar-al-hajj/068.mp3",
+    "069": "mukhtar-al-hajj/069.mp3"
+  },
+  "list": [
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:00:16",
+      "url": "mukhtar-al-hajj/002.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "12:52",
+      "url": "mukhtar-al-hajj/007.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "42:48",
+      "url": "mukhtar-al-hajj/012.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "35:37",
+      "url": "mukhtar-al-hajj/016.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "30:21",
+      "url": "mukhtar-al-hajj/018.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "15:39",
+      "url": "mukhtar-al-hajj/023.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:53",
+      "url": "mukhtar-al-hajj/032.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:15",
+      "url": "mukhtar-al-hajj/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "18:19",
+      "url": "mukhtar-al-hajj/036.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "28:07",
+      "url": "mukhtar-al-hajj/039.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "19:49",
+      "url": "mukhtar-al-hajj/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "19:44",
+      "url": "mukhtar-al-hajj/042.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "1:17",
+      "url": "mukhtar-al-hajj/059.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "13:01",
+      "url": "mukhtar-al-hajj/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "17:36",
+      "url": "mukhtar-al-hajj/069.mp3"
+    }
+  ]
+}

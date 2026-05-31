@@ -1,0 +1,29 @@
+{
+  "slug": "hamdi-al-zamil",
+  "count": 3,
+  "byNumber": {
+    "066": "hamdi-al-zamil/066.mp3",
+    "086": "hamdi-al-zamil/086.mp3",
+    "087": "hamdi-al-zamil/087.mp3"
+  },
+  "list": [
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "31:39",
+      "url": "hamdi-al-zamil/066.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "5:06",
+      "url": "hamdi-al-zamil/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "4:55",
+      "url": "hamdi-al-zamil/087.mp3"
+    }
+  ]
+}

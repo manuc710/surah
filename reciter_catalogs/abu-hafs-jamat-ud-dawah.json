@@ -1,0 +1,36 @@
+{
+  "slug": "abu-hafs-jamat-ud-dawah",
+  "count": 4,
+  "byNumber": {
+    "056": "abu-hafs-jamat-ud-dawah/056.mp3",
+    "061": "abu-hafs-jamat-ud-dawah/061.mp3",
+    "075": "abu-hafs-jamat-ud-dawah/075.mp3",
+    "102": "abu-hafs-jamat-ud-dawah/102.mp3"
+  },
+  "list": [
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:56",
+      "url": "abu-hafs-jamat-ud-dawah/056.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "5:28",
+      "url": "abu-hafs-jamat-ud-dawah/061.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "13:42",
+      "url": "abu-hafs-jamat-ud-dawah/075.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "1:21",
+      "url": "abu-hafs-jamat-ud-dawah/102.mp3"
+    }
+  ]
+}

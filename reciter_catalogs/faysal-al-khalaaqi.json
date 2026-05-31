@@ -1,0 +1,22 @@
+{
+  "slug": "faysal-al-khalaaqi",
+  "count": 2,
+  "byNumber": {
+    "018": "faysal-al-khalaaqi/018.mp3",
+    "019": "faysal-al-khalaaqi/019.mp3"
+  },
+  "list": [
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "37:50",
+      "url": "faysal-al-khalaaqi/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "25:32",
+      "url": "faysal-al-khalaaqi/019.mp3"
+    }
+  ]
+}

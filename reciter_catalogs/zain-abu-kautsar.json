@@ -1,0 +1,36 @@
+{
+  "slug": "zain-abu-kautsar",
+  "count": 4,
+  "byNumber": {
+    "102": "zain-abu-kautsar/zain-abu-kautsar-qurancentral.com-102-at-takathur-2020-12-23-04-28-06.mp3",
+    "061": "zain-abu-kautsar/zain-abu-kautsar-qurancentral.com-061-as-saff-2020-12-23-04-27-25.mp3",
+    "056": "zain-abu-kautsar/zain-abu-kautsar-qurancentral.com-056-al-waqia-2020-12-23-04-26-37.mp3",
+    "001": "zain-abu-kautsar/zain-abu-kautsar-qurancentral.com-001-al-fatihah-2020-12-10-08-26-31.mp3"
+  },
+  "list": [
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "1:11",
+      "url": "zain-abu-kautsar/zain-abu-kautsar-qurancentral.com-102-at-takathur-2020-12-23-04-28-06.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "5:28",
+      "url": "zain-abu-kautsar/zain-abu-kautsar-qurancentral.com-061-as-saff-2020-12-23-04-27-25.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "10:10",
+      "url": "zain-abu-kautsar/zain-abu-kautsar-qurancentral.com-056-al-waqia-2020-12-23-04-26-37.mp3"
+    },
+    {
+      "n": "001",
+      "title": "001 Al-Fatihah",
+      "duration": "1:11",
+      "url": "zain-abu-kautsar/zain-abu-kautsar-qurancentral.com-001-al-fatihah-2020-12-10-08-26-31.mp3"
+    }
+  ]
+}

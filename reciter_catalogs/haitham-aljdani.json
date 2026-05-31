@@ -1,0 +1,113 @@
+{
+  "slug": "haitham-aljdani",
+  "count": 15,
+  "byNumber": {
+    "002": "haitham-aljdani/002.mp3",
+    "006": "haitham-aljdani/006.mp3",
+    "007": "haitham-aljdani/007.mp3",
+    "009": "haitham-aljdani/009.mp3",
+    "010": "haitham-aljdani/010.mp3",
+    "013": "haitham-aljdani/013.mp3",
+    "014": "haitham-aljdani/014.mp3",
+    "015": "haitham-aljdani/015.mp3",
+    "051": "haitham-aljdani/051.mp3",
+    "052": "haitham-aljdani/052.mp3",
+    "053": "haitham-aljdani/053.mp3",
+    "054": "haitham-aljdani/054.mp3",
+    "055": "haitham-aljdani/055.mp3",
+    "056": "haitham-aljdani/056.mp3",
+    "057": "haitham-aljdani/057.mp3"
+  },
+  "list": [
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:00:11",
+      "url": "haitham-aljdani/002.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "57:58",
+      "url": "haitham-aljdani/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:04:12",
+      "url": "haitham-aljdani/007.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "47:47",
+      "url": "haitham-aljdani/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "34:31",
+      "url": "haitham-aljdani/010.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "16:46",
+      "url": "haitham-aljdani/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "17:20",
+      "url": "haitham-aljdani/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "13:03",
+      "url": "haitham-aljdani/015.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:53",
+      "url": "haitham-aljdani/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:29",
+      "url": "haitham-aljdani/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:15",
+      "url": "haitham-aljdani/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:49",
+      "url": "haitham-aljdani/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:00",
+      "url": "haitham-aljdani/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:41",
+      "url": "haitham-aljdani/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "12:08",
+      "url": "haitham-aljdani/057.mp3"
+    }
+  ]
+}

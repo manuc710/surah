@@ -1,0 +1,246 @@
+{
+  "slug": "ahmed-al-qattani",
+  "count": 34,
+  "byNumber": {
+    "002": "ahmed-al-qattani/002.mp3",
+    "078": "ahmed-al-qattani/078.mp3",
+    "079": "ahmed-al-qattani/079.mp3",
+    "080": "ahmed-al-qattani/080.mp3",
+    "081": "ahmed-al-qattani/081.mp3",
+    "082": "ahmed-al-qattani/082.mp3",
+    "083": "ahmed-al-qattani/083.mp3",
+    "084": "ahmed-al-qattani/084.mp3",
+    "085": "ahmed-al-qattani/085.mp3",
+    "087": "ahmed-al-qattani/087.mp3",
+    "088": "ahmed-al-qattani/088.mp3",
+    "089": "ahmed-al-qattani/089.mp3",
+    "090": "ahmed-al-qattani/090.mp3",
+    "091": "ahmed-al-qattani/091.mp3",
+    "092": "ahmed-al-qattani/092.mp3",
+    "093": "ahmed-al-qattani/093.mp3",
+    "094": "ahmed-al-qattani/094.mp3",
+    "096": "ahmed-al-qattani/096.mp3",
+    "097": "ahmed-al-qattani/097.mp3",
+    "098": "ahmed-al-qattani/098.mp3",
+    "100": "ahmed-al-qattani/100.mp3",
+    "102": "ahmed-al-qattani/102.mp3",
+    "103": "ahmed-al-qattani/103.mp3",
+    "105": "ahmed-al-qattani/105.mp3",
+    "104": "ahmed-al-qattani/104.mp3",
+    "106": "ahmed-al-qattani/106.mp3",
+    "107": "ahmed-al-qattani/107.mp3",
+    "108": "ahmed-al-qattani/108.mp3",
+    "109": "ahmed-al-qattani/109.mp3",
+    "110": "ahmed-al-qattani/110.mp3",
+    "111": "ahmed-al-qattani/111.mp3",
+    "112": "ahmed-al-qattani/112.mp3",
+    "113": "ahmed-al-qattani/113.mp3",
+    "114": "ahmed-al-qattani/114.mp3"
+  },
+  "list": [
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "1:58:41",
+      "url": "ahmed-al-qattani/002.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "5:05",
+      "url": "ahmed-al-qattani/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:13",
+      "url": "ahmed-al-qattani/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:49",
+      "url": "ahmed-al-qattani/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:35",
+      "url": "ahmed-al-qattani/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:52",
+      "url": "ahmed-al-qattani/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:42",
+      "url": "ahmed-al-qattani/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:23",
+      "url": "ahmed-al-qattani/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:37",
+      "url": "ahmed-al-qattani/085.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:27",
+      "url": "ahmed-al-qattani/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:46",
+      "url": "ahmed-al-qattani/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:38",
+      "url": "ahmed-al-qattani/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:31",
+      "url": "ahmed-al-qattani/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:13",
+      "url": "ahmed-al-qattani/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:36",
+      "url": "ahmed-al-qattani/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:03",
+      "url": "ahmed-al-qattani/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "39",
+      "url": "ahmed-al-qattani/094.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:27",
+      "url": "ahmed-al-qattani/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "39",
+      "url": "ahmed-al-qattani/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "2:12",
+      "url": "ahmed-al-qattani/098.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:05",
+      "url": "ahmed-al-qattani/100.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "44",
+      "url": "ahmed-al-qattani/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "24",
+      "url": "ahmed-al-qattani/103.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "34",
+      "url": "ahmed-al-qattani/105.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "44",
+      "url": "ahmed-al-qattani/104.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "34",
+      "url": "ahmed-al-qattani/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "36",
+      "url": "ahmed-al-qattani/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "18",
+      "url": "ahmed-al-qattani/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "43",
+      "url": "ahmed-al-qattani/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "28",
+      "url": "ahmed-al-qattani/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "35",
+      "url": "ahmed-al-qattani/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "19",
+      "url": "ahmed-al-qattani/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "26",
+      "url": "ahmed-al-qattani/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "39",
+      "url": "ahmed-al-qattani/114.mp3"
+    }
+  ]
+}

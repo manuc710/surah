@@ -1,0 +1,92 @@
+{
+  "slug": "qays-haail",
+  "count": 12,
+  "byNumber": {
+    "031": "qays-haail/031.mp3",
+    "067": "qays-haail/067.mp3",
+    "068": "qays-haail/068.mp3",
+    "069": "qays-haail/069.mp3",
+    "070": "qays-haail/070.mp3",
+    "071": "qays-haail/071.mp3",
+    "072": "qays-haail/072.mp3",
+    "073": "qays-haail/073.mp3",
+    "074": "qays-haail/074.mp3",
+    "075": "qays-haail/075.mp3",
+    "076": "qays-haail/076.mp3",
+    "077": "qays-haail/077.mp3"
+  },
+  "list": [
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "11:58",
+      "url": "qays-haail/031.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:13",
+      "url": "qays-haail/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:58",
+      "url": "qays-haail/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:41",
+      "url": "qays-haail/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:46",
+      "url": "qays-haail/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:40",
+      "url": "qays-haail/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:51",
+      "url": "qays-haail/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:27",
+      "url": "qays-haail/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:15",
+      "url": "qays-haail/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:37",
+      "url": "qays-haail/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:22",
+      "url": "qays-haail/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:27",
+      "url": "qays-haail/077.mp3"
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "slug": "shawqy-hamed",
+  "count": 70,
+  "byNumber": {
+    "001": "shawqy-hamed/001.mp3",
+    "005": "shawqy-hamed/005.mp3",
+    "008": "shawqy-hamed/008.mp3",
+    "009": "shawqy-hamed/009.mp3",
+    "010": "shawqy-hamed/010.mp3",
+    "011": "shawqy-hamed/011.mp3",
+    "012": "shawqy-hamed/012.mp3",
+    "013": "shawqy-hamed/013.mp3",
+    "014": "shawqy-hamed/014.mp3",
+    "015": "shawqy-hamed/015.mp3",
+    "016": "shawqy-hamed/016.mp3",
+    "017": "shawqy-hamed/017.mp3",
+    "018": "shawqy-hamed/018.mp3",
+    "019": "shawqy-hamed/019.mp3",
+    "020": "shawqy-hamed/020.mp3",
+    "021": "shawqy-hamed/021.mp3",
+    "022": "shawqy-hamed/022.mp3",
+    "023": "shawqy-hamed/023.mp3",
+    "024": "shawqy-hamed/024.mp3",
+    "025": "shawqy-hamed/025.mp3",
+    "026": "shawqy-hamed/026.mp3",
+    "028": "shawqy-hamed/028.mp3",
+    "029": "shawqy-hamed/029.mp3",
+    "030": "shawqy-hamed/030.mp3",
+    "031": "shawqy-hamed/031.mp3",
+    "032": "shawqy-hamed/032.mp3",
+    "033": "shawqy-hamed/033.mp3",
+    "034": "shawqy-hamed/034.mp3",
+    "035": "shawqy-hamed/035.mp3",
+    "036": "shawqy-hamed/036.mp3",
+    "037": "shawqy-hamed/037.mp3",
+    "038": "shawqy-hamed/038.mp3",
+    "039": "shawqy-hamed/039.mp3",
+    "040": "shawqy-hamed/040.mp3",
+    "041": "shawqy-hamed/041.mp3",
+    "042": "shawqy-hamed/042.mp3",
+    "043": "shawqy-hamed/043.mp3",
+    "044": "shawqy-hamed/044.mp3",
+    "045": "shawqy-hamed/045.mp3",
+    "046": "shawqy-hamed/046.mp3",
+    "047": "shawqy-hamed/047.mp3",
+    "048": "shawqy-hamed/048.mp3",
+    "049": "shawqy-hamed/049.mp3",
+    "050": "shawqy-hamed/050.mp3",
+    "051": "shawqy-hamed/051.mp3",
+    "052": "shawqy-hamed/052.mp3",
+    "053": "shawqy-hamed/053.mp3",
+    "054": "shawqy-hamed/054.mp3",
+    "056": "shawqy-hamed/056.mp3",
+    "057": "shawqy-hamed/057.mp3",
+    "058": "shawqy-hamed/058.mp3",
+    "059": "shawqy-hamed/059.mp3",
+    "060": "shawqy-hamed/060.mp3",
+    "061": "shawqy-hamed/061.mp3",
+    "062": "shawqy-hamed/062.mp3",
+    "063": "shawqy-hamed/063.mp3",
+    "064": "shawqy-hamed/064.mp3",
+    "065": "shawqy-hamed/065.mp3",
+    "066": "shawqy-hamed/066.mp3",
+    "067": "shawqy-hamed/067.mp3",
+    "068": "shawqy-hamed/068.mp3",
+    "069": "shawqy-hamed/069.mp3",
+    "070": "shawqy-hamed/070.mp3",
+    "071": "shawqy-hamed/071.mp3",
+    "072": "shawqy-hamed/072.mp3",
+    "073": "shawqy-hamed/073.mp3",
+    "074": "shawqy-hamed/074.mp3",
+    "075": "shawqy-hamed/075.mp3",
+    "076": "shawqy-hamed/076.mp3",
+    "077": "shawqy-hamed/077.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "43",
+      "url": "shawqy-hamed/001.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "56:27",
+      "url": "shawqy-hamed/005.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "25:45",
+      "url": "shawqy-hamed/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "54:05",
+      "url": "shawqy-hamed/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "41:20",
+      "url": "shawqy-hamed/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "38:24",
+      "url": "shawqy-hamed/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "37:34",
+      "url": "shawqy-hamed/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "16:03",
+      "url": "shawqy-hamed/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "16:31",
+      "url": "shawqy-hamed/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "14:00",
+      "url": "shawqy-hamed/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "35:23",
+      "url": "shawqy-hamed/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "29:27",
+      "url": "shawqy-hamed/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "31:26",
+      "url": "shawqy-hamed/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:40",
+      "url": "shawqy-hamed/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "26:01",
+      "url": "shawqy-hamed/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "23:32",
+      "url": "shawqy-hamed/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "24:42",
+      "url": "shawqy-hamed/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "21:14",
+      "url": "shawqy-hamed/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "25:34",
+      "url": "shawqy-hamed/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "15:42",
+      "url": "shawqy-hamed/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "28:10",
+      "url": "shawqy-hamed/026.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "29:37",
+      "url": "shawqy-hamed/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "18:29",
+      "url": "shawqy-hamed/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Room",
+      "duration": "16:12",
+      "url": "shawqy-hamed/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "10:36",
+      "url": "shawqy-hamed/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:55",
+      "url": "shawqy-hamed/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "28:08",
+      "url": "shawqy-hamed/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "16:51",
+      "url": "shawqy-hamed/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "14:59",
+      "url": "shawqy-hamed/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "14:37",
+      "url": "shawqy-hamed/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "20:24",
+      "url": "shawqy-hamed/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "14:42",
+      "url": "shawqy-hamed/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "21:55",
+      "url": "shawqy-hamed/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "23:00",
+      "url": "shawqy-hamed/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "15:48",
+      "url": "shawqy-hamed/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "16:59",
+      "url": "shawqy-hamed/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "17:43",
+      "url": "shawqy-hamed/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:44",
+      "url": "shawqy-hamed/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "9:40",
+      "url": "shawqy-hamed/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "13:07",
+      "url": "shawqy-hamed/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "9:50",
+      "url": "shawqy-hamed/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:11",
+      "url": "shawqy-hamed/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:01",
+      "url": "shawqy-hamed/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:14",
+      "url": "shawqy-hamed/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:17",
+      "url": "shawqy-hamed/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:27",
+      "url": "shawqy-hamed/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:52",
+      "url": "shawqy-hamed/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "7:32",
+      "url": "shawqy-hamed/054.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:52",
+      "url": "shawqy-hamed/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "11:30",
+      "url": "shawqy-hamed/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:53",
+      "url": "shawqy-hamed/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:20",
+      "url": "shawqy-hamed/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "7:29",
+      "url": "shawqy-hamed/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:16",
+      "url": "shawqy-hamed/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:17",
+      "url": "shawqy-hamed/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:44",
+      "url": "shawqy-hamed/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:42",
+      "url": "shawqy-hamed/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:50",
+      "url": "shawqy-hamed/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:35",
+      "url": "shawqy-hamed/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:44",
+      "url": "shawqy-hamed/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:58",
+      "url": "shawqy-hamed/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:09",
+      "url": "shawqy-hamed/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:09",
+      "url": "shawqy-hamed/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:52",
+      "url": "shawqy-hamed/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:47",
+      "url": "shawqy-hamed/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:14",
+      "url": "shawqy-hamed/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:54",
+      "url": "shawqy-hamed/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:39",
+      "url": "shawqy-hamed/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:20",
+      "url": "shawqy-hamed/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:24",
+      "url": "shawqy-hamed/077.mp3"
+    }
+  ]
+}

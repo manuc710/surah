@@ -1,0 +1,64 @@
+{
+  "slug": "maalik-al-amoodi",
+  "count": 8,
+  "byNumber": {
+    "024": "maalik-al-amoodi/024.mp3",
+    "046": "maalik-al-amoodi/046.mp3",
+    "047": "maalik-al-amoodi/047.mp3",
+    "048": "maalik-al-amoodi/048.mp3",
+    "049": "maalik-al-amoodi/049.mp3",
+    "055": "maalik-al-amoodi/055.mp3",
+    "056": "maalik-al-amoodi/056.mp3",
+    "057": "maalik-al-amoodi/057.mp3"
+  },
+  "list": [
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "26:11",
+      "url": "maalik-al-amoodi/024.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "8:52",
+      "url": "maalik-al-amoodi/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "8:04",
+      "url": "maalik-al-amoodi/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:08",
+      "url": "maalik-al-amoodi/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "6:18",
+      "url": "maalik-al-amoodi/049.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "8:06",
+      "url": "maalik-al-amoodi/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "7:52",
+      "url": "maalik-al-amoodi/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "10:23",
+      "url": "maalik-al-amoodi/057.mp3"
+    }
+  ]
+}

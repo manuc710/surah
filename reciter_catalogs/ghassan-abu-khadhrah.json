@@ -1,0 +1,85 @@
+{
+  "slug": "ghassan-abu-khadhrah",
+  "count": 11,
+  "byNumber": {
+    "055": "ghassan-abu-khadhrah/055.mp3",
+    "067": "ghassan-abu-khadhrah/067.mp3",
+    "069": "ghassan-abu-khadhrah/069.mp3",
+    "070": "ghassan-abu-khadhrah/070.mp3",
+    "071": "ghassan-abu-khadhrah/071.mp3",
+    "072": "ghassan-abu-khadhrah/072.mp3",
+    "073": "ghassan-abu-khadhrah/073.mp3",
+    "074": "ghassan-abu-khadhrah/074.mp3",
+    "075": "ghassan-abu-khadhrah/075.mp3",
+    "076": "ghassan-abu-khadhrah/076.mp3",
+    "077": "ghassan-abu-khadhrah/077.mp3"
+  },
+  "list": [
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "11:19",
+      "url": "ghassan-abu-khadhrah/055.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:54",
+      "url": "ghassan-abu-khadhrah/067.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:10",
+      "url": "ghassan-abu-khadhrah/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:07",
+      "url": "ghassan-abu-khadhrah/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:57",
+      "url": "ghassan-abu-khadhrah/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "6:05",
+      "url": "ghassan-abu-khadhrah/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "5:53",
+      "url": "ghassan-abu-khadhrah/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "6:23",
+      "url": "ghassan-abu-khadhrah/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:56",
+      "url": "ghassan-abu-khadhrah/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "6:40",
+      "url": "ghassan-abu-khadhrah/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "5:19",
+      "url": "ghassan-abu-khadhrah/077.mp3"
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "slug": "mahmood-al-tabib",
+  "count": 66,
+  "byNumber": {
+    "001": "mahmood-al-tabib/mahmood-al-tabib-001-muslimcentral.com.mp3",
+    "011": "mahmood-al-tabib/mahmood-al-tabib-011-muslimcentral.com.mp3",
+    "012": "mahmood-al-tabib/mahmood-al-tabib-012-muslimcentral.com.mp3",
+    "024": "mahmood-al-tabib/mahmood-al-tabib-024-muslimcentral.com.mp3",
+    "032": "mahmood-al-tabib/mahmood-al-tabib-032-muslimcentral.com.mp3",
+    "042": "mahmood-al-tabib/mahmood-al-tabib-042-muslimcentral.com.mp3",
+    "050": "mahmood-al-tabib/mahmood-al-tabib-050-muslimcentral.com.mp3",
+    "053": "mahmood-al-tabib/mahmood-al-tabib-053-muslimcentral.com.mp3",
+    "056": "mahmood-al-tabib/mahmood-al-tabib-056-muslimcentral.com.mp3",
+    "058": "mahmood-al-tabib/mahmood-al-tabib-058-muslimcentral.com.mp3",
+    "059": "mahmood-al-tabib/mahmood-al-tabib-059-muslimcentral.com.mp3",
+    "060": "mahmood-al-tabib/mahmood-al-tabib-060-muslimcentral.com.mp3",
+    "061": "mahmood-al-tabib/mahmood-al-tabib-061-muslimcentral.com.mp3",
+    "062": "mahmood-al-tabib/mahmood-al-tabib-062-muslimcentral.com.mp3",
+    "063": "mahmood-al-tabib/mahmood-al-tabib-063-muslimcentral.com.mp3",
+    "064": "mahmood-al-tabib/mahmood-al-tabib-064-muslimcentral.com.mp3",
+    "065": "mahmood-al-tabib/mahmood-al-tabib-065-muslimcentral.com.mp3",
+    "066": "mahmood-al-tabib/mahmood-al-tabib-066-muslimcentral.com.mp3",
+    "067": "mahmood-al-tabib/mahmood-al-tabib-067-muslimcentral.com.mp3",
+    "068": "mahmood-al-tabib/mahmood-al-tabib-068-muslimcentral.com.mp3",
+    "069": "mahmood-al-tabib/mahmood-al-tabib-069-muslimcentral.com.mp3",
+    "070": "mahmood-al-tabib/mahmood-al-tabib-070-muslimcentral.com.mp3",
+    "071": "mahmood-al-tabib/mahmood-al-tabib-071-muslimcentral.com.mp3",
+    "072": "mahmood-al-tabib/mahmood-al-tabib-072-muslimcentral.com.mp3",
+    "073": "mahmood-al-tabib/mahmood-al-tabib-073-muslimcentral.com.mp3",
+    "074": "mahmood-al-tabib/mahmood-al-tabib-074-muslimcentral.com.mp3",
+    "075": "mahmood-al-tabib/mahmood-al-tabib-075-muslimcentral.com.mp3",
+    "076": "mahmood-al-tabib/mahmood-al-tabib-076-muslimcentral.com.mp3",
+    "077": "mahmood-al-tabib/mahmood-al-tabib-077-muslimcentral.com.mp3",
+    "078": "mahmood-al-tabib/mahmood-al-tabib-078-muslimcentral.com.mp3",
+    "079": "mahmood-al-tabib/mahmood-al-tabib-079-muslimcentral.com.mp3",
+    "080": "mahmood-al-tabib/mahmood-al-tabib-080-muslimcentral.com.mp3",
+    "081": "mahmood-al-tabib/mahmood-al-tabib-081-muslimcentral.com.mp3",
+    "082": "mahmood-al-tabib/mahmood-al-tabib-082-muslimcentral.com.mp3",
+    "083": "mahmood-al-tabib/mahmood-al-tabib-083-muslimcentral.com.mp3",
+    "084": "mahmood-al-tabib/mahmood-al-tabib-084-muslimcentral.com.mp3",
+    "085": "mahmood-al-tabib/mahmood-al-tabib-085-muslimcentral.com.mp3",
+    "086": "mahmood-al-tabib/mahmood-al-tabib-086-muslimcentral.com.mp3",
+    "087": "mahmood-al-tabib/mahmood-al-tabib-087-muslimcentral.com.mp3",
+    "088": "mahmood-al-tabib/mahmood-al-tabib-088-muslimcentral.com.mp3",
+    "089": "mahmood-al-tabib/mahmood-al-tabib-089-muslimcentral.com.mp3",
+    "090": "mahmood-al-tabib/mahmood-al-tabib-090-muslimcentral.com.mp3",
+    "091": "mahmood-al-tabib/mahmood-al-tabib-091-muslimcentral.com.mp3",
+    "092": "mahmood-al-tabib/mahmood-al-tabib-092-muslimcentral.com.mp3",
+    "093": "mahmood-al-tabib/mahmood-al-tabib-093-muslimcentral.com.mp3",
+    "094": "mahmood-al-tabib/mahmood-al-tabib-094-muslimcentral.com.mp3",
+    "095": "mahmood-al-tabib/mahmood-al-tabib-095-muslimcentral.com.mp3",
+    "096": "mahmood-al-tabib/mahmood-al-tabib-096-muslimcentral.com.mp3",
+    "097": "mahmood-al-tabib/mahmood-al-tabib-097-muslimcentral.com.mp3",
+    "098": "mahmood-al-tabib/mahmood-al-tabib-098-muslimcentral.com.mp3",
+    "099": "mahmood-al-tabib/mahmood-al-tabib-099-muslimcentral.com.mp3",
+    "100": "mahmood-al-tabib/mahmood-al-tabib-100-muslimcentral.com.mp3",
+    "101": "mahmood-al-tabib/mahmood-al-tabib-101-muslimcentral.com.mp3",
+    "102": "mahmood-al-tabib/mahmood-al-tabib-102-muslimcentral.com.mp3",
+    "103": "mahmood-al-tabib/mahmood-al-tabib-103-muslimcentral.com.mp3",
+    "104": "mahmood-al-tabib/mahmood-al-tabib-104-muslimcentral.com.mp3",
+    "105": "mahmood-al-tabib/mahmood-al-tabib-105-muslimcentral.com.mp3",
+    "106": "mahmood-al-tabib/mahmood-al-tabib-106-muslimcentral.com.mp3",
+    "107": "mahmood-al-tabib/mahmood-al-tabib-107-muslimcentral.com.mp3",
+    "108": "mahmood-al-tabib/mahmood-al-tabib-108-muslimcentral.com.mp3",
+    "109": "mahmood-al-tabib/mahmood-al-tabib-109-muslimcentral.com.mp3",
+    "110": "mahmood-al-tabib/mahmood-al-tabib-110-muslimcentral.com.mp3",
+    "111": "mahmood-al-tabib/mahmood-al-tabib-111-muslimcentral.com.mp3",
+    "112": "mahmood-al-tabib/mahmood-al-tabib-112-muslimcentral.com.mp3",
+    "113": "mahmood-al-tabib/mahmood-al-tabib-113-muslimcentral.com.mp3",
+    "114": "mahmood-al-tabib/mahmood-al-tabib-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "41",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "35:11",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-011-muslimcentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "31:32",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "25:23",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-024-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:24",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "15:26",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:27",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:38",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "8:25",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "8:21",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-058-muslimcentral.com.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "8:27",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-059-muslimcentral.com.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "6:33",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-060-muslimcentral.com.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "3:51",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-061-muslimcentral.com.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:06",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-062-muslimcentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:36",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-063-muslimcentral.com.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:25",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-064-muslimcentral.com.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:17",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-065-muslimcentral.com.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "4:33",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-066-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:31",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "5:33",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "4:51",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "3:56",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "3:44",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-071-muslimcentral.com.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "4:37",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-072-muslimcentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:24",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-073-muslimcentral.com.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "4:15",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-074-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "2:50",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-075-muslimcentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:17",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-076-muslimcentral.com.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "3:50",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-077-muslimcentral.com.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:26",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-078-muslimcentral.com.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:18",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-079-muslimcentral.com.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:36",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-080-muslimcentral.com.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "1:57",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-081-muslimcentral.com.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:30",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-082-muslimcentral.com.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:09",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-083-muslimcentral.com.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "1:59",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-084-muslimcentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:05",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:12",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-086-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:21",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:40",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:31",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-089-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:26",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:04",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-091-muslimcentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:22",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-092-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "50",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "32",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-094-muslimcentral.com.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "43",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-095-muslimcentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:15",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-096-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "33",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:34",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-098-muslimcentral.com.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "46",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-099-muslimcentral.com.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "52",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-100-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "44",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "40",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-102-muslimcentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "21",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-103-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "40",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "31",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "26",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "36",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "17",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "32",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "27",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "29",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-111-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "27",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "34",
+      "url": "mahmood-al-tabib/mahmood-al-tabib-114-muslimcentral.com.mp3"
+    }
+  ]
+}

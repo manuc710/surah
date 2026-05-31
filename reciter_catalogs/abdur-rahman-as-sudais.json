@@ -1,0 +1,806 @@
+{
+  "slug": "abdur-rahman-as-sudais",
+  "count": 114,
+  "byNumber": {
+    "001": "abdur-rahman-as-sudais/001.mp3",
+    "002": "abdur-rahman-as-sudais/002.mp3",
+    "003": "abdur-rahman-as-sudais/003.mp3",
+    "004": "abdur-rahman-as-sudais/004.mp3",
+    "005": "abdur-rahman-as-sudais/005.mp3",
+    "006": "abdur-rahman-as-sudais/006.mp3",
+    "007": "abdur-rahman-as-sudais/007.mp3",
+    "008": "abdur-rahman-as-sudais/008.mp3",
+    "009": "abdur-rahman-as-sudais/009.mp3",
+    "010": "abdur-rahman-as-sudais/010.mp3",
+    "011": "abdur-rahman-as-sudais/011.mp3",
+    "012": "abdur-rahman-as-sudais/012.mp3",
+    "013": "abdur-rahman-as-sudais/013.mp3",
+    "014": "abdur-rahman-as-sudais/014.mp3",
+    "015": "abdur-rahman-as-sudais/015.mp3",
+    "016": "abdur-rahman-as-sudais/016.mp3",
+    "017": "abdur-rahman-as-sudais/017.mp3",
+    "018": "abdur-rahman-as-sudais/018.mp3",
+    "019": "abdur-rahman-as-sudais/019.mp3",
+    "020": "abdur-rahman-as-sudais/020.mp3",
+    "021": "abdur-rahman-as-sudais/021.mp3",
+    "022": "abdur-rahman-as-sudais/022.mp3",
+    "023": "abdur-rahman-as-sudais/023.mp3",
+    "024": "abdur-rahman-as-sudais/024.mp3",
+    "025": "abdur-rahman-as-sudais/025.mp3",
+    "026": "abdur-rahman-as-sudais/026.mp3",
+    "027": "abdur-rahman-as-sudais/027.mp3",
+    "028": "abdur-rahman-as-sudais/028.mp3",
+    "029": "abdur-rahman-as-sudais/029.mp3",
+    "030": "abdur-rahman-as-sudais/030.mp3",
+    "031": "abdur-rahman-as-sudais/031.mp3",
+    "032": "abdur-rahman-as-sudais/032.mp3",
+    "033": "abdur-rahman-as-sudais/033.mp3",
+    "034": "abdur-rahman-as-sudais/034.mp3",
+    "035": "abdur-rahman-as-sudais/035.mp3",
+    "036": "abdur-rahman-as-sudais/036.mp3",
+    "037": "abdur-rahman-as-sudais/037.mp3",
+    "038": "abdur-rahman-as-sudais/038.mp3",
+    "039": "abdur-rahman-as-sudais/039.mp3",
+    "040": "abdur-rahman-as-sudais/040.mp3",
+    "041": "abdur-rahman-as-sudais/041.mp3",
+    "042": "abdur-rahman-as-sudais/042.mp3",
+    "043": "abdur-rahman-as-sudais/043.mp3",
+    "044": "abdur-rahman-as-sudais/044.mp3",
+    "045": "abdur-rahman-as-sudais/045.mp3",
+    "046": "abdur-rahman-as-sudais/046.mp3",
+    "047": "abdur-rahman-as-sudais/047.mp3",
+    "048": "abdur-rahman-as-sudais/048.mp3",
+    "049": "abdur-rahman-as-sudais/049.mp3",
+    "050": "abdur-rahman-as-sudais/050.mp3",
+    "051": "abdur-rahman-as-sudais/051.mp3",
+    "052": "abdur-rahman-as-sudais/052.mp3",
+    "053": "abdur-rahman-as-sudais/053.mp3",
+    "054": "abdur-rahman-as-sudais/054.mp3",
+    "055": "abdur-rahman-as-sudais/055.mp3",
+    "056": "abdur-rahman-as-sudais/056.mp3",
+    "057": "abdur-rahman-as-sudais/057.mp3",
+    "058": "abdur-rahman-as-sudais/058.mp3",
+    "059": "abdur-rahman-as-sudais/059.mp3",
+    "060": "abdur-rahman-as-sudais/060.mp3",
+    "061": "abdur-rahman-as-sudais/061.mp3",
+    "062": "abdur-rahman-as-sudais/062.mp3",
+    "063": "abdur-rahman-as-sudais/063.mp3",
+    "064": "abdur-rahman-as-sudais/064.mp3",
+    "065": "abdur-rahman-as-sudais/065.mp3",
+    "066": "abdur-rahman-as-sudais/066.mp3",
+    "067": "abdur-rahman-as-sudais/067.mp3",
+    "068": "abdur-rahman-as-sudais/068.mp3",
+    "069": "abdur-rahman-as-sudais/069.mp3",
+    "070": "abdur-rahman-as-sudais/070.mp3",
+    "071": "abdur-rahman-as-sudais/071.mp3",
+    "072": "abdur-rahman-as-sudais/072.mp3",
+    "073": "abdur-rahman-as-sudais/073.mp3",
+    "074": "abdur-rahman-as-sudais/074.mp3",
+    "075": "abdur-rahman-as-sudais/075.mp3",
+    "076": "abdur-rahman-as-sudais/076.mp3",
+    "077": "abdur-rahman-as-sudais/077.mp3",
+    "078": "abdur-rahman-as-sudais/078.mp3",
+    "079": "abdur-rahman-as-sudais/079.mp3",
+    "080": "abdur-rahman-as-sudais/080.mp3",
+    "081": "abdur-rahman-as-sudais/081.mp3",
+    "082": "abdur-rahman-as-sudais/082.mp3",
+    "083": "abdur-rahman-as-sudais/083.mp3",
+    "084": "abdur-rahman-as-sudais/084.mp3",
+    "085": "abdur-rahman-as-sudais/085.mp3",
+    "086": "abdur-rahman-as-sudais/086.mp3",
+    "087": "abdur-rahman-as-sudais/087.mp3",
+    "088": "abdur-rahman-as-sudais/088.mp3",
+    "089": "abdur-rahman-as-sudais/089.mp3",
+    "090": "abdur-rahman-as-sudais/090.mp3",
+    "091": "abdur-rahman-as-sudais/091.mp3",
+    "092": "abdur-rahman-as-sudais/092.mp3",
+    "093": "abdur-rahman-as-sudais/093.mp3",
+    "094": "abdur-rahman-as-sudais/094.mp3",
+    "095": "abdur-rahman-as-sudais/095.mp3",
+    "096": "abdur-rahman-as-sudais/096.mp3",
+    "097": "abdur-rahman-as-sudais/097.mp3",
+    "098": "abdur-rahman-as-sudais/098.mp3",
+    "099": "abdur-rahman-as-sudais/099.mp3",
+    "100": "abdur-rahman-as-sudais/100.mp3",
+    "101": "abdur-rahman-as-sudais/101.mp3",
+    "102": "abdur-rahman-as-sudais/102.mp3",
+    "103": "abdur-rahman-as-sudais/103.mp3",
+    "104": "abdur-rahman-as-sudais/104.mp3",
+    "105": "abdur-rahman-as-sudais/105.mp3",
+    "106": "abdur-rahman-as-sudais/106.mp3",
+    "107": "abdur-rahman-as-sudais/107.mp3",
+    "108": "abdur-rahman-as-sudais/108.mp3",
+    "109": "abdur-rahman-as-sudais/109.mp3",
+    "110": "abdur-rahman-as-sudais/110.mp3",
+    "111": "abdur-rahman-as-sudais/111.mp3",
+    "112": "abdur-rahman-as-sudais/112.mp3",
+    "113": "abdur-rahman-as-sudais/113.mp3",
+    "114": "abdur-rahman-as-sudais/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "38",
+      "url": "abdur-rahman-as-sudais/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "1:30:49",
+      "url": "abdur-rahman-as-sudais/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "55:15",
+      "url": "abdur-rahman-as-sudais/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:00:54",
+      "url": "abdur-rahman-as-sudais/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "44:53",
+      "url": "abdur-rahman-as-sudais/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "47:08",
+      "url": "abdur-rahman-as-sudais/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "53:41",
+      "url": "abdur-rahman-as-sudais/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "20:02",
+      "url": "abdur-rahman-as-sudais/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "40:54",
+      "url": "abdur-rahman-as-sudais/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "29:07",
+      "url": "abdur-rahman-as-sudais/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "31:23",
+      "url": "abdur-rahman-as-sudais/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "27:08",
+      "url": "abdur-rahman-as-sudais/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "14:51",
+      "url": "abdur-rahman-as-sudais/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "13:07",
+      "url": "abdur-rahman-as-sudais/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "10:58",
+      "url": "abdur-rahman-as-sudais/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "28:49",
+      "url": "abdur-rahman-as-sudais/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "25:21",
+      "url": "abdur-rahman-as-sudais/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "23:41",
+      "url": "abdur-rahman-as-sudais/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "15:41",
+      "url": "abdur-rahman-as-sudais/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "19:03",
+      "url": "abdur-rahman-as-sudais/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "19:04",
+      "url": "abdur-rahman-as-sudais/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "19:48",
+      "url": "abdur-rahman-as-sudais/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "16:34",
+      "url": "abdur-rahman-as-sudais/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "21:52",
+      "url": "abdur-rahman-as-sudais/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "14:06",
+      "url": "abdur-rahman-as-sudais/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "19:59",
+      "url": "abdur-rahman-as-sudais/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "17:53",
+      "url": "abdur-rahman-as-sudais/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "21:59",
+      "url": "abdur-rahman-as-sudais/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "15:03",
+      "url": "abdur-rahman-as-sudais/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "11:55",
+      "url": "abdur-rahman-as-sudais/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "8:38",
+      "url": "abdur-rahman-as-sudais/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "5:49",
+      "url": "abdur-rahman-as-sudais/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "23:54",
+      "url": "abdur-rahman-as-sudais/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "14:24",
+      "url": "abdur-rahman-as-sudais/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "11:36",
+      "url": "abdur-rahman-as-sudais/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "12:36",
+      "url": "abdur-rahman-as-sudais/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "14:10",
+      "url": "abdur-rahman-as-sudais/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "11:30",
+      "url": "abdur-rahman-as-sudais/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "18:50",
+      "url": "abdur-rahman-as-sudais/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "20:55",
+      "url": "abdur-rahman-as-sudais/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "12:45",
+      "url": "abdur-rahman-as-sudais/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "14:53",
+      "url": "abdur-rahman-as-sudais/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "16:00",
+      "url": "abdur-rahman-as-sudais/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "6:29",
+      "url": "abdur-rahman-as-sudais/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "8:19",
+      "url": "abdur-rahman-as-sudais/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "10:33",
+      "url": "abdur-rahman-as-sudais/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "9:15",
+      "url": "abdur-rahman-as-sudais/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "9:39",
+      "url": "abdur-rahman-as-sudais/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "6:10",
+      "url": "abdur-rahman-as-sudais/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:20",
+      "url": "abdur-rahman-as-sudais/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:44",
+      "url": "abdur-rahman-as-sudais/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "5:38",
+      "url": "abdur-rahman-as-sudais/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:37",
+      "url": "abdur-rahman-as-sudais/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "5:46",
+      "url": "abdur-rahman-as-sudais/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "7:55",
+      "url": "abdur-rahman-as-sudais/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "6:19",
+      "url": "abdur-rahman-as-sudais/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "8:47",
+      "url": "abdur-rahman-as-sudais/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:45",
+      "url": "abdur-rahman-as-sudais/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "7:45",
+      "url": "abdur-rahman-as-sudais/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "6:07",
+      "url": "abdur-rahman-as-sudais/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "3:52",
+      "url": "abdur-rahman-as-sudais/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:02",
+      "url": "abdur-rahman-as-sudais/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:18",
+      "url": "abdur-rahman-as-sudais/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:05",
+      "url": "abdur-rahman-as-sudais/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "4:48",
+      "url": "abdur-rahman-as-sudais/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "4:42",
+      "url": "abdur-rahman-as-sudais/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:57",
+      "url": "abdur-rahman-as-sudais/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "5:30",
+      "url": "abdur-rahman-as-sudais/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:25",
+      "url": "abdur-rahman-as-sudais/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:50",
+      "url": "abdur-rahman-as-sudais/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:14",
+      "url": "abdur-rahman-as-sudais/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "4:30",
+      "url": "abdur-rahman-as-sudais/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:24",
+      "url": "abdur-rahman-as-sudais/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "4:17",
+      "url": "abdur-rahman-as-sudais/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "2:40",
+      "url": "abdur-rahman-as-sudais/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:11",
+      "url": "abdur-rahman-as-sudais/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "3:27",
+      "url": "abdur-rahman-as-sudais/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:31",
+      "url": "abdur-rahman-as-sudais/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "2:59",
+      "url": "abdur-rahman-as-sudais/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:29",
+      "url": "abdur-rahman-as-sudais/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "1:42",
+      "url": "abdur-rahman-as-sudais/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:16",
+      "url": "abdur-rahman-as-sudais/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "2:50",
+      "url": "abdur-rahman-as-sudais/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "1:46",
+      "url": "abdur-rahman-as-sudais/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "1:50",
+      "url": "abdur-rahman-as-sudais/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:10",
+      "url": "abdur-rahman-as-sudais/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:12",
+      "url": "abdur-rahman-as-sudais/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:41",
+      "url": "abdur-rahman-as-sudais/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:25",
+      "url": "abdur-rahman-as-sudais/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:19",
+      "url": "abdur-rahman-as-sudais/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:01",
+      "url": "abdur-rahman-as-sudais/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:17",
+      "url": "abdur-rahman-as-sudais/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "46",
+      "url": "abdur-rahman-as-sudais/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "26",
+      "url": "abdur-rahman-as-sudais/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "38",
+      "url": "abdur-rahman-as-sudais/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:10",
+      "url": "abdur-rahman-as-sudais/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "32",
+      "url": "abdur-rahman-as-sudais/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:33",
+      "url": "abdur-rahman-as-sudais/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "50",
+      "url": "abdur-rahman-as-sudais/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "56",
+      "url": "abdur-rahman-as-sudais/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "52",
+      "url": "abdur-rahman-as-sudais/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "42",
+      "url": "abdur-rahman-as-sudais/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "26",
+      "url": "abdur-rahman-as-sudais/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "42",
+      "url": "abdur-rahman-as-sudais/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "35",
+      "url": "abdur-rahman-as-sudais/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "30",
+      "url": "abdur-rahman-as-sudais/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "34",
+      "url": "abdur-rahman-as-sudais/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "17",
+      "url": "abdur-rahman-as-sudais/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "31",
+      "url": "abdur-rahman-as-sudais/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "26",
+      "url": "abdur-rahman-as-sudais/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "29",
+      "url": "abdur-rahman-as-sudais/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "abdur-rahman-as-sudais/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "26",
+      "url": "abdur-rahman-as-sudais/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "30",
+      "url": "abdur-rahman-as-sudais/114.mp3"
+    }
+  ]
+}

@@ -1,0 +1,743 @@
+{
+  "slug": "abdallah-azab",
+  "count": 105,
+  "byNumber": {
+    "089": "abdallah-azab/089.mp3",
+    "107": "abdallah-azab/107.mp3",
+    "001": "abdallah-azab/001.mp3",
+    "003": "abdallah-azab/003.mp3",
+    "002": "abdallah-azab/002.mp3",
+    "004": "abdallah-azab/004.mp3",
+    "007": "abdallah-azab/007.mp3",
+    "006": "abdallah-azab/006.mp3",
+    "008": "abdallah-azab/008.mp3",
+    "009": "abdallah-azab/009.mp3",
+    "010": "abdallah-azab/010.mp3",
+    "012": "abdallah-azab/012.mp3",
+    "011": "abdallah-azab/011.mp3",
+    "014": "abdallah-azab/014.mp3",
+    "015": "abdallah-azab/015.mp3",
+    "016": "abdallah-azab/016.mp3",
+    "017": "abdallah-azab/017.mp3",
+    "019": "abdallah-azab/019.mp3",
+    "020": "abdallah-azab/020.mp3",
+    "021": "abdallah-azab/021.mp3",
+    "025": "abdallah-azab/025.mp3",
+    "024": "abdallah-azab/024.mp3",
+    "026": "abdallah-azab/026.mp3",
+    "027": "abdallah-azab/027.mp3",
+    "028": "abdallah-azab/028.mp3",
+    "030": "abdallah-azab/030.mp3",
+    "029": "abdallah-azab/029.mp3",
+    "031": "abdallah-azab/031.mp3",
+    "032": "abdallah-azab/032.mp3",
+    "034": "abdallah-azab/034.mp3",
+    "035": "abdallah-azab/035.mp3",
+    "036": "abdallah-azab/036.mp3",
+    "037": "abdallah-azab/037.mp3",
+    "038": "abdallah-azab/038.mp3",
+    "039": "abdallah-azab/039.mp3",
+    "041": "abdallah-azab/041.mp3",
+    "040": "abdallah-azab/040.mp3",
+    "042": "abdallah-azab/042.mp3",
+    "043": "abdallah-azab/043.mp3",
+    "044": "abdallah-azab/044.mp3",
+    "047": "abdallah-azab/047.mp3",
+    "046": "abdallah-azab/046.mp3",
+    "048": "abdallah-azab/048.mp3",
+    "049": "abdallah-azab/049.mp3",
+    "050": "abdallah-azab/050.mp3",
+    "051": "abdallah-azab/051.mp3",
+    "053": "abdallah-azab/053.mp3",
+    "052": "abdallah-azab/052.mp3",
+    "054": "abdallah-azab/054.mp3",
+    "055": "abdallah-azab/055.mp3",
+    "057": "abdallah-azab/057.mp3",
+    "056": "abdallah-azab/056.mp3",
+    "058": "abdallah-azab/058.mp3",
+    "059": "abdallah-azab/059.mp3",
+    "060": "abdallah-azab/060.mp3",
+    "061": "abdallah-azab/061.mp3",
+    "063": "abdallah-azab/063.mp3",
+    "062": "abdallah-azab/062.mp3",
+    "064": "abdallah-azab/064.mp3",
+    "065": "abdallah-azab/065.mp3",
+    "067": "abdallah-azab/067.mp3",
+    "068": "abdallah-azab/068.mp3",
+    "070": "abdallah-azab/070.mp3",
+    "069": "abdallah-azab/069.mp3",
+    "071": "abdallah-azab/071.mp3",
+    "072": "abdallah-azab/072.mp3",
+    "073": "abdallah-azab/073.mp3",
+    "075": "abdallah-azab/075.mp3",
+    "074": "abdallah-azab/074.mp3",
+    "076": "abdallah-azab/076.mp3",
+    "077": "abdallah-azab/077.mp3",
+    "078": "abdallah-azab/078.mp3",
+    "079": "abdallah-azab/079.mp3",
+    "080": "abdallah-azab/080.mp3",
+    "082": "abdallah-azab/082.mp3",
+    "083": "abdallah-azab/083.mp3",
+    "084": "abdallah-azab/084.mp3",
+    "086": "abdallah-azab/086.mp3",
+    "085": "abdallah-azab/085.mp3",
+    "087": "abdallah-azab/087.mp3",
+    "088": "abdallah-azab/088.mp3",
+    "090": "abdallah-azab/090.mp3",
+    "091": "abdallah-azab/091.mp3",
+    "093": "abdallah-azab/093.mp3",
+    "092": "abdallah-azab/092.mp3",
+    "094": "abdallah-azab/094.mp3",
+    "095": "abdallah-azab/095.mp3",
+    "097": "abdallah-azab/097.mp3",
+    "096": "abdallah-azab/096.mp3",
+    "098": "abdallah-azab/098.mp3",
+    "099": "abdallah-azab/099.mp3",
+    "100": "abdallah-azab/100.mp3",
+    "101": "abdallah-azab/101.mp3",
+    "103": "abdallah-azab/103.mp3",
+    "102": "abdallah-azab/102.mp3",
+    "104": "abdallah-azab/104.mp3",
+    "105": "abdallah-azab/105.mp3",
+    "106": "abdallah-azab/106.mp3",
+    "108": "abdallah-azab/108.mp3",
+    "109": "abdallah-azab/109.mp3",
+    "110": "abdallah-azab/110.mp3",
+    "111": "abdallah-azab/111.mp3",
+    "112": "abdallah-azab/112.mp3",
+    "113": "abdallah-azab/113.mp3",
+    "114": "abdallah-azab/114.mp3"
+  },
+  "list": [
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:07",
+      "url": "abdallah-azab/089.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "33",
+      "url": "abdallah-azab/107.mp3"
+    },
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "43",
+      "url": "abdallah-azab/001.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:23:59",
+      "url": "abdallah-azab/003.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:24:04",
+      "url": "abdallah-azab/002.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:27:36",
+      "url": "abdallah-azab/004.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:15:33",
+      "url": "abdallah-azab/007.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:12:56",
+      "url": "abdallah-azab/006.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "28:48",
+      "url": "abdallah-azab/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "58:49",
+      "url": "abdallah-azab/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "40:19",
+      "url": "abdallah-azab/010.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "41:53",
+      "url": "abdallah-azab/012.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "42:22",
+      "url": "abdallah-azab/011.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "19:13",
+      "url": "abdallah-azab/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "14:17",
+      "url": "abdallah-azab/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "41:31",
+      "url": "abdallah-azab/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "33:09",
+      "url": "abdallah-azab/017.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "21:34",
+      "url": "abdallah-azab/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "27:57",
+      "url": "abdallah-azab/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "26:59",
+      "url": "abdallah-azab/021.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "19:44",
+      "url": "abdallah-azab/025.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "30:16",
+      "url": "abdallah-azab/024.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "28:11",
+      "url": "abdallah-azab/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "25:54",
+      "url": "abdallah-azab/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "31:57",
+      "url": "abdallah-azab/028.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "18:42",
+      "url": "abdallah-azab/030.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "21:18",
+      "url": "abdallah-azab/029.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "11:55",
+      "url": "abdallah-azab/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "8:47",
+      "url": "abdallah-azab/032.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "18:11",
+      "url": "abdallah-azab/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "17:55",
+      "url": "abdallah-azab/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "16:56",
+      "url": "abdallah-azab/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "21:49",
+      "url": "abdallah-azab/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "16:24",
+      "url": "abdallah-azab/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "27:46",
+      "url": "abdallah-azab/039.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "19:58",
+      "url": "abdallah-azab/041.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "27:27",
+      "url": "abdallah-azab/040.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "18:27",
+      "url": "abdallah-azab/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "17:48",
+      "url": "abdallah-azab/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:55",
+      "url": "abdallah-azab/044.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "12:49",
+      "url": "abdallah-azab/047.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "14:05",
+      "url": "abdallah-azab/046.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "12:39",
+      "url": "abdallah-azab/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:44",
+      "url": "abdallah-azab/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "9:25",
+      "url": "abdallah-azab/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "8:00",
+      "url": "abdallah-azab/051.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "8:22",
+      "url": "abdallah-azab/053.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "7:19",
+      "url": "abdallah-azab/052.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "8:29",
+      "url": "abdallah-azab/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "11:37",
+      "url": "abdallah-azab/055.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "17:27",
+      "url": "abdallah-azab/057.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "10:37",
+      "url": "abdallah-azab/056.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:28",
+      "url": "abdallah-azab/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:34",
+      "url": "abdallah-azab/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "8:32",
+      "url": "abdallah-azab/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:43",
+      "url": "abdallah-azab/061.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:06",
+      "url": "abdallah-azab/063.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:57",
+      "url": "abdallah-azab/062.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:46",
+      "url": "abdallah-azab/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:55",
+      "url": "abdallah-azab/065.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:31",
+      "url": "abdallah-azab/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:59",
+      "url": "abdallah-azab/068.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:58",
+      "url": "abdallah-azab/070.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:11",
+      "url": "abdallah-azab/069.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "5:11",
+      "url": "abdallah-azab/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:14",
+      "url": "abdallah-azab/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:23",
+      "url": "abdallah-azab/073.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:45",
+      "url": "abdallah-azab/075.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:10",
+      "url": "abdallah-azab/074.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "6:52",
+      "url": "abdallah-azab/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:18",
+      "url": "abdallah-azab/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:46",
+      "url": "abdallah-azab/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:13",
+      "url": "abdallah-azab/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:18",
+      "url": "abdallah-azab/080.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:49",
+      "url": "abdallah-azab/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:05",
+      "url": "abdallah-azab/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:24",
+      "url": "abdallah-azab/084.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:31",
+      "url": "abdallah-azab/086.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:44",
+      "url": "abdallah-azab/085.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:37",
+      "url": "abdallah-azab/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:01",
+      "url": "abdallah-azab/088.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:43",
+      "url": "abdallah-azab/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:17",
+      "url": "abdallah-azab/091.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:01",
+      "url": "abdallah-azab/093.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:40",
+      "url": "abdallah-azab/092.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "34",
+      "url": "abdallah-azab/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "48",
+      "url": "abdallah-azab/095.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "37",
+      "url": "abdallah-azab/097.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:26",
+      "url": "abdallah-azab/096.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:59",
+      "url": "abdallah-azab/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "51",
+      "url": "abdallah-azab/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "59",
+      "url": "abdallah-azab/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "48",
+      "url": "abdallah-azab/101.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "18",
+      "url": "abdallah-azab/103.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "42",
+      "url": "abdallah-azab/102.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "42",
+      "url": "abdallah-azab/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "36",
+      "url": "abdallah-azab/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "31",
+      "url": "abdallah-azab/106.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "16",
+      "url": "abdallah-azab/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "28",
+      "url": "abdallah-azab/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "25",
+      "url": "abdallah-azab/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "29",
+      "url": "abdallah-azab/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "14",
+      "url": "abdallah-azab/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "26",
+      "url": "abdallah-azab/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "36",
+      "url": "abdallah-azab/114.mp3"
+    }
+  ]
+}

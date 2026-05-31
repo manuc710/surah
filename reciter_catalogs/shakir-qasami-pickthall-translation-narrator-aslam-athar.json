@@ -1,0 +1,806 @@
+{
+  "slug": "shakir-qasami-pickthall-translation-narrator-aslam-athar",
+  "count": 114,
+  "byNumber": {
+    "001": "shakir-qasami-pickthall-translation-narrator-aslam-athar/001.mp3",
+    "002": "shakir-qasami-pickthall-translation-narrator-aslam-athar/002.mp3",
+    "003": "shakir-qasami-pickthall-translation-narrator-aslam-athar/003.mp3",
+    "004": "shakir-qasami-pickthall-translation-narrator-aslam-athar/004.mp3",
+    "005": "shakir-qasami-pickthall-translation-narrator-aslam-athar/005.mp3",
+    "006": "shakir-qasami-pickthall-translation-narrator-aslam-athar/006.mp3",
+    "007": "shakir-qasami-pickthall-translation-narrator-aslam-athar/007.mp3",
+    "009": "shakir-qasami-pickthall-translation-narrator-aslam-athar/009.mp3",
+    "008": "shakir-qasami-pickthall-translation-narrator-aslam-athar/008.mp3",
+    "010": "shakir-qasami-pickthall-translation-narrator-aslam-athar/010.mp3",
+    "011": "shakir-qasami-pickthall-translation-narrator-aslam-athar/011.mp3",
+    "012": "shakir-qasami-pickthall-translation-narrator-aslam-athar/012.mp3",
+    "013": "shakir-qasami-pickthall-translation-narrator-aslam-athar/013.mp3",
+    "014": "shakir-qasami-pickthall-translation-narrator-aslam-athar/014.mp3",
+    "015": "shakir-qasami-pickthall-translation-narrator-aslam-athar/015.mp3",
+    "016": "shakir-qasami-pickthall-translation-narrator-aslam-athar/016.mp3",
+    "017": "shakir-qasami-pickthall-translation-narrator-aslam-athar/017.mp3",
+    "019": "shakir-qasami-pickthall-translation-narrator-aslam-athar/019.mp3",
+    "018": "shakir-qasami-pickthall-translation-narrator-aslam-athar/018.mp3",
+    "020": "shakir-qasami-pickthall-translation-narrator-aslam-athar/020.mp3",
+    "021": "shakir-qasami-pickthall-translation-narrator-aslam-athar/021.mp3",
+    "022": "shakir-qasami-pickthall-translation-narrator-aslam-athar/022.mp3",
+    "023": "shakir-qasami-pickthall-translation-narrator-aslam-athar/023.mp3",
+    "024": "shakir-qasami-pickthall-translation-narrator-aslam-athar/024.mp3",
+    "025": "shakir-qasami-pickthall-translation-narrator-aslam-athar/025.mp3",
+    "026": "shakir-qasami-pickthall-translation-narrator-aslam-athar/026.mp3",
+    "027": "shakir-qasami-pickthall-translation-narrator-aslam-athar/027.mp3",
+    "028": "shakir-qasami-pickthall-translation-narrator-aslam-athar/028.mp3",
+    "029": "shakir-qasami-pickthall-translation-narrator-aslam-athar/029.mp3",
+    "030": "shakir-qasami-pickthall-translation-narrator-aslam-athar/030.mp3",
+    "031": "shakir-qasami-pickthall-translation-narrator-aslam-athar/031.mp3",
+    "032": "shakir-qasami-pickthall-translation-narrator-aslam-athar/032.mp3",
+    "033": "shakir-qasami-pickthall-translation-narrator-aslam-athar/033.mp3",
+    "034": "shakir-qasami-pickthall-translation-narrator-aslam-athar/034.mp3",
+    "035": "shakir-qasami-pickthall-translation-narrator-aslam-athar/035.mp3",
+    "036": "shakir-qasami-pickthall-translation-narrator-aslam-athar/036.mp3",
+    "037": "shakir-qasami-pickthall-translation-narrator-aslam-athar/037.mp3",
+    "038": "shakir-qasami-pickthall-translation-narrator-aslam-athar/038.mp3",
+    "039": "shakir-qasami-pickthall-translation-narrator-aslam-athar/039.mp3",
+    "040": "shakir-qasami-pickthall-translation-narrator-aslam-athar/040.mp3",
+    "041": "shakir-qasami-pickthall-translation-narrator-aslam-athar/041.mp3",
+    "042": "shakir-qasami-pickthall-translation-narrator-aslam-athar/042.mp3",
+    "043": "shakir-qasami-pickthall-translation-narrator-aslam-athar/043.mp3",
+    "044": "shakir-qasami-pickthall-translation-narrator-aslam-athar/044.mp3",
+    "045": "shakir-qasami-pickthall-translation-narrator-aslam-athar/045.mp3",
+    "046": "shakir-qasami-pickthall-translation-narrator-aslam-athar/046.mp3",
+    "047": "shakir-qasami-pickthall-translation-narrator-aslam-athar/047.mp3",
+    "048": "shakir-qasami-pickthall-translation-narrator-aslam-athar/048.mp3",
+    "049": "shakir-qasami-pickthall-translation-narrator-aslam-athar/049.mp3",
+    "051": "shakir-qasami-pickthall-translation-narrator-aslam-athar/051.mp3",
+    "050": "shakir-qasami-pickthall-translation-narrator-aslam-athar/050.mp3",
+    "052": "shakir-qasami-pickthall-translation-narrator-aslam-athar/052.mp3",
+    "054": "shakir-qasami-pickthall-translation-narrator-aslam-athar/054.mp3",
+    "053": "shakir-qasami-pickthall-translation-narrator-aslam-athar/053.mp3",
+    "055": "shakir-qasami-pickthall-translation-narrator-aslam-athar/055.mp3",
+    "056": "shakir-qasami-pickthall-translation-narrator-aslam-athar/056.mp3",
+    "057": "shakir-qasami-pickthall-translation-narrator-aslam-athar/057.mp3",
+    "058": "shakir-qasami-pickthall-translation-narrator-aslam-athar/058.mp3",
+    "059": "shakir-qasami-pickthall-translation-narrator-aslam-athar/059.mp3",
+    "060": "shakir-qasami-pickthall-translation-narrator-aslam-athar/060.mp3",
+    "062": "shakir-qasami-pickthall-translation-narrator-aslam-athar/062.mp3",
+    "061": "shakir-qasami-pickthall-translation-narrator-aslam-athar/061.mp3",
+    "063": "shakir-qasami-pickthall-translation-narrator-aslam-athar/063.mp3",
+    "064": "shakir-qasami-pickthall-translation-narrator-aslam-athar/064.mp3",
+    "065": "shakir-qasami-pickthall-translation-narrator-aslam-athar/065.mp3",
+    "066": "shakir-qasami-pickthall-translation-narrator-aslam-athar/066.mp3",
+    "067": "shakir-qasami-pickthall-translation-narrator-aslam-athar/067.mp3",
+    "068": "shakir-qasami-pickthall-translation-narrator-aslam-athar/068.mp3",
+    "069": "shakir-qasami-pickthall-translation-narrator-aslam-athar/069.mp3",
+    "070": "shakir-qasami-pickthall-translation-narrator-aslam-athar/070.mp3",
+    "071": "shakir-qasami-pickthall-translation-narrator-aslam-athar/071.mp3",
+    "073": "shakir-qasami-pickthall-translation-narrator-aslam-athar/073.mp3",
+    "072": "shakir-qasami-pickthall-translation-narrator-aslam-athar/072.mp3",
+    "074": "shakir-qasami-pickthall-translation-narrator-aslam-athar/074.mp3",
+    "075": "shakir-qasami-pickthall-translation-narrator-aslam-athar/075.mp3",
+    "076": "shakir-qasami-pickthall-translation-narrator-aslam-athar/076.mp3",
+    "077": "shakir-qasami-pickthall-translation-narrator-aslam-athar/077.mp3",
+    "078": "shakir-qasami-pickthall-translation-narrator-aslam-athar/078.mp3",
+    "079": "shakir-qasami-pickthall-translation-narrator-aslam-athar/079.mp3",
+    "080": "shakir-qasami-pickthall-translation-narrator-aslam-athar/080.mp3",
+    "081": "shakir-qasami-pickthall-translation-narrator-aslam-athar/081.mp3",
+    "082": "shakir-qasami-pickthall-translation-narrator-aslam-athar/082.mp3",
+    "083": "shakir-qasami-pickthall-translation-narrator-aslam-athar/083.mp3",
+    "085": "shakir-qasami-pickthall-translation-narrator-aslam-athar/085.mp3",
+    "084": "shakir-qasami-pickthall-translation-narrator-aslam-athar/084.mp3",
+    "086": "shakir-qasami-pickthall-translation-narrator-aslam-athar/086.mp3",
+    "087": "shakir-qasami-pickthall-translation-narrator-aslam-athar/087.mp3",
+    "088": "shakir-qasami-pickthall-translation-narrator-aslam-athar/088.mp3",
+    "090": "shakir-qasami-pickthall-translation-narrator-aslam-athar/090.mp3",
+    "089": "shakir-qasami-pickthall-translation-narrator-aslam-athar/089.mp3",
+    "091": "shakir-qasami-pickthall-translation-narrator-aslam-athar/091.mp3",
+    "092": "shakir-qasami-pickthall-translation-narrator-aslam-athar/092.mp3",
+    "093": "shakir-qasami-pickthall-translation-narrator-aslam-athar/093.mp3",
+    "094": "shakir-qasami-pickthall-translation-narrator-aslam-athar/094.mp3",
+    "095": "shakir-qasami-pickthall-translation-narrator-aslam-athar/095.mp3",
+    "096": "shakir-qasami-pickthall-translation-narrator-aslam-athar/096.mp3",
+    "097": "shakir-qasami-pickthall-translation-narrator-aslam-athar/097.mp3",
+    "098": "shakir-qasami-pickthall-translation-narrator-aslam-athar/098.mp3",
+    "099": "shakir-qasami-pickthall-translation-narrator-aslam-athar/099.mp3",
+    "100": "shakir-qasami-pickthall-translation-narrator-aslam-athar/100.mp3",
+    "101": "shakir-qasami-pickthall-translation-narrator-aslam-athar/101.mp3",
+    "102": "shakir-qasami-pickthall-translation-narrator-aslam-athar/102.mp3",
+    "104": "shakir-qasami-pickthall-translation-narrator-aslam-athar/104.mp3",
+    "103": "shakir-qasami-pickthall-translation-narrator-aslam-athar/103.mp3",
+    "105": "shakir-qasami-pickthall-translation-narrator-aslam-athar/105.mp3",
+    "106": "shakir-qasami-pickthall-translation-narrator-aslam-athar/106.mp3",
+    "107": "shakir-qasami-pickthall-translation-narrator-aslam-athar/107.mp3",
+    "109": "shakir-qasami-pickthall-translation-narrator-aslam-athar/109.mp3",
+    "108": "shakir-qasami-pickthall-translation-narrator-aslam-athar/108.mp3",
+    "110": "shakir-qasami-pickthall-translation-narrator-aslam-athar/110.mp3",
+    "111": "shakir-qasami-pickthall-translation-narrator-aslam-athar/111.mp3",
+    "112": "shakir-qasami-pickthall-translation-narrator-aslam-athar/112.mp3",
+    "113": "shakir-qasami-pickthall-translation-narrator-aslam-athar/113.mp3",
+    "114": "shakir-qasami-pickthall-translation-narrator-aslam-athar/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "1:28",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "3:48:53",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "2:17:21",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "2:30:50",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "1:53:28",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:57:06",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "2:16:06",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/007.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "1:42:08",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/009.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "51:12",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/008.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "1:11:13",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "1:16:19",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "1:07:30",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "32:36",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "31:12",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "27:03",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "1:07:32",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "58:07",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/017.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "34:29",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/019.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "55:09",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/018.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "47:36",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "44:52",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "46:00",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "40:45",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "44:51",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "32:10",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "53:38",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "43:58",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "52:16",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "37:22",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "30:45",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "19:21",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "13:37",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "48:35",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "31:48",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "28:42",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "28:43",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "37:28",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "28:10",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "44:03",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "44:19",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "30:31",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "30:09",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "31:23",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "13:48",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "18:52",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "25:13",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "20:24",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "21:42",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "13:27",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/049.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "14:41",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/051.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "14:49",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/050.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "13:10",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/052.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "14:56",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/054.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "14:15",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/053.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "19:10",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "18:19",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "20:52",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "17:19",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "17:33",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "12:55",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/060.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "6:26",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/062.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "7:49",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/061.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "6:51",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "8:57",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "11:19",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "9:37",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "11:20",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "12:21",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "10:21",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "8:32",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "8:20",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/071.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "7:45",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/073.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "10:30",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/072.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "10:09",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "6:33",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "10:06",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "8:38",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "7:21",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "7:14",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "6:00",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "4:12",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "3:11",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "6:38",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/083.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "4:11",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/085.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "3:54",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/084.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "2:38",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "2:44",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "3:24",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/088.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "2:56",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/090.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "5:15",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/089.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "2:22",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "3:00",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:46",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "1:03",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "1:19",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "2:36",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "1:07",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "3:11",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "1:30",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:34",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "1:31",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "1:15",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/102.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "1:23",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/104.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "39",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/103.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "1:00",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "54",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "1:05",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/107.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "1:09",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/109.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "36",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/108.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "52",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "59",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "38",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "56",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "1:15",
+      "url": "shakir-qasami-pickthall-translation-narrator-aslam-athar/114.mp3"
+    }
+  ]
+}

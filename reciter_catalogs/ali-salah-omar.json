@@ -1,0 +1,344 @@
+{
+  "slug": "ali-salah-omar",
+  "count": 48,
+  "byNumber": {
+    "001": "ali-salah-omar/001.mp3",
+    "012": "ali-salah-omar/012.mp3",
+    "013": "ali-salah-omar/013.mp3",
+    "014": "ali-salah-omar/014.mp3",
+    "015": "ali-salah-omar/015.mp3",
+    "018": "ali-salah-omar/018.mp3",
+    "019": "ali-salah-omar/019.mp3",
+    "025": "ali-salah-omar/025.mp3",
+    "032": "ali-salah-omar/032.mp3",
+    "034": "ali-salah-omar/034.mp3",
+    "035": "ali-salah-omar/035.mp3",
+    "036": "ali-salah-omar/036.mp3",
+    "038": "ali-salah-omar/038.mp3",
+    "039": "ali-salah-omar/039.mp3",
+    "044": "ali-salah-omar/044.mp3",
+    "046": "ali-salah-omar/046.mp3",
+    "047": "ali-salah-omar/047.mp3",
+    "048": "ali-salah-omar/048.mp3",
+    "049": "ali-salah-omar/049.mp3",
+    "050": "ali-salah-omar/050.mp3",
+    "051": "ali-salah-omar/051.mp3",
+    "057": "ali-salah-omar/057.mp3",
+    "058": "ali-salah-omar/058.mp3",
+    "059": "ali-salah-omar/059.mp3",
+    "060": "ali-salah-omar/060.mp3",
+    "061": "ali-salah-omar/061.mp3",
+    "062": "ali-salah-omar/062.mp3",
+    "063": "ali-salah-omar/063.mp3",
+    "064": "ali-salah-omar/064.mp3",
+    "065": "ali-salah-omar/065.mp3",
+    "066": "ali-salah-omar/066.mp3",
+    "067": "ali-salah-omar/067.mp3",
+    "068": "ali-salah-omar/068.mp3",
+    "069": "ali-salah-omar/069.mp3",
+    "070": "ali-salah-omar/070.mp3",
+    "071": "ali-salah-omar/071.mp3",
+    "073": "ali-salah-omar/073.mp3",
+    "075": "ali-salah-omar/075.mp3",
+    "076": "ali-salah-omar/076.mp3",
+    "077": "ali-salah-omar/077.mp3",
+    "079": "ali-salah-omar/079.mp3",
+    "080": "ali-salah-omar/080.mp3",
+    "083": "ali-salah-omar/083.mp3",
+    "086": "ali-salah-omar/086.mp3",
+    "088": "ali-salah-omar/088.mp3",
+    "091": "ali-salah-omar/091.mp3",
+    "092": "ali-salah-omar/092.mp3",
+    "112": "ali-salah-omar/112.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "43",
+      "url": "ali-salah-omar/001.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "39:17",
+      "url": "ali-salah-omar/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "19:41",
+      "url": "ali-salah-omar/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "21:27",
+      "url": "ali-salah-omar/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "16:21",
+      "url": "ali-salah-omar/015.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "30:20",
+      "url": "ali-salah-omar/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:03",
+      "url": "ali-salah-omar/019.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "17:41",
+      "url": "ali-salah-omar/025.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:55",
+      "url": "ali-salah-omar/032.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "15:52",
+      "url": "ali-salah-omar/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "14:15",
+      "url": "ali-salah-omar/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "13:03",
+      "url": "ali-salah-omar/036.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "17:29",
+      "url": "ali-salah-omar/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "22:51",
+      "url": "ali-salah-omar/039.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "8:17",
+      "url": "ali-salah-omar/044.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "13:04",
+      "url": "ali-salah-omar/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "11:15",
+      "url": "ali-salah-omar/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "13:01",
+      "url": "ali-salah-omar/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:55",
+      "url": "ali-salah-omar/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:59",
+      "url": "ali-salah-omar/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "9:32",
+      "url": "ali-salah-omar/051.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "13:18",
+      "url": "ali-salah-omar/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "10:33",
+      "url": "ali-salah-omar/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "10:39",
+      "url": "ali-salah-omar/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "9:50",
+      "url": "ali-salah-omar/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "5:23",
+      "url": "ali-salah-omar/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "4:24",
+      "url": "ali-salah-omar/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:40",
+      "url": "ali-salah-omar/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "6:06",
+      "url": "ali-salah-omar/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "7:56",
+      "url": "ali-salah-omar/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "7:04",
+      "url": "ali-salah-omar/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "8:07",
+      "url": "ali-salah-omar/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "7:17",
+      "url": "ali-salah-omar/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:44",
+      "url": "ali-salah-omar/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:16",
+      "url": "ali-salah-omar/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "6:05",
+      "url": "ali-salah-omar/071.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "5:06",
+      "url": "ali-salah-omar/073.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:30",
+      "url": "ali-salah-omar/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "6:21",
+      "url": "ali-salah-omar/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "5:41",
+      "url": "ali-salah-omar/077.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "5:02",
+      "url": "ali-salah-omar/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:47",
+      "url": "ali-salah-omar/080.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:09",
+      "url": "ali-salah-omar/083.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:33",
+      "url": "ali-salah-omar/086.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:33",
+      "url": "ali-salah-omar/088.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:18",
+      "url": "ali-salah-omar/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:47",
+      "url": "ali-salah-omar/092.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "20",
+      "url": "ali-salah-omar/112.mp3"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "ibraheem-al-thuwaini",
+  "count": 2,
+  "byNumber": {
+    "036": "ibraheem-al-thuwaini/036.mp3",
+    "047": "ibraheem-al-thuwaini/047.mp3"
+  },
+  "list": [
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "15:38",
+      "url": "ibraheem-al-thuwaini/036.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "11:13",
+      "url": "ibraheem-al-thuwaini/047.mp3"
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "slug": "mohamed-el-kantaoui",
+  "count": 114,
+  "byNumber": {
+    "001": "mohamed-el-kantaoui/mohamed-el-kantaoui-001-muslimcentral.com.mp3",
+    "002": "mohamed-el-kantaoui/mohamed-el-kantaoui-002-muslimcentral.com.mp3",
+    "003": "mohamed-el-kantaoui/mohamed-el-kantaoui-003-muslimcentral.com.mp3",
+    "004": "mohamed-el-kantaoui/mohamed-el-kantaoui-004-muslimcentral.com.mp3",
+    "005": "mohamed-el-kantaoui/mohamed-el-kantaoui-005-muslimcentral.com.mp3",
+    "006": "mohamed-el-kantaoui/mohamed-el-kantaoui-006-muslimcentral.com.mp3",
+    "007": "mohamed-el-kantaoui/mohamed-el-kantaoui-007-muslimcentral.com.mp3",
+    "008": "mohamed-el-kantaoui/mohamed-el-kantaoui-008-muslimcentral.com.mp3",
+    "009": "mohamed-el-kantaoui/mohamed-el-kantaoui-009-muslimcentral.com.mp3",
+    "010": "mohamed-el-kantaoui/mohamed-el-kantaoui-010-muslimcentral.com.mp3",
+    "011": "mohamed-el-kantaoui/mohamed-el-kantaoui-011-muslimcentral.com.mp3",
+    "012": "mohamed-el-kantaoui/mohamed-el-kantaoui-012-muslimcentral.com.mp3",
+    "013": "mohamed-el-kantaoui/mohamed-el-kantaoui-013-muslimcentral.com.mp3",
+    "014": "mohamed-el-kantaoui/mohamed-el-kantaoui-014-muslimcentral.com.mp3",
+    "015": "mohamed-el-kantaoui/mohamed-el-kantaoui-015-muslimcentral.com.mp3",
+    "016": "mohamed-el-kantaoui/mohamed-el-kantaoui-016-muslimcentral.com.mp3",
+    "017": "mohamed-el-kantaoui/mohamed-el-kantaoui-017-muslimcentral.com.mp3",
+    "018": "mohamed-el-kantaoui/mohamed-el-kantaoui-018-muslimcentral.com.mp3",
+    "019": "mohamed-el-kantaoui/mohamed-el-kantaoui-019-muslimcentral.com.mp3",
+    "020": "mohamed-el-kantaoui/mohamed-el-kantaoui-020-muslimcentral.com.mp3",
+    "021": "mohamed-el-kantaoui/mohamed-el-kantaoui-021-muslimcentral.com.mp3",
+    "022": "mohamed-el-kantaoui/mohamed-el-kantaoui-022-muslimcentral.com.mp3",
+    "023": "mohamed-el-kantaoui/mohamed-el-kantaoui-023-muslimcentral.com.mp3",
+    "024": "mohamed-el-kantaoui/mohamed-el-kantaoui-024-muslimcentral.com.mp3",
+    "025": "mohamed-el-kantaoui/mohamed-el-kantaoui-025-muslimcentral.com.mp3",
+    "026": "mohamed-el-kantaoui/mohamed-el-kantaoui-026-muslimcentral.com.mp3",
+    "027": "mohamed-el-kantaoui/mohamed-el-kantaoui-027-muslimcentral.com.mp3",
+    "028": "mohamed-el-kantaoui/mohamed-el-kantaoui-028-muslimcentral.com.mp3",
+    "029": "mohamed-el-kantaoui/mohamed-el-kantaoui-029-muslimcentral.com.mp3",
+    "030": "mohamed-el-kantaoui/mohamed-el-kantaoui-030-muslimcentral.com.mp3",
+    "031": "mohamed-el-kantaoui/mohamed-el-kantaoui-031-muslimcentral.com.mp3",
+    "032": "mohamed-el-kantaoui/mohamed-el-kantaoui-032-muslimcentral.com.mp3",
+    "033": "mohamed-el-kantaoui/mohamed-el-kantaoui-033-muslimcentral.com.mp3",
+    "034": "mohamed-el-kantaoui/mohamed-el-kantaoui-034-muslimcentral.com.mp3",
+    "035": "mohamed-el-kantaoui/mohamed-el-kantaoui-035-muslimcentral.com.mp3",
+    "036": "mohamed-el-kantaoui/mohamed-el-kantaoui-036-muslimcentral.com.mp3",
+    "037": "mohamed-el-kantaoui/mohamed-el-kantaoui-037-muslimcentral.com.mp3",
+    "038": "mohamed-el-kantaoui/mohamed-el-kantaoui-038-muslimcentral.com.mp3",
+    "039": "mohamed-el-kantaoui/mohamed-el-kantaoui-039-muslimcentral.com.mp3",
+    "040": "mohamed-el-kantaoui/mohamed-el-kantaoui-040-muslimcentral.com.mp3",
+    "041": "mohamed-el-kantaoui/mohamed-el-kantaoui-041-muslimcentral.com.mp3",
+    "042": "mohamed-el-kantaoui/mohamed-el-kantaoui-042-muslimcentral.com.mp3",
+    "043": "mohamed-el-kantaoui/mohamed-el-kantaoui-043-muslimcentral.com.mp3",
+    "044": "mohamed-el-kantaoui/mohamed-el-kantaoui-044-muslimcentral.com.mp3",
+    "045": "mohamed-el-kantaoui/mohamed-el-kantaoui-045-muslimcentral.com.mp3",
+    "046": "mohamed-el-kantaoui/mohamed-el-kantaoui-046-muslimcentral.com.mp3",
+    "047": "mohamed-el-kantaoui/mohamed-el-kantaoui-047-muslimcentral.com.mp3",
+    "048": "mohamed-el-kantaoui/mohamed-el-kantaoui-048-muslimcentral.com.mp3",
+    "049": "mohamed-el-kantaoui/mohamed-el-kantaoui-049-muslimcentral.com.mp3",
+    "050": "mohamed-el-kantaoui/mohamed-el-kantaoui-050-muslimcentral.com.mp3",
+    "051": "mohamed-el-kantaoui/mohamed-el-kantaoui-051-muslimcentral.com.mp3",
+    "052": "mohamed-el-kantaoui/mohamed-el-kantaoui-052-muslimcentral.com.mp3",
+    "053": "mohamed-el-kantaoui/mohamed-el-kantaoui-053-muslimcentral.com.mp3",
+    "054": "mohamed-el-kantaoui/mohamed-el-kantaoui-054-muslimcentral.com.mp3",
+    "055": "mohamed-el-kantaoui/mohamed-el-kantaoui-055-muslimcentral.com.mp3",
+    "056": "mohamed-el-kantaoui/mohamed-el-kantaoui-056-muslimcentral.com.mp3",
+    "057": "mohamed-el-kantaoui/mohamed-el-kantaoui-057-muslimcentral.com.mp3",
+    "058": "mohamed-el-kantaoui/mohamed-el-kantaoui-058-muslimcentral.com.mp3",
+    "059": "mohamed-el-kantaoui/mohamed-el-kantaoui-059-muslimcentral.com.mp3",
+    "060": "mohamed-el-kantaoui/mohamed-el-kantaoui-060-muslimcentral.com.mp3",
+    "061": "mohamed-el-kantaoui/mohamed-el-kantaoui-061-muslimcentral.com.mp3",
+    "062": "mohamed-el-kantaoui/mohamed-el-kantaoui-062-muslimcentral.com.mp3",
+    "063": "mohamed-el-kantaoui/mohamed-el-kantaoui-063-muslimcentral.com.mp3",
+    "064": "mohamed-el-kantaoui/mohamed-el-kantaoui-064-muslimcentral.com.mp3",
+    "065": "mohamed-el-kantaoui/mohamed-el-kantaoui-065-muslimcentral.com.mp3",
+    "066": "mohamed-el-kantaoui/mohamed-el-kantaoui-066-muslimcentral.com.mp3",
+    "067": "mohamed-el-kantaoui/mohamed-el-kantaoui-067-muslimcentral.com.mp3",
+    "068": "mohamed-el-kantaoui/mohamed-el-kantaoui-068-muslimcentral.com.mp3",
+    "069": "mohamed-el-kantaoui/mohamed-el-kantaoui-069-muslimcentral.com.mp3",
+    "070": "mohamed-el-kantaoui/mohamed-el-kantaoui-070-muslimcentral.com.mp3",
+    "071": "mohamed-el-kantaoui/mohamed-el-kantaoui-071-muslimcentral.com.mp3",
+    "072": "mohamed-el-kantaoui/mohamed-el-kantaoui-072-muslimcentral.com.mp3",
+    "073": "mohamed-el-kantaoui/mohamed-el-kantaoui-073-muslimcentral.com.mp3",
+    "074": "mohamed-el-kantaoui/mohamed-el-kantaoui-074-muslimcentral.com.mp3",
+    "075": "mohamed-el-kantaoui/mohamed-el-kantaoui-075-muslimcentral.com.mp3",
+    "076": "mohamed-el-kantaoui/mohamed-el-kantaoui-076-muslimcentral.com.mp3",
+    "077": "mohamed-el-kantaoui/mohamed-el-kantaoui-077-muslimcentral.com.mp3",
+    "078": "mohamed-el-kantaoui/mohamed-el-kantaoui-078-muslimcentral.com.mp3",
+    "079": "mohamed-el-kantaoui/mohamed-el-kantaoui-079-muslimcentral.com.mp3",
+    "080": "mohamed-el-kantaoui/mohamed-el-kantaoui-080-muslimcentral.com.mp3",
+    "081": "mohamed-el-kantaoui/mohamed-el-kantaoui-081-muslimcentral.com.mp3",
+    "082": "mohamed-el-kantaoui/mohamed-el-kantaoui-082-muslimcentral.com.mp3",
+    "083": "mohamed-el-kantaoui/mohamed-el-kantaoui-083-muslimcentral.com.mp3",
+    "084": "mohamed-el-kantaoui/mohamed-el-kantaoui-084-muslimcentral.com.mp3",
+    "085": "mohamed-el-kantaoui/mohamed-el-kantaoui-085-muslimcentral.com.mp3",
+    "086": "mohamed-el-kantaoui/mohamed-el-kantaoui-086-muslimcentral.com.mp3",
+    "087": "mohamed-el-kantaoui/mohamed-el-kantaoui-087-muslimcentral.com.mp3",
+    "088": "mohamed-el-kantaoui/mohamed-el-kantaoui-088-muslimcentral.com.mp3",
+    "089": "mohamed-el-kantaoui/mohamed-el-kantaoui-089-muslimcentral.com.mp3",
+    "090": "mohamed-el-kantaoui/mohamed-el-kantaoui-090-muslimcentral.com.mp3",
+    "091": "mohamed-el-kantaoui/mohamed-el-kantaoui-091-muslimcentral.com.mp3",
+    "092": "mohamed-el-kantaoui/mohamed-el-kantaoui-092-muslimcentral.com.mp3",
+    "093": "mohamed-el-kantaoui/mohamed-el-kantaoui-093-muslimcentral.com.mp3",
+    "094": "mohamed-el-kantaoui/mohamed-el-kantaoui-094-muslimcentral.com.mp3",
+    "095": "mohamed-el-kantaoui/mohamed-el-kantaoui-095-muslimcentral.com.mp3",
+    "096": "mohamed-el-kantaoui/mohamed-el-kantaoui-096-muslimcentral.com.mp3",
+    "097": "mohamed-el-kantaoui/mohamed-el-kantaoui-097-muslimcentral.com.mp3",
+    "098": "mohamed-el-kantaoui/mohamed-el-kantaoui-098-muslimcentral.com.mp3",
+    "099": "mohamed-el-kantaoui/mohamed-el-kantaoui-099-muslimcentral.com.mp3",
+    "100": "mohamed-el-kantaoui/mohamed-el-kantaoui-100-muslimcentral.com.mp3",
+    "101": "mohamed-el-kantaoui/mohamed-el-kantaoui-101-muslimcentral.com.mp3",
+    "102": "mohamed-el-kantaoui/mohamed-el-kantaoui-102-muslimcentral.com.mp3",
+    "103": "mohamed-el-kantaoui/mohamed-el-kantaoui-103-muslimcentral.com.mp3",
+    "104": "mohamed-el-kantaoui/mohamed-el-kantaoui-104-muslimcentral.com.mp3",
+    "105": "mohamed-el-kantaoui/mohamed-el-kantaoui-105-muslimcentral.com.mp3",
+    "106": "mohamed-el-kantaoui/mohamed-el-kantaoui-106-muslimcentral.com.mp3",
+    "107": "mohamed-el-kantaoui/mohamed-el-kantaoui-107-muslimcentral.com.mp3",
+    "108": "mohamed-el-kantaoui/mohamed-el-kantaoui-108-muslimcentral.com.mp3",
+    "109": "mohamed-el-kantaoui/mohamed-el-kantaoui-109-muslimcentral.com.mp3",
+    "110": "mohamed-el-kantaoui/mohamed-el-kantaoui-110-muslimcentral.com.mp3",
+    "111": "mohamed-el-kantaoui/mohamed-el-kantaoui-111-muslimcentral.com.mp3",
+    "112": "mohamed-el-kantaoui/mohamed-el-kantaoui-112-muslimcentral.com.mp3",
+    "113": "mohamed-el-kantaoui/mohamed-el-kantaoui-113-muslimcentral.com.mp3",
+    "114": "mohamed-el-kantaoui/mohamed-el-kantaoui-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "40",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqara",
+      "duration": "2:04:27",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-002-muslimcentral.com.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:11:52",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-003-muslimcentral.com.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:12:47",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-004-muslimcentral.com.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "54:17",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-005-muslimcentral.com.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:02:10",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-006-muslimcentral.com.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:07:47",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-007-muslimcentral.com.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "23:29",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-008-muslimcentral.com.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "49:23",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-009-muslimcentral.com.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "31:28",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-010-muslimcentral.com.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "33:39",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-011-muslimcentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "30:37",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "14:17",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-013-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "15:20",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "12:14",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-015-muslimcentral.com.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "30:53",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-016-muslimcentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "26:23",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-017-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "25:34",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "15:15",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "20:29",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-020-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "22:12",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "21:27",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-022-muslimcentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "19:49",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-023-muslimcentral.com.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "25:25",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-024-muslimcentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "16:32",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-025-muslimcentral.com.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "23:42",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-026-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "21:02",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "25:59",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-028-muslimcentral.com.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "18:07",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-029-muslimcentral.com.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Room",
+      "duration": "14:31",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-030-muslimcentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "9:06",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-031-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "6:43",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "24:40",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "15:35",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-034-muslimcentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "14:03",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-035-muslimcentral.com.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "13:15",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-036-muslimcentral.com.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "16:08",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-037-muslimcentral.com.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "13:09",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-038-muslimcentral.com.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "19:35",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-039-muslimcentral.com.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "20:55",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-040-muslimcentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "14:49",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-041-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "14:32",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "15:16",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-043-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "6:21",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "8:32",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-045-muslimcentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "11:29",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-046-muslimcentral.com.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "9:05",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-047-muslimcentral.com.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "9:11",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-048-muslimcentral.com.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "6:14",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-049-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "6:09",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:20",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "5:43",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "5:59",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:11",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "7:49",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "7:51",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "10:07",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-057-muslimcentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "8:50",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-058-muslimcentral.com.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "8:09",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-059-muslimcentral.com.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "7:09",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-060-muslimcentral.com.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:01",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-061-muslimcentral.com.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "2:59",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-062-muslimcentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:18",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-063-muslimcentral.com.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:06",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-064-muslimcentral.com.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "4:52",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-065-muslimcentral.com.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "4:41",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-066-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:37",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "5:35",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "4:48",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "3:48",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:07",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-071-muslimcentral.com.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "4:30",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-072-muslimcentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:17",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-073-muslimcentral.com.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "4:27",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-074-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "2:32",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-075-muslimcentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:23",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-076-muslimcentral.com.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "3:28",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-077-muslimcentral.com.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:58",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-078-muslimcentral.com.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:35",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-079-muslimcentral.com.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:54",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-080-muslimcentral.com.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:10",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-081-muslimcentral.com.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:29",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-082-muslimcentral.com.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:29",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-083-muslimcentral.com.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "1:57",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-084-muslimcentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:01",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:11",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-086-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:19",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:42",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:37",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-089-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:29",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:10",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-091-muslimcentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:26",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-092-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "49",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "27",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-094-muslimcentral.com.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "52",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-095-muslimcentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:23",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-096-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "35",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:43",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-098-muslimcentral.com.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "42",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-099-muslimcentral.com.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "47",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-100-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "40",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "31",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-102-muslimcentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "16",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-103-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "37",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "27",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "26",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "29",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "15",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "33",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "22",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "26",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-111-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "14",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "19",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "22",
+      "url": "mohamed-el-kantaoui/mohamed-el-kantaoui-114-muslimcentral.com.mp3"
+    }
+  ]
+}

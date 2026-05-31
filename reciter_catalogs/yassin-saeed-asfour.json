@@ -1,0 +1,22 @@
+{
+  "slug": "yassin-saeed-asfour",
+  "count": 2,
+  "byNumber": {
+    "013": "yassin-saeed-asfour/013.mp3",
+    "014": "yassin-saeed-asfour/014.mp3"
+  },
+  "list": [
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "21:08",
+      "url": "yassin-saeed-asfour/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "21:00",
+      "url": "yassin-saeed-asfour/014.mp3"
+    }
+  ]
+}

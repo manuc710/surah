@@ -1,0 +1,680 @@
+{
+  "slug": "ezzeddine-amarneh",
+  "count": 96,
+  "byNumber": {
+    "001": "ezzeddine-amarneh/001.mp3",
+    "003": "ezzeddine-amarneh/003.mp3",
+    "004": "ezzeddine-amarneh/004.mp3",
+    "005": "ezzeddine-amarneh/005.mp3",
+    "010": "ezzeddine-amarneh/010.mp3",
+    "011": "ezzeddine-amarneh/011.mp3",
+    "014": "ezzeddine-amarneh/014.mp3",
+    "015": "ezzeddine-amarneh/015.mp3",
+    "016": "ezzeddine-amarneh/016.mp3",
+    "017": "ezzeddine-amarneh/017.mp3",
+    "018": "ezzeddine-amarneh/018.mp3",
+    "020": "ezzeddine-amarneh/020.mp3",
+    "021": "ezzeddine-amarneh/021.mp3",
+    "022": "ezzeddine-amarneh/022.mp3",
+    "024": "ezzeddine-amarneh/024.mp3",
+    "025": "ezzeddine-amarneh/025.mp3",
+    "027": "ezzeddine-amarneh/027.mp3",
+    "029": "ezzeddine-amarneh/029.mp3",
+    "030": "ezzeddine-amarneh/030.mp3",
+    "032": "ezzeddine-amarneh/032.mp3",
+    "034": "ezzeddine-amarneh/034.mp3",
+    "035": "ezzeddine-amarneh/035.mp3",
+    "036": "ezzeddine-amarneh/036.mp3",
+    "037": "ezzeddine-amarneh/037.mp3",
+    "038": "ezzeddine-amarneh/038.mp3",
+    "040": "ezzeddine-amarneh/040.mp3",
+    "041": "ezzeddine-amarneh/041.mp3",
+    "042": "ezzeddine-amarneh/042.mp3",
+    "044": "ezzeddine-amarneh/044.mp3",
+    "045": "ezzeddine-amarneh/045.mp3",
+    "046": "ezzeddine-amarneh/046.mp3",
+    "047": "ezzeddine-amarneh/047.mp3",
+    "048": "ezzeddine-amarneh/048.mp3",
+    "049": "ezzeddine-amarneh/049.mp3",
+    "050": "ezzeddine-amarneh/050.mp3",
+    "051": "ezzeddine-amarneh/051.mp3",
+    "052": "ezzeddine-amarneh/052.mp3",
+    "053": "ezzeddine-amarneh/053.mp3",
+    "054": "ezzeddine-amarneh/054.mp3",
+    "055": "ezzeddine-amarneh/055.mp3",
+    "056": "ezzeddine-amarneh/056.mp3",
+    "058": "ezzeddine-amarneh/058.mp3",
+    "059": "ezzeddine-amarneh/059.mp3",
+    "060": "ezzeddine-amarneh/060.mp3",
+    "061": "ezzeddine-amarneh/061.mp3",
+    "062": "ezzeddine-amarneh/062.mp3",
+    "063": "ezzeddine-amarneh/063.mp3",
+    "064": "ezzeddine-amarneh/064.mp3",
+    "065": "ezzeddine-amarneh/065.mp3",
+    "066": "ezzeddine-amarneh/066.mp3",
+    "068": "ezzeddine-amarneh/068.mp3",
+    "069": "ezzeddine-amarneh/069.mp3",
+    "070": "ezzeddine-amarneh/070.mp3",
+    "071": "ezzeddine-amarneh/071.mp3",
+    "072": "ezzeddine-amarneh/072.mp3",
+    "073": "ezzeddine-amarneh/073.mp3",
+    "074": "ezzeddine-amarneh/074.mp3",
+    "075": "ezzeddine-amarneh/075.mp3",
+    "076": "ezzeddine-amarneh/076.mp3",
+    "077": "ezzeddine-amarneh/077.mp3",
+    "079": "ezzeddine-amarneh/079.mp3",
+    "080": "ezzeddine-amarneh/080.mp3",
+    "081": "ezzeddine-amarneh/081.mp3",
+    "082": "ezzeddine-amarneh/082.mp3",
+    "083": "ezzeddine-amarneh/083.mp3",
+    "084": "ezzeddine-amarneh/084.mp3",
+    "085": "ezzeddine-amarneh/085.mp3",
+    "086": "ezzeddine-amarneh/086.mp3",
+    "087": "ezzeddine-amarneh/087.mp3",
+    "088": "ezzeddine-amarneh/088.mp3",
+    "089": "ezzeddine-amarneh/089.mp3",
+    "090": "ezzeddine-amarneh/090.mp3",
+    "091": "ezzeddine-amarneh/091.mp3",
+    "092": "ezzeddine-amarneh/092.mp3",
+    "093": "ezzeddine-amarneh/093.mp3",
+    "094": "ezzeddine-amarneh/094.mp3",
+    "095": "ezzeddine-amarneh/095.mp3",
+    "096": "ezzeddine-amarneh/096.mp3",
+    "097": "ezzeddine-amarneh/097.mp3",
+    "098": "ezzeddine-amarneh/098.mp3",
+    "099": "ezzeddine-amarneh/099.mp3",
+    "100": "ezzeddine-amarneh/100.mp3",
+    "102": "ezzeddine-amarneh/102.mp3",
+    "101": "ezzeddine-amarneh/101.mp3",
+    "103": "ezzeddine-amarneh/103.mp3",
+    "104": "ezzeddine-amarneh/104.mp3",
+    "105": "ezzeddine-amarneh/105.mp3",
+    "106": "ezzeddine-amarneh/106.mp3",
+    "107": "ezzeddine-amarneh/107.mp3",
+    "108": "ezzeddine-amarneh/108.mp3",
+    "109": "ezzeddine-amarneh/109.mp3",
+    "110": "ezzeddine-amarneh/110.mp3",
+    "111": "ezzeddine-amarneh/111.mp3",
+    "112": "ezzeddine-amarneh/112.mp3",
+    "113": "ezzeddine-amarneh/113.mp3",
+    "114": "ezzeddine-amarneh/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "57",
+      "url": "ezzeddine-amarneh/001.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:09:59",
+      "url": "ezzeddine-amarneh/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:13:50",
+      "url": "ezzeddine-amarneh/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "1:00:06",
+      "url": "ezzeddine-amarneh/005.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "37:25",
+      "url": "ezzeddine-amarneh/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "39:14",
+      "url": "ezzeddine-amarneh/011.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "16:24",
+      "url": "ezzeddine-amarneh/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "14:16",
+      "url": "ezzeddine-amarneh/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "38:19",
+      "url": "ezzeddine-amarneh/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "30:47",
+      "url": "ezzeddine-amarneh/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "30:46",
+      "url": "ezzeddine-amarneh/018.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "23:26",
+      "url": "ezzeddine-amarneh/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "23:43",
+      "url": "ezzeddine-amarneh/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "26:54",
+      "url": "ezzeddine-amarneh/022.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "26:49",
+      "url": "ezzeddine-amarneh/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "18:55",
+      "url": "ezzeddine-amarneh/025.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "25:55",
+      "url": "ezzeddine-amarneh/027.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "20:32",
+      "url": "ezzeddine-amarneh/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "17:37",
+      "url": "ezzeddine-amarneh/030.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "8:46",
+      "url": "ezzeddine-amarneh/032.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "17:13",
+      "url": "ezzeddine-amarneh/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:33",
+      "url": "ezzeddine-amarneh/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "15:55",
+      "url": "ezzeddine-amarneh/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "19:16",
+      "url": "ezzeddine-amarneh/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "15:41",
+      "url": "ezzeddine-amarneh/038.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "24:58",
+      "url": "ezzeddine-amarneh/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "17:41",
+      "url": "ezzeddine-amarneh/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "17:50",
+      "url": "ezzeddine-amarneh/042.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:55",
+      "url": "ezzeddine-amarneh/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "9:59",
+      "url": "ezzeddine-amarneh/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "13:06",
+      "url": "ezzeddine-amarneh/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "11:10",
+      "url": "ezzeddine-amarneh/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:59",
+      "url": "ezzeddine-amarneh/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:33",
+      "url": "ezzeddine-amarneh/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:56",
+      "url": "ezzeddine-amarneh/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:43",
+      "url": "ezzeddine-amarneh/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "7:05",
+      "url": "ezzeddine-amarneh/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:28",
+      "url": "ezzeddine-amarneh/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "7:51",
+      "url": "ezzeddine-amarneh/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "10:22",
+      "url": "ezzeddine-amarneh/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:32",
+      "url": "ezzeddine-amarneh/056.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "10:03",
+      "url": "ezzeddine-amarneh/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:58",
+      "url": "ezzeddine-amarneh/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "8:14",
+      "url": "ezzeddine-amarneh/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "5:02",
+      "url": "ezzeddine-amarneh/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "4:01",
+      "url": "ezzeddine-amarneh/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:15",
+      "url": "ezzeddine-amarneh/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "5:15",
+      "url": "ezzeddine-amarneh/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "6:12",
+      "url": "ezzeddine-amarneh/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "6:57",
+      "url": "ezzeddine-amarneh/066.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:57",
+      "url": "ezzeddine-amarneh/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:17",
+      "url": "ezzeddine-amarneh/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:57",
+      "url": "ezzeddine-amarneh/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "5:00",
+      "url": "ezzeddine-amarneh/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:43",
+      "url": "ezzeddine-amarneh/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:19",
+      "url": "ezzeddine-amarneh/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:20",
+      "url": "ezzeddine-amarneh/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:21",
+      "url": "ezzeddine-amarneh/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:21",
+      "url": "ezzeddine-amarneh/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:04",
+      "url": "ezzeddine-amarneh/077.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:53",
+      "url": "ezzeddine-amarneh/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:18",
+      "url": "ezzeddine-amarneh/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:25",
+      "url": "ezzeddine-amarneh/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:54",
+      "url": "ezzeddine-amarneh/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:07",
+      "url": "ezzeddine-amarneh/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:31",
+      "url": "ezzeddine-amarneh/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:21",
+      "url": "ezzeddine-amarneh/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:27",
+      "url": "ezzeddine-amarneh/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:34",
+      "url": "ezzeddine-amarneh/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:56",
+      "url": "ezzeddine-amarneh/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:09",
+      "url": "ezzeddine-amarneh/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:46",
+      "url": "ezzeddine-amarneh/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:24",
+      "url": "ezzeddine-amarneh/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:46",
+      "url": "ezzeddine-amarneh/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:02",
+      "url": "ezzeddine-amarneh/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "36",
+      "url": "ezzeddine-amarneh/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "52",
+      "url": "ezzeddine-amarneh/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:27",
+      "url": "ezzeddine-amarneh/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "46",
+      "url": "ezzeddine-amarneh/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "2:07",
+      "url": "ezzeddine-amarneh/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "54",
+      "url": "ezzeddine-amarneh/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "58",
+      "url": "ezzeddine-amarneh/100.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "42",
+      "url": "ezzeddine-amarneh/102.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "54",
+      "url": "ezzeddine-amarneh/101.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "25",
+      "url": "ezzeddine-amarneh/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "49",
+      "url": "ezzeddine-amarneh/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "37",
+      "url": "ezzeddine-amarneh/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "35",
+      "url": "ezzeddine-amarneh/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "42",
+      "url": "ezzeddine-amarneh/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "20",
+      "url": "ezzeddine-amarneh/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "45",
+      "url": "ezzeddine-amarneh/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "29",
+      "url": "ezzeddine-amarneh/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "35",
+      "url": "ezzeddine-amarneh/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "19",
+      "url": "ezzeddine-amarneh/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "30",
+      "url": "ezzeddine-amarneh/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "36",
+      "url": "ezzeddine-amarneh/114.mp3"
+    }
+  ]
+}

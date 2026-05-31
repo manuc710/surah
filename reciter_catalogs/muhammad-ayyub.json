@@ -1,0 +1,806 @@
+{
+  "slug": "muhammad-ayyub",
+  "count": 114,
+  "byNumber": {
+    "001": "muhammad-ayyub/muhammad-ayyub-001.mp3",
+    "002": "muhammad-ayyub/muhammad-ayyub-002.mp3",
+    "003": "muhammad-ayyub/muhammad-ayyub-003.mp3",
+    "004": "muhammad-ayyub/muhammad-ayyub-004.mp3",
+    "005": "muhammad-ayyub/muhammad-ayyub-005.mp3",
+    "006": "muhammad-ayyub/muhammad-ayyub-006.mp3",
+    "007": "muhammad-ayyub/muhammad-ayyub-007.mp3",
+    "008": "muhammad-ayyub/muhammad-ayyub-008.mp3",
+    "009": "muhammad-ayyub/muhammad-ayyub-009.mp3",
+    "010": "muhammad-ayyub/muhammad-ayyub-010.mp3",
+    "011": "muhammad-ayyub/muhammad-ayyub-011.mp3",
+    "012": "muhammad-ayyub/muhammad-ayyub-012.mp3",
+    "013": "muhammad-ayyub/muhammad-ayyub-013.mp3",
+    "014": "muhammad-ayyub/muhammad-ayyub-014.mp3",
+    "015": "muhammad-ayyub/muhammad-ayyub-015.mp3",
+    "016": "muhammad-ayyub/muhammad-ayyub-016.mp3",
+    "017": "muhammad-ayyub/muhammad-ayyub-017.mp3",
+    "018": "muhammad-ayyub/muhammad-ayyub-018.mp3",
+    "019": "muhammad-ayyub/muhammad-ayyub-019.mp3",
+    "020": "muhammad-ayyub/muhammad-ayyub-020.mp3",
+    "021": "muhammad-ayyub/muhammad-ayyub-021.mp3",
+    "022": "muhammad-ayyub/muhammad-ayyub-022.mp3",
+    "023": "muhammad-ayyub/muhammad-ayyub-023.mp3",
+    "024": "muhammad-ayyub/muhammad-ayyub-024.mp3",
+    "025": "muhammad-ayyub/muhammad-ayyub-025.mp3",
+    "026": "muhammad-ayyub/muhammad-ayyub-026.mp3",
+    "027": "muhammad-ayyub/muhammad-ayyub-027.mp3",
+    "028": "muhammad-ayyub/muhammad-ayyub-028.mp3",
+    "029": "muhammad-ayyub/muhammad-ayyub-029.mp3",
+    "030": "muhammad-ayyub/muhammad-ayyub-030.mp3",
+    "031": "muhammad-ayyub/muhammad-ayyub-031.mp3",
+    "032": "muhammad-ayyub/muhammad-ayyub-032.mp3",
+    "033": "muhammad-ayyub/muhammad-ayyub-033.mp3",
+    "034": "muhammad-ayyub/muhammad-ayyub-034.mp3",
+    "035": "muhammad-ayyub/muhammad-ayyub-035.mp3",
+    "036": "muhammad-ayyub/muhammad-ayyub-036.mp3",
+    "037": "muhammad-ayyub/muhammad-ayyub-037.mp3",
+    "038": "muhammad-ayyub/muhammad-ayyub-038.mp3",
+    "039": "muhammad-ayyub/muhammad-ayyub-039.mp3",
+    "040": "muhammad-ayyub/muhammad-ayyub-040.mp3",
+    "041": "muhammad-ayyub/muhammad-ayyub-041.mp3",
+    "042": "muhammad-ayyub/muhammad-ayyub-042.mp3",
+    "043": "muhammad-ayyub/muhammad-ayyub-043.mp3",
+    "044": "muhammad-ayyub/muhammad-ayyub-044.mp3",
+    "045": "muhammad-ayyub/muhammad-ayyub-045.mp3",
+    "046": "muhammad-ayyub/muhammad-ayyub-046.mp3",
+    "047": "muhammad-ayyub/muhammad-ayyub-047.mp3",
+    "048": "muhammad-ayyub/muhammad-ayyub-048.mp3",
+    "049": "muhammad-ayyub/muhammad-ayyub-049.mp3",
+    "050": "muhammad-ayyub/muhammad-ayyub-050.mp3",
+    "051": "muhammad-ayyub/muhammad-ayyub-051.mp3",
+    "052": "muhammad-ayyub/muhammad-ayyub-052.mp3",
+    "053": "muhammad-ayyub/muhammad-ayyub-053.mp3",
+    "054": "muhammad-ayyub/muhammad-ayyub-054.mp3",
+    "055": "muhammad-ayyub/muhammad-ayyub-055.mp3",
+    "056": "muhammad-ayyub/muhammad-ayyub-056.mp3",
+    "057": "muhammad-ayyub/muhammad-ayyub-057.mp3",
+    "058": "muhammad-ayyub/muhammad-ayyub-058.mp3",
+    "059": "muhammad-ayyub/muhammad-ayyub-059.mp3",
+    "060": "muhammad-ayyub/muhammad-ayyub-060.mp3",
+    "061": "muhammad-ayyub/muhammad-ayyub-061.mp3",
+    "062": "muhammad-ayyub/muhammad-ayyub-062.mp3",
+    "063": "muhammad-ayyub/muhammad-ayyub-063.mp3",
+    "064": "muhammad-ayyub/muhammad-ayyub-064.mp3",
+    "065": "muhammad-ayyub/muhammad-ayyub-065.mp3",
+    "066": "muhammad-ayyub/muhammad-ayyub-066.mp3",
+    "067": "muhammad-ayyub/muhammad-ayyub-067.mp3",
+    "068": "muhammad-ayyub/muhammad-ayyub-068.mp3",
+    "069": "muhammad-ayyub/muhammad-ayyub-069.mp3",
+    "070": "muhammad-ayyub/muhammad-ayyub-070.mp3",
+    "071": "muhammad-ayyub/muhammad-ayyub-071.mp3",
+    "072": "muhammad-ayyub/muhammad-ayyub-072.mp3",
+    "073": "muhammad-ayyub/muhammad-ayyub-073.mp3",
+    "074": "muhammad-ayyub/muhammad-ayyub-074.mp3",
+    "075": "muhammad-ayyub/muhammad-ayyub-075.mp3",
+    "076": "muhammad-ayyub/muhammad-ayyub-076.mp3",
+    "077": "muhammad-ayyub/muhammad-ayyub-077.mp3",
+    "078": "muhammad-ayyub/muhammad-ayyub-078.mp3",
+    "079": "muhammad-ayyub/muhammad-ayyub-079.mp3",
+    "080": "muhammad-ayyub/muhammad-ayyub-080.mp3",
+    "081": "muhammad-ayyub/muhammad-ayyub-081.mp3",
+    "082": "muhammad-ayyub/muhammad-ayyub-082.mp3",
+    "083": "muhammad-ayyub/muhammad-ayyub-083.mp3",
+    "084": "muhammad-ayyub/muhammad-ayyub-084.mp3",
+    "085": "muhammad-ayyub/muhammad-ayyub-085.mp3",
+    "086": "muhammad-ayyub/muhammad-ayyub-086.mp3",
+    "087": "muhammad-ayyub/muhammad-ayyub-087.mp3",
+    "088": "muhammad-ayyub/muhammad-ayyub-088.mp3",
+    "089": "muhammad-ayyub/muhammad-ayyub-089.mp3",
+    "090": "muhammad-ayyub/muhammad-ayyub-090.mp3",
+    "091": "muhammad-ayyub/muhammad-ayyub-091.mp3",
+    "092": "muhammad-ayyub/muhammad-ayyub-092.mp3",
+    "093": "muhammad-ayyub/muhammad-ayyub-093.mp3",
+    "094": "muhammad-ayyub/muhammad-ayyub-094.mp3",
+    "095": "muhammad-ayyub/muhammad-ayyub-095.mp3",
+    "096": "muhammad-ayyub/muhammad-ayyub-096.mp3",
+    "097": "muhammad-ayyub/muhammad-ayyub-097.mp3",
+    "098": "muhammad-ayyub/muhammad-ayyub-098.mp3",
+    "099": "muhammad-ayyub/muhammad-ayyub-099.mp3",
+    "100": "muhammad-ayyub/muhammad-ayyub-100.mp3",
+    "101": "muhammad-ayyub/muhammad-ayyub-101.mp3",
+    "102": "muhammad-ayyub/muhammad-ayyub-102.mp3",
+    "103": "muhammad-ayyub/muhammad-ayyub-103.mp3",
+    "104": "muhammad-ayyub/muhammad-ayyub-104.mp3",
+    "105": "muhammad-ayyub/muhammad-ayyub-105.mp3",
+    "106": "muhammad-ayyub/muhammad-ayyub-106.mp3",
+    "107": "muhammad-ayyub/muhammad-ayyub-107.mp3",
+    "108": "muhammad-ayyub/muhammad-ayyub-108.mp3",
+    "109": "muhammad-ayyub/muhammad-ayyub-109.mp3",
+    "110": "muhammad-ayyub/muhammad-ayyub-110.mp3",
+    "111": "muhammad-ayyub/muhammad-ayyub-111.mp3",
+    "112": "muhammad-ayyub/muhammad-ayyub-112.mp3",
+    "113": "muhammad-ayyub/muhammad-ayyub-113.mp3",
+    "114": "muhammad-ayyub/muhammad-ayyub-114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 AlFatiha",
+      "duration": "59",
+      "url": "muhammad-ayyub/muhammad-ayyub-001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 AlBaqara",
+      "duration": "2:23:44",
+      "url": "muhammad-ayyub/muhammad-ayyub-002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 AalEImran",
+      "duration": "1:32:38",
+      "url": "muhammad-ayyub/muhammad-ayyub-003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 AnNisa",
+      "duration": "1:24:01",
+      "url": "muhammad-ayyub/muhammad-ayyub-004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 AlMaidah",
+      "duration": "1:08:03",
+      "url": "muhammad-ayyub/muhammad-ayyub-005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 AlAnaam",
+      "duration": "1:21:27",
+      "url": "muhammad-ayyub/muhammad-ayyub-006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 AlAraf",
+      "duration": "1:25:24",
+      "url": "muhammad-ayyub/muhammad-ayyub-007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 AlAnfal",
+      "duration": "36:41",
+      "url": "muhammad-ayyub/muhammad-ayyub-008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 AtTawba",
+      "duration": "1:03:06",
+      "url": "muhammad-ayyub/muhammad-ayyub-009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "43:29",
+      "url": "muhammad-ayyub/muhammad-ayyub-010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "48:37",
+      "url": "muhammad-ayyub/muhammad-ayyub-011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "45:08",
+      "url": "muhammad-ayyub/muhammad-ayyub-012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 ArRad",
+      "duration": "21:01",
+      "url": "muhammad-ayyub/muhammad-ayyub-013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "23:25",
+      "url": "muhammad-ayyub/muhammad-ayyub-014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 AlHijr",
+      "duration": "20:14",
+      "url": "muhammad-ayyub/muhammad-ayyub-015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 AnNahl",
+      "duration": "51:09",
+      "url": "muhammad-ayyub/muhammad-ayyub-016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 AlIsra",
+      "duration": "32:20",
+      "url": "muhammad-ayyub/muhammad-ayyub-017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 AlKahf",
+      "duration": "32:56",
+      "url": "muhammad-ayyub/muhammad-ayyub-018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:45",
+      "url": "muhammad-ayyub/muhammad-ayyub-019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 TaHa",
+      "duration": "29:56",
+      "url": "muhammad-ayyub/muhammad-ayyub-020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 AlAnbiya",
+      "duration": "32:31",
+      "url": "muhammad-ayyub/muhammad-ayyub-021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 AlHajj",
+      "duration": "30:21",
+      "url": "muhammad-ayyub/muhammad-ayyub-022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 AlMumenoon",
+      "duration": "26:01",
+      "url": "muhammad-ayyub/muhammad-ayyub-023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 AnNoor",
+      "duration": "35:53",
+      "url": "muhammad-ayyub/muhammad-ayyub-024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 AlFurqan",
+      "duration": "18:28",
+      "url": "muhammad-ayyub/muhammad-ayyub-025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 AshShuara",
+      "duration": "38:15",
+      "url": "muhammad-ayyub/muhammad-ayyub-026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 AnNaml",
+      "duration": "30:28",
+      "url": "muhammad-ayyub/muhammad-ayyub-027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 AlQasas",
+      "duration": "36:28",
+      "url": "muhammad-ayyub/muhammad-ayyub-028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 AlAnkaboot",
+      "duration": "24:36",
+      "url": "muhammad-ayyub/muhammad-ayyub-029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 ArRoom",
+      "duration": "20:46",
+      "url": "muhammad-ayyub/muhammad-ayyub-030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "12:54",
+      "url": "muhammad-ayyub/muhammad-ayyub-031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 AsSajda",
+      "duration": "11:09",
+      "url": "muhammad-ayyub/muhammad-ayyub-032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 AlAhzab",
+      "duration": "34:11",
+      "url": "muhammad-ayyub/muhammad-ayyub-033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "22:28",
+      "url": "muhammad-ayyub/muhammad-ayyub-034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "17:16",
+      "url": "muhammad-ayyub/muhammad-ayyub-035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 YaSeen",
+      "duration": "17:45",
+      "url": "muhammad-ayyub/muhammad-ayyub-036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 AsSaaffat",
+      "duration": "24:13",
+      "url": "muhammad-ayyub/muhammad-ayyub-037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "18:04",
+      "url": "muhammad-ayyub/muhammad-ayyub-038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 AzZumar",
+      "duration": "26:03",
+      "url": "muhammad-ayyub/muhammad-ayyub-039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "27:42",
+      "url": "muhammad-ayyub/muhammad-ayyub-040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "21:08",
+      "url": "muhammad-ayyub/muhammad-ayyub-041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 AshShura",
+      "duration": "22:42",
+      "url": "muhammad-ayyub/muhammad-ayyub-042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 AzZukhruf",
+      "duration": "20:50",
+      "url": "muhammad-ayyub/muhammad-ayyub-043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 AdDukhan",
+      "duration": "9:51",
+      "url": "muhammad-ayyub/muhammad-ayyub-044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 AlJathiya",
+      "duration": "10:52",
+      "url": "muhammad-ayyub/muhammad-ayyub-045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 AlAhqaf",
+      "duration": "15:01",
+      "url": "muhammad-ayyub/muhammad-ayyub-046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "12:47",
+      "url": "muhammad-ayyub/muhammad-ayyub-047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 AlFath",
+      "duration": "12:37",
+      "url": "muhammad-ayyub/muhammad-ayyub-048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 AlHujraat",
+      "duration": "9:38",
+      "url": "muhammad-ayyub/muhammad-ayyub-049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:24",
+      "url": "muhammad-ayyub/muhammad-ayyub-050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 AdhDhariyat",
+      "duration": "8:59",
+      "url": "muhammad-ayyub/muhammad-ayyub-051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 AtTur",
+      "duration": "8:56",
+      "url": "muhammad-ayyub/muhammad-ayyub-052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 AnNajm",
+      "duration": "8:50",
+      "url": "muhammad-ayyub/muhammad-ayyub-053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 AlQamar",
+      "duration": "8:54",
+      "url": "muhammad-ayyub/muhammad-ayyub-054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 ArRahman",
+      "duration": "12:42",
+      "url": "muhammad-ayyub/muhammad-ayyub-055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 AlWaqia",
+      "duration": "13:03",
+      "url": "muhammad-ayyub/muhammad-ayyub-056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 AlHadid",
+      "duration": "15:06",
+      "url": "muhammad-ayyub/muhammad-ayyub-057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 AlMujadila",
+      "duration": "11:09",
+      "url": "muhammad-ayyub/muhammad-ayyub-058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 AlHashr",
+      "duration": "11:38",
+      "url": "muhammad-ayyub/muhammad-ayyub-059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 AlMumtahina",
+      "duration": "9:17",
+      "url": "muhammad-ayyub/muhammad-ayyub-060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 AsSaff",
+      "duration": "5:25",
+      "url": "muhammad-ayyub/muhammad-ayyub-061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 AlJumua",
+      "duration": "4:16",
+      "url": "muhammad-ayyub/muhammad-ayyub-062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 AlMunafiqoon",
+      "duration": "4:24",
+      "url": "muhammad-ayyub/muhammad-ayyub-063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 AtTaghabun",
+      "duration": "5:44",
+      "url": "muhammad-ayyub/muhammad-ayyub-064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 AtTalaq",
+      "duration": "6:19",
+      "url": "muhammad-ayyub/muhammad-ayyub-065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 AtTahrim",
+      "duration": "6:01",
+      "url": "muhammad-ayyub/muhammad-ayyub-066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 AlMulk",
+      "duration": "7:26",
+      "url": "muhammad-ayyub/muhammad-ayyub-067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 AlQalam",
+      "duration": "8:00",
+      "url": "muhammad-ayyub/muhammad-ayyub-068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 AlHaaqqa",
+      "duration": "6:37",
+      "url": "muhammad-ayyub/muhammad-ayyub-069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 AlMaarij",
+      "duration": "5:32",
+      "url": "muhammad-ayyub/muhammad-ayyub-070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "5:03",
+      "url": "muhammad-ayyub/muhammad-ayyub-071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 AlJinn",
+      "duration": "5:53",
+      "url": "muhammad-ayyub/muhammad-ayyub-072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 AlMuzzammil",
+      "duration": "4:35",
+      "url": "muhammad-ayyub/muhammad-ayyub-073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 AlMuddaththir",
+      "duration": "6:55",
+      "url": "muhammad-ayyub/muhammad-ayyub-074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 AlQiyama",
+      "duration": "4:15",
+      "url": "muhammad-ayyub/muhammad-ayyub-075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 AlInsan",
+      "duration": "6:34",
+      "url": "muhammad-ayyub/muhammad-ayyub-076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 AlMursalat",
+      "duration": "5:50",
+      "url": "muhammad-ayyub/muhammad-ayyub-077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 AnNaba",
+      "duration": "5:09",
+      "url": "muhammad-ayyub/muhammad-ayyub-078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 AnNaziat",
+      "duration": "4:48",
+      "url": "muhammad-ayyub/muhammad-ayyub-079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "4:04",
+      "url": "muhammad-ayyub/muhammad-ayyub-080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 AtTakwir",
+      "duration": "3:05",
+      "url": "muhammad-ayyub/muhammad-ayyub-081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 AlInfitar",
+      "duration": "2:20",
+      "url": "muhammad-ayyub/muhammad-ayyub-082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 AlMutaffifin",
+      "duration": "5:14",
+      "url": "muhammad-ayyub/muhammad-ayyub-083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 AlInshiqaq",
+      "duration": "2:46",
+      "url": "muhammad-ayyub/muhammad-ayyub-084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 AlBurooj",
+      "duration": "2:59",
+      "url": "muhammad-ayyub/muhammad-ayyub-085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 AtTariq",
+      "duration": "1:39",
+      "url": "muhammad-ayyub/muhammad-ayyub-086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 AlAla",
+      "duration": "1:50",
+      "url": "muhammad-ayyub/muhammad-ayyub-087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 AlGhashiya",
+      "duration": "2:21",
+      "url": "muhammad-ayyub/muhammad-ayyub-088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 AlFajr",
+      "duration": "3:36",
+      "url": "muhammad-ayyub/muhammad-ayyub-089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 AlBalad",
+      "duration": "1:59",
+      "url": "muhammad-ayyub/muhammad-ayyub-090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 AshShams",
+      "duration": "1:27",
+      "url": "muhammad-ayyub/muhammad-ayyub-091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 AlLail",
+      "duration": "1:56",
+      "url": "muhammad-ayyub/muhammad-ayyub-092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 AdDhuha",
+      "duration": "1:11",
+      "url": "muhammad-ayyub/muhammad-ayyub-093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 AlInshirah",
+      "duration": "48",
+      "url": "muhammad-ayyub/muhammad-ayyub-094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 AtTin",
+      "duration": "1:09",
+      "url": "muhammad-ayyub/muhammad-ayyub-095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 AlAlaq",
+      "duration": "1:48",
+      "url": "muhammad-ayyub/muhammad-ayyub-096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 AlQadr",
+      "duration": "50",
+      "url": "muhammad-ayyub/muhammad-ayyub-097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 AlBayyina",
+      "duration": "2:23",
+      "url": "muhammad-ayyub/muhammad-ayyub-098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 AzZalzala",
+      "duration": "1:05",
+      "url": "muhammad-ayyub/muhammad-ayyub-099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 AlAdiyat",
+      "duration": "1:14",
+      "url": "muhammad-ayyub/muhammad-ayyub-100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 AlQaria",
+      "duration": "1:09",
+      "url": "muhammad-ayyub/muhammad-ayyub-101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 AtTakathur",
+      "duration": "1:02",
+      "url": "muhammad-ayyub/muhammad-ayyub-102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 AlAsr",
+      "duration": "30",
+      "url": "muhammad-ayyub/muhammad-ayyub-103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 AlHumaza",
+      "duration": "1:00",
+      "url": "muhammad-ayyub/muhammad-ayyub-104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 AlFil",
+      "duration": "49",
+      "url": "muhammad-ayyub/muhammad-ayyub-105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "46",
+      "url": "muhammad-ayyub/muhammad-ayyub-106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 AlMaun",
+      "duration": "58",
+      "url": "muhammad-ayyub/muhammad-ayyub-107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 AlKauther",
+      "duration": "26",
+      "url": "muhammad-ayyub/muhammad-ayyub-108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 AlKafiroon",
+      "duration": "56",
+      "url": "muhammad-ayyub/muhammad-ayyub-109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 AnNasr",
+      "duration": "35",
+      "url": "muhammad-ayyub/muhammad-ayyub-110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 AlMasadd",
+      "duration": "42",
+      "url": "muhammad-ayyub/muhammad-ayyub-111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 AlIkhlas",
+      "duration": "24",
+      "url": "muhammad-ayyub/muhammad-ayyub-112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 AlFalaq",
+      "duration": "35",
+      "url": "muhammad-ayyub/muhammad-ayyub-113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 AnNas",
+      "duration": "52",
+      "url": "muhammad-ayyub/muhammad-ayyub-114.mp3"
+    }
+  ]
+}

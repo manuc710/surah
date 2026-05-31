@@ -1,0 +1,22 @@
+{
+  "slug": "yunus-aswailis-warsh",
+  "count": 2,
+  "byNumber": {
+    "112": "yunus-aswailis-warsh/yunus-aswailis-warsh-qurancentral.com-112-al-ikhlas-2021-03-25-06-55-29.mp3",
+    "020": "yunus-aswailis-warsh/020.mp3"
+  },
+  "list": [
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "39",
+      "url": "yunus-aswailis-warsh/yunus-aswailis-warsh-qurancentral.com-112-al-ikhlas-2021-03-25-06-55-29.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Maryam",
+      "duration": "22:36",
+      "url": "yunus-aswailis-warsh/020.mp3"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "hasan-al-husaini",
+  "count": 13,
+  "byNumber": {
+    "001": "hasan-al-husaini/hasan-al-husaini-001-muslimcentral.com.mp3",
+    "032": "hasan-al-husaini/hasan-al-husaini-032-muslimcentral.com.mp3",
+    "067": "hasan-al-husaini/hasan-al-husaini-067-muslimcentral.com.mp3",
+    "068": "hasan-al-husaini/hasan-al-husaini-068-muslimcentral.com.mp3",
+    "069": "hasan-al-husaini/hasan-al-husaini-069-muslimcentral.com.mp3",
+    "070": "hasan-al-husaini/hasan-al-husaini-070-muslimcentral.com.mp3",
+    "071": "hasan-al-husaini/hasan-al-husaini-071-muslimcentral.com.mp3",
+    "072": "hasan-al-husaini/hasan-al-husaini-072-muslimcentral.com.mp3",
+    "073": "hasan-al-husaini/hasan-al-husaini-073-muslimcentral.com.mp3",
+    "074": "hasan-al-husaini/hasan-al-husaini-074-muslimcentral.com.mp3",
+    "075": "hasan-al-husaini/hasan-al-husaini-075-muslimcentral.com.mp3",
+    "076": "hasan-al-husaini/hasan-al-husaini-076-muslimcentral.com.mp3",
+    "077": "hasan-al-husaini/hasan-al-husaini-077-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "38",
+      "url": "hasan-al-husaini/hasan-al-husaini-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "8:41",
+      "url": "hasan-al-husaini/hasan-al-husaini-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:06",
+      "url": "hasan-al-husaini/hasan-al-husaini-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "5:52",
+      "url": "hasan-al-husaini/hasan-al-husaini-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:32",
+      "url": "hasan-al-husaini/hasan-al-husaini-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:17",
+      "url": "hasan-al-husaini/hasan-al-husaini-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:19",
+      "url": "hasan-al-husaini/hasan-al-husaini-071-muslimcentral.com.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:14",
+      "url": "hasan-al-husaini/hasan-al-husaini-072-muslimcentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:40",
+      "url": "hasan-al-husaini/hasan-al-husaini-073-muslimcentral.com.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:40",
+      "url": "hasan-al-husaini/hasan-al-husaini-074-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:46",
+      "url": "hasan-al-husaini/hasan-al-husaini-075-muslimcentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:07",
+      "url": "hasan-al-husaini/hasan-al-husaini-076-muslimcentral.com.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:11",
+      "url": "hasan-al-husaini/hasan-al-husaini-077-muslimcentral.com.mp3"
+    }
+  ]
+}

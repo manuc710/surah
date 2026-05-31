@@ -1,0 +1,43 @@
+{
+  "slug": "anas-el-ghamidi",
+  "count": 5,
+  "byNumber": {
+    "001": "anas-el-ghamidi/anas-el-ghamidi-001-muslimcentral.com.mp3",
+    "019": "anas-el-ghamidi/anas-el-ghamidi-019-muslimcentral.com.mp3",
+    "031": "anas-el-ghamidi/anas-el-ghamidi-031-muslimcentral.com.mp3",
+    "051": "anas-el-ghamidi/anas-el-ghamidi-051-muslimcentral.com.mp3",
+    "069": "anas-el-ghamidi/anas-el-ghamidi-069-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "51",
+      "url": "anas-el-ghamidi/anas-el-ghamidi-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "3:15",
+      "url": "anas-el-ghamidi/anas-el-ghamidi-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "2:32",
+      "url": "anas-el-ghamidi/anas-el-ghamidi-031-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:48",
+      "url": "anas-el-ghamidi/anas-el-ghamidi-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "2:12",
+      "url": "anas-el-ghamidi/anas-el-ghamidi-069-muslimcentral.com.mp3"
+    }
+  ]
+}

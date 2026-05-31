@@ -1,0 +1,141 @@
+{
+  "slug": "usaamah-khayyat",
+  "count": 19,
+  "byNumber": {
+    "001": "usaamah-khayyat/001.mp3",
+    "002": "usaamah-khayyat/002.mp3",
+    "017": "usaamah-khayyat/017.mp3",
+    "050": "usaamah-khayyat/050.mp3",
+    "067": "usaamah-khayyat/067.mp3",
+    "069": "usaamah-khayyat/069.mp3",
+    "075": "usaamah-khayyat/075.mp3",
+    "078": "usaamah-khayyat/078.mp3",
+    "079": "usaamah-khayyat/079.mp3",
+    "080": "usaamah-khayyat/080.mp3",
+    "085": "usaamah-khayyat/085.mp3",
+    "087": "usaamah-khayyat/087.mp3",
+    "088": "usaamah-khayyat/088.mp3",
+    "090": "usaamah-khayyat/090.mp3",
+    "095": "usaamah-khayyat/095.mp3",
+    "106": "usaamah-khayyat/106.mp3",
+    "107": "usaamah-khayyat/107.mp3",
+    "108": "usaamah-khayyat/108.mp3",
+    "110": "usaamah-khayyat/110.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "34",
+      "url": "usaamah-khayyat/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "8:35",
+      "url": "usaamah-khayyat/002.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "8:37",
+      "url": "usaamah-khayyat/017.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "6:06",
+      "url": "usaamah-khayyat/050.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "4:55",
+      "url": "usaamah-khayyat/067.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "3:55",
+      "url": "usaamah-khayyat/069.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "2:44",
+      "url": "usaamah-khayyat/075.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:19",
+      "url": "usaamah-khayyat/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:00",
+      "url": "usaamah-khayyat/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:20",
+      "url": "usaamah-khayyat/080.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "1:54",
+      "url": "usaamah-khayyat/085.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:05",
+      "url": "usaamah-khayyat/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:21",
+      "url": "usaamah-khayyat/088.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:24",
+      "url": "usaamah-khayyat/090.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "34",
+      "url": "usaamah-khayyat/095.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "21",
+      "url": "usaamah-khayyat/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "27",
+      "url": "usaamah-khayyat/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "12",
+      "url": "usaamah-khayyat/108.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "19",
+      "url": "usaamah-khayyat/110.mp3"
+    }
+  ]
+}

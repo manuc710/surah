@@ -1,0 +1,43 @@
+{
+  "slug": "tamer-timor-hassan",
+  "count": 5,
+  "byNumber": {
+    "001": "tamer-timor-hassan/001.mp3",
+    "025": "tamer-timor-hassan/025.mp3",
+    "036": "tamer-timor-hassan/036.mp3",
+    "055": "tamer-timor-hassan/055.mp3",
+    "082": "tamer-timor-hassan/082.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "45",
+      "url": "tamer-timor-hassan/001.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "16:31",
+      "url": "tamer-timor-hassan/025.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "14:54",
+      "url": "tamer-timor-hassan/036.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:08",
+      "url": "tamer-timor-hassan/055.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:24",
+      "url": "tamer-timor-hassan/082.mp3"
+    }
+  ]
+}

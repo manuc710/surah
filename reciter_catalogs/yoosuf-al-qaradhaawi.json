@@ -1,0 +1,43 @@
+{
+  "slug": "yoosuf-al-qaradhaawi",
+  "count": 5,
+  "byNumber": {
+    "049": "yoosuf-al-qaradhaawi/049.mp3",
+    "050": "yoosuf-al-qaradhaawi/050.mp3",
+    "051": "yoosuf-al-qaradhaawi/051.mp3",
+    "056": "yoosuf-al-qaradhaawi/056.mp3",
+    "057": "yoosuf-al-qaradhaawi/057.mp3"
+  },
+  "list": [
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "4:58",
+      "url": "yoosuf-al-qaradhaawi/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "6:02",
+      "url": "yoosuf-al-qaradhaawi/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "5:33",
+      "url": "yoosuf-al-qaradhaawi/051.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "6:25",
+      "url": "yoosuf-al-qaradhaawi/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "8:46",
+      "url": "yoosuf-al-qaradhaawi/057.mp3"
+    }
+  ]
+}

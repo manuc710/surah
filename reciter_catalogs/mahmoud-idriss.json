@@ -1,0 +1,36 @@
+{
+  "slug": "mahmoud-idriss",
+  "count": 4,
+  "byNumber": {
+    "001": "mahmoud-idriss/mahmoud-idriss-001-muslimcentral.com.mp3",
+    "002": "mahmoud-idriss/mahmoud-idriss-002-muslimcentral.com.mp3",
+    "003": "mahmoud-idriss/mahmoud-idriss-003-muslimcentral.com.mp3",
+    "004": "mahmoud-idriss/mahmoud-idriss-004-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "45",
+      "url": "mahmoud-idriss/mahmoud-idriss-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqara",
+      "duration": "2:00:19",
+      "url": "mahmoud-idriss/mahmoud-idriss-002-muslimcentral.com.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:00:45",
+      "url": "mahmoud-idriss/mahmoud-idriss-003-muslimcentral.com.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:24:59",
+      "url": "mahmoud-idriss/mahmoud-idriss-004-muslimcentral.com.mp3"
+    }
+  ]
+}

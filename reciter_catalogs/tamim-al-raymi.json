@@ -1,0 +1,134 @@
+{
+  "slug": "tamim-al-raymi",
+  "count": 18,
+  "byNumber": {
+    "001": "tamim-al-raymi/001.mp3",
+    "029": "tamim-al-raymi/029.mp3",
+    "044": "tamim-al-raymi/044.mp3",
+    "054": "tamim-al-raymi/054.mp3",
+    "087": "tamim-al-raymi/087.mp3",
+    "094": "tamim-al-raymi/094.mp3",
+    "095": "tamim-al-raymi/095.mp3",
+    "097": "tamim-al-raymi/097.mp3",
+    "102": "tamim-al-raymi/102.mp3",
+    "103": "tamim-al-raymi/103.mp3",
+    "104": "tamim-al-raymi/104.mp3",
+    "105": "tamim-al-raymi/105.mp3",
+    "106": "tamim-al-raymi/106.mp3",
+    "108": "tamim-al-raymi/108.mp3",
+    "109": "tamim-al-raymi/109.mp3",
+    "110": "tamim-al-raymi/110.mp3",
+    "112": "tamim-al-raymi/112.mp3",
+    "113": "tamim-al-raymi/113.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "37",
+      "url": "tamim-al-raymi/001.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "18:51",
+      "url": "tamim-al-raymi/029.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "5:31",
+      "url": "tamim-al-raymi/044.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "5:52",
+      "url": "tamim-al-raymi/054.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:06",
+      "url": "tamim-al-raymi/087.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "29",
+      "url": "tamim-al-raymi/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "38",
+      "url": "tamim-al-raymi/095.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "31",
+      "url": "tamim-al-raymi/097.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "35",
+      "url": "tamim-al-raymi/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "20",
+      "url": "tamim-al-raymi/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "37",
+      "url": "tamim-al-raymi/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "28",
+      "url": "tamim-al-raymi/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "27",
+      "url": "tamim-al-raymi/106.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "16",
+      "url": "tamim-al-raymi/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "26",
+      "url": "tamim-al-raymi/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "24",
+      "url": "tamim-al-raymi/110.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "tamim-al-raymi/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "24",
+      "url": "tamim-al-raymi/113.mp3"
+    }
+  ]
+}

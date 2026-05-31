@@ -1,0 +1,71 @@
+{
+  "slug": "okasha-kameny",
+  "count": 9,
+  "byNumber": {
+    "020": "okasha-kameny/020.mp3",
+    "023": "okasha-kameny/023.mp3",
+    "042": "okasha-kameny/042.mp3",
+    "048": "okasha-kameny/048.mp3",
+    "052": "okasha-kameny/052.mp3",
+    "053": "okasha-kameny/053.mp3",
+    "055": "okasha-kameny/055.mp3",
+    "054": "okasha-kameny/054.mp3",
+    "089": "okasha-kameny/089.mp3"
+  },
+  "list": [
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "3:24",
+      "url": "okasha-kameny/020.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "5:18",
+      "url": "okasha-kameny/023.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "16:56",
+      "url": "okasha-kameny/042.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "9:42",
+      "url": "okasha-kameny/048.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "7:04",
+      "url": "okasha-kameny/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:28",
+      "url": "okasha-kameny/053.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:13",
+      "url": "okasha-kameny/055.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "4:52",
+      "url": "okasha-kameny/054.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:53",
+      "url": "okasha-kameny/089.mp3"
+    }
+  ]
+}

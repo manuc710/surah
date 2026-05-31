@@ -1,0 +1,85 @@
+{
+  "slug": "khaled-hassan-asalaawi",
+  "count": 11,
+  "byNumber": {
+    "077": "khaled-hassan-asalaawi/077.mp3",
+    "078": "khaled-hassan-asalaawi/078.mp3",
+    "079": "khaled-hassan-asalaawi/079.mp3",
+    "080": "khaled-hassan-asalaawi/080.mp3",
+    "081": "khaled-hassan-asalaawi/081.mp3",
+    "082": "khaled-hassan-asalaawi/082.mp3",
+    "083": "khaled-hassan-asalaawi/083.mp3",
+    "084": "khaled-hassan-asalaawi/084.mp3",
+    "085": "khaled-hassan-asalaawi/085.mp3",
+    "089": "khaled-hassan-asalaawi/089.mp3",
+    "090": "khaled-hassan-asalaawi/090.mp3"
+  },
+  "list": [
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:37",
+      "url": "khaled-hassan-asalaawi/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:13",
+      "url": "khaled-hassan-asalaawi/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:45",
+      "url": "khaled-hassan-asalaawi/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:11",
+      "url": "khaled-hassan-asalaawi/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "3:04",
+      "url": "khaled-hassan-asalaawi/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "2:10",
+      "url": "khaled-hassan-asalaawi/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:16",
+      "url": "khaled-hassan-asalaawi/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:23",
+      "url": "khaled-hassan-asalaawi/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:35",
+      "url": "khaled-hassan-asalaawi/085.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:11",
+      "url": "khaled-hassan-asalaawi/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:46",
+      "url": "khaled-hassan-asalaawi/090.mp3"
+    }
+  ]
+}

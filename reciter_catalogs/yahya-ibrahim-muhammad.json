@@ -1,0 +1,806 @@
+{
+  "slug": "yahya-ibrahim-muhammad",
+  "count": 114,
+  "byNumber": {
+    "001": "yahya-ibrahim-muhammad/001.mp3",
+    "002": "yahya-ibrahim-muhammad/002.mp3",
+    "003": "yahya-ibrahim-muhammad/003.mp3",
+    "004": "yahya-ibrahim-muhammad/004.mp3",
+    "005": "yahya-ibrahim-muhammad/005.mp3",
+    "006": "yahya-ibrahim-muhammad/006.mp3",
+    "007": "yahya-ibrahim-muhammad/007.mp3",
+    "008": "yahya-ibrahim-muhammad/008.mp3",
+    "009": "yahya-ibrahim-muhammad/009.mp3",
+    "010": "yahya-ibrahim-muhammad/010.mp3",
+    "011": "yahya-ibrahim-muhammad/011.mp3",
+    "012": "yahya-ibrahim-muhammad/012.mp3",
+    "013": "yahya-ibrahim-muhammad/013.mp3",
+    "014": "yahya-ibrahim-muhammad/014.mp3",
+    "015": "yahya-ibrahim-muhammad/015.mp3",
+    "016": "yahya-ibrahim-muhammad/016.mp3",
+    "017": "yahya-ibrahim-muhammad/017.mp3",
+    "018": "yahya-ibrahim-muhammad/018.mp3",
+    "019": "yahya-ibrahim-muhammad/019.mp3",
+    "020": "yahya-ibrahim-muhammad/020.mp3",
+    "021": "yahya-ibrahim-muhammad/021.mp3",
+    "022": "yahya-ibrahim-muhammad/022.mp3",
+    "023": "yahya-ibrahim-muhammad/023.mp3",
+    "024": "yahya-ibrahim-muhammad/024.mp3",
+    "025": "yahya-ibrahim-muhammad/025.mp3",
+    "026": "yahya-ibrahim-muhammad/026.mp3",
+    "027": "yahya-ibrahim-muhammad/027.mp3",
+    "028": "yahya-ibrahim-muhammad/028.mp3",
+    "029": "yahya-ibrahim-muhammad/029.mp3",
+    "030": "yahya-ibrahim-muhammad/030.mp3",
+    "031": "yahya-ibrahim-muhammad/031.mp3",
+    "032": "yahya-ibrahim-muhammad/032.mp3",
+    "033": "yahya-ibrahim-muhammad/033.mp3",
+    "034": "yahya-ibrahim-muhammad/034.mp3",
+    "035": "yahya-ibrahim-muhammad/035.mp3",
+    "036": "yahya-ibrahim-muhammad/036.mp3",
+    "037": "yahya-ibrahim-muhammad/037.mp3",
+    "038": "yahya-ibrahim-muhammad/038.mp3",
+    "039": "yahya-ibrahim-muhammad/039.mp3",
+    "040": "yahya-ibrahim-muhammad/040.mp3",
+    "041": "yahya-ibrahim-muhammad/041.mp3",
+    "042": "yahya-ibrahim-muhammad/042.mp3",
+    "043": "yahya-ibrahim-muhammad/043.mp3",
+    "044": "yahya-ibrahim-muhammad/044.mp3",
+    "045": "yahya-ibrahim-muhammad/045.mp3",
+    "046": "yahya-ibrahim-muhammad/046.mp3",
+    "047": "yahya-ibrahim-muhammad/047.mp3",
+    "048": "yahya-ibrahim-muhammad/048.mp3",
+    "049": "yahya-ibrahim-muhammad/049.mp3",
+    "050": "yahya-ibrahim-muhammad/050.mp3",
+    "051": "yahya-ibrahim-muhammad/051.mp3",
+    "052": "yahya-ibrahim-muhammad/052.mp3",
+    "053": "yahya-ibrahim-muhammad/053.mp3",
+    "054": "yahya-ibrahim-muhammad/054.mp3",
+    "055": "yahya-ibrahim-muhammad/055.mp3",
+    "056": "yahya-ibrahim-muhammad/056.mp3",
+    "057": "yahya-ibrahim-muhammad/057.mp3",
+    "058": "yahya-ibrahim-muhammad/058.mp3",
+    "059": "yahya-ibrahim-muhammad/059.mp3",
+    "060": "yahya-ibrahim-muhammad/060.mp3",
+    "061": "yahya-ibrahim-muhammad/061.mp3",
+    "062": "yahya-ibrahim-muhammad/062.mp3",
+    "063": "yahya-ibrahim-muhammad/063.mp3",
+    "064": "yahya-ibrahim-muhammad/064.mp3",
+    "065": "yahya-ibrahim-muhammad/065.mp3",
+    "066": "yahya-ibrahim-muhammad/066.mp3",
+    "067": "yahya-ibrahim-muhammad/067.mp3",
+    "068": "yahya-ibrahim-muhammad/068.mp3",
+    "069": "yahya-ibrahim-muhammad/069.mp3",
+    "070": "yahya-ibrahim-muhammad/070.mp3",
+    "071": "yahya-ibrahim-muhammad/071.mp3",
+    "072": "yahya-ibrahim-muhammad/072.mp3",
+    "073": "yahya-ibrahim-muhammad/073.mp3",
+    "074": "yahya-ibrahim-muhammad/074.mp3",
+    "075": "yahya-ibrahim-muhammad/075.mp3",
+    "076": "yahya-ibrahim-muhammad/076.mp3",
+    "077": "yahya-ibrahim-muhammad/077.mp3",
+    "078": "yahya-ibrahim-muhammad/078.mp3",
+    "079": "yahya-ibrahim-muhammad/079.mp3",
+    "080": "yahya-ibrahim-muhammad/080.mp3",
+    "081": "yahya-ibrahim-muhammad/081.mp3",
+    "082": "yahya-ibrahim-muhammad/082.mp3",
+    "083": "yahya-ibrahim-muhammad/083.mp3",
+    "084": "yahya-ibrahim-muhammad/084.mp3",
+    "085": "yahya-ibrahim-muhammad/085.mp3",
+    "086": "yahya-ibrahim-muhammad/086.mp3",
+    "087": "yahya-ibrahim-muhammad/087.mp3",
+    "088": "yahya-ibrahim-muhammad/088.mp3",
+    "089": "yahya-ibrahim-muhammad/089.mp3",
+    "090": "yahya-ibrahim-muhammad/090.mp3",
+    "091": "yahya-ibrahim-muhammad/091.mp3",
+    "092": "yahya-ibrahim-muhammad/092.mp3",
+    "093": "yahya-ibrahim-muhammad/093.mp3",
+    "094": "yahya-ibrahim-muhammad/094.mp3",
+    "095": "yahya-ibrahim-muhammad/095.mp3",
+    "096": "yahya-ibrahim-muhammad/096.mp3",
+    "097": "yahya-ibrahim-muhammad/097.mp3",
+    "098": "yahya-ibrahim-muhammad/098.mp3",
+    "099": "yahya-ibrahim-muhammad/099.mp3",
+    "100": "yahya-ibrahim-muhammad/100.mp3",
+    "101": "yahya-ibrahim-muhammad/101.mp3",
+    "102": "yahya-ibrahim-muhammad/102.mp3",
+    "103": "yahya-ibrahim-muhammad/103.mp3",
+    "104": "yahya-ibrahim-muhammad/104.mp3",
+    "105": "yahya-ibrahim-muhammad/105.mp3",
+    "106": "yahya-ibrahim-muhammad/106.mp3",
+    "107": "yahya-ibrahim-muhammad/107.mp3",
+    "108": "yahya-ibrahim-muhammad/108.mp3",
+    "109": "yahya-ibrahim-muhammad/109.mp3",
+    "110": "yahya-ibrahim-muhammad/110.mp3",
+    "111": "yahya-ibrahim-muhammad/111.mp3",
+    "112": "yahya-ibrahim-muhammad/112.mp3",
+    "113": "yahya-ibrahim-muhammad/113.mp3",
+    "114": "yahya-ibrahim-muhammad/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "55",
+      "url": "yahya-ibrahim-muhammad/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:16:13",
+      "url": "yahya-ibrahim-muhammad/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:14:25",
+      "url": "yahya-ibrahim-muhammad/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:16:50",
+      "url": "yahya-ibrahim-muhammad/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "1:01:15",
+      "url": "yahya-ibrahim-muhammad/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:07:55",
+      "url": "yahya-ibrahim-muhammad/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:14:58",
+      "url": "yahya-ibrahim-muhammad/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "28:08",
+      "url": "yahya-ibrahim-muhammad/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "55:04",
+      "url": "yahya-ibrahim-muhammad/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "39:55",
+      "url": "yahya-ibrahim-muhammad/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "47:33",
+      "url": "yahya-ibrahim-muhammad/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "43:12",
+      "url": "yahya-ibrahim-muhammad/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "19:26",
+      "url": "yahya-ibrahim-muhammad/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "18:06",
+      "url": "yahya-ibrahim-muhammad/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "15:55",
+      "url": "yahya-ibrahim-muhammad/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "38:15",
+      "url": "yahya-ibrahim-muhammad/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "35:33",
+      "url": "yahya-ibrahim-muhammad/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "33:43",
+      "url": "yahya-ibrahim-muhammad/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:59",
+      "url": "yahya-ibrahim-muhammad/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "27:20",
+      "url": "yahya-ibrahim-muhammad/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "28:02",
+      "url": "yahya-ibrahim-muhammad/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "26:41",
+      "url": "yahya-ibrahim-muhammad/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "24:03",
+      "url": "yahya-ibrahim-muhammad/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "27:27",
+      "url": "yahya-ibrahim-muhammad/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "18:00",
+      "url": "yahya-ibrahim-muhammad/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "30:46",
+      "url": "yahya-ibrahim-muhammad/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "23:25",
+      "url": "yahya-ibrahim-muhammad/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "27:48",
+      "url": "yahya-ibrahim-muhammad/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "19:32",
+      "url": "yahya-ibrahim-muhammad/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "17:06",
+      "url": "yahya-ibrahim-muhammad/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "9:55",
+      "url": "yahya-ibrahim-muhammad/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:42",
+      "url": "yahya-ibrahim-muhammad/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "24:25",
+      "url": "yahya-ibrahim-muhammad/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "16:20",
+      "url": "yahya-ibrahim-muhammad/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "14:38",
+      "url": "yahya-ibrahim-muhammad/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "16:07",
+      "url": "yahya-ibrahim-muhammad/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "20:53",
+      "url": "yahya-ibrahim-muhammad/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "15:44",
+      "url": "yahya-ibrahim-muhammad/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "22:37",
+      "url": "yahya-ibrahim-muhammad/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "22:40",
+      "url": "yahya-ibrahim-muhammad/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "17:27",
+      "url": "yahya-ibrahim-muhammad/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "18:21",
+      "url": "yahya-ibrahim-muhammad/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "18:08",
+      "url": "yahya-ibrahim-muhammad/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "8:21",
+      "url": "yahya-ibrahim-muhammad/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "9:37",
+      "url": "yahya-ibrahim-muhammad/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "15:26",
+      "url": "yahya-ibrahim-muhammad/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "11:56",
+      "url": "yahya-ibrahim-muhammad/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "11:31",
+      "url": "yahya-ibrahim-muhammad/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "8:18",
+      "url": "yahya-ibrahim-muhammad/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:34",
+      "url": "yahya-ibrahim-muhammad/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "8:39",
+      "url": "yahya-ibrahim-muhammad/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "7:46",
+      "url": "yahya-ibrahim-muhammad/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:44",
+      "url": "yahya-ibrahim-muhammad/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "8:17",
+      "url": "yahya-ibrahim-muhammad/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "10:18",
+      "url": "yahya-ibrahim-muhammad/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "10:34",
+      "url": "yahya-ibrahim-muhammad/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "12:03",
+      "url": "yahya-ibrahim-muhammad/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "11:19",
+      "url": "yahya-ibrahim-muhammad/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "10:51",
+      "url": "yahya-ibrahim-muhammad/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "8:21",
+      "url": "yahya-ibrahim-muhammad/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "5:01",
+      "url": "yahya-ibrahim-muhammad/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:40",
+      "url": "yahya-ibrahim-muhammad/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:13",
+      "url": "yahya-ibrahim-muhammad/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "5:19",
+      "url": "yahya-ibrahim-muhammad/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:56",
+      "url": "yahya-ibrahim-muhammad/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:27",
+      "url": "yahya-ibrahim-muhammad/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:25",
+      "url": "yahya-ibrahim-muhammad/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "7:09",
+      "url": "yahya-ibrahim-muhammad/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:00",
+      "url": "yahya-ibrahim-muhammad/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:59",
+      "url": "yahya-ibrahim-muhammad/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:59",
+      "url": "yahya-ibrahim-muhammad/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:37",
+      "url": "yahya-ibrahim-muhammad/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:08",
+      "url": "yahya-ibrahim-muhammad/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:49",
+      "url": "yahya-ibrahim-muhammad/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:43",
+      "url": "yahya-ibrahim-muhammad/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:31",
+      "url": "yahya-ibrahim-muhammad/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "5:02",
+      "url": "yahya-ibrahim-muhammad/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:39",
+      "url": "yahya-ibrahim-muhammad/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:33",
+      "url": "yahya-ibrahim-muhammad/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:53",
+      "url": "yahya-ibrahim-muhammad/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:50",
+      "url": "yahya-ibrahim-muhammad/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "2:22",
+      "url": "yahya-ibrahim-muhammad/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:59",
+      "url": "yahya-ibrahim-muhammad/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:51",
+      "url": "yahya-ibrahim-muhammad/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:52",
+      "url": "yahya-ibrahim-muhammad/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:40",
+      "url": "yahya-ibrahim-muhammad/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:36",
+      "url": "yahya-ibrahim-muhammad/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:04",
+      "url": "yahya-ibrahim-muhammad/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:24",
+      "url": "yahya-ibrahim-muhammad/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:50",
+      "url": "yahya-ibrahim-muhammad/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:28",
+      "url": "yahya-ibrahim-muhammad/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:49",
+      "url": "yahya-ibrahim-muhammad/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:06",
+      "url": "yahya-ibrahim-muhammad/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "40",
+      "url": "yahya-ibrahim-muhammad/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "1:00",
+      "url": "yahya-ibrahim-muhammad/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:32",
+      "url": "yahya-ibrahim-muhammad/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "44",
+      "url": "yahya-ibrahim-muhammad/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:56",
+      "url": "yahya-ibrahim-muhammad/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "54",
+      "url": "yahya-ibrahim-muhammad/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:04",
+      "url": "yahya-ibrahim-muhammad/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "1:08",
+      "url": "yahya-ibrahim-muhammad/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "1:01",
+      "url": "yahya-ibrahim-muhammad/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "24",
+      "url": "yahya-ibrahim-muhammad/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "1:00",
+      "url": "yahya-ibrahim-muhammad/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "44",
+      "url": "yahya-ibrahim-muhammad/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "35",
+      "url": "yahya-ibrahim-muhammad/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "50",
+      "url": "yahya-ibrahim-muhammad/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "22",
+      "url": "yahya-ibrahim-muhammad/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "1:00",
+      "url": "yahya-ibrahim-muhammad/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "34",
+      "url": "yahya-ibrahim-muhammad/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "36",
+      "url": "yahya-ibrahim-muhammad/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "19",
+      "url": "yahya-ibrahim-muhammad/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "32",
+      "url": "yahya-ibrahim-muhammad/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "48",
+      "url": "yahya-ibrahim-muhammad/114.mp3"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "ibrahim-bin-nayef-al-jubouri",
+  "count": 11,
+  "byNumber": {
+    "067": "ibrahim-bin-nayef-al-jubouri/067.mp3",
+    "068": "ibrahim-bin-nayef-al-jubouri/068.mp3",
+    "069": "ibrahim-bin-nayef-al-jubouri/069.mp3",
+    "070": "ibrahim-bin-nayef-al-jubouri/070.mp3",
+    "071": "ibrahim-bin-nayef-al-jubouri/071.mp3",
+    "072": "ibrahim-bin-nayef-al-jubouri/072.mp3",
+    "073": "ibrahim-bin-nayef-al-jubouri/073.mp3",
+    "074": "ibrahim-bin-nayef-al-jubouri/074.mp3",
+    "075": "ibrahim-bin-nayef-al-jubouri/075.mp3",
+    "076": "ibrahim-bin-nayef-al-jubouri/076.mp3",
+    "077": "ibrahim-bin-nayef-al-jubouri/077.mp3"
+  },
+  "list": [
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:02",
+      "url": "ibrahim-bin-nayef-al-jubouri/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "7:04",
+      "url": "ibrahim-bin-nayef-al-jubouri/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:15",
+      "url": "ibrahim-bin-nayef-al-jubouri/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:05",
+      "url": "ibrahim-bin-nayef-al-jubouri/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "5:11",
+      "url": "ibrahim-bin-nayef-al-jubouri/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:58",
+      "url": "ibrahim-bin-nayef-al-jubouri/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:33",
+      "url": "ibrahim-bin-nayef-al-jubouri/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:36",
+      "url": "ibrahim-bin-nayef-al-jubouri/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:38",
+      "url": "ibrahim-bin-nayef-al-jubouri/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:44",
+      "url": "ibrahim-bin-nayef-al-jubouri/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:44",
+      "url": "ibrahim-bin-nayef-al-jubouri/077.mp3"
+    }
+  ]
+}

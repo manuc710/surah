@@ -1,0 +1,78 @@
+{
+  "slug": "rahman-zaini",
+  "count": 10,
+  "byNumber": {
+    "012": "rahman-zaini/012.mp3",
+    "018": "rahman-zaini/018.mp3",
+    "019": "rahman-zaini/019.mp3",
+    "025": "rahman-zaini/025.mp3",
+    "026": "rahman-zaini/026.mp3",
+    "050": "rahman-zaini/050.mp3",
+    "051": "rahman-zaini/051.mp3",
+    "055": "rahman-zaini/055.mp3",
+    "056": "rahman-zaini/056.mp3",
+    "057": "rahman-zaini/057.mp3"
+  },
+  "list": [
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "47:49",
+      "url": "rahman-zaini/012.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "43:28",
+      "url": "rahman-zaini/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "26:01",
+      "url": "rahman-zaini/019.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "21:58",
+      "url": "rahman-zaini/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "37:15",
+      "url": "rahman-zaini/026.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "10:25",
+      "url": "rahman-zaini/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "10:00",
+      "url": "rahman-zaini/051.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "12:19",
+      "url": "rahman-zaini/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "12:25",
+      "url": "rahman-zaini/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "15:03",
+      "url": "rahman-zaini/057.mp3"
+    }
+  ]
+}

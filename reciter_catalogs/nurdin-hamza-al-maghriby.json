@@ -1,0 +1,113 @@
+{
+  "slug": "nurdin-hamza-al-maghriby",
+  "count": 15,
+  "byNumber": {
+    "001": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-001-muslimcentral.com.mp3",
+    "015": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-015-muslimcentral.com.mp3",
+    "020": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-020-muslimcentral.com.mp3",
+    "025": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-025-muslimcentral.com.mp3",
+    "032": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-032-muslimcentral.com.mp3",
+    "037": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-037-muslimcentral.com.mp3",
+    "039": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-039-muslimcentral.com.mp3",
+    "044": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-044-muslimcentral.com.mp3",
+    "047": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-047-muslimcentral.com.mp3",
+    "050": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-050-muslimcentral.com.mp3",
+    "055": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-055-muslimcentral.com.mp3",
+    "067": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-067-muslimcentral.com.mp3",
+    "068": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-068-muslimcentral.com.mp3",
+    "069": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-069-muslimcentral.com.mp3",
+    "075": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-075-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "47",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "12:48",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-015-muslimcentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "25:34",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-020-muslimcentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "18:02",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-025-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "6:36",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "20:09",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-037-muslimcentral.com.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "22:24",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-039-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "34:36",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "12:31",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-047-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "11:34",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:17",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:38",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:08",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:57",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:20",
+      "url": "nurdin-hamza-al-maghriby/nurdin-hamza-al-maghriby-075-muslimcentral.com.mp3"
+    }
+  ]
+}

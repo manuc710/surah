@@ -1,0 +1,43 @@
+{
+  "slug": "abdullah-al-buajan",
+  "count": 5,
+  "byNumber": {
+    "012": "abdullah-al-buajan/abdullah-al-buajan-012-muslimcentral.com.mp3",
+    "014": "abdullah-al-buajan/abdullah-al-buajan-014-muslimcentral.com.mp3",
+    "017": "abdullah-al-buajan/abdullah-al-buajan-017-muslimcentral.com.mp3",
+    "033": "abdullah-al-buajan/abdullah-al-buajan-033-muslimcentral.com.mp3",
+    "034": "abdullah-al-buajan/abdullah-al-buajan-034-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "30:07",
+      "url": "abdullah-al-buajan/abdullah-al-buajan-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "15:31",
+      "url": "abdullah-al-buajan/abdullah-al-buajan-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "24:00",
+      "url": "abdullah-al-buajan/abdullah-al-buajan-017-muslimcentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "23:28",
+      "url": "abdullah-al-buajan/abdullah-al-buajan-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "16:26",
+      "url": "abdullah-al-buajan/abdullah-al-buajan-034-muslimcentral.com.mp3"
+    }
+  ]
+}

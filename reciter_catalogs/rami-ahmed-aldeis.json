@@ -1,0 +1,64 @@
+{
+  "slug": "rami-ahmed-aldeis",
+  "count": 8,
+  "byNumber": {
+    "028": "rami-ahmed-aldeis/028.mp3",
+    "046": "rami-ahmed-aldeis/046.mp3",
+    "055": "rami-ahmed-aldeis/055.mp3",
+    "062": "rami-ahmed-aldeis/062.mp3",
+    "063": "rami-ahmed-aldeis/063.mp3",
+    "076": "rami-ahmed-aldeis/076.mp3",
+    "105": "rami-ahmed-aldeis/105.mp3",
+    "113": "rami-ahmed-aldeis/113.mp3"
+  },
+  "list": [
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "27:05",
+      "url": "rami-ahmed-aldeis/028.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "11:13",
+      "url": "rami-ahmed-aldeis/046.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "8:22",
+      "url": "rami-ahmed-aldeis/055.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:21",
+      "url": "rami-ahmed-aldeis/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:34",
+      "url": "rami-ahmed-aldeis/063.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:11",
+      "url": "rami-ahmed-aldeis/076.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "40",
+      "url": "rami-ahmed-aldeis/105.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "35",
+      "url": "rami-ahmed-aldeis/113.mp3"
+    }
+  ]
+}

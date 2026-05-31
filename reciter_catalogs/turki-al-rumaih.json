@@ -1,0 +1,211 @@
+{
+  "slug": "turki-al-rumaih",
+  "count": 29,
+  "byNumber": {
+    "001": "turki-al-rumaih/turki-al-rumaih-001-muslimcentral.com.mp3",
+    "036": "turki-al-rumaih/turki-al-rumaih-036-muslimcentral.com.mp3",
+    "037": "turki-al-rumaih/turki-al-rumaih-037-muslimcentral.com.mp3",
+    "044": "turki-al-rumaih/turki-al-rumaih-044-muslimcentral.com.mp3",
+    "049": "turki-al-rumaih/turki-al-rumaih-049-muslimcentral.com.mp3",
+    "050": "turki-al-rumaih/turki-al-rumaih-050-muslimcentral.com.mp3",
+    "051": "turki-al-rumaih/turki-al-rumaih-051-muslimcentral.com.mp3",
+    "052": "turki-al-rumaih/turki-al-rumaih-052-muslimcentral.com.mp3",
+    "053": "turki-al-rumaih/turki-al-rumaih-053-muslimcentral.com.mp3",
+    "054": "turki-al-rumaih/turki-al-rumaih-054-muslimcentral.com.mp3",
+    "055": "turki-al-rumaih/turki-al-rumaih-055-muslimcentral.com.mp3",
+    "056": "turki-al-rumaih/turki-al-rumaih-056-muslimcentral.com.mp3",
+    "058": "turki-al-rumaih/turki-al-rumaih-058-muslimcentral.com.mp3",
+    "059": "turki-al-rumaih/turki-al-rumaih-059-muslimcentral.com.mp3",
+    "060": "turki-al-rumaih/turki-al-rumaih-060-muslimcentral.com.mp3",
+    "061": "turki-al-rumaih/turki-al-rumaih-061-muslimcentral.com.mp3",
+    "062": "turki-al-rumaih/turki-al-rumaih-062-muslimcentral.com.mp3",
+    "063": "turki-al-rumaih/turki-al-rumaih-063-muslimcentral.com.mp3",
+    "064": "turki-al-rumaih/turki-al-rumaih-064-muslimcentral.com.mp3",
+    "069": "turki-al-rumaih/turki-al-rumaih-069-muslimcentral.com.mp3",
+    "070": "turki-al-rumaih/turki-al-rumaih-070-muslimcentral.com.mp3",
+    "075": "turki-al-rumaih/turki-al-rumaih-075-muslimcentral.com.mp3",
+    "079": "turki-al-rumaih/turki-al-rumaih-079-muslimcentral.com.mp3",
+    "082": "turki-al-rumaih/turki-al-rumaih-082-muslimcentral.com.mp3",
+    "087": "turki-al-rumaih/turki-al-rumaih-087-muslimcentral.com.mp3",
+    "097": "turki-al-rumaih/turki-al-rumaih-097-muslimcentral.com.mp3",
+    "108": "turki-al-rumaih/turki-al-rumaih-108-muslimcentral.com.mp3",
+    "109": "turki-al-rumaih/turki-al-rumaih-109-muslimcentral.com.mp3",
+    "112": "turki-al-rumaih/turki-al-rumaih-112-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "41",
+      "url": "turki-al-rumaih/turki-al-rumaih-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "17:01",
+      "url": "turki-al-rumaih/turki-al-rumaih-036-muslimcentral.com.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "23:04",
+      "url": "turki-al-rumaih/turki-al-rumaih-037-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "9:23",
+      "url": "turki-al-rumaih/turki-al-rumaih-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "6:58",
+      "url": "turki-al-rumaih/turki-al-rumaih-049-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:55",
+      "url": "turki-al-rumaih/turki-al-rumaih-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:38",
+      "url": "turki-al-rumaih/turki-al-rumaih-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:52",
+      "url": "turki-al-rumaih/turki-al-rumaih-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:38",
+      "url": "turki-al-rumaih/turki-al-rumaih-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "7:11",
+      "url": "turki-al-rumaih/turki-al-rumaih-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:32",
+      "url": "turki-al-rumaih/turki-al-rumaih-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:58",
+      "url": "turki-al-rumaih/turki-al-rumaih-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:25",
+      "url": "turki-al-rumaih/turki-al-rumaih-058-muslimcentral.com.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "8:48",
+      "url": "turki-al-rumaih/turki-al-rumaih-059-muslimcentral.com.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "7:23",
+      "url": "turki-al-rumaih/turki-al-rumaih-060-muslimcentral.com.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:39",
+      "url": "turki-al-rumaih/turki-al-rumaih-061-muslimcentral.com.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:51",
+      "url": "turki-al-rumaih/turki-al-rumaih-062-muslimcentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:50",
+      "url": "turki-al-rumaih/turki-al-rumaih-063-muslimcentral.com.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "5:03",
+      "url": "turki-al-rumaih/turki-al-rumaih-064-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:52",
+      "url": "turki-al-rumaih/turki-al-rumaih-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:13",
+      "url": "turki-al-rumaih/turki-al-rumaih-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "4:19",
+      "url": "turki-al-rumaih/turki-al-rumaih-075-muslimcentral.com.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:19",
+      "url": "turki-al-rumaih/turki-al-rumaih-079-muslimcentral.com.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:43",
+      "url": "turki-al-rumaih/turki-al-rumaih-082-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:29",
+      "url": "turki-al-rumaih/turki-al-rumaih-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "39",
+      "url": "turki-al-rumaih/turki-al-rumaih-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "20",
+      "url": "turki-al-rumaih/turki-al-rumaih-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "38",
+      "url": "turki-al-rumaih/turki-al-rumaih-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "21",
+      "url": "turki-al-rumaih/turki-al-rumaih-112-muslimcentral.com.mp3"
+    }
+  ]
+}

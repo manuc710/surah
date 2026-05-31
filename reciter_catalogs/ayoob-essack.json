@@ -1,0 +1,841 @@
+{
+  "slug": "ayoob-essack",
+  "count": 119,
+  "byNumber": {
+    "001": "ayoob-essack/ayoob-essack-0001-j001q1-qurancentral.com.mp3",
+    "002": "ayoob-essack/ayoob-essack-0002-j001q2-qurancentral.com.mp3",
+    "003": "ayoob-essack/ayoob-essack-0003-j001q3-qurancentral.com.mp3",
+    "004": "ayoob-essack/ayoob-essack-0004-j001q4-qurancentral.com.mp3",
+    "005": "ayoob-essack/ayoob-essack-0005-j002q1-qurancentral.com.mp3",
+    "006": "ayoob-essack/ayoob-essack-0006-j002q2-qurancentral.com.mp3",
+    "007": "ayoob-essack/ayoob-essack-0007-j002q3-qurancentral.com.mp3",
+    "008": "ayoob-essack/ayoob-essack-0008-j002q4-qurancentral.com.mp3",
+    "009": "ayoob-essack/ayoob-essack-0009-j003q1-qurancentral.com.mp3",
+    "010": "ayoob-essack/ayoob-essack-0010-j003q2-qurancentral.com.mp3",
+    "011": "ayoob-essack/ayoob-essack-0011-j003q3-qurancentral.com.mp3",
+    "012": "ayoob-essack/ayoob-essack-0012-j003q4-qurancentral.com.mp3",
+    "013": "ayoob-essack/ayoob-essack-0013-j004q1-qurancentral.com.mp3",
+    "014": "ayoob-essack/ayoob-essack-0014-j004q2-qurancentral.com.mp3",
+    "015": "ayoob-essack/ayoob-essack-0015-j004q3-qurancentral.com.mp3",
+    "016": "ayoob-essack/ayoob-essack-0016-j004q4-qurancentral.com.mp3",
+    "017": "ayoob-essack/ayoob-essack-0017-j005q1-qurancentral.com.mp3",
+    "018": "ayoob-essack/ayoob-essack-0018-j005q2-qurancentral.com.mp3",
+    "019": "ayoob-essack/ayoob-essack-0019-j005q3-qurancentral.com.mp3",
+    "020": "ayoob-essack/ayoob-essack-0020-j005q4-qurancentral.com.mp3",
+    "021": "ayoob-essack/ayoob-essack-0021-j006q1-qurancentral.com.mp3",
+    "022": "ayoob-essack/ayoob-essack-0022-j006q2-qurancentral.com.mp3",
+    "023": "ayoob-essack/ayoob-essack-0023-j006q3-qurancentral.com.mp3",
+    "024": "ayoob-essack/ayoob-essack-0024-j006q4-qurancentral.com.mp3",
+    "025": "ayoob-essack/ayoob-essack-0025-j007q1-qurancentral.com.mp3",
+    "026": "ayoob-essack/ayoob-essack-0026-j007q2-qurancentral.com.mp3",
+    "027": "ayoob-essack/ayoob-essack-0027-j007q3-qurancentral.com.mp3",
+    "028": "ayoob-essack/ayoob-essack-0028-j007q4-qurancentral.com.mp3",
+    "029": "ayoob-essack/ayoob-essack-0029-j008q1-qurancentral.com.mp3",
+    "030": "ayoob-essack/ayoob-essack-0030-j008q2-qurancentral.com.mp3",
+    "031": "ayoob-essack/ayoob-essack-0031-j008q3-qurancentral.com.mp3",
+    "032": "ayoob-essack/ayoob-essack-0032-j008q4-qurancentral.com.mp3",
+    "033": "ayoob-essack/ayoob-essack-0033-j009q1-qurancentral.com.mp3",
+    "034": "ayoob-essack/ayoob-essack-0034-j009q2-qurancentral.com.mp3",
+    "035": "ayoob-essack/ayoob-essack-0035-j009q3-qurancentral.com.mp3",
+    "036": "ayoob-essack/ayoob-essack-0036-j009q4-qurancentral.com.mp3",
+    "037": "ayoob-essack/ayoob-essack-0037-j010q1-qurancentral.com.mp3",
+    "038": "ayoob-essack/ayoob-essack-0038-j010q2-qurancentral.com.mp3",
+    "039": "ayoob-essack/ayoob-essack-0039-j010q3-qurancentral.com.mp3",
+    "040": "ayoob-essack/ayoob-essack-0040-j010q4-qurancentral.com.mp3",
+    "041": "ayoob-essack/ayoob-essack-0041-j011q1-qurancentral.com.mp3",
+    "043": "ayoob-essack/ayoob-essack-0043-j011q3-qurancentral.com.mp3",
+    "044": "ayoob-essack/ayoob-essack-0044-j011q4-qurancentral.com.mp3",
+    "045": "ayoob-essack/ayoob-essack-0045-j012q1-qurancentral.com.mp3",
+    "046": "ayoob-essack/ayoob-essack-0046-j012q2-qurancentral.com.mp3",
+    "047": "ayoob-essack/ayoob-essack-0047-j012q3-qurancentral.com.mp3",
+    "048": "ayoob-essack/ayoob-essack-0048-j012q4-qurancentral.com.mp3",
+    "049": "ayoob-essack/ayoob-essack-0049-j013q1-qurancentral.com.mp3",
+    "050": "ayoob-essack/ayoob-essack-0050-j013q2-qurancentral.com.mp3",
+    "051": "ayoob-essack/ayoob-essack-0051-j013q3-qurancentral.com.mp3",
+    "052": "ayoob-essack/ayoob-essack-0052-j013q4-qurancentral.com.mp3",
+    "053": "ayoob-essack/ayoob-essack-0053-j014q1-qurancentral.com.mp3",
+    "054": "ayoob-essack/ayoob-essack-0054-j014q2-qurancentral.com.mp3",
+    "055": "ayoob-essack/ayoob-essack-0055-j014q3-qurancentral.com.mp3",
+    "056": "ayoob-essack/ayoob-essack-0056-j014q4-qurancentral.com.mp3",
+    "057": "ayoob-essack/ayoob-essack-0057-j015q1-qurancentral.com.mp3",
+    "058": "ayoob-essack/ayoob-essack-0058-j015q2-qurancentral.com.mp3",
+    "059": "ayoob-essack/ayoob-essack-0059-j015q3-qurancentral.com.mp3",
+    "060": "ayoob-essack/ayoob-essack-0060-j015q4-qurancentral.com.mp3",
+    "061": "ayoob-essack/ayoob-essack-0061-j016q1-qurancentral.com.mp3",
+    "062": "ayoob-essack/ayoob-essack-0062-j016q2-qurancentral.com.mp3",
+    "063": "ayoob-essack/ayoob-essack-0063-j016q3-qurancentral.com.mp3",
+    "064": "ayoob-essack/ayoob-essack-0064-j016q4-qurancentral.com.mp3",
+    "065": "ayoob-essack/ayoob-essack-0065-j017q1-qurancentral.com.mp3",
+    "066": "ayoob-essack/ayoob-essack-0066-j017q2-qurancentral.com.mp3",
+    "067": "ayoob-essack/ayoob-essack-0067-j017q3-qurancentral.com.mp3",
+    "068": "ayoob-essack/ayoob-essack-0068-j017q4-qurancentral.com.mp3",
+    "069": "ayoob-essack/ayoob-essack-0069-j018q1-qurancentral.com.mp3",
+    "070": "ayoob-essack/ayoob-essack-0070-j018q2-qurancentral.com.mp3",
+    "071": "ayoob-essack/ayoob-essack-0071-j018q3-qurancentral.com.mp3",
+    "072": "ayoob-essack/ayoob-essack-0072-j018q4-qurancentral.com.mp3",
+    "073": "ayoob-essack/ayoob-essack-0073-j019q1-qurancentral.com.mp3",
+    "074": "ayoob-essack/ayoob-essack-0074-j019q2-qurancentral.com.mp3",
+    "075": "ayoob-essack/ayoob-essack-0075-j019q3-qurancentral.com.mp3",
+    "076": "ayoob-essack/ayoob-essack-0076-j019q4-qurancentral.com.mp3",
+    "077": "ayoob-essack/ayoob-essack-0077-j020q1-qurancentral.com.mp3",
+    "078": "ayoob-essack/ayoob-essack-0078-j020q2-qurancentral.com.mp3",
+    "079": "ayoob-essack/ayoob-essack-0079-j020q3-qurancentral.com.mp3",
+    "080": "ayoob-essack/ayoob-essack-0080-j020q4-qurancentral.com.mp3",
+    "081": "ayoob-essack/ayoob-essack-0081-j021q1-qurancentral.com.mp3",
+    "082": "ayoob-essack/ayoob-essack-0082-j021q2-qurancentral.com.mp3",
+    "083": "ayoob-essack/ayoob-essack-0083-j021q3-qurancentral.com.mp3",
+    "084": "ayoob-essack/ayoob-essack-0084-j021q4-qurancentral.com.mp3",
+    "085": "ayoob-essack/ayoob-essack-0085-j022q1-qurancentral.com.mp3",
+    "086": "ayoob-essack/ayoob-essack-0086-j022q2-qurancentral.com.mp3",
+    "087": "ayoob-essack/ayoob-essack-0087-j022q3-qurancentral.com.mp3",
+    "088": "ayoob-essack/ayoob-essack-0088-j022q4-qurancentral.com.mp3",
+    "089": "ayoob-essack/ayoob-essack-0089-j023q1-qurancentral.com.mp3",
+    "090": "ayoob-essack/ayoob-essack-0090-j023q2-qurancentral.com.mp3",
+    "091": "ayoob-essack/ayoob-essack-0091-j023q3-qurancentral.com.mp3",
+    "092": "ayoob-essack/ayoob-essack-0092-j023q4-qurancentral.com.mp3",
+    "093": "ayoob-essack/ayoob-essack-0093-j024q1-qurancentral.com.mp3",
+    "094": "ayoob-essack/ayoob-essack-0094-j024q2-qurancentral.com.mp3",
+    "095": "ayoob-essack/ayoob-essack-0095-j024q3-qurancentral.com.mp3",
+    "096": "ayoob-essack/ayoob-essack-0096-j024q4-qurancentral.com.mp3",
+    "097": "ayoob-essack/ayoob-essack-0097-j025q1-qurancentral.com.mp3",
+    "098": "ayoob-essack/ayoob-essack-0098-j025q2-qurancentral.com.mp3",
+    "099": "ayoob-essack/ayoob-essack-0099-j025q3-qurancentral.com.mp3",
+    "100": "ayoob-essack/ayoob-essack-0100-j025q4-qurancentral.com.mp3",
+    "101": "ayoob-essack/ayoob-essack-0101-j026q1-qurancentral.com.mp3",
+    "102": "ayoob-essack/ayoob-essack-0102-j026q2-qurancentral.com.mp3",
+    "103": "ayoob-essack/ayoob-essack-0103-j026q3-qurancentral.com.mp3",
+    "104": "ayoob-essack/ayoob-essack-0104-j026q4-qurancentral.com.mp3",
+    "105": "ayoob-essack/ayoob-essack-0105-j027q1-qurancentral.com.mp3",
+    "106": "ayoob-essack/ayoob-essack-0106-j027q2-qurancentral.com.mp3",
+    "107": "ayoob-essack/ayoob-essack-0107-j027q3-qurancentral.com.mp3",
+    "108": "ayoob-essack/ayoob-essack-0108-j027q4-qurancentral.com.mp3",
+    "109": "ayoob-essack/ayoob-essack-0109-j028q1-qurancentral.com.mp3",
+    "110": "ayoob-essack/ayoob-essack-0110-j028q2-qurancentral.com.mp3",
+    "111": "ayoob-essack/ayoob-essack-0111-j028q3-qurancentral.com.mp3",
+    "112": "ayoob-essack/ayoob-essack-0112-j028q4-qurancentral.com.mp3",
+    "113": "ayoob-essack/ayoob-essack-0113-j029q1-qurancentral.com.mp3",
+    "114": "ayoob-essack/ayoob-essack-0114-j029q2-qurancentral.com.mp3",
+    "115": "ayoob-essack/ayoob-essack-0115-j029q3-qurancentral.com.mp3",
+    "116": "ayoob-essack/ayoob-essack-0116-j029q4-qurancentral.com.mp3",
+    "117": "ayoob-essack/ayoob-essack-0117-j030q1-qurancentral.com.mp3",
+    "118": "ayoob-essack/ayoob-essack-0118-j030q2-qurancentral.com.mp3",
+    "119": "ayoob-essack/ayoob-essack-0119-j030q3-qurancentral.com.mp3",
+    "120": "ayoob-essack/ayoob-essack-0120-j030q4-qurancentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 - Juz 01 - Q1",
+      "duration": "7:40",
+      "url": "ayoob-essack/ayoob-essack-0001-j001q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 - Juz 01 - Q2",
+      "duration": "6:25",
+      "url": "ayoob-essack/ayoob-essack-0002-j001q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 - Juz 01 - Q3",
+      "duration": "6:42",
+      "url": "ayoob-essack/ayoob-essack-0003-j001q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 - Juz 01 - Q4",
+      "duration": "5:58",
+      "url": "ayoob-essack/ayoob-essack-0004-j001q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 - Juz 02 - Q1",
+      "duration": "7:35",
+      "url": "ayoob-essack/ayoob-essack-0005-j002q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 - Juz 02 - Q2",
+      "duration": "8:03",
+      "url": "ayoob-essack/ayoob-essack-0006-j002q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 - Juz 02 - Q3",
+      "duration": "6:24",
+      "url": "ayoob-essack/ayoob-essack-0007-j002q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 - Juz 02 - Q4",
+      "duration": "6:27",
+      "url": "ayoob-essack/ayoob-essack-0008-j002q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 - Juz 03 - Q1",
+      "duration": "7:00",
+      "url": "ayoob-essack/ayoob-essack-0009-j003q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 - Juz 03 - Q2",
+      "duration": "8:58",
+      "url": "ayoob-essack/ayoob-essack-0010-j003q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 - Juz 03 - Q3",
+      "duration": "6:24",
+      "url": "ayoob-essack/ayoob-essack-0011-j003q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 - Juz 03 - Q4",
+      "duration": "6:44",
+      "url": "ayoob-essack/ayoob-essack-0012-j003q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 - Juz 04 - Q1",
+      "duration": "7:07",
+      "url": "ayoob-essack/ayoob-essack-0013-j004q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 - Juz 04 - Q2",
+      "duration": "8:35",
+      "url": "ayoob-essack/ayoob-essack-0014-j004q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 - Juz 04 - Q3",
+      "duration": "6:38",
+      "url": "ayoob-essack/ayoob-essack-0015-j004q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 - Juz 04 - Q4",
+      "duration": "6:48",
+      "url": "ayoob-essack/ayoob-essack-0016-j004q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 - Juz 05 - Q1",
+      "duration": "6:38",
+      "url": "ayoob-essack/ayoob-essack-0017-j005q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 - Juz 05 - Q2",
+      "duration": "8:14",
+      "url": "ayoob-essack/ayoob-essack-0018-j005q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 - Juz 05 - Q3",
+      "duration": "7:43",
+      "url": "ayoob-essack/ayoob-essack-0019-j005q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 - Juz 05 - Q4",
+      "duration": "7:08",
+      "url": "ayoob-essack/ayoob-essack-0020-j005q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 - Juz 06 - Q1",
+      "duration": "8:26",
+      "url": "ayoob-essack/ayoob-essack-0021-j006q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 - Juz 06 - Q2",
+      "duration": "8:15",
+      "url": "ayoob-essack/ayoob-essack-0022-j006q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 - Juz 06 - Q3",
+      "duration": "6:13",
+      "url": "ayoob-essack/ayoob-essack-0023-j006q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 - Juz 06 - Q4",
+      "duration": "5:58",
+      "url": "ayoob-essack/ayoob-essack-0024-j006q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 - Juz 07 - Q1",
+      "duration": "7:43",
+      "url": "ayoob-essack/ayoob-essack-0025-j007q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 - Juz 07 - Q2",
+      "duration": "8:13",
+      "url": "ayoob-essack/ayoob-essack-0026-j007q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 - Juz 07 - Q3",
+      "duration": "7:48",
+      "url": "ayoob-essack/ayoob-essack-0027-j007q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 - Juz 07 - Q4",
+      "duration": "6:00",
+      "url": "ayoob-essack/ayoob-essack-0028-j007q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 - Juz 08 - Q1",
+      "duration": "6:33",
+      "url": "ayoob-essack/ayoob-essack-0029-j008q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 - Juz 08 - Q2",
+      "duration": "6:49",
+      "url": "ayoob-essack/ayoob-essack-0030-j008q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 - Juz 08 - Q3",
+      "duration": "8:26",
+      "url": "ayoob-essack/ayoob-essack-0031-j008q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 - Juz 08 - Q4",
+      "duration": "7:24",
+      "url": "ayoob-essack/ayoob-essack-0032-j008q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 - Juz 09 - Q1",
+      "duration": "7:56",
+      "url": "ayoob-essack/ayoob-essack-0033-j009q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 - Juz 09 - Q2",
+      "duration": "8:09",
+      "url": "ayoob-essack/ayoob-essack-0034-j009q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 - Juz 09 - Q3",
+      "duration": "6:11",
+      "url": "ayoob-essack/ayoob-essack-0035-j009q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 - Juz 09 - Q4",
+      "duration": "7:02",
+      "url": "ayoob-essack/ayoob-essack-0036-j009q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 - Juz 10 - Q1",
+      "duration": "7:35",
+      "url": "ayoob-essack/ayoob-essack-0037-j010q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 - Juz 10 - Q2",
+      "duration": "8:58",
+      "url": "ayoob-essack/ayoob-essack-0038-j010q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 - Juz 10 - Q3",
+      "duration": "6:07",
+      "url": "ayoob-essack/ayoob-essack-0039-j010q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 - Juz 10 - Q4",
+      "duration": "6:26",
+      "url": "ayoob-essack/ayoob-essack-0040-j010q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 - Juz 11 - Q1",
+      "duration": "8:28",
+      "url": "ayoob-essack/ayoob-essack-0041-j011q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 - Juz 11 - Q3",
+      "duration": "6:45",
+      "url": "ayoob-essack/ayoob-essack-0043-j011q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 - Juz 11 - Q4",
+      "duration": "7:57",
+      "url": "ayoob-essack/ayoob-essack-0044-j011q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 - Juz 12 - Q1",
+      "duration": "9:18",
+      "url": "ayoob-essack/ayoob-essack-0045-j012q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 - Juz 12 - Q2",
+      "duration": "5:49",
+      "url": "ayoob-essack/ayoob-essack-0046-j012q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 - Juz 12 - Q3",
+      "duration": "9:53",
+      "url": "ayoob-essack/ayoob-essack-0047-j012q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 - Juz 12 - Q4",
+      "duration": "7:12",
+      "url": "ayoob-essack/ayoob-essack-0048-j012q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 - Juz 13 - Q1",
+      "duration": "9:34",
+      "url": "ayoob-essack/ayoob-essack-0049-j013q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 - Juz 13 - Q2",
+      "duration": "6:25",
+      "url": "ayoob-essack/ayoob-essack-0050-j013q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 - Juz 13 - Q3",
+      "duration": "8:21",
+      "url": "ayoob-essack/ayoob-essack-0051-j013q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 - Juz 13 - Q4",
+      "duration": "6:51",
+      "url": "ayoob-essack/ayoob-essack-0052-j013q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 - Juz 14 - Q1",
+      "duration": "7:39",
+      "url": "ayoob-essack/ayoob-essack-0053-j014q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 - Juz 14 - Q2",
+      "duration": "7:23",
+      "url": "ayoob-essack/ayoob-essack-0054-j014q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 - Juz 14 - Q3",
+      "duration": "7:16",
+      "url": "ayoob-essack/ayoob-essack-0055-j014q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 - Juz 14 - Q4",
+      "duration": "6:35",
+      "url": "ayoob-essack/ayoob-essack-0056-j014q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 - Juz 15 - Q1",
+      "duration": "8:35",
+      "url": "ayoob-essack/ayoob-essack-0057-j015q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 - Juz 15 - Q2",
+      "duration": "8:20",
+      "url": "ayoob-essack/ayoob-essack-0058-j015q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 - Juz 15 - Q3",
+      "duration": "8:15",
+      "url": "ayoob-essack/ayoob-essack-0059-j015q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 - Juz 15 - Q4",
+      "duration": "7:22",
+      "url": "ayoob-essack/ayoob-essack-0060-j015q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 - Juz 16 - Q1",
+      "duration": "9:50",
+      "url": "ayoob-essack/ayoob-essack-0061-j016q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 - Juz 16 - Q2",
+      "duration": "6:34",
+      "url": "ayoob-essack/ayoob-essack-0062-j016q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 - Juz 16 - Q3",
+      "duration": "7:10",
+      "url": "ayoob-essack/ayoob-essack-0063-j016q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 - Juz 16 - Q4",
+      "duration": "7:57",
+      "url": "ayoob-essack/ayoob-essack-0064-j016q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 - Juz 17 - Q1",
+      "duration": "6:49",
+      "url": "ayoob-essack/ayoob-essack-0065-j017q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 - Juz 17 - Q2",
+      "duration": "7:35",
+      "url": "ayoob-essack/ayoob-essack-0066-j017q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 - Juz 17 - Q3",
+      "duration": "7:34",
+      "url": "ayoob-essack/ayoob-essack-0067-j017q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 - Juz 17 - Q4",
+      "duration": "7:13",
+      "url": "ayoob-essack/ayoob-essack-0068-j017q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 - Juz 18 - Q1",
+      "duration": "8:41",
+      "url": "ayoob-essack/ayoob-essack-0069-j018q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 - Juz 18 - Q2",
+      "duration": "8:29",
+      "url": "ayoob-essack/ayoob-essack-0070-j018q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 - Juz 18 - Q3",
+      "duration": "7:49",
+      "url": "ayoob-essack/ayoob-essack-0071-j018q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 - Juz 18 - Q4",
+      "duration": "7:26",
+      "url": "ayoob-essack/ayoob-essack-0072-j018q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 - Juz 19 - Q1",
+      "duration": "7:36",
+      "url": "ayoob-essack/ayoob-essack-0073-j019q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 - Juz 19 - Q2",
+      "duration": "8:41",
+      "url": "ayoob-essack/ayoob-essack-0074-j019q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 - Juz 19 - Q3",
+      "duration": "8:49",
+      "url": "ayoob-essack/ayoob-essack-0075-j019q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 - Juz 19 - Q4",
+      "duration": "6:33",
+      "url": "ayoob-essack/ayoob-essack-0076-j019q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 - Juz 20 - Q1",
+      "duration": "7:07",
+      "url": "ayoob-essack/ayoob-essack-0077-j020q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 - Juz 20 - Q2",
+      "duration": "9:14",
+      "url": "ayoob-essack/ayoob-essack-0078-j020q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 - Juz 20 - Q3",
+      "duration": "5:19",
+      "url": "ayoob-essack/ayoob-essack-0079-j020q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 - Juz 20 - Q4",
+      "duration": "7:16",
+      "url": "ayoob-essack/ayoob-essack-0080-j020q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 - Juz 21 - Q1",
+      "duration": "7:55",
+      "url": "ayoob-essack/ayoob-essack-0081-j021q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 - Juz 21 - Q2",
+      "duration": "8:34",
+      "url": "ayoob-essack/ayoob-essack-0082-j021q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 - Juz 21 - Q3",
+      "duration": "7:49",
+      "url": "ayoob-essack/ayoob-essack-0083-j021q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 - Juz 21 - Q4",
+      "duration": "6:43",
+      "url": "ayoob-essack/ayoob-essack-0084-j021q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 - Juz 22 - Q1",
+      "duration": "9:21",
+      "url": "ayoob-essack/ayoob-essack-0085-j022q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 - Juz 22 - Q2",
+      "duration": "6:34",
+      "url": "ayoob-essack/ayoob-essack-0086-j022q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 - Juz 22 - Q3",
+      "duration": "8:21",
+      "url": "ayoob-essack/ayoob-essack-0087-j022q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 - Juz 22 - Q4",
+      "duration": "8:19",
+      "url": "ayoob-essack/ayoob-essack-0088-j022q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 - Juz 23 - Q1",
+      "duration": "11:19",
+      "url": "ayoob-essack/ayoob-essack-0089-j023q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 - Juz 23 - Q2",
+      "duration": "6:24",
+      "url": "ayoob-essack/ayoob-essack-0090-j023q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 - Juz 23 - Q3",
+      "duration": "7:38",
+      "url": "ayoob-essack/ayoob-essack-0091-j023q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 - Juz 23 - Q4",
+      "duration": "8:25",
+      "url": "ayoob-essack/ayoob-essack-0092-j023q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 - Juz 24 - Q1",
+      "duration": "7:46",
+      "url": "ayoob-essack/ayoob-essack-0093-j024q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 - Juz 24 - Q2",
+      "duration": "9:20",
+      "url": "ayoob-essack/ayoob-essack-0094-j024q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 - Juz 24 - Q3",
+      "duration": "6:53",
+      "url": "ayoob-essack/ayoob-essack-0095-j024q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 - Juz 24 - Q4",
+      "duration": "7:41",
+      "url": "ayoob-essack/ayoob-essack-0096-j024q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 - Juz 25 - Q1",
+      "duration": "7:27",
+      "url": "ayoob-essack/ayoob-essack-0097-j025q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 - Juz 25 - Q2",
+      "duration": "7:02",
+      "url": "ayoob-essack/ayoob-essack-0098-j025q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 - Juz 25 - Q3",
+      "duration": "9:46",
+      "url": "ayoob-essack/ayoob-essack-0099-j025q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 - Juz 25 - Q4",
+      "duration": "7:45",
+      "url": "ayoob-essack/ayoob-essack-0100-j025q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 - Juz 26 - Q1",
+      "duration": "7:31",
+      "url": "ayoob-essack/ayoob-essack-0101-j026q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 - Juz 26 - Q2",
+      "duration": "10:10",
+      "url": "ayoob-essack/ayoob-essack-0102-j026q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 - Juz 26 - Q3",
+      "duration": "5:40",
+      "url": "ayoob-essack/ayoob-essack-0103-j026q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 - Juz 26 - Q4",
+      "duration": "9:24",
+      "url": "ayoob-essack/ayoob-essack-0104-j026q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 - Juz 27 - Q1",
+      "duration": "9:02",
+      "url": "ayoob-essack/ayoob-essack-0105-j027q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 - Juz 27 - Q2",
+      "duration": "7:28",
+      "url": "ayoob-essack/ayoob-essack-0106-j027q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 - Juz 27 - Q3",
+      "duration": "8:28",
+      "url": "ayoob-essack/ayoob-essack-0107-j027q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 - Juz 27 - Q4",
+      "duration": "8:39",
+      "url": "ayoob-essack/ayoob-essack-0108-j027q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 - Juz 28 - Q1",
+      "duration": "8:32",
+      "url": "ayoob-essack/ayoob-essack-0109-j028q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 - Juz 28 - Q2",
+      "duration": "7:11",
+      "url": "ayoob-essack/ayoob-essack-0110-j028q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 - Juz 28 - Q3",
+      "duration": "8:54",
+      "url": "ayoob-essack/ayoob-essack-0111-j028q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 - Juz 28 - Q4",
+      "duration": "8:22",
+      "url": "ayoob-essack/ayoob-essack-0112-j028q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 - Juz 29 - Q1",
+      "duration": "8:06",
+      "url": "ayoob-essack/ayoob-essack-0113-j029q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 - Juz 29 - Q2",
+      "duration": "9:49",
+      "url": "ayoob-essack/ayoob-essack-0114-j029q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "115",
+      "title": "115 - Juz 29 - Q3",
+      "duration": "9:39",
+      "url": "ayoob-essack/ayoob-essack-0115-j029q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "116",
+      "title": "116 - Juz 29 - Q4",
+      "duration": "9:02",
+      "url": "ayoob-essack/ayoob-essack-0116-j029q4-qurancentral.com.mp3"
+    },
+    {
+      "n": "117",
+      "title": "117 - Juz 30 - Q1",
+      "duration": "10:08",
+      "url": "ayoob-essack/ayoob-essack-0117-j030q1-qurancentral.com.mp3"
+    },
+    {
+      "n": "118",
+      "title": "118 - Juz 30 - Q2",
+      "duration": "9:08",
+      "url": "ayoob-essack/ayoob-essack-0118-j030q2-qurancentral.com.mp3"
+    },
+    {
+      "n": "119",
+      "title": "119 - Juz 30 - Q3",
+      "duration": "8:32",
+      "url": "ayoob-essack/ayoob-essack-0119-j030q3-qurancentral.com.mp3"
+    },
+    {
+      "n": "120",
+      "title": "120 - Juz 30 - Q4",
+      "duration": "8:07",
+      "url": "ayoob-essack/ayoob-essack-0120-j030q4-qurancentral.com.mp3"
+    }
+  ]
+}

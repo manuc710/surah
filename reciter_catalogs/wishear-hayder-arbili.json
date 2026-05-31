@@ -1,0 +1,22 @@
+{
+  "slug": "wishear-hayder-arbili",
+  "count": 2,
+  "byNumber": {
+    "055": "wishear-hayder-arbili/wishear-hayder-arbili-055-muslimcentral.com.mp3",
+    "056": "wishear-hayder-arbili/wishear-hayder-arbili-056-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "26:04",
+      "url": "wishear-hayder-arbili/wishear-hayder-arbili-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "29:35",
+      "url": "wishear-hayder-arbili/wishear-hayder-arbili-056-muslimcentral.com.mp3"
+    }
+  ]
+}

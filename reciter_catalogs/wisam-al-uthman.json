@@ -1,0 +1,22 @@
+{
+  "slug": "wisam-al-uthman",
+  "count": 2,
+  "byNumber": {
+    "023": "wisam-al-uthman/023.mp3",
+    "024": "wisam-al-uthman/024.mp3"
+  },
+  "list": [
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "18:42",
+      "url": "wisam-al-uthman/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "26:07",
+      "url": "wisam-al-uthman/024.mp3"
+    }
+  ]
+}

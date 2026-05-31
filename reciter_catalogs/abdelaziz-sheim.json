@@ -1,0 +1,211 @@
+{
+  "slug": "abdelaziz-sheim",
+  "count": 29,
+  "byNumber": {
+    "001": "abdelaziz-sheim/001.mp3",
+    "011": "abdelaziz-sheim/011.mp3",
+    "018": "abdelaziz-sheim/018.mp3",
+    "019": "abdelaziz-sheim/019.mp3",
+    "021": "abdelaziz-sheim/021.mp3",
+    "023": "abdelaziz-sheim/023.mp3",
+    "025": "abdelaziz-sheim/025.mp3",
+    "031": "abdelaziz-sheim/031.mp3",
+    "039": "abdelaziz-sheim/039.mp3",
+    "043": "abdelaziz-sheim/043.mp3",
+    "049": "abdelaziz-sheim/049.mp3",
+    "050": "abdelaziz-sheim/050.mp3",
+    "051": "abdelaziz-sheim/051.mp3",
+    "056": "abdelaziz-sheim/056.mp3",
+    "058": "abdelaziz-sheim/058.mp3",
+    "059": "abdelaziz-sheim/059.mp3",
+    "060": "abdelaziz-sheim/060.mp3",
+    "066": "abdelaziz-sheim/066.mp3",
+    "067": "abdelaziz-sheim/067.mp3",
+    "072": "abdelaziz-sheim/072.mp3",
+    "074": "abdelaziz-sheim/074.mp3",
+    "075": "abdelaziz-sheim/075.mp3",
+    "076": "abdelaziz-sheim/076.mp3",
+    "087": "abdelaziz-sheim/087.mp3",
+    "093": "abdelaziz-sheim/093.mp3",
+    "097": "abdelaziz-sheim/097.mp3",
+    "100": "abdelaziz-sheim/100.mp3",
+    "110": "abdelaziz-sheim/110.mp3",
+    "112": "abdelaziz-sheim/112.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "48",
+      "url": "abdelaziz-sheim/001.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "13:27",
+      "url": "abdelaziz-sheim/011.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "35:58",
+      "url": "abdelaziz-sheim/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "13:42",
+      "url": "abdelaziz-sheim/019.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "1:07:22",
+      "url": "abdelaziz-sheim/021.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "35:58",
+      "url": "abdelaziz-sheim/023.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "8:24",
+      "url": "abdelaziz-sheim/025.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "12:19",
+      "url": "abdelaziz-sheim/031.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "33:38",
+      "url": "abdelaziz-sheim/039.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "6:43",
+      "url": "abdelaziz-sheim/043.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:42",
+      "url": "abdelaziz-sheim/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "9:29",
+      "url": "abdelaziz-sheim/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:58",
+      "url": "abdelaziz-sheim/051.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:34",
+      "url": "abdelaziz-sheim/056.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "3:05",
+      "url": "abdelaziz-sheim/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "7:24",
+      "url": "abdelaziz-sheim/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "9:01",
+      "url": "abdelaziz-sheim/060.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:42",
+      "url": "abdelaziz-sheim/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "9:20",
+      "url": "abdelaziz-sheim/067.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:19",
+      "url": "abdelaziz-sheim/072.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "7:21",
+      "url": "abdelaziz-sheim/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "4:39",
+      "url": "abdelaziz-sheim/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:36",
+      "url": "abdelaziz-sheim/076.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:21",
+      "url": "abdelaziz-sheim/087.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "38",
+      "url": "abdelaziz-sheim/093.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "41",
+      "url": "abdelaziz-sheim/097.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "59",
+      "url": "abdelaziz-sheim/100.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "28",
+      "url": "abdelaziz-sheim/110.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "1:18",
+      "url": "abdelaziz-sheim/112.mp3"
+    }
+  ]
+}

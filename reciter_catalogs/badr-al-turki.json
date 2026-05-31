@@ -1,0 +1,806 @@
+{
+  "slug": "badr-al-turki",
+  "count": 114,
+  "byNumber": {
+    "001": "badr-al-turki/001-B.mp3",
+    "002": "badr-al-turki/002-B.mp3",
+    "003": "badr-al-turki/003-B.mp3",
+    "004": "badr-al-turki/004-B.mp3",
+    "005": "badr-al-turki/005-B.mp3",
+    "006": "badr-al-turki/006-B.mp3",
+    "007": "badr-al-turki/007-B.mp3",
+    "008": "badr-al-turki/008-B.mp3",
+    "009": "badr-al-turki/009-B.mp3",
+    "010": "badr-al-turki/010-B.mp3",
+    "011": "badr-al-turki/011-B.mp3",
+    "012": "badr-al-turki/012-B.mp3",
+    "013": "badr-al-turki/013-B.mp3",
+    "014": "badr-al-turki/014-B.mp3",
+    "015": "badr-al-turki/015-B.mp3",
+    "016": "badr-al-turki/016-B.mp3",
+    "017": "badr-al-turki/017-B.mp3",
+    "018": "badr-al-turki/018-B.mp3",
+    "019": "badr-al-turki/019-B.mp3",
+    "020": "badr-al-turki/020-B.mp3",
+    "021": "badr-al-turki/021-B.mp3",
+    "022": "badr-al-turki/022-B.mp3",
+    "023": "badr-al-turki/023-B.mp3",
+    "024": "badr-al-turki/024-B.mp3",
+    "025": "badr-al-turki/025-B.mp3",
+    "026": "badr-al-turki/026-B.mp3",
+    "027": "badr-al-turki/027-B.mp3",
+    "028": "badr-al-turki/028-B.mp3",
+    "029": "badr-al-turki/029-B.mp3",
+    "030": "badr-al-turki/030-B.mp3",
+    "031": "badr-al-turki/031-B.mp3",
+    "032": "badr-al-turki/032-B.mp3",
+    "033": "badr-al-turki/033-B.mp3",
+    "034": "badr-al-turki/034-B.mp3",
+    "035": "badr-al-turki/035-B.mp3",
+    "036": "badr-al-turki/036-B.mp3",
+    "037": "badr-al-turki/037-B.mp3",
+    "038": "badr-al-turki/038-B.mp3",
+    "039": "badr-al-turki/039-B.mp3",
+    "040": "badr-al-turki/040-B.mp3",
+    "041": "badr-al-turki/041-B.mp3",
+    "042": "badr-al-turki/042-B.mp3",
+    "043": "badr-al-turki/043-B.mp3",
+    "044": "badr-al-turki/044-B.mp3",
+    "045": "badr-al-turki/045-B.mp3",
+    "046": "badr-al-turki/046-B.mp3",
+    "047": "badr-al-turki/047-B.mp3",
+    "048": "badr-al-turki/048-B.mp3",
+    "049": "badr-al-turki/049-B.mp3",
+    "050": "badr-al-turki/050-B.mp3",
+    "051": "badr-al-turki/051-B.mp3",
+    "052": "badr-al-turki/052-B.mp3",
+    "053": "badr-al-turki/053-B.mp3",
+    "054": "badr-al-turki/054-B.mp3",
+    "055": "badr-al-turki/055-B.mp3",
+    "056": "badr-al-turki/056-B.mp3",
+    "057": "badr-al-turki/057-B.mp3",
+    "058": "badr-al-turki/058-B.mp3",
+    "059": "badr-al-turki/059-B.mp3",
+    "060": "badr-al-turki/060-B.mp3",
+    "061": "badr-al-turki/061-B.mp3",
+    "062": "badr-al-turki/062-B.mp3",
+    "063": "badr-al-turki/063-B.mp3",
+    "064": "badr-al-turki/064-B.mp3",
+    "065": "badr-al-turki/065-B.mp3",
+    "066": "badr-al-turki/066-B.mp3",
+    "067": "badr-al-turki/067-B.mp3",
+    "068": "badr-al-turki/068-B.mp3",
+    "069": "badr-al-turki/069-B.mp3",
+    "070": "badr-al-turki/070-B.mp3",
+    "071": "badr-al-turki/071-B.mp3",
+    "072": "badr-al-turki/072-B.mp3",
+    "073": "badr-al-turki/073-B.mp3",
+    "074": "badr-al-turki/074-B.mp3",
+    "075": "badr-al-turki/075-B.mp3",
+    "076": "badr-al-turki/076-B.mp3",
+    "077": "badr-al-turki/077-B.mp3",
+    "078": "badr-al-turki/078-B.mp3",
+    "079": "badr-al-turki/079-B.mp3",
+    "080": "badr-al-turki/080-B.mp3",
+    "081": "badr-al-turki/081-B.mp3",
+    "082": "badr-al-turki/082-B.mp3",
+    "083": "badr-al-turki/083-B.mp3",
+    "084": "badr-al-turki/084-B.mp3",
+    "085": "badr-al-turki/085-B.mp3",
+    "086": "badr-al-turki/086-B.mp3",
+    "087": "badr-al-turki/087-B.mp3",
+    "088": "badr-al-turki/088-B.mp3",
+    "089": "badr-al-turki/089-B.mp3",
+    "090": "badr-al-turki/090-B.mp3",
+    "091": "badr-al-turki/091-B.mp3",
+    "092": "badr-al-turki/092-B.mp3",
+    "093": "badr-al-turki/093-B.mp3",
+    "094": "badr-al-turki/094-B.mp3",
+    "095": "badr-al-turki/095-B.mp3",
+    "096": "badr-al-turki/096-B.mp3",
+    "097": "badr-al-turki/097-B.mp3",
+    "098": "badr-al-turki/098-B.mp3",
+    "099": "badr-al-turki/099-B.mp3",
+    "100": "badr-al-turki/100-B.mp3",
+    "101": "badr-al-turki/101-B.mp3",
+    "102": "badr-al-turki/102-B.mp3",
+    "103": "badr-al-turki/103-B.mp3",
+    "104": "badr-al-turki/104-B.mp3",
+    "105": "badr-al-turki/105-B.mp3",
+    "106": "badr-al-turki/106-B.mp3",
+    "107": "badr-al-turki/107-B.mp3",
+    "108": "badr-al-turki/108-B.mp3",
+    "109": "badr-al-turki/109-B.mp3",
+    "110": "badr-al-turki/110-B.mp3",
+    "111": "badr-al-turki/111-B.mp3",
+    "112": "badr-al-turki/112-B.mp3",
+    "113": "badr-al-turki/113-B.mp3",
+    "114": "badr-al-turki/114-B.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "43",
+      "url": "badr-al-turki/001-B.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "1:58:35",
+      "url": "badr-al-turki/002-B.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:09:50",
+      "url": "badr-al-turki/003-B.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:10:53",
+      "url": "badr-al-turki/004-B.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "55:02",
+      "url": "badr-al-turki/005-B.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "58:00",
+      "url": "badr-al-turki/006-B.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:04:49",
+      "url": "badr-al-turki/007-B.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "24:32",
+      "url": "badr-al-turki/008-B.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "52:11",
+      "url": "badr-al-turki/009-B.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "34:17",
+      "url": "badr-al-turki/010-B.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "38:02",
+      "url": "badr-al-turki/011-B.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "35:11",
+      "url": "badr-al-turki/012-B.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "17:28",
+      "url": "badr-al-turki/013-B.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "17:45",
+      "url": "badr-al-turki/014-B.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "9:45",
+      "url": "badr-al-turki/015-B.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "34:36",
+      "url": "badr-al-turki/016-B.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "29:29",
+      "url": "badr-al-turki/017-B.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "27:05",
+      "url": "badr-al-turki/018-B.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:19",
+      "url": "badr-al-turki/019-B.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "25:54",
+      "url": "badr-al-turki/020-B.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "26:38",
+      "url": "badr-al-turki/021-B.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "25:11",
+      "url": "badr-al-turki/022-B.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "21:03",
+      "url": "badr-al-turki/023-B.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "25:29",
+      "url": "badr-al-turki/024-B.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "18:44",
+      "url": "badr-al-turki/025-B.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "26:22",
+      "url": "badr-al-turki/026-B.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "22:36",
+      "url": "badr-al-turki/027-B.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "28:13",
+      "url": "badr-al-turki/028-B.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "19:03",
+      "url": "badr-al-turki/029-B.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "15:10",
+      "url": "badr-al-turki/030-B.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "9:40",
+      "url": "badr-al-turki/031-B.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "6:30",
+      "url": "badr-al-turki/032-B.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "25:43",
+      "url": "badr-al-turki/033-B.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "15:17",
+      "url": "badr-al-turki/034-B.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:32",
+      "url": "badr-al-turki/035-B.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "14:11",
+      "url": "badr-al-turki/036-B.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "18:34",
+      "url": "badr-al-turki/037-B.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "14:42",
+      "url": "badr-al-turki/038-B.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "24:35",
+      "url": "badr-al-turki/039-B.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "22:40",
+      "url": "badr-al-turki/040-B.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "15:27",
+      "url": "badr-al-turki/041-B.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "15:46",
+      "url": "badr-al-turki/042-B.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "16:07",
+      "url": "badr-al-turki/043-B.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "6:53",
+      "url": "badr-al-turki/044-B.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "6:54",
+      "url": "badr-al-turki/045-B.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "9:27",
+      "url": "badr-al-turki/046-B.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "9:40",
+      "url": "badr-al-turki/047-B.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:14",
+      "url": "badr-al-turki/048-B.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "6:58",
+      "url": "badr-al-turki/049-B.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:53",
+      "url": "badr-al-turki/050-B.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:31",
+      "url": "badr-al-turki/051-B.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:24",
+      "url": "badr-al-turki/052-B.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:37",
+      "url": "badr-al-turki/053-B.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:17",
+      "url": "badr-al-turki/054-B.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "8:48",
+      "url": "badr-al-turki/055-B.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "8:25",
+      "url": "badr-al-turki/056-B.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "10:41",
+      "url": "badr-al-turki/057-B.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "8:25",
+      "url": "badr-al-turki/058-B.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "8:24",
+      "url": "badr-al-turki/059-B.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "6:13",
+      "url": "badr-al-turki/060-B.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "3:37",
+      "url": "badr-al-turki/061-B.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:01",
+      "url": "badr-al-turki/062-B.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:35",
+      "url": "badr-al-turki/063-B.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:16",
+      "url": "badr-al-turki/064-B.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:26",
+      "url": "badr-al-turki/065-B.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:06",
+      "url": "badr-al-turki/066-B.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:53",
+      "url": "badr-al-turki/067-B.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:11",
+      "url": "badr-al-turki/068-B.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:28",
+      "url": "badr-al-turki/069-B.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:12",
+      "url": "badr-al-turki/070-B.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:28",
+      "url": "badr-al-turki/071-B.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "4:30",
+      "url": "badr-al-turki/072-B.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:55",
+      "url": "badr-al-turki/073-B.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:20",
+      "url": "badr-al-turki/074-B.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:13",
+      "url": "badr-al-turki/075-B.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:24",
+      "url": "badr-al-turki/076-B.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "3:57",
+      "url": "badr-al-turki/077-B.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:59",
+      "url": "badr-al-turki/078-B.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:38",
+      "url": "badr-al-turki/079-B.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:23",
+      "url": "badr-al-turki/080-B.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:26",
+      "url": "badr-al-turki/081-B.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "2:03",
+      "url": "badr-al-turki/082-B.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:42",
+      "url": "badr-al-turki/083-B.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:08",
+      "url": "badr-al-turki/084-B.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:14",
+      "url": "badr-al-turki/085-B.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:18",
+      "url": "badr-al-turki/086-B.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:22",
+      "url": "badr-al-turki/087-B.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:52",
+      "url": "badr-al-turki/088-B.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:00",
+      "url": "badr-al-turki/089-B.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:27",
+      "url": "badr-al-turki/090-B.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:14",
+      "url": "badr-al-turki/091-B.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:34",
+      "url": "badr-al-turki/092-B.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "59",
+      "url": "badr-al-turki/093-B.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "37",
+      "url": "badr-al-turki/094-B.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "45",
+      "url": "badr-al-turki/095-B.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:39",
+      "url": "badr-al-turki/096-B.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "36",
+      "url": "badr-al-turki/097-B.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:49",
+      "url": "badr-al-turki/098-B.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "48",
+      "url": "badr-al-turki/099-B.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "53",
+      "url": "badr-al-turki/100-B.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "47",
+      "url": "badr-al-turki/101-B.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "48",
+      "url": "badr-al-turki/102-B.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "22",
+      "url": "badr-al-turki/103-B.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "47",
+      "url": "badr-al-turki/104-B.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "36",
+      "url": "badr-al-turki/105-B.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "32",
+      "url": "badr-al-turki/106-B.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "43",
+      "url": "badr-al-turki/107-B.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "18",
+      "url": "badr-al-turki/108-B.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "32",
+      "url": "badr-al-turki/109-B.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "30",
+      "url": "badr-al-turki/110-B.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "33",
+      "url": "badr-al-turki/111-B.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "22",
+      "url": "badr-al-turki/112-B.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "29",
+      "url": "badr-al-turki/113-B.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "37",
+      "url": "badr-al-turki/114-B.mp3"
+    }
+  ]
+}

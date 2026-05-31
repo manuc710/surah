@@ -1,0 +1,288 @@
+{
+  "slug": "mansour-al-salimi",
+  "count": 40,
+  "byNumber": {
+    "001": "mansour-al-salimi/001.mp3",
+    "032": "mansour-al-salimi/032.mp3",
+    "036": "mansour-al-salimi/036.mp3",
+    "044": "mansour-al-salimi/044.mp3",
+    "045": "mansour-al-salimi/045.mp3",
+    "046": "mansour-al-salimi/046.mp3",
+    "049": "mansour-al-salimi/049.mp3",
+    "050": "mansour-al-salimi/050.mp3",
+    "051": "mansour-al-salimi/051.mp3",
+    "052": "mansour-al-salimi/052.mp3",
+    "054": "mansour-al-salimi/054.mp3",
+    "055": "mansour-al-salimi/055.mp3",
+    "056": "mansour-al-salimi/056.mp3",
+    "057": "mansour-al-salimi/057.mp3",
+    "058": "mansour-al-salimi/058.mp3",
+    "059": "mansour-al-salimi/059.mp3",
+    "060": "mansour-al-salimi/060.mp3",
+    "061": "mansour-al-salimi/061.mp3",
+    "062": "mansour-al-salimi/062.mp3",
+    "063": "mansour-al-salimi/063.mp3",
+    "064": "mansour-al-salimi/064.mp3",
+    "065": "mansour-al-salimi/065.mp3",
+    "066": "mansour-al-salimi/066.mp3",
+    "067": "mansour-al-salimi/067.mp3",
+    "068": "mansour-al-salimi/068.mp3",
+    "069": "mansour-al-salimi/069.mp3",
+    "071": "mansour-al-salimi/071.mp3",
+    "072": "mansour-al-salimi/072.mp3",
+    "073": "mansour-al-salimi/073.mp3",
+    "074": "mansour-al-salimi/074.mp3",
+    "076": "mansour-al-salimi/076.mp3",
+    "077": "mansour-al-salimi/077.mp3",
+    "078": "mansour-al-salimi/078.mp3",
+    "080": "mansour-al-salimi/080.mp3",
+    "082": "mansour-al-salimi/082.mp3",
+    "083": "mansour-al-salimi/083.mp3",
+    "084": "mansour-al-salimi/084.mp3",
+    "085": "mansour-al-salimi/085.mp3",
+    "092": "mansour-al-salimi/092.mp3",
+    "097": "mansour-al-salimi/097.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "1:10",
+      "url": "mansour-al-salimi/001.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "6:40",
+      "url": "mansour-al-salimi/032.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "17:16",
+      "url": "mansour-al-salimi/036.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "8:49",
+      "url": "mansour-al-salimi/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "11:59",
+      "url": "mansour-al-salimi/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "13:32",
+      "url": "mansour-al-salimi/046.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:50",
+      "url": "mansour-al-salimi/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:55",
+      "url": "mansour-al-salimi/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "8:46",
+      "url": "mansour-al-salimi/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "7:45",
+      "url": "mansour-al-salimi/052.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:53",
+      "url": "mansour-al-salimi/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:25",
+      "url": "mansour-al-salimi/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:27",
+      "url": "mansour-al-salimi/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "12:34",
+      "url": "mansour-al-salimi/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "10:16",
+      "url": "mansour-al-salimi/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:35",
+      "url": "mansour-al-salimi/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "7:16",
+      "url": "mansour-al-salimi/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:28",
+      "url": "mansour-al-salimi/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:20",
+      "url": "mansour-al-salimi/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:05",
+      "url": "mansour-al-salimi/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "7:27",
+      "url": "mansour-al-salimi/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "6:43",
+      "url": "mansour-al-salimi/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "6:06",
+      "url": "mansour-al-salimi/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:08",
+      "url": "mansour-al-salimi/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:46",
+      "url": "mansour-al-salimi/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:15",
+      "url": "mansour-al-salimi/069.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:36",
+      "url": "mansour-al-salimi/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:31",
+      "url": "mansour-al-salimi/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:54",
+      "url": "mansour-al-salimi/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:24",
+      "url": "mansour-al-salimi/074.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:58",
+      "url": "mansour-al-salimi/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:32",
+      "url": "mansour-al-salimi/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:14",
+      "url": "mansour-al-salimi/078.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:22",
+      "url": "mansour-al-salimi/080.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "2:16",
+      "url": "mansour-al-salimi/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:15",
+      "url": "mansour-al-salimi/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:28",
+      "url": "mansour-al-salimi/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:26",
+      "url": "mansour-al-salimi/085.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:36",
+      "url": "mansour-al-salimi/092.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "47",
+      "url": "mansour-al-salimi/097.mp3"
+    }
+  ]
+}

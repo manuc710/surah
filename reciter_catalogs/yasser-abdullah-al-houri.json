@@ -1,0 +1,127 @@
+{
+  "slug": "yasser-abdullah-al-houri",
+  "count": 17,
+  "byNumber": {
+    "001": "yasser-abdullah-al-houri/001.mp3",
+    "013": "yasser-abdullah-al-houri/013.mp3",
+    "023": "yasser-abdullah-al-houri/023.mp3",
+    "025": "yasser-abdullah-al-houri/025.mp3",
+    "032": "yasser-abdullah-al-houri/032.mp3",
+    "044": "yasser-abdullah-al-houri/044.mp3",
+    "049": "yasser-abdullah-al-houri/049.mp3",
+    "050": "yasser-abdullah-al-houri/050.mp3",
+    "051": "yasser-abdullah-al-houri/051.mp3",
+    "052": "yasser-abdullah-al-houri/052.mp3",
+    "053": "yasser-abdullah-al-houri/053.mp3",
+    "055": "yasser-abdullah-al-houri/055.mp3",
+    "056": "yasser-abdullah-al-houri/056.mp3",
+    "057": "yasser-abdullah-al-houri/057.mp3",
+    "067": "yasser-abdullah-al-houri/067.mp3",
+    "078": "yasser-abdullah-al-houri/078.mp3",
+    "112": "yasser-abdullah-al-houri/112.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "40",
+      "url": "yasser-abdullah-al-houri/001.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "16:15",
+      "url": "yasser-abdullah-al-houri/013.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "23:02",
+      "url": "yasser-abdullah-al-houri/023.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "7:56",
+      "url": "yasser-abdullah-al-houri/025.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:07",
+      "url": "yasser-abdullah-al-houri/032.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:02",
+      "url": "yasser-abdullah-al-houri/044.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "8:31",
+      "url": "yasser-abdullah-al-houri/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:55",
+      "url": "yasser-abdullah-al-houri/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:49",
+      "url": "yasser-abdullah-al-houri/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:57",
+      "url": "yasser-abdullah-al-houri/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:52",
+      "url": "yasser-abdullah-al-houri/053.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:57",
+      "url": "yasser-abdullah-al-houri/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:09",
+      "url": "yasser-abdullah-al-houri/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "12:48",
+      "url": "yasser-abdullah-al-houri/057.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:47",
+      "url": "yasser-abdullah-al-houri/067.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:18",
+      "url": "yasser-abdullah-al-houri/078.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "18",
+      "url": "yasser-abdullah-al-houri/112.mp3"
+    }
+  ]
+}

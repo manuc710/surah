@@ -1,0 +1,43 @@
+{
+  "slug": "yaser-sabri",
+  "count": 5,
+  "byNumber": {
+    "001": "yaser-sabri/001.mp3",
+    "067": "yaser-sabri/067.mp3",
+    "079": "yaser-sabri/079.mp3",
+    "080": "yaser-sabri/080.mp3",
+    "083": "yaser-sabri/083.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "55",
+      "url": "yaser-sabri/001.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "8:32",
+      "url": "yaser-sabri/067.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:41",
+      "url": "yaser-sabri/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:51",
+      "url": "yaser-sabri/080.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "5:30",
+      "url": "yaser-sabri/083.mp3"
+    }
+  ]
+}

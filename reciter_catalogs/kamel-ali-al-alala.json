@@ -1,0 +1,22 @@
+{
+  "slug": "kamel-ali-al-alala",
+  "count": 2,
+  "byNumber": {
+    "001": "kamel-ali-al-alala/001.mp3",
+    "013": "kamel-ali-al-alala/013.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "58",
+      "url": "kamel-ali-al-alala/001.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "24:27",
+      "url": "kamel-ali-al-alala/013.mp3"
+    }
+  ]
+}

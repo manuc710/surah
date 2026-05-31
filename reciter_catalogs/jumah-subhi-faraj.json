@@ -1,0 +1,379 @@
+{
+  "slug": "jumah-subhi-faraj",
+  "count": 53,
+  "byNumber": {
+    "001": "jumah-subhi-faraj/001.mp3",
+    "002": "jumah-subhi-faraj/002.mp3",
+    "003": "jumah-subhi-faraj/003.mp3",
+    "008": "jumah-subhi-faraj/008.mp3",
+    "010": "jumah-subhi-faraj/010.mp3",
+    "067": "jumah-subhi-faraj/067.mp3",
+    "068": "jumah-subhi-faraj/068.mp3",
+    "069": "jumah-subhi-faraj/069.mp3",
+    "070": "jumah-subhi-faraj/070.mp3",
+    "071": "jumah-subhi-faraj/071.mp3",
+    "072": "jumah-subhi-faraj/072.mp3",
+    "073": "jumah-subhi-faraj/073.mp3",
+    "074": "jumah-subhi-faraj/074.mp3",
+    "075": "jumah-subhi-faraj/075.mp3",
+    "076": "jumah-subhi-faraj/076.mp3",
+    "077": "jumah-subhi-faraj/077.mp3",
+    "078": "jumah-subhi-faraj/078.mp3",
+    "079": "jumah-subhi-faraj/079.mp3",
+    "080": "jumah-subhi-faraj/080.mp3",
+    "081": "jumah-subhi-faraj/081.mp3",
+    "082": "jumah-subhi-faraj/082.mp3",
+    "083": "jumah-subhi-faraj/083.mp3",
+    "084": "jumah-subhi-faraj/084.mp3",
+    "085": "jumah-subhi-faraj/085.mp3",
+    "086": "jumah-subhi-faraj/086.mp3",
+    "087": "jumah-subhi-faraj/087.mp3",
+    "088": "jumah-subhi-faraj/088.mp3",
+    "089": "jumah-subhi-faraj/089.mp3",
+    "090": "jumah-subhi-faraj/090.mp3",
+    "091": "jumah-subhi-faraj/091.mp3",
+    "092": "jumah-subhi-faraj/092.mp3",
+    "093": "jumah-subhi-faraj/093.mp3",
+    "094": "jumah-subhi-faraj/094.mp3",
+    "095": "jumah-subhi-faraj/095.mp3",
+    "096": "jumah-subhi-faraj/096.mp3",
+    "097": "jumah-subhi-faraj/097.mp3",
+    "098": "jumah-subhi-faraj/098.mp3",
+    "099": "jumah-subhi-faraj/099.mp3",
+    "100": "jumah-subhi-faraj/100.mp3",
+    "101": "jumah-subhi-faraj/101.mp3",
+    "102": "jumah-subhi-faraj/102.mp3",
+    "103": "jumah-subhi-faraj/103.mp3",
+    "104": "jumah-subhi-faraj/104.mp3",
+    "105": "jumah-subhi-faraj/105.mp3",
+    "106": "jumah-subhi-faraj/106.mp3",
+    "107": "jumah-subhi-faraj/107.mp3",
+    "108": "jumah-subhi-faraj/108.mp3",
+    "109": "jumah-subhi-faraj/109.mp3",
+    "110": "jumah-subhi-faraj/110.mp3",
+    "111": "jumah-subhi-faraj/111.mp3",
+    "112": "jumah-subhi-faraj/112.mp3",
+    "113": "jumah-subhi-faraj/113.mp3",
+    "114": "jumah-subhi-faraj/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "50",
+      "url": "jumah-subhi-faraj/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:05:13",
+      "url": "jumah-subhi-faraj/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:11:51",
+      "url": "jumah-subhi-faraj/003.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "25:40",
+      "url": "jumah-subhi-faraj/008.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "37:58",
+      "url": "jumah-subhi-faraj/010.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:18",
+      "url": "jumah-subhi-faraj/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:07",
+      "url": "jumah-subhi-faraj/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:36",
+      "url": "jumah-subhi-faraj/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:41",
+      "url": "jumah-subhi-faraj/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:17",
+      "url": "jumah-subhi-faraj/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:08",
+      "url": "jumah-subhi-faraj/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:02",
+      "url": "jumah-subhi-faraj/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "4:59",
+      "url": "jumah-subhi-faraj/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:13",
+      "url": "jumah-subhi-faraj/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:57",
+      "url": "jumah-subhi-faraj/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:06",
+      "url": "jumah-subhi-faraj/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:35",
+      "url": "jumah-subhi-faraj/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:03",
+      "url": "jumah-subhi-faraj/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:07",
+      "url": "jumah-subhi-faraj/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:38",
+      "url": "jumah-subhi-faraj/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "2:38",
+      "url": "jumah-subhi-faraj/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:26",
+      "url": "jumah-subhi-faraj/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:35",
+      "url": "jumah-subhi-faraj/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:20",
+      "url": "jumah-subhi-faraj/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:29",
+      "url": "jumah-subhi-faraj/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:37",
+      "url": "jumah-subhi-faraj/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:03",
+      "url": "jumah-subhi-faraj/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:04",
+      "url": "jumah-subhi-faraj/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:38",
+      "url": "jumah-subhi-faraj/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:16",
+      "url": "jumah-subhi-faraj/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:43",
+      "url": "jumah-subhi-faraj/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "58",
+      "url": "jumah-subhi-faraj/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "35",
+      "url": "jumah-subhi-faraj/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "47",
+      "url": "jumah-subhi-faraj/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:30",
+      "url": "jumah-subhi-faraj/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "38",
+      "url": "jumah-subhi-faraj/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:58",
+      "url": "jumah-subhi-faraj/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "51",
+      "url": "jumah-subhi-faraj/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "53",
+      "url": "jumah-subhi-faraj/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "46",
+      "url": "jumah-subhi-faraj/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "41",
+      "url": "jumah-subhi-faraj/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "20",
+      "url": "jumah-subhi-faraj/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "43",
+      "url": "jumah-subhi-faraj/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "32",
+      "url": "jumah-subhi-faraj/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "28",
+      "url": "jumah-subhi-faraj/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "40",
+      "url": "jumah-subhi-faraj/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "16",
+      "url": "jumah-subhi-faraj/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "33",
+      "url": "jumah-subhi-faraj/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "25",
+      "url": "jumah-subhi-faraj/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "28",
+      "url": "jumah-subhi-faraj/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "15",
+      "url": "jumah-subhi-faraj/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "25",
+      "url": "jumah-subhi-faraj/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "30",
+      "url": "jumah-subhi-faraj/114.mp3"
+    }
+  ]
+}

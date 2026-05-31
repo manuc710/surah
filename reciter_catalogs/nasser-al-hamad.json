@@ -1,0 +1,22 @@
+{
+  "slug": "nasser-al-hamad",
+  "count": 2,
+  "byNumber": {
+    "019": "nasser-al-hamad/019.mp3",
+    "076": "nasser-al-hamad/076.mp3"
+  },
+  "list": [
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "18:45",
+      "url": "nasser-al-hamad/019.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:04",
+      "url": "nasser-al-hamad/076.mp3"
+    }
+  ]
+}

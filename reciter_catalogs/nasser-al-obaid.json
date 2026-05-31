@@ -1,0 +1,71 @@
+{
+  "slug": "nasser-al-obaid",
+  "count": 9,
+  "byNumber": {
+    "007": "nasser-al-obaid/nasser-al-obaid-007-muslimcentral.com.mp3",
+    "013": "nasser-al-obaid/nasser-al-obaid-013-muslimcentral.com.mp3",
+    "014": "nasser-al-obaid/nasser-al-obaid-014-muslimcentral.com.mp3",
+    "015": "nasser-al-obaid/nasser-al-obaid-015-muslimcentral.com.mp3",
+    "025": "nasser-al-obaid/nasser-al-obaid-025-muslimcentral.com.mp3",
+    "026": "nasser-al-obaid/nasser-al-obaid-026-muslimcentral.com.mp3",
+    "027": "nasser-al-obaid/nasser-al-obaid-027-muslimcentral.com.mp3",
+    "040": "nasser-al-obaid/nasser-al-obaid-040-muslimcentral.com.mp3",
+    "041": "nasser-al-obaid/nasser-al-obaid-041-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:01:44",
+      "url": "nasser-al-obaid/nasser-al-obaid-007-muslimcentral.com.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "13:22",
+      "url": "nasser-al-obaid/nasser-al-obaid-013-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "13:07",
+      "url": "nasser-al-obaid/nasser-al-obaid-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "10:35",
+      "url": "nasser-al-obaid/nasser-al-obaid-015-muslimcentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "16:10",
+      "url": "nasser-al-obaid/nasser-al-obaid-025-muslimcentral.com.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "22:01",
+      "url": "nasser-al-obaid/nasser-al-obaid-026-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "19:30",
+      "url": "nasser-al-obaid/nasser-al-obaid-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "20:51",
+      "url": "nasser-al-obaid/nasser-al-obaid-040-muslimcentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "14:48",
+      "url": "nasser-al-obaid/nasser-al-obaid-041-muslimcentral.com.mp3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "fahd-saqr-al-hilal",
+  "count": 3,
+  "byNumber": {
+    "013": "fahd-saqr-al-hilal/013.mp3",
+    "014": "fahd-saqr-al-hilal/014.mp3",
+    "055": "fahd-saqr-al-hilal/055.mp3"
+  },
+  "list": [
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "16:20",
+      "url": "fahd-saqr-al-hilal/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "17:17",
+      "url": "fahd-saqr-al-hilal/014.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:10",
+      "url": "fahd-saqr-al-hilal/055.mp3"
+    }
+  ]
+}

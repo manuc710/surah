@@ -1,0 +1,764 @@
+{
+  "slug": "mahmoud-khalil-al-husary-doori",
+  "count": 108,
+  "byNumber": {
+    "001": "mahmoud-khalil-al-husary-doori/001.mp3",
+    "003": "mahmoud-khalil-al-husary-doori/003.mp3",
+    "004": "mahmoud-khalil-al-husary-doori/004.mp3",
+    "005": "mahmoud-khalil-al-husary-doori/005.mp3",
+    "006": "mahmoud-khalil-al-husary-doori/006.mp3",
+    "007": "mahmoud-khalil-al-husary-doori/007.mp3",
+    "008": "mahmoud-khalil-al-husary-doori/008.mp3",
+    "009": "mahmoud-khalil-al-husary-doori/009.mp3",
+    "010": "mahmoud-khalil-al-husary-doori/010.mp3",
+    "011": "mahmoud-khalil-al-husary-doori/011.mp3",
+    "012": "mahmoud-khalil-al-husary-doori/012.mp3",
+    "013": "mahmoud-khalil-al-husary-doori/013.mp3",
+    "014": "mahmoud-khalil-al-husary-doori/014.mp3",
+    "015": "mahmoud-khalil-al-husary-doori/015.mp3",
+    "016": "mahmoud-khalil-al-husary-doori/016.mp3",
+    "017": "mahmoud-khalil-al-husary-doori/017.mp3",
+    "018": "mahmoud-khalil-al-husary-doori/018.mp3",
+    "019": "mahmoud-khalil-al-husary-doori/019.mp3",
+    "020": "mahmoud-khalil-al-husary-doori/020.mp3",
+    "021": "mahmoud-khalil-al-husary-doori/021.mp3",
+    "022": "mahmoud-khalil-al-husary-doori/022.mp3",
+    "023": "mahmoud-khalil-al-husary-doori/023.mp3",
+    "024": "mahmoud-khalil-al-husary-doori/024.mp3",
+    "025": "mahmoud-khalil-al-husary-doori/025.mp3",
+    "026": "mahmoud-khalil-al-husary-doori/026.mp3",
+    "027": "mahmoud-khalil-al-husary-doori/027.mp3",
+    "028": "mahmoud-khalil-al-husary-doori/028.mp3",
+    "029": "mahmoud-khalil-al-husary-doori/029.mp3",
+    "030": "mahmoud-khalil-al-husary-doori/030.mp3",
+    "031": "mahmoud-khalil-al-husary-doori/031.mp3",
+    "032": "mahmoud-khalil-al-husary-doori/032.mp3",
+    "033": "mahmoud-khalil-al-husary-doori/033.mp3",
+    "034": "mahmoud-khalil-al-husary-doori/034.mp3",
+    "035": "mahmoud-khalil-al-husary-doori/035.mp3",
+    "036": "mahmoud-khalil-al-husary-doori/036.mp3",
+    "037": "mahmoud-khalil-al-husary-doori/037.mp3",
+    "038": "mahmoud-khalil-al-husary-doori/038.mp3",
+    "039": "mahmoud-khalil-al-husary-doori/039.mp3",
+    "040": "mahmoud-khalil-al-husary-doori/040.mp3",
+    "041": "mahmoud-khalil-al-husary-doori/041.mp3",
+    "042": "mahmoud-khalil-al-husary-doori/042.mp3",
+    "043": "mahmoud-khalil-al-husary-doori/043.mp3",
+    "044": "mahmoud-khalil-al-husary-doori/044.mp3",
+    "045": "mahmoud-khalil-al-husary-doori/045.mp3",
+    "046": "mahmoud-khalil-al-husary-doori/046.mp3",
+    "047": "mahmoud-khalil-al-husary-doori/047.mp3",
+    "048": "mahmoud-khalil-al-husary-doori/048.mp3",
+    "049": "mahmoud-khalil-al-husary-doori/049.mp3",
+    "050": "mahmoud-khalil-al-husary-doori/050.mp3",
+    "051": "mahmoud-khalil-al-husary-doori/051.mp3",
+    "052": "mahmoud-khalil-al-husary-doori/052.mp3",
+    "053": "mahmoud-khalil-al-husary-doori/053.mp3",
+    "054": "mahmoud-khalil-al-husary-doori/054.mp3",
+    "056": "mahmoud-khalil-al-husary-doori/056.mp3",
+    "057": "mahmoud-khalil-al-husary-doori/057.mp3",
+    "058": "mahmoud-khalil-al-husary-doori/058.mp3",
+    "059": "mahmoud-khalil-al-husary-doori/059.mp3",
+    "060": "mahmoud-khalil-al-husary-doori/060.mp3",
+    "062": "mahmoud-khalil-al-husary-doori/062.mp3",
+    "063": "mahmoud-khalil-al-husary-doori/063.mp3",
+    "064": "mahmoud-khalil-al-husary-doori/064.mp3",
+    "065": "mahmoud-khalil-al-husary-doori/065.mp3",
+    "066": "mahmoud-khalil-al-husary-doori/066.mp3",
+    "068": "mahmoud-khalil-al-husary-doori/068.mp3",
+    "069": "mahmoud-khalil-al-husary-doori/069.mp3",
+    "070": "mahmoud-khalil-al-husary-doori/070.mp3",
+    "071": "mahmoud-khalil-al-husary-doori/071.mp3",
+    "072": "mahmoud-khalil-al-husary-doori/072.mp3",
+    "074": "mahmoud-khalil-al-husary-doori/074.mp3",
+    "075": "mahmoud-khalil-al-husary-doori/075.mp3",
+    "076": "mahmoud-khalil-al-husary-doori/076.mp3",
+    "078": "mahmoud-khalil-al-husary-doori/078.mp3",
+    "079": "mahmoud-khalil-al-husary-doori/079.mp3",
+    "080": "mahmoud-khalil-al-husary-doori/080.mp3",
+    "081": "mahmoud-khalil-al-husary-doori/081.mp3",
+    "082": "mahmoud-khalil-al-husary-doori/082.mp3",
+    "083": "mahmoud-khalil-al-husary-doori/083.mp3",
+    "084": "mahmoud-khalil-al-husary-doori/084.mp3",
+    "085": "mahmoud-khalil-al-husary-doori/085.mp3",
+    "086": "mahmoud-khalil-al-husary-doori/086.mp3",
+    "087": "mahmoud-khalil-al-husary-doori/087.mp3",
+    "088": "mahmoud-khalil-al-husary-doori/088.mp3",
+    "089": "mahmoud-khalil-al-husary-doori/089.mp3",
+    "090": "mahmoud-khalil-al-husary-doori/090.mp3",
+    "091": "mahmoud-khalil-al-husary-doori/091.mp3",
+    "092": "mahmoud-khalil-al-husary-doori/092.mp3",
+    "093": "mahmoud-khalil-al-husary-doori/093.mp3",
+    "094": "mahmoud-khalil-al-husary-doori/094.mp3",
+    "095": "mahmoud-khalil-al-husary-doori/095.mp3",
+    "096": "mahmoud-khalil-al-husary-doori/096.mp3",
+    "097": "mahmoud-khalil-al-husary-doori/097.mp3",
+    "098": "mahmoud-khalil-al-husary-doori/098.mp3",
+    "099": "mahmoud-khalil-al-husary-doori/099.mp3",
+    "100": "mahmoud-khalil-al-husary-doori/100.mp3",
+    "101": "mahmoud-khalil-al-husary-doori/101.mp3",
+    "102": "mahmoud-khalil-al-husary-doori/102.mp3",
+    "103": "mahmoud-khalil-al-husary-doori/103.mp3",
+    "104": "mahmoud-khalil-al-husary-doori/104.mp3",
+    "105": "mahmoud-khalil-al-husary-doori/105.mp3",
+    "106": "mahmoud-khalil-al-husary-doori/106.mp3",
+    "107": "mahmoud-khalil-al-husary-doori/107.mp3",
+    "108": "mahmoud-khalil-al-husary-doori/108.mp3",
+    "109": "mahmoud-khalil-al-husary-doori/109.mp3",
+    "110": "mahmoud-khalil-al-husary-doori/110.mp3",
+    "111": "mahmoud-khalil-al-husary-doori/111.mp3",
+    "112": "mahmoud-khalil-al-husary-doori/112.mp3",
+    "113": "mahmoud-khalil-al-husary-doori/113.mp3",
+    "114": "mahmoud-khalil-al-husary-doori/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "51",
+      "url": "mahmoud-khalil-al-husary-doori/001.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:31:41",
+      "url": "mahmoud-khalil-al-husary-doori/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:52:04",
+      "url": "mahmoud-khalil-al-husary-doori/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "1:16:48",
+      "url": "mahmoud-khalil-al-husary-doori/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:19:08",
+      "url": "mahmoud-khalil-al-husary-doori/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:34:23",
+      "url": "mahmoud-khalil-al-husary-doori/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "31:25",
+      "url": "mahmoud-khalil-al-husary-doori/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "1:01:16",
+      "url": "mahmoud-khalil-al-husary-doori/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "49:54",
+      "url": "mahmoud-khalil-al-husary-doori/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "56:21",
+      "url": "mahmoud-khalil-al-husary-doori/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "50:49",
+      "url": "mahmoud-khalil-al-husary-doori/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "25:37",
+      "url": "mahmoud-khalil-al-husary-doori/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "25:17",
+      "url": "mahmoud-khalil-al-husary-doori/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "19:18",
+      "url": "mahmoud-khalil-al-husary-doori/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "59:08",
+      "url": "mahmoud-khalil-al-husary-doori/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "37:18",
+      "url": "mahmoud-khalil-al-husary-doori/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "42:28",
+      "url": "mahmoud-khalil-al-husary-doori/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "27:17",
+      "url": "mahmoud-khalil-al-husary-doori/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "37:46",
+      "url": "mahmoud-khalil-al-husary-doori/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "34:46",
+      "url": "mahmoud-khalil-al-husary-doori/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "37:59",
+      "url": "mahmoud-khalil-al-husary-doori/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "31:16",
+      "url": "mahmoud-khalil-al-husary-doori/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "35:53",
+      "url": "mahmoud-khalil-al-husary-doori/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "17:53",
+      "url": "mahmoud-khalil-al-husary-doori/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "36:11",
+      "url": "mahmoud-khalil-al-husary-doori/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "32:14",
+      "url": "mahmoud-khalil-al-husary-doori/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "41:36",
+      "url": "mahmoud-khalil-al-husary-doori/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "29:58",
+      "url": "mahmoud-khalil-al-husary-doori/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Room",
+      "duration": "25:06",
+      "url": "mahmoud-khalil-al-husary-doori/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "15:42",
+      "url": "mahmoud-khalil-al-husary-doori/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "11:41",
+      "url": "mahmoud-khalil-al-husary-doori/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "39:57",
+      "url": "mahmoud-khalil-al-husary-doori/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "25:19",
+      "url": "mahmoud-khalil-al-husary-doori/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "21:31",
+      "url": "mahmoud-khalil-al-husary-doori/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "19:15",
+      "url": "mahmoud-khalil-al-husary-doori/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "26:43",
+      "url": "mahmoud-khalil-al-husary-doori/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "23:17",
+      "url": "mahmoud-khalil-al-husary-doori/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "31:09",
+      "url": "mahmoud-khalil-al-husary-doori/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "35:50",
+      "url": "mahmoud-khalil-al-husary-doori/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "26:36",
+      "url": "mahmoud-khalil-al-husary-doori/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "28:28",
+      "url": "mahmoud-khalil-al-husary-doori/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "28:42",
+      "url": "mahmoud-khalil-al-husary-doori/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "12:30",
+      "url": "mahmoud-khalil-al-husary-doori/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "17:49",
+      "url": "mahmoud-khalil-al-husary-doori/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "20:07",
+      "url": "mahmoud-khalil-al-husary-doori/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "19:59",
+      "url": "mahmoud-khalil-al-husary-doori/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "18:08",
+      "url": "mahmoud-khalil-al-husary-doori/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "12:50",
+      "url": "mahmoud-khalil-al-husary-doori/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "11:50",
+      "url": "mahmoud-khalil-al-husary-doori/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "11:02",
+      "url": "mahmoud-khalil-al-husary-doori/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "10:59",
+      "url": "mahmoud-khalil-al-husary-doori/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "12:16",
+      "url": "mahmoud-khalil-al-husary-doori/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "11:22",
+      "url": "mahmoud-khalil-al-husary-doori/054.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "14:31",
+      "url": "mahmoud-khalil-al-husary-doori/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "17:37",
+      "url": "mahmoud-khalil-al-husary-doori/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "15:36",
+      "url": "mahmoud-khalil-al-husary-doori/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "14:31",
+      "url": "mahmoud-khalil-al-husary-doori/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "13:21",
+      "url": "mahmoud-khalil-al-husary-doori/060.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "4:05",
+      "url": "mahmoud-khalil-al-husary-doori/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "5:06",
+      "url": "mahmoud-khalil-al-husary-doori/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "7:35",
+      "url": "mahmoud-khalil-al-husary-doori/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "9:23",
+      "url": "mahmoud-khalil-al-husary-doori/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "9:17",
+      "url": "mahmoud-khalil-al-husary-doori/066.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "9:25",
+      "url": "mahmoud-khalil-al-husary-doori/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "9:03",
+      "url": "mahmoud-khalil-al-husary-doori/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "7:23",
+      "url": "mahmoud-khalil-al-husary-doori/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "6:26",
+      "url": "mahmoud-khalil-al-husary-doori/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "8:00",
+      "url": "mahmoud-khalil-al-husary-doori/072.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "9:00",
+      "url": "mahmoud-khalil-al-husary-doori/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "5:50",
+      "url": "mahmoud-khalil-al-husary-doori/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "8:09",
+      "url": "mahmoud-khalil-al-husary-doori/076.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "6:50",
+      "url": "mahmoud-khalil-al-husary-doori/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "7:12",
+      "url": "mahmoud-khalil-al-husary-doori/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "5:41",
+      "url": "mahmoud-khalil-al-husary-doori/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "3:48",
+      "url": "mahmoud-khalil-al-husary-doori/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "3:05",
+      "url": "mahmoud-khalil-al-husary-doori/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "6:02",
+      "url": "mahmoud-khalil-al-husary-doori/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "3:49",
+      "url": "mahmoud-khalil-al-husary-doori/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "3:46",
+      "url": "mahmoud-khalil-al-husary-doori/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "2:19",
+      "url": "mahmoud-khalil-al-husary-doori/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "2:50",
+      "url": "mahmoud-khalil-al-husary-doori/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "3:43",
+      "url": "mahmoud-khalil-al-husary-doori/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "5:02",
+      "url": "mahmoud-khalil-al-husary-doori/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "3:02",
+      "url": "mahmoud-khalil-al-husary-doori/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "2:26",
+      "url": "mahmoud-khalil-al-husary-doori/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "3:08",
+      "url": "mahmoud-khalil-al-husary-doori/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:48",
+      "url": "mahmoud-khalil-al-husary-doori/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "1:13",
+      "url": "mahmoud-khalil-al-husary-doori/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "1:36",
+      "url": "mahmoud-khalil-al-husary-doori/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "3:10",
+      "url": "mahmoud-khalil-al-husary-doori/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "1:16",
+      "url": "mahmoud-khalil-al-husary-doori/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "3:33",
+      "url": "mahmoud-khalil-al-husary-doori/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "1:40",
+      "url": "mahmoud-khalil-al-husary-doori/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:51",
+      "url": "mahmoud-khalil-al-husary-doori/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "1:40",
+      "url": "mahmoud-khalil-al-husary-doori/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "1:25",
+      "url": "mahmoud-khalil-al-husary-doori/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "43",
+      "url": "mahmoud-khalil-al-husary-doori/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "1:31",
+      "url": "mahmoud-khalil-al-husary-doori/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "1:03",
+      "url": "mahmoud-khalil-al-husary-doori/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "52",
+      "url": "mahmoud-khalil-al-husary-doori/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "1:15",
+      "url": "mahmoud-khalil-al-husary-doori/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "35",
+      "url": "mahmoud-khalil-al-husary-doori/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "1:02",
+      "url": "mahmoud-khalil-al-husary-doori/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "53",
+      "url": "mahmoud-khalil-al-husary-doori/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "58",
+      "url": "mahmoud-khalil-al-husary-doori/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "38",
+      "url": "mahmoud-khalil-al-husary-doori/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "53",
+      "url": "mahmoud-khalil-al-husary-doori/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "57",
+      "url": "mahmoud-khalil-al-husary-doori/114.mp3"
+    }
+  ]
+}

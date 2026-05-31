@@ -1,0 +1,484 @@
+{
+  "slug": "rafea-al-amri",
+  "count": 68,
+  "byNumber": {
+    "001": "rafea-al-amri/001.mp3",
+    "002": "rafea-al-amri/002.mp3",
+    "003": "rafea-al-amri/003.mp3",
+    "005": "rafea-al-amri/005.mp3",
+    "006": "rafea-al-amri/006.mp3",
+    "007": "rafea-al-amri/007.mp3",
+    "008": "rafea-al-amri/008.mp3",
+    "009": "rafea-al-amri/009.mp3",
+    "010": "rafea-al-amri/010.mp3",
+    "011": "rafea-al-amri/011.mp3",
+    "012": "rafea-al-amri/012.mp3",
+    "013": "rafea-al-amri/013.mp3",
+    "014": "rafea-al-amri/014.mp3",
+    "015": "rafea-al-amri/015.mp3",
+    "017": "rafea-al-amri/017.mp3",
+    "019": "rafea-al-amri/019.mp3",
+    "020": "rafea-al-amri/020.mp3",
+    "021": "rafea-al-amri/021.mp3",
+    "022": "rafea-al-amri/022.mp3",
+    "065": "rafea-al-amri/065.mp3",
+    "066": "rafea-al-amri/066.mp3",
+    "067": "rafea-al-amri/067.mp3",
+    "068": "rafea-al-amri/068.mp3",
+    "069": "rafea-al-amri/069.mp3",
+    "070": "rafea-al-amri/070.mp3",
+    "071": "rafea-al-amri/071.mp3",
+    "072": "rafea-al-amri/072.mp3",
+    "073": "rafea-al-amri/073.mp3",
+    "074": "rafea-al-amri/074.mp3",
+    "075": "rafea-al-amri/075.mp3",
+    "076": "rafea-al-amri/076.mp3",
+    "077": "rafea-al-amri/077.mp3",
+    "078": "rafea-al-amri/078.mp3",
+    "079": "rafea-al-amri/079.mp3",
+    "080": "rafea-al-amri/080.mp3",
+    "081": "rafea-al-amri/081.mp3",
+    "082": "rafea-al-amri/082.mp3",
+    "083": "rafea-al-amri/083.mp3",
+    "084": "rafea-al-amri/084.mp3",
+    "085": "rafea-al-amri/085.mp3",
+    "086": "rafea-al-amri/086.mp3",
+    "087": "rafea-al-amri/087.mp3",
+    "088": "rafea-al-amri/088.mp3",
+    "089": "rafea-al-amri/089.mp3",
+    "090": "rafea-al-amri/090.mp3",
+    "091": "rafea-al-amri/091.mp3",
+    "092": "rafea-al-amri/092.mp3",
+    "093": "rafea-al-amri/093.mp3",
+    "094": "rafea-al-amri/094.mp3",
+    "095": "rafea-al-amri/095.mp3",
+    "096": "rafea-al-amri/096.mp3",
+    "097": "rafea-al-amri/097.mp3",
+    "098": "rafea-al-amri/098.mp3",
+    "099": "rafea-al-amri/099.mp3",
+    "100": "rafea-al-amri/100.mp3",
+    "101": "rafea-al-amri/101.mp3",
+    "102": "rafea-al-amri/102.mp3",
+    "103": "rafea-al-amri/103.mp3",
+    "104": "rafea-al-amri/104.mp3",
+    "105": "rafea-al-amri/105.mp3",
+    "106": "rafea-al-amri/106.mp3",
+    "107": "rafea-al-amri/107.mp3",
+    "108": "rafea-al-amri/108.mp3",
+    "109": "rafea-al-amri/109.mp3",
+    "110": "rafea-al-amri/110.mp3",
+    "112": "rafea-al-amri/112.mp3",
+    "113": "rafea-al-amri/113.mp3",
+    "114": "rafea-al-amri/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "36",
+      "url": "rafea-al-amri/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:09:18",
+      "url": "rafea-al-amri/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:18:33",
+      "url": "rafea-al-amri/003.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "1:04:10",
+      "url": "rafea-al-amri/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:08:08",
+      "url": "rafea-al-amri/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:13:24",
+      "url": "rafea-al-amri/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "27:10",
+      "url": "rafea-al-amri/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "53:57",
+      "url": "rafea-al-amri/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "40:12",
+      "url": "rafea-al-amri/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "40:39",
+      "url": "rafea-al-amri/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "38:31",
+      "url": "rafea-al-amri/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "19:19",
+      "url": "rafea-al-amri/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "18:27",
+      "url": "rafea-al-amri/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "14:26",
+      "url": "rafea-al-amri/015.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "35:35",
+      "url": "rafea-al-amri/017.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:36",
+      "url": "rafea-al-amri/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "27:18",
+      "url": "rafea-al-amri/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "25:34",
+      "url": "rafea-al-amri/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "25:31",
+      "url": "rafea-al-amri/022.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "6:14",
+      "url": "rafea-al-amri/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:51",
+      "url": "rafea-al-amri/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:04",
+      "url": "rafea-al-amri/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:53",
+      "url": "rafea-al-amri/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:11",
+      "url": "rafea-al-amri/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:50",
+      "url": "rafea-al-amri/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:55",
+      "url": "rafea-al-amri/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "6:22",
+      "url": "rafea-al-amri/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:40",
+      "url": "rafea-al-amri/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:54",
+      "url": "rafea-al-amri/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:36",
+      "url": "rafea-al-amri/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "6:09",
+      "url": "rafea-al-amri/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:37",
+      "url": "rafea-al-amri/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:13",
+      "url": "rafea-al-amri/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:16",
+      "url": "rafea-al-amri/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:28",
+      "url": "rafea-al-amri/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:20",
+      "url": "rafea-al-amri/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:53",
+      "url": "rafea-al-amri/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:52",
+      "url": "rafea-al-amri/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:18",
+      "url": "rafea-al-amri/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:13",
+      "url": "rafea-al-amri/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:24",
+      "url": "rafea-al-amri/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:34",
+      "url": "rafea-al-amri/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:01",
+      "url": "rafea-al-amri/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:03",
+      "url": "rafea-al-amri/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:40",
+      "url": "rafea-al-amri/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:19",
+      "url": "rafea-al-amri/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:44",
+      "url": "rafea-al-amri/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:00",
+      "url": "rafea-al-amri/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "37",
+      "url": "rafea-al-amri/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "44",
+      "url": "rafea-al-amri/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:32",
+      "url": "rafea-al-amri/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "38",
+      "url": "rafea-al-amri/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:53",
+      "url": "rafea-al-amri/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "47",
+      "url": "rafea-al-amri/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "52",
+      "url": "rafea-al-amri/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "49",
+      "url": "rafea-al-amri/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "38",
+      "url": "rafea-al-amri/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "20",
+      "url": "rafea-al-amri/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "44",
+      "url": "rafea-al-amri/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "30",
+      "url": "rafea-al-amri/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "28",
+      "url": "rafea-al-amri/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "35",
+      "url": "rafea-al-amri/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "18",
+      "url": "rafea-al-amri/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "40",
+      "url": "rafea-al-amri/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "26",
+      "url": "rafea-al-amri/110.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "15",
+      "url": "rafea-al-amri/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "25",
+      "url": "rafea-al-amri/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "29",
+      "url": "rafea-al-amri/114.mp3"
+    }
+  ]
+}

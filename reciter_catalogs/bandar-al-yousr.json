@@ -1,0 +1,64 @@
+{
+  "slug": "bandar-al-yousr",
+  "count": 8,
+  "byNumber": {
+    "001": "bandar-al-yousr/001.mp3",
+    "012": "bandar-al-yousr/012.mp3",
+    "015": "bandar-al-yousr/015.mp3",
+    "019": "bandar-al-yousr/019.mp3",
+    "035": "bandar-al-yousr/035.mp3",
+    "036": "bandar-al-yousr/036.mp3",
+    "078": "bandar-al-yousr/078.mp3",
+    "085": "bandar-al-yousr/085.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "45",
+      "url": "bandar-al-yousr/001.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "40:02",
+      "url": "bandar-al-yousr/012.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "15:55",
+      "url": "bandar-al-yousr/015.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "20:32",
+      "url": "bandar-al-yousr/019.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "17:28",
+      "url": "bandar-al-yousr/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "17:08",
+      "url": "bandar-al-yousr/036.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "5:05",
+      "url": "bandar-al-yousr/078.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:47",
+      "url": "bandar-al-yousr/085.mp3"
+    }
+  ]
+}

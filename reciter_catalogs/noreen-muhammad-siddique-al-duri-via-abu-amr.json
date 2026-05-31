@@ -1,0 +1,806 @@
+{
+  "slug": "noreen-muhammad-siddique-al-duri-via-abu-amr",
+  "count": 114,
+  "byNumber": {
+    "001": "noreen-muhammad-siddique-al-duri-via-abu-amr/001-al-faatihah.mp3",
+    "002": "noreen-muhammad-siddique-al-duri-via-abu-amr/002-al-baqarah.mp3",
+    "003": "noreen-muhammad-siddique-al-duri-via-abu-amr/003-aal-imraan.mp3",
+    "004": "noreen-muhammad-siddique-al-duri-via-abu-amr/004-an-nisaa.mp3",
+    "005": "noreen-muhammad-siddique-al-duri-via-abu-amr/005-al-maaidah.mp3",
+    "006": "noreen-muhammad-siddique-al-duri-via-abu-amr/006-al-anaam.mp3",
+    "007": "noreen-muhammad-siddique-al-duri-via-abu-amr/007-al-aaraaf.mp3",
+    "008": "noreen-muhammad-siddique-al-duri-via-abu-amr/008-al-anfaal.mp3",
+    "009": "noreen-muhammad-siddique-al-duri-via-abu-amr/009-at-tawbah.mp3",
+    "010": "noreen-muhammad-siddique-al-duri-via-abu-amr/010-yoonus.mp3",
+    "011": "noreen-muhammad-siddique-al-duri-via-abu-amr/011-hoodh.mp3",
+    "012": "noreen-muhammad-siddique-al-duri-via-abu-amr/012-yoosuf.mp3",
+    "013": "noreen-muhammad-siddique-al-duri-via-abu-amr/013-ar-rad.mp3",
+    "014": "noreen-muhammad-siddique-al-duri-via-abu-amr/014-ibraaheem.mp3",
+    "015": "noreen-muhammad-siddique-al-duri-via-abu-amr/015-al-hijr.mp3",
+    "016": "noreen-muhammad-siddique-al-duri-via-abu-amr/016-an-nahl.mp3",
+    "017": "noreen-muhammad-siddique-al-duri-via-abu-amr/017-al-israa.mp3",
+    "018": "noreen-muhammad-siddique-al-duri-via-abu-amr/018-al-kahf.mp3",
+    "019": "noreen-muhammad-siddique-al-duri-via-abu-amr/019-maryam.mp3",
+    "020": "noreen-muhammad-siddique-al-duri-via-abu-amr/020-taa-haa.mp3",
+    "021": "noreen-muhammad-siddique-al-duri-via-abu-amr/021-al-anbiyaa.mp3",
+    "022": "noreen-muhammad-siddique-al-duri-via-abu-amr/022-al-hajj.mp3",
+    "023": "noreen-muhammad-siddique-al-duri-via-abu-amr/023-al-muminoon.mp3",
+    "024": "noreen-muhammad-siddique-al-duri-via-abu-amr/024-an-noor.mp3",
+    "025": "noreen-muhammad-siddique-al-duri-via-abu-amr/025-al-furqan.mp3",
+    "026": "noreen-muhammad-siddique-al-duri-via-abu-amr/026-ash-shuaraa.mp3",
+    "027": "noreen-muhammad-siddique-al-duri-via-abu-amr/027-an-naml.mp3",
+    "028": "noreen-muhammad-siddique-al-duri-via-abu-amr/028-al-qasas.mp3",
+    "029": "noreen-muhammad-siddique-al-duri-via-abu-amr/029-al-ankabut.mp3",
+    "030": "noreen-muhammad-siddique-al-duri-via-abu-amr/030-ar-room.mp3",
+    "031": "noreen-muhammad-siddique-al-duri-via-abu-amr/031-luqmaan.mp3",
+    "032": "noreen-muhammad-siddique-al-duri-via-abu-amr/032-as-sajdah.mp3",
+    "033": "noreen-muhammad-siddique-al-duri-via-abu-amr/033-al-ahzaab.mp3",
+    "034": "noreen-muhammad-siddique-al-duri-via-abu-amr/034-saba.mp3",
+    "035": "noreen-muhammad-siddique-al-duri-via-abu-amr/035-faatir.mp3",
+    "036": "noreen-muhammad-siddique-al-duri-via-abu-amr/036-yaa-seen.mp3",
+    "037": "noreen-muhammad-siddique-al-duri-via-abu-amr/037-as-saaffaat.mp3",
+    "038": "noreen-muhammad-siddique-al-duri-via-abu-amr/038-saad.mp3",
+    "039": "noreen-muhammad-siddique-al-duri-via-abu-amr/039-az-zumar.mp3",
+    "040": "noreen-muhammad-siddique-al-duri-via-abu-amr/040-ghaafir.mp3",
+    "041": "noreen-muhammad-siddique-al-duri-via-abu-amr/041-fussilat.mp3",
+    "042": "noreen-muhammad-siddique-al-duri-via-abu-amr/042-ash-shura.mp3",
+    "043": "noreen-muhammad-siddique-al-duri-via-abu-amr/043-az-zukhruf.mp3",
+    "044": "noreen-muhammad-siddique-al-duri-via-abu-amr/044-ad-dukhaan.mp3",
+    "045": "noreen-muhammad-siddique-al-duri-via-abu-amr/045-al-jaathiyah.mp3",
+    "046": "noreen-muhammad-siddique-al-duri-via-abu-amr/046-al-ahqaaf.mp3",
+    "047": "noreen-muhammad-siddique-al-duri-via-abu-amr/047-muhammad.mp3",
+    "048": "noreen-muhammad-siddique-al-duri-via-abu-amr/048-al-fath.mp3",
+    "049": "noreen-muhammad-siddique-al-duri-via-abu-amr/049-al-hujuraat.mp3",
+    "050": "noreen-muhammad-siddique-al-duri-via-abu-amr/050-qaaf.mp3",
+    "051": "noreen-muhammad-siddique-al-duri-via-abu-amr/051-adh-dhaariyaat.mp3",
+    "052": "noreen-muhammad-siddique-al-duri-via-abu-amr/052-at-toor.mp3",
+    "053": "noreen-muhammad-siddique-al-duri-via-abu-amr/053-an-najm.mp3",
+    "054": "noreen-muhammad-siddique-al-duri-via-abu-amr/054-al-qamar.mp3",
+    "055": "noreen-muhammad-siddique-al-duri-via-abu-amr/055-ar-rahman.mp3",
+    "056": "noreen-muhammad-siddique-al-duri-via-abu-amr/056-al-waaqiah.mp3",
+    "057": "noreen-muhammad-siddique-al-duri-via-abu-amr/057-al-hadeed.mp3",
+    "058": "noreen-muhammad-siddique-al-duri-via-abu-amr/058-al-mujaadilahh.mp3",
+    "059": "noreen-muhammad-siddique-al-duri-via-abu-amr/059-al-hashr.mp3",
+    "060": "noreen-muhammad-siddique-al-duri-via-abu-amr/060-al-mumtahanah.mp3",
+    "061": "noreen-muhammad-siddique-al-duri-via-abu-amr/061-as-saff.mp3",
+    "062": "noreen-muhammad-siddique-al-duri-via-abu-amr/062-al-jumuaah.mp3",
+    "063": "noreen-muhammad-siddique-al-duri-via-abu-amr/063-al-munafiqoon.mp3",
+    "064": "noreen-muhammad-siddique-al-duri-via-abu-amr/064-at-taghaabun.mp3",
+    "065": "noreen-muhammad-siddique-al-duri-via-abu-amr/065-at-talaaq.mp3",
+    "066": "noreen-muhammad-siddique-al-duri-via-abu-amr/066-at-tahreem.mp3",
+    "067": "noreen-muhammad-siddique-al-duri-via-abu-amr/067-al-mulk.mp3",
+    "068": "noreen-muhammad-siddique-al-duri-via-abu-amr/068-al-qalam.mp3",
+    "069": "noreen-muhammad-siddique-al-duri-via-abu-amr/069-al-haaqqahh.mp3",
+    "070": "noreen-muhammad-siddique-al-duri-via-abu-amr/070-al-maaarij.mp3",
+    "071": "noreen-muhammad-siddique-al-duri-via-abu-amr/071-nooh.mp3",
+    "072": "noreen-muhammad-siddique-al-duri-via-abu-amr/072-al-jinn.mp3",
+    "073": "noreen-muhammad-siddique-al-duri-via-abu-amr/073-al-muzzammil.mp3",
+    "074": "noreen-muhammad-siddique-al-duri-via-abu-amr/074-al-muddaththir.mp3",
+    "075": "noreen-muhammad-siddique-al-duri-via-abu-amr/075-al-qiyamahh.mp3",
+    "076": "noreen-muhammad-siddique-al-duri-via-abu-amr/076-al-insaan.mp3",
+    "077": "noreen-muhammad-siddique-al-duri-via-abu-amr/077-al-mursalaat.mp3",
+    "078": "noreen-muhammad-siddique-al-duri-via-abu-amr/078-an-naba.mp3",
+    "079": "noreen-muhammad-siddique-al-duri-via-abu-amr/079-an-naaziaat.mp3",
+    "080": "noreen-muhammad-siddique-al-duri-via-abu-amr/080-abasa.mp3",
+    "081": "noreen-muhammad-siddique-al-duri-via-abu-amr/081-at-takweer.mp3",
+    "082": "noreen-muhammad-siddique-al-duri-via-abu-amr/082-al-infitaar.mp3",
+    "083": "noreen-muhammad-siddique-al-duri-via-abu-amr/083-al-mutaffifeen.mp3",
+    "084": "noreen-muhammad-siddique-al-duri-via-abu-amr/084-al-inshiqaaq.mp3",
+    "085": "noreen-muhammad-siddique-al-duri-via-abu-amr/085-al-burooj.mp3",
+    "086": "noreen-muhammad-siddique-al-duri-via-abu-amr/086-at-taariq.mp3",
+    "087": "noreen-muhammad-siddique-al-duri-via-abu-amr/087-al-alaa.mp3",
+    "088": "noreen-muhammad-siddique-al-duri-via-abu-amr/088-al-ghaashiyah.mp3",
+    "089": "noreen-muhammad-siddique-al-duri-via-abu-amr/089-al-fajr.mp3",
+    "090": "noreen-muhammad-siddique-al-duri-via-abu-amr/090-al-balad.mp3",
+    "091": "noreen-muhammad-siddique-al-duri-via-abu-amr/091-ash-shams.mp3",
+    "092": "noreen-muhammad-siddique-al-duri-via-abu-amr/092-al-layl.mp3",
+    "093": "noreen-muhammad-siddique-al-duri-via-abu-amr/093-ad-dhuhaa.mp3",
+    "094": "noreen-muhammad-siddique-al-duri-via-abu-amr/094-ash-sharh.mp3",
+    "095": "noreen-muhammad-siddique-al-duri-via-abu-amr/095-at-teen.mp3",
+    "096": "noreen-muhammad-siddique-al-duri-via-abu-amr/096-al-alaq.mp3",
+    "097": "noreen-muhammad-siddique-al-duri-via-abu-amr/097-al-qadr.mp3",
+    "098": "noreen-muhammad-siddique-al-duri-via-abu-amr/098-al-bayyinahh.mp3",
+    "099": "noreen-muhammad-siddique-al-duri-via-abu-amr/099-az-zalzalah.mp3",
+    "100": "noreen-muhammad-siddique-al-duri-via-abu-amr/100-al-aadiyaat.mp3",
+    "101": "noreen-muhammad-siddique-al-duri-via-abu-amr/101-al-qaariah.mp3",
+    "102": "noreen-muhammad-siddique-al-duri-via-abu-amr/102-at-takaathur.mp3",
+    "103": "noreen-muhammad-siddique-al-duri-via-abu-amr/103-al-asr.mp3",
+    "104": "noreen-muhammad-siddique-al-duri-via-abu-amr/104-al-humazah.mp3",
+    "105": "noreen-muhammad-siddique-al-duri-via-abu-amr/105-al-feel.mp3",
+    "106": "noreen-muhammad-siddique-al-duri-via-abu-amr/106-quraysh.mp3",
+    "107": "noreen-muhammad-siddique-al-duri-via-abu-amr/107-al-maaoon.mp3",
+    "108": "noreen-muhammad-siddique-al-duri-via-abu-amr/108-al-kawthar.mp3",
+    "109": "noreen-muhammad-siddique-al-duri-via-abu-amr/109-al-kaafiroon.mp3",
+    "110": "noreen-muhammad-siddique-al-duri-via-abu-amr/110-an-nasr.mp3",
+    "111": "noreen-muhammad-siddique-al-duri-via-abu-amr/111-al-masad.mp3",
+    "112": "noreen-muhammad-siddique-al-duri-via-abu-amr/112-al-ikhlaas.mp3",
+    "113": "noreen-muhammad-siddique-al-duri-via-abu-amr/113-al-falaq.mp3",
+    "114": "noreen-muhammad-siddique-al-duri-via-abu-amr/114-al-naas.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatihah",
+      "duration": "1:02",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/001-al-faatihah.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:05:52",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/002-al-baqarah.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:13:12",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/003-aal-imraan.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:21:17",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/004-an-nisaa.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "58:20",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/005-al-maaidah.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:01:39",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/006-al-anaam.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:10:06",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/007-al-aaraaf.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "25:47",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/008-al-anfaal.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "52:23",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/009-at-tawbah.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "37:03",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/010-yoonus.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "36:17",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/011-hoodh.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "36:15",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/012-yoosuf.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "17:13",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/013-ar-rad.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "15:52",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/014-ibraaheem.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "14:50",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/015-al-hijr.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "37:21",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/016-an-nahl.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "31:23",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/017-al-israa.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "29:37",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/018-al-kahf.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "17:34",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/019-maryam.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "24:59",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/020-taa-haa.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "23:22",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/021-al-anbiyaa.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "23:36",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/022-al-hajj.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "22:16",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/023-al-muminoon.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "26:40",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/024-an-noor.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "16:42",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/025-al-furqan.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "29:09",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/026-ash-shuaraa.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "24:44",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/027-an-naml.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "30:58",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/028-al-qasas.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "21:19",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/029-al-ankabut.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "17:41",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/030-ar-room.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "11:23",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/031-luqmaan.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:45",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/032-as-sajdah.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "27:14",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/033-al-ahzaab.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "18:34",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/034-saba.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "16:14",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/035-faatir.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "16:30",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/036-yaa-seen.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "20:05",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/037-as-saaffaat.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "15:30",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/038-saad.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "23:18",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/039-az-zumar.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "25:37",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/040-ghaafir.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "16:35",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/041-fussilat.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "16:12",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/042-ash-shura.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "18:23",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/043-az-zukhruf.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:51",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/044-ad-dukhaan.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "10:21",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/045-al-jaathiyah.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "12:22",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/046-al-ahqaaf.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "12:32",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/047-muhammad.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "12:10",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/048-al-fath.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:57",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/049-al-hujuraat.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:10",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/050-qaaf.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "8:06",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/051-adh-dhaariyaat.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:51",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/052-at-toor.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:35",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/053-an-najm.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "7:20",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/054-al-qamar.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:37",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/055-ar-rahman.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:05",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/056-al-waaqiah.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "11:23",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/057-al-hadeed.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "10:26",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/058-al-mujaadilahh.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:51",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/059-al-hashr.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "8:24",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/060-al-mumtahanah.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:54",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/061-as-saff.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:28",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/062-al-jumuaah.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:00",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/063-al-munafiqoon.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:45",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/064-at-taghaabun.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "6:47",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/065-at-talaaq.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "6:05",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/066-at-tahreem.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:55",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/067-al-mulk.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:27",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/068-al-qalam.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:04",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/069-al-haaqqahh.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:41",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/070-al-maaarij.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:48",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/071-nooh.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:58",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/072-al-jinn.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:08",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/073-al-muzzammil.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:21",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/074-al-muddaththir.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:26",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/075-al-qiyamahh.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:30",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/076-al-insaan.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:26",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/077-al-mursalaat.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:06",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/078-an-naba.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:56",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/079-an-naaziaat.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:08",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/080-abasa.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:08",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/081-at-takweer.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:39",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/082-al-infitaar.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:42",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/083-al-mutaffifeen.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:12",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/084-al-inshiqaaq.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:17",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/085-al-burooj.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:20",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/086-at-taariq.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:29",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/087-al-alaa.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:54",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/088-al-ghaashiyah.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:54",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/089-al-fajr.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:36",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/090-al-balad.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:12",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/091-ash-shams.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:38",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/092-al-layl.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "55",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/093-ad-dhuhaa.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "33",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/094-ash-sharh.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "44",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/095-at-teen.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:20",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/096-al-alaq.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "37",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/097-al-qadr.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:56",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/098-al-bayyinahh.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "49",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/099-az-zalzalah.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "52",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/100-al-aadiyaat.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "48",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/101-al-qaariah.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "42",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/102-at-takaathur.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "19",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/103-al-asr.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "43",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/104-al-humazah.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "32",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/105-al-feel.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "28",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/106-quraysh.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "35",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/107-al-maaoon.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "18",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/108-al-kawthar.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "29",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/109-al-kaafiroon.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "30",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/110-an-nasr.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "32",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/111-al-masad.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "19",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/112-al-ikhlaas.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "28",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/113-al-falaq.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "32",
+      "url": "noreen-muhammad-siddique-al-duri-via-abu-amr/114-al-naas.mp3"
+    }
+  ]
+}

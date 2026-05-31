@@ -1,0 +1,792 @@
+{
+  "slug": "abdel-aziz-al-ahmed",
+  "count": 112,
+  "byNumber": {
+    "001": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-001.mp3",
+    "002": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-002.mp3",
+    "003": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-003.mp3",
+    "004": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-004.mp3",
+    "005": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-005.mp3",
+    "006": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-006.mp3",
+    "007": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-007.mp3",
+    "008": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-008.mp3",
+    "010": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-010.mp3",
+    "011": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-011.mp3",
+    "012": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-012.mp3",
+    "013": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-013.mp3",
+    "014": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-014.mp3",
+    "015": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-015.mp3",
+    "016": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-016.mp3",
+    "017": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-017.mp3",
+    "018": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-018.mp3",
+    "019": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-019.mp3",
+    "020": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-020.mp3",
+    "021": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-021.mp3",
+    "022": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-022.mp3",
+    "023": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-023.mp3",
+    "024": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-024.mp3",
+    "025": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-025.mp3",
+    "026": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-026.mp3",
+    "027": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-027.mp3",
+    "028": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-028.mp3",
+    "029": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-029.mp3",
+    "030": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-030.mp3",
+    "031": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-031.mp3",
+    "032": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-032.mp3",
+    "033": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-033.mp3",
+    "034": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-034.mp3",
+    "035": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-035.mp3",
+    "036": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-036.mp3",
+    "037": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-037.mp3",
+    "038": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-038.mp3",
+    "039": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-039.mp3",
+    "040": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-040.mp3",
+    "041": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-041.mp3",
+    "042": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-042.mp3",
+    "043": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-043.mp3",
+    "044": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-044.mp3",
+    "045": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-045.mp3",
+    "046": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-046.mp3",
+    "047": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-047.mp3",
+    "048": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-048.mp3",
+    "049": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-049.mp3",
+    "050": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-050.mp3",
+    "051": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-051.mp3",
+    "052": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-052.mp3",
+    "053": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-053.mp3",
+    "054": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-054.mp3",
+    "055": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-055.mp3",
+    "056": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-056.mp3",
+    "057": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-057.mp3",
+    "058": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-058.mp3",
+    "059": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-059.mp3",
+    "060": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-060.mp3",
+    "061": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-061.mp3",
+    "062": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-062.mp3",
+    "063": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-063.mp3",
+    "064": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-064.mp3",
+    "065": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-065.mp3",
+    "066": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-066.mp3",
+    "067": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-067.mp3",
+    "068": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-068.mp3",
+    "069": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-069.mp3",
+    "070": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-070.mp3",
+    "071": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-071.mp3",
+    "072": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-072.mp3",
+    "073": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-073.mp3",
+    "074": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-074.mp3",
+    "075": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-075.mp3",
+    "076": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-076.mp3",
+    "077": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-077.mp3",
+    "078": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-078.mp3",
+    "079": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-079.mp3",
+    "080": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-080.mp3",
+    "081": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-081.mp3",
+    "082": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-082.mp3",
+    "083": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-083.mp3",
+    "084": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-084.mp3",
+    "085": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-085.mp3",
+    "086": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-086.mp3",
+    "087": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-087.mp3",
+    "088": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-088.mp3",
+    "089": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-089.mp3",
+    "090": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-090.mp3",
+    "091": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-091.mp3",
+    "093": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-093.mp3",
+    "094": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-094.mp3",
+    "095": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-095.mp3",
+    "096": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-096.mp3",
+    "097": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-097.mp3",
+    "098": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-098.mp3",
+    "099": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-099.mp3",
+    "100": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-100.mp3",
+    "101": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-101.mp3",
+    "102": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-102.mp3",
+    "103": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-103.mp3",
+    "104": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-104.mp3",
+    "105": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-105.mp3",
+    "106": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-106.mp3",
+    "107": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-107.mp3",
+    "108": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-108.mp3",
+    "109": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-109.mp3",
+    "110": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-110.mp3",
+    "111": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-111.mp3",
+    "112": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-112.mp3",
+    "113": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-113.mp3",
+    "114": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 AlFatiha",
+      "duration": "25",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 AlBaqara",
+      "duration": "1:26:21",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 AalEImran",
+      "duration": "51:40",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 AnNisa",
+      "duration": "49:53",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 AlMaidah",
+      "duration": "38:39",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 AlAnaam",
+      "duration": "40:04",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 AlAraf",
+      "duration": "48:59",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 AlAnfal",
+      "duration": "18:32",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-008.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "25:15",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "27:34",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "27:40",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 ArRad",
+      "duration": "14:33",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "14:30",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 AlHijr",
+      "duration": "9:53",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 AnNahl",
+      "duration": "24:37",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 AlIsra",
+      "duration": "23:42",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 AlKahf",
+      "duration": "21:39",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "14:33",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 TaHa",
+      "duration": "18:37",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 AlAnbiya",
+      "duration": "19:16",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 AlHajj",
+      "duration": "20:36",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 AlMumenoon",
+      "duration": "19:03",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 AnNoor",
+      "duration": "21:11",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 AlFurqan",
+      "duration": "16:51",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 AshShuara",
+      "duration": "22:40",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 AnNaml",
+      "duration": "21:56",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 AlQasas",
+      "duration": "21:51",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 AlAnkaboot",
+      "duration": "15:45",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 ArRoom",
+      "duration": "12:48",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "9:31",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 AsSajda",
+      "duration": "7:21",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 AlAhzab",
+      "duration": "22:32",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "14:04",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "13:48",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 YaSeen",
+      "duration": "14:07",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 AsSaaffat",
+      "duration": "16:51",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "12:39",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 AzZumar",
+      "duration": "21:29",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "23:22",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "15:05",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 AshShura",
+      "duration": "13:53",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 AzZukhruf",
+      "duration": "16:18",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 AdDukhan",
+      "duration": "6:43",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 AlJathiya",
+      "duration": "8:51",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 AlAhqaf",
+      "duration": "9:38",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "11:03",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 AlFath",
+      "duration": "8:26",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 AlHujraat",
+      "duration": "6:19",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:56",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 AdhDhariyat",
+      "duration": "6:08",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 AtTur",
+      "duration": "6:59",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 AnNajm",
+      "duration": "5:08",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 AlQamar",
+      "duration": "6:26",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 ArRahman",
+      "duration": "8:53",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 AlWaqia",
+      "duration": "7:56",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 AlHadid",
+      "duration": "9:08",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 AlMujadila",
+      "duration": "8:52",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 AlHashr",
+      "duration": "9:38",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 AlMumtahina",
+      "duration": "6:35",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 AsSaff",
+      "duration": "5:02",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 AlJumua",
+      "duration": "3:22",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 AlMunafiqoon",
+      "duration": "4:12",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 AtTaghabun",
+      "duration": "3:50",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 AtTalaq",
+      "duration": "4:32",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 AtTahrim",
+      "duration": "6:11",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 AlMulk",
+      "duration": "5:42",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 AlQalam",
+      "duration": "6:26",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 AlHaaqqa",
+      "duration": "6:47",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 AlMaarij",
+      "duration": "4:07",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:16",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 AlJinn",
+      "duration": "3:54",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 AlMuzzammil",
+      "duration": "3:37",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 AlMuddaththir",
+      "duration": "4:44",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 AlQiyama",
+      "duration": "3:28",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 AlInsan",
+      "duration": "4:53",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 AlMursalat",
+      "duration": "3:51",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 AnNaba",
+      "duration": "3:10",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 AnNaziat",
+      "duration": "2:59",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:18",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 AtTakwir",
+      "duration": "1:36",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 AlInfitar",
+      "duration": "1:17",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 AlMutaffifin",
+      "duration": "3:00",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 AlInshiqaq",
+      "duration": "1:58",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 AlBurooj",
+      "duration": "2:12",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 AtTariq",
+      "duration": "57",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 AlAla",
+      "duration": "58",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 AlGhashiya",
+      "duration": "1:50",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 AlFajr",
+      "duration": "2:38",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 AlBalad",
+      "duration": "1:06",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 AshShams",
+      "duration": "49",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-091.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 AdDhuha",
+      "duration": "38",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 AlInshirah",
+      "duration": "23",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 AtTin",
+      "duration": "33",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 AlAlaq",
+      "duration": "1:11",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 AlQadr",
+      "duration": "27",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 AlBayyina",
+      "duration": "1:20",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 AzZalzala",
+      "duration": "33",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 AlAdiyat",
+      "duration": "46",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 AlQaria",
+      "duration": "34",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 AtTakathur",
+      "duration": "40",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 AlAsr",
+      "duration": "16",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 AlHumaza",
+      "duration": "30",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 AlFil",
+      "duration": "24",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "19",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 AlMaun",
+      "duration": "30",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 AlKauther",
+      "duration": "10",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 AlKafiroon",
+      "duration": "21",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 AnNasr",
+      "duration": "20",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 AlMasadd",
+      "duration": "22",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 AlIkhlas",
+      "duration": "11",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 AlFalaq",
+      "duration": "19",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 AnNas",
+      "duration": "26",
+      "url": "abdel-aziz-al-ahmed/abdel-aziz-al-ahmed-114.mp3"
+    }
+  ]
+}

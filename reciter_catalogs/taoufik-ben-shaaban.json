@@ -1,0 +1,281 @@
+{
+  "slug": "taoufik-ben-shaaban",
+  "count": 39,
+  "byNumber": {
+    "001": "taoufik-ben-shaaban/001.mp3",
+    "008": "taoufik-ben-shaaban/008.mp3",
+    "018": "taoufik-ben-shaaban/018.mp3",
+    "023": "taoufik-ben-shaaban/023.mp3",
+    "025": "taoufik-ben-shaaban/025.mp3",
+    "027": "taoufik-ben-shaaban/027.mp3",
+    "036": "taoufik-ben-shaaban/036.mp3",
+    "048": "taoufik-ben-shaaban/048.mp3",
+    "050": "taoufik-ben-shaaban/050.mp3",
+    "051": "taoufik-ben-shaaban/051.mp3",
+    "052": "taoufik-ben-shaaban/052.mp3",
+    "053": "taoufik-ben-shaaban/053.mp3",
+    "054": "taoufik-ben-shaaban/054.mp3",
+    "055": "taoufik-ben-shaaban/055.mp3",
+    "056": "taoufik-ben-shaaban/056.mp3",
+    "067": "taoufik-ben-shaaban/067.mp3",
+    "068": "taoufik-ben-shaaban/068.mp3",
+    "069": "taoufik-ben-shaaban/069.mp3",
+    "070": "taoufik-ben-shaaban/070.mp3",
+    "072": "taoufik-ben-shaaban/072.mp3",
+    "073": "taoufik-ben-shaaban/073.mp3",
+    "074": "taoufik-ben-shaaban/074.mp3",
+    "075": "taoufik-ben-shaaban/075.mp3",
+    "085": "taoufik-ben-shaaban/085.mp3",
+    "086": "taoufik-ben-shaaban/086.mp3",
+    "087": "taoufik-ben-shaaban/087.mp3",
+    "088": "taoufik-ben-shaaban/088.mp3",
+    "089": "taoufik-ben-shaaban/089.mp3",
+    "090": "taoufik-ben-shaaban/090.mp3",
+    "091": "taoufik-ben-shaaban/091.mp3",
+    "092": "taoufik-ben-shaaban/092.mp3",
+    "093": "taoufik-ben-shaaban/093.mp3",
+    "094": "taoufik-ben-shaaban/094.mp3",
+    "099": "taoufik-ben-shaaban/099.mp3",
+    "100": "taoufik-ben-shaaban/100.mp3",
+    "101": "taoufik-ben-shaaban/101.mp3",
+    "105": "taoufik-ben-shaaban/105.mp3",
+    "106": "taoufik-ben-shaaban/106.mp3",
+    "112": "taoufik-ben-shaaban/112.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "53",
+      "url": "taoufik-ben-shaaban/001.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "51:30",
+      "url": "taoufik-ben-shaaban/008.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "40:14",
+      "url": "taoufik-ben-shaaban/018.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "29:03",
+      "url": "taoufik-ben-shaaban/023.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "21:00",
+      "url": "taoufik-ben-shaaban/025.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "29:11",
+      "url": "taoufik-ben-shaaban/027.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "20:54",
+      "url": "taoufik-ben-shaaban/036.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "14:30",
+      "url": "taoufik-ben-shaaban/048.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:56",
+      "url": "taoufik-ben-shaaban/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "8:50",
+      "url": "taoufik-ben-shaaban/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "7:44",
+      "url": "taoufik-ben-shaaban/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "9:12",
+      "url": "taoufik-ben-shaaban/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "8:14",
+      "url": "taoufik-ben-shaaban/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "11:20",
+      "url": "taoufik-ben-shaaban/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "11:10",
+      "url": "taoufik-ben-shaaban/056.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:52",
+      "url": "taoufik-ben-shaaban/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:45",
+      "url": "taoufik-ben-shaaban/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:48",
+      "url": "taoufik-ben-shaaban/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:02",
+      "url": "taoufik-ben-shaaban/070.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "7:50",
+      "url": "taoufik-ben-shaaban/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "5:10",
+      "url": "taoufik-ben-shaaban/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "6:25",
+      "url": "taoufik-ben-shaaban/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:26",
+      "url": "taoufik-ben-shaaban/075.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:26",
+      "url": "taoufik-ben-shaaban/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:31",
+      "url": "taoufik-ben-shaaban/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:36",
+      "url": "taoufik-ben-shaaban/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:00",
+      "url": "taoufik-ben-shaaban/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:58",
+      "url": "taoufik-ben-shaaban/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:44",
+      "url": "taoufik-ben-shaaban/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:14",
+      "url": "taoufik-ben-shaaban/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:33",
+      "url": "taoufik-ben-shaaban/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "58",
+      "url": "taoufik-ben-shaaban/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "34",
+      "url": "taoufik-ben-shaaban/094.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "52",
+      "url": "taoufik-ben-shaaban/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:02",
+      "url": "taoufik-ben-shaaban/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "56",
+      "url": "taoufik-ben-shaaban/101.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "41",
+      "url": "taoufik-ben-shaaban/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "34",
+      "url": "taoufik-ben-shaaban/106.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "taoufik-ben-shaaban/112.mp3"
+    }
+  ]
+}

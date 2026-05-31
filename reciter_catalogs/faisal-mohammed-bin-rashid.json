@@ -1,0 +1,631 @@
+{
+  "slug": "faisal-mohammed-bin-rashid",
+  "count": 89,
+  "byNumber": {
+    "001": "faisal-mohammed-bin-rashid/001.mp3",
+    "002": "faisal-mohammed-bin-rashid/002.mp3",
+    "005": "faisal-mohammed-bin-rashid/005.mp3",
+    "012": "faisal-mohammed-bin-rashid/012.mp3",
+    "013": "faisal-mohammed-bin-rashid/013.mp3",
+    "015": "faisal-mohammed-bin-rashid/015.mp3",
+    "018": "faisal-mohammed-bin-rashid/018.mp3",
+    "019": "faisal-mohammed-bin-rashid/019.mp3",
+    "020": "faisal-mohammed-bin-rashid/020.mp3",
+    "022": "faisal-mohammed-bin-rashid/022.mp3",
+    "025": "faisal-mohammed-bin-rashid/025.mp3",
+    "026": "faisal-mohammed-bin-rashid/026.mp3",
+    "029": "faisal-mohammed-bin-rashid/029.mp3",
+    "030": "faisal-mohammed-bin-rashid/030.mp3",
+    "031": "faisal-mohammed-bin-rashid/031.mp3",
+    "032": "faisal-mohammed-bin-rashid/032.mp3",
+    "035": "faisal-mohammed-bin-rashid/035.mp3",
+    "037": "faisal-mohammed-bin-rashid/037.mp3",
+    "038": "faisal-mohammed-bin-rashid/038.mp3",
+    "039": "faisal-mohammed-bin-rashid/039.mp3",
+    "041": "faisal-mohammed-bin-rashid/041.mp3",
+    "044": "faisal-mohammed-bin-rashid/044.mp3",
+    "046": "faisal-mohammed-bin-rashid/046.mp3",
+    "048": "faisal-mohammed-bin-rashid/048.mp3",
+    "049": "faisal-mohammed-bin-rashid/049.mp3",
+    "050": "faisal-mohammed-bin-rashid/050.mp3",
+    "051": "faisal-mohammed-bin-rashid/051.mp3",
+    "052": "faisal-mohammed-bin-rashid/052.mp3",
+    "053": "faisal-mohammed-bin-rashid/053.mp3",
+    "054": "faisal-mohammed-bin-rashid/054.mp3",
+    "056": "faisal-mohammed-bin-rashid/056.mp3",
+    "057": "faisal-mohammed-bin-rashid/057.mp3",
+    "058": "faisal-mohammed-bin-rashid/058.mp3",
+    "059": "faisal-mohammed-bin-rashid/059.mp3",
+    "060": "faisal-mohammed-bin-rashid/060.mp3",
+    "061": "faisal-mohammed-bin-rashid/061.mp3",
+    "062": "faisal-mohammed-bin-rashid/062.mp3",
+    "063": "faisal-mohammed-bin-rashid/063.mp3",
+    "064": "faisal-mohammed-bin-rashid/064.mp3",
+    "065": "faisal-mohammed-bin-rashid/065.mp3",
+    "066": "faisal-mohammed-bin-rashid/066.mp3",
+    "067": "faisal-mohammed-bin-rashid/067.mp3",
+    "068": "faisal-mohammed-bin-rashid/068.mp3",
+    "069": "faisal-mohammed-bin-rashid/069.mp3",
+    "070": "faisal-mohammed-bin-rashid/070.mp3",
+    "071": "faisal-mohammed-bin-rashid/071.mp3",
+    "072": "faisal-mohammed-bin-rashid/072.mp3",
+    "073": "faisal-mohammed-bin-rashid/073.mp3",
+    "074": "faisal-mohammed-bin-rashid/074.mp3",
+    "075": "faisal-mohammed-bin-rashid/075.mp3",
+    "076": "faisal-mohammed-bin-rashid/076.mp3",
+    "077": "faisal-mohammed-bin-rashid/077.mp3",
+    "078": "faisal-mohammed-bin-rashid/078.mp3",
+    "079": "faisal-mohammed-bin-rashid/079.mp3",
+    "080": "faisal-mohammed-bin-rashid/080.mp3",
+    "081": "faisal-mohammed-bin-rashid/081.mp3",
+    "082": "faisal-mohammed-bin-rashid/082.mp3",
+    "083": "faisal-mohammed-bin-rashid/083.mp3",
+    "084": "faisal-mohammed-bin-rashid/084.mp3",
+    "085": "faisal-mohammed-bin-rashid/085.mp3",
+    "086": "faisal-mohammed-bin-rashid/086.mp3",
+    "087": "faisal-mohammed-bin-rashid/087.mp3",
+    "088": "faisal-mohammed-bin-rashid/088.mp3",
+    "089": "faisal-mohammed-bin-rashid/089.mp3",
+    "090": "faisal-mohammed-bin-rashid/090.mp3",
+    "091": "faisal-mohammed-bin-rashid/091.mp3",
+    "092": "faisal-mohammed-bin-rashid/092.mp3",
+    "093": "faisal-mohammed-bin-rashid/093.mp3",
+    "094": "faisal-mohammed-bin-rashid/094.mp3",
+    "095": "faisal-mohammed-bin-rashid/095.mp3",
+    "096": "faisal-mohammed-bin-rashid/096.mp3",
+    "097": "faisal-mohammed-bin-rashid/097.mp3",
+    "098": "faisal-mohammed-bin-rashid/098.mp3",
+    "099": "faisal-mohammed-bin-rashid/099.mp3",
+    "100": "faisal-mohammed-bin-rashid/100.mp3",
+    "101": "faisal-mohammed-bin-rashid/101.mp3",
+    "102": "faisal-mohammed-bin-rashid/102.mp3",
+    "103": "faisal-mohammed-bin-rashid/103.mp3",
+    "104": "faisal-mohammed-bin-rashid/104.mp3",
+    "105": "faisal-mohammed-bin-rashid/105.mp3",
+    "106": "faisal-mohammed-bin-rashid/106.mp3",
+    "107": "faisal-mohammed-bin-rashid/107.mp3",
+    "108": "faisal-mohammed-bin-rashid/108.mp3",
+    "109": "faisal-mohammed-bin-rashid/109.mp3",
+    "110": "faisal-mohammed-bin-rashid/110.mp3",
+    "111": "faisal-mohammed-bin-rashid/111.mp3",
+    "112": "faisal-mohammed-bin-rashid/112.mp3",
+    "113": "faisal-mohammed-bin-rashid/113.mp3",
+    "114": "faisal-mohammed-bin-rashid/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "44",
+      "url": "faisal-mohammed-bin-rashid/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "1:52:13",
+      "url": "faisal-mohammed-bin-rashid/002.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "50:49",
+      "url": "faisal-mohammed-bin-rashid/005.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "33:16",
+      "url": "faisal-mohammed-bin-rashid/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "14:54",
+      "url": "faisal-mohammed-bin-rashid/013.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "12:21",
+      "url": "faisal-mohammed-bin-rashid/015.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "28:40",
+      "url": "faisal-mohammed-bin-rashid/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "17:33",
+      "url": "faisal-mohammed-bin-rashid/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "22:58",
+      "url": "faisal-mohammed-bin-rashid/020.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "22:19",
+      "url": "faisal-mohammed-bin-rashid/022.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "15:52",
+      "url": "faisal-mohammed-bin-rashid/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "24:34",
+      "url": "faisal-mohammed-bin-rashid/026.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "19:13",
+      "url": "faisal-mohammed-bin-rashid/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "15:54",
+      "url": "faisal-mohammed-bin-rashid/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "10:03",
+      "url": "faisal-mohammed-bin-rashid/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "8:06",
+      "url": "faisal-mohammed-bin-rashid/032.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:12",
+      "url": "faisal-mohammed-bin-rashid/035.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "18:16",
+      "url": "faisal-mohammed-bin-rashid/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "14:50",
+      "url": "faisal-mohammed-bin-rashid/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "21:53",
+      "url": "faisal-mohammed-bin-rashid/039.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "16:32",
+      "url": "faisal-mohammed-bin-rashid/041.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:40",
+      "url": "faisal-mohammed-bin-rashid/044.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "13:02",
+      "url": "faisal-mohammed-bin-rashid/046.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:45",
+      "url": "faisal-mohammed-bin-rashid/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:31",
+      "url": "faisal-mohammed-bin-rashid/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:24",
+      "url": "faisal-mohammed-bin-rashid/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:50",
+      "url": "faisal-mohammed-bin-rashid/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:43",
+      "url": "faisal-mohammed-bin-rashid/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:52",
+      "url": "faisal-mohammed-bin-rashid/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "7:26",
+      "url": "faisal-mohammed-bin-rashid/054.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "10:45",
+      "url": "faisal-mohammed-bin-rashid/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "11:42",
+      "url": "faisal-mohammed-bin-rashid/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:10",
+      "url": "faisal-mohammed-bin-rashid/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:32",
+      "url": "faisal-mohammed-bin-rashid/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "7:26",
+      "url": "faisal-mohammed-bin-rashid/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:30",
+      "url": "faisal-mohammed-bin-rashid/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:44",
+      "url": "faisal-mohammed-bin-rashid/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:11",
+      "url": "faisal-mohammed-bin-rashid/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:49",
+      "url": "faisal-mohammed-bin-rashid/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:36",
+      "url": "faisal-mohammed-bin-rashid/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:19",
+      "url": "faisal-mohammed-bin-rashid/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:20",
+      "url": "faisal-mohammed-bin-rashid/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:46",
+      "url": "faisal-mohammed-bin-rashid/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:06",
+      "url": "faisal-mohammed-bin-rashid/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:09",
+      "url": "faisal-mohammed-bin-rashid/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:39",
+      "url": "faisal-mohammed-bin-rashid/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:26",
+      "url": "faisal-mohammed-bin-rashid/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:24",
+      "url": "faisal-mohammed-bin-rashid/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:43",
+      "url": "faisal-mohammed-bin-rashid/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:35",
+      "url": "faisal-mohammed-bin-rashid/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:48",
+      "url": "faisal-mohammed-bin-rashid/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:33",
+      "url": "faisal-mohammed-bin-rashid/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:06",
+      "url": "faisal-mohammed-bin-rashid/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:54",
+      "url": "faisal-mohammed-bin-rashid/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:16",
+      "url": "faisal-mohammed-bin-rashid/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:23",
+      "url": "faisal-mohammed-bin-rashid/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "2:00",
+      "url": "faisal-mohammed-bin-rashid/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:14",
+      "url": "faisal-mohammed-bin-rashid/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:33",
+      "url": "faisal-mohammed-bin-rashid/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:50",
+      "url": "faisal-mohammed-bin-rashid/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:34",
+      "url": "faisal-mohammed-bin-rashid/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:39",
+      "url": "faisal-mohammed-bin-rashid/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:18",
+      "url": "faisal-mohammed-bin-rashid/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:33",
+      "url": "faisal-mohammed-bin-rashid/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:45",
+      "url": "faisal-mohammed-bin-rashid/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:16",
+      "url": "faisal-mohammed-bin-rashid/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:44",
+      "url": "faisal-mohammed-bin-rashid/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:03",
+      "url": "faisal-mohammed-bin-rashid/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "41",
+      "url": "faisal-mohammed-bin-rashid/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "1:02",
+      "url": "faisal-mohammed-bin-rashid/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:33",
+      "url": "faisal-mohammed-bin-rashid/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "47",
+      "url": "faisal-mohammed-bin-rashid/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "2:04",
+      "url": "faisal-mohammed-bin-rashid/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "58",
+      "url": "faisal-mohammed-bin-rashid/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:06",
+      "url": "faisal-mohammed-bin-rashid/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "1:06",
+      "url": "faisal-mohammed-bin-rashid/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "56",
+      "url": "faisal-mohammed-bin-rashid/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "28",
+      "url": "faisal-mohammed-bin-rashid/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "1:02",
+      "url": "faisal-mohammed-bin-rashid/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "45",
+      "url": "faisal-mohammed-bin-rashid/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "40",
+      "url": "faisal-mohammed-bin-rashid/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "54",
+      "url": "faisal-mohammed-bin-rashid/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "26",
+      "url": "faisal-mohammed-bin-rashid/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "53",
+      "url": "faisal-mohammed-bin-rashid/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "33",
+      "url": "faisal-mohammed-bin-rashid/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "44",
+      "url": "faisal-mohammed-bin-rashid/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "24",
+      "url": "faisal-mohammed-bin-rashid/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "35",
+      "url": "faisal-mohammed-bin-rashid/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "48",
+      "url": "faisal-mohammed-bin-rashid/114.mp3"
+    }
+  ]
+}

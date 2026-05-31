@@ -1,0 +1,218 @@
+{
+  "slug": "ahmed-saoud",
+  "count": 30,
+  "byNumber": {
+    "085": "ahmed-saoud/ahmed-saoud-085-muslimcentral.com.mp3",
+    "086": "ahmed-saoud/ahmed-saoud-086-muslimcentral.com.mp3",
+    "087": "ahmed-saoud/ahmed-saoud-087-muslimcentral.com.mp3",
+    "088": "ahmed-saoud/ahmed-saoud-088-muslimcentral.com.mp3",
+    "089": "ahmed-saoud/ahmed-saoud-089-muslimcentral.com.mp3",
+    "090": "ahmed-saoud/ahmed-saoud-090-muslimcentral.com.mp3",
+    "091": "ahmed-saoud/ahmed-saoud-091-muslimcentral.com.mp3",
+    "092": "ahmed-saoud/ahmed-saoud-092-muslimcentral.com.mp3",
+    "093": "ahmed-saoud/ahmed-saoud-093-muslimcentral.com.mp3",
+    "094": "ahmed-saoud/ahmed-saoud-094-muslimcentral.com.mp3",
+    "095": "ahmed-saoud/ahmed-saoud-095-muslimcentral.com.mp3",
+    "096": "ahmed-saoud/ahmed-saoud-096-muslimcentral.com.mp3",
+    "097": "ahmed-saoud/ahmed-saoud-097-muslimcentral.com.mp3",
+    "098": "ahmed-saoud/ahmed-saoud-098-muslimcentral.com.mp3",
+    "099": "ahmed-saoud/ahmed-saoud-099-muslimcentral.com.mp3",
+    "100": "ahmed-saoud/ahmed-saoud-100-muslimcentral.com.mp3",
+    "101": "ahmed-saoud/ahmed-saoud-101-muslimcentral.com.mp3",
+    "102": "ahmed-saoud/ahmed-saoud-102-muslimcentral.com.mp3",
+    "103": "ahmed-saoud/ahmed-saoud-103-muslimcentral.com.mp3",
+    "104": "ahmed-saoud/ahmed-saoud-104-muslimcentral.com.mp3",
+    "105": "ahmed-saoud/ahmed-saoud-105-muslimcentral.com.mp3",
+    "106": "ahmed-saoud/ahmed-saoud-106-muslimcentral.com.mp3",
+    "107": "ahmed-saoud/ahmed-saoud-107-muslimcentral.com.mp3",
+    "108": "ahmed-saoud/ahmed-saoud-108-muslimcentral.com.mp3",
+    "109": "ahmed-saoud/ahmed-saoud-109-muslimcentral.com.mp3",
+    "110": "ahmed-saoud/ahmed-saoud-110-muslimcentral.com.mp3",
+    "111": "ahmed-saoud/ahmed-saoud-111-muslimcentral.com.mp3",
+    "112": "ahmed-saoud/ahmed-saoud-112-muslimcentral.com.mp3",
+    "113": "ahmed-saoud/ahmed-saoud-113-muslimcentral.com.mp3",
+    "114": "ahmed-saoud/ahmed-saoud-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "3:07",
+      "url": "ahmed-saoud/ahmed-saoud-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:50",
+      "url": "ahmed-saoud/ahmed-saoud-086-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:54",
+      "url": "ahmed-saoud/ahmed-saoud-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:54",
+      "url": "ahmed-saoud/ahmed-saoud-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:40",
+      "url": "ahmed-saoud/ahmed-saoud-089-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "2:06",
+      "url": "ahmed-saoud/ahmed-saoud-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:34",
+      "url": "ahmed-saoud/ahmed-saoud-091-muslimcentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:58",
+      "url": "ahmed-saoud/ahmed-saoud-092-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:10",
+      "url": "ahmed-saoud/ahmed-saoud-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "48",
+      "url": "ahmed-saoud/ahmed-saoud-094-muslimcentral.com.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "58",
+      "url": "ahmed-saoud/ahmed-saoud-095-muslimcentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:51",
+      "url": "ahmed-saoud/ahmed-saoud-096-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "48",
+      "url": "ahmed-saoud/ahmed-saoud-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "2:11",
+      "url": "ahmed-saoud/ahmed-saoud-098-muslimcentral.com.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "1:00",
+      "url": "ahmed-saoud/ahmed-saoud-099-muslimcentral.com.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:11",
+      "url": "ahmed-saoud/ahmed-saoud-100-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "1:08",
+      "url": "ahmed-saoud/ahmed-saoud-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "1:02",
+      "url": "ahmed-saoud/ahmed-saoud-102-muslimcentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "32",
+      "url": "ahmed-saoud/ahmed-saoud-103-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "1:03",
+      "url": "ahmed-saoud/ahmed-saoud-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "49",
+      "url": "ahmed-saoud/ahmed-saoud-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "43",
+      "url": "ahmed-saoud/ahmed-saoud-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "54",
+      "url": "ahmed-saoud/ahmed-saoud-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "26",
+      "url": "ahmed-saoud/ahmed-saoud-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "57",
+      "url": "ahmed-saoud/ahmed-saoud-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "39",
+      "url": "ahmed-saoud/ahmed-saoud-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "44",
+      "url": "ahmed-saoud/ahmed-saoud-111-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "24",
+      "url": "ahmed-saoud/ahmed-saoud-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "34",
+      "url": "ahmed-saoud/ahmed-saoud-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "44",
+      "url": "ahmed-saoud/ahmed-saoud-114-muslimcentral.com.mp3"
+    }
+  ]
+}

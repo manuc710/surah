@@ -1,0 +1,750 @@
+{
+  "slug": "riad-aldzairey",
+  "count": 106,
+  "byNumber": {
+    "001": "riad-aldzairey/001.mp3",
+    "004": "riad-aldzairey/004.mp3",
+    "005": "riad-aldzairey/005.mp3",
+    "006": "riad-aldzairey/006.mp3",
+    "007": "riad-aldzairey/007.mp3",
+    "008": "riad-aldzairey/008.mp3",
+    "009": "riad-aldzairey/009.mp3",
+    "010": "riad-aldzairey/010.mp3",
+    "011": "riad-aldzairey/011.mp3",
+    "012": "riad-aldzairey/012.mp3",
+    "013": "riad-aldzairey/013.mp3",
+    "014": "riad-aldzairey/014.mp3",
+    "015": "riad-aldzairey/015.mp3",
+    "016": "riad-aldzairey/016.mp3",
+    "017": "riad-aldzairey/017.mp3",
+    "018": "riad-aldzairey/018.mp3",
+    "019": "riad-aldzairey/019.mp3",
+    "020": "riad-aldzairey/020.mp3",
+    "021": "riad-aldzairey/021.mp3",
+    "022": "riad-aldzairey/022.mp3",
+    "023": "riad-aldzairey/023.mp3",
+    "026": "riad-aldzairey/026.mp3",
+    "027": "riad-aldzairey/027.mp3",
+    "029": "riad-aldzairey/029.mp3",
+    "030": "riad-aldzairey/030.mp3",
+    "031": "riad-aldzairey/031.mp3",
+    "032": "riad-aldzairey/032.mp3",
+    "033": "riad-aldzairey/033.mp3",
+    "034": "riad-aldzairey/034.mp3",
+    "035": "riad-aldzairey/035.mp3",
+    "036": "riad-aldzairey/036.mp3",
+    "037": "riad-aldzairey/037.mp3",
+    "038": "riad-aldzairey/038.mp3",
+    "039": "riad-aldzairey/039.mp3",
+    "040": "riad-aldzairey/040.mp3",
+    "041": "riad-aldzairey/041.mp3",
+    "042": "riad-aldzairey/042.mp3",
+    "043": "riad-aldzairey/043.mp3",
+    "044": "riad-aldzairey/044.mp3",
+    "045": "riad-aldzairey/045.mp3",
+    "047": "riad-aldzairey/047.mp3",
+    "048": "riad-aldzairey/048.mp3",
+    "049": "riad-aldzairey/049.mp3",
+    "050": "riad-aldzairey/050.mp3",
+    "051": "riad-aldzairey/051.mp3",
+    "052": "riad-aldzairey/052.mp3",
+    "053": "riad-aldzairey/053.mp3",
+    "054": "riad-aldzairey/054.mp3",
+    "055": "riad-aldzairey/055.mp3",
+    "056": "riad-aldzairey/056.mp3",
+    "057": "riad-aldzairey/057.mp3",
+    "058": "riad-aldzairey/058.mp3",
+    "059": "riad-aldzairey/059.mp3",
+    "060": "riad-aldzairey/060.mp3",
+    "061": "riad-aldzairey/061.mp3",
+    "062": "riad-aldzairey/062.mp3",
+    "063": "riad-aldzairey/063.mp3",
+    "064": "riad-aldzairey/064.mp3",
+    "065": "riad-aldzairey/065.mp3",
+    "066": "riad-aldzairey/066.mp3",
+    "067": "riad-aldzairey/067.mp3",
+    "069": "riad-aldzairey/069.mp3",
+    "070": "riad-aldzairey/070.mp3",
+    "071": "riad-aldzairey/071.mp3",
+    "072": "riad-aldzairey/072.mp3",
+    "073": "riad-aldzairey/073.mp3",
+    "074": "riad-aldzairey/074.mp3",
+    "075": "riad-aldzairey/075.mp3",
+    "076": "riad-aldzairey/076.mp3",
+    "078": "riad-aldzairey/078.mp3",
+    "079": "riad-aldzairey/079.mp3",
+    "080": "riad-aldzairey/080.mp3",
+    "081": "riad-aldzairey/081.mp3",
+    "082": "riad-aldzairey/082.mp3",
+    "083": "riad-aldzairey/083.mp3",
+    "084": "riad-aldzairey/084.mp3",
+    "085": "riad-aldzairey/085.mp3",
+    "086": "riad-aldzairey/086.mp3",
+    "087": "riad-aldzairey/087.mp3",
+    "088": "riad-aldzairey/088.mp3",
+    "089": "riad-aldzairey/089.mp3",
+    "090": "riad-aldzairey/090.mp3",
+    "091": "riad-aldzairey/091.mp3",
+    "092": "riad-aldzairey/092.mp3",
+    "093": "riad-aldzairey/093.mp3",
+    "094": "riad-aldzairey/094.mp3",
+    "095": "riad-aldzairey/095.mp3",
+    "096": "riad-aldzairey/096.mp3",
+    "097": "riad-aldzairey/097.mp3",
+    "098": "riad-aldzairey/098.mp3",
+    "099": "riad-aldzairey/099.mp3",
+    "100": "riad-aldzairey/100.mp3",
+    "101": "riad-aldzairey/101.mp3",
+    "102": "riad-aldzairey/102.mp3",
+    "103": "riad-aldzairey/103.mp3",
+    "104": "riad-aldzairey/104.mp3",
+    "105": "riad-aldzairey/105.mp3",
+    "106": "riad-aldzairey/106.mp3",
+    "107": "riad-aldzairey/107.mp3",
+    "108": "riad-aldzairey/108.mp3",
+    "109": "riad-aldzairey/109.mp3",
+    "110": "riad-aldzairey/110.mp3",
+    "111": "riad-aldzairey/111.mp3",
+    "112": "riad-aldzairey/112.mp3",
+    "113": "riad-aldzairey/113.mp3",
+    "114": "riad-aldzairey/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "37",
+      "url": "riad-aldzairey/001.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:07:51",
+      "url": "riad-aldzairey/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "51:18",
+      "url": "riad-aldzairey/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "53:04",
+      "url": "riad-aldzairey/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "58:42",
+      "url": "riad-aldzairey/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "21:08",
+      "url": "riad-aldzairey/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "42:51",
+      "url": "riad-aldzairey/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "31:13",
+      "url": "riad-aldzairey/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "33:15",
+      "url": "riad-aldzairey/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "31:38",
+      "url": "riad-aldzairey/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "15:39",
+      "url": "riad-aldzairey/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "15:04",
+      "url": "riad-aldzairey/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "11:50",
+      "url": "riad-aldzairey/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "31:39",
+      "url": "riad-aldzairey/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "26:21",
+      "url": "riad-aldzairey/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "25:06",
+      "url": "riad-aldzairey/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "15:29",
+      "url": "riad-aldzairey/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "18:38",
+      "url": "riad-aldzairey/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "19:00",
+      "url": "riad-aldzairey/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "21:14",
+      "url": "riad-aldzairey/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "18:06",
+      "url": "riad-aldzairey/023.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "23:50",
+      "url": "riad-aldzairey/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "21:09",
+      "url": "riad-aldzairey/027.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "17:58",
+      "url": "riad-aldzairey/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "15:14",
+      "url": "riad-aldzairey/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "9:29",
+      "url": "riad-aldzairey/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:23",
+      "url": "riad-aldzairey/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "23:44",
+      "url": "riad-aldzairey/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "14:30",
+      "url": "riad-aldzairey/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "14:14",
+      "url": "riad-aldzairey/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "13:02",
+      "url": "riad-aldzairey/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "16:19",
+      "url": "riad-aldzairey/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "12:45",
+      "url": "riad-aldzairey/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "21:16",
+      "url": "riad-aldzairey/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "20:10",
+      "url": "riad-aldzairey/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "13:46",
+      "url": "riad-aldzairey/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "14:38",
+      "url": "riad-aldzairey/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "14:25",
+      "url": "riad-aldzairey/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "6:34",
+      "url": "riad-aldzairey/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "9:04",
+      "url": "riad-aldzairey/045.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "10:35",
+      "url": "riad-aldzairey/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:07",
+      "url": "riad-aldzairey/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "6:22",
+      "url": "riad-aldzairey/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:19",
+      "url": "riad-aldzairey/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:38",
+      "url": "riad-aldzairey/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "5:59",
+      "url": "riad-aldzairey/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:29",
+      "url": "riad-aldzairey/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "7:07",
+      "url": "riad-aldzairey/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:42",
+      "url": "riad-aldzairey/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "8:49",
+      "url": "riad-aldzairey/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "11:30",
+      "url": "riad-aldzairey/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:01",
+      "url": "riad-aldzairey/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "8:15",
+      "url": "riad-aldzairey/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "6:45",
+      "url": "riad-aldzairey/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "3:57",
+      "url": "riad-aldzairey/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "2:55",
+      "url": "riad-aldzairey/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:18",
+      "url": "riad-aldzairey/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:28",
+      "url": "riad-aldzairey/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:48",
+      "url": "riad-aldzairey/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:19",
+      "url": "riad-aldzairey/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:03",
+      "url": "riad-aldzairey/067.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:42",
+      "url": "riad-aldzairey/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:33",
+      "url": "riad-aldzairey/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:26",
+      "url": "riad-aldzairey/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "4:51",
+      "url": "riad-aldzairey/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:44",
+      "url": "riad-aldzairey/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:15",
+      "url": "riad-aldzairey/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:13",
+      "url": "riad-aldzairey/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:36",
+      "url": "riad-aldzairey/076.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:38",
+      "url": "riad-aldzairey/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:34",
+      "url": "riad-aldzairey/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:06",
+      "url": "riad-aldzairey/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:06",
+      "url": "riad-aldzairey/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:36",
+      "url": "riad-aldzairey/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:39",
+      "url": "riad-aldzairey/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:08",
+      "url": "riad-aldzairey/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:08",
+      "url": "riad-aldzairey/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:23",
+      "url": "riad-aldzairey/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:25",
+      "url": "riad-aldzairey/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:58",
+      "url": "riad-aldzairey/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:02",
+      "url": "riad-aldzairey/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:39",
+      "url": "riad-aldzairey/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:15",
+      "url": "riad-aldzairey/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:28",
+      "url": "riad-aldzairey/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "56",
+      "url": "riad-aldzairey/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "32",
+      "url": "riad-aldzairey/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "46",
+      "url": "riad-aldzairey/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:32",
+      "url": "riad-aldzairey/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "38",
+      "url": "riad-aldzairey/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:59",
+      "url": "riad-aldzairey/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "57",
+      "url": "riad-aldzairey/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:00",
+      "url": "riad-aldzairey/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "52",
+      "url": "riad-aldzairey/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "46",
+      "url": "riad-aldzairey/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "22",
+      "url": "riad-aldzairey/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "48",
+      "url": "riad-aldzairey/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "39",
+      "url": "riad-aldzairey/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "31",
+      "url": "riad-aldzairey/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "40",
+      "url": "riad-aldzairey/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "17",
+      "url": "riad-aldzairey/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "36",
+      "url": "riad-aldzairey/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "30",
+      "url": "riad-aldzairey/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "31",
+      "url": "riad-aldzairey/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "riad-aldzairey/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "31",
+      "url": "riad-aldzairey/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "43",
+      "url": "riad-aldzairey/114.mp3"
+    }
+  ]
+}

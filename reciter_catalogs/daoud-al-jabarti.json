@@ -1,0 +1,120 @@
+{
+  "slug": "daoud-al-jabarti",
+  "count": 16,
+  "byNumber": {
+    "001": "daoud-al-jabarti/001.mp3",
+    "019": "daoud-al-jabarti/019.mp3",
+    "024": "daoud-al-jabarti/024.mp3",
+    "026": "daoud-al-jabarti/026.mp3",
+    "035": "daoud-al-jabarti/035.mp3",
+    "051": "daoud-al-jabarti/051.mp3",
+    "052": "daoud-al-jabarti/052.mp3",
+    "053": "daoud-al-jabarti/053.mp3",
+    "054": "daoud-al-jabarti/054.mp3",
+    "055": "daoud-al-jabarti/055.mp3",
+    "056": "daoud-al-jabarti/056.mp3",
+    "064": "daoud-al-jabarti/064.mp3",
+    "067": "daoud-al-jabarti/067.mp3",
+    "072": "daoud-al-jabarti/072.mp3",
+    "078": "daoud-al-jabarti/078.mp3",
+    "104": "daoud-al-jabarti/104.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "47",
+      "url": "daoud-al-jabarti/001.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "18:33",
+      "url": "daoud-al-jabarti/019.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "23:59",
+      "url": "daoud-al-jabarti/024.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "28:21",
+      "url": "daoud-al-jabarti/026.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "16:48",
+      "url": "daoud-al-jabarti/035.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:34",
+      "url": "daoud-al-jabarti/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "7:03",
+      "url": "daoud-al-jabarti/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:56",
+      "url": "daoud-al-jabarti/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:24",
+      "url": "daoud-al-jabarti/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "8:38",
+      "url": "daoud-al-jabarti/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:43",
+      "url": "daoud-al-jabarti/056.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:39",
+      "url": "daoud-al-jabarti/064.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:30",
+      "url": "daoud-al-jabarti/067.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:15",
+      "url": "daoud-al-jabarti/072.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:27",
+      "url": "daoud-al-jabarti/078.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "43",
+      "url": "daoud-al-jabarti/104.mp3"
+    }
+  ]
+}

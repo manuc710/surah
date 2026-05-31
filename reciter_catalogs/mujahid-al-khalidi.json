@@ -1,0 +1,190 @@
+{
+  "slug": "mujahid-al-khalidi",
+  "count": 26,
+  "byNumber": {
+    "001": "mujahid-al-khalidi/001.mp3",
+    "021": "mujahid-al-khalidi/021.mp3",
+    "025": "mujahid-al-khalidi/025.mp3",
+    "037": "mujahid-al-khalidi/037.mp3",
+    "068": "mujahid-al-khalidi/068.mp3",
+    "070": "mujahid-al-khalidi/070.mp3",
+    "073": "mujahid-al-khalidi/073.mp3",
+    "075": "mujahid-al-khalidi/075.mp3",
+    "076": "mujahid-al-khalidi/076.mp3",
+    "078": "mujahid-al-khalidi/078.mp3",
+    "079": "mujahid-al-khalidi/079.mp3",
+    "080": "mujahid-al-khalidi/080.mp3",
+    "085": "mujahid-al-khalidi/085.mp3",
+    "086": "mujahid-al-khalidi/086.mp3",
+    "103": "mujahid-al-khalidi/103.mp3",
+    "104": "mujahid-al-khalidi/104.mp3",
+    "105": "mujahid-al-khalidi/105.mp3",
+    "106": "mujahid-al-khalidi/106.mp3",
+    "107": "mujahid-al-khalidi/107.mp3",
+    "108": "mujahid-al-khalidi/108.mp3",
+    "109": "mujahid-al-khalidi/109.mp3",
+    "110": "mujahid-al-khalidi/110.mp3",
+    "111": "mujahid-al-khalidi/111.mp3",
+    "112": "mujahid-al-khalidi/112.mp3",
+    "113": "mujahid-al-khalidi/113.mp3",
+    "114": "mujahid-al-khalidi/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "52",
+      "url": "mujahid-al-khalidi/001.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "30:12",
+      "url": "mujahid-al-khalidi/021.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "21:54",
+      "url": "mujahid-al-khalidi/025.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "20:40",
+      "url": "mujahid-al-khalidi/037.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "8:13",
+      "url": "mujahid-al-khalidi/068.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:40",
+      "url": "mujahid-al-khalidi/070.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "5:15",
+      "url": "mujahid-al-khalidi/073.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:55",
+      "url": "mujahid-al-khalidi/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "6:22",
+      "url": "mujahid-al-khalidi/076.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:25",
+      "url": "mujahid-al-khalidi/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:01",
+      "url": "mujahid-al-khalidi/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:22",
+      "url": "mujahid-al-khalidi/080.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:43",
+      "url": "mujahid-al-khalidi/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "2:07",
+      "url": "mujahid-al-khalidi/086.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "25",
+      "url": "mujahid-al-khalidi/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "46",
+      "url": "mujahid-al-khalidi/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "34",
+      "url": "mujahid-al-khalidi/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "28",
+      "url": "mujahid-al-khalidi/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "47",
+      "url": "mujahid-al-khalidi/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "19",
+      "url": "mujahid-al-khalidi/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "41",
+      "url": "mujahid-al-khalidi/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "28",
+      "url": "mujahid-al-khalidi/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "33",
+      "url": "mujahid-al-khalidi/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "mujahid-al-khalidi/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "29",
+      "url": "mujahid-al-khalidi/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "33",
+      "url": "mujahid-al-khalidi/114.mp3"
+    }
+  ]
+}

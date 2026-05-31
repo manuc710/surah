@@ -1,0 +1,225 @@
+{
+  "slug": "faisal-al-halabi",
+  "count": 31,
+  "byNumber": {
+    "012": "faisal-al-halabi/faisal-al-halabi-012-muslimcentral.com.mp3",
+    "014": "faisal-al-halabi/faisal-al-halabi-014-muslimcentral.com.mp3",
+    "018": "faisal-al-halabi/faisal-al-halabi-018-muslimcentral.com.mp3",
+    "023": "faisal-al-halabi/faisal-al-halabi-023-muslimcentral.com.mp3",
+    "027": "faisal-al-halabi/faisal-al-halabi-027-muslimcentral.com.mp3",
+    "035": "faisal-al-halabi/faisal-al-halabi-035-muslimcentral.com.mp3",
+    "044": "faisal-al-halabi/faisal-al-halabi-044-muslimcentral.com.mp3",
+    "051": "faisal-al-halabi/faisal-al-halabi-051-muslimcentral.com.mp3",
+    "052": "faisal-al-halabi/faisal-al-halabi-052-muslimcentral.com.mp3",
+    "053": "faisal-al-halabi/faisal-al-halabi-053-muslimcentral.com.mp3",
+    "054": "faisal-al-halabi/faisal-al-halabi-054-muslimcentral.com.mp3",
+    "055": "faisal-al-halabi/faisal-al-halabi-055-muslimcentral.com.mp3",
+    "056": "faisal-al-halabi/faisal-al-halabi-056-muslimcentral.com.mp3",
+    "057": "faisal-al-halabi/faisal-al-halabi-057-muslimcentral.com.mp3",
+    "067": "faisal-al-halabi/faisal-al-halabi-067-muslimcentral.com.mp3",
+    "068": "faisal-al-halabi/faisal-al-halabi-068-muslimcentral.com.mp3",
+    "069": "faisal-al-halabi/faisal-al-halabi-069-muslimcentral.com.mp3",
+    "070": "faisal-al-halabi/faisal-al-halabi-070-muslimcentral.com.mp3",
+    "075": "faisal-al-halabi/faisal-al-halabi-075-muslimcentral.com.mp3",
+    "097": "faisal-al-halabi/faisal-al-halabi-097-muslimcentral.com.mp3",
+    "101": "faisal-al-halabi/faisal-al-halabi-101-muslimcentral.com.mp3",
+    "104": "faisal-al-halabi/faisal-al-halabi-104-muslimcentral.com.mp3",
+    "105": "faisal-al-halabi/faisal-al-halabi-105-muslimcentral.com.mp3",
+    "106": "faisal-al-halabi/faisal-al-halabi-106-muslimcentral.com.mp3",
+    "107": "faisal-al-halabi/faisal-al-halabi-107-muslimcentral.com.mp3",
+    "108": "faisal-al-halabi/faisal-al-halabi-108-muslimcentral.com.mp3",
+    "109": "faisal-al-halabi/faisal-al-halabi-109-muslimcentral.com.mp3",
+    "110": "faisal-al-halabi/faisal-al-halabi-110-muslimcentral.com.mp3",
+    "112": "faisal-al-halabi/faisal-al-halabi-112-muslimcentral.com.mp3",
+    "113": "faisal-al-halabi/faisal-al-halabi-113-muslimcentral.com.mp3",
+    "114": "faisal-al-halabi/faisal-al-halabi-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "39:39",
+      "url": "faisal-al-halabi/faisal-al-halabi-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "24:47",
+      "url": "faisal-al-halabi/faisal-al-halabi-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "14:53",
+      "url": "faisal-al-halabi/faisal-al-halabi-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "29:17",
+      "url": "faisal-al-halabi/faisal-al-halabi-023-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "18:54",
+      "url": "faisal-al-halabi/faisal-al-halabi-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "18:50",
+      "url": "faisal-al-halabi/faisal-al-halabi-035-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "10:33",
+      "url": "faisal-al-halabi/faisal-al-halabi-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "8:03",
+      "url": "faisal-al-halabi/faisal-al-halabi-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:54",
+      "url": "faisal-al-halabi/faisal-al-halabi-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:02",
+      "url": "faisal-al-halabi/faisal-al-halabi-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "7:02",
+      "url": "faisal-al-halabi/faisal-al-halabi-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "10:36",
+      "url": "faisal-al-halabi/faisal-al-halabi-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "11:26",
+      "url": "faisal-al-halabi/faisal-al-halabi-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "11:44",
+      "url": "faisal-al-halabi/faisal-al-halabi-057-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "8:02",
+      "url": "faisal-al-halabi/faisal-al-halabi-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "7:59",
+      "url": "faisal-al-halabi/faisal-al-halabi-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "7:03",
+      "url": "faisal-al-halabi/faisal-al-halabi-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:38",
+      "url": "faisal-al-halabi/faisal-al-halabi-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "4:26",
+      "url": "faisal-al-halabi/faisal-al-halabi-075-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "40",
+      "url": "faisal-al-halabi/faisal-al-halabi-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "55",
+      "url": "faisal-al-halabi/faisal-al-halabi-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "44",
+      "url": "faisal-al-halabi/faisal-al-halabi-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "36",
+      "url": "faisal-al-halabi/faisal-al-halabi-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "31",
+      "url": "faisal-al-halabi/faisal-al-halabi-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "44",
+      "url": "faisal-al-halabi/faisal-al-halabi-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "19",
+      "url": "faisal-al-halabi/faisal-al-halabi-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "44",
+      "url": "faisal-al-halabi/faisal-al-halabi-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "26",
+      "url": "faisal-al-halabi/faisal-al-halabi-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "faisal-al-halabi/faisal-al-halabi-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "27",
+      "url": "faisal-al-halabi/faisal-al-halabi-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "35",
+      "url": "faisal-al-halabi/faisal-al-halabi-114-muslimcentral.com.mp3"
+    }
+  ]
+}

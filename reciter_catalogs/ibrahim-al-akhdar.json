@@ -1,0 +1,799 @@
+{
+  "slug": "ibrahim-al-akhdar",
+  "count": 113,
+  "byNumber": {
+    "001": "ibrahim-al-akhdar/ibrahim-al-akhdar-001.mp3",
+    "002": "ibrahim-al-akhdar/ibrahim-al-akhdar-002.mp3",
+    "003": "ibrahim-al-akhdar/ibrahim-al-akhdar-003.mp3",
+    "004": "ibrahim-al-akhdar/ibrahim-al-akhdar-004.mp3",
+    "005": "ibrahim-al-akhdar/ibrahim-al-akhdar-005.mp3",
+    "006": "ibrahim-al-akhdar/ibrahim-al-akhdar-006.mp3",
+    "007": "ibrahim-al-akhdar/ibrahim-al-akhdar-007.mp3",
+    "008": "ibrahim-al-akhdar/ibrahim-al-akhdar-008.mp3",
+    "009": "ibrahim-al-akhdar/ibrahim-al-akhdar-009.mp3",
+    "010": "ibrahim-al-akhdar/ibrahim-al-akhdar-010.mp3",
+    "011": "ibrahim-al-akhdar/ibrahim-al-akhdar-011.mp3",
+    "012": "ibrahim-al-akhdar/ibrahim-al-akhdar-012.mp3",
+    "013": "ibrahim-al-akhdar/ibrahim-al-akhdar-013.mp3",
+    "014": "ibrahim-al-akhdar/ibrahim-al-akhdar-014.mp3",
+    "015": "ibrahim-al-akhdar/ibrahim-al-akhdar-015.mp3",
+    "016": "ibrahim-al-akhdar/ibrahim-al-akhdar-016.mp3",
+    "017": "ibrahim-al-akhdar/ibrahim-al-akhdar-017.mp3",
+    "018": "ibrahim-al-akhdar/ibrahim-al-akhdar-018.mp3",
+    "019": "ibrahim-al-akhdar/ibrahim-al-akhdar-019.mp3",
+    "020": "ibrahim-al-akhdar/ibrahim-al-akhdar-020.mp3",
+    "021": "ibrahim-al-akhdar/ibrahim-al-akhdar-021.mp3",
+    "022": "ibrahim-al-akhdar/ibrahim-al-akhdar-022.mp3",
+    "023": "ibrahim-al-akhdar/ibrahim-al-akhdar-023.mp3",
+    "024": "ibrahim-al-akhdar/ibrahim-al-akhdar-024.mp3",
+    "025": "ibrahim-al-akhdar/ibrahim-al-akhdar-025.mp3",
+    "026": "ibrahim-al-akhdar/ibrahim-al-akhdar-026.mp3",
+    "027": "ibrahim-al-akhdar/ibrahim-al-akhdar-027.mp3",
+    "028": "ibrahim-al-akhdar/ibrahim-al-akhdar-028.mp3",
+    "029": "ibrahim-al-akhdar/ibrahim-al-akhdar-029.mp3",
+    "030": "ibrahim-al-akhdar/ibrahim-al-akhdar-030.mp3",
+    "031": "ibrahim-al-akhdar/ibrahim-al-akhdar-031.mp3",
+    "032": "ibrahim-al-akhdar/ibrahim-al-akhdar-032.mp3",
+    "033": "ibrahim-al-akhdar/ibrahim-al-akhdar-033.mp3",
+    "034": "ibrahim-al-akhdar/ibrahim-al-akhdar-034.mp3",
+    "035": "ibrahim-al-akhdar/ibrahim-al-akhdar-035.mp3",
+    "036": "ibrahim-al-akhdar/ibrahim-al-akhdar-036.mp3",
+    "037": "ibrahim-al-akhdar/ibrahim-al-akhdar-037.mp3",
+    "038": "ibrahim-al-akhdar/ibrahim-al-akhdar-038.mp3",
+    "039": "ibrahim-al-akhdar/ibrahim-al-akhdar-039.mp3",
+    "040": "ibrahim-al-akhdar/ibrahim-al-akhdar-040.mp3",
+    "041": "ibrahim-al-akhdar/ibrahim-al-akhdar-041.mp3",
+    "042": "ibrahim-al-akhdar/ibrahim-al-akhdar-042.mp3",
+    "043": "ibrahim-al-akhdar/ibrahim-al-akhdar-043.mp3",
+    "044": "ibrahim-al-akhdar/ibrahim-al-akhdar-044.mp3",
+    "045": "ibrahim-al-akhdar/ibrahim-al-akhdar-045.mp3",
+    "046": "ibrahim-al-akhdar/ibrahim-al-akhdar-046.mp3",
+    "047": "ibrahim-al-akhdar/ibrahim-al-akhdar-047.mp3",
+    "049": "ibrahim-al-akhdar/ibrahim-al-akhdar-049.mp3",
+    "050": "ibrahim-al-akhdar/ibrahim-al-akhdar-050.mp3",
+    "051": "ibrahim-al-akhdar/ibrahim-al-akhdar-051.mp3",
+    "052": "ibrahim-al-akhdar/ibrahim-al-akhdar-052.mp3",
+    "053": "ibrahim-al-akhdar/ibrahim-al-akhdar-053.mp3",
+    "054": "ibrahim-al-akhdar/ibrahim-al-akhdar-054.mp3",
+    "055": "ibrahim-al-akhdar/ibrahim-al-akhdar-055.mp3",
+    "056": "ibrahim-al-akhdar/ibrahim-al-akhdar-056.mp3",
+    "057": "ibrahim-al-akhdar/ibrahim-al-akhdar-057.mp3",
+    "058": "ibrahim-al-akhdar/ibrahim-al-akhdar-058.mp3",
+    "059": "ibrahim-al-akhdar/ibrahim-al-akhdar-059.mp3",
+    "060": "ibrahim-al-akhdar/ibrahim-al-akhdar-060.mp3",
+    "061": "ibrahim-al-akhdar/ibrahim-al-akhdar-061.mp3",
+    "062": "ibrahim-al-akhdar/ibrahim-al-akhdar-062.mp3",
+    "063": "ibrahim-al-akhdar/ibrahim-al-akhdar-063.mp3",
+    "064": "ibrahim-al-akhdar/ibrahim-al-akhdar-064.mp3",
+    "065": "ibrahim-al-akhdar/ibrahim-al-akhdar-065.mp3",
+    "066": "ibrahim-al-akhdar/ibrahim-al-akhdar-066.mp3",
+    "067": "ibrahim-al-akhdar/ibrahim-al-akhdar-067.mp3",
+    "068": "ibrahim-al-akhdar/ibrahim-al-akhdar-068.mp3",
+    "069": "ibrahim-al-akhdar/ibrahim-al-akhdar-069.mp3",
+    "070": "ibrahim-al-akhdar/ibrahim-al-akhdar-070.mp3",
+    "071": "ibrahim-al-akhdar/ibrahim-al-akhdar-071.mp3",
+    "072": "ibrahim-al-akhdar/ibrahim-al-akhdar-072.mp3",
+    "073": "ibrahim-al-akhdar/ibrahim-al-akhdar-073.mp3",
+    "074": "ibrahim-al-akhdar/ibrahim-al-akhdar-074.mp3",
+    "075": "ibrahim-al-akhdar/ibrahim-al-akhdar-075.mp3",
+    "076": "ibrahim-al-akhdar/ibrahim-al-akhdar-076.mp3",
+    "077": "ibrahim-al-akhdar/ibrahim-al-akhdar-077.mp3",
+    "078": "ibrahim-al-akhdar/ibrahim-al-akhdar-078.mp3",
+    "079": "ibrahim-al-akhdar/ibrahim-al-akhdar-079.mp3",
+    "080": "ibrahim-al-akhdar/ibrahim-al-akhdar-080.mp3",
+    "081": "ibrahim-al-akhdar/ibrahim-al-akhdar-081.mp3",
+    "082": "ibrahim-al-akhdar/ibrahim-al-akhdar-082.mp3",
+    "083": "ibrahim-al-akhdar/ibrahim-al-akhdar-083.mp3",
+    "084": "ibrahim-al-akhdar/ibrahim-al-akhdar-084.mp3",
+    "085": "ibrahim-al-akhdar/ibrahim-al-akhdar-085.mp3",
+    "086": "ibrahim-al-akhdar/ibrahim-al-akhdar-086.mp3",
+    "087": "ibrahim-al-akhdar/ibrahim-al-akhdar-087.mp3",
+    "088": "ibrahim-al-akhdar/ibrahim-al-akhdar-088.mp3",
+    "089": "ibrahim-al-akhdar/ibrahim-al-akhdar-089.mp3",
+    "090": "ibrahim-al-akhdar/ibrahim-al-akhdar-090.mp3",
+    "091": "ibrahim-al-akhdar/ibrahim-al-akhdar-091.mp3",
+    "092": "ibrahim-al-akhdar/ibrahim-al-akhdar-092.mp3",
+    "093": "ibrahim-al-akhdar/ibrahim-al-akhdar-093.mp3",
+    "094": "ibrahim-al-akhdar/ibrahim-al-akhdar-094.mp3",
+    "095": "ibrahim-al-akhdar/ibrahim-al-akhdar-095.mp3",
+    "096": "ibrahim-al-akhdar/ibrahim-al-akhdar-096.mp3",
+    "097": "ibrahim-al-akhdar/ibrahim-al-akhdar-097.mp3",
+    "098": "ibrahim-al-akhdar/ibrahim-al-akhdar-098.mp3",
+    "099": "ibrahim-al-akhdar/ibrahim-al-akhdar-099.mp3",
+    "100": "ibrahim-al-akhdar/ibrahim-al-akhdar-100.mp3",
+    "101": "ibrahim-al-akhdar/ibrahim-al-akhdar-101.mp3",
+    "102": "ibrahim-al-akhdar/ibrahim-al-akhdar-102.mp3",
+    "103": "ibrahim-al-akhdar/ibrahim-al-akhdar-103.mp3",
+    "104": "ibrahim-al-akhdar/ibrahim-al-akhdar-104.mp3",
+    "105": "ibrahim-al-akhdar/ibrahim-al-akhdar-105.mp3",
+    "106": "ibrahim-al-akhdar/ibrahim-al-akhdar-106.mp3",
+    "107": "ibrahim-al-akhdar/ibrahim-al-akhdar-107.mp3",
+    "108": "ibrahim-al-akhdar/ibrahim-al-akhdar-108.mp3",
+    "109": "ibrahim-al-akhdar/ibrahim-al-akhdar-109.mp3",
+    "110": "ibrahim-al-akhdar/ibrahim-al-akhdar-110.mp3",
+    "111": "ibrahim-al-akhdar/ibrahim-al-akhdar-111.mp3",
+    "112": "ibrahim-al-akhdar/ibrahim-al-akhdar-112.mp3",
+    "113": "ibrahim-al-akhdar/ibrahim-al-akhdar-113.mp3",
+    "114": "ibrahim-al-akhdar/ibrahim-al-akhdar-114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 AlFatiha",
+      "duration": "1:02",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 AlBaqara",
+      "duration": "2:33:44",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 AalEImran",
+      "duration": "1:29:15",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 AnNisa",
+      "duration": "1:28:15",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 AlMaidah",
+      "duration": "1:08:35",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 AlAnaam",
+      "duration": "1:15:51",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 AlAraf",
+      "duration": "1:23:11",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 AlAnfal",
+      "duration": "31:34",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 AtTawba",
+      "duration": "1:01:11",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "44:33",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "47:04",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "45:00",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 ArRad",
+      "duration": "21:19",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "20:50",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 AlHijr",
+      "duration": "18:19",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 AnNahl",
+      "duration": "44:53",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 AlIsra",
+      "duration": "35:46",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 AlKahf",
+      "duration": "37:08",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "22:37",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 TaHa",
+      "duration": "29:42",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 AlAnbiya",
+      "duration": "31:36",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 AlHajj",
+      "duration": "31:18",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 AlMumenoon",
+      "duration": "29:44",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 AnNoor",
+      "duration": "35:01",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 AlFurqan",
+      "duration": "21:06",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 AshShuara",
+      "duration": "38:26",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 AnNaml",
+      "duration": "30:12",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 AlQasas",
+      "duration": "36:18",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 AlAnkaboot",
+      "duration": "25:43",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 ArRoom",
+      "duration": "21:48",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "13:43",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 AsSajda",
+      "duration": "10:02",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 AlAhzab",
+      "duration": "31:56",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "21:23",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "19:56",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 YaSeen",
+      "duration": "20:14",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 AsSaaffat",
+      "duration": "27:26",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "20:51",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 AzZumar",
+      "duration": "29:51",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "30:12",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "20:12",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 AshShura",
+      "duration": "21:11",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 AzZukhruf",
+      "duration": "22:21",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 AdDukhan",
+      "duration": "10:36",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 AlJathiya",
+      "duration": "11:54",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 AlAhqaf",
+      "duration": "15:37",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "13:11",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-047.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 AlHujraat",
+      "duration": "8:59",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "9:18",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 AdhDhariyat",
+      "duration": "9:34",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 AtTur",
+      "duration": "8:35",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 AnNajm",
+      "duration": "8:19",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 AlQamar",
+      "duration": "8:39",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 ArRahman",
+      "duration": "12:09",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 AlWaqia",
+      "duration": "12:27",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 AlHadid",
+      "duration": "22:55",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 AlMujadila",
+      "duration": "12:00",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 AlHashr",
+      "duration": "10:55",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 AlMumtahina",
+      "duration": "9:11",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 AsSaff",
+      "duration": "5:36",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 AlJumua",
+      "duration": "4:16",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 AlMunafiqoon",
+      "duration": "4:45",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 AtTaghabun",
+      "duration": "6:08",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 AtTalaq",
+      "duration": "6:56",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 AtTahrim",
+      "duration": "6:32",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 AlMulk",
+      "duration": "8:11",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 AlQalam",
+      "duration": "8:35",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 AlHaaqqa",
+      "duration": "7:26",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 AlMaarij",
+      "duration": "6:08",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "5:36",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 AlJinn",
+      "duration": "6:39",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 AlMuzzammil",
+      "duration": "4:42",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 AlMuddaththir",
+      "duration": "6:36",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 AlQiyama",
+      "duration": "4:05",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 AlInsan",
+      "duration": "6:12",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 AlMursalat",
+      "duration": "5:44",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 AnNaba",
+      "duration": "4:38",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 AnNaziat",
+      "duration": "4:27",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:55",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 AtTakwir",
+      "duration": "2:52",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 AlInfitar",
+      "duration": "2:20",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 AlMutaffifin",
+      "duration": "5:20",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 AlInshiqaq",
+      "duration": "2:47",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 AlBurooj",
+      "duration": "3:01",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 AtTariq",
+      "duration": "1:38",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 AlAla",
+      "duration": "1:44",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 AlGhashiya",
+      "duration": "2:23",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 AlFajr",
+      "duration": "3:43",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 AlBalad",
+      "duration": "2:02",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 AshShams",
+      "duration": "1:24",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 AlLail",
+      "duration": "1:54",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 AdDhuha",
+      "duration": "1:05",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 AlInshirah",
+      "duration": "41",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 AtTin",
+      "duration": "1:01",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 AlAlaq",
+      "duration": "1:38",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 AlQadr",
+      "duration": "43",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 AlBayyina",
+      "duration": "2:07",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 AzZalzala",
+      "duration": "56",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 AlAdiyat",
+      "duration": "1:05",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 AlQaria",
+      "duration": "1:02",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 AtTakathur",
+      "duration": "54",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 AlAsr",
+      "duration": "24",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 AlHumaza",
+      "duration": "54",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 AlFil",
+      "duration": "44",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "40",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 AlMaun",
+      "duration": "51",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 AlKauther",
+      "duration": "21",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 AlKafiroon",
+      "duration": "51",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 AnNasr",
+      "duration": "31",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 AlMasadd",
+      "duration": "38",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 AlIkhlas",
+      "duration": "20",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 AlFalaq",
+      "duration": "31",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 AnNas",
+      "duration": "45",
+      "url": "ibrahim-al-akhdar/ibrahim-al-akhdar-114.mp3"
+    }
+  ]
+}

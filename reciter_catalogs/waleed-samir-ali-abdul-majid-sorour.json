@@ -1,0 +1,799 @@
+{
+  "slug": "waleed-samir-ali-abdul-majid-sorour",
+  "count": 113,
+  "byNumber": {
+    "001": "waleed-samir-ali-abdul-majid-sorour/001.mp3",
+    "002": "waleed-samir-ali-abdul-majid-sorour/002.mp3",
+    "003": "waleed-samir-ali-abdul-majid-sorour/003.mp3",
+    "004": "waleed-samir-ali-abdul-majid-sorour/004.mp3",
+    "005": "waleed-samir-ali-abdul-majid-sorour/005.mp3",
+    "006": "waleed-samir-ali-abdul-majid-sorour/006.mp3",
+    "007": "waleed-samir-ali-abdul-majid-sorour/007.mp3",
+    "008": "waleed-samir-ali-abdul-majid-sorour/008.mp3",
+    "009": "waleed-samir-ali-abdul-majid-sorour/009.mp3",
+    "010": "waleed-samir-ali-abdul-majid-sorour/010.mp3",
+    "011": "waleed-samir-ali-abdul-majid-sorour/011.mp3",
+    "012": "waleed-samir-ali-abdul-majid-sorour/012.mp3",
+    "013": "waleed-samir-ali-abdul-majid-sorour/013.mp3",
+    "014": "waleed-samir-ali-abdul-majid-sorour/014.mp3",
+    "015": "waleed-samir-ali-abdul-majid-sorour/015.mp3",
+    "016": "waleed-samir-ali-abdul-majid-sorour/016.mp3",
+    "017": "waleed-samir-ali-abdul-majid-sorour/017.mp3",
+    "018": "waleed-samir-ali-abdul-majid-sorour/018.mp3",
+    "019": "waleed-samir-ali-abdul-majid-sorour/019.mp3",
+    "020": "waleed-samir-ali-abdul-majid-sorour/020.mp3",
+    "021": "waleed-samir-ali-abdul-majid-sorour/021.mp3",
+    "022": "waleed-samir-ali-abdul-majid-sorour/022.mp3",
+    "023": "waleed-samir-ali-abdul-majid-sorour/023.mp3",
+    "024": "waleed-samir-ali-abdul-majid-sorour/024.mp3",
+    "025": "waleed-samir-ali-abdul-majid-sorour/025.mp3",
+    "026": "waleed-samir-ali-abdul-majid-sorour/026.mp3",
+    "027": "waleed-samir-ali-abdul-majid-sorour/027.mp3",
+    "028": "waleed-samir-ali-abdul-majid-sorour/028.mp3",
+    "029": "waleed-samir-ali-abdul-majid-sorour/029.mp3",
+    "030": "waleed-samir-ali-abdul-majid-sorour/030.mp3",
+    "031": "waleed-samir-ali-abdul-majid-sorour/031.mp3",
+    "032": "waleed-samir-ali-abdul-majid-sorour/032.mp3",
+    "033": "waleed-samir-ali-abdul-majid-sorour/033.mp3",
+    "034": "waleed-samir-ali-abdul-majid-sorour/034.mp3",
+    "036": "waleed-samir-ali-abdul-majid-sorour/036.mp3",
+    "037": "waleed-samir-ali-abdul-majid-sorour/037.mp3",
+    "038": "waleed-samir-ali-abdul-majid-sorour/038.mp3",
+    "039": "waleed-samir-ali-abdul-majid-sorour/039.mp3",
+    "040": "waleed-samir-ali-abdul-majid-sorour/040.mp3",
+    "041": "waleed-samir-ali-abdul-majid-sorour/041.mp3",
+    "042": "waleed-samir-ali-abdul-majid-sorour/042.mp3",
+    "043": "waleed-samir-ali-abdul-majid-sorour/043.mp3",
+    "044": "waleed-samir-ali-abdul-majid-sorour/044.mp3",
+    "045": "waleed-samir-ali-abdul-majid-sorour/045.mp3",
+    "046": "waleed-samir-ali-abdul-majid-sorour/046.mp3",
+    "047": "waleed-samir-ali-abdul-majid-sorour/047.mp3",
+    "048": "waleed-samir-ali-abdul-majid-sorour/048.mp3",
+    "049": "waleed-samir-ali-abdul-majid-sorour/049.mp3",
+    "050": "waleed-samir-ali-abdul-majid-sorour/050.mp3",
+    "051": "waleed-samir-ali-abdul-majid-sorour/051.mp3",
+    "052": "waleed-samir-ali-abdul-majid-sorour/052.mp3",
+    "053": "waleed-samir-ali-abdul-majid-sorour/053.mp3",
+    "054": "waleed-samir-ali-abdul-majid-sorour/054.mp3",
+    "055": "waleed-samir-ali-abdul-majid-sorour/055.mp3",
+    "056": "waleed-samir-ali-abdul-majid-sorour/056.mp3",
+    "057": "waleed-samir-ali-abdul-majid-sorour/057.mp3",
+    "058": "waleed-samir-ali-abdul-majid-sorour/058.mp3",
+    "059": "waleed-samir-ali-abdul-majid-sorour/059.mp3",
+    "060": "waleed-samir-ali-abdul-majid-sorour/060.mp3",
+    "061": "waleed-samir-ali-abdul-majid-sorour/061.mp3",
+    "062": "waleed-samir-ali-abdul-majid-sorour/062.mp3",
+    "063": "waleed-samir-ali-abdul-majid-sorour/063.mp3",
+    "064": "waleed-samir-ali-abdul-majid-sorour/064.mp3",
+    "065": "waleed-samir-ali-abdul-majid-sorour/065.mp3",
+    "066": "waleed-samir-ali-abdul-majid-sorour/066.mp3",
+    "067": "waleed-samir-ali-abdul-majid-sorour/067.mp3",
+    "068": "waleed-samir-ali-abdul-majid-sorour/068.mp3",
+    "069": "waleed-samir-ali-abdul-majid-sorour/069.mp3",
+    "070": "waleed-samir-ali-abdul-majid-sorour/070.mp3",
+    "071": "waleed-samir-ali-abdul-majid-sorour/071.mp3",
+    "072": "waleed-samir-ali-abdul-majid-sorour/072.mp3",
+    "073": "waleed-samir-ali-abdul-majid-sorour/073.mp3",
+    "074": "waleed-samir-ali-abdul-majid-sorour/074.mp3",
+    "075": "waleed-samir-ali-abdul-majid-sorour/075.mp3",
+    "076": "waleed-samir-ali-abdul-majid-sorour/076.mp3",
+    "077": "waleed-samir-ali-abdul-majid-sorour/077.mp3",
+    "078": "waleed-samir-ali-abdul-majid-sorour/078.mp3",
+    "079": "waleed-samir-ali-abdul-majid-sorour/079.mp3",
+    "080": "waleed-samir-ali-abdul-majid-sorour/080.mp3",
+    "081": "waleed-samir-ali-abdul-majid-sorour/081.mp3",
+    "082": "waleed-samir-ali-abdul-majid-sorour/082.mp3",
+    "083": "waleed-samir-ali-abdul-majid-sorour/083.mp3",
+    "084": "waleed-samir-ali-abdul-majid-sorour/084.mp3",
+    "085": "waleed-samir-ali-abdul-majid-sorour/085.mp3",
+    "086": "waleed-samir-ali-abdul-majid-sorour/086.mp3",
+    "087": "waleed-samir-ali-abdul-majid-sorour/087.mp3",
+    "088": "waleed-samir-ali-abdul-majid-sorour/088.mp3",
+    "089": "waleed-samir-ali-abdul-majid-sorour/089.mp3",
+    "090": "waleed-samir-ali-abdul-majid-sorour/090.mp3",
+    "091": "waleed-samir-ali-abdul-majid-sorour/091.mp3",
+    "092": "waleed-samir-ali-abdul-majid-sorour/092.mp3",
+    "093": "waleed-samir-ali-abdul-majid-sorour/093.mp3",
+    "094": "waleed-samir-ali-abdul-majid-sorour/094.mp3",
+    "095": "waleed-samir-ali-abdul-majid-sorour/095.mp3",
+    "096": "waleed-samir-ali-abdul-majid-sorour/096.mp3",
+    "097": "waleed-samir-ali-abdul-majid-sorour/097.mp3",
+    "098": "waleed-samir-ali-abdul-majid-sorour/098.mp3",
+    "099": "waleed-samir-ali-abdul-majid-sorour/099.mp3",
+    "100": "waleed-samir-ali-abdul-majid-sorour/100.mp3",
+    "101": "waleed-samir-ali-abdul-majid-sorour/101.mp3",
+    "102": "waleed-samir-ali-abdul-majid-sorour/102.mp3",
+    "103": "waleed-samir-ali-abdul-majid-sorour/103.mp3",
+    "104": "waleed-samir-ali-abdul-majid-sorour/104.mp3",
+    "105": "waleed-samir-ali-abdul-majid-sorour/105.mp3",
+    "106": "waleed-samir-ali-abdul-majid-sorour/106.mp3",
+    "107": "waleed-samir-ali-abdul-majid-sorour/107.mp3",
+    "108": "waleed-samir-ali-abdul-majid-sorour/108.mp3",
+    "109": "waleed-samir-ali-abdul-majid-sorour/109.mp3",
+    "110": "waleed-samir-ali-abdul-majid-sorour/110.mp3",
+    "111": "waleed-samir-ali-abdul-majid-sorour/111.mp3",
+    "112": "waleed-samir-ali-abdul-majid-sorour/112.mp3",
+    "113": "waleed-samir-ali-abdul-majid-sorour/113.mp3",
+    "114": "waleed-samir-ali-abdul-majid-sorour/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "46",
+      "url": "waleed-samir-ali-abdul-majid-sorour/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:03:11",
+      "url": "waleed-samir-ali-abdul-majid-sorour/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:14:59",
+      "url": "waleed-samir-ali-abdul-majid-sorour/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:16:24",
+      "url": "waleed-samir-ali-abdul-majid-sorour/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "1:16:24",
+      "url": "waleed-samir-ali-abdul-majid-sorour/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:05:40",
+      "url": "waleed-samir-ali-abdul-majid-sorour/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:11:51",
+      "url": "waleed-samir-ali-abdul-majid-sorour/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "27:57",
+      "url": "waleed-samir-ali-abdul-majid-sorour/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "52:48",
+      "url": "waleed-samir-ali-abdul-majid-sorour/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "40:26",
+      "url": "waleed-samir-ali-abdul-majid-sorour/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "41:25",
+      "url": "waleed-samir-ali-abdul-majid-sorour/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "35:05",
+      "url": "waleed-samir-ali-abdul-majid-sorour/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "18:45",
+      "url": "waleed-samir-ali-abdul-majid-sorour/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "18:04",
+      "url": "waleed-samir-ali-abdul-majid-sorour/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "14:19",
+      "url": "waleed-samir-ali-abdul-majid-sorour/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "35:47",
+      "url": "waleed-samir-ali-abdul-majid-sorour/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "31:42",
+      "url": "waleed-samir-ali-abdul-majid-sorour/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "29:53",
+      "url": "waleed-samir-ali-abdul-majid-sorour/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:50",
+      "url": "waleed-samir-ali-abdul-majid-sorour/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "24:53",
+      "url": "waleed-samir-ali-abdul-majid-sorour/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "22:16",
+      "url": "waleed-samir-ali-abdul-majid-sorour/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "23:22",
+      "url": "waleed-samir-ali-abdul-majid-sorour/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "21:18",
+      "url": "waleed-samir-ali-abdul-majid-sorour/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "26:41",
+      "url": "waleed-samir-ali-abdul-majid-sorour/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "17:35",
+      "url": "waleed-samir-ali-abdul-majid-sorour/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "27:26",
+      "url": "waleed-samir-ali-abdul-majid-sorour/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "22:48",
+      "url": "waleed-samir-ali-abdul-majid-sorour/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "25:51",
+      "url": "waleed-samir-ali-abdul-majid-sorour/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "18:06",
+      "url": "waleed-samir-ali-abdul-majid-sorour/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "15:12",
+      "url": "waleed-samir-ali-abdul-majid-sorour/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "10:10",
+      "url": "waleed-samir-ali-abdul-majid-sorour/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:28",
+      "url": "waleed-samir-ali-abdul-majid-sorour/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "28:01",
+      "url": "waleed-samir-ali-abdul-majid-sorour/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "19:04",
+      "url": "waleed-samir-ali-abdul-majid-sorour/034.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "14:34",
+      "url": "waleed-samir-ali-abdul-majid-sorour/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "17:26",
+      "url": "waleed-samir-ali-abdul-majid-sorour/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "13:00",
+      "url": "waleed-samir-ali-abdul-majid-sorour/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "20:29",
+      "url": "waleed-samir-ali-abdul-majid-sorour/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "21:59",
+      "url": "waleed-samir-ali-abdul-majid-sorour/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "14:47",
+      "url": "waleed-samir-ali-abdul-majid-sorour/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "16:33",
+      "url": "waleed-samir-ali-abdul-majid-sorour/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "17:58",
+      "url": "waleed-samir-ali-abdul-majid-sorour/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:47",
+      "url": "waleed-samir-ali-abdul-majid-sorour/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "9:29",
+      "url": "waleed-samir-ali-abdul-majid-sorour/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "11:35",
+      "url": "waleed-samir-ali-abdul-majid-sorour/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "11:03",
+      "url": "waleed-samir-ali-abdul-majid-sorour/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:43",
+      "url": "waleed-samir-ali-abdul-majid-sorour/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:27",
+      "url": "waleed-samir-ali-abdul-majid-sorour/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:19",
+      "url": "waleed-samir-ali-abdul-majid-sorour/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:54",
+      "url": "waleed-samir-ali-abdul-majid-sorour/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:42",
+      "url": "waleed-samir-ali-abdul-majid-sorour/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:17",
+      "url": "waleed-samir-ali-abdul-majid-sorour/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:56",
+      "url": "waleed-samir-ali-abdul-majid-sorour/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:02",
+      "url": "waleed-samir-ali-abdul-majid-sorour/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "8:46",
+      "url": "waleed-samir-ali-abdul-majid-sorour/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "10:43",
+      "url": "waleed-samir-ali-abdul-majid-sorour/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "8:22",
+      "url": "waleed-samir-ali-abdul-majid-sorour/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:00",
+      "url": "waleed-samir-ali-abdul-majid-sorour/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "7:33",
+      "url": "waleed-samir-ali-abdul-majid-sorour/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:19",
+      "url": "waleed-samir-ali-abdul-majid-sorour/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:24",
+      "url": "waleed-samir-ali-abdul-majid-sorour/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:44",
+      "url": "waleed-samir-ali-abdul-majid-sorour/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "5:10",
+      "url": "waleed-samir-ali-abdul-majid-sorour/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "6:15",
+      "url": "waleed-samir-ali-abdul-majid-sorour/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "6:04",
+      "url": "waleed-samir-ali-abdul-majid-sorour/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:58",
+      "url": "waleed-samir-ali-abdul-majid-sorour/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "5:53",
+      "url": "waleed-samir-ali-abdul-majid-sorour/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:33",
+      "url": "waleed-samir-ali-abdul-majid-sorour/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:15",
+      "url": "waleed-samir-ali-abdul-majid-sorour/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:06",
+      "url": "waleed-samir-ali-abdul-majid-sorour/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:03",
+      "url": "waleed-samir-ali-abdul-majid-sorour/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:50",
+      "url": "waleed-samir-ali-abdul-majid-sorour/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:30",
+      "url": "waleed-samir-ali-abdul-majid-sorour/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:38",
+      "url": "waleed-samir-ali-abdul-majid-sorour/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:25",
+      "url": "waleed-samir-ali-abdul-majid-sorour/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:21",
+      "url": "waleed-samir-ali-abdul-majid-sorour/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:06",
+      "url": "waleed-samir-ali-abdul-majid-sorour/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:43",
+      "url": "waleed-samir-ali-abdul-majid-sorour/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:20",
+      "url": "waleed-samir-ali-abdul-majid-sorour/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:15",
+      "url": "waleed-samir-ali-abdul-majid-sorour/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:44",
+      "url": "waleed-samir-ali-abdul-majid-sorour/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:38",
+      "url": "waleed-samir-ali-abdul-majid-sorour/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:19",
+      "url": "waleed-samir-ali-abdul-majid-sorour/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:03",
+      "url": "waleed-samir-ali-abdul-majid-sorour/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:20",
+      "url": "waleed-samir-ali-abdul-majid-sorour/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:23",
+      "url": "waleed-samir-ali-abdul-majid-sorour/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:50",
+      "url": "waleed-samir-ali-abdul-majid-sorour/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:49",
+      "url": "waleed-samir-ali-abdul-majid-sorour/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:37",
+      "url": "waleed-samir-ali-abdul-majid-sorour/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:14",
+      "url": "waleed-samir-ali-abdul-majid-sorour/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:33",
+      "url": "waleed-samir-ali-abdul-majid-sorour/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "50",
+      "url": "waleed-samir-ali-abdul-majid-sorour/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "32",
+      "url": "waleed-samir-ali-abdul-majid-sorour/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "40",
+      "url": "waleed-samir-ali-abdul-majid-sorour/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:18",
+      "url": "waleed-samir-ali-abdul-majid-sorour/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "34",
+      "url": "waleed-samir-ali-abdul-majid-sorour/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:42",
+      "url": "waleed-samir-ali-abdul-majid-sorour/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "49",
+      "url": "waleed-samir-ali-abdul-majid-sorour/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "50",
+      "url": "waleed-samir-ali-abdul-majid-sorour/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "47",
+      "url": "waleed-samir-ali-abdul-majid-sorour/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "41",
+      "url": "waleed-samir-ali-abdul-majid-sorour/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "18",
+      "url": "waleed-samir-ali-abdul-majid-sorour/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "42",
+      "url": "waleed-samir-ali-abdul-majid-sorour/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "28",
+      "url": "waleed-samir-ali-abdul-majid-sorour/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "28",
+      "url": "waleed-samir-ali-abdul-majid-sorour/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "34",
+      "url": "waleed-samir-ali-abdul-majid-sorour/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "17",
+      "url": "waleed-samir-ali-abdul-majid-sorour/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "46",
+      "url": "waleed-samir-ali-abdul-majid-sorour/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "24",
+      "url": "waleed-samir-ali-abdul-majid-sorour/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "31",
+      "url": "waleed-samir-ali-abdul-majid-sorour/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "16",
+      "url": "waleed-samir-ali-abdul-majid-sorour/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "29",
+      "url": "waleed-samir-ali-abdul-majid-sorour/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "38",
+      "url": "waleed-samir-ali-abdul-majid-sorour/114.mp3"
+    }
+  ]
+}

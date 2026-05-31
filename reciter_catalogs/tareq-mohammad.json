@@ -1,0 +1,470 @@
+{
+  "slug": "tareq-mohammad",
+  "count": 66,
+  "byNumber": {
+    "001": "tareq-mohammad/001.mp3",
+    "002": "tareq-mohammad/002.mp3",
+    "005": "tareq-mohammad/005.mp3",
+    "006": "tareq-mohammad/006.mp3",
+    "011": "tareq-mohammad/011.mp3",
+    "012": "tareq-mohammad/012.mp3",
+    "013": "tareq-mohammad/013.mp3",
+    "014": "tareq-mohammad/014.mp3",
+    "015": "tareq-mohammad/015.mp3",
+    "016": "tareq-mohammad/016.mp3",
+    "017": "tareq-mohammad/017.mp3",
+    "018": "tareq-mohammad/018.mp3",
+    "019": "tareq-mohammad/019.mp3",
+    "020": "tareq-mohammad/020.mp3",
+    "021": "tareq-mohammad/021.mp3",
+    "022": "tareq-mohammad/022.mp3",
+    "023": "tareq-mohammad/023.mp3",
+    "025": "tareq-mohammad/025.mp3",
+    "026": "tareq-mohammad/026.mp3",
+    "027": "tareq-mohammad/027.mp3",
+    "029": "tareq-mohammad/029.mp3",
+    "031": "tareq-mohammad/031.mp3",
+    "032": "tareq-mohammad/032.mp3",
+    "033": "tareq-mohammad/033.mp3",
+    "035": "tareq-mohammad/035.mp3",
+    "036": "tareq-mohammad/036.mp3",
+    "038": "tareq-mohammad/038.mp3",
+    "039": "tareq-mohammad/039.mp3",
+    "041": "tareq-mohammad/041.mp3",
+    "042": "tareq-mohammad/042.mp3",
+    "044": "tareq-mohammad/044.mp3",
+    "045": "tareq-mohammad/045.mp3",
+    "046": "tareq-mohammad/046.mp3",
+    "047": "tareq-mohammad/047.mp3",
+    "049": "tareq-mohammad/049.mp3",
+    "050": "tareq-mohammad/050.mp3",
+    "051": "tareq-mohammad/051.mp3",
+    "052": "tareq-mohammad/052.mp3",
+    "053": "tareq-mohammad/053.mp3",
+    "055": "tareq-mohammad/055.mp3",
+    "056": "tareq-mohammad/056.mp3",
+    "057": "tareq-mohammad/057.mp3",
+    "058": "tareq-mohammad/058.mp3",
+    "059": "tareq-mohammad/059.mp3",
+    "060": "tareq-mohammad/060.mp3",
+    "061": "tareq-mohammad/061.mp3",
+    "062": "tareq-mohammad/062.mp3",
+    "063": "tareq-mohammad/063.mp3",
+    "064": "tareq-mohammad/064.mp3",
+    "067": "tareq-mohammad/067.mp3",
+    "068": "tareq-mohammad/068.mp3",
+    "070": "tareq-mohammad/070.mp3",
+    "071": "tareq-mohammad/071.mp3",
+    "072": "tareq-mohammad/072.mp3",
+    "073": "tareq-mohammad/073.mp3",
+    "075": "tareq-mohammad/075.mp3",
+    "076": "tareq-mohammad/076.mp3",
+    "078": "tareq-mohammad/078.mp3",
+    "079": "tareq-mohammad/079.mp3",
+    "080": "tareq-mohammad/080.mp3",
+    "081": "tareq-mohammad/081.mp3",
+    "082": "tareq-mohammad/082.mp3",
+    "083": "tareq-mohammad/083.mp3",
+    "084": "tareq-mohammad/084.mp3",
+    "085": "tareq-mohammad/085.mp3",
+    "086": "tareq-mohammad/086.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "56",
+      "url": "tareq-mohammad/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "3:02",
+      "url": "tareq-mohammad/002.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "3:59",
+      "url": "tareq-mohammad/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "3:27",
+      "url": "tareq-mohammad/006.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "8:51",
+      "url": "tareq-mohammad/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "48:38",
+      "url": "tareq-mohammad/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "20:26",
+      "url": "tareq-mohammad/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "20:52",
+      "url": "tareq-mohammad/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "17:10",
+      "url": "tareq-mohammad/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "9:11",
+      "url": "tareq-mohammad/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "3:09",
+      "url": "tareq-mohammad/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "35:27",
+      "url": "tareq-mohammad/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:59",
+      "url": "tareq-mohammad/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "28:18",
+      "url": "tareq-mohammad/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "27:05",
+      "url": "tareq-mohammad/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "3:12",
+      "url": "tareq-mohammad/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "25:15",
+      "url": "tareq-mohammad/023.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "19:01",
+      "url": "tareq-mohammad/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "33:37",
+      "url": "tareq-mohammad/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "28:17",
+      "url": "tareq-mohammad/027.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "23:17",
+      "url": "tareq-mohammad/029.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "12:32",
+      "url": "tareq-mohammad/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "10:48",
+      "url": "tareq-mohammad/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "3:55",
+      "url": "tareq-mohammad/033.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "19:39",
+      "url": "tareq-mohammad/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "18:03",
+      "url": "tareq-mohammad/036.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "17:04",
+      "url": "tareq-mohammad/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "1:48",
+      "url": "tareq-mohammad/039.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "20:27",
+      "url": "tareq-mohammad/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "19:10",
+      "url": "tareq-mohammad/042.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "8:39",
+      "url": "tareq-mohammad/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "12:42",
+      "url": "tareq-mohammad/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "11:06",
+      "url": "tareq-mohammad/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "14:13",
+      "url": "tareq-mohammad/047.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "8:50",
+      "url": "tareq-mohammad/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "11:06",
+      "url": "tareq-mohammad/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "8:57",
+      "url": "tareq-mohammad/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "7:25",
+      "url": "tareq-mohammad/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "8:19",
+      "url": "tareq-mohammad/053.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "13:09",
+      "url": "tareq-mohammad/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "12:37",
+      "url": "tareq-mohammad/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "3:48",
+      "url": "tareq-mohammad/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "11:19",
+      "url": "tareq-mohammad/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "10:42",
+      "url": "tareq-mohammad/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "8:17",
+      "url": "tareq-mohammad/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "5:33",
+      "url": "tareq-mohammad/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "4:30",
+      "url": "tareq-mohammad/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:53",
+      "url": "tareq-mohammad/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "5:54",
+      "url": "tareq-mohammad/064.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "8:51",
+      "url": "tareq-mohammad/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "7:59",
+      "url": "tareq-mohammad/068.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:24",
+      "url": "tareq-mohammad/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "5:52",
+      "url": "tareq-mohammad/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "6:31",
+      "url": "tareq-mohammad/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:44",
+      "url": "tareq-mohammad/073.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "4:40",
+      "url": "tareq-mohammad/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "7:23",
+      "url": "tareq-mohammad/076.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "5:42",
+      "url": "tareq-mohammad/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:48",
+      "url": "tareq-mohammad/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "4:13",
+      "url": "tareq-mohammad/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:50",
+      "url": "tareq-mohammad/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "2:24",
+      "url": "tareq-mohammad/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "6:17",
+      "url": "tareq-mohammad/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:33",
+      "url": "tareq-mohammad/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:46",
+      "url": "tareq-mohammad/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "2:04",
+      "url": "tareq-mohammad/086.mp3"
+    }
+  ]
+}

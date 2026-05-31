@@ -1,0 +1,260 @@
+{
+  "slug": "salah-al-najjar-al-iskandari",
+  "count": 36,
+  "byNumber": {
+    "001": "salah-al-najjar-al-iskandari/001.mp3",
+    "002": "salah-al-najjar-al-iskandari/002.mp3",
+    "003": "salah-al-najjar-al-iskandari/003.mp3",
+    "004": "salah-al-najjar-al-iskandari/004.mp3",
+    "005": "salah-al-najjar-al-iskandari/005.mp3",
+    "006": "salah-al-najjar-al-iskandari/006.mp3",
+    "007": "salah-al-najjar-al-iskandari/007.mp3",
+    "008": "salah-al-najjar-al-iskandari/008.mp3",
+    "009": "salah-al-najjar-al-iskandari/009.mp3",
+    "010": "salah-al-najjar-al-iskandari/010.mp3",
+    "011": "salah-al-najjar-al-iskandari/011.mp3",
+    "012": "salah-al-najjar-al-iskandari/012.mp3",
+    "013": "salah-al-najjar-al-iskandari/013.mp3",
+    "014": "salah-al-najjar-al-iskandari/014.mp3",
+    "015": "salah-al-najjar-al-iskandari/015.mp3",
+    "016": "salah-al-najjar-al-iskandari/016.mp3",
+    "017": "salah-al-najjar-al-iskandari/017.mp3",
+    "018": "salah-al-najjar-al-iskandari/018.mp3",
+    "019": "salah-al-najjar-al-iskandari/019.mp3",
+    "020": "salah-al-najjar-al-iskandari/020.mp3",
+    "021": "salah-al-najjar-al-iskandari/021.mp3",
+    "022": "salah-al-najjar-al-iskandari/022.mp3",
+    "025": "salah-al-najjar-al-iskandari/025.mp3",
+    "026": "salah-al-najjar-al-iskandari/026.mp3",
+    "027": "salah-al-najjar-al-iskandari/027.mp3",
+    "029": "salah-al-najjar-al-iskandari/029.mp3",
+    "030": "salah-al-najjar-al-iskandari/030.mp3",
+    "031": "salah-al-najjar-al-iskandari/031.mp3",
+    "032": "salah-al-najjar-al-iskandari/032.mp3",
+    "033": "salah-al-najjar-al-iskandari/033.mp3",
+    "034": "salah-al-najjar-al-iskandari/034.mp3",
+    "035": "salah-al-najjar-al-iskandari/035.mp3",
+    "036": "salah-al-najjar-al-iskandari/036.mp3",
+    "037": "salah-al-najjar-al-iskandari/037.mp3",
+    "038": "salah-al-najjar-al-iskandari/038.mp3",
+    "039": "salah-al-najjar-al-iskandari/039.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "56",
+      "url": "salah-al-najjar-al-iskandari/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:14:42",
+      "url": "salah-al-najjar-al-iskandari/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:21:46",
+      "url": "salah-al-najjar-al-iskandari/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:24:17",
+      "url": "salah-al-najjar-al-iskandari/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "1:00:27",
+      "url": "salah-al-najjar-al-iskandari/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:00:20",
+      "url": "salah-al-najjar-al-iskandari/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:07:42",
+      "url": "salah-al-najjar-al-iskandari/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "28:10",
+      "url": "salah-al-najjar-al-iskandari/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "47:51",
+      "url": "salah-al-najjar-al-iskandari/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "39:34",
+      "url": "salah-al-najjar-al-iskandari/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "36:07",
+      "url": "salah-al-najjar-al-iskandari/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "39:52",
+      "url": "salah-al-najjar-al-iskandari/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "17:35",
+      "url": "salah-al-najjar-al-iskandari/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "16:37",
+      "url": "salah-al-najjar-al-iskandari/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "14:16",
+      "url": "salah-al-najjar-al-iskandari/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "41:27",
+      "url": "salah-al-najjar-al-iskandari/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "35:42",
+      "url": "salah-al-najjar-al-iskandari/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "36:53",
+      "url": "salah-al-najjar-al-iskandari/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "21:58",
+      "url": "salah-al-najjar-al-iskandari/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "28:11",
+      "url": "salah-al-najjar-al-iskandari/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "28:23",
+      "url": "salah-al-najjar-al-iskandari/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "30:04",
+      "url": "salah-al-najjar-al-iskandari/022.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "21:12",
+      "url": "salah-al-najjar-al-iskandari/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "29:53",
+      "url": "salah-al-najjar-al-iskandari/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "27:23",
+      "url": "salah-al-najjar-al-iskandari/027.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "23:22",
+      "url": "salah-al-najjar-al-iskandari/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "21:21",
+      "url": "salah-al-najjar-al-iskandari/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "13:33",
+      "url": "salah-al-najjar-al-iskandari/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "9:11",
+      "url": "salah-al-najjar-al-iskandari/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "30:18",
+      "url": "salah-al-najjar-al-iskandari/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "17:48",
+      "url": "salah-al-najjar-al-iskandari/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "17:59",
+      "url": "salah-al-najjar-al-iskandari/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "17:10",
+      "url": "salah-al-najjar-al-iskandari/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "23:02",
+      "url": "salah-al-najjar-al-iskandari/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "18:16",
+      "url": "salah-al-najjar-al-iskandari/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "30:33",
+      "url": "salah-al-najjar-al-iskandari/039.mp3"
+    }
+  ]
+}

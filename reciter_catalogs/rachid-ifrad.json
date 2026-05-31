@@ -1,0 +1,106 @@
+{
+  "slug": "rachid-ifrad",
+  "count": 14,
+  "byNumber": {
+    "001": "rachid-ifrad/rachid-ifrad-001-muslimcentral.com.mp3",
+    "018": "rachid-ifrad/rachid-ifrad-018-muslimcentral.com.mp3",
+    "025": "rachid-ifrad/rachid-ifrad-025-muslimcentral.com.mp3",
+    "026": "rachid-ifrad/rachid-ifrad-026-muslimcentral.com.mp3",
+    "027": "rachid-ifrad/rachid-ifrad-027-muslimcentral.com.mp3",
+    "029": "rachid-ifrad/rachid-ifrad-029-muslimcentral.com.mp3",
+    "031": "rachid-ifrad/rachid-ifrad-031-muslimcentral.com.mp3",
+    "033": "rachid-ifrad/rachid-ifrad-033-muslimcentral.com.mp3",
+    "035": "rachid-ifrad/rachid-ifrad-035-muslimcentral.com.mp3",
+    "037": "rachid-ifrad/rachid-ifrad-037-muslimcentral.com.mp3",
+    "038": "rachid-ifrad/rachid-ifrad-038-muslimcentral.com.mp3",
+    "041": "rachid-ifrad/rachid-ifrad-041-muslimcentral.com.mp3",
+    "042": "rachid-ifrad/rachid-ifrad-042-muslimcentral.com.mp3",
+    "071": "rachid-ifrad/rachid-ifrad-071-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "1:03",
+      "url": "rachid-ifrad/rachid-ifrad-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "53:54",
+      "url": "rachid-ifrad/rachid-ifrad-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "33:16",
+      "url": "rachid-ifrad/rachid-ifrad-025-muslimcentral.com.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "41:36",
+      "url": "rachid-ifrad/rachid-ifrad-026-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "39:00",
+      "url": "rachid-ifrad/rachid-ifrad-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "32:25",
+      "url": "rachid-ifrad/rachid-ifrad-029-muslimcentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "16:34",
+      "url": "rachid-ifrad/rachid-ifrad-031-muslimcentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "46:12",
+      "url": "rachid-ifrad/rachid-ifrad-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "25:20",
+      "url": "rachid-ifrad/rachid-ifrad-035-muslimcentral.com.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "30:12",
+      "url": "rachid-ifrad/rachid-ifrad-037-muslimcentral.com.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "24:29",
+      "url": "rachid-ifrad/rachid-ifrad-038-muslimcentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "29:21",
+      "url": "rachid-ifrad/rachid-ifrad-041-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "28:34",
+      "url": "rachid-ifrad/rachid-ifrad-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "7:53",
+      "url": "rachid-ifrad/rachid-ifrad-071-muslimcentral.com.mp3"
+    }
+  ]
+}

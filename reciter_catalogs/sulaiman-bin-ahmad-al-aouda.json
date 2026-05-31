@@ -1,0 +1,29 @@
+{
+  "slug": "sulaiman-bin-ahmad-al-aouda",
+  "count": 3,
+  "byNumber": {
+    "007": "sulaiman-bin-ahmad-al-aouda/007.mp3",
+    "029": "sulaiman-bin-ahmad-al-aouda/029.mp3",
+    "033": "sulaiman-bin-ahmad-al-aouda/033.mp3"
+  },
+  "list": [
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "55:39",
+      "url": "sulaiman-bin-ahmad-al-aouda/007.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "15:24",
+      "url": "sulaiman-bin-ahmad-al-aouda/029.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "20:53",
+      "url": "sulaiman-bin-ahmad-al-aouda/033.mp3"
+    }
+  ]
+}

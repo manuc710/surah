@@ -1,0 +1,71 @@
+{
+  "slug": "omar-hassan-saleh",
+  "count": 9,
+  "byNumber": {
+    "067": "omar-hassan-saleh/067.mp3",
+    "078": "omar-hassan-saleh/078.mp3",
+    "079": "omar-hassan-saleh/079.mp3",
+    "080": "omar-hassan-saleh/080.mp3",
+    "081": "omar-hassan-saleh/081.mp3",
+    "082": "omar-hassan-saleh/082.mp3",
+    "083": "omar-hassan-saleh/083.mp3",
+    "084": "omar-hassan-saleh/084.mp3",
+    "085": "omar-hassan-saleh/085.mp3"
+  },
+  "list": [
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:05",
+      "url": "omar-hassan-saleh/067.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:33",
+      "url": "omar-hassan-saleh/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:52",
+      "url": "omar-hassan-saleh/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:14",
+      "url": "omar-hassan-saleh/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:15",
+      "url": "omar-hassan-saleh/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:49",
+      "url": "omar-hassan-saleh/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:48",
+      "url": "omar-hassan-saleh/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:26",
+      "url": "omar-hassan-saleh/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:13",
+      "url": "omar-hassan-saleh/085.mp3"
+    }
+  ]
+}

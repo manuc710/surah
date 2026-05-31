@@ -1,0 +1,743 @@
+{
+  "slug": "lotfi-ibrahim-ahmed",
+  "count": 105,
+  "byNumber": {
+    "001": "lotfi-ibrahim-ahmed/001.mp3",
+    "002": "lotfi-ibrahim-ahmed/002.mp3",
+    "003": "lotfi-ibrahim-ahmed/003.mp3",
+    "004": "lotfi-ibrahim-ahmed/004.mp3",
+    "005": "lotfi-ibrahim-ahmed/005.mp3",
+    "006": "lotfi-ibrahim-ahmed/006.mp3",
+    "007": "lotfi-ibrahim-ahmed/007.mp3",
+    "008": "lotfi-ibrahim-ahmed/008.mp3",
+    "009": "lotfi-ibrahim-ahmed/009.mp3",
+    "010": "lotfi-ibrahim-ahmed/010.mp3",
+    "011": "lotfi-ibrahim-ahmed/011.mp3",
+    "012": "lotfi-ibrahim-ahmed/012.mp3",
+    "013": "lotfi-ibrahim-ahmed/013.mp3",
+    "014": "lotfi-ibrahim-ahmed/014.mp3",
+    "015": "lotfi-ibrahim-ahmed/015.mp3",
+    "017": "lotfi-ibrahim-ahmed/017.mp3",
+    "018": "lotfi-ibrahim-ahmed/018.mp3",
+    "019": "lotfi-ibrahim-ahmed/019.mp3",
+    "020": "lotfi-ibrahim-ahmed/020.mp3",
+    "022": "lotfi-ibrahim-ahmed/022.mp3",
+    "025": "lotfi-ibrahim-ahmed/025.mp3",
+    "026": "lotfi-ibrahim-ahmed/026.mp3",
+    "027": "lotfi-ibrahim-ahmed/027.mp3",
+    "028": "lotfi-ibrahim-ahmed/028.mp3",
+    "029": "lotfi-ibrahim-ahmed/029.mp3",
+    "030": "lotfi-ibrahim-ahmed/030.mp3",
+    "031": "lotfi-ibrahim-ahmed/031.mp3",
+    "033": "lotfi-ibrahim-ahmed/033.mp3",
+    "034": "lotfi-ibrahim-ahmed/034.mp3",
+    "035": "lotfi-ibrahim-ahmed/035.mp3",
+    "036": "lotfi-ibrahim-ahmed/036.mp3",
+    "038": "lotfi-ibrahim-ahmed/038.mp3",
+    "039": "lotfi-ibrahim-ahmed/039.mp3",
+    "040": "lotfi-ibrahim-ahmed/040.mp3",
+    "041": "lotfi-ibrahim-ahmed/041.mp3",
+    "042": "lotfi-ibrahim-ahmed/042.mp3",
+    "043": "lotfi-ibrahim-ahmed/043.mp3",
+    "044": "lotfi-ibrahim-ahmed/044.mp3",
+    "045": "lotfi-ibrahim-ahmed/045.mp3",
+    "046": "lotfi-ibrahim-ahmed/046.mp3",
+    "047": "lotfi-ibrahim-ahmed/047.mp3",
+    "048": "lotfi-ibrahim-ahmed/048.mp3",
+    "049": "lotfi-ibrahim-ahmed/049.mp3",
+    "050": "lotfi-ibrahim-ahmed/050.mp3",
+    "052": "lotfi-ibrahim-ahmed/052.mp3",
+    "053": "lotfi-ibrahim-ahmed/053.mp3",
+    "054": "lotfi-ibrahim-ahmed/054.mp3",
+    "055": "lotfi-ibrahim-ahmed/055.mp3",
+    "056": "lotfi-ibrahim-ahmed/056.mp3",
+    "057": "lotfi-ibrahim-ahmed/057.mp3",
+    "058": "lotfi-ibrahim-ahmed/058.mp3",
+    "059": "lotfi-ibrahim-ahmed/059.mp3",
+    "060": "lotfi-ibrahim-ahmed/060.mp3",
+    "061": "lotfi-ibrahim-ahmed/061.mp3",
+    "062": "lotfi-ibrahim-ahmed/062.mp3",
+    "063": "lotfi-ibrahim-ahmed/063.mp3",
+    "064": "lotfi-ibrahim-ahmed/064.mp3",
+    "065": "lotfi-ibrahim-ahmed/065.mp3",
+    "066": "lotfi-ibrahim-ahmed/066.mp3",
+    "067": "lotfi-ibrahim-ahmed/067.mp3",
+    "068": "lotfi-ibrahim-ahmed/068.mp3",
+    "069": "lotfi-ibrahim-ahmed/069.mp3",
+    "070": "lotfi-ibrahim-ahmed/070.mp3",
+    "071": "lotfi-ibrahim-ahmed/071.mp3",
+    "072": "lotfi-ibrahim-ahmed/072.mp3",
+    "073": "lotfi-ibrahim-ahmed/073.mp3",
+    "074": "lotfi-ibrahim-ahmed/074.mp3",
+    "075": "lotfi-ibrahim-ahmed/075.mp3",
+    "077": "lotfi-ibrahim-ahmed/077.mp3",
+    "078": "lotfi-ibrahim-ahmed/078.mp3",
+    "079": "lotfi-ibrahim-ahmed/079.mp3",
+    "080": "lotfi-ibrahim-ahmed/080.mp3",
+    "081": "lotfi-ibrahim-ahmed/081.mp3",
+    "082": "lotfi-ibrahim-ahmed/082.mp3",
+    "084": "lotfi-ibrahim-ahmed/084.mp3",
+    "085": "lotfi-ibrahim-ahmed/085.mp3",
+    "086": "lotfi-ibrahim-ahmed/086.mp3",
+    "087": "lotfi-ibrahim-ahmed/087.mp3",
+    "088": "lotfi-ibrahim-ahmed/088.mp3",
+    "089": "lotfi-ibrahim-ahmed/089.mp3",
+    "090": "lotfi-ibrahim-ahmed/090.mp3",
+    "091": "lotfi-ibrahim-ahmed/091.mp3",
+    "092": "lotfi-ibrahim-ahmed/092.mp3",
+    "093": "lotfi-ibrahim-ahmed/093.mp3",
+    "094": "lotfi-ibrahim-ahmed/094.mp3",
+    "095": "lotfi-ibrahim-ahmed/095.mp3",
+    "096": "lotfi-ibrahim-ahmed/096.mp3",
+    "097": "lotfi-ibrahim-ahmed/097.mp3",
+    "098": "lotfi-ibrahim-ahmed/098.mp3",
+    "099": "lotfi-ibrahim-ahmed/099.mp3",
+    "100": "lotfi-ibrahim-ahmed/100.mp3",
+    "101": "lotfi-ibrahim-ahmed/101.mp3",
+    "102": "lotfi-ibrahim-ahmed/102.mp3",
+    "103": "lotfi-ibrahim-ahmed/103.mp3",
+    "104": "lotfi-ibrahim-ahmed/104.mp3",
+    "105": "lotfi-ibrahim-ahmed/105.mp3",
+    "106": "lotfi-ibrahim-ahmed/106.mp3",
+    "107": "lotfi-ibrahim-ahmed/107.mp3",
+    "108": "lotfi-ibrahim-ahmed/108.mp3",
+    "109": "lotfi-ibrahim-ahmed/109.mp3",
+    "110": "lotfi-ibrahim-ahmed/110.mp3",
+    "111": "lotfi-ibrahim-ahmed/111.mp3",
+    "112": "lotfi-ibrahim-ahmed/112.mp3",
+    "113": "lotfi-ibrahim-ahmed/113.mp3",
+    "114": "lotfi-ibrahim-ahmed/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "44",
+      "url": "lotfi-ibrahim-ahmed/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "1:58:44",
+      "url": "lotfi-ibrahim-ahmed/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:11:08",
+      "url": "lotfi-ibrahim-ahmed/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:18:53",
+      "url": "lotfi-ibrahim-ahmed/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "1:02:35",
+      "url": "lotfi-ibrahim-ahmed/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:04:50",
+      "url": "lotfi-ibrahim-ahmed/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:12:50",
+      "url": "lotfi-ibrahim-ahmed/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "24:48",
+      "url": "lotfi-ibrahim-ahmed/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "49:25",
+      "url": "lotfi-ibrahim-ahmed/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "38:13",
+      "url": "lotfi-ibrahim-ahmed/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "38:16",
+      "url": "lotfi-ibrahim-ahmed/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "34:59",
+      "url": "lotfi-ibrahim-ahmed/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "16:22",
+      "url": "lotfi-ibrahim-ahmed/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "16:53",
+      "url": "lotfi-ibrahim-ahmed/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "12:18",
+      "url": "lotfi-ibrahim-ahmed/015.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "31:01",
+      "url": "lotfi-ibrahim-ahmed/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "30:16",
+      "url": "lotfi-ibrahim-ahmed/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "18:02",
+      "url": "lotfi-ibrahim-ahmed/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "27:01",
+      "url": "lotfi-ibrahim-ahmed/020.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "24:57",
+      "url": "lotfi-ibrahim-ahmed/022.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "19:23",
+      "url": "lotfi-ibrahim-ahmed/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "26:09",
+      "url": "lotfi-ibrahim-ahmed/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "23:58",
+      "url": "lotfi-ibrahim-ahmed/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "30:23",
+      "url": "lotfi-ibrahim-ahmed/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "21:32",
+      "url": "lotfi-ibrahim-ahmed/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "18:06",
+      "url": "lotfi-ibrahim-ahmed/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "11:05",
+      "url": "lotfi-ibrahim-ahmed/031.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "28:48",
+      "url": "lotfi-ibrahim-ahmed/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "18:07",
+      "url": "lotfi-ibrahim-ahmed/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:08",
+      "url": "lotfi-ibrahim-ahmed/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "14:00",
+      "url": "lotfi-ibrahim-ahmed/036.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "14:09",
+      "url": "lotfi-ibrahim-ahmed/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "21:37",
+      "url": "lotfi-ibrahim-ahmed/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "24:12",
+      "url": "lotfi-ibrahim-ahmed/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "16:00",
+      "url": "lotfi-ibrahim-ahmed/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "16:05",
+      "url": "lotfi-ibrahim-ahmed/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "16:04",
+      "url": "lotfi-ibrahim-ahmed/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "6:48",
+      "url": "lotfi-ibrahim-ahmed/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "12:09",
+      "url": "lotfi-ibrahim-ahmed/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "12:09",
+      "url": "lotfi-ibrahim-ahmed/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "10:20",
+      "url": "lotfi-ibrahim-ahmed/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:19",
+      "url": "lotfi-ibrahim-ahmed/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "6:31",
+      "url": "lotfi-ibrahim-ahmed/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:35",
+      "url": "lotfi-ibrahim-ahmed/050.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:19",
+      "url": "lotfi-ibrahim-ahmed/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:44",
+      "url": "lotfi-ibrahim-ahmed/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:57",
+      "url": "lotfi-ibrahim-ahmed/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "7:48",
+      "url": "lotfi-ibrahim-ahmed/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "8:14",
+      "url": "lotfi-ibrahim-ahmed/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "12:40",
+      "url": "lotfi-ibrahim-ahmed/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:44",
+      "url": "lotfi-ibrahim-ahmed/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:00",
+      "url": "lotfi-ibrahim-ahmed/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "7:15",
+      "url": "lotfi-ibrahim-ahmed/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:00",
+      "url": "lotfi-ibrahim-ahmed/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:08",
+      "url": "lotfi-ibrahim-ahmed/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:43",
+      "url": "lotfi-ibrahim-ahmed/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:23",
+      "url": "lotfi-ibrahim-ahmed/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:16",
+      "url": "lotfi-ibrahim-ahmed/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "4:57",
+      "url": "lotfi-ibrahim-ahmed/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:50",
+      "url": "lotfi-ibrahim-ahmed/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:08",
+      "url": "lotfi-ibrahim-ahmed/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:37",
+      "url": "lotfi-ibrahim-ahmed/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:33",
+      "url": "lotfi-ibrahim-ahmed/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:32",
+      "url": "lotfi-ibrahim-ahmed/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:24",
+      "url": "lotfi-ibrahim-ahmed/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:07",
+      "url": "lotfi-ibrahim-ahmed/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:11",
+      "url": "lotfi-ibrahim-ahmed/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:09",
+      "url": "lotfi-ibrahim-ahmed/075.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:10",
+      "url": "lotfi-ibrahim-ahmed/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:48",
+      "url": "lotfi-ibrahim-ahmed/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:09",
+      "url": "lotfi-ibrahim-ahmed/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:04",
+      "url": "lotfi-ibrahim-ahmed/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:10",
+      "url": "lotfi-ibrahim-ahmed/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:43",
+      "url": "lotfi-ibrahim-ahmed/082.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:10",
+      "url": "lotfi-ibrahim-ahmed/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:15",
+      "url": "lotfi-ibrahim-ahmed/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:18",
+      "url": "lotfi-ibrahim-ahmed/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:28",
+      "url": "lotfi-ibrahim-ahmed/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:51",
+      "url": "lotfi-ibrahim-ahmed/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:42",
+      "url": "lotfi-ibrahim-ahmed/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:34",
+      "url": "lotfi-ibrahim-ahmed/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:09",
+      "url": "lotfi-ibrahim-ahmed/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:26",
+      "url": "lotfi-ibrahim-ahmed/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "51",
+      "url": "lotfi-ibrahim-ahmed/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "32",
+      "url": "lotfi-ibrahim-ahmed/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "42",
+      "url": "lotfi-ibrahim-ahmed/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:20",
+      "url": "lotfi-ibrahim-ahmed/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "33",
+      "url": "lotfi-ibrahim-ahmed/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:44",
+      "url": "lotfi-ibrahim-ahmed/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "46",
+      "url": "lotfi-ibrahim-ahmed/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "51",
+      "url": "lotfi-ibrahim-ahmed/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "44",
+      "url": "lotfi-ibrahim-ahmed/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "38",
+      "url": "lotfi-ibrahim-ahmed/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "19",
+      "url": "lotfi-ibrahim-ahmed/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "41",
+      "url": "lotfi-ibrahim-ahmed/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "29",
+      "url": "lotfi-ibrahim-ahmed/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "27",
+      "url": "lotfi-ibrahim-ahmed/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "32",
+      "url": "lotfi-ibrahim-ahmed/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "15",
+      "url": "lotfi-ibrahim-ahmed/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "34",
+      "url": "lotfi-ibrahim-ahmed/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "24",
+      "url": "lotfi-ibrahim-ahmed/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "29",
+      "url": "lotfi-ibrahim-ahmed/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "16",
+      "url": "lotfi-ibrahim-ahmed/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "25",
+      "url": "lotfi-ibrahim-ahmed/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "29",
+      "url": "lotfi-ibrahim-ahmed/114.mp3"
+    }
+  ]
+}

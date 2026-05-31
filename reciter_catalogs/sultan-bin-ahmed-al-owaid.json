@@ -1,0 +1,22 @@
+{
+  "slug": "sultan-bin-ahmed-al-owaid",
+  "count": 2,
+  "byNumber": {
+    "033": "sultan-bin-ahmed-al-owaid/sultan-bin-ahmed-al-owaid-033-muslimcentral.com.mp3",
+    "034": "sultan-bin-ahmed-al-owaid/sultan-bin-ahmed-al-owaid-034-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "23:25",
+      "url": "sultan-bin-ahmed-al-owaid/sultan-bin-ahmed-al-owaid-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "13:55",
+      "url": "sultan-bin-ahmed-al-owaid/sultan-bin-ahmed-al-owaid-034-muslimcentral.com.mp3"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "ibrahim-al-mansouri",
+  "count": 2,
+  "byNumber": {
+    "018": "ibrahim-al-mansouri/018.mp3",
+    "041": "ibrahim-al-mansouri/041.mp3"
+  },
+  "list": [
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "30:07",
+      "url": "ibrahim-al-mansouri/018.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "29:13",
+      "url": "ibrahim-al-mansouri/041.mp3"
+    }
+  ]
+}

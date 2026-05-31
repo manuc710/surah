@@ -1,0 +1,50 @@
+{
+  "slug": "mustafa-al-ardy",
+  "count": 6,
+  "byNumber": {
+    "019": "mustafa-al-ardy/019.mp3",
+    "020": "mustafa-al-ardy/020.mp3",
+    "023": "mustafa-al-ardy/023.mp3",
+    "024": "mustafa-al-ardy/024.mp3",
+    "026": "mustafa-al-ardy/026.mp3",
+    "027": "mustafa-al-ardy/027.mp3"
+  },
+  "list": [
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "21:45",
+      "url": "mustafa-al-ardy/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "29:07",
+      "url": "mustafa-al-ardy/020.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "26:58",
+      "url": "mustafa-al-ardy/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "32:01",
+      "url": "mustafa-al-ardy/024.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "29:36",
+      "url": "mustafa-al-ardy/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "27:08",
+      "url": "mustafa-al-ardy/027.mp3"
+    }
+  ]
+}

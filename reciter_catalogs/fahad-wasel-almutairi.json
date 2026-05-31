@@ -1,0 +1,29 @@
+{
+  "slug": "fahad-wasel-almutairi",
+  "count": 3,
+  "byNumber": {
+    "001": "fahad-wasel-almutairi/001.mp3",
+    "044": "fahad-wasel-almutairi/044.mp3",
+    "045": "fahad-wasel-almutairi/045.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "40",
+      "url": "fahad-wasel-almutairi/001.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "9:20",
+      "url": "fahad-wasel-almutairi/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "11:59",
+      "url": "fahad-wasel-almutairi/045.mp3"
+    }
+  ]
+}

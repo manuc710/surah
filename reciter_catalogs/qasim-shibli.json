@@ -1,0 +1,148 @@
+{
+  "slug": "qasim-shibli",
+  "count": 20,
+  "byNumber": {
+    "001": "qasim-shibli/001.mp3",
+    "003": "qasim-shibli/003.mp3",
+    "004": "qasim-shibli/004.mp3",
+    "005": "qasim-shibli/005.mp3",
+    "006": "qasim-shibli/006.mp3",
+    "007": "qasim-shibli/007.mp3",
+    "008": "qasim-shibli/008.mp3",
+    "009": "qasim-shibli/009.mp3",
+    "010": "qasim-shibli/010.mp3",
+    "012": "qasim-shibli/012.mp3",
+    "013": "qasim-shibli/013.mp3",
+    "014": "qasim-shibli/014.mp3",
+    "015": "qasim-shibli/015.mp3",
+    "016": "qasim-shibli/016.mp3",
+    "017": "qasim-shibli/017.mp3",
+    "018": "qasim-shibli/018.mp3",
+    "019": "qasim-shibli/019.mp3",
+    "020": "qasim-shibli/020.mp3",
+    "021": "qasim-shibli/021.mp3",
+    "022": "qasim-shibli/022.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "1:03",
+      "url": "qasim-shibli/001.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:08:50",
+      "url": "qasim-shibli/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:16:03",
+      "url": "qasim-shibli/004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "58:43",
+      "url": "qasim-shibli/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:04:03",
+      "url": "qasim-shibli/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:09:43",
+      "url": "qasim-shibli/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "27:03",
+      "url": "qasim-shibli/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "53:58",
+      "url": "qasim-shibli/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "39:25",
+      "url": "qasim-shibli/010.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "38:04",
+      "url": "qasim-shibli/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "18:11",
+      "url": "qasim-shibli/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "19:53",
+      "url": "qasim-shibli/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "12:55",
+      "url": "qasim-shibli/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "32:21",
+      "url": "qasim-shibli/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "29:08",
+      "url": "qasim-shibli/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "24:42",
+      "url": "qasim-shibli/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "15:10",
+      "url": "qasim-shibli/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "23:23",
+      "url": "qasim-shibli/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "22:11",
+      "url": "qasim-shibli/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "21:11",
+      "url": "qasim-shibli/022.mp3"
+    }
+  ]
+}

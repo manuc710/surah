@@ -1,0 +1,491 @@
+{
+  "slug": "ahmed-ragab",
+  "count": 69,
+  "byNumber": {
+    "001": "ahmed-ragab/ahmed-ragab-001-muslimcentral.com.mp3",
+    "002": "ahmed-ragab/ahmed-ragab-002-muslimcentral.com.mp3",
+    "004": "ahmed-ragab/ahmed-ragab-004-muslimcentral.com.mp3",
+    "005": "ahmed-ragab/ahmed-ragab-005-muslimcentral.com.mp3",
+    "009": "ahmed-ragab/ahmed-ragab-009-muslimcentral.com.mp3",
+    "010": "ahmed-ragab/ahmed-ragab-010-muslimcentral.com.mp3",
+    "011": "ahmed-ragab/ahmed-ragab-011-muslimcentral.com.mp3",
+    "012": "ahmed-ragab/ahmed-ragab-012-muslimcentral.com.mp3",
+    "013": "ahmed-ragab/ahmed-ragab-013-muslimcentral.com.mp3",
+    "014": "ahmed-ragab/ahmed-ragab-014-muslimcentral.com.mp3",
+    "018": "ahmed-ragab/ahmed-ragab-018-muslimcentral.com.mp3",
+    "019": "ahmed-ragab/ahmed-ragab-019-muslimcentral.com.mp3",
+    "020": "ahmed-ragab/ahmed-ragab-020-muslimcentral.com.mp3",
+    "021": "ahmed-ragab/ahmed-ragab-021-muslimcentral.com.mp3",
+    "022": "ahmed-ragab/ahmed-ragab-022-muslimcentral.com.mp3",
+    "026": "ahmed-ragab/ahmed-ragab-026-muslimcentral.com.mp3",
+    "028": "ahmed-ragab/ahmed-ragab-028-muslimcentral.com.mp3",
+    "036": "ahmed-ragab/ahmed-ragab-036-muslimcentral.com.mp3",
+    "040": "ahmed-ragab/ahmed-ragab-040-muslimcentral.com.mp3",
+    "041": "ahmed-ragab/ahmed-ragab-041-muslimcentral.com.mp3",
+    "042": "ahmed-ragab/ahmed-ragab-042-muslimcentral.com.mp3",
+    "043": "ahmed-ragab/ahmed-ragab-043-muslimcentral.com.mp3",
+    "044": "ahmed-ragab/ahmed-ragab-044-muslimcentral.com.mp3",
+    "045": "ahmed-ragab/ahmed-ragab-045-muslimcentral.com.mp3",
+    "046": "ahmed-ragab/ahmed-ragab-046-muslimcentral.com.mp3",
+    "049": "ahmed-ragab/ahmed-ragab-049-muslimcentral.com.mp3",
+    "050": "ahmed-ragab/ahmed-ragab-050-muslimcentral.com.mp3",
+    "054": "ahmed-ragab/ahmed-ragab-054-muslimcentral.com.mp3",
+    "055": "ahmed-ragab/ahmed-ragab-055-muslimcentral.com.mp3",
+    "056": "ahmed-ragab/ahmed-ragab-056-muslimcentral.com.mp3",
+    "057": "ahmed-ragab/ahmed-ragab-057-muslimcentral.com.mp3",
+    "069": "ahmed-ragab/ahmed-ragab-069-muslimcentral.com.mp3",
+    "078": "ahmed-ragab/ahmed-ragab-078-muslimcentral.com.mp3",
+    "079": "ahmed-ragab/ahmed-ragab-079-muslimcentral.com.mp3",
+    "080": "ahmed-ragab/ahmed-ragab-080-muslimcentral.com.mp3",
+    "081": "ahmed-ragab/ahmed-ragab-081-muslimcentral.com.mp3",
+    "082": "ahmed-ragab/ahmed-ragab-082-muslimcentral.com.mp3",
+    "083": "ahmed-ragab/ahmed-ragab-083-muslimcentral.com.mp3",
+    "084": "ahmed-ragab/ahmed-ragab-084-muslimcentral.com.mp3",
+    "085": "ahmed-ragab/ahmed-ragab-085-muslimcentral.com.mp3",
+    "086": "ahmed-ragab/ahmed-ragab-086-muslimcentral.com.mp3",
+    "087": "ahmed-ragab/ahmed-ragab-087-muslimcentral.com.mp3",
+    "088": "ahmed-ragab/ahmed-ragab-088-muslimcentral.com.mp3",
+    "089": "ahmed-ragab/ahmed-ragab-089-muslimcentral.com.mp3",
+    "090": "ahmed-ragab/ahmed-ragab-090-muslimcentral.com.mp3",
+    "091": "ahmed-ragab/ahmed-ragab-091-muslimcentral.com.mp3",
+    "092": "ahmed-ragab/ahmed-ragab-092-muslimcentral.com.mp3",
+    "093": "ahmed-ragab/ahmed-ragab-093-muslimcentral.com.mp3",
+    "094": "ahmed-ragab/ahmed-ragab-094-muslimcentral.com.mp3",
+    "095": "ahmed-ragab/ahmed-ragab-095-muslimcentral.com.mp3",
+    "096": "ahmed-ragab/ahmed-ragab-096-muslimcentral.com.mp3",
+    "097": "ahmed-ragab/ahmed-ragab-097-muslimcentral.com.mp3",
+    "098": "ahmed-ragab/ahmed-ragab-098-muslimcentral.com.mp3",
+    "099": "ahmed-ragab/ahmed-ragab-099-muslimcentral.com.mp3",
+    "100": "ahmed-ragab/ahmed-ragab-100-muslimcentral.com.mp3",
+    "101": "ahmed-ragab/ahmed-ragab-101-muslimcentral.com.mp3",
+    "102": "ahmed-ragab/ahmed-ragab-102-muslimcentral.com.mp3",
+    "103": "ahmed-ragab/ahmed-ragab-103-muslimcentral.com.mp3",
+    "104": "ahmed-ragab/ahmed-ragab-104-muslimcentral.com.mp3",
+    "105": "ahmed-ragab/ahmed-ragab-105-muslimcentral.com.mp3",
+    "106": "ahmed-ragab/ahmed-ragab-106-muslimcentral.com.mp3",
+    "107": "ahmed-ragab/ahmed-ragab-107-muslimcentral.com.mp3",
+    "108": "ahmed-ragab/ahmed-ragab-108-muslimcentral.com.mp3",
+    "109": "ahmed-ragab/ahmed-ragab-109-muslimcentral.com.mp3",
+    "110": "ahmed-ragab/ahmed-ragab-110-muslimcentral.com.mp3",
+    "111": "ahmed-ragab/ahmed-ragab-111-muslimcentral.com.mp3",
+    "112": "ahmed-ragab/ahmed-ragab-112-muslimcentral.com.mp3",
+    "113": "ahmed-ragab/ahmed-ragab-113-muslimcentral.com.mp3",
+    "114": "ahmed-ragab/ahmed-ragab-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "37",
+      "url": "ahmed-ragab/ahmed-ragab-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqara",
+      "duration": "2:02:21",
+      "url": "ahmed-ragab/ahmed-ragab-002-muslimcentral.com.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:14:22",
+      "url": "ahmed-ragab/ahmed-ragab-004-muslimcentral.com.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "59:03",
+      "url": "ahmed-ragab/ahmed-ragab-005-muslimcentral.com.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "53:53",
+      "url": "ahmed-ragab/ahmed-ragab-009-muslimcentral.com.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "36:31",
+      "url": "ahmed-ragab/ahmed-ragab-010-muslimcentral.com.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "43:41",
+      "url": "ahmed-ragab/ahmed-ragab-011-muslimcentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "40:57",
+      "url": "ahmed-ragab/ahmed-ragab-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "18:51",
+      "url": "ahmed-ragab/ahmed-ragab-013-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "20:51",
+      "url": "ahmed-ragab/ahmed-ragab-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "28:10",
+      "url": "ahmed-ragab/ahmed-ragab-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:02",
+      "url": "ahmed-ragab/ahmed-ragab-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "25:35",
+      "url": "ahmed-ragab/ahmed-ragab-020-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "24:07",
+      "url": "ahmed-ragab/ahmed-ragab-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "25:36",
+      "url": "ahmed-ragab/ahmed-ragab-022-muslimcentral.com.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "25:10",
+      "url": "ahmed-ragab/ahmed-ragab-026-muslimcentral.com.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "27:17",
+      "url": "ahmed-ragab/ahmed-ragab-028-muslimcentral.com.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "16:16",
+      "url": "ahmed-ragab/ahmed-ragab-036-muslimcentral.com.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "25:30",
+      "url": "ahmed-ragab/ahmed-ragab-040-muslimcentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "15:26",
+      "url": "ahmed-ragab/ahmed-ragab-041-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "15:13",
+      "url": "ahmed-ragab/ahmed-ragab-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "13:59",
+      "url": "ahmed-ragab/ahmed-ragab-043-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "6:00",
+      "url": "ahmed-ragab/ahmed-ragab-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "7:48",
+      "url": "ahmed-ragab/ahmed-ragab-045-muslimcentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "14:02",
+      "url": "ahmed-ragab/ahmed-ragab-046-muslimcentral.com.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:25",
+      "url": "ahmed-ragab/ahmed-ragab-049-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "10:54",
+      "url": "ahmed-ragab/ahmed-ragab-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "8:10",
+      "url": "ahmed-ragab/ahmed-ragab-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "5:30",
+      "url": "ahmed-ragab/ahmed-ragab-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:51",
+      "url": "ahmed-ragab/ahmed-ragab-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "13:01",
+      "url": "ahmed-ragab/ahmed-ragab-057-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "7:02",
+      "url": "ahmed-ragab/ahmed-ragab-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:22",
+      "url": "ahmed-ragab/ahmed-ragab-078-muslimcentral.com.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:41",
+      "url": "ahmed-ragab/ahmed-ragab-079-muslimcentral.com.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:53",
+      "url": "ahmed-ragab/ahmed-ragab-080-muslimcentral.com.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:06",
+      "url": "ahmed-ragab/ahmed-ragab-081-muslimcentral.com.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:43",
+      "url": "ahmed-ragab/ahmed-ragab-082-muslimcentral.com.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:37",
+      "url": "ahmed-ragab/ahmed-ragab-083-muslimcentral.com.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:24",
+      "url": "ahmed-ragab/ahmed-ragab-084-muslimcentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:27",
+      "url": "ahmed-ragab/ahmed-ragab-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:20",
+      "url": "ahmed-ragab/ahmed-ragab-086-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:32",
+      "url": "ahmed-ragab/ahmed-ragab-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:00",
+      "url": "ahmed-ragab/ahmed-ragab-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:04",
+      "url": "ahmed-ragab/ahmed-ragab-089-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:37",
+      "url": "ahmed-ragab/ahmed-ragab-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:12",
+      "url": "ahmed-ragab/ahmed-ragab-091-muslimcentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:35",
+      "url": "ahmed-ragab/ahmed-ragab-092-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "54",
+      "url": "ahmed-ragab/ahmed-ragab-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "33",
+      "url": "ahmed-ragab/ahmed-ragab-094-muslimcentral.com.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "47",
+      "url": "ahmed-ragab/ahmed-ragab-095-muslimcentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:24",
+      "url": "ahmed-ragab/ahmed-ragab-096-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "41",
+      "url": "ahmed-ragab/ahmed-ragab-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:53",
+      "url": "ahmed-ragab/ahmed-ragab-098-muslimcentral.com.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "54",
+      "url": "ahmed-ragab/ahmed-ragab-099-muslimcentral.com.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "56",
+      "url": "ahmed-ragab/ahmed-ragab-100-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "49",
+      "url": "ahmed-ragab/ahmed-ragab-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "43",
+      "url": "ahmed-ragab/ahmed-ragab-102-muslimcentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "23",
+      "url": "ahmed-ragab/ahmed-ragab-103-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "43",
+      "url": "ahmed-ragab/ahmed-ragab-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "33",
+      "url": "ahmed-ragab/ahmed-ragab-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "29",
+      "url": "ahmed-ragab/ahmed-ragab-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "44",
+      "url": "ahmed-ragab/ahmed-ragab-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "17",
+      "url": "ahmed-ragab/ahmed-ragab-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "32",
+      "url": "ahmed-ragab/ahmed-ragab-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "28",
+      "url": "ahmed-ragab/ahmed-ragab-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "28",
+      "url": "ahmed-ragab/ahmed-ragab-111-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "18",
+      "url": "ahmed-ragab/ahmed-ragab-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "25",
+      "url": "ahmed-ragab/ahmed-ragab-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "32",
+      "url": "ahmed-ragab/ahmed-ragab-114-muslimcentral.com.mp3"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "fahd-bin-ali-qahl",
+  "count": 7,
+  "byNumber": {
+    "001": "fahd-bin-ali-qahl/001.mp3",
+    "034": "fahd-bin-ali-qahl/034.mp3",
+    "042": "fahd-bin-ali-qahl/042.mp3",
+    "071": "fahd-bin-ali-qahl/071.mp3",
+    "075": "fahd-bin-ali-qahl/075.mp3",
+    "088": "fahd-bin-ali-qahl/088.mp3",
+    "090": "fahd-bin-ali-qahl/090.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "43",
+      "url": "fahd-bin-ali-qahl/001.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "15:54",
+      "url": "fahd-bin-ali-qahl/034.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "13:43",
+      "url": "fahd-bin-ali-qahl/042.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:30",
+      "url": "fahd-bin-ali-qahl/071.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "4:27",
+      "url": "fahd-bin-ali-qahl/075.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:36",
+      "url": "fahd-bin-ali-qahl/088.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "2:14",
+      "url": "fahd-bin-ali-qahl/090.mp3"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "ezzat-al-enani-mujawwad",
+  "count": 5,
+  "byNumber": {
+    "050": "ezzat-al-enani-mujawwad/050.mp3",
+    "091": "ezzat-al-enani-mujawwad/091.mp3",
+    "093": "ezzat-al-enani-mujawwad/093.mp3",
+    "094": "ezzat-al-enani-mujawwad/094.mp3",
+    "095": "ezzat-al-enani-mujawwad/095.mp3"
+  },
+  "list": [
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "29:14",
+      "url": "ezzat-al-enani-mujawwad/050.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "4:03",
+      "url": "ezzat-al-enani-mujawwad/091.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "3:29",
+      "url": "ezzat-al-enani-mujawwad/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "1:42",
+      "url": "ezzat-al-enani-mujawwad/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "1:51",
+      "url": "ezzat-al-enani-mujawwad/095.mp3"
+    }
+  ]
+}

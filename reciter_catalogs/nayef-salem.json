@@ -1,0 +1,22 @@
+{
+  "slug": "nayef-salem",
+  "count": 2,
+  "byNumber": {
+    "044": "nayef-salem/044.mp3",
+    "048": "nayef-salem/048.mp3"
+  },
+  "list": [
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "6:29",
+      "url": "nayef-salem/044.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:22",
+      "url": "nayef-salem/048.mp3"
+    }
+  ]
+}

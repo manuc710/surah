@@ -1,0 +1,155 @@
+{
+  "slug": "khalid-al-ghamdi",
+  "count": 21,
+  "byNumber": {
+    "009": "khalid-al-ghamdi/khalid-al-ghamdi-009-muslimcentral.com.mp3",
+    "014": "khalid-al-ghamdi/khalid-al-ghamdi-014-muslimcentral.com.mp3",
+    "025": "khalid-al-ghamdi/khalid-al-ghamdi-025-muslimcentral.com.mp3",
+    "032": "khalid-al-ghamdi/khalid-al-ghamdi-032-muslimcentral.com.mp3",
+    "039": "khalid-al-ghamdi/khalid-al-ghamdi-039-muslimcentral.com.mp3",
+    "042": "khalid-al-ghamdi/khalid-al-ghamdi-042-muslimcentral.com.mp3",
+    "058": "khalid-al-ghamdi/khalid-al-ghamdi-058-muslimcentral.com.mp3",
+    "059": "khalid-al-ghamdi/khalid-al-ghamdi-059-muslimcentral.com.mp3",
+    "060": "khalid-al-ghamdi/khalid-al-ghamdi-060-muslimcentral.com.mp3",
+    "061": "khalid-al-ghamdi/khalid-al-ghamdi-061-muslimcentral.com.mp3",
+    "062": "khalid-al-ghamdi/khalid-al-ghamdi-062-muslimcentral.com.mp3",
+    "066": "khalid-al-ghamdi/khalid-al-ghamdi-066-muslimcentral.com.mp3",
+    "068": "khalid-al-ghamdi/khalid-al-ghamdi-068-muslimcentral.com.mp3",
+    "069": "khalid-al-ghamdi/khalid-al-ghamdi-069-muslimcentral.com.mp3",
+    "076": "khalid-al-ghamdi/khalid-al-ghamdi-076-muslimcentral.com.mp3",
+    "085": "khalid-al-ghamdi/khalid-al-ghamdi-085-muslimcentral.com.mp3",
+    "088": "khalid-al-ghamdi/khalid-al-ghamdi-088-muslimcentral.com.mp3",
+    "090": "khalid-al-ghamdi/khalid-al-ghamdi-090-muslimcentral.com.mp3",
+    "091": "khalid-al-ghamdi/khalid-al-ghamdi-091-muslimcentral.com.mp3",
+    "093": "khalid-al-ghamdi/khalid-al-ghamdi-093-muslimcentral.com.mp3",
+    "095": "khalid-al-ghamdi/khalid-al-ghamdi-095-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "42:11",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-009-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "16:30",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "15:24",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-025-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "6:47",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "19:33",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-039-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "14:51",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "8:25",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-058-muslimcentral.com.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "7:50",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-059-muslimcentral.com.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "6:13",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-060-muslimcentral.com.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "3:43",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-061-muslimcentral.com.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:26",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-062-muslimcentral.com.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:30",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-066-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:02",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:12",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:09",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-076-muslimcentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:27",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:00",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:58",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:19",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-091-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:07",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "51",
+      "url": "khalid-al-ghamdi/khalid-al-ghamdi-095-muslimcentral.com.mp3"
+    }
+  ]
+}

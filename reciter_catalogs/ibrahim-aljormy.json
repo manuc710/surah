@@ -1,0 +1,792 @@
+{
+  "slug": "ibrahim-aljormy",
+  "count": 112,
+  "byNumber": {
+    "001": "ibrahim-aljormy/ibrahim-aljormy-001-muslimcentral.com.mp3",
+    "002": "ibrahim-aljormy/ibrahim-aljormy-002-muslimcentral.com.mp3",
+    "003": "ibrahim-aljormy/ibrahim-aljormy-003-muslimcentral.com.mp3",
+    "004": "ibrahim-aljormy/ibrahim-aljormy-004-muslimcentral.com.mp3",
+    "005": "ibrahim-aljormy/ibrahim-aljormy-005-muslimcentral.com.mp3",
+    "006": "ibrahim-aljormy/ibrahim-aljormy-006-muslimcentral.com.mp3",
+    "007": "ibrahim-aljormy/ibrahim-aljormy-007-muslimcentral.com.mp3",
+    "008": "ibrahim-aljormy/ibrahim-aljormy-008-muslimcentral.com.mp3",
+    "009": "ibrahim-aljormy/ibrahim-aljormy-009-muslimcentral.com.mp3",
+    "010": "ibrahim-aljormy/ibrahim-aljormy-010-muslimcentral.com.mp3",
+    "011": "ibrahim-aljormy/ibrahim-aljormy-011-muslimcentral.com.mp3",
+    "012": "ibrahim-aljormy/ibrahim-aljormy-012-muslimcentral.com.mp3",
+    "013": "ibrahim-aljormy/ibrahim-aljormy-013-muslimcentral.com.mp3",
+    "014": "ibrahim-aljormy/ibrahim-aljormy-014-muslimcentral.com.mp3",
+    "015": "ibrahim-aljormy/ibrahim-aljormy-015-muslimcentral.com.mp3",
+    "016": "ibrahim-aljormy/ibrahim-aljormy-016-muslimcentral.com.mp3",
+    "017": "ibrahim-aljormy/ibrahim-aljormy-017-muslimcentral.com.mp3",
+    "019": "ibrahim-aljormy/ibrahim-aljormy-019-muslimcentral.com.mp3",
+    "020": "ibrahim-aljormy/ibrahim-aljormy-020-muslimcentral.com.mp3",
+    "021": "ibrahim-aljormy/ibrahim-aljormy-021-muslimcentral.com.mp3",
+    "022": "ibrahim-aljormy/ibrahim-aljormy-022-muslimcentral.com.mp3",
+    "023": "ibrahim-aljormy/ibrahim-aljormy-023-muslimcentral.com.mp3",
+    "024": "ibrahim-aljormy/ibrahim-aljormy-024-muslimcentral.com.mp3",
+    "025": "ibrahim-aljormy/ibrahim-aljormy-025-muslimcentral.com.mp3",
+    "026": "ibrahim-aljormy/ibrahim-aljormy-026-muslimcentral.com.mp3",
+    "027": "ibrahim-aljormy/ibrahim-aljormy-027-muslimcentral.com.mp3",
+    "028": "ibrahim-aljormy/ibrahim-aljormy-028-muslimcentral.com.mp3",
+    "029": "ibrahim-aljormy/ibrahim-aljormy-029-muslimcentral.com.mp3",
+    "030": "ibrahim-aljormy/ibrahim-aljormy-030-muslimcentral.com.mp3",
+    "031": "ibrahim-aljormy/ibrahim-aljormy-031-muslimcentral.com.mp3",
+    "032": "ibrahim-aljormy/ibrahim-aljormy-032-muslimcentral.com.mp3",
+    "033": "ibrahim-aljormy/ibrahim-aljormy-033-muslimcentral.com.mp3",
+    "034": "ibrahim-aljormy/ibrahim-aljormy-034-muslimcentral.com.mp3",
+    "035": "ibrahim-aljormy/ibrahim-aljormy-035-muslimcentral.com.mp3",
+    "036": "ibrahim-aljormy/ibrahim-aljormy-036-muslimcentral.com.mp3",
+    "037": "ibrahim-aljormy/ibrahim-aljormy-037-muslimcentral.com.mp3",
+    "038": "ibrahim-aljormy/ibrahim-aljormy-038-muslimcentral.com.mp3",
+    "039": "ibrahim-aljormy/ibrahim-aljormy-039-muslimcentral.com.mp3",
+    "040": "ibrahim-aljormy/ibrahim-aljormy-040-muslimcentral.com.mp3",
+    "041": "ibrahim-aljormy/ibrahim-aljormy-041-muslimcentral.com.mp3",
+    "042": "ibrahim-aljormy/ibrahim-aljormy-042-muslimcentral.com.mp3",
+    "043": "ibrahim-aljormy/ibrahim-aljormy-043-muslimcentral.com.mp3",
+    "044": "ibrahim-aljormy/ibrahim-aljormy-044-muslimcentral.com.mp3",
+    "045": "ibrahim-aljormy/ibrahim-aljormy-045-muslimcentral.com.mp3",
+    "046": "ibrahim-aljormy/ibrahim-aljormy-046-muslimcentral.com.mp3",
+    "047": "ibrahim-aljormy/ibrahim-aljormy-047-muslimcentral.com.mp3",
+    "048": "ibrahim-aljormy/ibrahim-aljormy-048-muslimcentral.com.mp3",
+    "049": "ibrahim-aljormy/ibrahim-aljormy-049-muslimcentral.com.mp3",
+    "050": "ibrahim-aljormy/ibrahim-aljormy-050-muslimcentral.com.mp3",
+    "051": "ibrahim-aljormy/ibrahim-aljormy-051-muslimcentral.com.mp3",
+    "052": "ibrahim-aljormy/ibrahim-aljormy-052-muslimcentral.com.mp3",
+    "053": "ibrahim-aljormy/ibrahim-aljormy-053-muslimcentral.com.mp3",
+    "054": "ibrahim-aljormy/ibrahim-aljormy-054-muslimcentral.com.mp3",
+    "055": "ibrahim-aljormy/ibrahim-aljormy-055-muslimcentral.com.mp3",
+    "056": "ibrahim-aljormy/ibrahim-aljormy-056-muslimcentral.com.mp3",
+    "057": "ibrahim-aljormy/ibrahim-aljormy-057-muslimcentral.com.mp3",
+    "058": "ibrahim-aljormy/ibrahim-aljormy-058-muslimcentral.com.mp3",
+    "059": "ibrahim-aljormy/ibrahim-aljormy-059-muslimcentral.com.mp3",
+    "060": "ibrahim-aljormy/ibrahim-aljormy-060-muslimcentral.com.mp3",
+    "061": "ibrahim-aljormy/ibrahim-aljormy-061-muslimcentral.com.mp3",
+    "062": "ibrahim-aljormy/ibrahim-aljormy-062-muslimcentral.com.mp3",
+    "063": "ibrahim-aljormy/ibrahim-aljormy-063-muslimcentral.com.mp3",
+    "064": "ibrahim-aljormy/ibrahim-aljormy-064-muslimcentral.com.mp3",
+    "065": "ibrahim-aljormy/ibrahim-aljormy-065-muslimcentral.com.mp3",
+    "066": "ibrahim-aljormy/ibrahim-aljormy-066-muslimcentral.com.mp3",
+    "067": "ibrahim-aljormy/ibrahim-aljormy-067-muslimcentral.com.mp3",
+    "068": "ibrahim-aljormy/ibrahim-aljormy-068-muslimcentral.com.mp3",
+    "069": "ibrahim-aljormy/ibrahim-aljormy-069-muslimcentral.com.mp3",
+    "070": "ibrahim-aljormy/ibrahim-aljormy-070-muslimcentral.com.mp3",
+    "071": "ibrahim-aljormy/ibrahim-aljormy-071-muslimcentral.com.mp3",
+    "072": "ibrahim-aljormy/ibrahim-aljormy-072-muslimcentral.com.mp3",
+    "073": "ibrahim-aljormy/ibrahim-aljormy-073-muslimcentral.com.mp3",
+    "074": "ibrahim-aljormy/ibrahim-aljormy-074-muslimcentral.com.mp3",
+    "075": "ibrahim-aljormy/ibrahim-aljormy-075-muslimcentral.com.mp3",
+    "076": "ibrahim-aljormy/ibrahim-aljormy-076-muslimcentral.com.mp3",
+    "077": "ibrahim-aljormy/ibrahim-aljormy-077-muslimcentral.com.mp3",
+    "078": "ibrahim-aljormy/ibrahim-aljormy-078-muslimcentral.com.mp3",
+    "079": "ibrahim-aljormy/ibrahim-aljormy-079-muslimcentral.com.mp3",
+    "080": "ibrahim-aljormy/ibrahim-aljormy-080-muslimcentral.com.mp3",
+    "081": "ibrahim-aljormy/ibrahim-aljormy-081-muslimcentral.com.mp3",
+    "082": "ibrahim-aljormy/ibrahim-aljormy-082-muslimcentral.com.mp3",
+    "083": "ibrahim-aljormy/ibrahim-aljormy-083-muslimcentral.com.mp3",
+    "084": "ibrahim-aljormy/ibrahim-aljormy-084-muslimcentral.com.mp3",
+    "085": "ibrahim-aljormy/ibrahim-aljormy-085-muslimcentral.com.mp3",
+    "086": "ibrahim-aljormy/ibrahim-aljormy-086-muslimcentral.com.mp3",
+    "087": "ibrahim-aljormy/ibrahim-aljormy-087-muslimcentral.com.mp3",
+    "088": "ibrahim-aljormy/ibrahim-aljormy-088-muslimcentral.com.mp3",
+    "089": "ibrahim-aljormy/ibrahim-aljormy-089-muslimcentral.com.mp3",
+    "090": "ibrahim-aljormy/ibrahim-aljormy-090-muslimcentral.com.mp3",
+    "091": "ibrahim-aljormy/ibrahim-aljormy-091-muslimcentral.com.mp3",
+    "092": "ibrahim-aljormy/ibrahim-aljormy-092-muslimcentral.com.mp3",
+    "093": "ibrahim-aljormy/ibrahim-aljormy-093-muslimcentral.com.mp3",
+    "094": "ibrahim-aljormy/ibrahim-aljormy-094-muslimcentral.com.mp3",
+    "095": "ibrahim-aljormy/ibrahim-aljormy-095-muslimcentral.com.mp3",
+    "096": "ibrahim-aljormy/ibrahim-aljormy-096-muslimcentral.com.mp3",
+    "097": "ibrahim-aljormy/ibrahim-aljormy-097-muslimcentral.com.mp3",
+    "098": "ibrahim-aljormy/ibrahim-aljormy-098-muslimcentral.com.mp3",
+    "100": "ibrahim-aljormy/ibrahim-aljormy-100-muslimcentral.com.mp3",
+    "101": "ibrahim-aljormy/ibrahim-aljormy-101-muslimcentral.com.mp3",
+    "102": "ibrahim-aljormy/ibrahim-aljormy-102-muslimcentral.com.mp3",
+    "103": "ibrahim-aljormy/ibrahim-aljormy-103-muslimcentral.com.mp3",
+    "104": "ibrahim-aljormy/ibrahim-aljormy-104-muslimcentral.com.mp3",
+    "105": "ibrahim-aljormy/ibrahim-aljormy-105-muslimcentral.com.mp3",
+    "106": "ibrahim-aljormy/ibrahim-aljormy-106-muslimcentral.com.mp3",
+    "107": "ibrahim-aljormy/ibrahim-aljormy-107-muslimcentral.com.mp3",
+    "108": "ibrahim-aljormy/ibrahim-aljormy-108-muslimcentral.com.mp3",
+    "109": "ibrahim-aljormy/ibrahim-aljormy-109-muslimcentral.com.mp3",
+    "110": "ibrahim-aljormy/ibrahim-aljormy-110-muslimcentral.com.mp3",
+    "111": "ibrahim-aljormy/ibrahim-aljormy-111-muslimcentral.com.mp3",
+    "112": "ibrahim-aljormy/ibrahim-aljormy-112-muslimcentral.com.mp3",
+    "113": "ibrahim-aljormy/ibrahim-aljormy-113-muslimcentral.com.mp3",
+    "114": "ibrahim-aljormy/ibrahim-aljormy-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "45",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqara",
+      "duration": "2:12:54",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-002-muslimcentral.com.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:22:43",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-003-muslimcentral.com.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:25:50",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-004-muslimcentral.com.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "1:01:17",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-005-muslimcentral.com.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:05:45",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-006-muslimcentral.com.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:15:30",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-007-muslimcentral.com.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "29:17",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-008-muslimcentral.com.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "58:13",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-009-muslimcentral.com.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "39:22",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-010-muslimcentral.com.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "43:07",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-011-muslimcentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "38:34",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "18:43",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-013-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "18:09",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "14:28",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-015-muslimcentral.com.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "42:04",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-016-muslimcentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "34:11",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-017-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "21:49",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "29:25",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-020-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "27:19",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "29:06",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-022-muslimcentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "23:15",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-023-muslimcentral.com.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "29:14",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-024-muslimcentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "19:27",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-025-muslimcentral.com.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "30:06",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-026-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "26:16",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "32:00",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-028-muslimcentral.com.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "22:29",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-029-muslimcentral.com.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Room",
+      "duration": "16:49",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-030-muslimcentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "10:51",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-031-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "8:15",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "24:14",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "18:24",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-034-muslimcentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "17:29",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-035-muslimcentral.com.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "15:56",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-036-muslimcentral.com.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "20:17",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-037-muslimcentral.com.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "15:25",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-038-muslimcentral.com.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "23:55",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-039-muslimcentral.com.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "25:19",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-040-muslimcentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "17:12",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-041-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "17:39",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "18:20",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-043-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:39",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "10:13",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-045-muslimcentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "13:29",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-046-muslimcentral.com.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "11:46",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-047-muslimcentral.com.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "12:33",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-048-muslimcentral.com.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:44",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-049-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "8:11",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:48",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:43",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:22",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "7:22",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:21",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "8:48",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "12:07",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-057-muslimcentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "10:05",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-058-muslimcentral.com.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:42",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-059-muslimcentral.com.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "7:53",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-060-muslimcentral.com.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:54",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-061-muslimcentral.com.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:44",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-062-muslimcentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:57",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-063-muslimcentral.com.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "5:08",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-064-muslimcentral.com.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "6:07",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-065-muslimcentral.com.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:45",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-066-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:30",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:26",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:43",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:51",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:40",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-071-muslimcentral.com.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:58",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-072-muslimcentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:17",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-073-muslimcentral.com.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:16",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-074-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:38",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-075-muslimcentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:55",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-076-muslimcentral.com.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:32",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-077-muslimcentral.com.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:27",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-078-muslimcentral.com.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:08",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-079-muslimcentral.com.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:17",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-080-muslimcentral.com.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:20",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-081-muslimcentral.com.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:51",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-082-muslimcentral.com.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "4:03",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-083-muslimcentral.com.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:26",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-084-muslimcentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:32",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:25",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-086-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:37",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:01",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:10",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-089-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:42",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:20",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-091-muslimcentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:47",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-092-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "59",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "38",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-094-muslimcentral.com.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "49",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-095-muslimcentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:32",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-096-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "40",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:59",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-098-muslimcentral.com.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "58",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-100-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "50",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "44",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-102-muslimcentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "25",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-103-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "44",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "35",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "30",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "40",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "35",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "38",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "28",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "33",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-111-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "20",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "29",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "35",
+      "url": "ibrahim-aljormy/ibrahim-aljormy-114-muslimcentral.com.mp3"
+    }
+  ]
+}

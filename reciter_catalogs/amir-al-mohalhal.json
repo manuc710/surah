@@ -1,0 +1,288 @@
+{
+  "slug": "amir-al-mohalhal",
+  "count": 40,
+  "byNumber": {
+    "001": "amir-al-mohalhal/amir-al-mohalhal-001-muslimcentral.com.mp3",
+    "008": "amir-al-mohalhal/amir-al-mohalhal-008-muslimcentral.com.mp3",
+    "012": "amir-al-mohalhal/amir-al-mohalhal-012-muslimcentral.com.mp3",
+    "014": "amir-al-mohalhal/amir-al-mohalhal-014-muslimcentral.com.mp3",
+    "015": "amir-al-mohalhal/amir-al-mohalhal-015-muslimcentral.com.mp3",
+    "016": "amir-al-mohalhal/amir-al-mohalhal-016-muslimcentral.com.mp3",
+    "017": "amir-al-mohalhal/amir-al-mohalhal-017-muslimcentral.com.mp3",
+    "018": "amir-al-mohalhal/amir-al-mohalhal-018-muslimcentral.com.mp3",
+    "019": "amir-al-mohalhal/amir-al-mohalhal-019-muslimcentral.com.mp3",
+    "020": "amir-al-mohalhal/amir-al-mohalhal-020-muslimcentral.com.mp3",
+    "021": "amir-al-mohalhal/amir-al-mohalhal-021-muslimcentral.com.mp3",
+    "023": "amir-al-mohalhal/amir-al-mohalhal-023-muslimcentral.com.mp3",
+    "027": "amir-al-mohalhal/amir-al-mohalhal-027-muslimcentral.com.mp3",
+    "030": "amir-al-mohalhal/amir-al-mohalhal-030-muslimcentral.com.mp3",
+    "031": "amir-al-mohalhal/amir-al-mohalhal-031-muslimcentral.com.mp3",
+    "032": "amir-al-mohalhal/amir-al-mohalhal-032-muslimcentral.com.mp3",
+    "033": "amir-al-mohalhal/amir-al-mohalhal-033-muslimcentral.com.mp3",
+    "034": "amir-al-mohalhal/amir-al-mohalhal-034-muslimcentral.com.mp3",
+    "035": "amir-al-mohalhal/amir-al-mohalhal-035-muslimcentral.com.mp3",
+    "036": "amir-al-mohalhal/amir-al-mohalhal-036-muslimcentral.com.mp3",
+    "038": "amir-al-mohalhal/amir-al-mohalhal-038-muslimcentral.com.mp3",
+    "039": "amir-al-mohalhal/amir-al-mohalhal-039-muslimcentral.com.mp3",
+    "041": "amir-al-mohalhal/amir-al-mohalhal-041-muslimcentral.com.mp3",
+    "042": "amir-al-mohalhal/amir-al-mohalhal-042-muslimcentral.com.mp3",
+    "043": "amir-al-mohalhal/amir-al-mohalhal-043-muslimcentral.com.mp3",
+    "044": "amir-al-mohalhal/amir-al-mohalhal-044-muslimcentral.com.mp3",
+    "045": "amir-al-mohalhal/amir-al-mohalhal-045-muslimcentral.com.mp3",
+    "046": "amir-al-mohalhal/amir-al-mohalhal-046-muslimcentral.com.mp3",
+    "055": "amir-al-mohalhal/amir-al-mohalhal-055-muslimcentral.com.mp3",
+    "056": "amir-al-mohalhal/amir-al-mohalhal-056-muslimcentral.com.mp3",
+    "058": "amir-al-mohalhal/amir-al-mohalhal-058-muslimcentral.com.mp3",
+    "059": "amir-al-mohalhal/amir-al-mohalhal-059-muslimcentral.com.mp3",
+    "061": "amir-al-mohalhal/amir-al-mohalhal-061-muslimcentral.com.mp3",
+    "062": "amir-al-mohalhal/amir-al-mohalhal-062-muslimcentral.com.mp3",
+    "063": "amir-al-mohalhal/amir-al-mohalhal-063-muslimcentral.com.mp3",
+    "064": "amir-al-mohalhal/amir-al-mohalhal-064-muslimcentral.com.mp3",
+    "065": "amir-al-mohalhal/amir-al-mohalhal-065-muslimcentral.com.mp3",
+    "066": "amir-al-mohalhal/amir-al-mohalhal-066-muslimcentral.com.mp3",
+    "068": "amir-al-mohalhal/amir-al-mohalhal-068-muslimcentral.com.mp3",
+    "075": "amir-al-mohalhal/amir-al-mohalhal-075-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "48",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "36:28",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-008-muslimcentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "39:48",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "18:26",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "15:12",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-015-muslimcentral.com.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "38:47",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-016-muslimcentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "43:09",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-017-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "30:10",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "22:59",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "37:56",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-020-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "35:51",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "32:40",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-023-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "35:59",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Room",
+      "duration": "29:13",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-030-muslimcentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "11:08",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-031-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:31",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "25:34",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "15:32",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-034-muslimcentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "19:52",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-035-muslimcentral.com.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "19:24",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-036-muslimcentral.com.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "15:00",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-038-muslimcentral.com.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "22:55",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-039-muslimcentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "17:13",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-041-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "17:04",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "16:32",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-043-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:06",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "9:21",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-045-muslimcentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "12:56",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-046-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "10:22",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:07",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:44",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-058-muslimcentral.com.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:05",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-059-muslimcentral.com.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "5:17",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-061-muslimcentral.com.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "4:14",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-062-muslimcentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:38",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-063-muslimcentral.com.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "5:21",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-064-muslimcentral.com.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "6:23",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-065-muslimcentral.com.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:05",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-066-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:22",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "4:17",
+      "url": "amir-al-mohalhal/amir-al-mohalhal-075-muslimcentral.com.mp3"
+    }
+  ]
+}

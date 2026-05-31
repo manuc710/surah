@@ -1,0 +1,799 @@
+{
+  "slug": "walid-marei-al-shehri",
+  "count": 113,
+  "byNumber": {
+    "001": "walid-marei-al-shehri/001.mp3",
+    "002": "walid-marei-al-shehri/002.mp3",
+    "003": "walid-marei-al-shehri/003.mp3",
+    "004": "walid-marei-al-shehri/004.mp3",
+    "006": "walid-marei-al-shehri/006.mp3",
+    "007": "walid-marei-al-shehri/007.mp3",
+    "008": "walid-marei-al-shehri/008.mp3",
+    "009": "walid-marei-al-shehri/009.mp3",
+    "010": "walid-marei-al-shehri/010.mp3",
+    "011": "walid-marei-al-shehri/011.mp3",
+    "012": "walid-marei-al-shehri/012.mp3",
+    "013": "walid-marei-al-shehri/013.mp3",
+    "014": "walid-marei-al-shehri/014.mp3",
+    "015": "walid-marei-al-shehri/015.mp3",
+    "016": "walid-marei-al-shehri/016.mp3",
+    "017": "walid-marei-al-shehri/017.mp3",
+    "018": "walid-marei-al-shehri/018.mp3",
+    "019": "walid-marei-al-shehri/019.mp3",
+    "020": "walid-marei-al-shehri/020.mp3",
+    "021": "walid-marei-al-shehri/021.mp3",
+    "022": "walid-marei-al-shehri/022.mp3",
+    "023": "walid-marei-al-shehri/023.mp3",
+    "024": "walid-marei-al-shehri/024.mp3",
+    "025": "walid-marei-al-shehri/025.mp3",
+    "026": "walid-marei-al-shehri/026.mp3",
+    "027": "walid-marei-al-shehri/027.mp3",
+    "028": "walid-marei-al-shehri/028.mp3",
+    "029": "walid-marei-al-shehri/029.mp3",
+    "030": "walid-marei-al-shehri/030.mp3",
+    "031": "walid-marei-al-shehri/031.mp3",
+    "032": "walid-marei-al-shehri/032.mp3",
+    "033": "walid-marei-al-shehri/033.mp3",
+    "034": "walid-marei-al-shehri/034.mp3",
+    "035": "walid-marei-al-shehri/035.mp3",
+    "036": "walid-marei-al-shehri/036.mp3",
+    "037": "walid-marei-al-shehri/037.mp3",
+    "038": "walid-marei-al-shehri/038.mp3",
+    "039": "walid-marei-al-shehri/039.mp3",
+    "040": "walid-marei-al-shehri/040.mp3",
+    "041": "walid-marei-al-shehri/041.mp3",
+    "042": "walid-marei-al-shehri/042.mp3",
+    "043": "walid-marei-al-shehri/043.mp3",
+    "044": "walid-marei-al-shehri/044.mp3",
+    "045": "walid-marei-al-shehri/045.mp3",
+    "046": "walid-marei-al-shehri/046.mp3",
+    "047": "walid-marei-al-shehri/047.mp3",
+    "048": "walid-marei-al-shehri/048.mp3",
+    "049": "walid-marei-al-shehri/049.mp3",
+    "050": "walid-marei-al-shehri/050.mp3",
+    "051": "walid-marei-al-shehri/051.mp3",
+    "052": "walid-marei-al-shehri/052.mp3",
+    "053": "walid-marei-al-shehri/053.mp3",
+    "054": "walid-marei-al-shehri/054.mp3",
+    "055": "walid-marei-al-shehri/055.mp3",
+    "056": "walid-marei-al-shehri/056.mp3",
+    "057": "walid-marei-al-shehri/057.mp3",
+    "058": "walid-marei-al-shehri/058.mp3",
+    "059": "walid-marei-al-shehri/059.mp3",
+    "060": "walid-marei-al-shehri/060.mp3",
+    "061": "walid-marei-al-shehri/061.mp3",
+    "062": "walid-marei-al-shehri/062.mp3",
+    "063": "walid-marei-al-shehri/063.mp3",
+    "064": "walid-marei-al-shehri/064.mp3",
+    "065": "walid-marei-al-shehri/065.mp3",
+    "066": "walid-marei-al-shehri/066.mp3",
+    "067": "walid-marei-al-shehri/067.mp3",
+    "068": "walid-marei-al-shehri/068.mp3",
+    "069": "walid-marei-al-shehri/069.mp3",
+    "070": "walid-marei-al-shehri/070.mp3",
+    "071": "walid-marei-al-shehri/071.mp3",
+    "072": "walid-marei-al-shehri/072.mp3",
+    "073": "walid-marei-al-shehri/073.mp3",
+    "074": "walid-marei-al-shehri/074.mp3",
+    "075": "walid-marei-al-shehri/075.mp3",
+    "076": "walid-marei-al-shehri/076.mp3",
+    "077": "walid-marei-al-shehri/077.mp3",
+    "078": "walid-marei-al-shehri/078.mp3",
+    "079": "walid-marei-al-shehri/079.mp3",
+    "080": "walid-marei-al-shehri/080.mp3",
+    "081": "walid-marei-al-shehri/081.mp3",
+    "082": "walid-marei-al-shehri/082.mp3",
+    "083": "walid-marei-al-shehri/083.mp3",
+    "084": "walid-marei-al-shehri/084.mp3",
+    "085": "walid-marei-al-shehri/085.mp3",
+    "086": "walid-marei-al-shehri/086.mp3",
+    "087": "walid-marei-al-shehri/087.mp3",
+    "088": "walid-marei-al-shehri/088.mp3",
+    "089": "walid-marei-al-shehri/089.mp3",
+    "090": "walid-marei-al-shehri/090.mp3",
+    "091": "walid-marei-al-shehri/091.mp3",
+    "092": "walid-marei-al-shehri/092.mp3",
+    "093": "walid-marei-al-shehri/093.mp3",
+    "094": "walid-marei-al-shehri/094.mp3",
+    "095": "walid-marei-al-shehri/095.mp3",
+    "096": "walid-marei-al-shehri/096.mp3",
+    "097": "walid-marei-al-shehri/097.mp3",
+    "098": "walid-marei-al-shehri/098.mp3",
+    "099": "walid-marei-al-shehri/099.mp3",
+    "100": "walid-marei-al-shehri/100.mp3",
+    "101": "walid-marei-al-shehri/101.mp3",
+    "102": "walid-marei-al-shehri/102.mp3",
+    "103": "walid-marei-al-shehri/103.mp3",
+    "104": "walid-marei-al-shehri/104.mp3",
+    "105": "walid-marei-al-shehri/105.mp3",
+    "106": "walid-marei-al-shehri/106.mp3",
+    "107": "walid-marei-al-shehri/107.mp3",
+    "108": "walid-marei-al-shehri/108.mp3",
+    "109": "walid-marei-al-shehri/109.mp3",
+    "110": "walid-marei-al-shehri/110.mp3",
+    "111": "walid-marei-al-shehri/111.mp3",
+    "112": "walid-marei-al-shehri/112.mp3",
+    "113": "walid-marei-al-shehri/113.mp3",
+    "114": "walid-marei-al-shehri/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "42",
+      "url": "walid-marei-al-shehri/001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqarah",
+      "duration": "2:02:59",
+      "url": "walid-marei-al-shehri/002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:11:50",
+      "url": "walid-marei-al-shehri/003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:16:24",
+      "url": "walid-marei-al-shehri/004.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "59:08",
+      "url": "walid-marei-al-shehri/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:06:14",
+      "url": "walid-marei-al-shehri/007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "23:58",
+      "url": "walid-marei-al-shehri/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "50:50",
+      "url": "walid-marei-al-shehri/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "34:51",
+      "url": "walid-marei-al-shehri/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "39:16",
+      "url": "walid-marei-al-shehri/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "34:34",
+      "url": "walid-marei-al-shehri/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "17:21",
+      "url": "walid-marei-al-shehri/013.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "18:06",
+      "url": "walid-marei-al-shehri/014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "12:46",
+      "url": "walid-marei-al-shehri/015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "36:11",
+      "url": "walid-marei-al-shehri/016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "30:14",
+      "url": "walid-marei-al-shehri/017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "30:13",
+      "url": "walid-marei-al-shehri/018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "18:38",
+      "url": "walid-marei-al-shehri/019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "25:23",
+      "url": "walid-marei-al-shehri/020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "23:40",
+      "url": "walid-marei-al-shehri/021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "24:24",
+      "url": "walid-marei-al-shehri/022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "22:25",
+      "url": "walid-marei-al-shehri/023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "25:39",
+      "url": "walid-marei-al-shehri/024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "17:03",
+      "url": "walid-marei-al-shehri/025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "26:32",
+      "url": "walid-marei-al-shehri/026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "22:57",
+      "url": "walid-marei-al-shehri/027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "27:34",
+      "url": "walid-marei-al-shehri/028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "18:52",
+      "url": "walid-marei-al-shehri/029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Rum",
+      "duration": "16:27",
+      "url": "walid-marei-al-shehri/030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "10:38",
+      "url": "walid-marei-al-shehri/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "7:38",
+      "url": "walid-marei-al-shehri/032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "26:49",
+      "url": "walid-marei-al-shehri/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "15:57",
+      "url": "walid-marei-al-shehri/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:15",
+      "url": "walid-marei-al-shehri/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "15:57",
+      "url": "walid-marei-al-shehri/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "17:40",
+      "url": "walid-marei-al-shehri/037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "14:23",
+      "url": "walid-marei-al-shehri/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "22:43",
+      "url": "walid-marei-al-shehri/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "24:38",
+      "url": "walid-marei-al-shehri/040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "16:44",
+      "url": "walid-marei-al-shehri/041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "16:28",
+      "url": "walid-marei-al-shehri/042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "17:27",
+      "url": "walid-marei-al-shehri/043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:29",
+      "url": "walid-marei-al-shehri/044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "9:05",
+      "url": "walid-marei-al-shehri/045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "12:48",
+      "url": "walid-marei-al-shehri/046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "11:45",
+      "url": "walid-marei-al-shehri/047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:57",
+      "url": "walid-marei-al-shehri/048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:27",
+      "url": "walid-marei-al-shehri/049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "9:41",
+      "url": "walid-marei-al-shehri/050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:01",
+      "url": "walid-marei-al-shehri/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:40",
+      "url": "walid-marei-al-shehri/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:07",
+      "url": "walid-marei-al-shehri/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:42",
+      "url": "walid-marei-al-shehri/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "8:23",
+      "url": "walid-marei-al-shehri/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:39",
+      "url": "walid-marei-al-shehri/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "11:54",
+      "url": "walid-marei-al-shehri/057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:09",
+      "url": "walid-marei-al-shehri/058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:05",
+      "url": "walid-marei-al-shehri/059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "7:28",
+      "url": "walid-marei-al-shehri/060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:05",
+      "url": "walid-marei-al-shehri/061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:33",
+      "url": "walid-marei-al-shehri/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:53",
+      "url": "walid-marei-al-shehri/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "5:01",
+      "url": "walid-marei-al-shehri/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:46",
+      "url": "walid-marei-al-shehri/065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "4:53",
+      "url": "walid-marei-al-shehri/066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:39",
+      "url": "walid-marei-al-shehri/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:03",
+      "url": "walid-marei-al-shehri/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "6:49",
+      "url": "walid-marei-al-shehri/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:00",
+      "url": "walid-marei-al-shehri/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:49",
+      "url": "walid-marei-al-shehri/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:32",
+      "url": "walid-marei-al-shehri/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:56",
+      "url": "walid-marei-al-shehri/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:21",
+      "url": "walid-marei-al-shehri/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:47",
+      "url": "walid-marei-al-shehri/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:53",
+      "url": "walid-marei-al-shehri/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:04",
+      "url": "walid-marei-al-shehri/077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:01",
+      "url": "walid-marei-al-shehri/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:59",
+      "url": "walid-marei-al-shehri/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:20",
+      "url": "walid-marei-al-shehri/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:18",
+      "url": "walid-marei-al-shehri/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:49",
+      "url": "walid-marei-al-shehri/082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:38",
+      "url": "walid-marei-al-shehri/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:17",
+      "url": "walid-marei-al-shehri/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:25",
+      "url": "walid-marei-al-shehri/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:15",
+      "url": "walid-marei-al-shehri/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:27",
+      "url": "walid-marei-al-shehri/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:49",
+      "url": "walid-marei-al-shehri/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:32",
+      "url": "walid-marei-al-shehri/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:35",
+      "url": "walid-marei-al-shehri/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:12",
+      "url": "walid-marei-al-shehri/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:44",
+      "url": "walid-marei-al-shehri/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "59",
+      "url": "walid-marei-al-shehri/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "38",
+      "url": "walid-marei-al-shehri/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "50",
+      "url": "walid-marei-al-shehri/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:21",
+      "url": "walid-marei-al-shehri/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "38",
+      "url": "walid-marei-al-shehri/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:47",
+      "url": "walid-marei-al-shehri/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "49",
+      "url": "walid-marei-al-shehri/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "58",
+      "url": "walid-marei-al-shehri/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "54",
+      "url": "walid-marei-al-shehri/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "46",
+      "url": "walid-marei-al-shehri/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "21",
+      "url": "walid-marei-al-shehri/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "43",
+      "url": "walid-marei-al-shehri/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "33",
+      "url": "walid-marei-al-shehri/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "29",
+      "url": "walid-marei-al-shehri/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "38",
+      "url": "walid-marei-al-shehri/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "18",
+      "url": "walid-marei-al-shehri/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "35",
+      "url": "walid-marei-al-shehri/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "25",
+      "url": "walid-marei-al-shehri/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "28",
+      "url": "walid-marei-al-shehri/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "walid-marei-al-shehri/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "26",
+      "url": "walid-marei-al-shehri/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "37",
+      "url": "walid-marei-al-shehri/114.mp3"
+    }
+  ]
+}

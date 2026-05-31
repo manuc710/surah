@@ -1,0 +1,799 @@
+{
+  "slug": "shirazad-taher",
+  "count": 113,
+  "byNumber": {
+    "001": "shirazad-taher/shirazad-taher-001-muslimcentral.com.mp3",
+    "002": "shirazad-taher/shirazad-taher-002-muslimcentral.com.mp3",
+    "003": "shirazad-taher/shirazad-taher-003-muslimcentral.com.mp3",
+    "004": "shirazad-taher/shirazad-taher-004-muslimcentral.com.mp3",
+    "005": "shirazad-taher/shirazad-taher-005-muslimcentral.com.mp3",
+    "006": "shirazad-taher/shirazad-taher-006-muslimcentral.com.mp3",
+    "007": "shirazad-taher/shirazad-taher-007-muslimcentral.com.mp3",
+    "008": "shirazad-taher/shirazad-taher-008-muslimcentral.com.mp3",
+    "009": "shirazad-taher/shirazad-taher-009-muslimcentral.com.mp3",
+    "010": "shirazad-taher/shirazad-taher-010-muslimcentral.com.mp3",
+    "011": "shirazad-taher/shirazad-taher-011-muslimcentral.com.mp3",
+    "012": "shirazad-taher/shirazad-taher-012-muslimcentral.com.mp3",
+    "013": "shirazad-taher/shirazad-taher-013-muslimcentral.com.mp3",
+    "014": "shirazad-taher/shirazad-taher-014-muslimcentral.com.mp3",
+    "015": "shirazad-taher/shirazad-taher-015-muslimcentral.com.mp3",
+    "016": "shirazad-taher/shirazad-taher-016-muslimcentral.com.mp3",
+    "017": "shirazad-taher/shirazad-taher-017-muslimcentral.com.mp3",
+    "018": "shirazad-taher/shirazad-taher-018-muslimcentral.com.mp3",
+    "019": "shirazad-taher/shirazad-taher-019-muslimcentral.com.mp3",
+    "020": "shirazad-taher/shirazad-taher-020-muslimcentral.com.mp3",
+    "021": "shirazad-taher/shirazad-taher-021-muslimcentral.com.mp3",
+    "022": "shirazad-taher/shirazad-taher-022-muslimcentral.com.mp3",
+    "023": "shirazad-taher/shirazad-taher-023-muslimcentral.com.mp3",
+    "024": "shirazad-taher/shirazad-taher-024-muslimcentral.com.mp3",
+    "025": "shirazad-taher/shirazad-taher-025-muslimcentral.com.mp3",
+    "026": "shirazad-taher/shirazad-taher-026-muslimcentral.com.mp3",
+    "027": "shirazad-taher/shirazad-taher-027-muslimcentral.com.mp3",
+    "028": "shirazad-taher/shirazad-taher-028-muslimcentral.com.mp3",
+    "029": "shirazad-taher/shirazad-taher-029-muslimcentral.com.mp3",
+    "030": "shirazad-taher/shirazad-taher-030-muslimcentral.com.mp3",
+    "031": "shirazad-taher/shirazad-taher-031-muslimcentral.com.mp3",
+    "032": "shirazad-taher/shirazad-taher-032-muslimcentral.com.mp3",
+    "033": "shirazad-taher/shirazad-taher-033-muslimcentral.com.mp3",
+    "034": "shirazad-taher/shirazad-taher-034-muslimcentral.com.mp3",
+    "035": "shirazad-taher/shirazad-taher-035-muslimcentral.com.mp3",
+    "036": "shirazad-taher/shirazad-taher-036-muslimcentral.com.mp3",
+    "037": "shirazad-taher/shirazad-taher-037-muslimcentral.com.mp3",
+    "038": "shirazad-taher/shirazad-taher-038-muslimcentral.com.mp3",
+    "039": "shirazad-taher/shirazad-taher-039-muslimcentral.com.mp3",
+    "040": "shirazad-taher/shirazad-taher-040-muslimcentral.com.mp3",
+    "041": "shirazad-taher/shirazad-taher-041-muslimcentral.com.mp3",
+    "042": "shirazad-taher/shirazad-taher-042-muslimcentral.com.mp3",
+    "043": "shirazad-taher/shirazad-taher-043-muslimcentral.com.mp3",
+    "044": "shirazad-taher/shirazad-taher-044-muslimcentral.com.mp3",
+    "045": "shirazad-taher/shirazad-taher-045-muslimcentral.com.mp3",
+    "046": "shirazad-taher/shirazad-taher-046-muslimcentral.com.mp3",
+    "047": "shirazad-taher/shirazad-taher-047-muslimcentral.com.mp3",
+    "048": "shirazad-taher/shirazad-taher-048-muslimcentral.com.mp3",
+    "049": "shirazad-taher/shirazad-taher-049-muslimcentral.com.mp3",
+    "050": "shirazad-taher/shirazad-taher-050-muslimcentral.com.mp3",
+    "051": "shirazad-taher/shirazad-taher-051-muslimcentral.com.mp3",
+    "052": "shirazad-taher/shirazad-taher-052-muslimcentral.com.mp3",
+    "053": "shirazad-taher/shirazad-taher-053-muslimcentral.com.mp3",
+    "054": "shirazad-taher/shirazad-taher-054-muslimcentral.com.mp3",
+    "055": "shirazad-taher/shirazad-taher-055-muslimcentral.com.mp3",
+    "056": "shirazad-taher/shirazad-taher-056-muslimcentral.com.mp3",
+    "057": "shirazad-taher/shirazad-taher-057-muslimcentral.com.mp3",
+    "058": "shirazad-taher/shirazad-taher-058-muslimcentral.com.mp3",
+    "059": "shirazad-taher/shirazad-taher-059-muslimcentral.com.mp3",
+    "060": "shirazad-taher/shirazad-taher-060-muslimcentral.com.mp3",
+    "061": "shirazad-taher/shirazad-taher-061-muslimcentral.com.mp3",
+    "062": "shirazad-taher/shirazad-taher-062-muslimcentral.com.mp3",
+    "063": "shirazad-taher/shirazad-taher-063-muslimcentral.com.mp3",
+    "064": "shirazad-taher/shirazad-taher-064-muslimcentral.com.mp3",
+    "065": "shirazad-taher/shirazad-taher-065-muslimcentral.com.mp3",
+    "066": "shirazad-taher/shirazad-taher-066-muslimcentral.com.mp3",
+    "067": "shirazad-taher/shirazad-taher-067-muslimcentral.com.mp3",
+    "068": "shirazad-taher/shirazad-taher-068-muslimcentral.com.mp3",
+    "069": "shirazad-taher/shirazad-taher-069-muslimcentral.com.mp3",
+    "070": "shirazad-taher/shirazad-taher-070-muslimcentral.com.mp3",
+    "071": "shirazad-taher/shirazad-taher-071-muslimcentral.com.mp3",
+    "072": "shirazad-taher/shirazad-taher-072-muslimcentral.com.mp3",
+    "073": "shirazad-taher/shirazad-taher-073-muslimcentral.com.mp3",
+    "074": "shirazad-taher/shirazad-taher-074-muslimcentral.com.mp3",
+    "075": "shirazad-taher/shirazad-taher-075-muslimcentral.com.mp3",
+    "076": "shirazad-taher/shirazad-taher-076-muslimcentral.com.mp3",
+    "077": "shirazad-taher/shirazad-taher-077-muslimcentral.com.mp3",
+    "078": "shirazad-taher/shirazad-taher-078-muslimcentral.com.mp3",
+    "079": "shirazad-taher/shirazad-taher-079-muslimcentral.com.mp3",
+    "080": "shirazad-taher/shirazad-taher-080-muslimcentral.com.mp3",
+    "081": "shirazad-taher/shirazad-taher-081-muslimcentral.com.mp3",
+    "082": "shirazad-taher/shirazad-taher-082-muslimcentral.com.mp3",
+    "083": "shirazad-taher/shirazad-taher-083-muslimcentral.com.mp3",
+    "084": "shirazad-taher/shirazad-taher-084-muslimcentral.com.mp3",
+    "085": "shirazad-taher/shirazad-taher-085-muslimcentral.com.mp3",
+    "086": "shirazad-taher/shirazad-taher-086-muslimcentral.com.mp3",
+    "087": "shirazad-taher/shirazad-taher-087-muslimcentral.com.mp3",
+    "088": "shirazad-taher/shirazad-taher-088-muslimcentral.com.mp3",
+    "089": "shirazad-taher/shirazad-taher-089-muslimcentral.com.mp3",
+    "090": "shirazad-taher/shirazad-taher-090-muslimcentral.com.mp3",
+    "091": "shirazad-taher/shirazad-taher-091-muslimcentral.com.mp3",
+    "092": "shirazad-taher/shirazad-taher-092-muslimcentral.com.mp3",
+    "093": "shirazad-taher/shirazad-taher-093-muslimcentral.com.mp3",
+    "094": "shirazad-taher/shirazad-taher-094-muslimcentral.com.mp3",
+    "096": "shirazad-taher/shirazad-taher-096-muslimcentral.com.mp3",
+    "097": "shirazad-taher/shirazad-taher-097-muslimcentral.com.mp3",
+    "098": "shirazad-taher/shirazad-taher-098-muslimcentral.com.mp3",
+    "099": "shirazad-taher/shirazad-taher-099-muslimcentral.com.mp3",
+    "100": "shirazad-taher/shirazad-taher-100-muslimcentral.com.mp3",
+    "101": "shirazad-taher/shirazad-taher-101-muslimcentral.com.mp3",
+    "102": "shirazad-taher/shirazad-taher-102-muslimcentral.com.mp3",
+    "103": "shirazad-taher/shirazad-taher-103-muslimcentral.com.mp3",
+    "104": "shirazad-taher/shirazad-taher-104-muslimcentral.com.mp3",
+    "105": "shirazad-taher/shirazad-taher-105-muslimcentral.com.mp3",
+    "106": "shirazad-taher/shirazad-taher-106-muslimcentral.com.mp3",
+    "107": "shirazad-taher/shirazad-taher-107-muslimcentral.com.mp3",
+    "108": "shirazad-taher/shirazad-taher-108-muslimcentral.com.mp3",
+    "109": "shirazad-taher/shirazad-taher-109-muslimcentral.com.mp3",
+    "110": "shirazad-taher/shirazad-taher-110-muslimcentral.com.mp3",
+    "111": "shirazad-taher/shirazad-taher-111-muslimcentral.com.mp3",
+    "112": "shirazad-taher/shirazad-taher-112-muslimcentral.com.mp3",
+    "113": "shirazad-taher/shirazad-taher-113-muslimcentral.com.mp3",
+    "114": "shirazad-taher/shirazad-taher-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "55",
+      "url": "shirazad-taher/shirazad-taher-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqara",
+      "duration": "2:26:20",
+      "url": "shirazad-taher/shirazad-taher-002-muslimcentral.com.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:17:37",
+      "url": "shirazad-taher/shirazad-taher-003-muslimcentral.com.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:18:05",
+      "url": "shirazad-taher/shirazad-taher-004-muslimcentral.com.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "1:02:57",
+      "url": "shirazad-taher/shirazad-taher-005-muslimcentral.com.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:09:41",
+      "url": "shirazad-taher/shirazad-taher-006-muslimcentral.com.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:13:47",
+      "url": "shirazad-taher/shirazad-taher-007-muslimcentral.com.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "27:29",
+      "url": "shirazad-taher/shirazad-taher-008-muslimcentral.com.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "57:36",
+      "url": "shirazad-taher/shirazad-taher-009-muslimcentral.com.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "40:51",
+      "url": "shirazad-taher/shirazad-taher-010-muslimcentral.com.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "46:45",
+      "url": "shirazad-taher/shirazad-taher-011-muslimcentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "43:21",
+      "url": "shirazad-taher/shirazad-taher-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "19:30",
+      "url": "shirazad-taher/shirazad-taher-013-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "18:14",
+      "url": "shirazad-taher/shirazad-taher-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "14:46",
+      "url": "shirazad-taher/shirazad-taher-015-muslimcentral.com.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "39:24",
+      "url": "shirazad-taher/shirazad-taher-016-muslimcentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "32:13",
+      "url": "shirazad-taher/shirazad-taher-017-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "31:05",
+      "url": "shirazad-taher/shirazad-taher-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "20:24",
+      "url": "shirazad-taher/shirazad-taher-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "28:13",
+      "url": "shirazad-taher/shirazad-taher-020-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "25:12",
+      "url": "shirazad-taher/shirazad-taher-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "26:20",
+      "url": "shirazad-taher/shirazad-taher-022-muslimcentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "25:39",
+      "url": "shirazad-taher/shirazad-taher-023-muslimcentral.com.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "27:09",
+      "url": "shirazad-taher/shirazad-taher-024-muslimcentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "18:16",
+      "url": "shirazad-taher/shirazad-taher-025-muslimcentral.com.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "29:33",
+      "url": "shirazad-taher/shirazad-taher-026-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "27:20",
+      "url": "shirazad-taher/shirazad-taher-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "30:33",
+      "url": "shirazad-taher/shirazad-taher-028-muslimcentral.com.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "22:04",
+      "url": "shirazad-taher/shirazad-taher-029-muslimcentral.com.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Room",
+      "duration": "18:52",
+      "url": "shirazad-taher/shirazad-taher-030-muslimcentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "11:43",
+      "url": "shirazad-taher/shirazad-taher-031-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "9:38",
+      "url": "shirazad-taher/shirazad-taher-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "26:22",
+      "url": "shirazad-taher/shirazad-taher-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "19:57",
+      "url": "shirazad-taher/shirazad-taher-034-muslimcentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "16:10",
+      "url": "shirazad-taher/shirazad-taher-035-muslimcentral.com.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "17:33",
+      "url": "shirazad-taher/shirazad-taher-036-muslimcentral.com.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "18:22",
+      "url": "shirazad-taher/shirazad-taher-037-muslimcentral.com.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "15:34",
+      "url": "shirazad-taher/shirazad-taher-038-muslimcentral.com.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "24:59",
+      "url": "shirazad-taher/shirazad-taher-039-muslimcentral.com.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "25:51",
+      "url": "shirazad-taher/shirazad-taher-040-muslimcentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "17:29",
+      "url": "shirazad-taher/shirazad-taher-041-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "19:22",
+      "url": "shirazad-taher/shirazad-taher-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "20:24",
+      "url": "shirazad-taher/shirazad-taher-043-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "8:14",
+      "url": "shirazad-taher/shirazad-taher-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "12:08",
+      "url": "shirazad-taher/shirazad-taher-045-muslimcentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "15:27",
+      "url": "shirazad-taher/shirazad-taher-046-muslimcentral.com.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "12:16",
+      "url": "shirazad-taher/shirazad-taher-047-muslimcentral.com.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "12:39",
+      "url": "shirazad-taher/shirazad-taher-048-muslimcentral.com.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "8:12",
+      "url": "shirazad-taher/shirazad-taher-049-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "9:13",
+      "url": "shirazad-taher/shirazad-taher-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "7:59",
+      "url": "shirazad-taher/shirazad-taher-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:56",
+      "url": "shirazad-taher/shirazad-taher-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:19",
+      "url": "shirazad-taher/shirazad-taher-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "8:02",
+      "url": "shirazad-taher/shirazad-taher-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "10:15",
+      "url": "shirazad-taher/shirazad-taher-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "10:54",
+      "url": "shirazad-taher/shirazad-taher-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "12:29",
+      "url": "shirazad-taher/shirazad-taher-057-muslimcentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "10:05",
+      "url": "shirazad-taher/shirazad-taher-058-muslimcentral.com.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:56",
+      "url": "shirazad-taher/shirazad-taher-059-muslimcentral.com.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "8:38",
+      "url": "shirazad-taher/shirazad-taher-060-muslimcentral.com.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "5:03",
+      "url": "shirazad-taher/shirazad-taher-061-muslimcentral.com.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "3:53",
+      "url": "shirazad-taher/shirazad-taher-062-muslimcentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:38",
+      "url": "shirazad-taher/shirazad-taher-063-muslimcentral.com.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "5:05",
+      "url": "shirazad-taher/shirazad-taher-064-muslimcentral.com.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "6:26",
+      "url": "shirazad-taher/shirazad-taher-065-muslimcentral.com.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "6:05",
+      "url": "shirazad-taher/shirazad-taher-066-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:52",
+      "url": "shirazad-taher/shirazad-taher-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:19",
+      "url": "shirazad-taher/shirazad-taher-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:46",
+      "url": "shirazad-taher/shirazad-taher-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:57",
+      "url": "shirazad-taher/shirazad-taher-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:54",
+      "url": "shirazad-taher/shirazad-taher-071-muslimcentral.com.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:37",
+      "url": "shirazad-taher/shirazad-taher-072-muslimcentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:16",
+      "url": "shirazad-taher/shirazad-taher-073-muslimcentral.com.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:15",
+      "url": "shirazad-taher/shirazad-taher-074-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:41",
+      "url": "shirazad-taher/shirazad-taher-075-muslimcentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "6:15",
+      "url": "shirazad-taher/shirazad-taher-076-muslimcentral.com.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:50",
+      "url": "shirazad-taher/shirazad-taher-077-muslimcentral.com.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:09",
+      "url": "shirazad-taher/shirazad-taher-078-muslimcentral.com.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:35",
+      "url": "shirazad-taher/shirazad-taher-079-muslimcentral.com.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:49",
+      "url": "shirazad-taher/shirazad-taher-080-muslimcentral.com.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "1:56",
+      "url": "shirazad-taher/shirazad-taher-081-muslimcentral.com.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:47",
+      "url": "shirazad-taher/shirazad-taher-082-muslimcentral.com.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:41",
+      "url": "shirazad-taher/shirazad-taher-083-muslimcentral.com.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:07",
+      "url": "shirazad-taher/shirazad-taher-084-muslimcentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:25",
+      "url": "shirazad-taher/shirazad-taher-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:15",
+      "url": "shirazad-taher/shirazad-taher-086-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:16",
+      "url": "shirazad-taher/shirazad-taher-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:41",
+      "url": "shirazad-taher/shirazad-taher-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:05",
+      "url": "shirazad-taher/shirazad-taher-089-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:32",
+      "url": "shirazad-taher/shirazad-taher-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:09",
+      "url": "shirazad-taher/shirazad-taher-091-muslimcentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:28",
+      "url": "shirazad-taher/shirazad-taher-092-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "50",
+      "url": "shirazad-taher/shirazad-taher-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "30",
+      "url": "shirazad-taher/shirazad-taher-094-muslimcentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:22",
+      "url": "shirazad-taher/shirazad-taher-096-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "35",
+      "url": "shirazad-taher/shirazad-taher-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:58",
+      "url": "shirazad-taher/shirazad-taher-098-muslimcentral.com.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "46",
+      "url": "shirazad-taher/shirazad-taher-099-muslimcentral.com.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "55",
+      "url": "shirazad-taher/shirazad-taher-100-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "51",
+      "url": "shirazad-taher/shirazad-taher-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "41",
+      "url": "shirazad-taher/shirazad-taher-102-muslimcentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "25",
+      "url": "shirazad-taher/shirazad-taher-103-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "40",
+      "url": "shirazad-taher/shirazad-taher-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "34",
+      "url": "shirazad-taher/shirazad-taher-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "32",
+      "url": "shirazad-taher/shirazad-taher-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "39",
+      "url": "shirazad-taher/shirazad-taher-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "15",
+      "url": "shirazad-taher/shirazad-taher-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "39",
+      "url": "shirazad-taher/shirazad-taher-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "25",
+      "url": "shirazad-taher/shirazad-taher-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "30",
+      "url": "shirazad-taher/shirazad-taher-111-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "14",
+      "url": "shirazad-taher/shirazad-taher-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "24",
+      "url": "shirazad-taher/shirazad-taher-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "38",
+      "url": "shirazad-taher/shirazad-taher-114-muslimcentral.com.mp3"
+    }
+  ]
+}

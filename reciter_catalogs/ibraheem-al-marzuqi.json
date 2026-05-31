@@ -1,0 +1,29 @@
+{
+  "slug": "ibraheem-al-marzuqi",
+  "count": 3,
+  "byNumber": {
+    "031": "ibraheem-al-marzuqi/031.mp3",
+    "032": "ibraheem-al-marzuqi/032.mp3",
+    "049": "ibraheem-al-marzuqi/049.mp3"
+  },
+  "list": [
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "14:56",
+      "url": "ibraheem-al-marzuqi/031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "11:02",
+      "url": "ibraheem-al-marzuqi/032.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "10:03",
+      "url": "ibraheem-al-marzuqi/049.mp3"
+    }
+  ]
+}

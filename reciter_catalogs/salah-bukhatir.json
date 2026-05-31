@@ -1,0 +1,799 @@
+{
+  "slug": "salah-bukhatir",
+  "count": 113,
+  "byNumber": {
+    "001": "salah-bukhatir/salah-bukhatir-01-al-fatiha.mp3",
+    "002": "salah-bukhatir/salah-bukhatir-02-al-bakara.mp3",
+    "003": "salah-bukhatir/salah-bukhatir-03-al-omran.mp3",
+    "004": "salah-bukhatir/salah-bukhatir-04-al-nissaa.mp3",
+    "005": "salah-bukhatir/salah-bukhatir-05-al-ma-idaa.mp3",
+    "006": "salah-bukhatir/salah-bukhatir-06-al-an-aam.mp3",
+    "007": "salah-bukhatir/salah-bukhatir-07-al-a-aaraf.mp3",
+    "008": "salah-bukhatir/salah-bukhatir-08-al-anfal.mp3",
+    "009": "salah-bukhatir/salah-bukhatir-09-al-tawbah.mp3",
+    "010": "salah-bukhatir/salah-bukhatir-10-younus.mp3",
+    "011": "salah-bukhatir/salah-bukhatir-11-houd.mp3",
+    "012": "salah-bukhatir/salah-bukhatir-12-yousouf-.mp3",
+    "013": "salah-bukhatir/salah-bukhatir-13-al-raad.mp3",
+    "014": "salah-bukhatir/salah-bukhatir-14-ibrahim.mp3",
+    "015": "salah-bukhatir/salah-bukhatir-15-al-hijr.mp3",
+    "016": "salah-bukhatir/salah-bukhatir-16-al-nahl.mp3",
+    "017": "salah-bukhatir/salah-bukhatir-17-al-israa.mp3",
+    "018": "salah-bukhatir/salah-bukhatir-18-al-kahf-.mp3",
+    "019": "salah-bukhatir/salah-bukhatir-19-maryam.mp3",
+    "020": "salah-bukhatir/salah-bukhatir-20-taha.mp3",
+    "021": "salah-bukhatir/salah-bukhatir-21-al-anbiyaa.mp3",
+    "022": "salah-bukhatir/salah-bukhatir-22-al-hajj.mp3",
+    "023": "salah-bukhatir/salah-bukhatir-23-al-moominoun.mp3",
+    "024": "salah-bukhatir/salah-bukhatir-24-al-noor.mp3",
+    "025": "salah-bukhatir/salah-bukhatir-25-al-forkan.mp3",
+    "026": "salah-bukhatir/salah-bukhatir-26-al-shoaraa.mp3",
+    "027": "salah-bukhatir/salah-bukhatir-27-al-naml.mp3",
+    "028": "salah-bukhatir/salah-bukhatir-28-al-qasas.mp3",
+    "029": "salah-bukhatir/salah-bukhatir-29-al-ankabout.mp3",
+    "030": "salah-bukhatir/salah-bukhatir-30-al-room.mp3",
+    "031": "salah-bukhatir/salah-bukhatir-31-lokman.mp3",
+    "032": "salah-bukhatir/salah-bukhatir-32-al-sajdah.mp3",
+    "033": "salah-bukhatir/salah-bukhatir-33-al-ahzab.mp3",
+    "034": "salah-bukhatir/salah-bukhatir-34-sabaa.mp3",
+    "035": "salah-bukhatir/salah-bukhatir-35-fatir.mp3",
+    "036": "salah-bukhatir/salah-bukhatir-36-yasin.mp3",
+    "037": "salah-bukhatir/salah-bukhatir-37-al-saffat.mp3",
+    "038": "salah-bukhatir/salah-bukhatir-38-sad.mp3",
+    "039": "salah-bukhatir/salah-bukhatir-39-al-zomar-.mp3",
+    "040": "salah-bukhatir/salah-bukhatir-40-gafir.mp3",
+    "041": "salah-bukhatir/salah-bukhatir-41-foussilat.mp3",
+    "042": "salah-bukhatir/salah-bukhatir-42-al-shoura.mp3",
+    "043": "salah-bukhatir/salah-bukhatir-43-al-zokhroff.mp3",
+    "044": "salah-bukhatir/salah-bukhatir-44-al-dokhan.mp3",
+    "045": "salah-bukhatir/salah-bukhatir-45-al-jathiya.mp3",
+    "046": "salah-bukhatir/salah-bukhatir-46-al-ah-khaff.mp3",
+    "047": "salah-bukhatir/salah-bukhatir-47-mohammad.mp3",
+    "048": "salah-bukhatir/salah-bukhatir-48al-fath.mp3",
+    "049": "salah-bukhatir/salah-bukhatir-49-al-hojorat.mp3",
+    "050": "salah-bukhatir/salah-bukhatir-50-qaaf.mp3",
+    "051": "salah-bukhatir/salah-bukhatir-51-al-zariyat.mp3",
+    "052": "salah-bukhatir/salah-bukhatir-52-al-toor.mp3",
+    "053": "salah-bukhatir/salah-bukhatir-53-al-najm.mp3",
+    "054": "salah-bukhatir/salah-bukhatir-54-al-qamar.mp3",
+    "055": "salah-bukhatir/salah-bukhatir-55-al-rahman.mp3",
+    "056": "salah-bukhatir/salah-bukhatir-56-al-wakia.mp3",
+    "057": "salah-bukhatir/salah-bukhatir-57-al-hadid.mp3",
+    "058": "salah-bukhatir/salah-bukhatir-58-al-mojadalah.mp3",
+    "059": "salah-bukhatir/salah-bukhatir-59-al-hasher.mp3",
+    "060": "salah-bukhatir/salah-bukhatir-60-al-momtahina.mp3",
+    "061": "salah-bukhatir/salah-bukhatir-61-al-saff.mp3",
+    "062": "salah-bukhatir/salah-bukhatir-62-al-jom-aa.mp3",
+    "063": "salah-bukhatir/salah-bukhatir-63-al-monafiqoun.mp3",
+    "064": "salah-bukhatir/salah-bukhatir-64-al-tagaboun.mp3",
+    "065": "salah-bukhatir/salah-bukhatir-65-al-talak.mp3",
+    "066": "salah-bukhatir/salah-bukhatir-66-al-tahrim.mp3",
+    "067": "salah-bukhatir/salah-bukhatir-67-al-molk.mp3",
+    "068": "salah-bukhatir/salah-bukhatir-68-al-qalam.mp3",
+    "069": "salah-bukhatir/salah-bukhatir-69-al-hakka.mp3",
+    "070": "salah-bukhatir/salah-bukhatir-70-al-maarij.mp3",
+    "071": "salah-bukhatir/salah-bukhatir-71-nouh.mp3",
+    "072": "salah-bukhatir/salah-bukhatir-72-al-jinn.mp3",
+    "073": "salah-bukhatir/salah-bukhatir-73-al-mozamil.mp3",
+    "074": "salah-bukhatir/salah-bukhatir-74-al-mudathir.mp3",
+    "075": "salah-bukhatir/salah-bukhatir-75-al-qiyamah-.mp3",
+    "076": "salah-bukhatir/salah-bukhatir-76-al-insan.mp3",
+    "078": "salah-bukhatir/salah-bukhatir-78-al-nabaa.mp3",
+    "079": "salah-bukhatir/salah-bukhatir-79-al-nazi-at.mp3",
+    "080": "salah-bukhatir/salah-bukhatir-80-abasa.mp3",
+    "081": "salah-bukhatir/salah-bukhatir-81-al-takweer.mp3",
+    "082": "salah-bukhatir/salah-bukhatir-82-al-infitar.mp3",
+    "083": "salah-bukhatir/salah-bukhatir-83-al-motafifin.mp3",
+    "084": "salah-bukhatir/salah-bukhatir-84-al-inshikak.mp3",
+    "085": "salah-bukhatir/salah-bukhatir-85-al-bourouj.mp3",
+    "086": "salah-bukhatir/salah-bukhatir-86-al-tariq.mp3",
+    "087": "salah-bukhatir/salah-bukhatir-87-al-a3la.mp3",
+    "088": "salah-bukhatir/salah-bukhatir-88-al-gashiya.mp3",
+    "089": "salah-bukhatir/salah-bukhatir-89-al-fajer.mp3",
+    "090": "salah-bukhatir/salah-bukhatir-90-al-balad.mp3",
+    "091": "salah-bukhatir/salah-bukhatir-91-al-shams.mp3",
+    "092": "salah-bukhatir/salah-bukhatir-92-al-layel.mp3",
+    "093": "salah-bukhatir/salah-bukhatir-93-al-duha.mp3",
+    "094": "salah-bukhatir/salah-bukhatir-94-al-shar7.mp3",
+    "095": "salah-bukhatir/salah-bukhatir-95-al-teen.mp3",
+    "096": "salah-bukhatir/salah-bukhatir-96-al-alaq.mp3",
+    "097": "salah-bukhatir/salah-bukhatir-97-al-qader.mp3",
+    "098": "salah-bukhatir/salah-bukhatir-98-al-bayinah.mp3",
+    "099": "salah-bukhatir/salah-bukhatir-99-al-zalzalah.mp3",
+    "100": "salah-bukhatir/salah-bukhatir-i00-al-adiyat.mp3",
+    "101": "salah-bukhatir/salah-bukhatir-i01-al-qari3a.mp3",
+    "102": "salah-bukhatir/salah-bukhatir-i02-al-takathour.mp3",
+    "103": "salah-bukhatir/salah-bukhatir-i03-al-asr.mp3",
+    "104": "salah-bukhatir/salah-bukhatir-i04-al-humazah.mp3",
+    "105": "salah-bukhatir/salah-bukhatir-i05-al-feel.mp3",
+    "106": "salah-bukhatir/salah-bukhatir-i06-quraish.mp3",
+    "107": "salah-bukhatir/salah-bukhatir-i07-al-ma3oun.mp3",
+    "108": "salah-bukhatir/salah-bukhatir-i08-al-kawthar.mp3",
+    "109": "salah-bukhatir/salah-bukhatir-i09-al-kafiroun.mp3",
+    "110": "salah-bukhatir/salah-bukhatir-ii0-al-nasr.mp3",
+    "111": "salah-bukhatir/salah-bukhatir-ii1-al-masad.mp3",
+    "112": "salah-bukhatir/salah-bukhatir-ii2-al-ikhlass.mp3",
+    "113": "salah-bukhatir/salah-bukhatir-ii3-al-falak.mp3",
+    "114": "salah-bukhatir/salah-bukhatir-ii4-al-nass.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 AlFatiha",
+      "duration": "53",
+      "url": "salah-bukhatir/salah-bukhatir-01-al-fatiha.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 AlBaqara",
+      "duration": "1:53:40",
+      "url": "salah-bukhatir/salah-bukhatir-02-al-bakara.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 AalEImran",
+      "duration": "1:05:06",
+      "url": "salah-bukhatir/salah-bukhatir-03-al-omran.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 AnNisa",
+      "duration": "1:07:31",
+      "url": "salah-bukhatir/salah-bukhatir-04-al-nissaa.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 AlMaidah",
+      "duration": "49:33",
+      "url": "salah-bukhatir/salah-bukhatir-05-al-ma-idaa.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 AlAnaam",
+      "duration": "52:33",
+      "url": "salah-bukhatir/salah-bukhatir-06-al-an-aam.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 AlAraf",
+      "duration": "1:03:08",
+      "url": "salah-bukhatir/salah-bukhatir-07-al-a-aaraf.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 AlAnfal",
+      "duration": "23:04",
+      "url": "salah-bukhatir/salah-bukhatir-08-al-anfal.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 AtTawba",
+      "duration": "44:26",
+      "url": "salah-bukhatir/salah-bukhatir-09-al-tawbah.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "30:54",
+      "url": "salah-bukhatir/salah-bukhatir-10-younus.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "34:23",
+      "url": "salah-bukhatir/salah-bukhatir-11-houd.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "30:49",
+      "url": "salah-bukhatir/salah-bukhatir-12-yousouf-.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 ArRad",
+      "duration": "15:01",
+      "url": "salah-bukhatir/salah-bukhatir-13-al-raad.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "16:26",
+      "url": "salah-bukhatir/salah-bukhatir-14-ibrahim.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 AlHijr",
+      "duration": "12:45",
+      "url": "salah-bukhatir/salah-bukhatir-15-al-hijr.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 AnNahl",
+      "duration": "32:34",
+      "url": "salah-bukhatir/salah-bukhatir-16-al-nahl.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 AlIsra",
+      "duration": "26:28",
+      "url": "salah-bukhatir/salah-bukhatir-17-al-israa.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 AlKahf",
+      "duration": "26:04",
+      "url": "salah-bukhatir/salah-bukhatir-18-al-kahf-.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "16:22",
+      "url": "salah-bukhatir/salah-bukhatir-19-maryam.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 TaHa",
+      "duration": "21:32",
+      "url": "salah-bukhatir/salah-bukhatir-20-taha.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 AlAnbiya",
+      "duration": "21:00",
+      "url": "salah-bukhatir/salah-bukhatir-21-al-anbiyaa.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 AlHajj",
+      "duration": "21:44",
+      "url": "salah-bukhatir/salah-bukhatir-22-al-hajj.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 AlMumenoon",
+      "duration": "18:54",
+      "url": "salah-bukhatir/salah-bukhatir-23-al-moominoun.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 AnNoor",
+      "duration": "23:03",
+      "url": "salah-bukhatir/salah-bukhatir-24-al-noor.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 AlFurqan",
+      "duration": "15:37",
+      "url": "salah-bukhatir/salah-bukhatir-25-al-forkan.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 AshShuara",
+      "duration": "24:55",
+      "url": "salah-bukhatir/salah-bukhatir-26-al-shoaraa.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 AnNaml",
+      "duration": "21:15",
+      "url": "salah-bukhatir/salah-bukhatir-27-al-naml.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 AlQasas",
+      "duration": "24:42",
+      "url": "salah-bukhatir/salah-bukhatir-28-al-qasas.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 AlAnkaboot",
+      "duration": "17:06",
+      "url": "salah-bukhatir/salah-bukhatir-29-al-ankabout.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 ArRoom",
+      "duration": "14:27",
+      "url": "salah-bukhatir/salah-bukhatir-30-al-room.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "16:50",
+      "url": "salah-bukhatir/salah-bukhatir-31-lokman.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 AsSajda",
+      "duration": "7:28",
+      "url": "salah-bukhatir/salah-bukhatir-32-al-sajdah.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 AlAhzab",
+      "duration": "23:59",
+      "url": "salah-bukhatir/salah-bukhatir-33-al-ahzab.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "15:33",
+      "url": "salah-bukhatir/salah-bukhatir-34-sabaa.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:18",
+      "url": "salah-bukhatir/salah-bukhatir-35-fatir.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 YaSeen",
+      "duration": "13:07",
+      "url": "salah-bukhatir/salah-bukhatir-36-yasin.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 AsSaaffat",
+      "duration": "18:43",
+      "url": "salah-bukhatir/salah-bukhatir-37-al-saffat.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "14:44",
+      "url": "salah-bukhatir/salah-bukhatir-38-sad.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 AzZumar",
+      "duration": "23:31",
+      "url": "salah-bukhatir/salah-bukhatir-39-al-zomar-.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "23:56",
+      "url": "salah-bukhatir/salah-bukhatir-40-gafir.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "14:32",
+      "url": "salah-bukhatir/salah-bukhatir-41-foussilat.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 AshShura",
+      "duration": "15:40",
+      "url": "salah-bukhatir/salah-bukhatir-42-al-shoura.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 AzZukhruf",
+      "duration": "17:26",
+      "url": "salah-bukhatir/salah-bukhatir-43-al-zokhroff.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 AdDukhan",
+      "duration": "7:40",
+      "url": "salah-bukhatir/salah-bukhatir-44-al-dokhan.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 AlJathiya",
+      "duration": "9:11",
+      "url": "salah-bukhatir/salah-bukhatir-45-al-jathiya.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 AlAhqaf",
+      "duration": "10:51",
+      "url": "salah-bukhatir/salah-bukhatir-46-al-ah-khaff.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "10:18",
+      "url": "salah-bukhatir/salah-bukhatir-47-mohammad.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 AlFath",
+      "duration": "10:00",
+      "url": "salah-bukhatir/salah-bukhatir-48al-fath.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 AlHujraat",
+      "duration": "6:19",
+      "url": "salah-bukhatir/salah-bukhatir-49-al-hojorat.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:50",
+      "url": "salah-bukhatir/salah-bukhatir-50-qaaf.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 AdhDhariyat",
+      "duration": "7:16",
+      "url": "salah-bukhatir/salah-bukhatir-51-al-zariyat.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 AtTur",
+      "duration": "6:12",
+      "url": "salah-bukhatir/salah-bukhatir-52-al-toor.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 AnNajm",
+      "duration": "6:48",
+      "url": "salah-bukhatir/salah-bukhatir-53-al-najm.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 AlQamar",
+      "duration": "6:31",
+      "url": "salah-bukhatir/salah-bukhatir-54-al-qamar.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 ArRahman",
+      "duration": "9:06",
+      "url": "salah-bukhatir/salah-bukhatir-55-al-rahman.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 AlWaqia",
+      "duration": "9:07",
+      "url": "salah-bukhatir/salah-bukhatir-56-al-wakia.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 AlHadid",
+      "duration": "10:40",
+      "url": "salah-bukhatir/salah-bukhatir-57-al-hadid.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 AlMujadila",
+      "duration": "8:54",
+      "url": "salah-bukhatir/salah-bukhatir-58-al-mojadalah.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 AlHashr",
+      "duration": "8:14",
+      "url": "salah-bukhatir/salah-bukhatir-59-al-hasher.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 AlMumtahina",
+      "duration": "6:26",
+      "url": "salah-bukhatir/salah-bukhatir-60-al-momtahina.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 AsSaff",
+      "duration": "4:03",
+      "url": "salah-bukhatir/salah-bukhatir-61-al-saff.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 AlJumua",
+      "duration": "3:03",
+      "url": "salah-bukhatir/salah-bukhatir-62-al-jom-aa.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 AlMunafiqoon",
+      "duration": "3:17",
+      "url": "salah-bukhatir/salah-bukhatir-63-al-monafiqoun.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 AtTaghabun",
+      "duration": "4:17",
+      "url": "salah-bukhatir/salah-bukhatir-64-al-tagaboun.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 AtTalaq",
+      "duration": "4:52",
+      "url": "salah-bukhatir/salah-bukhatir-65-al-talak.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 AtTahrim",
+      "duration": "4:29",
+      "url": "salah-bukhatir/salah-bukhatir-66-al-tahrim.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 AlMulk",
+      "duration": "5:45",
+      "url": "salah-bukhatir/salah-bukhatir-67-al-molk.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 AlQalam",
+      "duration": "6:14",
+      "url": "salah-bukhatir/salah-bukhatir-68-al-qalam.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 AlHaaqqa",
+      "duration": "5:20",
+      "url": "salah-bukhatir/salah-bukhatir-69-al-hakka.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 AlMaarij",
+      "duration": "4:18",
+      "url": "salah-bukhatir/salah-bukhatir-70-al-maarij.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "3:57",
+      "url": "salah-bukhatir/salah-bukhatir-71-nouh.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 AlJinn",
+      "duration": "4:37",
+      "url": "salah-bukhatir/salah-bukhatir-72-al-jinn.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 AlMuzzammil",
+      "duration": "3:28",
+      "url": "salah-bukhatir/salah-bukhatir-73-al-mozamil.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 AlMuddaththir",
+      "duration": "4:30",
+      "url": "salah-bukhatir/salah-bukhatir-74-al-mudathir.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 AlQiyama",
+      "duration": "3:19",
+      "url": "salah-bukhatir/salah-bukhatir-75-al-qiyamah-.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 AlInsan",
+      "duration": "4:31",
+      "url": "salah-bukhatir/salah-bukhatir-76-al-insan.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 AnNaba",
+      "duration": "3:49",
+      "url": "salah-bukhatir/salah-bukhatir-78-al-nabaa.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 AnNaziat",
+      "duration": "3:48",
+      "url": "salah-bukhatir/salah-bukhatir-79-al-nazi-at.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:45",
+      "url": "salah-bukhatir/salah-bukhatir-80-abasa.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 AtTakwir",
+      "duration": "1:59",
+      "url": "salah-bukhatir/salah-bukhatir-81-al-takweer.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 AlInfitar",
+      "duration": "1:37",
+      "url": "salah-bukhatir/salah-bukhatir-82-al-infitar.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 AlMutaffifin",
+      "duration": "3:49",
+      "url": "salah-bukhatir/salah-bukhatir-83-al-motafifin.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 AlInshiqaq",
+      "duration": "2:09",
+      "url": "salah-bukhatir/salah-bukhatir-84-al-inshikak.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 AlBurooj",
+      "duration": "2:20",
+      "url": "salah-bukhatir/salah-bukhatir-85-al-bourouj.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 AtTariq",
+      "duration": "1:20",
+      "url": "salah-bukhatir/salah-bukhatir-86-al-tariq.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 AlAla",
+      "duration": "1:17",
+      "url": "salah-bukhatir/salah-bukhatir-87-al-a3la.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 AlGhashiya",
+      "duration": "1:45",
+      "url": "salah-bukhatir/salah-bukhatir-88-al-gashiya.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 AlFajr",
+      "duration": "2:52",
+      "url": "salah-bukhatir/salah-bukhatir-89-al-fajer.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 AlBalad",
+      "duration": "1:30",
+      "url": "salah-bukhatir/salah-bukhatir-90-al-balad.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 AshShams",
+      "duration": "1:04",
+      "url": "salah-bukhatir/salah-bukhatir-91-al-shams.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 AlLail",
+      "duration": "1:30",
+      "url": "salah-bukhatir/salah-bukhatir-92-al-layel.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 AdDhuha",
+      "duration": "52",
+      "url": "salah-bukhatir/salah-bukhatir-93-al-duha.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 AlInshirah",
+      "duration": "31",
+      "url": "salah-bukhatir/salah-bukhatir-94-al-shar7.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 AtTin",
+      "duration": "44",
+      "url": "salah-bukhatir/salah-bukhatir-95-al-teen.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 AlAlaq",
+      "duration": "1:19",
+      "url": "salah-bukhatir/salah-bukhatir-96-al-alaq.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 AlQadr",
+      "duration": "42",
+      "url": "salah-bukhatir/salah-bukhatir-97-al-qader.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 AlBayyina",
+      "duration": "1:49",
+      "url": "salah-bukhatir/salah-bukhatir-98-al-bayinah.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 AzZalzala",
+      "duration": "46",
+      "url": "salah-bukhatir/salah-bukhatir-99-al-zalzalah.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 AlAdiyat",
+      "duration": "1:01",
+      "url": "salah-bukhatir/salah-bukhatir-i00-al-adiyat.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 AlQaria",
+      "duration": "47",
+      "url": "salah-bukhatir/salah-bukhatir-i01-al-qari3a.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 AtTakathur",
+      "duration": "40",
+      "url": "salah-bukhatir/salah-bukhatir-i02-al-takathour.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 AlAsr",
+      "duration": "19",
+      "url": "salah-bukhatir/salah-bukhatir-i03-al-asr.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 AlHumaza",
+      "duration": "39",
+      "url": "salah-bukhatir/salah-bukhatir-i04-al-humazah.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 AlFil",
+      "duration": "34",
+      "url": "salah-bukhatir/salah-bukhatir-i05-al-feel.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "29",
+      "url": "salah-bukhatir/salah-bukhatir-i06-quraish.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 AlMaun",
+      "duration": "35",
+      "url": "salah-bukhatir/salah-bukhatir-i07-al-ma3oun.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 AlKauther",
+      "duration": "18",
+      "url": "salah-bukhatir/salah-bukhatir-i08-al-kawthar.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 AlKafiroon",
+      "duration": "30",
+      "url": "salah-bukhatir/salah-bukhatir-i09-al-kafiroun.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 AnNasr",
+      "duration": "24",
+      "url": "salah-bukhatir/salah-bukhatir-ii0-al-nasr.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 AlMasadd",
+      "duration": "29",
+      "url": "salah-bukhatir/salah-bukhatir-ii1-al-masad.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 AlIkhlas",
+      "duration": "17",
+      "url": "salah-bukhatir/salah-bukhatir-ii2-al-ikhlass.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 AlFalaq",
+      "duration": "25",
+      "url": "salah-bukhatir/salah-bukhatir-ii3-al-falak.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 AnNas",
+      "duration": "36",
+      "url": "salah-bukhatir/salah-bukhatir-ii4-al-nass.mp3"
+    }
+  ]
+}

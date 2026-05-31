@@ -1,0 +1,29 @@
+{
+  "slug": "fathi-al-melaiji",
+  "count": 3,
+  "byNumber": {
+    "044": "fathi-al-melaiji/044.mp3",
+    "086": "fathi-al-melaiji/086.mp3",
+    "106": "fathi-al-melaiji/106.mp3"
+  },
+  "list": [
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "24:48",
+      "url": "fathi-al-melaiji/044.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "5:24",
+      "url": "fathi-al-melaiji/086.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "2:56",
+      "url": "fathi-al-melaiji/106.mp3"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "khaalid-ar-rumayh",
+  "count": 4,
+  "byNumber": {
+    "004": "khaalid-ar-rumayh/004.mp3",
+    "035": "khaalid-ar-rumayh/035.mp3",
+    "036": "khaalid-ar-rumayh/036.mp3",
+    "037": "khaalid-ar-rumayh/037.mp3"
+  },
+  "list": [
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "59:18",
+      "url": "khaalid-ar-rumayh/004.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "14:56",
+      "url": "khaalid-ar-rumayh/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "16:15",
+      "url": "khaalid-ar-rumayh/036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "18:10",
+      "url": "khaalid-ar-rumayh/037.mp3"
+    }
+  ]
+}

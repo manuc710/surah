@@ -1,0 +1,806 @@
+{
+  "slug": "abdelhamid-hssain",
+  "count": 114,
+  "byNumber": {
+    "001": "abdelhamid-hssain/abdelhamid-hssain-001-muslimcentral.com.mp3",
+    "002": "abdelhamid-hssain/abdelhamid-hssain-002-muslimcentral.com.mp3",
+    "003": "abdelhamid-hssain/abdelhamid-hssain-003-muslimcentral.com.mp3",
+    "004": "abdelhamid-hssain/abdelhamid-hssain-004-muslimcentral.com.mp3",
+    "005": "abdelhamid-hssain/abdelhamid-hssain-005-muslimcentral.com.mp3",
+    "006": "abdelhamid-hssain/abdelhamid-hssain-006-muslimcentral.com.mp3",
+    "007": "abdelhamid-hssain/abdelhamid-hssain-007-muslimcentral.com.mp3",
+    "008": "abdelhamid-hssain/abdelhamid-hssain-008-muslimcentral.com.mp3",
+    "009": "abdelhamid-hssain/abdelhamid-hssain-009-muslimcentral.com.mp3",
+    "010": "abdelhamid-hssain/abdelhamid-hssain-010-muslimcentral.com.mp3",
+    "011": "abdelhamid-hssain/abdelhamid-hssain-011-muslimcentral.com.mp3",
+    "012": "abdelhamid-hssain/abdelhamid-hssain-012-muslimcentral.com.mp3",
+    "013": "abdelhamid-hssain/abdelhamid-hssain-013-muslimcentral.com.mp3",
+    "014": "abdelhamid-hssain/abdelhamid-hssain-014-muslimcentral.com.mp3",
+    "015": "abdelhamid-hssain/abdelhamid-hssain-015-muslimcentral.com.mp3",
+    "016": "abdelhamid-hssain/abdelhamid-hssain-016-muslimcentral.com.mp3",
+    "017": "abdelhamid-hssain/abdelhamid-hssain-017-muslimcentral.com.mp3",
+    "018": "abdelhamid-hssain/abdelhamid-hssain-018-muslimcentral.com.mp3",
+    "019": "abdelhamid-hssain/abdelhamid-hssain-019-muslimcentral.com.mp3",
+    "020": "abdelhamid-hssain/abdelhamid-hssain-020-muslimcentral.com.mp3",
+    "021": "abdelhamid-hssain/abdelhamid-hssain-021-muslimcentral.com.mp3",
+    "022": "abdelhamid-hssain/abdelhamid-hssain-022-muslimcentral.com.mp3",
+    "023": "abdelhamid-hssain/abdelhamid-hssain-023-muslimcentral.com.mp3",
+    "024": "abdelhamid-hssain/abdelhamid-hssain-024-muslimcentral.com.mp3",
+    "025": "abdelhamid-hssain/abdelhamid-hssain-025-muslimcentral.com.mp3",
+    "026": "abdelhamid-hssain/abdelhamid-hssain-026-muslimcentral.com.mp3",
+    "027": "abdelhamid-hssain/abdelhamid-hssain-027-muslimcentral.com.mp3",
+    "028": "abdelhamid-hssain/abdelhamid-hssain-028-muslimcentral.com.mp3",
+    "029": "abdelhamid-hssain/abdelhamid-hssain-029-muslimcentral.com.mp3",
+    "030": "abdelhamid-hssain/abdelhamid-hssain-030-muslimcentral.com.mp3",
+    "031": "abdelhamid-hssain/abdelhamid-hssain-031-muslimcentral.com.mp3",
+    "032": "abdelhamid-hssain/abdelhamid-hssain-032-muslimcentral.com.mp3",
+    "033": "abdelhamid-hssain/abdelhamid-hssain-033-muslimcentral.com.mp3",
+    "034": "abdelhamid-hssain/abdelhamid-hssain-034-muslimcentral.com.mp3",
+    "035": "abdelhamid-hssain/abdelhamid-hssain-035-muslimcentral.com.mp3",
+    "036": "abdelhamid-hssain/abdelhamid-hssain-036-muslimcentral.com.mp3",
+    "037": "abdelhamid-hssain/abdelhamid-hssain-037-muslimcentral.com.mp3",
+    "038": "abdelhamid-hssain/abdelhamid-hssain-038-muslimcentral.com.mp3",
+    "039": "abdelhamid-hssain/abdelhamid-hssain-039-muslimcentral.com.mp3",
+    "040": "abdelhamid-hssain/abdelhamid-hssain-040-muslimcentral.com.mp3",
+    "041": "abdelhamid-hssain/abdelhamid-hssain-041-muslimcentral.com.mp3",
+    "042": "abdelhamid-hssain/abdelhamid-hssain-042-muslimcentral.com.mp3",
+    "043": "abdelhamid-hssain/abdelhamid-hssain-043-muslimcentral.com.mp3",
+    "044": "abdelhamid-hssain/abdelhamid-hssain-044-muslimcentral.com.mp3",
+    "045": "abdelhamid-hssain/abdelhamid-hssain-045-muslimcentral.com.mp3",
+    "046": "abdelhamid-hssain/abdelhamid-hssain-046-muslimcentral.com.mp3",
+    "047": "abdelhamid-hssain/abdelhamid-hssain-047-muslimcentral.com.mp3",
+    "048": "abdelhamid-hssain/abdelhamid-hssain-048-muslimcentral.com.mp3",
+    "049": "abdelhamid-hssain/abdelhamid-hssain-049-muslimcentral.com.mp3",
+    "050": "abdelhamid-hssain/abdelhamid-hssain-050-muslimcentral.com.mp3",
+    "051": "abdelhamid-hssain/abdelhamid-hssain-051-muslimcentral.com.mp3",
+    "052": "abdelhamid-hssain/abdelhamid-hssain-052-muslimcentral.com.mp3",
+    "053": "abdelhamid-hssain/abdelhamid-hssain-053-muslimcentral.com.mp3",
+    "054": "abdelhamid-hssain/abdelhamid-hssain-054-muslimcentral.com.mp3",
+    "055": "abdelhamid-hssain/abdelhamid-hssain-055-muslimcentral.com.mp3",
+    "056": "abdelhamid-hssain/abdelhamid-hssain-056-muslimcentral.com.mp3",
+    "057": "abdelhamid-hssain/abdelhamid-hssain-057-muslimcentral.com.mp3",
+    "058": "abdelhamid-hssain/abdelhamid-hssain-058-muslimcentral.com.mp3",
+    "059": "abdelhamid-hssain/abdelhamid-hssain-059-muslimcentral.com.mp3",
+    "060": "abdelhamid-hssain/abdelhamid-hssain-060-muslimcentral.com.mp3",
+    "061": "abdelhamid-hssain/abdelhamid-hssain-061-muslimcentral.com.mp3",
+    "062": "abdelhamid-hssain/abdelhamid-hssain-062-muslimcentral.com.mp3",
+    "063": "abdelhamid-hssain/abdelhamid-hssain-063-muslimcentral.com.mp3",
+    "064": "abdelhamid-hssain/abdelhamid-hssain-064-muslimcentral.com.mp3",
+    "065": "abdelhamid-hssain/abdelhamid-hssain-065-muslimcentral.com.mp3",
+    "066": "abdelhamid-hssain/abdelhamid-hssain-066-muslimcentral.com.mp3",
+    "067": "abdelhamid-hssain/abdelhamid-hssain-067-muslimcentral.com.mp3",
+    "068": "abdelhamid-hssain/abdelhamid-hssain-068-muslimcentral.com.mp3",
+    "069": "abdelhamid-hssain/abdelhamid-hssain-069-muslimcentral.com.mp3",
+    "070": "abdelhamid-hssain/abdelhamid-hssain-070-muslimcentral.com.mp3",
+    "071": "abdelhamid-hssain/abdelhamid-hssain-071-muslimcentral.com.mp3",
+    "072": "abdelhamid-hssain/abdelhamid-hssain-072-muslimcentral.com.mp3",
+    "073": "abdelhamid-hssain/abdelhamid-hssain-073-muslimcentral.com.mp3",
+    "074": "abdelhamid-hssain/abdelhamid-hssain-074-muslimcentral.com.mp3",
+    "075": "abdelhamid-hssain/abdelhamid-hssain-075-muslimcentral.com.mp3",
+    "076": "abdelhamid-hssain/abdelhamid-hssain-076-muslimcentral.com.mp3",
+    "077": "abdelhamid-hssain/abdelhamid-hssain-077-muslimcentral.com.mp3",
+    "078": "abdelhamid-hssain/abdelhamid-hssain-078-muslimcentral.com.mp3",
+    "079": "abdelhamid-hssain/abdelhamid-hssain-079-muslimcentral.com.mp3",
+    "080": "abdelhamid-hssain/abdelhamid-hssain-080-muslimcentral.com.mp3",
+    "081": "abdelhamid-hssain/abdelhamid-hssain-081-muslimcentral.com.mp3",
+    "082": "abdelhamid-hssain/abdelhamid-hssain-082-muslimcentral.com.mp3",
+    "083": "abdelhamid-hssain/abdelhamid-hssain-083-muslimcentral.com.mp3",
+    "084": "abdelhamid-hssain/abdelhamid-hssain-084-muslimcentral.com.mp3",
+    "085": "abdelhamid-hssain/abdelhamid-hssain-085-muslimcentral.com.mp3",
+    "086": "abdelhamid-hssain/abdelhamid-hssain-086-muslimcentral.com.mp3",
+    "087": "abdelhamid-hssain/abdelhamid-hssain-087-muslimcentral.com.mp3",
+    "088": "abdelhamid-hssain/abdelhamid-hssain-088-muslimcentral.com.mp3",
+    "089": "abdelhamid-hssain/abdelhamid-hssain-089-muslimcentral.com.mp3",
+    "090": "abdelhamid-hssain/abdelhamid-hssain-090-muslimcentral.com.mp3",
+    "091": "abdelhamid-hssain/abdelhamid-hssain-091-muslimcentral.com.mp3",
+    "092": "abdelhamid-hssain/abdelhamid-hssain-092-muslimcentral.com.mp3",
+    "093": "abdelhamid-hssain/abdelhamid-hssain-093-muslimcentral.com.mp3",
+    "094": "abdelhamid-hssain/abdelhamid-hssain-094-muslimcentral.com.mp3",
+    "095": "abdelhamid-hssain/abdelhamid-hssain-095-muslimcentral.com.mp3",
+    "096": "abdelhamid-hssain/abdelhamid-hssain-096-muslimcentral.com.mp3",
+    "097": "abdelhamid-hssain/abdelhamid-hssain-097-muslimcentral.com.mp3",
+    "098": "abdelhamid-hssain/abdelhamid-hssain-098-muslimcentral.com.mp3",
+    "099": "abdelhamid-hssain/abdelhamid-hssain-099-muslimcentral.com.mp3",
+    "100": "abdelhamid-hssain/abdelhamid-hssain-100-muslimcentral.com.mp3",
+    "101": "abdelhamid-hssain/abdelhamid-hssain-101-muslimcentral.com.mp3",
+    "102": "abdelhamid-hssain/abdelhamid-hssain-102-muslimcentral.com.mp3",
+    "103": "abdelhamid-hssain/abdelhamid-hssain-103-muslimcentral.com.mp3",
+    "104": "abdelhamid-hssain/abdelhamid-hssain-104-muslimcentral.com.mp3",
+    "105": "abdelhamid-hssain/abdelhamid-hssain-105-muslimcentral.com.mp3",
+    "106": "abdelhamid-hssain/abdelhamid-hssain-106-muslimcentral.com.mp3",
+    "107": "abdelhamid-hssain/abdelhamid-hssain-107-muslimcentral.com.mp3",
+    "108": "abdelhamid-hssain/abdelhamid-hssain-108-muslimcentral.com.mp3",
+    "109": "abdelhamid-hssain/abdelhamid-hssain-109-muslimcentral.com.mp3",
+    "110": "abdelhamid-hssain/abdelhamid-hssain-110-muslimcentral.com.mp3",
+    "111": "abdelhamid-hssain/abdelhamid-hssain-111-muslimcentral.com.mp3",
+    "112": "abdelhamid-hssain/abdelhamid-hssain-112-muslimcentral.com.mp3",
+    "113": "abdelhamid-hssain/abdelhamid-hssain-113-muslimcentral.com.mp3",
+    "114": "abdelhamid-hssain/abdelhamid-hssain-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "33",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al-Baqara",
+      "duration": "1:18:21",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-002-muslimcentral.com.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "38:00",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-003-muslimcentral.com.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "41:34",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-004-muslimcentral.com.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "36:06",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-005-muslimcentral.com.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "40:13",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-006-muslimcentral.com.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "43:40",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-007-muslimcentral.com.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "16:46",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-008-muslimcentral.com.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "29:14",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-009-muslimcentral.com.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "30:25",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-010-muslimcentral.com.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "27:31",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-011-muslimcentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "28:28",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "12:58",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-013-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "12:10",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 Al-Hijr",
+      "duration": "11:10",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-015-muslimcentral.com.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "29:00",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-016-muslimcentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "23:14",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-017-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "22:00",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "13:45",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "17:27",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-020-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "17:57",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "17:04",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-022-muslimcentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "15:41",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-023-muslimcentral.com.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "18:33",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-024-muslimcentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "12:30",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-025-muslimcentral.com.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 Ash-Shuara",
+      "duration": "16:21",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-026-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "16:11",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "18:57",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-028-muslimcentral.com.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "14:20",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-029-muslimcentral.com.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Room",
+      "duration": "11:50",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-030-muslimcentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "6:59",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-031-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "5:00",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "21:02",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "11:44",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-034-muslimcentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "9:54",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-035-muslimcentral.com.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "11:05",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-036-muslimcentral.com.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "13:27",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-037-muslimcentral.com.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "10:20",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-038-muslimcentral.com.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "17:22",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-039-muslimcentral.com.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "18:19",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-040-muslimcentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "11:59",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-041-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "11:42",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 Az-Zukhruf",
+      "duration": "12:21",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-043-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "5:09",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "7:12",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-045-muslimcentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "11:07",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-046-muslimcentral.com.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "8:57",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-047-muslimcentral.com.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "8:28",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-048-muslimcentral.com.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "5:45",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-049-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "5:30",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "5:19",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "4:35",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "5:25",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "5:23",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "7:28",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "6:42",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "8:34",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-057-muslimcentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "8:43",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-058-muslimcentral.com.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "7:45",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-059-muslimcentral.com.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "6:28",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-060-muslimcentral.com.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "3:42",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-061-muslimcentral.com.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "2:40",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-062-muslimcentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:01",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-063-muslimcentral.com.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "3:52",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-064-muslimcentral.com.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "4:28",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-065-muslimcentral.com.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "3:40",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-066-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:45",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "4:59",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "4:08",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "3:35",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "3:44",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-071-muslimcentral.com.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "3:57",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-072-muslimcentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:11",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-073-muslimcentral.com.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "3:55",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-074-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "2:24",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-075-muslimcentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "3:49",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-076-muslimcentral.com.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "2:55",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-077-muslimcentral.com.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "2:59",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-078-muslimcentral.com.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "2:51",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-079-muslimcentral.com.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:14",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-080-muslimcentral.com.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "1:34",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-081-muslimcentral.com.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:10",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-082-muslimcentral.com.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "2:35",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-083-muslimcentral.com.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "1:36",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-084-muslimcentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "1:39",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "56",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-086-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:02",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:21",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:03",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-089-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:14",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "52",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-091-muslimcentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:07",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-092-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "42",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "25",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-094-muslimcentral.com.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "34",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-095-muslimcentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:02",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-096-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "27",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:26",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-098-muslimcentral.com.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "33",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-099-muslimcentral.com.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "38",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-100-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "38",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "29",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-102-muslimcentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "18",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-103-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "36",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "23",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "23",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "29",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "13",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "29",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "20",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "23",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-111-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "13",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "20",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "21",
+      "url": "abdelhamid-hssain/abdelhamid-hssain-114-muslimcentral.com.mp3"
+    }
+  ]
+}

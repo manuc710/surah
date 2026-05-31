@@ -1,0 +1,792 @@
+{
+  "slug": "abdullah-khayat",
+  "count": 112,
+  "byNumber": {
+    "001": "abdullah-khayat/abdullah-khayat-001.mp3",
+    "002": "abdullah-khayat/abdullah-khayat-002.mp3",
+    "003": "abdullah-khayat/abdullah-khayat-003.mp3",
+    "004": "abdullah-khayat/abdullah-khayat-004.mp3",
+    "005": "abdullah-khayat/abdullah-khayat-005.mp3",
+    "006": "abdullah-khayat/abdullah-khayat-006.mp3",
+    "007": "abdullah-khayat/abdullah-khayat-007.mp3",
+    "008": "abdullah-khayat/abdullah-khayat-008.mp3",
+    "009": "abdullah-khayat/abdullah-khayat-009.mp3",
+    "010": "abdullah-khayat/abdullah-khayat-010.mp3",
+    "011": "abdullah-khayat/abdullah-khayat-011.mp3",
+    "012": "abdullah-khayat/abdullah-khayat-012.mp3",
+    "014": "abdullah-khayat/abdullah-khayat-014.mp3",
+    "015": "abdullah-khayat/abdullah-khayat-015.mp3",
+    "016": "abdullah-khayat/abdullah-khayat-016.mp3",
+    "017": "abdullah-khayat/abdullah-khayat-017.mp3",
+    "018": "abdullah-khayat/abdullah-khayat-018.mp3",
+    "019": "abdullah-khayat/abdullah-khayat-019.mp3",
+    "020": "abdullah-khayat/abdullah-khayat-020.mp3",
+    "021": "abdullah-khayat/abdullah-khayat-021.mp3",
+    "022": "abdullah-khayat/abdullah-khayat-022.mp3",
+    "023": "abdullah-khayat/abdullah-khayat-023.mp3",
+    "024": "abdullah-khayat/abdullah-khayat-024.mp3",
+    "025": "abdullah-khayat/abdullah-khayat-025.mp3",
+    "026": "abdullah-khayat/abdullah-khayat-026.mp3",
+    "027": "abdullah-khayat/abdullah-khayat-027.mp3",
+    "028": "abdullah-khayat/abdullah-khayat-028.mp3",
+    "029": "abdullah-khayat/abdullah-khayat-029.mp3",
+    "030": "abdullah-khayat/abdullah-khayat-030.mp3",
+    "031": "abdullah-khayat/abdullah-khayat-031.mp3",
+    "032": "abdullah-khayat/abdullah-khayat-032.mp3",
+    "033": "abdullah-khayat/abdullah-khayat-033.mp3",
+    "034": "abdullah-khayat/abdullah-khayat-034.mp3",
+    "035": "abdullah-khayat/abdullah-khayat-035.mp3",
+    "036": "abdullah-khayat/abdullah-khayat-036.mp3",
+    "037": "abdullah-khayat/abdullah-khayat-037.mp3",
+    "038": "abdullah-khayat/abdullah-khayat-038.mp3",
+    "039": "abdullah-khayat/abdullah-khayat-039.mp3",
+    "040": "abdullah-khayat/abdullah-khayat-040.mp3",
+    "041": "abdullah-khayat/abdullah-khayat-041.mp3",
+    "042": "abdullah-khayat/abdullah-khayat-042.mp3",
+    "043": "abdullah-khayat/abdullah-khayat-043.mp3",
+    "044": "abdullah-khayat/abdullah-khayat-044.mp3",
+    "045": "abdullah-khayat/abdullah-khayat-045.mp3",
+    "046": "abdullah-khayat/abdullah-khayat-046.mp3",
+    "047": "abdullah-khayat/abdullah-khayat-047.mp3",
+    "048": "abdullah-khayat/abdullah-khayat-048.mp3",
+    "049": "abdullah-khayat/abdullah-khayat-049.mp3",
+    "050": "abdullah-khayat/abdullah-khayat-050.mp3",
+    "051": "abdullah-khayat/abdullah-khayat-051.mp3",
+    "052": "abdullah-khayat/abdullah-khayat-052.mp3",
+    "053": "abdullah-khayat/abdullah-khayat-053.mp3",
+    "054": "abdullah-khayat/abdullah-khayat-054.mp3",
+    "055": "abdullah-khayat/abdullah-khayat-055.mp3",
+    "056": "abdullah-khayat/abdullah-khayat-056.mp3",
+    "057": "abdullah-khayat/abdullah-khayat-057.mp3",
+    "058": "abdullah-khayat/abdullah-khayat-058.mp3",
+    "059": "abdullah-khayat/abdullah-khayat-059.mp3",
+    "060": "abdullah-khayat/abdullah-khayat-060.mp3",
+    "061": "abdullah-khayat/abdullah-khayat-061.mp3",
+    "062": "abdullah-khayat/abdullah-khayat-062.mp3",
+    "063": "abdullah-khayat/abdullah-khayat-063.mp3",
+    "064": "abdullah-khayat/abdullah-khayat-064.mp3",
+    "065": "abdullah-khayat/abdullah-khayat-065.mp3",
+    "066": "abdullah-khayat/abdullah-khayat-066.mp3",
+    "067": "abdullah-khayat/abdullah-khayat-067.mp3",
+    "068": "abdullah-khayat/abdullah-khayat-068.mp3",
+    "070": "abdullah-khayat/abdullah-khayat-070.mp3",
+    "071": "abdullah-khayat/abdullah-khayat-071.mp3",
+    "072": "abdullah-khayat/abdullah-khayat-072.mp3",
+    "073": "abdullah-khayat/abdullah-khayat-073.mp3",
+    "074": "abdullah-khayat/abdullah-khayat-074.mp3",
+    "075": "abdullah-khayat/abdullah-khayat-075.mp3",
+    "076": "abdullah-khayat/abdullah-khayat-076.mp3",
+    "077": "abdullah-khayat/abdullah-khayat-077.mp3",
+    "078": "abdullah-khayat/abdullah-khayat-078.mp3",
+    "079": "abdullah-khayat/abdullah-khayat-079.mp3",
+    "080": "abdullah-khayat/abdullah-khayat-080.mp3",
+    "081": "abdullah-khayat/abdullah-khayat-081.mp3",
+    "082": "abdullah-khayat/abdullah-khayat-082.mp3",
+    "083": "abdullah-khayat/abdullah-khayat-083.mp3",
+    "084": "abdullah-khayat/abdullah-khayat-084.mp3",
+    "085": "abdullah-khayat/abdullah-khayat-085.mp3",
+    "086": "abdullah-khayat/abdullah-khayat-086.mp3",
+    "087": "abdullah-khayat/abdullah-khayat-087.mp3",
+    "088": "abdullah-khayat/abdullah-khayat-088.mp3",
+    "089": "abdullah-khayat/abdullah-khayat-089.mp3",
+    "090": "abdullah-khayat/abdullah-khayat-090.mp3",
+    "091": "abdullah-khayat/abdullah-khayat-091.mp3",
+    "092": "abdullah-khayat/abdullah-khayat-092.mp3",
+    "093": "abdullah-khayat/abdullah-khayat-093.mp3",
+    "094": "abdullah-khayat/abdullah-khayat-094.mp3",
+    "095": "abdullah-khayat/abdullah-khayat-095.mp3",
+    "096": "abdullah-khayat/abdullah-khayat-096.mp3",
+    "097": "abdullah-khayat/abdullah-khayat-097.mp3",
+    "098": "abdullah-khayat/abdullah-khayat-098.mp3",
+    "099": "abdullah-khayat/abdullah-khayat-099.mp3",
+    "100": "abdullah-khayat/abdullah-khayat-100.mp3",
+    "101": "abdullah-khayat/abdullah-khayat-101.mp3",
+    "102": "abdullah-khayat/abdullah-khayat-102.mp3",
+    "103": "abdullah-khayat/abdullah-khayat-103.mp3",
+    "104": "abdullah-khayat/abdullah-khayat-104.mp3",
+    "105": "abdullah-khayat/abdullah-khayat-105.mp3",
+    "106": "abdullah-khayat/abdullah-khayat-106.mp3",
+    "107": "abdullah-khayat/abdullah-khayat-107.mp3",
+    "108": "abdullah-khayat/abdullah-khayat-108.mp3",
+    "109": "abdullah-khayat/abdullah-khayat-109.mp3",
+    "110": "abdullah-khayat/abdullah-khayat-110.mp3",
+    "111": "abdullah-khayat/abdullah-khayat-111.mp3",
+    "112": "abdullah-khayat/abdullah-khayat-112.mp3",
+    "113": "abdullah-khayat/abdullah-khayat-113.mp3",
+    "114": "abdullah-khayat/abdullah-khayat-114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al Fatiha",
+      "duration": "32",
+      "url": "abdullah-khayat/abdullah-khayat-001.mp3"
+    },
+    {
+      "n": "002",
+      "title": "002 Al Baqara",
+      "duration": "1:27:21",
+      "url": "abdullah-khayat/abdullah-khayat-002.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal E Imran",
+      "duration": "51:03",
+      "url": "abdullah-khayat/abdullah-khayat-003.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An Nisa",
+      "duration": "56:29",
+      "url": "abdullah-khayat/abdullah-khayat-004.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 AlMaidah",
+      "duration": "43:18",
+      "url": "abdullah-khayat/abdullah-khayat-005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 AlAnaam",
+      "duration": "44:05",
+      "url": "abdullah-khayat/abdullah-khayat-006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 AlAraf",
+      "duration": "53:52",
+      "url": "abdullah-khayat/abdullah-khayat-007.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 AlAnfal",
+      "duration": "18:45",
+      "url": "abdullah-khayat/abdullah-khayat-008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 AtTawba",
+      "duration": "38:55",
+      "url": "abdullah-khayat/abdullah-khayat-009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "26:43",
+      "url": "abdullah-khayat/abdullah-khayat-010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "31:09",
+      "url": "abdullah-khayat/abdullah-khayat-011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "27:59",
+      "url": "abdullah-khayat/abdullah-khayat-012.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "11:46",
+      "url": "abdullah-khayat/abdullah-khayat-014.mp3"
+    },
+    {
+      "n": "015",
+      "title": "015 AlHijr",
+      "duration": "9:03",
+      "url": "abdullah-khayat/abdullah-khayat-015.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 AnNahl",
+      "duration": "26:23",
+      "url": "abdullah-khayat/abdullah-khayat-016.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 AlIsra",
+      "duration": "24:49",
+      "url": "abdullah-khayat/abdullah-khayat-017.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 AlKahf",
+      "duration": "23:54",
+      "url": "abdullah-khayat/abdullah-khayat-018.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "13:16",
+      "url": "abdullah-khayat/abdullah-khayat-019.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 TaHa",
+      "duration": "17:36",
+      "url": "abdullah-khayat/abdullah-khayat-020.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 AlAnbiya",
+      "duration": "16:54",
+      "url": "abdullah-khayat/abdullah-khayat-021.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 AlHajj",
+      "duration": "19:41",
+      "url": "abdullah-khayat/abdullah-khayat-022.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 AlMumenoon",
+      "duration": "17:44",
+      "url": "abdullah-khayat/abdullah-khayat-023.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 AnNoor",
+      "duration": "20:50",
+      "url": "abdullah-khayat/abdullah-khayat-024.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 AlFurqan",
+      "duration": "13:54",
+      "url": "abdullah-khayat/abdullah-khayat-025.mp3"
+    },
+    {
+      "n": "026",
+      "title": "026 AshShuara",
+      "duration": "19:06",
+      "url": "abdullah-khayat/abdullah-khayat-026.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 AnNaml",
+      "duration": "18:12",
+      "url": "abdullah-khayat/abdullah-khayat-027.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 AlQasas",
+      "duration": "21:26",
+      "url": "abdullah-khayat/abdullah-khayat-028.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 AlAnkaboot",
+      "duration": "14:53",
+      "url": "abdullah-khayat/abdullah-khayat-029.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 ArRoom",
+      "duration": "11:41",
+      "url": "abdullah-khayat/abdullah-khayat-030.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "7:45",
+      "url": "abdullah-khayat/abdullah-khayat-031.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 AsSajda",
+      "duration": "5:37",
+      "url": "abdullah-khayat/abdullah-khayat-032.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 AlAhzab",
+      "duration": "19:45",
+      "url": "abdullah-khayat/abdullah-khayat-033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "13:08",
+      "url": "abdullah-khayat/abdullah-khayat-034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "12:03",
+      "url": "abdullah-khayat/abdullah-khayat-035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 YaSeen",
+      "duration": "11:25",
+      "url": "abdullah-khayat/abdullah-khayat-036.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 AsSaaffat",
+      "duration": "13:39",
+      "url": "abdullah-khayat/abdullah-khayat-037.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "11:36",
+      "url": "abdullah-khayat/abdullah-khayat-038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 AzZumar",
+      "duration": "16:44",
+      "url": "abdullah-khayat/abdullah-khayat-039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "18:03",
+      "url": "abdullah-khayat/abdullah-khayat-040.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "13:04",
+      "url": "abdullah-khayat/abdullah-khayat-041.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 AshShura",
+      "duration": "13:01",
+      "url": "abdullah-khayat/abdullah-khayat-042.mp3"
+    },
+    {
+      "n": "043",
+      "title": "043 AzZukhruf",
+      "duration": "14:19",
+      "url": "abdullah-khayat/abdullah-khayat-043.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 AdDukhan",
+      "duration": "5:40",
+      "url": "abdullah-khayat/abdullah-khayat-044.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 AlJathiya",
+      "duration": "7:29",
+      "url": "abdullah-khayat/abdullah-khayat-045.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 AlAhqaf",
+      "duration": "9:55",
+      "url": "abdullah-khayat/abdullah-khayat-046.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "7:47",
+      "url": "abdullah-khayat/abdullah-khayat-047.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 AlFath",
+      "duration": "8:03",
+      "url": "abdullah-khayat/abdullah-khayat-048.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 AlHujraat",
+      "duration": "5:24",
+      "url": "abdullah-khayat/abdullah-khayat-049.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "5:19",
+      "url": "abdullah-khayat/abdullah-khayat-050.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 AdhDhariyat",
+      "duration": "5:11",
+      "url": "abdullah-khayat/abdullah-khayat-051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 AtTur",
+      "duration": "4:42",
+      "url": "abdullah-khayat/abdullah-khayat-052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 AnNajm",
+      "duration": "4:48",
+      "url": "abdullah-khayat/abdullah-khayat-053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 AlQamar",
+      "duration": "5:01",
+      "url": "abdullah-khayat/abdullah-khayat-054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 ArRahman",
+      "duration": "6:31",
+      "url": "abdullah-khayat/abdullah-khayat-055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 AlWaqia",
+      "duration": "6:45",
+      "url": "abdullah-khayat/abdullah-khayat-056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 AlHadid",
+      "duration": "9:26",
+      "url": "abdullah-khayat/abdullah-khayat-057.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 AlMujadila",
+      "duration": "7:24",
+      "url": "abdullah-khayat/abdullah-khayat-058.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 AlHashr",
+      "duration": "7:08",
+      "url": "abdullah-khayat/abdullah-khayat-059.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 AlMumtahina",
+      "duration": "5:13",
+      "url": "abdullah-khayat/abdullah-khayat-060.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 AsSaff",
+      "duration": "3:19",
+      "url": "abdullah-khayat/abdullah-khayat-061.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 AlJumua",
+      "duration": "2:28",
+      "url": "abdullah-khayat/abdullah-khayat-062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 AlMunafiqoon",
+      "duration": "2:37",
+      "url": "abdullah-khayat/abdullah-khayat-063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 AtTaghabun",
+      "duration": "3:30",
+      "url": "abdullah-khayat/abdullah-khayat-064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 AtTalaq",
+      "duration": "4:09",
+      "url": "abdullah-khayat/abdullah-khayat-065.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 AtTahrim",
+      "duration": "4:03",
+      "url": "abdullah-khayat/abdullah-khayat-066.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 AlMulk",
+      "duration": "4:37",
+      "url": "abdullah-khayat/abdullah-khayat-067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 AlQalam",
+      "duration": "4:48",
+      "url": "abdullah-khayat/abdullah-khayat-068.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 AlMaarij",
+      "duration": "3:28",
+      "url": "abdullah-khayat/abdullah-khayat-070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "3:20",
+      "url": "abdullah-khayat/abdullah-khayat-071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 AlJinn",
+      "duration": "3:48",
+      "url": "abdullah-khayat/abdullah-khayat-072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 AlMuzzammil",
+      "duration": "2:52",
+      "url": "abdullah-khayat/abdullah-khayat-073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 AlMuddaththir",
+      "duration": "3:31",
+      "url": "abdullah-khayat/abdullah-khayat-074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 AlQiyama",
+      "duration": "2:18",
+      "url": "abdullah-khayat/abdullah-khayat-075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 AlInsan",
+      "duration": "3:57",
+      "url": "abdullah-khayat/abdullah-khayat-076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 AlMursalat",
+      "duration": "3:02",
+      "url": "abdullah-khayat/abdullah-khayat-077.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 AnNaba",
+      "duration": "2:52",
+      "url": "abdullah-khayat/abdullah-khayat-078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 AnNaziat",
+      "duration": "2:50",
+      "url": "abdullah-khayat/abdullah-khayat-079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:36",
+      "url": "abdullah-khayat/abdullah-khayat-080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 AtTakwir",
+      "duration": "1:44",
+      "url": "abdullah-khayat/abdullah-khayat-081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 AlInfitar",
+      "duration": "1:16",
+      "url": "abdullah-khayat/abdullah-khayat-082.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 AlMutaffifin",
+      "duration": "3:03",
+      "url": "abdullah-khayat/abdullah-khayat-083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 AlInshiqaq",
+      "duration": "1:46",
+      "url": "abdullah-khayat/abdullah-khayat-084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 AlBurooj",
+      "duration": "1:44",
+      "url": "abdullah-khayat/abdullah-khayat-085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 AtTariq",
+      "duration": "1:03",
+      "url": "abdullah-khayat/abdullah-khayat-086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 AlAla",
+      "duration": "1:04",
+      "url": "abdullah-khayat/abdullah-khayat-087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 AlGhashiya",
+      "duration": "1:26",
+      "url": "abdullah-khayat/abdullah-khayat-088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 - Al-Fajr",
+      "duration": "2:07",
+      "url": "abdullah-khayat/abdullah-khayat-089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 AlBalad",
+      "duration": "1:12",
+      "url": "abdullah-khayat/abdullah-khayat-090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 AshShams",
+      "duration": "51",
+      "url": "abdullah-khayat/abdullah-khayat-091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 AlLail",
+      "duration": "1:15",
+      "url": "abdullah-khayat/abdullah-khayat-092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 AdDhuha",
+      "duration": "38",
+      "url": "abdullah-khayat/abdullah-khayat-093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 AlInshirah",
+      "duration": "23",
+      "url": "abdullah-khayat/abdullah-khayat-094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 AtTin",
+      "duration": "32",
+      "url": "abdullah-khayat/abdullah-khayat-095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 AlAlaq",
+      "duration": "1:04",
+      "url": "abdullah-khayat/abdullah-khayat-096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 AlQadr",
+      "duration": "26",
+      "url": "abdullah-khayat/abdullah-khayat-097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 AlBayyina",
+      "duration": "1:19",
+      "url": "abdullah-khayat/abdullah-khayat-098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 AzZalzala",
+      "duration": "35",
+      "url": "abdullah-khayat/abdullah-khayat-099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 AlAdiyat",
+      "duration": "39",
+      "url": "abdullah-khayat/abdullah-khayat-100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 AlQaria",
+      "duration": "34",
+      "url": "abdullah-khayat/abdullah-khayat-101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 AtTakathur",
+      "duration": "30",
+      "url": "abdullah-khayat/abdullah-khayat-102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 AlAsr",
+      "duration": "17",
+      "url": "abdullah-khayat/abdullah-khayat-103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 AlHumaza",
+      "duration": "32",
+      "url": "abdullah-khayat/abdullah-khayat-104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 AlFil",
+      "duration": "23",
+      "url": "abdullah-khayat/abdullah-khayat-105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "20",
+      "url": "abdullah-khayat/abdullah-khayat-106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 AlMaun",
+      "duration": "22",
+      "url": "abdullah-khayat/abdullah-khayat-107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 AlKauther",
+      "duration": "13",
+      "url": "abdullah-khayat/abdullah-khayat-108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 AlKafiroon",
+      "duration": "26",
+      "url": "abdullah-khayat/abdullah-khayat-109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 AnNasr",
+      "duration": "23",
+      "url": "abdullah-khayat/abdullah-khayat-110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 AlMasadd",
+      "duration": "22",
+      "url": "abdullah-khayat/abdullah-khayat-111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 AlIkhlas",
+      "duration": "11",
+      "url": "abdullah-khayat/abdullah-khayat-112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 AlFalaq",
+      "duration": "18",
+      "url": "abdullah-khayat/abdullah-khayat-113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 AnNas",
+      "duration": "23",
+      "url": "abdullah-khayat/abdullah-khayat-114.mp3"
+    }
+  ]
+}

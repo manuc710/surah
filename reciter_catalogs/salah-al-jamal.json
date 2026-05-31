@@ -1,0 +1,316 @@
+{
+  "slug": "salah-al-jamal",
+  "count": 44,
+  "byNumber": {
+    "001": "salah-al-jamal/001.mp3",
+    "005": "salah-al-jamal/005.mp3",
+    "006": "salah-al-jamal/006.mp3",
+    "007": "salah-al-jamal/007.mp3",
+    "009": "salah-al-jamal/009.mp3",
+    "010": "salah-al-jamal/010.mp3",
+    "011": "salah-al-jamal/011.mp3",
+    "012": "salah-al-jamal/012.mp3",
+    "013": "salah-al-jamal/013.mp3",
+    "019": "salah-al-jamal/019.mp3",
+    "036": "salah-al-jamal/036.mp3",
+    "078": "salah-al-jamal/078.mp3",
+    "079": "salah-al-jamal/079.mp3",
+    "080": "salah-al-jamal/080.mp3",
+    "081": "salah-al-jamal/081.mp3",
+    "083": "salah-al-jamal/083.mp3",
+    "084": "salah-al-jamal/084.mp3",
+    "085": "salah-al-jamal/085.mp3",
+    "086": "salah-al-jamal/086.mp3",
+    "087": "salah-al-jamal/087.mp3",
+    "088": "salah-al-jamal/088.mp3",
+    "089": "salah-al-jamal/089.mp3",
+    "090": "salah-al-jamal/090.mp3",
+    "091": "salah-al-jamal/091.mp3",
+    "092": "salah-al-jamal/092.mp3",
+    "095": "salah-al-jamal/095.mp3",
+    "096": "salah-al-jamal/096.mp3",
+    "097": "salah-al-jamal/097.mp3",
+    "098": "salah-al-jamal/098.mp3",
+    "099": "salah-al-jamal/099.mp3",
+    "100": "salah-al-jamal/100.mp3",
+    "101": "salah-al-jamal/101.mp3",
+    "102": "salah-al-jamal/102.mp3",
+    "103": "salah-al-jamal/103.mp3",
+    "105": "salah-al-jamal/105.mp3",
+    "106": "salah-al-jamal/106.mp3",
+    "107": "salah-al-jamal/107.mp3",
+    "108": "salah-al-jamal/108.mp3",
+    "109": "salah-al-jamal/109.mp3",
+    "110": "salah-al-jamal/110.mp3",
+    "111": "salah-al-jamal/111.mp3",
+    "112": "salah-al-jamal/112.mp3",
+    "113": "salah-al-jamal/113.mp3",
+    "114": "salah-al-jamal/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "40",
+      "url": "salah-al-jamal/001.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "46:32",
+      "url": "salah-al-jamal/005.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "50:49",
+      "url": "salah-al-jamal/006.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "55:38",
+      "url": "salah-al-jamal/007.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "39:29",
+      "url": "salah-al-jamal/009.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "31:35",
+      "url": "salah-al-jamal/010.mp3"
+    },
+    {
+      "n": "011",
+      "title": "011 Hud",
+      "duration": "33:48",
+      "url": "salah-al-jamal/011.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "30:46",
+      "url": "salah-al-jamal/012.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "14:12",
+      "url": "salah-al-jamal/013.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "17:27",
+      "url": "salah-al-jamal/019.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "12:52",
+      "url": "salah-al-jamal/036.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:03",
+      "url": "salah-al-jamal/078.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:54",
+      "url": "salah-al-jamal/079.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "3:20",
+      "url": "salah-al-jamal/080.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:03",
+      "url": "salah-al-jamal/081.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:23",
+      "url": "salah-al-jamal/083.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:11",
+      "url": "salah-al-jamal/084.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:11",
+      "url": "salah-al-jamal/085.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:25",
+      "url": "salah-al-jamal/086.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:34",
+      "url": "salah-al-jamal/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:52",
+      "url": "salah-al-jamal/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:54",
+      "url": "salah-al-jamal/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:38",
+      "url": "salah-al-jamal/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:15",
+      "url": "salah-al-jamal/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:38",
+      "url": "salah-al-jamal/092.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "43",
+      "url": "salah-al-jamal/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:21",
+      "url": "salah-al-jamal/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "39",
+      "url": "salah-al-jamal/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:41",
+      "url": "salah-al-jamal/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "49",
+      "url": "salah-al-jamal/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "54",
+      "url": "salah-al-jamal/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "49",
+      "url": "salah-al-jamal/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "43",
+      "url": "salah-al-jamal/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "22",
+      "url": "salah-al-jamal/103.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "34",
+      "url": "salah-al-jamal/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "29",
+      "url": "salah-al-jamal/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "39",
+      "url": "salah-al-jamal/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "18",
+      "url": "salah-al-jamal/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "43",
+      "url": "salah-al-jamal/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "26",
+      "url": "salah-al-jamal/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "30",
+      "url": "salah-al-jamal/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "salah-al-jamal/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "27",
+      "url": "salah-al-jamal/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "37",
+      "url": "salah-al-jamal/114.mp3"
+    }
+  ]
+}

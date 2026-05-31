@@ -1,0 +1,29 @@
+{
+  "slug": "muhammad-abdul-qadir-al-hassan",
+  "count": 3,
+  "byNumber": {
+    "001": "muhammad-abdul-qadir-al-hassan/001.mp3",
+    "109": "muhammad-abdul-qadir-al-hassan/109.mp3",
+    "112": "muhammad-abdul-qadir-al-hassan/112.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "43",
+      "url": "muhammad-abdul-qadir-al-hassan/001.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "33",
+      "url": "muhammad-abdul-qadir-al-hassan/109.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "12",
+      "url": "muhammad-abdul-qadir-al-hassan/112.mp3"
+    }
+  ]
+}

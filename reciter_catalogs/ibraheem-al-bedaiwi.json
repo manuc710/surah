@@ -1,0 +1,36 @@
+{
+  "slug": "ibraheem-al-bedaiwi",
+  "count": 4,
+  "byNumber": {
+    "033": "ibraheem-al-bedaiwi/033.mp3",
+    "034": "ibraheem-al-bedaiwi/034.mp3",
+    "035": "ibraheem-al-bedaiwi/035.mp3",
+    "036": "ibraheem-al-bedaiwi/036.mp3"
+  },
+  "list": [
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "26:59",
+      "url": "ibraheem-al-bedaiwi/033.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "17:06",
+      "url": "ibraheem-al-bedaiwi/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:28",
+      "url": "ibraheem-al-bedaiwi/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "15:16",
+      "url": "ibraheem-al-bedaiwi/036.mp3"
+    }
+  ]
+}

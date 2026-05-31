@@ -1,0 +1,57 @@
+{
+  "slug": "ibraheem-menk",
+  "count": 7,
+  "byNumber": {
+    "091": "ibraheem-menk/ibraheem-menk-qurancentral.com-091-ash-shams-2022-03-07-07-28-19.mp3",
+    "085": "ibraheem-menk/ibraheem-menk-qurancentral.com-085-al-burooj-2020-01-30-12-48-05.mp3",
+    "083": "ibraheem-menk/ibraheem-menk-qurancentral.com-083-al-mutaffifin-2020-01-24-02-21-51.mp3",
+    "082": "ibraheem-menk/ibraheem-menk-qurancentral.com-082-al-infitar-2020-01-20-08-20-42.mp3",
+    "081": "ibraheem-menk/ibraheem-menk-qurancentral.com-081-at-takwir-2020-01-10-02-11-05.mp3",
+    "079": "ibraheem-menk/ibraheem-menk-qurancentral.com-079-an-naziat-2020-01-07-09-41-34.mp3",
+    "078": "ibraheem-menk/ibraheem-menk-qurancentral.com-078-an-naba-2020-01-03-02-19-46.mp3"
+  },
+  "list": [
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:07",
+      "url": "ibraheem-menk/ibraheem-menk-qurancentral.com-091-ash-shams-2022-03-07-07-28-19.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:11",
+      "url": "ibraheem-menk/ibraheem-menk-qurancentral.com-085-al-burooj-2020-01-30-12-48-05.mp3"
+    },
+    {
+      "n": "083",
+      "title": "083 Al-Mutaffifin",
+      "duration": "3:26",
+      "url": "ibraheem-menk/ibraheem-menk-qurancentral.com-083-al-mutaffifin-2020-01-24-02-21-51.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:41",
+      "url": "ibraheem-menk/ibraheem-menk-qurancentral.com-082-al-infitar-2020-01-20-08-20-42.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "2:01",
+      "url": "ibraheem-menk/ibraheem-menk-qurancentral.com-081-at-takwir-2020-01-10-02-11-05.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:46",
+      "url": "ibraheem-menk/ibraheem-menk-qurancentral.com-079-an-naziat-2020-01-07-09-41-34.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:49",
+      "url": "ibraheem-menk/ibraheem-menk-qurancentral.com-078-an-naba-2020-01-03-02-19-46.mp3"
+    }
+  ]
+}

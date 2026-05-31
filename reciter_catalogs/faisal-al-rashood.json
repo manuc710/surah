@@ -1,0 +1,50 @@
+{
+  "slug": "faisal-al-rashood",
+  "count": 6,
+  "byNumber": {
+    "001": "faisal-al-rashood/001.mp3",
+    "008": "faisal-al-rashood/008.mp3",
+    "009": "faisal-al-rashood/009.mp3",
+    "020": "faisal-al-rashood/020.mp3",
+    "025": "faisal-al-rashood/025.mp3",
+    "038": "faisal-al-rashood/038.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "45",
+      "url": "faisal-al-rashood/001.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "25:55",
+      "url": "faisal-al-rashood/008.mp3"
+    },
+    {
+      "n": "009",
+      "title": "009 At-Tawba",
+      "duration": "56:00",
+      "url": "faisal-al-rashood/009.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "25:35",
+      "url": "faisal-al-rashood/020.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "17:35",
+      "url": "faisal-al-rashood/025.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "14:51",
+      "url": "faisal-al-rashood/038.mp3"
+    }
+  ]
+}

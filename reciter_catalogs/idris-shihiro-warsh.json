@@ -1,0 +1,106 @@
+{
+  "slug": "idris-shihiro-warsh",
+  "count": 14,
+  "byNumber": {
+    "001": "idris-shihiro-warsh/001.mp3",
+    "031": "idris-shihiro-warsh/031.mp3",
+    "055": "idris-shihiro-warsh/055.mp3",
+    "056": "idris-shihiro-warsh/056.mp3",
+    "067": "idris-shihiro-warsh/067.mp3",
+    "068": "idris-shihiro-warsh/068.mp3",
+    "069": "idris-shihiro-warsh/069.mp3",
+    "070": "idris-shihiro-warsh/070.mp3",
+    "071": "idris-shihiro-warsh/071.mp3",
+    "087": "idris-shihiro-warsh/087.mp3",
+    "109": "idris-shihiro-warsh/109.mp3",
+    "112": "idris-shihiro-warsh/112.mp3",
+    "113": "idris-shihiro-warsh/113.mp3",
+    "114": "idris-shihiro-warsh/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "36",
+      "url": "idris-shihiro-warsh/001.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "11:08",
+      "url": "idris-shihiro-warsh/031.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "9:28",
+      "url": "idris-shihiro-warsh/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "8:15",
+      "url": "idris-shihiro-warsh/056.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:16",
+      "url": "idris-shihiro-warsh/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "5:36",
+      "url": "idris-shihiro-warsh/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:22",
+      "url": "idris-shihiro-warsh/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:05",
+      "url": "idris-shihiro-warsh/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:22",
+      "url": "idris-shihiro-warsh/071.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:17",
+      "url": "idris-shihiro-warsh/087.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "27",
+      "url": "idris-shihiro-warsh/109.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "10",
+      "url": "idris-shihiro-warsh/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "20",
+      "url": "idris-shihiro-warsh/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "31",
+      "url": "idris-shihiro-warsh/114.mp3"
+    }
+  ]
+}

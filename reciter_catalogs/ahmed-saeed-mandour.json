@@ -1,0 +1,232 @@
+{
+  "slug": "ahmed-saeed-mandour",
+  "count": 32,
+  "byNumber": {
+    "001": "ahmed-saeed-mandour/ahmed-saeed-mandour-001-muslimcentral.com.mp3",
+    "003": "ahmed-saeed-mandour/ahmed-saeed-mandour-003-muslimcentral.com.mp3",
+    "010": "ahmed-saeed-mandour/ahmed-saeed-mandour-010-muslimcentral.com.mp3",
+    "012": "ahmed-saeed-mandour/ahmed-saeed-mandour-012-muslimcentral.com.mp3",
+    "013": "ahmed-saeed-mandour/ahmed-saeed-mandour-013-muslimcentral.com.mp3",
+    "014": "ahmed-saeed-mandour/ahmed-saeed-mandour-014-muslimcentral.com.mp3",
+    "017": "ahmed-saeed-mandour/ahmed-saeed-mandour-017-muslimcentral.com.mp3",
+    "018": "ahmed-saeed-mandour/ahmed-saeed-mandour-018-muslimcentral.com.mp3",
+    "019": "ahmed-saeed-mandour/ahmed-saeed-mandour-019-muslimcentral.com.mp3",
+    "021": "ahmed-saeed-mandour/ahmed-saeed-mandour-021-muslimcentral.com.mp3",
+    "022": "ahmed-saeed-mandour/ahmed-saeed-mandour-022-muslimcentral.com.mp3",
+    "023": "ahmed-saeed-mandour/ahmed-saeed-mandour-023-muslimcentral.com.mp3",
+    "024": "ahmed-saeed-mandour/ahmed-saeed-mandour-024-muslimcentral.com.mp3",
+    "031": "ahmed-saeed-mandour/ahmed-saeed-mandour-031-muslimcentral.com.mp3",
+    "032": "ahmed-saeed-mandour/ahmed-saeed-mandour-032-muslimcentral.com.mp3",
+    "035": "ahmed-saeed-mandour/ahmed-saeed-mandour-035-muslimcentral.com.mp3",
+    "041": "ahmed-saeed-mandour/ahmed-saeed-mandour-041-muslimcentral.com.mp3",
+    "044": "ahmed-saeed-mandour/ahmed-saeed-mandour-044-muslimcentral.com.mp3",
+    "045": "ahmed-saeed-mandour/ahmed-saeed-mandour-045-muslimcentral.com.mp3",
+    "050": "ahmed-saeed-mandour/ahmed-saeed-mandour-050-muslimcentral.com.mp3",
+    "052": "ahmed-saeed-mandour/ahmed-saeed-mandour-052-muslimcentral.com.mp3",
+    "053": "ahmed-saeed-mandour/ahmed-saeed-mandour-053-muslimcentral.com.mp3",
+    "054": "ahmed-saeed-mandour/ahmed-saeed-mandour-054-muslimcentral.com.mp3",
+    "055": "ahmed-saeed-mandour/ahmed-saeed-mandour-055-muslimcentral.com.mp3",
+    "056": "ahmed-saeed-mandour/ahmed-saeed-mandour-056-muslimcentral.com.mp3",
+    "057": "ahmed-saeed-mandour/ahmed-saeed-mandour-057-muslimcentral.com.mp3",
+    "063": "ahmed-saeed-mandour/ahmed-saeed-mandour-063-muslimcentral.com.mp3",
+    "064": "ahmed-saeed-mandour/ahmed-saeed-mandour-064-muslimcentral.com.mp3",
+    "065": "ahmed-saeed-mandour/ahmed-saeed-mandour-065-muslimcentral.com.mp3",
+    "066": "ahmed-saeed-mandour/ahmed-saeed-mandour-066-muslimcentral.com.mp3",
+    "073": "ahmed-saeed-mandour/ahmed-saeed-mandour-073-muslimcentral.com.mp3",
+    "075": "ahmed-saeed-mandour/ahmed-saeed-mandour-075-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "46",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:22:06",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-003-muslimcentral.com.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "36:29",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-010-muslimcentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "38:53",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "013",
+      "title": "013 Ar-Rad",
+      "duration": "16:33",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-013-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "20:04",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "30:40",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-017-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "34:28",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "23:49",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "27:31",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "022",
+      "title": "022 Al-Hajj",
+      "duration": "28:51",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-022-muslimcentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "24:01",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-023-muslimcentral.com.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "27:44",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-024-muslimcentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "12:13",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-031-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "9:13",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:17",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-035-muslimcentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "18:43",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-041-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:17",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "045",
+      "title": "045 Al-Jathiya",
+      "duration": "9:20",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-045-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "10:33",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "7:00",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "7:07",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "7:10",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "10:00",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-055-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:52",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "12:22",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-057-muslimcentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:21",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-063-muslimcentral.com.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "5:35",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-064-muslimcentral.com.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:58",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-065-muslimcentral.com.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:57",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-066-muslimcentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "5:08",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-073-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "4:21",
+      "url": "ahmed-saeed-mandour/ahmed-saeed-mandour-075-muslimcentral.com.mp3"
+    }
+  ]
+}

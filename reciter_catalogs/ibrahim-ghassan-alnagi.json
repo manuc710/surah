@@ -1,0 +1,29 @@
+{
+  "slug": "ibrahim-ghassan-alnagi",
+  "count": 3,
+  "byNumber": {
+    "001": "ibrahim-ghassan-alnagi/001.mp3",
+    "113": "ibrahim-ghassan-alnagi/113.mp3",
+    "114": "ibrahim-ghassan-alnagi/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "43",
+      "url": "ibrahim-ghassan-alnagi/001.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "26",
+      "url": "ibrahim-ghassan-alnagi/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "28",
+      "url": "ibrahim-ghassan-alnagi/114.mp3"
+    }
+  ]
+}

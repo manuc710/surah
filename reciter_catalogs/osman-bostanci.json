@@ -1,0 +1,85 @@
+{
+  "slug": "osman-bostanci",
+  "count": 11,
+  "byNumber": {
+    "023": "osman-bostanci/023.mp3",
+    "105": "osman-bostanci/105.mp3",
+    "106": "osman-bostanci/106.mp3",
+    "107": "osman-bostanci/107.mp3",
+    "108": "osman-bostanci/108.mp3",
+    "109": "osman-bostanci/109.mp3",
+    "110": "osman-bostanci/110.mp3",
+    "111": "osman-bostanci/111.mp3",
+    "112": "osman-bostanci/112.mp3",
+    "113": "osman-bostanci/113.mp3",
+    "114": "osman-bostanci/114.mp3"
+  },
+  "list": [
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "27:24",
+      "url": "osman-bostanci/023.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "1:05",
+      "url": "osman-bostanci/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "1:07",
+      "url": "osman-bostanci/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "1:17",
+      "url": "osman-bostanci/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "41",
+      "url": "osman-bostanci/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "1:17",
+      "url": "osman-bostanci/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "58",
+      "url": "osman-bostanci/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "1:07",
+      "url": "osman-bostanci/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "38",
+      "url": "osman-bostanci/112.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "56",
+      "url": "osman-bostanci/113.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "1:07",
+      "url": "osman-bostanci/114.mp3"
+    }
+  ]
+}

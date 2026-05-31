@@ -1,0 +1,120 @@
+{
+  "slug": "sherif-mostafa",
+  "count": 16,
+  "byNumber": {
+    "019": "sherif-mostafa/019.mp3",
+    "032": "sherif-mostafa/032.mp3",
+    "053": "sherif-mostafa/053.mp3",
+    "055": "sherif-mostafa/055.mp3",
+    "056": "sherif-mostafa/056.mp3",
+    "057": "sherif-mostafa/057.mp3",
+    "062": "sherif-mostafa/062.mp3",
+    "063": "sherif-mostafa/063.mp3",
+    "064": "sherif-mostafa/064.mp3",
+    "065": "sherif-mostafa/065.mp3",
+    "067": "sherif-mostafa/067.mp3",
+    "071": "sherif-mostafa/071.mp3",
+    "075": "sherif-mostafa/075.mp3",
+    "076": "sherif-mostafa/076.mp3",
+    "077": "sherif-mostafa/077.mp3",
+    "089": "sherif-mostafa/089.mp3"
+  },
+  "list": [
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "26:20",
+      "url": "sherif-mostafa/019.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "9:42",
+      "url": "sherif-mostafa/032.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "8:47",
+      "url": "sherif-mostafa/053.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "13:45",
+      "url": "sherif-mostafa/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "13:10",
+      "url": "sherif-mostafa/056.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "14:39",
+      "url": "sherif-mostafa/057.mp3"
+    },
+    {
+      "n": "062",
+      "title": "062 Al-Jumua",
+      "duration": "5:05",
+      "url": "sherif-mostafa/062.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "6:21",
+      "url": "sherif-mostafa/063.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "6:22",
+      "url": "sherif-mostafa/064.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "8:19",
+      "url": "sherif-mostafa/065.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "8:08",
+      "url": "sherif-mostafa/067.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "6:21",
+      "url": "sherif-mostafa/071.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:44",
+      "url": "sherif-mostafa/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "7:47",
+      "url": "sherif-mostafa/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "6:07",
+      "url": "sherif-mostafa/077.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "4:26",
+      "url": "sherif-mostafa/089.mp3"
+    }
+  ]
+}

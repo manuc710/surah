@@ -1,0 +1,64 @@
+{
+  "slug": "yahya-abu-karam",
+  "count": 8,
+  "byNumber": {
+    "067": "yahya-abu-karam/067.mp3",
+    "070": "yahya-abu-karam/070.mp3",
+    "075": "yahya-abu-karam/075.mp3",
+    "079": "yahya-abu-karam/079.mp3",
+    "081": "yahya-abu-karam/081.mp3",
+    "082": "yahya-abu-karam/082.mp3",
+    "084": "yahya-abu-karam/084.mp3",
+    "087": "yahya-abu-karam/087.mp3"
+  },
+  "list": [
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "10:15",
+      "url": "yahya-abu-karam/067.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "7:53",
+      "url": "yahya-abu-karam/070.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "4:45",
+      "url": "yahya-abu-karam/075.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "5:20",
+      "url": "yahya-abu-karam/079.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "3:09",
+      "url": "yahya-abu-karam/081.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "2:43",
+      "url": "yahya-abu-karam/082.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "3:25",
+      "url": "yahya-abu-karam/084.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:55",
+      "url": "yahya-abu-karam/087.mp3"
+    }
+  ]
+}

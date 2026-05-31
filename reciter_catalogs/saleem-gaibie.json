@@ -1,0 +1,36 @@
+{
+  "slug": "saleem-gaibie",
+  "count": 4,
+  "byNumber": {
+    "067": "saleem-gaibie/saleem-gaibie-qurancentral.com-067-al-mulk-2020-04-24-06-08-47.mp3",
+    "056": "saleem-gaibie/saleem-gaibie-qurancentral.com-056-al-waqia-2020-04-24-06-07-41.mp3",
+    "036": "saleem-gaibie/saleem-gaibie-qurancentral.com-036-ya-seen-2020-04-24-06-06-21.mp3",
+    "032": "saleem-gaibie/saleem-gaibie-qurancentral.com-032-as-sajda-2020-04-24-06-10-23.mp3"
+  },
+  "list": [
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "8:22",
+      "url": "saleem-gaibie/saleem-gaibie-qurancentral.com-067-al-mulk-2020-04-24-06-08-47.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "11:01",
+      "url": "saleem-gaibie/saleem-gaibie-qurancentral.com-056-al-waqia-2020-04-24-06-07-41.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "19:51",
+      "url": "saleem-gaibie/saleem-gaibie-qurancentral.com-036-ya-seen-2020-04-24-06-06-21.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "9:29",
+      "url": "saleem-gaibie/saleem-gaibie-qurancentral.com-032-as-sajda-2020-04-24-06-10-23.mp3"
+    }
+  ]
+}

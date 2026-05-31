@@ -1,0 +1,610 @@
+{
+  "slug": "dawood-hamza",
+  "count": 86,
+  "byNumber": {
+    "002": "dawood-hamza/dawood-hamza-002-muslimcentral.com.mp3",
+    "003": "dawood-hamza/dawood-hamza-003-muslimcentral.com.mp3",
+    "004": "dawood-hamza/dawood-hamza-004-muslimcentral.com.mp3",
+    "005": "dawood-hamza/dawood-hamza-005-muslimcentral.com.mp3",
+    "006": "dawood-hamza/dawood-hamza-006-muslimcentral.com.mp3",
+    "007": "dawood-hamza/dawood-hamza-007-muslimcentral.com.mp3",
+    "008": "dawood-hamza/dawood-hamza-008-muslimcentral.com.mp3",
+    "010": "dawood-hamza/dawood-hamza-010-muslimcentral.com.mp3",
+    "012": "dawood-hamza/dawood-hamza-012-muslimcentral.com.mp3",
+    "014": "dawood-hamza/dawood-hamza-014-muslimcentral.com.mp3",
+    "016": "dawood-hamza/dawood-hamza-016-muslimcentral.com.mp3",
+    "017": "dawood-hamza/dawood-hamza-017-muslimcentral.com.mp3",
+    "018": "dawood-hamza/dawood-hamza-018-muslimcentral.com.mp3",
+    "019": "dawood-hamza/dawood-hamza-019-muslimcentral.com.mp3",
+    "020": "dawood-hamza/dawood-hamza-020-muslimcentral.com.mp3",
+    "021": "dawood-hamza/dawood-hamza-021-muslimcentral.com.mp3",
+    "023": "dawood-hamza/dawood-hamza-023-muslimcentral.com.mp3",
+    "024": "dawood-hamza/dawood-hamza-024-muslimcentral.com.mp3",
+    "025": "dawood-hamza/dawood-hamza-025-muslimcentral.com.mp3",
+    "027": "dawood-hamza/dawood-hamza-027-muslimcentral.com.mp3",
+    "028": "dawood-hamza/dawood-hamza-028-muslimcentral.com.mp3",
+    "029": "dawood-hamza/dawood-hamza-029-muslimcentral.com.mp3",
+    "031": "dawood-hamza/dawood-hamza-031-muslimcentral.com.mp3",
+    "033": "dawood-hamza/dawood-hamza-033-muslimcentral.com.mp3",
+    "034": "dawood-hamza/dawood-hamza-034-muslimcentral.com.mp3",
+    "035": "dawood-hamza/dawood-hamza-035-muslimcentral.com.mp3",
+    "036": "dawood-hamza/dawood-hamza-036-muslimcentral.com.mp3",
+    "037": "dawood-hamza/dawood-hamza-037-muslimcentral.com.mp3",
+    "038": "dawood-hamza/dawood-hamza-038-muslimcentral.com.mp3",
+    "040": "dawood-hamza/dawood-hamza-040-muslimcentral.com.mp3",
+    "041": "dawood-hamza/dawood-hamza-041-muslimcentral.com.mp3",
+    "042": "dawood-hamza/dawood-hamza-042-muslimcentral.com.mp3",
+    "046": "dawood-hamza/dawood-hamza-046-muslimcentral.com.mp3",
+    "047": "dawood-hamza/dawood-hamza-047-muslimcentral.com.mp3",
+    "048": "dawood-hamza/dawood-hamza-048-muslimcentral.com.mp3",
+    "050": "dawood-hamza/dawood-hamza-050-muslimcentral.com.mp3",
+    "052": "dawood-hamza/dawood-hamza-052-muslimcentral.com.mp3",
+    "053": "dawood-hamza/dawood-hamza-053-muslimcentral.com.mp3",
+    "054": "dawood-hamza/dawood-hamza-054-muslimcentral.com.mp3",
+    "056": "dawood-hamza/dawood-hamza-056-muslimcentral.com.mp3",
+    "058": "dawood-hamza/dawood-hamza-058-muslimcentral.com.mp3",
+    "060": "dawood-hamza/dawood-hamza-060-muslimcentral.com.mp3",
+    "061": "dawood-hamza/dawood-hamza-061-muslimcentral.com.mp3",
+    "063": "dawood-hamza/dawood-hamza-063-muslimcentral.com.mp3",
+    "065": "dawood-hamza/dawood-hamza-065-muslimcentral.com.mp3",
+    "067": "dawood-hamza/dawood-hamza-067-muslimcentral.com.mp3",
+    "068": "dawood-hamza/dawood-hamza-068-muslimcentral.com.mp3",
+    "069": "dawood-hamza/dawood-hamza-069-muslimcentral.com.mp3",
+    "070": "dawood-hamza/dawood-hamza-070-muslimcentral.com.mp3",
+    "071": "dawood-hamza/dawood-hamza-071-muslimcentral.com.mp3",
+    "072": "dawood-hamza/dawood-hamza-072-muslimcentral.com.mp3",
+    "073": "dawood-hamza/dawood-hamza-073-muslimcentral.com.mp3",
+    "074": "dawood-hamza/dawood-hamza-074-muslimcentral.com.mp3",
+    "075": "dawood-hamza/dawood-hamza-075-muslimcentral.com.mp3",
+    "076": "dawood-hamza/dawood-hamza-076-muslimcentral.com.mp3",
+    "077": "dawood-hamza/dawood-hamza-077-muslimcentral.com.mp3",
+    "078": "dawood-hamza/dawood-hamza-078-muslimcentral.com.mp3",
+    "079": "dawood-hamza/dawood-hamza-079-muslimcentral.com.mp3",
+    "080": "dawood-hamza/dawood-hamza-080-muslimcentral.com.mp3",
+    "081": "dawood-hamza/dawood-hamza-081-muslimcentral.com.mp3",
+    "082": "dawood-hamza/dawood-hamza-082-muslimcentral.com.mp3",
+    "084": "dawood-hamza/dawood-hamza-084-muslimcentral.com.mp3",
+    "085": "dawood-hamza/dawood-hamza-085-muslimcentral.com.mp3",
+    "086": "dawood-hamza/dawood-hamza-086-muslimcentral.com.mp3",
+    "087": "dawood-hamza/dawood-hamza-087-muslimcentral.com.mp3",
+    "088": "dawood-hamza/dawood-hamza-088-muslimcentral.com.mp3",
+    "089": "dawood-hamza/dawood-hamza-089-muslimcentral.com.mp3",
+    "090": "dawood-hamza/dawood-hamza-090-muslimcentral.com.mp3",
+    "092": "dawood-hamza/dawood-hamza-092-muslimcentral.com.mp3",
+    "093": "dawood-hamza/dawood-hamza-093-muslimcentral.com.mp3",
+    "096": "dawood-hamza/dawood-hamza-096-muslimcentral.com.mp3",
+    "097": "dawood-hamza/dawood-hamza-097-muslimcentral.com.mp3",
+    "098": "dawood-hamza/dawood-hamza-098-muslimcentral.com.mp3",
+    "101": "dawood-hamza/dawood-hamza-101-muslimcentral.com.mp3",
+    "103": "dawood-hamza/dawood-hamza-103-muslimcentral.com.mp3",
+    "104": "dawood-hamza/dawood-hamza-104-muslimcentral.com.mp3",
+    "105": "dawood-hamza/dawood-hamza-105-muslimcentral.com.mp3",
+    "106": "dawood-hamza/dawood-hamza-106-muslimcentral.com.mp3",
+    "107": "dawood-hamza/dawood-hamza-107-muslimcentral.com.mp3",
+    "108": "dawood-hamza/dawood-hamza-108-muslimcentral.com.mp3",
+    "109": "dawood-hamza/dawood-hamza-109-muslimcentral.com.mp3",
+    "110": "dawood-hamza/dawood-hamza-110-muslimcentral.com.mp3",
+    "111": "dawood-hamza/dawood-hamza-111-muslimcentral.com.mp3",
+    "112": "dawood-hamza/dawood-hamza-112-muslimcentral.com.mp3",
+    "113": "dawood-hamza/dawood-hamza-113-muslimcentral.com.mp3",
+    "114": "dawood-hamza/dawood-hamza-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "002",
+      "title": "002 Al-Baqara",
+      "duration": "2:15:43",
+      "url": "dawood-hamza/dawood-hamza-002-muslimcentral.com.mp3"
+    },
+    {
+      "n": "003",
+      "title": "003 Aal-E-Imran",
+      "duration": "1:15:06",
+      "url": "dawood-hamza/dawood-hamza-003-muslimcentral.com.mp3"
+    },
+    {
+      "n": "004",
+      "title": "004 An-Nisa",
+      "duration": "1:21:52",
+      "url": "dawood-hamza/dawood-hamza-004-muslimcentral.com.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "55:15",
+      "url": "dawood-hamza/dawood-hamza-005-muslimcentral.com.mp3"
+    },
+    {
+      "n": "006",
+      "title": "006 Al-Anaam",
+      "duration": "1:03:19",
+      "url": "dawood-hamza/dawood-hamza-006-muslimcentral.com.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:09:56",
+      "url": "dawood-hamza/dawood-hamza-007-muslimcentral.com.mp3"
+    },
+    {
+      "n": "008",
+      "title": "008 Al-Anfal",
+      "duration": "26:06",
+      "url": "dawood-hamza/dawood-hamza-008-muslimcentral.com.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "34:36",
+      "url": "dawood-hamza/dawood-hamza-010-muslimcentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "35:09",
+      "url": "dawood-hamza/dawood-hamza-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "014",
+      "title": "014 Ibrahim",
+      "duration": "16:44",
+      "url": "dawood-hamza/dawood-hamza-014-muslimcentral.com.mp3"
+    },
+    {
+      "n": "016",
+      "title": "016 An-Nahl",
+      "duration": "34:07",
+      "url": "dawood-hamza/dawood-hamza-016-muslimcentral.com.mp3"
+    },
+    {
+      "n": "017",
+      "title": "017 Al-Isra",
+      "duration": "30:30",
+      "url": "dawood-hamza/dawood-hamza-017-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "31:09",
+      "url": "dawood-hamza/dawood-hamza-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "19:02",
+      "url": "dawood-hamza/dawood-hamza-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "25:16",
+      "url": "dawood-hamza/dawood-hamza-020-muslimcentral.com.mp3"
+    },
+    {
+      "n": "021",
+      "title": "021 Al-Anbiya",
+      "duration": "23:54",
+      "url": "dawood-hamza/dawood-hamza-021-muslimcentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "20:34",
+      "url": "dawood-hamza/dawood-hamza-023-muslimcentral.com.mp3"
+    },
+    {
+      "n": "024",
+      "title": "024 An-Noor",
+      "duration": "25:43",
+      "url": "dawood-hamza/dawood-hamza-024-muslimcentral.com.mp3"
+    },
+    {
+      "n": "025",
+      "title": "025 Al-Furqan",
+      "duration": "17:29",
+      "url": "dawood-hamza/dawood-hamza-025-muslimcentral.com.mp3"
+    },
+    {
+      "n": "027",
+      "title": "027 An-Naml",
+      "duration": "22:31",
+      "url": "dawood-hamza/dawood-hamza-027-muslimcentral.com.mp3"
+    },
+    {
+      "n": "028",
+      "title": "028 Al-Qasas",
+      "duration": "27:10",
+      "url": "dawood-hamza/dawood-hamza-028-muslimcentral.com.mp3"
+    },
+    {
+      "n": "029",
+      "title": "029 Al-Ankaboot",
+      "duration": "18:11",
+      "url": "dawood-hamza/dawood-hamza-029-muslimcentral.com.mp3"
+    },
+    {
+      "n": "031",
+      "title": "031 Luqman",
+      "duration": "9:23",
+      "url": "dawood-hamza/dawood-hamza-031-muslimcentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "26:31",
+      "url": "dawood-hamza/dawood-hamza-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "16:42",
+      "url": "dawood-hamza/dawood-hamza-034-muslimcentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "14:16",
+      "url": "dawood-hamza/dawood-hamza-035-muslimcentral.com.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "13:23",
+      "url": "dawood-hamza/dawood-hamza-036-muslimcentral.com.mp3"
+    },
+    {
+      "n": "037",
+      "title": "037 As-Saaffat",
+      "duration": "16:54",
+      "url": "dawood-hamza/dawood-hamza-037-muslimcentral.com.mp3"
+    },
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "13:26",
+      "url": "dawood-hamza/dawood-hamza-038-muslimcentral.com.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "22:39",
+      "url": "dawood-hamza/dawood-hamza-040-muslimcentral.com.mp3"
+    },
+    {
+      "n": "041",
+      "title": "041 Fussilat",
+      "duration": "16:00",
+      "url": "dawood-hamza/dawood-hamza-041-muslimcentral.com.mp3"
+    },
+    {
+      "n": "042",
+      "title": "042 Ash-Shura",
+      "duration": "15:58",
+      "url": "dawood-hamza/dawood-hamza-042-muslimcentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "12:26",
+      "url": "dawood-hamza/dawood-hamza-046-muslimcentral.com.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "10:47",
+      "url": "dawood-hamza/dawood-hamza-047-muslimcentral.com.mp3"
+    },
+    {
+      "n": "048",
+      "title": "048 Al-Fath",
+      "duration": "10:37",
+      "url": "dawood-hamza/dawood-hamza-048-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "6:42",
+      "url": "dawood-hamza/dawood-hamza-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "5:47",
+      "url": "dawood-hamza/dawood-hamza-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:52",
+      "url": "dawood-hamza/dawood-hamza-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "7:07",
+      "url": "dawood-hamza/dawood-hamza-054-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "8:14",
+      "url": "dawood-hamza/dawood-hamza-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "058",
+      "title": "058 Al-Mujadila",
+      "duration": "9:11",
+      "url": "dawood-hamza/dawood-hamza-058-muslimcentral.com.mp3"
+    },
+    {
+      "n": "060",
+      "title": "060 Al-Mumtahina",
+      "duration": "7:19",
+      "url": "dawood-hamza/dawood-hamza-060-muslimcentral.com.mp3"
+    },
+    {
+      "n": "061",
+      "title": "061 As-Saff",
+      "duration": "4:16",
+      "url": "dawood-hamza/dawood-hamza-061-muslimcentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "3:35",
+      "url": "dawood-hamza/dawood-hamza-063-muslimcentral.com.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:26",
+      "url": "dawood-hamza/dawood-hamza-065-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "5:56",
+      "url": "dawood-hamza/dawood-hamza-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "5:50",
+      "url": "dawood-hamza/dawood-hamza-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:10",
+      "url": "dawood-hamza/dawood-hamza-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:18",
+      "url": "dawood-hamza/dawood-hamza-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:19",
+      "url": "dawood-hamza/dawood-hamza-071-muslimcentral.com.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:13",
+      "url": "dawood-hamza/dawood-hamza-072-muslimcentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:55",
+      "url": "dawood-hamza/dawood-hamza-073-muslimcentral.com.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "4:59",
+      "url": "dawood-hamza/dawood-hamza-074-muslimcentral.com.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:08",
+      "url": "dawood-hamza/dawood-hamza-075-muslimcentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "5:06",
+      "url": "dawood-hamza/dawood-hamza-076-muslimcentral.com.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "3:51",
+      "url": "dawood-hamza/dawood-hamza-077-muslimcentral.com.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "3:30",
+      "url": "dawood-hamza/dawood-hamza-078-muslimcentral.com.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "3:36",
+      "url": "dawood-hamza/dawood-hamza-079-muslimcentral.com.mp3"
+    },
+    {
+      "n": "080",
+      "title": "080 Abasa",
+      "duration": "2:51",
+      "url": "dawood-hamza/dawood-hamza-080-muslimcentral.com.mp3"
+    },
+    {
+      "n": "081",
+      "title": "081 At-Takwir",
+      "duration": "1:59",
+      "url": "dawood-hamza/dawood-hamza-081-muslimcentral.com.mp3"
+    },
+    {
+      "n": "082",
+      "title": "082 Al-Infitar",
+      "duration": "1:33",
+      "url": "dawood-hamza/dawood-hamza-082-muslimcentral.com.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:07",
+      "url": "dawood-hamza/dawood-hamza-084-muslimcentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "1:59",
+      "url": "dawood-hamza/dawood-hamza-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:17",
+      "url": "dawood-hamza/dawood-hamza-086-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:25",
+      "url": "dawood-hamza/dawood-hamza-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "1:49",
+      "url": "dawood-hamza/dawood-hamza-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "2:45",
+      "url": "dawood-hamza/dawood-hamza-089-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:42",
+      "url": "dawood-hamza/dawood-hamza-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:34",
+      "url": "dawood-hamza/dawood-hamza-092-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "57",
+      "url": "dawood-hamza/dawood-hamza-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:33",
+      "url": "dawood-hamza/dawood-hamza-096-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "41",
+      "url": "dawood-hamza/dawood-hamza-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:53",
+      "url": "dawood-hamza/dawood-hamza-098-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "51",
+      "url": "dawood-hamza/dawood-hamza-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "19",
+      "url": "dawood-hamza/dawood-hamza-103-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "46",
+      "url": "dawood-hamza/dawood-hamza-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "33",
+      "url": "dawood-hamza/dawood-hamza-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "33",
+      "url": "dawood-hamza/dawood-hamza-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "34",
+      "url": "dawood-hamza/dawood-hamza-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "19",
+      "url": "dawood-hamza/dawood-hamza-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "40",
+      "url": "dawood-hamza/dawood-hamza-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "27",
+      "url": "dawood-hamza/dawood-hamza-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "33",
+      "url": "dawood-hamza/dawood-hamza-111-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "17",
+      "url": "dawood-hamza/dawood-hamza-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "29",
+      "url": "dawood-hamza/dawood-hamza-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "34",
+      "url": "dawood-hamza/dawood-hamza-114-muslimcentral.com.mp3"
+    }
+  ]
+}

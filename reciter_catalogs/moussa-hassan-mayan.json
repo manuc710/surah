@@ -1,0 +1,505 @@
+{
+  "slug": "moussa-hassan-mayan",
+  "count": 71,
+  "byNumber": {
+    "001": "moussa-hassan-mayan/moussa-hassan-mayan-001-muslimcentral.com.mp3",
+    "005": "moussa-hassan-mayan/moussa-hassan-mayan-005-muslimcentral.com.mp3",
+    "007": "moussa-hassan-mayan/moussa-hassan-mayan-007-muslimcentral.com.mp3",
+    "010": "moussa-hassan-mayan/moussa-hassan-mayan-010-muslimcentral.com.mp3",
+    "012": "moussa-hassan-mayan/moussa-hassan-mayan-012-muslimcentral.com.mp3",
+    "018": "moussa-hassan-mayan/moussa-hassan-mayan-018-muslimcentral.com.mp3",
+    "019": "moussa-hassan-mayan/moussa-hassan-mayan-019-muslimcentral.com.mp3",
+    "020": "moussa-hassan-mayan/moussa-hassan-mayan-020-muslimcentral.com.mp3",
+    "023": "moussa-hassan-mayan/moussa-hassan-mayan-023-muslimcentral.com.mp3",
+    "030": "moussa-hassan-mayan/moussa-hassan-mayan-030-muslimcentral.com.mp3",
+    "032": "moussa-hassan-mayan/moussa-hassan-mayan-032-muslimcentral.com.mp3",
+    "033": "moussa-hassan-mayan/moussa-hassan-mayan-033-muslimcentral.com.mp3",
+    "034": "moussa-hassan-mayan/moussa-hassan-mayan-034-muslimcentral.com.mp3",
+    "035": "moussa-hassan-mayan/moussa-hassan-mayan-035-muslimcentral.com.mp3",
+    "044": "moussa-hassan-mayan/moussa-hassan-mayan-044-muslimcentral.com.mp3",
+    "046": "moussa-hassan-mayan/moussa-hassan-mayan-046-muslimcentral.com.mp3",
+    "047": "moussa-hassan-mayan/moussa-hassan-mayan-047-muslimcentral.com.mp3",
+    "049": "moussa-hassan-mayan/moussa-hassan-mayan-049-muslimcentral.com.mp3",
+    "050": "moussa-hassan-mayan/moussa-hassan-mayan-050-muslimcentral.com.mp3",
+    "051": "moussa-hassan-mayan/moussa-hassan-mayan-051-muslimcentral.com.mp3",
+    "052": "moussa-hassan-mayan/moussa-hassan-mayan-052-muslimcentral.com.mp3",
+    "053": "moussa-hassan-mayan/moussa-hassan-mayan-053-muslimcentral.com.mp3",
+    "056": "moussa-hassan-mayan/moussa-hassan-mayan-056-muslimcentral.com.mp3",
+    "057": "moussa-hassan-mayan/moussa-hassan-mayan-057-muslimcentral.com.mp3",
+    "059": "moussa-hassan-mayan/moussa-hassan-mayan-059-muslimcentral.com.mp3",
+    "063": "moussa-hassan-mayan/moussa-hassan-mayan-063-muslimcentral.com.mp3",
+    "064": "moussa-hassan-mayan/moussa-hassan-mayan-064-muslimcentral.com.mp3",
+    "065": "moussa-hassan-mayan/moussa-hassan-mayan-065-muslimcentral.com.mp3",
+    "066": "moussa-hassan-mayan/moussa-hassan-mayan-066-muslimcentral.com.mp3",
+    "067": "moussa-hassan-mayan/moussa-hassan-mayan-067-muslimcentral.com.mp3",
+    "068": "moussa-hassan-mayan/moussa-hassan-mayan-068-muslimcentral.com.mp3",
+    "069": "moussa-hassan-mayan/moussa-hassan-mayan-069-muslimcentral.com.mp3",
+    "070": "moussa-hassan-mayan/moussa-hassan-mayan-070-muslimcentral.com.mp3",
+    "071": "moussa-hassan-mayan/moussa-hassan-mayan-071-muslimcentral.com.mp3",
+    "072": "moussa-hassan-mayan/moussa-hassan-mayan-072-muslimcentral.com.mp3",
+    "073": "moussa-hassan-mayan/moussa-hassan-mayan-073-muslimcentral.com.mp3",
+    "074": "moussa-hassan-mayan/moussa-hassan-mayan-074-muslimcentral.com.mp3",
+    "076": "moussa-hassan-mayan/moussa-hassan-mayan-076-muslimcentral.com.mp3",
+    "078": "moussa-hassan-mayan/moussa-hassan-mayan-078-muslimcentral.com.mp3",
+    "079": "moussa-hassan-mayan/moussa-hassan-mayan-079-muslimcentral.com.mp3",
+    "084": "moussa-hassan-mayan/moussa-hassan-mayan-084-muslimcentral.com.mp3",
+    "085": "moussa-hassan-mayan/moussa-hassan-mayan-085-muslimcentral.com.mp3",
+    "086": "moussa-hassan-mayan/moussa-hassan-mayan-086-muslimcentral.com.mp3",
+    "087": "moussa-hassan-mayan/moussa-hassan-mayan-087-muslimcentral.com.mp3",
+    "088": "moussa-hassan-mayan/moussa-hassan-mayan-088-muslimcentral.com.mp3",
+    "089": "moussa-hassan-mayan/moussa-hassan-mayan-089-muslimcentral.com.mp3",
+    "090": "moussa-hassan-mayan/moussa-hassan-mayan-090-muslimcentral.com.mp3",
+    "091": "moussa-hassan-mayan/moussa-hassan-mayan-091-muslimcentral.com.mp3",
+    "092": "moussa-hassan-mayan/moussa-hassan-mayan-092-muslimcentral.com.mp3",
+    "093": "moussa-hassan-mayan/moussa-hassan-mayan-093-muslimcentral.com.mp3",
+    "094": "moussa-hassan-mayan/moussa-hassan-mayan-094-muslimcentral.com.mp3",
+    "095": "moussa-hassan-mayan/moussa-hassan-mayan-095-muslimcentral.com.mp3",
+    "096": "moussa-hassan-mayan/moussa-hassan-mayan-096-muslimcentral.com.mp3",
+    "097": "moussa-hassan-mayan/moussa-hassan-mayan-097-muslimcentral.com.mp3",
+    "098": "moussa-hassan-mayan/moussa-hassan-mayan-098-muslimcentral.com.mp3",
+    "099": "moussa-hassan-mayan/moussa-hassan-mayan-099-muslimcentral.com.mp3",
+    "100": "moussa-hassan-mayan/moussa-hassan-mayan-100-muslimcentral.com.mp3",
+    "101": "moussa-hassan-mayan/moussa-hassan-mayan-101-muslimcentral.com.mp3",
+    "102": "moussa-hassan-mayan/moussa-hassan-mayan-102-muslimcentral.com.mp3",
+    "103": "moussa-hassan-mayan/moussa-hassan-mayan-103-muslimcentral.com.mp3",
+    "104": "moussa-hassan-mayan/moussa-hassan-mayan-104-muslimcentral.com.mp3",
+    "105": "moussa-hassan-mayan/moussa-hassan-mayan-105-muslimcentral.com.mp3",
+    "106": "moussa-hassan-mayan/moussa-hassan-mayan-106-muslimcentral.com.mp3",
+    "107": "moussa-hassan-mayan/moussa-hassan-mayan-107-muslimcentral.com.mp3",
+    "108": "moussa-hassan-mayan/moussa-hassan-mayan-108-muslimcentral.com.mp3",
+    "109": "moussa-hassan-mayan/moussa-hassan-mayan-109-muslimcentral.com.mp3",
+    "110": "moussa-hassan-mayan/moussa-hassan-mayan-110-muslimcentral.com.mp3",
+    "111": "moussa-hassan-mayan/moussa-hassan-mayan-111-muslimcentral.com.mp3",
+    "112": "moussa-hassan-mayan/moussa-hassan-mayan-112-muslimcentral.com.mp3",
+    "113": "moussa-hassan-mayan/moussa-hassan-mayan-113-muslimcentral.com.mp3",
+    "114": "moussa-hassan-mayan/moussa-hassan-mayan-114-muslimcentral.com.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "38",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-001-muslimcentral.com.mp3"
+    },
+    {
+      "n": "005",
+      "title": "005 Al-Ma-idah",
+      "duration": "51:42",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-005-muslimcentral.com.mp3"
+    },
+    {
+      "n": "007",
+      "title": "007 Al-Araf",
+      "duration": "1:09:36",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-007-muslimcentral.com.mp3"
+    },
+    {
+      "n": "010",
+      "title": "010 Yunus",
+      "duration": "31:03",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-010-muslimcentral.com.mp3"
+    },
+    {
+      "n": "012",
+      "title": "012 Yusuf",
+      "duration": "36:16",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-012-muslimcentral.com.mp3"
+    },
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "29:14",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-018-muslimcentral.com.mp3"
+    },
+    {
+      "n": "019",
+      "title": "019 Maryam",
+      "duration": "17:55",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-019-muslimcentral.com.mp3"
+    },
+    {
+      "n": "020",
+      "title": "020 Ta-Ha",
+      "duration": "23:30",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-020-muslimcentral.com.mp3"
+    },
+    {
+      "n": "023",
+      "title": "023 Al-Muminoon",
+      "duration": "21:50",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-023-muslimcentral.com.mp3"
+    },
+    {
+      "n": "030",
+      "title": "030 Ar-Room",
+      "duration": "15:12",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-030-muslimcentral.com.mp3"
+    },
+    {
+      "n": "032",
+      "title": "032 As-Sajda",
+      "duration": "6:46",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-032-muslimcentral.com.mp3"
+    },
+    {
+      "n": "033",
+      "title": "033 Al-Ahzab",
+      "duration": "26:01",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-033-muslimcentral.com.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "18:07",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-034-muslimcentral.com.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "15:16",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-035-muslimcentral.com.mp3"
+    },
+    {
+      "n": "044",
+      "title": "044 Ad-Dukhan",
+      "duration": "7:11",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-044-muslimcentral.com.mp3"
+    },
+    {
+      "n": "046",
+      "title": "046 Al-Ahqaf",
+      "duration": "12:22",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-046-muslimcentral.com.mp3"
+    },
+    {
+      "n": "047",
+      "title": "047 Muhammad",
+      "duration": "10:06",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-047-muslimcentral.com.mp3"
+    },
+    {
+      "n": "049",
+      "title": "049 Al-Hujraat",
+      "duration": "7:22",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-049-muslimcentral.com.mp3"
+    },
+    {
+      "n": "050",
+      "title": "050 Qaf",
+      "duration": "7:21",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-050-muslimcentral.com.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:56",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-051-muslimcentral.com.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:39",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-052-muslimcentral.com.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:38",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-053-muslimcentral.com.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "9:37",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-056-muslimcentral.com.mp3"
+    },
+    {
+      "n": "057",
+      "title": "057 Al-Hadid",
+      "duration": "11:28",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-057-muslimcentral.com.mp3"
+    },
+    {
+      "n": "059",
+      "title": "059 Al-Hashr",
+      "duration": "9:16",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-059-muslimcentral.com.mp3"
+    },
+    {
+      "n": "063",
+      "title": "063 Al-Munafiqoon",
+      "duration": "4:00",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-063-muslimcentral.com.mp3"
+    },
+    {
+      "n": "064",
+      "title": "064 At-Taghabun",
+      "duration": "4:49",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-064-muslimcentral.com.mp3"
+    },
+    {
+      "n": "065",
+      "title": "065 At-Talaq",
+      "duration": "5:25",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-065-muslimcentral.com.mp3"
+    },
+    {
+      "n": "066",
+      "title": "066 At-Tahrim",
+      "duration": "5:53",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-066-muslimcentral.com.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "6:49",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-067-muslimcentral.com.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:37",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-068-muslimcentral.com.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:58",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-069-muslimcentral.com.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "5:06",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-070-muslimcentral.com.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:58",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-071-muslimcentral.com.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "5:36",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-072-muslimcentral.com.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "4:11",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-073-muslimcentral.com.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "5:16",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-074-muslimcentral.com.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:56",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-076-muslimcentral.com.mp3"
+    },
+    {
+      "n": "078",
+      "title": "078 An-Naba",
+      "duration": "4:34",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-078-muslimcentral.com.mp3"
+    },
+    {
+      "n": "079",
+      "title": "079 An-Naziat",
+      "duration": "4:13",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-079-muslimcentral.com.mp3"
+    },
+    {
+      "n": "084",
+      "title": "084 Al-Inshiqaq",
+      "duration": "2:27",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-084-muslimcentral.com.mp3"
+    },
+    {
+      "n": "085",
+      "title": "085 Al-Burooj",
+      "duration": "2:36",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-085-muslimcentral.com.mp3"
+    },
+    {
+      "n": "086",
+      "title": "086 At-Tariq",
+      "duration": "1:26",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-086-muslimcentral.com.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:28",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-087-muslimcentral.com.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:05",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-088-muslimcentral.com.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:18",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-089-muslimcentral.com.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:45",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-090-muslimcentral.com.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:22",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-091-muslimcentral.com.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:34",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-092-muslimcentral.com.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "55",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-093-muslimcentral.com.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "33",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-094-muslimcentral.com.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "43",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-095-muslimcentral.com.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:22",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-096-muslimcentral.com.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "42",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-097-muslimcentral.com.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "1:55",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-098-muslimcentral.com.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "47",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-099-muslimcentral.com.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "54",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-100-muslimcentral.com.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "52",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-101-muslimcentral.com.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "44",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-102-muslimcentral.com.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "23",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-103-muslimcentral.com.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "47",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-104-muslimcentral.com.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "34",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-105-muslimcentral.com.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "31",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-106-muslimcentral.com.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "36",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-107-muslimcentral.com.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "20",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-108-muslimcentral.com.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "43",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-109-muslimcentral.com.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "25",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-110-muslimcentral.com.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "34",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-111-muslimcentral.com.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "18",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-112-muslimcentral.com.mp3"
+    },
+    {
+      "n": "113",
+      "title": "113 Al-Falaq",
+      "duration": "27",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-113-muslimcentral.com.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "37",
+      "url": "moussa-hassan-mayan/moussa-hassan-mayan-114-muslimcentral.com.mp3"
+    }
+  ]
+}

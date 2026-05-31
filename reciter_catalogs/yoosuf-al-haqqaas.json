@@ -1,0 +1,29 @@
+{
+  "slug": "yoosuf-al-haqqaas",
+  "count": 3,
+  "byNumber": {
+    "038": "yoosuf-al-haqqaas/038.mp3",
+    "039": "yoosuf-al-haqqaas/039.mp3",
+    "040": "yoosuf-al-haqqaas/040.mp3"
+  },
+  "list": [
+    {
+      "n": "038",
+      "title": "038 Sad",
+      "duration": "11:09",
+      "url": "yoosuf-al-haqqaas/038.mp3"
+    },
+    {
+      "n": "039",
+      "title": "039 Az-Zumar",
+      "duration": "16:33",
+      "url": "yoosuf-al-haqqaas/039.mp3"
+    },
+    {
+      "n": "040",
+      "title": "040 Ghafir",
+      "duration": "19:07",
+      "url": "yoosuf-al-haqqaas/040.mp3"
+    }
+  ]
+}

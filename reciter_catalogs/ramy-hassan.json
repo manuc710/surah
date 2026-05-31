@@ -1,0 +1,211 @@
+{
+  "slug": "ramy-hassan",
+  "count": 29,
+  "byNumber": {
+    "001": "ramy-hassan/001.mp3",
+    "067": "ramy-hassan/067.mp3",
+    "087": "ramy-hassan/087.mp3",
+    "088": "ramy-hassan/088.mp3",
+    "089": "ramy-hassan/089.mp3",
+    "090": "ramy-hassan/090.mp3",
+    "091": "ramy-hassan/091.mp3",
+    "092": "ramy-hassan/092.mp3",
+    "093": "ramy-hassan/093.mp3",
+    "094": "ramy-hassan/094.mp3",
+    "095": "ramy-hassan/095.mp3",
+    "096": "ramy-hassan/096.mp3",
+    "097": "ramy-hassan/097.mp3",
+    "098": "ramy-hassan/098.mp3",
+    "099": "ramy-hassan/099.mp3",
+    "100": "ramy-hassan/100.mp3",
+    "101": "ramy-hassan/101.mp3",
+    "102": "ramy-hassan/102.mp3",
+    "103": "ramy-hassan/103.mp3",
+    "104": "ramy-hassan/104.mp3",
+    "105": "ramy-hassan/105.mp3",
+    "106": "ramy-hassan/106.mp3",
+    "107": "ramy-hassan/107.mp3",
+    "108": "ramy-hassan/108.mp3",
+    "109": "ramy-hassan/109.mp3",
+    "110": "ramy-hassan/110.mp3",
+    "111": "ramy-hassan/111.mp3",
+    "112": "ramy-hassan/112.mp3",
+    "114": "ramy-hassan/114.mp3"
+  },
+  "list": [
+    {
+      "n": "001",
+      "title": "001 Al-Fatiha",
+      "duration": "44",
+      "url": "ramy-hassan/001.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "7:39",
+      "url": "ramy-hassan/067.mp3"
+    },
+    {
+      "n": "087",
+      "title": "087 Al-Ala",
+      "duration": "1:37",
+      "url": "ramy-hassan/087.mp3"
+    },
+    {
+      "n": "088",
+      "title": "088 Al-Ghashiya",
+      "duration": "2:09",
+      "url": "ramy-hassan/088.mp3"
+    },
+    {
+      "n": "089",
+      "title": "089 Al-Fajr",
+      "duration": "3:37",
+      "url": "ramy-hassan/089.mp3"
+    },
+    {
+      "n": "090",
+      "title": "090 Al-Balad",
+      "duration": "1:51",
+      "url": "ramy-hassan/090.mp3"
+    },
+    {
+      "n": "091",
+      "title": "091 Ash-Shams",
+      "duration": "1:22",
+      "url": "ramy-hassan/091.mp3"
+    },
+    {
+      "n": "092",
+      "title": "092 Al-Lail",
+      "duration": "1:48",
+      "url": "ramy-hassan/092.mp3"
+    },
+    {
+      "n": "093",
+      "title": "093 Ad-Dhuha",
+      "duration": "1:03",
+      "url": "ramy-hassan/093.mp3"
+    },
+    {
+      "n": "094",
+      "title": "094 Al-Inshirah",
+      "duration": "36",
+      "url": "ramy-hassan/094.mp3"
+    },
+    {
+      "n": "095",
+      "title": "095 At-Tin",
+      "duration": "57",
+      "url": "ramy-hassan/095.mp3"
+    },
+    {
+      "n": "096",
+      "title": "096 Al-Alaq",
+      "duration": "1:37",
+      "url": "ramy-hassan/096.mp3"
+    },
+    {
+      "n": "097",
+      "title": "097 Al-Qadr",
+      "duration": "47",
+      "url": "ramy-hassan/097.mp3"
+    },
+    {
+      "n": "098",
+      "title": "098 Al-Bayyina",
+      "duration": "2:05",
+      "url": "ramy-hassan/098.mp3"
+    },
+    {
+      "n": "099",
+      "title": "099 Az-Zalzala",
+      "duration": "56",
+      "url": "ramy-hassan/099.mp3"
+    },
+    {
+      "n": "100",
+      "title": "100 Al-Adiyat",
+      "duration": "1:04",
+      "url": "ramy-hassan/100.mp3"
+    },
+    {
+      "n": "101",
+      "title": "101 Al-Qaria",
+      "duration": "54",
+      "url": "ramy-hassan/101.mp3"
+    },
+    {
+      "n": "102",
+      "title": "102 At-Takathur",
+      "duration": "49",
+      "url": "ramy-hassan/102.mp3"
+    },
+    {
+      "n": "103",
+      "title": "103 Al-Asr",
+      "duration": "24",
+      "url": "ramy-hassan/103.mp3"
+    },
+    {
+      "n": "104",
+      "title": "104 Al-Humaza",
+      "duration": "50",
+      "url": "ramy-hassan/104.mp3"
+    },
+    {
+      "n": "105",
+      "title": "105 Al-Fil",
+      "duration": "42",
+      "url": "ramy-hassan/105.mp3"
+    },
+    {
+      "n": "106",
+      "title": "106 Quraish",
+      "duration": "33",
+      "url": "ramy-hassan/106.mp3"
+    },
+    {
+      "n": "107",
+      "title": "107 Al-Maun",
+      "duration": "42",
+      "url": "ramy-hassan/107.mp3"
+    },
+    {
+      "n": "108",
+      "title": "108 Al-Kauther",
+      "duration": "19",
+      "url": "ramy-hassan/108.mp3"
+    },
+    {
+      "n": "109",
+      "title": "109 Al-Kafiroon",
+      "duration": "47",
+      "url": "ramy-hassan/109.mp3"
+    },
+    {
+      "n": "110",
+      "title": "110 An-Nasr",
+      "duration": "30",
+      "url": "ramy-hassan/110.mp3"
+    },
+    {
+      "n": "111",
+      "title": "111 Al-Masadd",
+      "duration": "35",
+      "url": "ramy-hassan/111.mp3"
+    },
+    {
+      "n": "112",
+      "title": "112 Al-Ikhlas",
+      "duration": "18",
+      "url": "ramy-hassan/112.mp3"
+    },
+    {
+      "n": "114",
+      "title": "114 An-Nas",
+      "duration": "42",
+      "url": "ramy-hassan/114.mp3"
+    }
+  ]
+}

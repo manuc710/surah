@@ -1,0 +1,155 @@
+{
+  "slug": "khaleel-al-ansi",
+  "count": 21,
+  "byNumber": {
+    "018": "khaleel-al-ansi/018.mp3",
+    "034": "khaleel-al-ansi/034.mp3",
+    "035": "khaleel-al-ansi/035.mp3",
+    "036": "khaleel-al-ansi/036.mp3",
+    "051": "khaleel-al-ansi/051.mp3",
+    "052": "khaleel-al-ansi/052.mp3",
+    "053": "khaleel-al-ansi/053.mp3",
+    "054": "khaleel-al-ansi/054.mp3",
+    "055": "khaleel-al-ansi/055.mp3",
+    "056": "khaleel-al-ansi/056.mp3",
+    "067": "khaleel-al-ansi/067.mp3",
+    "068": "khaleel-al-ansi/068.mp3",
+    "069": "khaleel-al-ansi/069.mp3",
+    "070": "khaleel-al-ansi/070.mp3",
+    "071": "khaleel-al-ansi/071.mp3",
+    "072": "khaleel-al-ansi/072.mp3",
+    "073": "khaleel-al-ansi/073.mp3",
+    "074": "khaleel-al-ansi/074.mp3",
+    "075": "khaleel-al-ansi/075.mp3",
+    "076": "khaleel-al-ansi/076.mp3",
+    "077": "khaleel-al-ansi/077.mp3"
+  },
+  "list": [
+    {
+      "n": "018",
+      "title": "018 Al-Kahf",
+      "duration": "25:39",
+      "url": "khaleel-al-ansi/018.mp3"
+    },
+    {
+      "n": "034",
+      "title": "034 Saba",
+      "duration": "15:08",
+      "url": "khaleel-al-ansi/034.mp3"
+    },
+    {
+      "n": "035",
+      "title": "035 Fatir",
+      "duration": "13:01",
+      "url": "khaleel-al-ansi/035.mp3"
+    },
+    {
+      "n": "036",
+      "title": "036 Ya-Seen",
+      "duration": "13:15",
+      "url": "khaleel-al-ansi/036.mp3"
+    },
+    {
+      "n": "051",
+      "title": "051 Adh-Dhariyat",
+      "duration": "6:56",
+      "url": "khaleel-al-ansi/051.mp3"
+    },
+    {
+      "n": "052",
+      "title": "052 At-Tur",
+      "duration": "6:01",
+      "url": "khaleel-al-ansi/052.mp3"
+    },
+    {
+      "n": "053",
+      "title": "053 An-Najm",
+      "duration": "6:18",
+      "url": "khaleel-al-ansi/053.mp3"
+    },
+    {
+      "n": "054",
+      "title": "054 Al-Qamar",
+      "duration": "6:45",
+      "url": "khaleel-al-ansi/054.mp3"
+    },
+    {
+      "n": "055",
+      "title": "055 Ar-Rahman",
+      "duration": "8:20",
+      "url": "khaleel-al-ansi/055.mp3"
+    },
+    {
+      "n": "056",
+      "title": "056 Al-Waqia",
+      "duration": "8:54",
+      "url": "khaleel-al-ansi/056.mp3"
+    },
+    {
+      "n": "067",
+      "title": "067 Al-Mulk",
+      "duration": "1:29",
+      "url": "khaleel-al-ansi/067.mp3"
+    },
+    {
+      "n": "068",
+      "title": "068 Al-Qalam",
+      "duration": "6:04",
+      "url": "khaleel-al-ansi/068.mp3"
+    },
+    {
+      "n": "069",
+      "title": "069 Al-Haaqqa",
+      "duration": "5:27",
+      "url": "khaleel-al-ansi/069.mp3"
+    },
+    {
+      "n": "070",
+      "title": "070 Al-Maarij",
+      "duration": "4:20",
+      "url": "khaleel-al-ansi/070.mp3"
+    },
+    {
+      "n": "071",
+      "title": "071 Nooh",
+      "duration": "4:13",
+      "url": "khaleel-al-ansi/071.mp3"
+    },
+    {
+      "n": "072",
+      "title": "072 Al-Jinn",
+      "duration": "4:41",
+      "url": "khaleel-al-ansi/072.mp3"
+    },
+    {
+      "n": "073",
+      "title": "073 Al-Muzzammil",
+      "duration": "3:37",
+      "url": "khaleel-al-ansi/073.mp3"
+    },
+    {
+      "n": "074",
+      "title": "074 Al-Muddaththir",
+      "duration": "4:46",
+      "url": "khaleel-al-ansi/074.mp3"
+    },
+    {
+      "n": "075",
+      "title": "075 Al-Qiyama",
+      "duration": "3:05",
+      "url": "khaleel-al-ansi/075.mp3"
+    },
+    {
+      "n": "076",
+      "title": "076 Al-Insan",
+      "duration": "4:56",
+      "url": "khaleel-al-ansi/076.mp3"
+    },
+    {
+      "n": "077",
+      "title": "077 Al-Mursalat",
+      "duration": "4:11",
+      "url": "khaleel-al-ansi/077.mp3"
+    }
+  ]
+}
