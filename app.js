@@ -1105,7 +1105,9 @@ function renderReciterDetail() {
       class: 'btn primary',
       onclick: async () => {
         const id = chapterIdForSurahNumber(1) || state.chapters[0]?.id || null
-        if (id) setChapter(id, { autoplay: true })
+        if (!id) return
+        setChapter(id, { autoplay: true })
+        gotoChapter(id)
       },
     }, ['Слушать']),
     el('button', {
@@ -1113,7 +1115,9 @@ function renderReciterDetail() {
       onclick: async () => {
         const picks = Object.keys(CHAPTER_TO_SURAH_NUMBER)
         const id = picks.length ? picks[Math.floor(Math.random() * picks.length)] : null
-        if (id) setChapter(id, { autoplay: true })
+        if (!id) return
+        setChapter(id, { autoplay: true })
+        gotoChapter(id)
       },
     }, ['Перемешать']),
   ])
@@ -1170,6 +1174,7 @@ function renderReciterDetail() {
             onclick: () => {
               if (!chapId) return
               setChapter(chapId, { autoplay: true })
+              gotoChapter(chapId)
             },
           }, [
             el('div', { class: 'reciter-surah-num' }, [String(n)]),
