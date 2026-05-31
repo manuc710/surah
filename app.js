@@ -750,22 +750,44 @@ const arabicTitles = {
 
 function renderSurahs() {
   const root = $('#view')
-  root.innerHTML = ''
+  if (root.dataset.page !== 'surahs') {
+    root.innerHTML = ''
+    root.dataset.page = 'surahs'
 
-  root.appendChild(
-    el('div', { class: 'searchbar' }, [
-      el('input', {
-        value: state.q,
-        placeholder: 'Поиск по названию, транслиту, переводу, арабскому…',
-        oninput: (e) => {
-          state.q = e.target.value || ''
-          renderSurahs()
-        },
-      }),
-    ]),
-  )
+    root.appendChild(
+      el('div', { class: 'searchbar' }, [
+        el('input', {
+          id: 'surahs-search',
+          value: state.q,
+          placeholder: 'Поиск по названию, транслиту, переводу, арабскому…',
+          autocapitalize: 'off',
+          autocomplete: 'off',
+          autocorrect: 'off',
+          spellcheck: 'false',
+          oninput: (e) => {
+            state.q = e.target.value || ''
+            updateSurahsList()
+          },
+        }),
+      ]),
+    )
 
-  const nq = state.q.toLowerCase().trim()
+    root.appendChild(el('div', { class: 'grid', id: 'surahs-grid' }))
+    root.appendChild(el('p', { class: 'muted', id: 'surahs-empty', style: 'margin-top:12px; display:none' }, ['']))
+  } else {
+    const input = $('#surahs-search')
+    if (input && document.activeElement !== input && input.value !== String(state.q || '')) input.value = String(state.q || '')
+  }
+
+  updateSurahsList()
+}
+
+function updateSurahsList() {
+  const grid = $('#surahs-grid')
+  if (!grid) return
+
+  const empty = $('#surahs-empty')
+  const nq = String(state.q || '').toLowerCase().trim()
   const list = !nq
     ? state.chapters
     : state.chapters.filter((c) => {
@@ -775,7 +797,7 @@ function renderSurahs() {
         return txt.toLowerCase().includes(nq)
       })
 
-  const grid = el('div', { class: 'grid' })
+  grid.innerHTML = ''
   for (const c of list) {
     const iconKey = chapterIcons[c.id] || 'star'
     const svgHTML = svgIcons[iconKey] || svgIcons.star
@@ -783,7 +805,6 @@ function renderSurahs() {
     const imageOrSvgHTML = c.imageUrl ? `<img src="${c.imageUrl}" alt="${c.title}" loading="lazy">` : svgHTML
 
     const card = el('div', { class: 'card', onclick: () => gotoChapter(c.id) })
-
     const arTitle = arabicTitles[c.id] || ''
 
     card.appendChild(
@@ -794,12 +815,18 @@ function renderSurahs() {
     )
 
     card.appendChild(el('div', { class: 'icon-wrapper', html: imageOrSvgHTML }))
-
     grid.appendChild(card)
   }
 
-  root.appendChild(grid)
-  if (!list.length) root.appendChild(el('p', { class: 'muted', style: 'margin-top:12px' }, ['Ничего не найдено.']))
+  if (empty) {
+    if (!list.length) {
+      empty.textContent = 'Ничего не найдено.'
+      empty.style.display = ''
+    } else {
+      empty.textContent = ''
+      empty.style.display = 'none'
+    }
+  }
 }
 
 function renderBookmarks() {
@@ -863,7 +890,7 @@ function renderChapter() {
   const chapter = state.chapterId ? state.byId.get(state.chapterId) : null
   if (!chapter) {
     root.appendChild(el('p', {}, ['Глава не найдена. ']))
-    root.appendChild(el('a', { href: '#page=home' }, ['Вернуться']))
+    root.appendChild(el('a', { href: '#page=surahs' }, ['Вернуться']))
     return
   }
 
