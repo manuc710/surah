@@ -559,6 +559,20 @@ body.listen-mode .verses{display:none;}
   font-size: 16px;
   text-overflow: ellipsis;
   overflow: hidden;
+  border-radius: 10px;
+  transition: color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.player .ptitle:hover{
+  color: var(--accent);
+}
+.player .ptitle:focus-visible{
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+}
+.player .ptitle.active{
+  color: var(--accent);
+  background: rgba(56, 189, 248, 0.12);
+  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.25) inset;
 }
 .player .p-subtitle {
   color: #94a3b8;

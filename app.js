@@ -1061,7 +1061,11 @@ function renderPlayer() {
         el('div', { class: 'left' }, [
           el('div', { class: 'avatar', html: imageOrSvgHTML }),
           el('div', { class: 'info' }, [
-            el('a', { class: 'ptitle', href: `#page=chapter&chapter=${encodeURIComponent(chapter.id)}` }, [`${chapter.id.replace('chapter', '')}. ${chapter.displayTitle}`]),
+            el(
+              'a',
+              { class: expanded ? 'ptitle active' : 'ptitle', href: `#page=chapter&chapter=${encodeURIComponent(chapter.id)}` },
+              [`${chapter.id.replace('chapter', '')}. ${chapter.displayTitle}`],
+            ),
             el('div', { class: 'p-subtitle' }, [subtitleText])
           ]),
         ]),
