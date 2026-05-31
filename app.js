@@ -1107,7 +1107,6 @@ function renderReciterDetail() {
         const id = chapterIdForSurahNumber(1) || state.chapters[0]?.id || null
         if (!id) return
         setChapter(id, { autoplay: true })
-        gotoChapter(id)
       },
     }, ['Слушать']),
     el('button', {
@@ -1117,7 +1116,6 @@ function renderReciterDetail() {
         const id = picks.length ? picks[Math.floor(Math.random() * picks.length)] : null
         if (!id) return
         setChapter(id, { autoplay: true })
-        gotoChapter(id)
       },
     }, ['Перемешать']),
   ])
@@ -1172,9 +1170,11 @@ function renderReciterDetail() {
             class: `reciter-surah-row${canPlay ? '' : ' disabled'}`,
             type: 'button',
             onclick: () => {
-              if (!chapId) return
+              if (!chapId) {
+                alert('Эта сура пока недоступна в приложении.')
+                return
+              }
               setChapter(chapId, { autoplay: true })
-              gotoChapter(chapId)
             },
           }, [
             el('div', { class: 'reciter-surah-num' }, [String(n)]),
@@ -1200,7 +1200,17 @@ function renderReciterDetail() {
         const chapId = chapterIdForSurahNumber(n)
         const canPlay = !!chapId
         rows.appendChild(
-          el('button', { class: `reciter-surah-row${canPlay ? '' : ' disabled'}`, type: 'button' }, [
+          el('button', {
+            class: `reciter-surah-row${canPlay ? '' : ' disabled'}`,
+            type: 'button',
+            onclick: () => {
+              if (!chapId) {
+                alert('Эта сура пока недоступна в приложении.')
+                return
+              }
+              setChapter(chapId, { autoplay: true })
+            },
+          }, [
             el('div', { class: 'reciter-surah-num' }, [String(n)]),
             el('div', { class: 'reciter-surah-body' }, [
               el('div', { class: 'reciter-surah-title' }, [String(s.title)]),
