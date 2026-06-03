@@ -900,37 +900,28 @@ function renderChapter() {
 
   root.appendChild(
     el('div', {
-      class: `chapterTop${state.ui.modePickerOpen ? ' modeOpen' : ''}`,
-      onclick: () => {
-        state.ui.modePickerOpen = !state.ui.modePickerOpen
-        renderChapter()
-      },
+      class: 'chapterTop modeOpen',
     }, [
       el('div', { class: 'arabic-title' }, [arTitle]),
       el('h1', {}, [chapter.displayTitle]),
-      state.ui.modePickerOpen
-        ? el('div', { class: 'modePanel', onclick: (e) => e.stopPropagation() }, [
-            el('button', {
-              class: `btn ${mode === 'listen' ? 'primary' : ''}`,
-              onclick: () => {
-                setChapterMode(chapter.id, 'listen')
-                if (chapter.audioUrl) setChapter(chapter.id, { autoplay: true })
-              },
-            }, ['Слушать']),
-            el('button', {
-              class: `btn ${mode === 'read' ? 'primary' : ''}`,
-              onclick: () => setChapterMode(chapter.id, 'read'),
-            }, ['Читать']),
-            el('button', {
-              class: 'btn',
-              onclick: (e) => {
-                e.stopPropagation()
-                copyText(window.location.href)
-              },
-              title: 'Скопировать ссылку на главу',
-            }, ['Поделиться']),
-          ])
-        : null,
+      el('div', { class: 'modePanel' }, [
+        el('button', {
+          class: `btn ${mode === 'listen' ? 'primary' : ''}`,
+          onclick: () => {
+            setChapterMode(chapter.id, 'listen')
+            if (chapter.audioUrl) setChapter(chapter.id, { autoplay: true })
+          },
+        }, ['Слушать']),
+        el('button', {
+          class: `btn ${mode === 'read' ? 'primary' : ''}`,
+          onclick: () => setChapterMode(chapter.id, 'read'),
+        }, ['Читать']),
+        el('button', {
+          class: 'btn',
+          onclick: () => copyText(window.location.href),
+          title: 'Скопировать ссылку на главу',
+        }, ['Поделиться']),
+      ]),
     ].filter(Boolean)),
   )
 
