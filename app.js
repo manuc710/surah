@@ -984,7 +984,12 @@ function renderChapter() {
 
     verseNode.appendChild(
       el('div', { class: 'meta' }, [
-        el('div', { class: 'num' }, [String(v.index)]),
+        el('div', { class: 'verse-meta-left' }, [
+          chapter.imageUrl
+            ? el('img', { class: 'verse-icon', src: chapter.imageUrl, alt: chapter.displayTitle || 'Сура', loading: 'lazy' })
+            : null,
+          el('div', { class: 'num' }, [String(v.index)]),
+        ]),
         el('div', { class: 'vactions' }, [
           el('button', {
             class: `iconbtn${marked ? ' on' : ''}`,

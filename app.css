@@ -294,6 +294,16 @@ body.listen-mode .verses{display:none;}
   background: #233145;
 }
 .meta{display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px}
+.verse-meta-left{display:flex; align-items:center; gap:10px}
+.verse-icon{
+  width: 28px;
+  height: 28px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(15, 23, 42, 0.35);
+  flex-shrink: 0;
+}
 .num{
   display: flex;
   align-items: center;
