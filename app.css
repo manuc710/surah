@@ -268,7 +268,7 @@ h1{margin:10px 0 12px; font-size:28px}
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
-#view > .chapterTop > .modePanel{display:flex}
+#view > .chapterTop > .modePanel{display:block}
 body.listen-mode .wrap{padding-bottom: 170px;}
 body.listen-mode .verses{display:none;}
 .chapterImg{
