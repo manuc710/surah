@@ -923,14 +923,6 @@ function renderChapter() {
               },
             }, [audio.paused ? 'Играть' : 'Пауза'])
           : null,
-        el('button', {
-          class: 'btn',
-          onclick: (e) => {
-            e.stopPropagation()
-            copyText(window.location.href)
-          },
-          title: 'Скопировать ссылку на главу',
-        }, ['Поделиться']),
       ].filter(Boolean)),
       state.ui.modePickerOpen
         ? el('div', { class: 'modePanel', onclick: (e) => e.stopPropagation() }, [
@@ -945,6 +937,14 @@ function renderChapter() {
               class: `btn ${mode === 'read' ? 'primary' : ''}`,
               onclick: () => setChapterMode(chapter.id, 'read'),
             }, ['Читать']),
+            el('button', {
+              class: 'btn',
+              onclick: (e) => {
+                e.stopPropagation()
+                copyText(window.location.href)
+              },
+              title: 'Скопировать ссылку на главу',
+            }, ['Поделиться']),
           ])
         : null,
     ].filter(Boolean)),
