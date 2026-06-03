@@ -908,22 +908,6 @@ function renderChapter() {
     }, [
       el('div', { class: 'arabic-title' }, [arTitle]),
       el('h1', {}, [chapter.displayTitle]),
-      el('div', { class: 'actions' }, [
-        chapter.audioUrl
-          ? el('button', {
-              class: 'btn primary',
-              onclick: (e) => {
-                e.stopPropagation()
-                if (state.chapterId === chapter.id && audio.src) {
-                  if (audio.paused) audio.play().catch(() => {})
-                  else audio.pause()
-                } else {
-                  setChapter(chapter.id, { autoplay: true })
-                }
-              },
-            }, [audio.paused ? 'Играть' : 'Пауза'])
-          : null,
-      ].filter(Boolean)),
       state.ui.modePickerOpen
         ? el('div', { class: 'modePanel', onclick: (e) => e.stopPropagation() }, [
             el('button', {
@@ -1198,26 +1182,6 @@ function renderPlayer() {
           }
         })
       ]),
-
-      expanded ? el('div', { class: 'player-section-title muted' }, ['Громкость']) : null,
-
-      expanded ? el('div', { class: 'volume-row' }, [
-        el('input', {
-          type: 'range',
-          min: 0,
-          max: 1,
-          step: 0.01,
-          value: String(state.volume),
-          'aria-label': 'Громкость',
-          oninput: (e) => {
-            const v = Number(e.target.value)
-            setVolume(v)
-            const out = e.target.parentElement && e.target.parentElement.querySelector('.vol-value')
-            if (out) out.textContent = `${Math.round(clamp(v, 0, 1) * 100)}%`
-          },
-        }),
-        el('span', { class: 'time-text vol-value' }, [`${Math.round(clamp(state.volume, 0, 1) * 100)}%`]),
-      ]) : null
       
     ])
   )
