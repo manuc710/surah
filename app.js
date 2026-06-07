@@ -894,24 +894,6 @@ function renderChapter() {
     }, [
       el('div', { class: 'arabic-title' }, [arTitle]),
       el('h1', {}, [chapter.displayTitle]),
-      el('div', { class: 'modePanel' }, [
-        el('button', {
-          class: `btn ${mode === 'listen' ? 'primary' : ''}`,
-          onclick: () => {
-            setChapterMode(chapter.id, 'listen')
-            if (chapter.audioUrl) setChapter(chapter.id, { autoplay: true })
-          },
-        }, ['Слушать']),
-        el('button', {
-          class: `btn ${mode === 'read' ? 'primary' : ''}`,
-          onclick: () => setChapterMode(chapter.id, 'read'),
-        }, ['Читать']),
-        el('button', {
-          class: 'btn',
-          onclick: () => copyText(window.location.href),
-          title: 'Скопировать ссылку на главу',
-        }, ['Поделиться']),
-      ]),
     ].filter(Boolean)),
   )
 
