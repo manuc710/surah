@@ -477,17 +477,14 @@ function updatePlayerProgress() {
   const isPlaying = !audio.paused && !!audio.src;
   const btnPlay = document.querySelector('.btn-play');
   if (btnPlay) {
-    const host = btnPlay.closest('.player')
-    const expanded = !!(host && host.classList.contains('expanded'))
     btnPlay.title = isPlaying ? 'Пауза' : 'Играть';
-    btnPlay.innerHTML = expanded
-      ? `${isPlaying ? pauseIcon : playIcon}<span class="ctl-label">${isPlaying ? 'Пауза' : 'Играть'}</span>`
-      : (isPlaying ? pauseIcon : playIcon);
+    btnPlay.innerHTML = isPlaying ? pauseIcon : playIcon;
   }
   const currentTime = Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
   
   updateSubtitles(currentTime);
 }
+
 
 function updateSubtitles(currentTime) {
   const display = document.getElementById('subtitle-display');
@@ -1061,7 +1058,7 @@ function renderPlayer() {
           el('div', { class: 'info' }, [
             el(
               'a',
-              { class: expanded ? 'ptitle active' : 'ptitle', href: `#page=chapter&chapter=${encodeURIComponent(chapter.id)}` },
+              { class: 'ptitle', href: `#page=chapter&chapter=${encodeURIComponent(chapter.id)}` },
               [`${chapter.id.replace('chapter', '')}. ${chapter.displayTitle}`],
             ),
           ]),
