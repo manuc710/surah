@@ -14,10 +14,7 @@
   }
 
   function getSelectedReciter() {
-    // Expected format (stored by your reciter selector UI):
-    // localStorage.selectedReciter = JSON.stringify({ name, arabic, folder })
-    // We only need `folder` for EveryAyah URLs.
-    const raw = localStorage.getItem('selectedReciter')
+    const raw = localStorage.getItem('selectedReciter') || localStorage.getItem('kyrilquran_html.selectedReciter')
     if (!raw) return null
     const v = safeParseJSON(raw)
     if (!v || typeof v !== 'object') return null

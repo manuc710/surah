@@ -636,8 +636,149 @@ function renderNav() {
 function renderReaders() {
   const root = $('#view')
   root.innerHTML = ''
+  const RECITERS = [
+    { name: 'Abdul Basit (Mujawwad) 128kbps', folder: 'Abdul_Basit_Mujawwad_128kbps' },
+    { name: 'Abdul Basit (Murattal) 192kbps', folder: 'Abdul_Basit_Murattal_192kbps' },
+    { name: 'Husary 128kbps', folder: 'Husary_128kbps' },
+    { name: 'Husary (Muallim) 128kbps', folder: 'Husary_Muallim_128kbps' },
+    { name: 'Minshawy (Murattal) 128kbps', folder: 'Minshawy_Murattal_128kbps' },
+    { name: 'Minshawy (Mujawwad) 192kbps', folder: 'Minshawy_Mujawwad_192kbps' },
+    { name: 'Maher Al Muaiqly 128kbps', folder: 'Maher_AlMuaiqly_128kbps' },
+    { name: 'Mishary Rashid Alafasy 128kbps', folder: 'Mishary_Rashid_Alafasy_128kbps' },
+    { name: 'Saad Al Ghamdi 128kbps', folder: 'Saad_AlGhamdi_128kbps' },
+    { name: 'Abdurrahmaan As-Sudais 192kbps', folder: 'Abdurrahmaan_As-Sudais_192kbps' },
+    { name: 'Abdullaah Awwaad Al-Juhaynee 128kbps', folder: 'Abdullaah_3awwaad_Al-Juhaynee_128kbps' },
+    { name: 'Abu Bakr Ash-Shaatree 128kbps', folder: 'Abu_Bakr_Ash-Shaatree_128kbps' },
+    { name: 'Ahmed Neana 128kbps', folder: 'Ahmed_Neana_128kbps' },
+    { name: 'Ghamadi 40kbps', folder: 'Ghamadi_40kbps' },
+    { name: 'Hudhaify 128kbps', folder: 'Hudhaify_128kbps' },
+    { name: 'Ibrahim Akhdar 32kbps', folder: 'Ibrahim_Akhdar_32kbps' },
+    { name: 'Mohammad Jebril 128kbps', folder: 'Mohammad_Jebril_128kbps' },
+    { name: 'Muhammad Ayyoub 128kbps', folder: 'Muhammad_Ayyoub_128kbps' },
+    { name: 'Nasser Al Qatami 128kbps', folder: 'Nasser_Alqatami_128kbps' },
+    { name: 'Sahl Yasin 128kbps', folder: 'Sahl_Yassin_128kbps' },
+  ]
+
+  const nsKey = (k) => `${NS}.${k}`
+  const readSelected = () => {
+    try {
+      const raw = localStorage.getItem('selectedReciter') || localStorage.getItem(nsKey('selectedReciter'))
+      return raw ? JSON.parse(raw) : null
+    } catch {
+      return null
+    }
+  }
+  const writeSelected = (reciter) => {
+    const v = reciter ? { name: reciter.name, folder: reciter.folder } : null
+    if (!v) {
+      localStorage.removeItem('selectedReciter')
+      localStorage.removeItem(nsKey('selectedReciter'))
+      return
+    }
+    localStorage.setItem('selectedReciter', JSON.stringify(v))
+    saveJSON('selectedReciter', v)
+  }
+
+  const selected = readSelected()
+
   root.appendChild(el('h1', {}, ['Чтецы']))
-  root.appendChild(el('p', { class: 'muted' }, ['Здесь будет выбор чтеца (EveryAyah).']))
+  root.appendChild(
+    el('p', { class: 'muted' }, ['Выберите чтеца для режима караоке (аят за аятом). Источник аудио: everyayah.com.']),
+  )
+
+  root.appendChild(
+    el('div', { class: 'actions', style: 'margin-top:10px' }, [
+      el('button', {
+        class: 'btn',
+        onclick: () => {
+          window.open('https://everyayah.com/data/', '_blank', 'noopener,noreferrer')
+        },
+      }, ['Открыть список EveryAyah']),
+      el(
+        'button',
+        {
+          class: 'btn danger',
+          onclick: () => {
+            writeSelected(null)
+            render()
+          },
+        },
+        ['Сбросить выбор'],
+      ),
+    ]),
+  )
+
+  root.appendChild(
+    el('div', { class: 'searchbar', style: 'margin-top:16px' }, [
+      el('input', {
+        id: 'readers-search',
+        value: '',
+        placeholder: 'Поиск чтеца…',
+        autocapitalize: 'off',
+        autocomplete: 'off',
+        autocorrect: 'off',
+        spellcheck: 'false',
+      }),
+    ]),
+  )
+
+  const currentLine = selected && selected.folder ? `Текущий: ${selected.name || selected.folder}` : 'Текущий: не выбран'
+  root.appendChild(el('p', { class: 'muted', id: 'readers-current', style: 'margin-top:10px' }, [currentLine]))
+
+  root.appendChild(el('div', { class: 'grid', id: 'readers-grid' }))
+  root.appendChild(el('p', { class: 'muted', id: 'readers-empty', style: 'margin-top:12px; display:none' }, ['']))
+
+  const update = () => {
+    const grid = $('#readers-grid')
+    const empty = $('#readers-empty')
+    const current = $('#readers-current')
+    if (!grid || !empty || !current) return
+
+    const q = String($('#readers-search')?.value || '').toLowerCase().trim()
+    const list = !q
+      ? RECITERS
+      : RECITERS.filter((r) => `${r.name} ${r.folder}`.toLowerCase().includes(q))
+
+    const sel = readSelected()
+    current.textContent = sel && sel.folder ? `Текущий: ${sel.name || sel.folder}` : 'Текущий: не выбран'
+
+    grid.innerHTML = ''
+    for (const r of list) {
+      const isSelected = !!sel && sel.folder === r.folder
+      const card = el('div', {
+        class: 'card',
+        onclick: () => {
+          writeSelected(r)
+          if (window.karaokePlayer && typeof window.karaokePlayer.setChapter === 'function' && state.chapterId) {
+            const ch = state.byId.get(state.chapterId)
+            if (ch) window.karaokePlayer.setChapter(ch)
+          }
+          render()
+        },
+      })
+
+      const badge = isSelected ? '✓ Выбрано' : r.folder
+      card.appendChild(
+        el('div', { class: 'body' }, [
+          el('div', { class: 'title' }, [r.name]),
+          el('div', { class: 'arabic-title' }, [badge]),
+        ]),
+      )
+      card.appendChild(el('div', { class: 'icon-wrapper', html: svgIcons.people }))
+      grid.appendChild(card)
+    }
+
+    if (!list.length) {
+      empty.textContent = 'Ничего не найдено'
+      empty.style.display = 'block'
+    } else {
+      empty.style.display = 'none'
+    }
+  }
+
+  const input = $('#readers-search')
+  if (input) input.addEventListener('input', update)
+  update()
 }
 
 function renderSettings() {
