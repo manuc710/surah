@@ -312,6 +312,9 @@ function setChapter(chapterId, { autoplay = false } = {}) {
     return
   }
 
+  audio.pause()
+  audio.src = ''
+
   renderPlayer()
   resolveAudioForChapter(ch)
     .then((r) => {
@@ -1085,6 +1088,10 @@ function renderPlayer() {
             title: isPlaying ? 'Пауза' : 'Играть',
             html: isPlaying ? pauseIcon : playIcon,
             onclick: () => {
+              if (state.playerLoading || !audio.src) {
+                setChapter(chapter.id, { autoplay: true })
+                return
+              }
               if (chapter) {
                 ensureAudioAnalysisForChapter(chapter).then((a) => {
                   if (!a) return
