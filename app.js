@@ -481,21 +481,7 @@ function updatePlayerProgress() {
       ? `${isPlaying ? pauseIcon : playIcon}<span class="ctl-label">${isPlaying ? 'Пауза' : 'Играть'}</span>`
       : (isPlaying ? pauseIcon : playIcon);
   }
-
-  const duration = Number.isFinite(audio.duration) ? audio.duration : 0;
   const currentTime = Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
-  
-  const progressInput = document.querySelector('.progress input[type="range"]');
-  if (progressInput && document.activeElement !== progressInput) {
-    progressInput.max = Math.max(1, duration || 0);
-    progressInput.value = Math.min(currentTime, duration || currentTime);
-  }
-  
-  const timeTexts = document.querySelectorAll('.progress .time-text');
-  if (timeTexts.length >= 2) {
-    timeTexts[0].textContent = fmt(currentTime);
-    timeTexts[1].textContent = fmt(duration);
-  }
   
   updateSubtitles(currentTime);
 }
@@ -1035,9 +1021,7 @@ function renderPlayer() {
   document.body.classList.add('player-open');
 
   const isPlaying = !audio.paused && !!audio.src
-  const duration = Number.isFinite(audio.duration) ? audio.duration : 0
   const currentTime = Number.isFinite(audio.currentTime) ? audio.currentTime : 0
-  const isLooping = audio.loop
 
   // Ensure timings are generated if they weren't yet
   generateTimings();
@@ -1114,60 +1098,16 @@ function renderPlayer() {
             },
           }),
           el('button', { class: 'btn-icon', onclick: nextChapter, title: 'Следующая', html: nextIcon }),
-          el('button', { class: 'btn-icon', onclick: () => setChapter(null), title: 'Закрыть плеер', html: closeIcon })
+          el('button', {
+            class: `btn-icon repeat-btn ${audio.loop ? 'active' : ''}`,
+            title: audio.loop ? 'Повтор включен' : 'Повтор выключен',
+            html: repeatIcon,
+            onclick: () => {
+              audio.loop = !audio.loop
+              renderPlayer()
+            },
+          })
         ]),
-      ]),
-
-      state.playerError ? el('div', { class: 'player-error' }, [state.playerError]) : null,
-
-      // Субтитры (Отображение)
-      el('div', { class: 'subtitle-display', id: 'subtitle-display', style: 'display: none;' }, [
-        el('div', { class: 'sub-arabic' }, []),
-        el('div', { class: 'sub-translation' }, [])
-      ]),
-      
-      // Настройки субтитров
-      el('div', { class: 'sub-settings-panel', id: 'sub-settings-panel', style: 'display: none;' }, [
-        el('label', {}, [
-          'Размер текста: ',
-          el('input', { type: 'range', min: 14, max: 32, value: state.subSettings.fontSize, oninput: e => { state.subSettings.fontSize = Number(e.target.value); saveSubSettings(); } })
-        ]),
-        el('label', {}, [
-          'Цвет текста: ',
-          el('input', { type: 'color', value: state.subSettings.color, oninput: e => { state.subSettings.color = e.target.value; saveSubSettings(); } })
-        ]),
-        el('label', {}, [
-          'Фон (прозрачность): ',
-          el('input', { type: 'range', min: 0, max: 100, value: state.subSettings.bgOpacity * 100, oninput: e => { state.subSettings.bgOpacity = Number(e.target.value) / 100; saveSubSettings(); } })
-        ])
-      ]),
-
-      el('div', { class: 'timeline progress' }, [
-        el('span', { class: 'time-text' }, [fmt(currentTime)]),
-        el('input', {
-          type: 'range',
-          min: 0,
-          max: Math.max(1, duration || 0),
-          step: 0.25,
-          value: Math.min(currentTime, duration || currentTime),
-          'aria-label': 'Перемотка',
-          oninput: (e) => {
-            const t = Number(e.target.value)
-            const nextTime = Math.max(0, Math.min(t, duration || t))
-            audio.currentTime = nextTime
-            updateSubtitles(nextTime)
-          },
-        }),
-        el('span', { class: 'time-text' }, [fmt(duration)]),
-        el('button', {
-          class: `btn-icon repeat-btn ${isLooping ? 'active' : ''}`,
-          title: isLooping ? 'Повтор включен' : 'Повтор выключен',
-          html: repeatIcon,
-          onclick: () => {
-            audio.loop = !audio.loop;
-            renderPlayer();
-          }
-        })
       ]),
       
     ])

@@ -613,15 +613,14 @@ body.listen-mode .verses{display:none;}
   font-weight:600;
   color: #f8fafc;
   font-size: 16px;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  display: block;
+  box-sizing: border-box;
+  text-align: left;
   text-overflow: ellipsis;
   overflow: hidden;
   border-radius: 10px;
   transition: color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
-#player > .player > .row > .left > .info > a.ptitle.active{display:-webkit-box}
 .player .ptitle:hover{
   color: var(--accent);
 }
