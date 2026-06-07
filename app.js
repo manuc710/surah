@@ -49,7 +49,7 @@ const savedSettings = loadJSON('settings', { playbackRate: 1, volume: 1 })
 const state = {
   chapters: [],
   byId: new Map(),
-  activePage: 'surahs', // surahs | chapter | bookmarks | settings
+  activePage: 'surahs', // surahs | chapter | bookmarks | settings | readers
   q: '',
   chapterId: null,
   verseFocus: null,
@@ -315,6 +315,10 @@ function setChapter(chapterId, { autoplay = false } = {}) {
   audio.pause()
   audio.src = ''
 
+  if (window.karaokePlayer && typeof window.karaokePlayer.setChapter === 'function') {
+    window.karaokePlayer.setChapter(ch)
+  }
+
   renderPlayer()
   resolveAudioForChapter(ch)
     .then((r) => {
@@ -558,6 +562,9 @@ function setHash(obj) {
 function gotoSurahs() {
   setHash({ page: 'surahs' })
 }
+function gotoReaders() {
+  setHash({ page: 'readers' })
+}
 function gotoBookmarks() {
   setHash({ page: 'bookmarks' })
 }
@@ -579,7 +586,7 @@ window.addEventListener('hashchange', () => {
 
 function syncFromHash() {
   const { page, chapter, v } = parseHash()
-  state.activePage = ['chapter', 'bookmarks', 'settings', 'surahs'].includes(page) ? page : 'surahs'
+  state.activePage = ['chapter', 'bookmarks', 'settings', 'readers', 'surahs'].includes(page) ? page : 'surahs'
   state.chapterId = chapter && state.byId.has(chapter) ? chapter : state.chapterId
   state.verseFocus = Number.isFinite(v) && v > 0 ? v : null
 }
@@ -616,12 +623,21 @@ async function copyText(text) {
 // --- render ---
 function renderNav() {
   const navSurahs = $('#nav-surahs')
+  const navReaders = $('#nav-readers')
   const navBookmarks = $('#nav-bookmarks')
   const navSettings = $('#nav-settings')
-  
+
   if (navSurahs) navSurahs.classList.toggle('active', state.activePage === 'surahs' || state.activePage === 'chapter')
+  if (navReaders) navReaders.classList.toggle('active', state.activePage === 'readers')
   if (navBookmarks) navBookmarks.classList.toggle('active', state.activePage === 'bookmarks')
   if (navSettings) navSettings.classList.toggle('active', state.activePage === 'settings')
+}
+
+function renderReaders() {
+  const root = $('#view')
+  root.innerHTML = ''
+  root.appendChild(el('h1', {}, ['Чтецы']))
+  root.appendChild(el('p', { class: 'muted' }, ['Здесь будет выбор чтеца (EveryAyah).']))
 }
 
 function renderSettings() {
@@ -1071,6 +1087,16 @@ function renderPlayer() {
             title: isPlaying ? 'Пауза' : 'Играть',
             html: isPlaying ? pauseIcon : playIcon,
             onclick: () => {
+              if (state.activePage === 'chapter' && getChapterMode(chapter.id) === 'read') {
+                audio.pause()
+                if (window.karaokePlayer && typeof window.karaokePlayer.setChapter === 'function') {
+                  window.karaokePlayer.setChapter(chapter)
+                }
+                if (window.karaokePlayer && typeof window.karaokePlayer.togglePlay === 'function') {
+                  window.karaokePlayer.togglePlay()
+                }
+                return
+              }
               if (state.playerLoading || !audio.src) {
                 setChapter(chapter.id, { autoplay: true })
                 return
@@ -1111,11 +1137,17 @@ function render() {
   renderNav()
   if (state.activePage === 'bookmarks') renderBookmarks()
   else if (state.activePage === 'chapter') renderChapter()
+  else if (state.activePage === 'readers') renderReaders()
   else if (state.activePage === 'settings') renderSettings()
   else if (state.activePage === 'surahs') renderSurahs()
   else renderSurahs()
   renderPlayer()
   syncListenModeClass()
+  if (window.karaokePlayer && typeof window.karaokePlayer.syncUI === 'function') {
+    const chapter = state.chapterId ? state.byId.get(state.chapterId) : null
+    const mode = chapter ? getChapterMode(chapter.id) : null
+    window.karaokePlayer.syncUI({ activePage: state.activePage, chapter, mode })
+  }
 }
 
 async function init() {
@@ -1140,6 +1172,12 @@ async function init() {
     $('#nav-surahs').addEventListener('click', (e) => {
       e.preventDefault()
       gotoSurahs()
+    })
+  }
+  if ($('#nav-readers')) {
+    $('#nav-readers').addEventListener('click', (e) => {
+      e.preventDefault()
+      gotoReaders()
     })
   }
   if ($('#nav-bookmarks')) {
@@ -1167,6 +1205,10 @@ async function init() {
     }
     lastScrollY = window.scrollY;
   });
+
+  if (window.AudioPlayer && !window.karaokePlayer) {
+    window.karaokePlayer = new window.AudioPlayer({ containerId: 'mini-player' })
+  }
 
   render()
 }
