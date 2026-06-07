@@ -102,6 +102,24 @@ h1{margin:10px 0 12px; font-size:28px}
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
+.searchbar .select{
+  width:100%;
+  padding:16px 20px;
+  border-radius:16px;
+  border:1px solid rgba(255, 255, 255, 0.08);
+  background:rgba(30, 41, 59, 0.5);
+  color:var(--text);
+  font-size: 16px;
+  outline:none;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.searchbar .select:focus{
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(56, 189, 248, 0.4);
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.1);
+}
 .searchbar input:focus {
   background: rgba(30, 41, 59, 0.8);
   border-color: rgba(56, 189, 248, 0.4);

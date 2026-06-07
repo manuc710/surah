@@ -121,7 +121,7 @@
     }
 
     syncUI({ activePage, chapter, mode }) {
-      const shouldEnable = activePage === 'chapter' && !!chapter && mode === 'read'
+      const shouldEnable = (activePage === 'chapter' || activePage === 'quran') && !!chapter && mode === 'read'
       this.enabled = shouldEnable
 
       if (!this.enabled) {
@@ -171,7 +171,8 @@
         return
       }
 
-      const surahNumber = AUDIO_BASE_TO_SURAH[base]
+      const explicitSurahNumber = Number(chapter && chapter.surahNumber)
+      const surahNumber = Number.isFinite(explicitSurahNumber) ? explicitSurahNumber : AUDIO_BASE_TO_SURAH[base]
       if (!Number.isFinite(surahNumber)) {
         // If a chapter has no surah mapping yet, we disable playback for it.
         this._render()

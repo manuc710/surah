@@ -45,12 +45,14 @@ function fmt(sec) {
 }
 
 const savedSettings = loadJSON('settings', { playbackRate: 1, volume: 1 })
+const savedQuranTranslation = loadJSON('quranTranslation', 'ru.kuliev')
 
 const state = {
   chapters: [],
   byId: new Map(),
   activePage: 'surahs', // surahs | chapter | bookmarks | settings | readers
   q: '',
+  quranQ: '',
   chapterId: null,
   verseFocus: null,
   activeVerseId: null,
@@ -69,6 +71,56 @@ const state = {
   playerError: '',
   playerAudioLabel: '',
   audioAnalysis: loadJSON('audioAnalysis', {}),
+  quranTranslation: typeof savedQuranTranslation === 'string' ? savedQuranTranslation : 'ru.kuliev',
+  quranSurahNumber: null,
+  quranList: null,
+  quranListLoading: false,
+  quranListError: '',
+  quranCache: {},
+  quranCurrent: null,
+  quranLoadToken: 0,
+}
+
+const RECITERS = [
+  { name: 'Abdul Basit (Mujawwad) 128kbps', folder: 'Abdul_Basit_Mujawwad_128kbps' },
+  { name: 'Abdul Basit (Murattal) 192kbps', folder: 'Abdul_Basit_Murattal_192kbps' },
+  { name: 'Husary 128kbps', folder: 'Husary_128kbps' },
+  { name: 'Husary (Muallim) 128kbps', folder: 'Husary_Muallim_128kbps' },
+  { name: 'Minshawy (Murattal) 128kbps', folder: 'Minshawy_Murattal_128kbps' },
+  { name: 'Minshawy (Mujawwad) 192kbps', folder: 'Minshawy_Mujawwad_192kbps' },
+  { name: 'Maher Al Muaiqly 128kbps', folder: 'Maher_AlMuaiqly_128kbps' },
+  { name: 'Mishary Rashid Alafasy 128kbps', folder: 'Mishary_Rashid_Alafasy_128kbps' },
+  { name: 'Saad Al Ghamdi 128kbps', folder: 'Saad_AlGhamdi_128kbps' },
+  { name: 'Abdurrahmaan As-Sudais 192kbps', folder: 'Abdurrahmaan_As-Sudais_192kbps' },
+  { name: 'Abdullaah Awwaad Al-Juhaynee 128kbps', folder: 'Abdullaah_3awwaad_Al-Juhaynee_128kbps' },
+  { name: 'Abu Bakr Ash-Shaatree 128kbps', folder: 'Abu_Bakr_Ash-Shaatree_128kbps' },
+  { name: 'Ahmed Neana 128kbps', folder: 'Ahmed_Neana_128kbps' },
+  { name: 'Ghamadi 40kbps', folder: 'Ghamadi_40kbps' },
+  { name: 'Hudhaify 128kbps', folder: 'Hudhaify_128kbps' },
+  { name: 'Ibrahim Akhdar 32kbps', folder: 'Ibrahim_Akhdar_32kbps' },
+  { name: 'Mohammad Jebril 128kbps', folder: 'Mohammad_Jebril_128kbps' },
+  { name: 'Muhammad Ayyoub 128kbps', folder: 'Muhammad_Ayyoub_128kbps' },
+  { name: 'Nasser Al Qatami 128kbps', folder: 'Nasser_Alqatami_128kbps' },
+  { name: 'Sahl Yasin 128kbps', folder: 'Sahl_Yassin_128kbps' },
+]
+
+function readSelectedReciter() {
+  try {
+    const raw = localStorage.getItem('selectedReciter') || localStorage.getItem(key('selectedReciter'))
+    return raw ? JSON.parse(raw) : null
+  } catch {
+    return null
+  }
+}
+function writeSelectedReciter(reciter) {
+  const v = reciter ? { name: reciter.name, folder: reciter.folder } : null
+  if (!v) {
+    localStorage.removeItem('selectedReciter')
+    localStorage.removeItem(key('selectedReciter'))
+    return
+  }
+  localStorage.setItem('selectedReciter', JSON.stringify(v))
+  saveJSON('selectedReciter', v)
 }
 
 function saveSubSettings() {
@@ -546,15 +598,19 @@ function parseHash() {
   const params = new URLSearchParams(raw)
   const page = params.get('page') || 'surahs'
   const chapter = params.get('chapter')
+  const surah = params.get('surah')
   const v = params.get('v')
-  return { page, chapter, v: v ? Number(v) : null }
+  const tr = params.get('tr')
+  return { page, chapter, surah: surah ? Number(surah) : null, v: v ? Number(v) : null, tr }
 }
 
 function setHash(obj) {
   const p = new URLSearchParams()
   if (obj.page) p.set('page', obj.page)
   if (obj.chapter) p.set('chapter', obj.chapter)
+  if (obj.surah) p.set('surah', String(obj.surah))
   if (obj.v) p.set('v', String(obj.v))
+  if (obj.tr) p.set('tr', String(obj.tr))
   const s = p.toString()
   window.location.hash = s ? `#${s}` : '#'
 }
@@ -574,6 +630,9 @@ function gotoSettings() {
 function gotoChapter(chapterId, v = null) {
   setHash({ page: 'chapter', chapter: chapterId, v })
 }
+function gotoQuran(surah = null, tr = null) {
+  setHash({ page: 'quran', surah, tr })
+}
 
 window.addEventListener('hashchange', () => {
   const prevChapterId = state.chapterId
@@ -585,10 +644,12 @@ window.addEventListener('hashchange', () => {
 })
 
 function syncFromHash() {
-  const { page, chapter, v } = parseHash()
-  state.activePage = ['chapter', 'bookmarks', 'settings', 'readers', 'surahs'].includes(page) ? page : 'surahs'
+  const { page, chapter, surah, v, tr } = parseHash()
+  state.activePage = ['chapter', 'bookmarks', 'settings', 'readers', 'surahs', 'quran'].includes(page) ? page : 'surahs'
   state.chapterId = chapter && state.byId.has(chapter) ? chapter : state.chapterId
+  state.quranSurahNumber = Number.isFinite(surah) && surah >= 1 && surah <= 114 ? surah : null
   state.verseFocus = Number.isFinite(v) && v > 0 ? v : null
+  if (typeof tr === 'string' && tr) state.quranTranslation = tr
 }
 
 // --- bookmarks / notes ---
@@ -627,7 +688,8 @@ function renderNav() {
   const navBookmarks = $('#nav-bookmarks')
   const navSettings = $('#nav-settings')
 
-  if (navSurahs) navSurahs.classList.toggle('active', state.activePage === 'surahs' || state.activePage === 'chapter')
+  if (navSurahs)
+    navSurahs.classList.toggle('active', state.activePage === 'surahs' || state.activePage === 'chapter' || state.activePage === 'quran')
   if (navReaders) navReaders.classList.toggle('active', state.activePage === 'readers')
   if (navBookmarks) navBookmarks.classList.toggle('active', state.activePage === 'bookmarks')
   if (navSettings) navSettings.classList.toggle('active', state.activePage === 'settings')
@@ -636,50 +698,7 @@ function renderNav() {
 function renderReaders() {
   const root = $('#view')
   root.innerHTML = ''
-  const RECITERS = [
-    { name: 'Abdul Basit (Mujawwad) 128kbps', folder: 'Abdul_Basit_Mujawwad_128kbps' },
-    { name: 'Abdul Basit (Murattal) 192kbps', folder: 'Abdul_Basit_Murattal_192kbps' },
-    { name: 'Husary 128kbps', folder: 'Husary_128kbps' },
-    { name: 'Husary (Muallim) 128kbps', folder: 'Husary_Muallim_128kbps' },
-    { name: 'Minshawy (Murattal) 128kbps', folder: 'Minshawy_Murattal_128kbps' },
-    { name: 'Minshawy (Mujawwad) 192kbps', folder: 'Minshawy_Mujawwad_192kbps' },
-    { name: 'Maher Al Muaiqly 128kbps', folder: 'Maher_AlMuaiqly_128kbps' },
-    { name: 'Mishary Rashid Alafasy 128kbps', folder: 'Mishary_Rashid_Alafasy_128kbps' },
-    { name: 'Saad Al Ghamdi 128kbps', folder: 'Saad_AlGhamdi_128kbps' },
-    { name: 'Abdurrahmaan As-Sudais 192kbps', folder: 'Abdurrahmaan_As-Sudais_192kbps' },
-    { name: 'Abdullaah Awwaad Al-Juhaynee 128kbps', folder: 'Abdullaah_3awwaad_Al-Juhaynee_128kbps' },
-    { name: 'Abu Bakr Ash-Shaatree 128kbps', folder: 'Abu_Bakr_Ash-Shaatree_128kbps' },
-    { name: 'Ahmed Neana 128kbps', folder: 'Ahmed_Neana_128kbps' },
-    { name: 'Ghamadi 40kbps', folder: 'Ghamadi_40kbps' },
-    { name: 'Hudhaify 128kbps', folder: 'Hudhaify_128kbps' },
-    { name: 'Ibrahim Akhdar 32kbps', folder: 'Ibrahim_Akhdar_32kbps' },
-    { name: 'Mohammad Jebril 128kbps', folder: 'Mohammad_Jebril_128kbps' },
-    { name: 'Muhammad Ayyoub 128kbps', folder: 'Muhammad_Ayyoub_128kbps' },
-    { name: 'Nasser Al Qatami 128kbps', folder: 'Nasser_Alqatami_128kbps' },
-    { name: 'Sahl Yasin 128kbps', folder: 'Sahl_Yassin_128kbps' },
-  ]
-
-  const nsKey = (k) => `${NS}.${k}`
-  const readSelected = () => {
-    try {
-      const raw = localStorage.getItem('selectedReciter') || localStorage.getItem(nsKey('selectedReciter'))
-      return raw ? JSON.parse(raw) : null
-    } catch {
-      return null
-    }
-  }
-  const writeSelected = (reciter) => {
-    const v = reciter ? { name: reciter.name, folder: reciter.folder } : null
-    if (!v) {
-      localStorage.removeItem('selectedReciter')
-      localStorage.removeItem(nsKey('selectedReciter'))
-      return
-    }
-    localStorage.setItem('selectedReciter', JSON.stringify(v))
-    saveJSON('selectedReciter', v)
-  }
-
-  const selected = readSelected()
+  const selected = readSelectedReciter()
 
   root.appendChild(el('h1', {}, ['Чтецы']))
   root.appendChild(
@@ -699,7 +718,7 @@ function renderReaders() {
         {
           class: 'btn danger',
           onclick: () => {
-            writeSelected(null)
+            writeSelectedReciter(null)
             render()
           },
         },
@@ -739,7 +758,7 @@ function renderReaders() {
       ? RECITERS
       : RECITERS.filter((r) => `${r.name} ${r.folder}`.toLowerCase().includes(q))
 
-    const sel = readSelected()
+    const sel = readSelectedReciter()
     current.textContent = sel && sel.folder ? `Текущий: ${sel.name || sel.folder}` : 'Текущий: не выбран'
 
     grid.innerHTML = ''
@@ -748,12 +767,8 @@ function renderReaders() {
       const card = el('div', {
         class: 'card',
         onclick: () => {
-          writeSelected(r)
-          if (window.karaokePlayer && typeof window.karaokePlayer.setChapter === 'function' && state.chapterId) {
-            const ch = state.byId.get(state.chapterId)
-            if (ch) window.karaokePlayer.setChapter(ch)
-          }
-          render()
+          writeSelectedReciter(r)
+          gotoQuran(state.quranSurahNumber || 1, state.quranTranslation)
         },
       })
 
@@ -786,6 +801,252 @@ function renderSettings() {
   root.innerHTML = ''
   root.appendChild(el('h1', {}, ['Настройки']))
   root.appendChild(el('p', { class: 'muted' }, ['Раздел настроек находится в разработке.']))
+}
+
+const QURAN_TRANSLATIONS = [
+  { id: 'ru.kuliev', label: 'Русский (Кулиев)' },
+  { id: 'en.sahih', label: 'English (Sahih)' },
+]
+
+async function ensureQuranListLoaded() {
+  if (Array.isArray(state.quranList) && state.quranList.length) return
+  if (state.quranListLoading) return
+  state.quranListLoading = true
+  state.quranListError = ''
+  try {
+    const res = await fetch('https://api.alquran.cloud/v1/surah')
+    const json = await res.json()
+    const list = json && Array.isArray(json.data) ? json.data : null
+    if (!list) throw new Error('Bad response')
+    state.quranList = list
+  } catch {
+    state.quranListError = 'Не удалось загрузить список сур'
+  } finally {
+    state.quranListLoading = false
+    render()
+  }
+}
+
+async function ensureQuranSurahLoaded(surahNumber, translationId) {
+  const sn = Number(surahNumber)
+  if (!Number.isFinite(sn) || sn < 1 || sn > 114) return
+  const tr = typeof translationId === 'string' && translationId ? translationId : 'ru.kuliev'
+  const cacheKey = `${sn}:${tr}`
+  if (state.quranCurrent && state.quranCurrent.cacheKey === cacheKey) return
+  if (state.quranCache[cacheKey]) {
+    state.quranCurrent = state.quranCache[cacheKey]
+    return
+  }
+
+  const token = ++state.quranLoadToken
+  state.quranCurrent = null
+  try {
+    const url = `https://api.alquran.cloud/v1/surah/${sn}/editions/quran-uthmani,${encodeURIComponent(tr)}`
+    const res = await fetch(url)
+    const json = await res.json()
+    const data = json && Array.isArray(json.data) ? json.data : null
+    if (!data || data.length < 2) throw new Error('Bad response')
+
+    const arab = data[0]
+    const trans = data[1]
+    const verses = []
+    const arabAyahs = Array.isArray(arab.ayahs) ? arab.ayahs : []
+    const trAyahs = Array.isArray(trans.ayahs) ? trans.ayahs : []
+    const n = Math.min(arabAyahs.length, trAyahs.length)
+    for (let i = 0; i < n; i++) {
+      const ai = arabAyahs[i]
+      const ti = trAyahs[i]
+      const index = Number(ai && ai.numberInSurah)
+      if (!Number.isFinite(index) || index <= 0) continue
+      verses.push({
+        index,
+        arabic: String(ai && ai.text ? ai.text : ''),
+        translit: '',
+        translation: String(ti && ti.text ? ti.text : ''),
+      })
+    }
+
+    const chapter = {
+      id: `quran-${sn}`,
+      cacheKey,
+      surahNumber: sn,
+      arabicTitle: String(arab && arab.name ? arab.name : ''),
+      displayTitle: `${sn}. ${String(arab && arab.englishName ? arab.englishName : '')}`,
+      title: String(arab && arab.englishNameTranslation ? arab.englishNameTranslation : ''),
+      verses,
+    }
+
+    if (state.quranLoadToken !== token) return
+    state.quranCache[cacheKey] = chapter
+    state.quranCurrent = chapter
+    saveJSON('quranTranslation', tr)
+  } catch {
+    if (state.quranLoadToken !== token) return
+    state.quranCurrent = { id: `quran-${sn}`, cacheKey, surahNumber: sn, error: 'Не удалось загрузить суру' }
+  } finally {
+    if (state.quranLoadToken === token) render()
+  }
+}
+
+function renderQuran() {
+  const root = $('#view')
+  root.innerHTML = ''
+
+  const activeSurah = state.quranSurahNumber
+  if (!activeSurah) {
+    root.appendChild(el('h1', {}, ['Полный Коран (114 сур)']))
+    root.appendChild(
+      el('div', { class: 'actions', style: 'margin-top:10px' }, [
+        el('button', { class: 'btn', onclick: gotoSurahs }, ['Короткие суры']),
+      ]),
+    )
+
+    ensureQuranListLoaded()
+
+    root.appendChild(
+      el('div', { class: 'searchbar', style: 'margin-top:16px' }, [
+        el('input', {
+          id: 'quran-search',
+          value: state.quranQ,
+          placeholder: 'Поиск по названию, английскому или арабскому…',
+          autocapitalize: 'off',
+          autocomplete: 'off',
+          autocorrect: 'off',
+          spellcheck: 'false',
+          oninput: (e) => {
+            state.quranQ = e.target.value || ''
+            renderQuran()
+          },
+        }),
+      ]),
+    )
+
+    if (state.quranListError) {
+      root.appendChild(el('div', { class: 'player-error', style: 'margin-top:12px' }, [state.quranListError]))
+      return
+    }
+    if (state.quranListLoading || !Array.isArray(state.quranList)) {
+      root.appendChild(el('p', { class: 'muted', style: 'margin-top:12px' }, ['Загрузка…']))
+      return
+    }
+
+    const q = String(state.quranQ || '').toLowerCase().trim()
+    const list = !q
+      ? state.quranList
+      : state.quranList.filter((s) => {
+          const t = `${s.number} ${s.englishName} ${s.englishNameTranslation} ${s.name}`.toLowerCase()
+          return t.includes(q)
+        })
+
+    const grid = el('div', { class: 'grid' })
+    for (const s of list) {
+      const num = Number(s && s.number)
+      if (!Number.isFinite(num)) continue
+      const card = el('div', { class: 'card', onclick: () => gotoQuran(num, state.quranTranslation) })
+      card.appendChild(
+        el('div', { class: 'body' }, [
+          el('div', { class: 'title' }, [`${num}. ${String(s.englishName || '')}`]),
+          el('div', { class: 'arabic-title' }, [String(s.name || '')]),
+        ]),
+      )
+      card.appendChild(el('div', { class: 'icon-wrapper', html: svgIcons.book }))
+      grid.appendChild(card)
+    }
+    root.appendChild(grid)
+    return
+  }
+
+  const sn = Number(activeSurah)
+  const trId = state.quranTranslation
+  ensureQuranSurahLoaded(sn, trId)
+  ensureQuranListLoaded()
+
+  const chapter = state.quranCurrent && state.quranCurrent.surahNumber === sn ? state.quranCurrent : null
+  const arabicTitle = chapter && typeof chapter.arabicTitle === 'string' ? chapter.arabicTitle : ''
+  const title = chapter && typeof chapter.displayTitle === 'string' ? chapter.displayTitle : `Сура ${sn}`
+
+  root.appendChild(
+    el('div', { class: 'chapterTop modeOpen' }, [
+      arabicTitle ? el('div', { class: 'arabic-title' }, [arabicTitle]) : null,
+      el('h1', {}, [title]),
+    ].filter(Boolean)),
+  )
+
+  root.appendChild(
+    el('div', { class: 'actions', style: 'margin-top:10px' }, [
+      el('button', { class: 'btn', onclick: () => gotoQuran(null, trId) }, ['← Все суры']),
+      el('button', {
+        class: 'btn primary',
+        onclick: () => {
+          if (!chapter || !Array.isArray(chapter.verses)) return
+          audio.pause()
+          if (window.karaokePlayer && typeof window.karaokePlayer.setChapter === 'function') window.karaokePlayer.setChapter(chapter)
+          if (window.karaokePlayer && typeof window.karaokePlayer.togglePlay === 'function') window.karaokePlayer.togglePlay()
+        },
+      }, ['▶ Играть']),
+    ]),
+  )
+
+  const selected = readSelectedReciter()
+  const selectedFolder = selected && typeof selected.folder === 'string' ? selected.folder : ''
+
+  root.appendChild(
+    el('div', { class: 'searchbar', style: 'margin-top:16px' }, [
+      el('select', {
+        class: 'select',
+        onchange: (e) => {
+          const next = String(e.target.value || '')
+          state.quranTranslation = next
+          saveJSON('quranTranslation', next)
+          gotoQuran(sn, next)
+        },
+      }, QURAN_TRANSLATIONS.map((t) => el('option', { value: t.id, selected: t.id === trId ? 'selected' : null }, [t.label]))),
+    ]),
+  )
+
+  root.appendChild(
+    el('div', { class: 'searchbar', style: 'margin-top:10px' }, [
+      el('select', {
+        class: 'select',
+        onchange: (e) => {
+          const folder = String(e.target.value || '')
+          const rec = RECITERS.find((r) => r.folder === folder) || null
+          writeSelectedReciter(rec)
+          if (window.karaokePlayer && typeof window.karaokePlayer.setChapter === 'function' && chapter && Array.isArray(chapter.verses)) {
+            window.karaokePlayer.setChapter(chapter)
+          }
+        },
+      }, [
+        el('option', { value: '' }, ['Выберите чтеца…']),
+        ...RECITERS.map((r) =>
+          el('option', { value: r.folder, selected: r.folder === selectedFolder ? 'selected' : null }, [r.name]),
+        ),
+      ]),
+    ]),
+  )
+
+  if (!chapter) {
+    root.appendChild(el('p', { class: 'muted', style: 'margin-top:12px' }, ['Загрузка…']))
+    return
+  }
+  if (chapter.error) {
+    root.appendChild(el('div', { class: 'player-error', style: 'margin-top:12px' }, [String(chapter.error)]))
+    return
+  }
+
+  const versesHost = el('div', { class: 'verses' })
+  for (const v of chapter.verses || []) {
+    const verseNode = el('div', { class: 'verse', id: `v-${v.index}` })
+    verseNode.appendChild(
+      el('div', { class: 'meta' }, [
+        el('div', { class: 'verse-meta-left' }, [el('div', { class: 'num' }, [String(v.index)])]),
+      ]),
+    )
+    verseNode.appendChild(el('div', { class: 'arabic' }, [String(v.arabic || '')]))
+    verseNode.appendChild(el('div', { class: 'translation' }, [String(v.translation || '')]))
+    versesHost.appendChild(verseNode)
+  }
+  root.appendChild(versesHost)
 }
 
 const svgIcons = {
@@ -900,6 +1161,12 @@ function renderSurahs() {
   if (root.dataset.page !== 'surahs') {
     root.innerHTML = ''
     root.dataset.page = 'surahs'
+
+    root.appendChild(
+      el('div', { class: 'actions', style: 'margin-top:10px' }, [
+        el('button', { class: 'btn primary', onclick: () => gotoQuran(null, state.quranTranslation) }, ['Полный Коран (114)']),
+      ]),
+    )
 
     root.appendChild(
       el('div', { class: 'searchbar' }, [
@@ -1152,6 +1419,14 @@ function renderPlayer() {
   const host = $('#player')
   const container = $('#player-container')
   const chapter = state.chapterId ? state.byId.get(state.chapterId) : null
+
+  const showLocal = state.activePage === 'chapter' || state.activePage === 'surahs'
+  if (!showLocal) {
+    host.innerHTML = ''
+    if (container) container.classList.add('hidden')
+    document.body.classList.remove('player-open')
+    return
+  }
   
   if (!chapter || !chapter.audioUrl) {
     host.innerHTML = ''
@@ -1280,14 +1555,19 @@ function render() {
   else if (state.activePage === 'chapter') renderChapter()
   else if (state.activePage === 'readers') renderReaders()
   else if (state.activePage === 'settings') renderSettings()
+  else if (state.activePage === 'quran') renderQuran()
   else if (state.activePage === 'surahs') renderSurahs()
   else renderSurahs()
   renderPlayer()
   syncListenModeClass()
   if (window.karaokePlayer && typeof window.karaokePlayer.syncUI === 'function') {
-    const chapter = state.chapterId ? state.byId.get(state.chapterId) : null
-    const mode = chapter ? getChapterMode(chapter.id) : null
-    window.karaokePlayer.syncUI({ activePage: state.activePage, chapter, mode })
+    if (state.activePage === 'quran' && state.quranSurahNumber && state.quranCurrent && state.quranCurrent.verses) {
+      window.karaokePlayer.syncUI({ activePage: 'quran', chapter: state.quranCurrent, mode: 'read' })
+    } else {
+      const chapter = state.chapterId ? state.byId.get(state.chapterId) : null
+      const mode = chapter ? getChapterMode(chapter.id) : null
+      window.karaokePlayer.syncUI({ activePage: state.activePage, chapter, mode })
+    }
   }
 }
 
