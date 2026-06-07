@@ -572,8 +572,12 @@ function gotoChapter(chapterId, v = null) {
 }
 
 window.addEventListener('hashchange', () => {
+  const prevChapterId = state.chapterId
   syncFromHash()
   render()
+  if (state.chapterId && state.chapterId !== prevChapterId) {
+    setChapter(state.chapterId, { autoplay: false })
+  }
 })
 
 function syncFromHash() {
