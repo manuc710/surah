@@ -238,8 +238,8 @@ const prevIcon = `<svg viewBox="0 0 24 24" fill="currentColor" stroke="none" str
 const userIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`;
 const repeatIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg>`;
 const closeIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`;
-const ccIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="10" rx="2" ry="2"></rect><path d="M10 11H8a1 1 0 0 0-1 1v0a1 1 0 0 0 1 1h2"/><path d="M17 11h-2a1 1 0 0 0-1 1v0a1 1 0 0 0 1 1h2"/></svg>`;
-const settingsIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>`;
+const ccIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>`;
+const settingsIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-7"/><path d="M4 10V3"/><path d="M12 21v-9"/><path d="M12 8V3"/><path d="M20 21v-5"/><path d="M20 12V3"/><path d="M2 14h4"/><path d="M10 12h4"/><path d="M18 16h4"/></svg>`;
 
 // --- audio player ---
 const audio = new Audio()
@@ -1073,7 +1073,6 @@ function renderPlayer() {
               { class: expanded ? 'ptitle active' : 'ptitle', href: `#page=chapter&chapter=${encodeURIComponent(chapter.id)}` },
               [`${chapter.id.replace('chapter', '')}. ${chapter.displayTitle}`],
             ),
-            el('div', { class: 'p-subtitle' }, [subtitleText])
           ]),
         ]),
         
@@ -1115,9 +1114,8 @@ function renderPlayer() {
             },
           }),
           el('button', { class: 'btn-icon', onclick: nextChapter, title: 'Следующая', html: nextIcon }),
-          el('div', { style: 'width: 1px; height: 24px; background: rgba(255,255,255,0.1); margin: 0 4px;' }),
           el('button', { class: 'btn-icon', onclick: () => setChapter(null), title: 'Закрыть плеер', html: closeIcon })
-        ])
+        ]),
       ]),
 
       state.playerError ? el('div', { class: 'player-error' }, [state.playerError]) : null,
@@ -1143,8 +1141,6 @@ function renderPlayer() {
           el('input', { type: 'range', min: 0, max: 100, value: state.subSettings.bgOpacity * 100, oninput: e => { state.subSettings.bgOpacity = Number(e.target.value) / 100; saveSubSettings(); } })
         ])
       ]),
-
-      expanded ? el('div', { class: 'player-section-title muted' }, ['Перемотка']) : null,
 
       el('div', { class: 'timeline progress' }, [
         el('span', { class: 'time-text' }, [fmt(currentTime)]),
