@@ -267,7 +267,12 @@
       if (!this.items.length) return
       const nextIndex = this.currentIndex + 1
       if (nextIndex >= this.items.length) {
-        this.pause()
+        if (this.loop) {
+          this.currentIndex = 0
+          this.play()
+        } else {
+          this.pause()
+        }
         return
       }
       this.currentIndex = nextIndex
@@ -315,125 +320,22 @@
     }
 
     _hide() {
-      if (!this.container) return
-      this.container.classList.add('hidden')
+      // No longer uses separate container
     }
 
     _show() {
-      if (!this.container) return
-      this.container.classList.remove('hidden')
+      // No longer uses separate container
     }
 
     _ensureUI() {
-      if (!this.container) return
-      if (this.ui.root) return
-
-      const root = document.createElement('div')
-      root.className = 'mini-player-inner'
-
-      const title = document.createElement('div')
-      title.className = 'mini-player-title'
-
-      const status = document.createElement('div')
-      status.className = 'mini-player-status muted'
-
-      const controls = document.createElement('div')
-      controls.className = 'mini-player-controls'
-
-      const btnPrev = document.createElement('button')
-      btnPrev.className = 'btn-icon'
-      btnPrev.type = 'button'
-      btnPrev.title = 'Previous ayah'
-      btnPrev.textContent = '⏮'
-      btnPrev.addEventListener('click', () => this.prev())
-
-      const btnPlay = document.createElement('button')
-      btnPlay.className = 'btn-icon'
-      btnPlay.type = 'button'
-      btnPlay.title = 'Play / Pause'
-      btnPlay.textContent = '▶'
-      btnPlay.addEventListener('click', () => this.togglePlay())
-
-      const btnNext = document.createElement('button')
-      btnNext.className = 'btn-icon'
-      btnNext.type = 'button'
-      btnNext.title = 'Next ayah'
-      btnNext.textContent = '⏭'
-      btnNext.addEventListener('click', () => this.next())
-
-      const ayah = document.createElement('div')
-      ayah.className = 'mini-player-ayah muted'
-
-      controls.appendChild(btnPrev)
-      controls.appendChild(btnPlay)
-      controls.appendChild(btnNext)
-
-      root.appendChild(title)
-      root.appendChild(status)
-      root.appendChild(controls)
-      root.appendChild(ayah)
-
-      this.container.innerHTML = ''
-      this.container.appendChild(root)
-
-      this.ui.root = root
-      this.ui.status = status
-      this.ui.title = title
-      this.ui.ayah = ayah
-      this.ui.btnPrev = btnPrev
-      this.ui.btnPlay = btnPlay
-      this.ui.btnNext = btnNext
+      // No longer uses separate UI, we render via app.js
     }
 
     _render() {
-      if (!this.container) return
-      this._ensureUI()
-
-      const reciter = getSelectedReciter()
-
-      const isPlaying = !this.audio.paused && !!this.audio.src
-      const chapterTitle = this.chapter && this.chapter.displayTitle ? this.chapter.displayTitle : ''
-
-      if (this.ui.title) {
-        this.ui.title.textContent = chapterTitle ? `Karaoke: ${chapterTitle}` : 'Karaoke'
+      // Call global renderPlayer so app.js updates the main player UI
+      if (typeof window.renderPlayer === 'function') {
+        window.renderPlayer()
       }
-
-      if (!reciter) {
-        if (this.ui.status) this.ui.status.textContent = 'Choose a reciter to start playback.'
-        if (this.ui.ayah) this.ui.ayah.textContent = ''
-        if (this.ui.btnPrev) this.ui.btnPrev.disabled = true
-        if (this.ui.btnNext) this.ui.btnNext.disabled = true
-        if (this.ui.btnPlay) {
-          this.ui.btnPlay.disabled = true
-          this.ui.btnPlay.textContent = '▶'
-        }
-        return
-      }
-
-      if (!this.items.length) {
-        if (this.ui.status) this.ui.status.textContent = 'This chapter is not available for EveryAyah playback.'
-        if (this.ui.ayah) this.ui.ayah.textContent = ''
-        if (this.ui.btnPrev) this.ui.btnPrev.disabled = true
-        if (this.ui.btnNext) this.ui.btnNext.disabled = true
-        if (this.ui.btnPlay) {
-          this.ui.btnPlay.disabled = true
-          this.ui.btnPlay.textContent = '▶'
-        }
-        return
-      }
-
-      if (this.ui.status) {
-        this.ui.status.textContent = reciter.name ? `Reciter: ${reciter.name}` : `Folder: ${reciter.folder}`
-      }
-
-      if (this.ui.ayah) {
-        const cur = this.items[this.currentIndex]
-        this.ui.ayah.textContent = cur ? `Ayah ${cur.ayahNumber} / ${this.items[this.items.length - 1].ayahNumber}` : ''
-      }
-
-      if (this.ui.btnPlay) this.ui.btnPlay.textContent = isPlaying ? '⏸' : '▶'
-      if (this.ui.btnPrev) this.ui.btnPrev.disabled = this.currentIndex <= 0
-      if (this.ui.btnNext) this.ui.btnNext.disabled = this.currentIndex >= this.items.length - 1
     }
   }
 

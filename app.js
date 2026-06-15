@@ -1415,20 +1415,24 @@ function renderChapter() {
   }
 }
 
+window.renderPlayer = renderPlayer
 function renderPlayer() {
   const host = $('#player')
   const container = $('#player-container')
   const chapter = state.chapterId ? state.byId.get(state.chapterId) : null
 
+  // Always show player if karaoke is active or local is active
+  const isKaraoke = (state.activePage === 'quran') || (state.activePage === 'chapter' && getChapterMode(chapter?.id) === 'read')
   const showLocal = state.activePage === 'chapter' || state.activePage === 'surahs'
-  if (!showLocal) {
+  
+  if (!isKaraoke && !showLocal) {
     host.innerHTML = ''
     if (container) container.classList.add('hidden')
     document.body.classList.remove('player-open')
     return
   }
   
-  if (!chapter || !chapter.audioUrl) {
+  if (!chapter) {
     host.innerHTML = ''
     if (container) container.classList.add('hidden')
     document.body.classList.remove('player-open');
@@ -1438,7 +1442,14 @@ function renderPlayer() {
   if (container) container.classList.remove('hidden')
   document.body.classList.add('player-open');
 
-  const isPlaying = !audio.paused && !!audio.src
+  const kp = window.karaokePlayer
+  let isPlaying = false
+  if (isKaraoke && kp) {
+    isPlaying = !kp.audio.paused && !!kp.audio.src
+  } else {
+    isPlaying = !audio.paused && !!audio.src
+  }
+
   const currentTime = Number.isFinite(audio.currentTime) ? audio.currentTime : 0
 
   // Ensure timings are generated if they weren't yet
@@ -1458,9 +1469,19 @@ function renderPlayer() {
 
   host.innerHTML = ''
   const expanded = state.activePage === 'chapter' && getChapterMode(chapter.id) === 'listen'
-  const subtitleText = state.playerLoading
-    ? 'Загрузка аудио…'
-    : (state.playerAudioLabel || 'Локальное аудио')
+
+  let karaokeSubtitle = null
+  if (isKaraoke && kp && kp.items.length > 0) {
+    const nsKey = (k) => `${NS}.${k}`
+    const rawRec = localStorage.getItem('selectedReciter') || localStorage.getItem(nsKey('selectedReciter'))
+    const reciterName = rawRec ? (JSON.parse(rawRec).name || '') : ''
+    const curAyah = kp.items[kp.currentIndex]
+    if (curAyah) {
+      karaokeSubtitle = el('div', { class: 'player-subtitle muted', style: 'font-size: 11.5px; margin-top: 2px;' }, [
+        `${reciterName ? reciterName + ' • ' : ''}Аят ${curAyah.ayahNumber} / ${kp.items[kp.items.length - 1].ayahNumber}`
+      ])
+    }
+  }
 
   host.appendChild(
     el('div', { class: expanded ? 'player expanded' : 'player' }, [
@@ -1475,10 +1496,46 @@ function renderPlayer() {
               { class: 'ptitle', href: `#page=chapter&chapter=${encodeURIComponent(chapter.id)}` },
               [`${chapter.id.replace('chapter', '')}. ${chapter.displayTitle}`],
             ),
-          ]),
+            karaokeSubtitle
+          ].filter(Boolean)),
         ]),
         
-        el('div', { class: 'controls' }, [
+        el('div', { class: 'controls' }, isKaraoke ? [
+          el('button', {
+            class: `btn-icon ${state.subSettings.enabled ? 'active' : ''}`,
+            title: 'Субтитры',
+            html: ccIcon,
+            onclick: () => {
+              state.subSettings.enabled = !state.subSettings.enabled;
+              saveSubSettings();
+              renderPlayer();
+            }
+          }),
+          el('button', { class: 'btn-icon', title: 'Предыдущий аят', html: prevIcon, onclick: () => kp && kp.prev() }),
+          el('button', {
+            class: 'btn-play',
+            title: isPlaying ? 'Пауза' : 'Играть',
+            html: isPlaying ? pauseIcon : playIcon,
+            onclick: () => {
+              if (kp) {
+                if (audio && !audio.paused) audio.pause()
+                kp.togglePlay()
+              }
+            }
+          }),
+          el('button', { class: 'btn-icon', title: 'Следующий аят', html: nextIcon, onclick: () => kp && kp.next() }),
+          el('button', {
+            class: `btn-icon repeat-btn ${kp && kp.loop ? 'active' : ''}`,
+            title: kp && kp.loop ? 'Повтор включен' : 'Повтор выключен',
+            html: repeatIcon,
+            onclick: () => {
+              if (kp) {
+                kp.loop = !kp.loop
+                renderPlayer()
+              }
+            }
+          })
+        ] : [
           el('button', {
             class: `btn-icon ${state.subSettings.enabled ? 'active' : ''}`,
             title: 'Субтитры',
@@ -1503,16 +1560,6 @@ function renderPlayer() {
             title: isPlaying ? 'Пауза' : 'Играть',
             html: isPlaying ? pauseIcon : playIcon,
             onclick: () => {
-              if (state.activePage === 'chapter' && getChapterMode(chapter.id) === 'read') {
-                audio.pause()
-                if (window.karaokePlayer && typeof window.karaokePlayer.setChapter === 'function') {
-                  window.karaokePlayer.setChapter(chapter)
-                }
-                if (window.karaokePlayer && typeof window.karaokePlayer.togglePlay === 'function') {
-                  window.karaokePlayer.togglePlay()
-                }
-                return
-              }
               if (state.playerLoading || !audio.src) {
                 setChapter(chapter.id, { autoplay: true })
                 return
@@ -1544,6 +1591,7 @@ function renderPlayer() {
       
     ])
   )
+
   
   // Инициализация субтитров и прогресса при рендеринге плеера
   updatePlayerProgress();
