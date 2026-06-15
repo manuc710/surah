@@ -140,8 +140,14 @@ function setChapterMode(chapterId, mode) {
 }
 
 async function resolveAudioForChapter(chapter) {
-  if (!chapter || !chapter.audioUrl) return { candidates: [], label: '' }
-  return { candidates: [chapter.audioUrl], label: 'Локальное аудио' }
+  if (!chapter) return { candidates: [], label: '' }
+  // Provide full path if it's a relative path starting with kyril
+  let url = chapter.audioUrl
+  if (url && !url.startsWith('http') && !url.startsWith('/')) {
+    url = `/${url}`
+  }
+  if (!url) return { candidates: [], label: '' }
+  return { candidates: [url], label: 'Локальное аудио' }
 }
 
 function getCachedAudioAnalysis(chapterId, duration) {
@@ -356,12 +362,11 @@ function setChapter(chapterId, { autoplay = false } = {}) {
     window.karaokePlayer.setChapter(ch)
   }
 
-  renderPlayer()
   resolveAudioForChapter(ch)
     .then((r) => {
       if (state.audioLoadToken !== token) return
       const candidates = r && Array.isArray(r.candidates) ? r.candidates : []
-      if (!candidates.length) {
+      if (!candidates.length || !candidates[0]) {
         state.playerLoading = false
         state.playerError = 'Аудио недоступно'
         renderPlayer()
@@ -1443,6 +1448,8 @@ function renderPlayer() {
   const userIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`;
   const repeatIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg>`;
   const closeIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`;
+  const ccIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>`;
+  const settingsIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-7"/><path d="M4 10V3"/><path d="M12 21v-9"/><path d="M12 8V3"/><path d="M20 21v-5"/><path d="M20 12V3"/><path d="M2 14h4"/><path d="M10 12h4"/><path d="M18 16h4"/></svg>`;
 
   const imageOrSvgHTML = chapter.imageUrl 
     ? `<img src="${chapter.imageUrl}" alt="${chapter.displayTitle}">` 
@@ -1541,7 +1548,7 @@ function renderPlayer() {
             title: isPlaying ? 'Пауза' : 'Играть',
             html: isPlaying ? pauseIcon : playIcon,
             onclick: () => {
-              if (state.playerLoading || !audio.src) {
+              if (state.playerLoading || !audio.src || audio.src.endsWith('undefined')) {
                 setChapter(chapter.id, { autoplay: true })
                 return
               }
