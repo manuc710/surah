@@ -82,8 +82,6 @@
       // - builds per-ayah URLs for the selected surah
       // - plays them sequentially (ended -> next)
       // - highlights the current verse node (#v-{index}) and scrolls it into view
-      this.containerId = typeof opts.containerId === 'string' ? opts.containerId : 'mini-player'
-      this.container = document.getElementById(this.containerId)
 
       this.audio = new Audio()
       this.audio.preload = 'auto'
@@ -93,16 +91,6 @@
       this.currentIndex = 0
       this.enabled = false
       this.lastActiveDomIndex = null
-
-      this.ui = {
-        root: null,
-        status: null,
-        title: null,
-        ayah: null,
-        btnPrev: null,
-        btnPlay: null,
-        btnNext: null,
-      }
 
       this.audio.addEventListener('ended', () => this._onEnded())
       this.audio.addEventListener('error', () => this._onError())

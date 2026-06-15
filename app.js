@@ -1670,7 +1670,7 @@ async function init() {
   });
 
   if (window.AudioPlayer && !window.karaokePlayer) {
-    window.karaokePlayer = new window.AudioPlayer({ containerId: 'mini-player' })
+    window.karaokePlayer = new window.AudioPlayer()
   }
 
   render()
