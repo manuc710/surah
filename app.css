@@ -234,45 +234,24 @@ h1{margin:10px 0 12px; font-size:28px}
   gap:12px;
   width:100%;
   min-height:190px;
-  padding:14px 10px 14px;
+  padding:8px 6px 10px;
   border-radius:28px;
-  border:1px solid rgba(255,255,255,.08);
-  background:
-    radial-gradient(circle at 18% 18%, var(--reader-glow-1, rgba(56, 189, 248, 0.26)), rgba(56, 189, 248, 0) 34%),
-    radial-gradient(circle at 82% 10%, var(--reader-glow-2, rgba(34, 197, 94, 0.20)), rgba(34, 197, 94, 0) 28%),
-    linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(15, 23, 42, 0.92));
+  border:0;
+  background:transparent;
   color:var(--text);
   cursor:pointer;
-  overflow:hidden;
-  isolation:isolate;
-  box-shadow:0 12px 30px rgba(0,0,0,.20);
-  transition:transform .2s ease, opacity .2s ease, border-color .2s ease, box-shadow .2s ease;
+  overflow:visible;
+  isolation:auto;
+  box-shadow:none;
+  transition:transform .2s ease, opacity .2s ease;
 }
 
 .reader-card::before{
-  content:'';
-  position:absolute;
-  inset:0;
-  background:
-    linear-gradient(140deg, rgba(255,255,255,.14), rgba(255,255,255,0) 28%),
-    radial-gradient(circle at 80% 90%, var(--reader-glow-3, rgba(168, 85, 247, 0.18)), transparent 32%);
-  opacity:.95;
-  pointer-events:none;
-  z-index:0;
+  content:none;
 }
 
 .reader-card::after{
-  content:'';
-  position:absolute;
-  inset:auto -22px -38px auto;
-  width:118px;
-  height:118px;
-  border-radius:50%;
-  background:linear-gradient(180deg, rgba(255,255,255,.12), rgba(255,255,255,0));
-  opacity:.45;
-  filter:blur(2px);
-  pointer-events:none;
-  z-index:0;
+  content:none;
 }
 
 .reader-card > *{
@@ -283,14 +262,10 @@ h1{margin:10px 0 12px; font-size:28px}
 .reader-card:hover{
   transform:translateY(-2px);
   opacity:.98;
-  border-color:color-mix(in srgb, var(--reader-accent, #38bdf8) 36%, rgba(255,255,255,.08));
-  box-shadow:0 18px 34px rgba(0,0,0,.28);
 }
 
 .reader-card.selected{
   transform:translateY(-2px);
-  border-color:color-mix(in srgb, var(--reader-accent, #38bdf8) 48%, rgba(255,255,255,.10));
-  box-shadow:0 18px 38px rgba(0,0,0,.28), 0 0 0 1px color-mix(in srgb, var(--reader-accent, #38bdf8) 35%, transparent) inset;
 }
 
 .reader-badge{
@@ -311,6 +286,8 @@ h1{margin:10px 0 12px; font-size:28px}
   height:96px;
   border-radius:50%;
   display:flex;
+  position:relative;
+  overflow:hidden;
   align-items:center;
   justify-content:center;
   background:
@@ -323,6 +300,23 @@ h1{margin:10px 0 12px; font-size:28px}
   font-size:28px;
   font-weight:800;
   letter-spacing:.04em;
+}
+
+.reader-avatar-fallback,
+.reader-hero-avatar-fallback{
+  position:relative;
+  z-index:1;
+}
+
+.reader-avatar-img,
+.reader-hero-avatar-img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  z-index:2;
 }
 
 .reader-card.selected .reader-avatar{
@@ -408,6 +402,8 @@ h1{margin:10px 0 12px; font-size:28px}
   height:112px;
   border-radius:24px;
   display:flex;
+  position:relative;
+  overflow:hidden;
   align-items:center;
   justify-content:center;
   background:

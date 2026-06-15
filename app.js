@@ -233,6 +233,47 @@ function getReciterInitials(name) {
     .join('')
 }
 
+function getReciterAvatarCandidates(name) {
+  const base = String(name || '').trim()
+  if (!base) return []
+  return ['png', 'jpg', 'jpeg', 'webp'].map((ext) => `./pics_chtesi/${encodeURIComponent(base)}.${ext}`)
+}
+
+function renderReciterAvatar(reciter, className = 'reader-avatar') {
+  const wrap = el('div', { class: className })
+  const fallback = el('span', { class: `${className}-fallback` }, [getReciterInitials(reciter && reciter.name)])
+  wrap.appendChild(fallback)
+
+  const candidates = getReciterAvatarCandidates(reciter && reciter.name)
+  if (!candidates.length) return wrap
+
+  let idx = 0
+  const img = el('img', {
+    class: `${className}-img`,
+    alt: reciter && reciter.name ? reciter.name : 'Reciter',
+    loading: 'lazy',
+    decoding: 'async',
+  })
+
+  const tryNext = () => {
+    if (idx >= candidates.length) {
+      img.remove()
+      wrap.classList.remove('has-image')
+      return
+    }
+    img.src = candidates[idx++]
+  }
+
+  img.addEventListener('load', () => {
+    wrap.classList.add('has-image')
+  })
+  img.addEventListener('error', tryNext)
+  wrap.appendChild(img)
+  tryNext()
+
+  return wrap
+}
+
 function hashString(value) {
   let h = 0
   const text = String(value || '')
@@ -977,7 +1018,7 @@ function renderReciterCards({
         onclick: () => onChoose(r),
       })
       if (isSelected) card.appendChild(el('span', { class: 'reader-badge' }, ['Выбрано']))
-      card.appendChild(el('div', { class: 'reader-avatar' }, [getReciterInitials(r.name)]))
+      card.appendChild(renderReciterAvatar(r, 'reader-avatar'))
       card.appendChild(el('div', { class: 'reader-name' }, [r.name]))
       grid.appendChild(card)
     }
@@ -1026,7 +1067,7 @@ function renderReaderProfile() {
         el('button', { class: 'btn', onclick: gotoReaders }, ['← Все чтецы']),
       ]),
       el('div', { class: 'reader-hero-head' }, [
-        el('div', { class: 'reader-hero-avatar' }, [getReciterInitials(reciter.name)]),
+        renderReciterAvatar(reciter, 'reader-hero-avatar'),
         el('div', { class: 'reader-hero-meta' }, [
           el('div', { class: 'reader-hero-kicker' }, ['Чтец']),
           el('h1', { class: 'reader-hero-title' }, [reciter.name]),
@@ -1504,7 +1545,7 @@ function renderReading() {
           el('button', { class: 'btn', onclick: () => gotoReading() }, ['← Все чтецы']),
         ]),
         el('div', { class: 'reader-hero-head' }, [
-          el('div', { class: 'reader-hero-avatar' }, [getReciterInitials(readingReciter.name)]),
+          renderReciterAvatar(readingReciter, 'reader-hero-avatar'),
           el('div', { class: 'reader-hero-meta' }, [
             el('div', { class: 'reader-hero-kicker' }, ['Чтение']),
             el('h1', { class: 'reader-hero-title' }, [readingReciter.name]),
