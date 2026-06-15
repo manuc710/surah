@@ -71,7 +71,7 @@ const state = {
   playerError: '',
   playerAudioLabel: '',
   audioAnalysis: loadJSON('audioAnalysis', {}),
-  quranTranslation: typeof savedQuranTranslation === 'string' ? savedQuranTranslation : 'ru.kuliev',
+  quranTranslation: typeof savedQuranTranslation === 'string' ? savedQuranTranslation : 'id',
   quranSurahNumber: null,
   quranList: null,
   quranListLoading: false,
@@ -82,27 +82,12 @@ const state = {
 }
 
 const RECITERS = [
-  { name: 'Abdul Basit (Mujawwad) 128kbps', folder: 'Abdul_Basit_Mujawwad_128kbps' },
-  { name: 'Abdul Basit (Murattal) 192kbps', folder: 'Abdul_Basit_Murattal_192kbps' },
-  { name: 'Husary 128kbps', folder: 'Husary_128kbps' },
-  { name: 'Husary (Muallim) 128kbps', folder: 'Husary_Muallim_128kbps' },
-  { name: 'Minshawy (Murattal) 128kbps', folder: 'Minshawy_Murattal_128kbps' },
-  { name: 'Minshawy (Mujawwad) 192kbps', folder: 'Minshawy_Mujawwad_192kbps' },
-  { name: 'Maher Al Muaiqly 128kbps', folder: 'Maher_AlMuaiqly_128kbps' },
-  { name: 'Mishary Rashid Alafasy 128kbps', folder: 'Mishary_Rashid_Alafasy_128kbps' },
-  { name: 'Saad Al Ghamdi 128kbps', folder: 'Saad_AlGhamdi_128kbps' },
-  { name: 'Abdurrahmaan As-Sudais 192kbps', folder: 'Abdurrahmaan_As-Sudais_192kbps' },
-  { name: 'Abdullaah Awwaad Al-Juhaynee 128kbps', folder: 'Abdullaah_3awwaad_Al-Juhaynee_128kbps' },
-  { name: 'Abu Bakr Ash-Shaatree 128kbps', folder: 'Abu_Bakr_Ash-Shaatree_128kbps' },
-  { name: 'Ahmed Neana 128kbps', folder: 'Ahmed_Neana_128kbps' },
-  { name: 'Ghamadi 40kbps', folder: 'Ghamadi_40kbps' },
-  { name: 'Hudhaify 128kbps', folder: 'Hudhaify_128kbps' },
-  { name: 'Ibrahim Akhdar 32kbps', folder: 'Ibrahim_Akhdar_32kbps' },
-  { name: 'Mohammad Jebril 128kbps', folder: 'Mohammad_Jebril_128kbps' },
-  { name: 'Muhammad Ayyoub 128kbps', folder: 'Muhammad_Ayyoub_128kbps' },
-  { name: 'Nasser Al Qatami 128kbps', folder: 'Nasser_Alqatami_128kbps' },
-  { name: 'Sahl Yasin 128kbps', folder: 'Sahl_Yassin_128kbps' },
-]
+    { name: 'Abdullah Al-Juhany', folder: '01' },
+    { name: 'Abdul Muhsin Al-Qasim', folder: '02' },
+    { name: 'Abdurrahman as-Sudais', folder: '03' },
+    { name: 'Ibrahim Al-Dossari', folder: '04' },
+    { name: 'Misyari Rasyid Al-Afasi', folder: '05' },
+  ]
 
 function readSelectedReciter() {
   try {
@@ -702,7 +687,7 @@ function renderReaders() {
 
   root.appendChild(el('h1', {}, ['Чтецы']))
   root.appendChild(
-    el('p', { class: 'muted' }, ['Выберите чтеца для режима караоке (аят за аятом). Источник аудио: api.alquran.cloud.']),
+    el('p', { class: 'muted' }, ['Выберите чтеца для режима караоке (аят за аятом). Источник аудио: equran.id.']),
   )
 
   root.appendChild(
@@ -798,8 +783,8 @@ function renderSettings() {
 }
 
 const QURAN_TRANSLATIONS = [
-  { id: 'ru.kuliev', label: 'Русский (Кулиев)' },
-  { id: 'en.sahih', label: 'English (Sahih)' },
+  { id: 'id', label: 'Индонезийский (Kemenag)' },
+  { id: 'en', label: 'English (Asad)' },
 ]
 
 async function ensureQuranListLoaded() {
@@ -808,11 +793,17 @@ async function ensureQuranListLoaded() {
   state.quranListLoading = true
   state.quranListError = ''
   try {
-    const res = await fetch('https://api.alquran.cloud/v1/surah')
+    const res = await fetch('https://equran.id/api/v2/surat')
     const json = await res.json()
-    const list = json && Array.isArray(json.data) ? json.data : null
+    const list = json && json.data && Array.isArray(json.data) ? json.data : null
     if (!list) throw new Error('Bad response')
-    state.quranList = list
+    state.quranList = list.map((s) => ({
+      number: s.nomor,
+      name: s.nama,
+      englishName: s.namaLatin,
+      englishNameTranslation: s.arti,
+      numberOfAyahs: s.jumlahAyat,
+    }))
   } catch {
     state.quranListError = 'Не удалось загрузить список сур'
   } finally {
@@ -824,7 +815,7 @@ async function ensureQuranListLoaded() {
 async function ensureQuranSurahLoaded(surahNumber, translationId) {
   const sn = Number(surahNumber)
   if (!Number.isFinite(sn) || sn < 1 || sn > 114) return
-  const tr = typeof translationId === 'string' && translationId ? translationId : 'ru.kuliev'
+  const tr = typeof translationId === 'string' && translationId ? translationId : 'id'
   const cacheKey = `${sn}:${tr}`
   if (state.quranCurrent && state.quranCurrent.cacheKey === cacheKey) return
   if (state.quranCache[cacheKey]) {
@@ -835,28 +826,24 @@ async function ensureQuranSurahLoaded(surahNumber, translationId) {
   const token = ++state.quranLoadToken
   state.quranCurrent = null
   try {
-    const url = `https://api.alquran.cloud/v1/surah/${sn}/editions/quran-uthmani,${encodeURIComponent(tr)}`
+    const baseUrl = tr === 'en' ? 'https://equran.id/api/en/surah' : 'https://equran.id/api/v2/surat'
+    const url = `${baseUrl}/${sn}`
     const res = await fetch(url)
     const json = await res.json()
-    const data = json && Array.isArray(json.data) ? json.data : null
-    if (!data || data.length < 2) throw new Error('Bad response')
+    const data = json && json.data ? json.data : null
+    if (!data) throw new Error('Bad response')
 
-    const arab = data[0]
-    const trans = data[1]
     const verses = []
-    const arabAyahs = Array.isArray(arab.ayahs) ? arab.ayahs : []
-    const trAyahs = Array.isArray(trans.ayahs) ? trans.ayahs : []
-    const n = Math.min(arabAyahs.length, trAyahs.length)
-    for (let i = 0; i < n; i++) {
-      const ai = arabAyahs[i]
-      const ti = trAyahs[i]
-      const index = Number(ai && ai.numberInSurah)
+    const ayahs = Array.isArray(data.ayat) ? data.ayat : []
+    for (let i = 0; i < ayahs.length; i++) {
+      const a = ayahs[i]
+      const index = Number(a && a.nomorAyat)
       if (!Number.isFinite(index) || index <= 0) continue
       verses.push({
         index,
-        arabic: String(ai && ai.text ? ai.text : ''),
-        translit: '',
-        translation: String(ti && ti.text ? ti.text : ''),
+        arabic: String(a.teksArab || ''),
+        translit: String(a.teksLatin || ''),
+        translation: String(a.teksIndonesia || a.text || ''),
       })
     }
 
@@ -864,9 +851,9 @@ async function ensureQuranSurahLoaded(surahNumber, translationId) {
       id: `quran-${sn}`,
       cacheKey,
       surahNumber: sn,
-      arabicTitle: String(arab && arab.name ? arab.name : ''),
-      displayTitle: `${sn}. ${String(arab && arab.englishName ? arab.englishName : '')}`,
-      title: String(arab && arab.englishNameTranslation ? arab.englishNameTranslation : ''),
+      arabicTitle: String(data.nama || ''),
+      displayTitle: `${sn}. ${String(data.namaLatin || '')}`,
+      title: String(data.arti || ''),
       verses,
     }
 

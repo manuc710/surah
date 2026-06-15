@@ -141,16 +141,19 @@
         // Ayat Al-Kursi is Quran 2:255 (single ayah).
         this.items = []
         this._render()
-        fetch(`https://api.alquran.cloud/v1/ayah/2:255/${reciter.folder}`)
+        // API equran.id v2: surah 2
+        fetch(`https://equran.id/api/v2/surat/2`)
           .then(res => res.json())
           .then(data => {
-            if (!data || !data.data) return
+            if (!data || !data.data || !Array.isArray(data.data.ayat)) return
+            const ayah255 = data.data.ayat.find(a => a.nomorAyat === 255)
+            if (!ayah255) return
             this.items = [
               {
                 domIndex: 1,
                 surahNumber: 2,
                 ayahNumber: 255,
-                url: data.data.audio
+                url: ayah255.audio[reciter.folder] || ayah255.audio['05']
               }
             ]
             this._render()
@@ -177,18 +180,18 @@
       this.items = []
       this._render()
 
-      fetch(`https://api.alquran.cloud/v1/surah/${surahNumber}/${reciter.folder}`)
+      fetch(`https://equran.id/api/v2/surat/${surahNumber}`)
         .then(res => res.json())
         .then(data => {
-          if (!data || !data.data || !Array.isArray(data.data.ayahs)) return
+          if (!data || !data.data || !Array.isArray(data.data.ayat)) return
           
-          this.items = data.data.ayahs.map((ayah) => {
-            const domIndex = ayah.numberInSurah + offset
+          this.items = data.data.ayat.map((ayah) => {
+            const domIndex = ayah.nomorAyat + offset
             return {
               domIndex,
               surahNumber,
-              ayahNumber: ayah.numberInSurah,
-              url: ayah.audio
+              ayahNumber: ayah.nomorAyat,
+              url: ayah.audio[reciter.folder] || ayah.audio['05'] // Fallback to Mishary if reciter not found
             }
           })
           
