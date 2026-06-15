@@ -644,15 +644,21 @@ function generateTimings(force = false) {
 }
 
 function updatePlayerProgress() {
-  const isPlaying = !audio.paused && !!audio.src;
-  const btnPlay = document.querySelector('.btn-play');
+  const kp = window.karaokePlayer
+  const isKaraoke =
+    state.activePage === 'quran' ||
+    state.activePage === 'reader' ||
+    state.activePage === 'reading'
+  const activeAudio = isKaraoke && kp && kp.audio ? kp.audio : audio
+  const isPlaying = !!activeAudio && !activeAudio.paused && !!activeAudio.src
+  const currentTime = Number.isFinite(activeAudio && activeAudio.currentTime) ? activeAudio.currentTime : 0
+  const btnPlay = document.querySelector('.btn-play')
   if (btnPlay) {
-    btnPlay.title = isPlaying ? 'Пауза' : 'Играть';
-    btnPlay.innerHTML = isPlaying ? pauseIcon : playIcon;
+    btnPlay.title = isPlaying ? 'Пауза' : 'Играть'
+    btnPlay.innerHTML = isPlaying ? pauseIcon : playIcon
   }
-  const currentTime = Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
-  
-  updateSubtitles(currentTime);
+
+  updateSubtitles(currentTime)
 }
 
 
@@ -737,8 +743,8 @@ function gotoSurahs() {
 function gotoReaders() {
   setHash({ page: 'readers' })
 }
-function gotoReading(surah = null) {
-  setHash({ page: 'reading', surah })
+function gotoReading(reciter = null, surah = null) {
+  setHash({ page: 'reading', reciter, surah })
 }
 function gotoReader(reciterFolder) {
   setHash({ page: 'reader', reciter: reciterFolder })
@@ -830,74 +836,20 @@ function renderNav() {
 function renderReaders() {
   const root = $('#view')
   root.innerHTML = ''
-  const selected = getActiveFullQuranReciter()
-  const allReciters = getFullQuranReciters()
-
-  root.appendChild(el('h1', {}, ['Чтецы']))
-
-  root.appendChild(
-    el('div', { class: 'searchbar', style: 'margin-top:16px' }, [
-      el('input', {
-        id: 'readers-search',
-        value: '',
-        placeholder: 'Поиск чтеца…',
-        autocapitalize: 'off',
-        autocomplete: 'off',
-        autocorrect: 'off',
-        spellcheck: 'false',
-      }),
-    ]),
-  )
-
-  const currentLine = selected && selected.folder ? `Текущий: ${selected.name || selected.folder}` : 'Текущий: не выбран'
-  root.appendChild(el('p', { class: 'muted', id: 'readers-current', style: 'margin-top:10px' }, [currentLine]))
-
-  root.appendChild(el('div', { class: 'readers-grid', id: 'readers-grid' }))
-  root.appendChild(el('p', { class: 'muted', id: 'readers-empty', style: 'margin-top:12px; display:none' }, ['']))
-
-  const update = () => {
-    const grid = $('#readers-grid')
-    const empty = $('#readers-empty')
-    const current = $('#readers-current')
-    if (!grid || !empty || !current) return
-
-    const q = String($('#readers-search')?.value || '').toLowerCase().trim()
-    const list = !q
-      ? allReciters
-      : allReciters.filter((r) => `${r.name} ${r.style || ''}`.toLowerCase().includes(q))
-
-    const sel = getActiveFullQuranReciter()
-    current.textContent = sel && sel.folder ? `Текущий: ${sel.name || sel.folder}` : 'Текущий: не выбран'
-
-    grid.innerHTML = ''
-    for (const r of list) {
-      const isSelected = !!sel && sel.folder === r.folder
-      const card = el('button', {
-        type: 'button',
-        class: isSelected ? 'reader-card selected' : 'reader-card',
-        onclick: () => {
-          writeSelectedQuranReciter(r)
-          gotoReader(r.folder)
-        },
-      })
-
-      if (isSelected) card.appendChild(el('span', { class: 'reader-badge' }, ['Выбрано']))
-      card.appendChild(el('div', { class: 'reader-avatar' }, [getReciterInitials(r.name)]))
-      card.appendChild(el('div', { class: 'reader-name' }, [r.name]))
-      grid.appendChild(card)
-    }
-
-    if (!list.length) {
-      empty.textContent = 'Ничего не найдено'
-      empty.style.display = 'block'
-    } else {
-      empty.style.display = 'none'
-    }
-  }
-
-  const input = $('#readers-search')
-  if (input) input.addEventListener('input', update)
-  update()
+  renderReciterCards({
+    root,
+    title: 'Чтецы',
+    searchId: 'readers-search',
+    currentId: 'readers-current',
+    emptyId: 'readers-empty',
+    placeholder: 'Поиск чтеца…',
+    allReciters: getFullQuranReciters(),
+    getSelected: getActiveFullQuranReciter,
+    onChoose: (r) => {
+      writeSelectedQuranReciter(r)
+      gotoReader(r.folder)
+    },
+  })
 }
 
 function getSurahMetaForReader(surahNumber) {
@@ -939,6 +891,76 @@ async function playReaderSurah(reciter, surahNumber) {
   if (window.karaokePlayer && typeof window.karaokePlayer.play === 'function') {
     window.karaokePlayer.play()
   }
+}
+
+function renderReciterCards({
+  root,
+  title,
+  searchId,
+  currentId,
+  emptyId,
+  placeholder,
+  allReciters,
+  getSelected,
+  onChoose,
+}) {
+  root.appendChild(el('h1', {}, [title]))
+  root.appendChild(
+    el('div', { class: 'searchbar', style: 'margin-top:16px' }, [
+      el('input', {
+        id: searchId,
+        value: '',
+        placeholder,
+        autocapitalize: 'off',
+        autocomplete: 'off',
+        autocorrect: 'off',
+        spellcheck: 'false',
+      }),
+    ]),
+  )
+
+  const selected = getSelected()
+  const currentLine = selected && selected.folder ? `Текущий: ${selected.name || selected.folder}` : 'Текущий: не выбран'
+  root.appendChild(el('p', { class: 'muted', id: currentId, style: 'margin-top:10px' }, [currentLine]))
+  root.appendChild(el('div', { class: 'readers-grid', id: `${searchId}-grid` }))
+  root.appendChild(el('p', { class: 'muted', id: emptyId, style: 'margin-top:12px; display:none' }, ['']))
+
+  const update = () => {
+    const grid = $(`#${searchId}-grid`)
+    const empty = $(`#${emptyId}`)
+    const current = $(`#${currentId}`)
+    if (!grid || !empty || !current) return
+
+    const q = String($(`#${searchId}`)?.value || '').toLowerCase().trim()
+    const list = !q ? allReciters : allReciters.filter((r) => `${r.name} ${r.style || ''} ${r.subtitle || ''}`.toLowerCase().includes(q))
+    const sel = getSelected()
+    current.textContent = sel && sel.folder ? `Текущий: ${sel.name || sel.folder}` : 'Текущий: не выбран'
+
+    grid.innerHTML = ''
+    for (const r of list) {
+      const isSelected = !!sel && sel.folder === r.folder
+      const card = el('button', {
+        type: 'button',
+        class: isSelected ? 'reader-card selected' : 'reader-card',
+        onclick: () => onChoose(r),
+      })
+      if (isSelected) card.appendChild(el('span', { class: 'reader-badge' }, ['Выбрано']))
+      card.appendChild(el('div', { class: 'reader-avatar' }, [getReciterInitials(r.name)]))
+      card.appendChild(el('div', { class: 'reader-name' }, [r.name]))
+      grid.appendChild(card)
+    }
+
+    if (!list.length) {
+      empty.textContent = 'Ничего не найдено'
+      empty.style.display = 'block'
+    } else {
+      empty.style.display = 'none'
+    }
+  }
+
+  const input = $(`#${searchId}`)
+  if (input) input.addEventListener('input', update)
+  update()
 }
 
 function renderReaderProfile() {
@@ -1416,55 +1438,47 @@ function renderReading() {
   const selectedReciter = getActiveReadingReciter()
   const activeSurah = state.readingSurahNumber
   if (selectedReciter) writeSelectedReadingReciter(selectedReciter)
+  const readingReciter = getReadingReciterByFolder(state.readerFolder || '')
 
-  if (!activeSurah) {
+  if (!readingReciter && !activeSurah) {
+    renderReciterCards({
+      root,
+      title: 'Чтение',
+      searchId: 'reading-search',
+      currentId: 'reading-current',
+      emptyId: 'reading-empty',
+      placeholder: 'Поиск чтеца…',
+      allReciters: getReadingReciters(),
+      getSelected: getActiveReadingReciter,
+      onChoose: (reciter) => {
+        writeSelectedReadingReciter(reciter)
+        state.readingCurrent = null
+        gotoReading(reciter.folder)
+      },
+    })
+    return
+  }
+
+  if (readingReciter && !activeSurah) {
     ensureQuranListLoaded()
 
-    root.appendChild(el('h1', {}, ['Чтение']))
     root.appendChild(
-      el('div', { class: 'note', style: 'margin-top:12px' }, [
-        'Точный режим verse-by-verse. Здесь доступны только несколько популярных чтецов с поаятным воспроизведением.',
-      ]),
-    )
-
-    root.appendChild(el('h2', { class: 'reader-section-title' }, ['Чтецы для точного чтения']))
-    const recitersGrid = el('div', { class: 'readers-grid' })
-    for (const reciter of getReadingReciters()) {
-      const isSelected = !!selectedReciter && selectedReciter.folder === reciter.folder
-      const card = el('button', {
-        type: 'button',
-        class: isSelected ? 'reader-card selected' : 'reader-card',
-        onclick: () => {
-          writeSelectedReadingReciter(reciter)
-          state.readingCurrent = null
-          renderReading()
-        },
-      })
-      if (isSelected) card.appendChild(el('span', { class: 'reader-badge' }, ['Выбрано']))
-      card.appendChild(el('div', { class: 'reader-avatar' }, [getReciterInitials(reciter.name)]))
-      card.appendChild(el('div', { class: 'reader-name' }, [reciter.name]))
-      card.appendChild(el('div', { class: 'muted', style: 'font-size:12px; text-align:center; max-width:118px;' }, [reciter.subtitle]))
-      recitersGrid.appendChild(card)
-    }
-    root.appendChild(recitersGrid)
-
-    root.appendChild(el('p', { class: 'muted', style: 'margin-top:14px' }, [`Текущий чтец: ${selectedReciter ? selectedReciter.name : 'не выбран'}`]))
-
-    root.appendChild(
-      el('div', { class: 'searchbar', style: 'margin-top:16px' }, [
-        el('input', {
-          id: 'reading-search',
-          value: state.readingQ,
-          placeholder: 'Поиск по суре…',
-          autocapitalize: 'off',
-          autocomplete: 'off',
-          autocorrect: 'off',
-          spellcheck: 'false',
-          oninput: (e) => {
-            state.readingQ = e.target.value || ''
-            renderReading()
-          },
-        }),
+      el('div', { class: 'reader-hero' }, [
+        el('div', { class: 'reader-hero-banner' }, [
+          el('div', { class: 'reader-hero-banner-glow' }),
+          el('div', { class: 'reader-hero-banner-pattern' }),
+        ]),
+        el('div', { class: 'reader-hero-top' }, [
+          el('button', { class: 'btn', onclick: () => gotoReading() }, ['← Все чтецы']),
+        ]),
+        el('div', { class: 'reader-hero-head' }, [
+          el('div', { class: 'reader-hero-avatar' }, [getReciterInitials(readingReciter.name)]),
+          el('div', { class: 'reader-hero-meta' }, [
+            el('div', { class: 'reader-hero-kicker' }, ['Чтение']),
+            el('h1', { class: 'reader-hero-title' }, [readingReciter.name]),
+            el('p', { class: 'reader-hero-subtitle' }, ['Точный verse-by-verse по аятам']),
+          ]),
+        ]),
       ]),
     )
 
@@ -1477,29 +1491,43 @@ function renderReading() {
       return
     }
 
-    const q = String(state.readingQ || '').toLowerCase().trim()
-    const list = !q
-      ? state.quranList
-      : state.quranList.filter((s) => {
-          const t = `${s.number} ${s.englishName} ${s.englishNameTranslation} ${s.name}`.toLowerCase()
-          return t.includes(q)
-        })
-
-    const grid = el('div', { class: 'grid' })
-    for (const s of list) {
-      const num = Number(s && s.number)
-      if (!Number.isFinite(num)) continue
-      const card = el('div', { class: 'card', onclick: () => gotoReading(num) })
-      card.appendChild(
-        el('div', { class: 'body' }, [
-          el('div', { class: 'title' }, [`${num}. ${String(s.englishName || '')}`]),
-          el('div', { class: 'arabic-title' }, [String(s.name || '')]),
-        ]),
+    root.appendChild(el('h2', { class: 'reader-section-title' }, ['Суры']))
+    root.appendChild(
+      el('div', { class: 'reader-track-head' }, [
+        el('div', { class: 'reader-track-head-num' }, ['#']),
+        el('div', { class: 'reader-track-head-title' }, ['Сура']),
+        el('div', { class: 'reader-track-head-count' }, ['Аяты']),
+        el('div', { class: 'reader-track-head-action' }, ['']),
+      ]),
+    )
+    const list = el('div', { class: 'reader-surah-list' })
+    for (const s of state.quranList) {
+      const sn = Number(s && s.number)
+      if (!Number.isFinite(sn)) continue
+      const meta = getSurahMetaForReader(sn)
+      const translit = String((meta && meta.transliteratedName) || `Сура ${sn}`)
+      const arabic = String((meta && meta.arabicName) || '')
+      const ayahs = Number((meta && meta.numberOfAyahs) || 0)
+      const row = el('button', {
+        type: 'button',
+        class: 'reader-surah-row',
+        onclick: () => {
+          writeSelectedReadingReciter(readingReciter)
+          gotoReading(readingReciter.folder, sn)
+        },
+      })
+      row.appendChild(el('div', { class: 'reader-surah-num' }, [String(sn).padStart(2, '0')]))
+      row.appendChild(
+        el('div', { class: 'reader-surah-meta' }, [
+          el('div', { class: 'reader-surah-title' }, [translit]),
+          arabic ? el('div', { class: 'reader-surah-arabic' }, [arabic]) : null,
+        ].filter(Boolean)),
       )
-      card.appendChild(el('div', { class: 'icon-wrapper', html: svgIcons.book }))
-      grid.appendChild(card)
+      row.appendChild(el('div', { class: 'reader-surah-count' }, [ayahs ? String(ayahs) : '']))
+      row.appendChild(el('div', { class: 'reader-surah-action' }, ['▶']))
+      list.appendChild(row)
     }
-    root.appendChild(grid)
+    root.appendChild(list)
     return
   }
 
@@ -1522,21 +1550,6 @@ function renderReading() {
   root.appendChild(
     el('div', { class: 'actions', style: 'margin-top:10px' }, [
       el('button', { class: 'btn', onclick: () => gotoReading(null) }, ['← Все суры']),
-      ...getReadingReciters().map((reciter) =>
-        el(
-          'button',
-          {
-            class: reciter.folder === (selectedReciter && selectedReciter.folder) ? 'btn primary' : 'btn',
-            onclick: () => {
-              writeSelectedReadingReciter(reciter)
-              state.readingCurrent = null
-              ensureReadingSurahLoaded(activeSurah)
-              render()
-            },
-          },
-          [reciter.name.split(' ')[0]],
-        ),
-      ),
       el('button', {
         class: 'btn primary',
         onclick: () => {
@@ -2130,7 +2143,9 @@ function renderPlayer() {
   const host = $('#player')
   const container = $('#player-container')
   const chapter =
-    state.activePage === 'reading'
+    state.activePage === 'reader'
+      ? state.quranCurrent
+      : state.activePage === 'reading'
       ? state.readingCurrent
       : state.activePage === 'quran'
         ? state.quranCurrent
@@ -2139,7 +2154,11 @@ function renderPlayer() {
           : null
 
   // Always show player if karaoke is active or local is active
-  const isKaraoke = (state.activePage === 'quran') || (state.activePage === 'reading') || (state.activePage === 'chapter' && getChapterMode(chapter?.id) === 'read')
+  const isKaraoke =
+    (state.activePage === 'quran') ||
+    (state.activePage === 'reader') ||
+    (state.activePage === 'reading') ||
+    (state.activePage === 'chapter' && getChapterMode(chapter?.id) === 'read')
   const showLocal = state.activePage === 'chapter' || state.activePage === 'surahs'
   
   if (!isKaraoke && !showLocal) {
@@ -2300,7 +2319,7 @@ function renderPlayer() {
           el('div', { class: 'avatar', html: imageOrSvgHTML }),
           el('div', { class: 'info' }, [
             (() => {
-              const isQuranPage = state.activePage === 'quran'
+              const isQuranPage = state.activePage === 'quran' || state.activePage === 'reader'
               const isReadingPage = state.activePage === 'reading'
               const href = isQuranPage
                 ? `#page=quran&surah=${encodeURIComponent(chapter.surahNumber || '')}`
@@ -2344,6 +2363,8 @@ function render() {
   if (window.karaokePlayer && typeof window.karaokePlayer.syncUI === 'function') {
     if (state.activePage === 'quran' && state.quranSurahNumber && state.quranCurrent && state.quranCurrent.verses) {
       window.karaokePlayer.syncUI({ activePage: 'quran', chapter: state.quranCurrent, mode: 'read' })
+    } else if (state.activePage === 'reader' && state.quranCurrent && state.quranCurrent.verses) {
+      window.karaokePlayer.syncUI({ activePage: 'reader', chapter: state.quranCurrent, mode: 'read' })
     } else if (state.activePage === 'reading' && state.readingSurahNumber && state.readingCurrent && state.readingCurrent.verses) {
       window.karaokePlayer.syncUI({ activePage: 'reading', chapter: state.readingCurrent, mode: 'read' })
     } else {
