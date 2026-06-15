@@ -1,10 +1,6 @@
 /* global window, document, localStorage */
 
 ;(function () {
-  function pad3(n) {
-    return String(n).padStart(3, '0')
-  }
-
   function safeParseJSON(raw) {
     try {
       return JSON.parse(raw)
@@ -74,14 +70,10 @@
 
   function isBismillah(arabic) {
     // The dataset includes Bismillah as verse #1 for most chapters.
-    // But EveryAyah numbering usually does NOT count Bismillah as ayah #1
+    // But EveryAyah/AlQuranCloud numbering usually does NOT count Bismillah as ayah #1
     // (except Al-Fatiha). So we detect it and offset verse -> ayah mapping.
     const t = String(arabic || '').trim()
     return t.startsWith('بِسْمِ') || t.startsWith('بسم')
-  }
-
-  function buildEveryAyahUrl({ folder, surahNumber, ayahNumber }) {
-    return `https://everyayah.com/data/${encodeURIComponent(folder)}/${pad3(surahNumber)}${pad3(ayahNumber)}.mp3`
   }
 
   class AudioPlayer {
@@ -159,22 +151,32 @@
 
       if (base === 'ayatalkursi') {
         // Ayat Al-Kursi is Quran 2:255 (single ayah).
-        this.items = [
-          {
-            domIndex: 1,
-            surahNumber: 2,
-            ayahNumber: 255,
-            url: buildEveryAyahUrl({ folder: reciter.folder, surahNumber: 2, ayahNumber: 255 }),
-          },
-        ]
+        this.items = []
         this._render()
+        fetch(`https://api.alquran.cloud/v1/ayah/2:255/${reciter.folder}`)
+          .then(res => res.json())
+          .then(data => {
+            if (!data || !data.data) return
+            this.items = [
+              {
+                domIndex: 1,
+                surahNumber: 2,
+                ayahNumber: 255,
+                url: data.data.audio
+              }
+            ]
+            this._render()
+          })
+          .catch(err => {
+            console.error('Failed to load Ayat Al-Kursi audio:', err)
+            this._render()
+          })
         return
       }
 
       const explicitSurahNumber = Number(chapter && chapter.surahNumber)
       const surahNumber = Number.isFinite(explicitSurahNumber) ? explicitSurahNumber : AUDIO_BASE_TO_SURAH[base]
       if (!Number.isFinite(surahNumber)) {
-        // If a chapter has no surah mapping yet, we disable playback for it.
         this._render()
         return
       }
@@ -183,24 +185,31 @@
       const hasLeadingBismillah = verses.length > 0 && isBismillah(verses[0].arabic)
       const offset = hasLeadingBismillah && surahNumber !== 1 ? 1 : 0
 
-      this.items = verses
-        .map((v) => {
-          const domIndex = Number(v && v.index)
-          if (!Number.isFinite(domIndex) || domIndex <= 0) return null
-
-          const ayahNumber = domIndex - offset
-          if (ayahNumber <= 0) return null
-
-          return {
-            domIndex,
-            surahNumber,
-            ayahNumber,
-            url: buildEveryAyahUrl({ folder: reciter.folder, surahNumber, ayahNumber }),
-          }
-        })
-        .filter(Boolean)
-
+      // Reset state while loading
+      this.items = []
       this._render()
+
+      fetch(`https://api.alquran.cloud/v1/surah/${surahNumber}/${reciter.folder}`)
+        .then(res => res.json())
+        .then(data => {
+          if (!data || !data.data || !Array.isArray(data.data.ayahs)) return
+          
+          this.items = data.data.ayahs.map((ayah) => {
+            const domIndex = ayah.numberInSurah + offset
+            return {
+              domIndex,
+              surahNumber,
+              ayahNumber: ayah.numberInSurah,
+              url: ayah.audio
+            }
+          })
+          
+          this._render()
+        })
+        .catch(err => {
+          console.error('Failed to load audio data:', err)
+          this._render()
+        })
     }
 
     togglePlay() {

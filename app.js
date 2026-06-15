@@ -702,17 +702,11 @@ function renderReaders() {
 
   root.appendChild(el('h1', {}, ['Чтецы']))
   root.appendChild(
-    el('p', { class: 'muted' }, ['Выберите чтеца для режима караоке (аят за аятом). Источник аудио: everyayah.com.']),
+    el('p', { class: 'muted' }, ['Выберите чтеца для режима караоке (аят за аятом). Источник аудио: api.alquran.cloud.']),
   )
 
   root.appendChild(
     el('div', { class: 'actions', style: 'margin-top:10px' }, [
-      el('button', {
-        class: 'btn',
-        onclick: () => {
-          window.open('https://everyayah.com/data/', '_blank', 'noopener,noreferrer')
-        },
-      }, ['Открыть список EveryAyah']),
       el(
         'button',
         {
