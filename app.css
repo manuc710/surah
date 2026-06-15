@@ -218,9 +218,343 @@ h1{margin:10px 0 12px; font-size:28px}
   object-fit: cover;
 }
 
+.readers-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap:16px;
+  margin-top:20px;
+}
+
+.reader-card{
+  position: relative;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  gap:12px;
+  width:100%;
+  padding:8px 6px 10px;
+  border-radius:28px;
+  border:0;
+  background:transparent;
+  color:var(--text);
+  cursor:pointer;
+  transition:transform .2s ease, opacity .2s ease;
+}
+
+.reader-card:hover{
+  transform:translateY(-2px);
+  opacity:.98;
+}
+
+.reader-card.selected{
+  transform:translateY(-2px);
+}
+
+.reader-badge{
+  position:absolute;
+  top:2px;
+  right:8px;
+  padding:4px 8px;
+  border-radius:999px;
+  background:linear-gradient(90deg, #ff8a00, #ff4fb3);
+  color:#fff;
+  font-size:11px;
+  font-weight:700;
+  line-height:1;
+}
+
+.reader-avatar{
+  width:96px;
+  height:96px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:
+    radial-gradient(circle at 50% 18%, rgba(255,255,255,.10), rgba(255,255,255,0) 30%),
+    radial-gradient(circle at 30% 30%, rgba(34, 197, 94, 0.16), rgba(15, 23, 42, 0.35) 45%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(20, 28, 45, 0.98));
+  box-shadow:0 0 0 1px rgba(255,255,255,.05) inset;
+  color:#e2e8f0;
+  font-size:28px;
+  font-weight:800;
+  letter-spacing:.04em;
+}
+
+.reader-card.selected .reader-avatar{
+  box-shadow:0 0 0 2px rgba(255,255,255,.05) inset, 0 0 0 2px rgba(56, 189, 248, 0.32);
+}
+
+.reader-name{
+  width:100%;
+  font-size:15px;
+  font-weight:700;
+  line-height:1.2;
+  text-align:center;
+  color:#f8fafc;
+  min-height:36px;
+  max-width:118px;
+  text-wrap:balance;
+}
+
+.reader-hero{
+  margin-top: 8px;
+  padding: 18px 18px 20px;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.22), rgba(56, 189, 248, 0) 35%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(15, 23, 42, 0.92));
+  border: 1px solid rgba(255,255,255,.06);
+  box-shadow: 0 16px 36px rgba(0,0,0,.22);
+  position: relative;
+  overflow: hidden;
+}
+
+.reader-hero-banner{
+  position:absolute;
+  inset:0 0 auto 0;
+  height:180px;
+  pointer-events:none;
+}
+
+.reader-hero-banner-glow{
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(circle at 18% 24%, rgba(34, 197, 94, 0.28), rgba(34, 197, 94, 0) 28%),
+    radial-gradient(circle at 78% 8%, rgba(56, 189, 248, 0.24), rgba(56, 189, 248, 0) 26%),
+    linear-gradient(180deg, rgba(30, 41, 59, 0.72), rgba(15, 23, 42, 0));
+}
+
+.reader-hero-banner-pattern{
+  position:absolute;
+  right:-40px;
+  top:-34px;
+  width:240px;
+  height:240px;
+  border-radius:50%;
+  background:
+    radial-gradient(circle, rgba(255,255,255,.08) 0 18%, transparent 19% 28%, rgba(255,255,255,.05) 29% 36%, transparent 37% 100%);
+  filter: blur(1px);
+}
+
+.reader-hero-top{
+  display:flex;
+  justify-content:flex-start;
+  position:relative;
+  z-index:1;
+}
+
+.reader-hero-head{
+  display:flex;
+  align-items:flex-end;
+  gap:16px;
+  margin-top:14px;
+  position:relative;
+  z-index:1;
+}
+
+.reader-hero-avatar{
+  width:112px;
+  height:112px;
+  border-radius:24px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:
+    radial-gradient(circle at 50% 18%, rgba(255,255,255,.10), rgba(255,255,255,0) 32%),
+    linear-gradient(180deg, rgba(30, 41, 59, 1), rgba(15, 23, 42, 1));
+  box-shadow: 0 12px 24px rgba(0,0,0,.28);
+  color:#f8fafc;
+  font-size:34px;
+  font-weight:800;
+  letter-spacing:.04em;
+  flex-shrink:0;
+}
+
+.reader-hero-meta{
+  min-width:0;
+}
+
+.reader-hero-kicker{
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  color:#94a3b8;
+  margin-bottom:6px;
+}
+
+.reader-hero-title{
+  margin:0;
+  font-size:34px;
+  line-height:1.05;
+  color:#fff;
+}
+
+.reader-hero-subtitle{
+  margin:8px 0 0;
+  color:#cbd5e1;
+  font-size:14px;
+}
+
+.reader-play-all{
+  min-height:52px;
+  padding:0 18px;
+  font-weight:800;
+  flex-shrink:0;
+  border-radius:999px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  line-height:1;
+}
+
+.reader-play-all-svg{
+  width:18px;
+  height:18px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+}
+
+.reader-play-all-svg svg{
+  width:18px;
+  height:18px;
+}
+
+.reader-play-all-text{
+  white-space:nowrap;
+}
+
+.reader-section-title{
+  margin:20px 0 12px;
+  font-size:20px;
+}
+
+.reader-track-head{
+  display:grid;
+  grid-template-columns:auto minmax(0, 1fr) auto auto;
+  gap:14px;
+  align-items:center;
+  padding:0 16px 8px;
+  color:#94a3b8;
+  font-size:12px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.reader-track-head-count,
+.reader-track-head-action{
+  white-space:nowrap;
+}
+
+.reader-surah-list{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+}
+
+.reader-surah-row{
+  display:grid;
+  grid-template-columns:auto minmax(0, 1fr) auto auto;
+  align-items:center;
+  gap:14px;
+  width:100%;
+  padding:14px 16px;
+  border-radius:14px;
+  border:1px solid transparent;
+  background:rgba(15, 23, 42, 0.38);
+  color:var(--text);
+  cursor:pointer;
+  transition:transform .2s ease, background .2s ease, border-color .2s ease;
+}
+
+.reader-surah-row:hover{
+  transform:translateY(-1px);
+  background:rgba(30, 41, 59, 0.82);
+  border-color:rgba(56, 189, 248, 0.24);
+}
+
+.reader-surah-row.active{
+  background:
+    linear-gradient(90deg, rgba(34, 197, 94, 0.16), rgba(34, 197, 94, 0.06)),
+    rgba(30, 41, 59, 0.92);
+  border-color: rgba(34, 197, 94, 0.34);
+  box-shadow: inset 3px 0 0 #22c55e;
+}
+
+.reader-surah-row.active .reader-surah-title{
+  color:#bbf7d0;
+}
+
+.reader-surah-row.active .reader-surah-num{
+  background: rgba(34, 197, 94, 0.16);
+  color:#dcfce7;
+}
+
+.reader-surah-row.active .reader-surah-action{
+  background:#22c55e;
+  color:#052e16;
+}
+
+.reader-surah-num{
+  width:40px;
+  height:40px;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(255,255,255,.05);
+  color:#e2e8f0;
+  font-weight:700;
+}
+
+.reader-surah-meta{
+  min-width:0;
+  text-align:left;
+}
+
+.reader-surah-title{
+  font-size:16px;
+  font-weight:700;
+  color:#f8fafc;
+}
+
+.reader-surah-arabic{
+  margin-top:4px;
+  color:#94a3b8;
+  font-family:'Noto Naskh Arabic', 'Amiri', serif;
+  font-size:16px;
+}
+
+.reader-surah-count{
+  color:#94a3b8;
+  font-size:13px;
+  white-space:nowrap;
+}
+
+.reader-surah-action{
+  width:28px;
+  height:28px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#e2e8f0;
+  font-size:12px;
+  border-radius:50%;
+  background: rgba(255,255,255,.05);
+}
+
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+  .readers-grid{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap:12px;
   }
 }
 
@@ -244,6 +578,62 @@ h1{margin:10px 0 12px; font-size:28px}
   }
   .card .arabic-title {
     font-size: 14px;
+  }
+  .readers-grid{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap:10px;
+  }
+  .reader-card{
+    padding:6px 4px 10px;
+    border-radius:24px;
+  }
+  .reader-avatar{
+    width:84px;
+    height:84px;
+    font-size:22px;
+  }
+  .reader-name{
+    font-size:14px;
+    min-height:34px;
+  }
+  .reader-badge{
+    top:0;
+    right:4px;
+    font-size:10px;
+  }
+  .reader-hero{
+    padding:16px 14px 18px;
+    border-radius:24px;
+  }
+  .reader-hero-banner{
+    height:150px;
+  }
+  .reader-hero-head{
+    align-items:center;
+  }
+  .reader-hero-avatar{
+    width:92px;
+    height:92px;
+    border-radius:20px;
+    font-size:28px;
+  }
+  .reader-hero-title{
+    font-size:26px;
+  }
+  .reader-surah-row{
+    padding:12px 14px;
+    gap:12px;
+  }
+  .reader-surah-count{
+    font-size:12px;
+  }
+  .reader-track-head{
+    padding:0 14px 8px;
+    gap:12px;
+  }
+  .reader-play-all{
+    min-height:48px;
+    padding:0 18px;
   }
 }
 
@@ -544,21 +934,23 @@ body.listen-mode .verses{display:none;}
 .player{
   width: 100%;
   max-width: 500px;
-  background: rgba(56, 189, 248, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  background:
+    linear-gradient(180deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.92)),
+    rgba(15, 23, 42, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.10);
   border-radius: 28px;
   box-shadow:
     0 10px 30px -5px rgba(0, 0, 0, 0.8),
-    0 0 15px -5px rgba(56, 189, 248, 0.3),
-    0 1px 0 rgba(255, 255, 255, 0.22) inset,
+    0 0 18px -8px rgba(56, 189, 248, 0.18),
+    0 1px 0 rgba(255, 255, 255, 0.12) inset,
     0 -1px 0 rgba(0, 0, 0, 0.22) inset,
-    0 0 0 1px rgba(56, 189, 248, 0.22) inset;
+    0 0 0 1px rgba(255, 255, 255, 0.04) inset;
   pointer-events: auto;
   opacity: 1;
   position: relative;
   overflow: hidden;
-  backdrop-filter: blur(22px) saturate(160%);
-  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  backdrop-filter: blur(14px) saturate(130%);
+  -webkit-backdrop-filter: blur(14px) saturate(130%);
   padding: 16px 20px;
   display: flex;
   flex-direction: column;
@@ -581,9 +973,9 @@ body.listen-mode .verses{display:none;}
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(135deg, rgba(255,255,255,0.42) 0%, rgba(255,255,255,0.12) 22%, rgba(255,255,255,0) 55%),
-    radial-gradient(900px 180px at 10% 0%, rgba(255,255,255,0.32) 0%, rgba(255,255,255,0) 60%);
-  opacity: 0.55;
+    linear-gradient(135deg, rgba(255,255,255,0.14) 0%, rgba(255,255,255,0.05) 22%, rgba(255,255,255,0) 55%),
+    radial-gradient(900px 180px at 10% 0%, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0) 60%);
+  opacity: 0.35;
   pointer-events: none;
 }
 .player > *{
@@ -638,6 +1030,7 @@ body.listen-mode .verses{display:none;}
   overflow: hidden;
   border-radius: 10px;
   transition: color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
 }
 .player .ptitle:hover{
   color: var(--accent);
@@ -663,6 +1056,7 @@ body.listen-mode .verses{display:none;}
   margin-top: 2px;
   text-overflow: ellipsis;
   overflow: hidden;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 
 .player .controls {

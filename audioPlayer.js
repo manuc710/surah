@@ -76,6 +76,36 @@
     return t.startsWith('بِسْمِ') || t.startsWith('بسم')
   }
 
+  function buildEstimatedFullSurahItems(chapter) {
+    const verses = chapter && Array.isArray(chapter.verses) ? chapter.verses : []
+    if (!verses.length || !chapter || typeof chapter.audioUrl !== 'string' || !chapter.audioUrl) return []
+
+    const weights = verses.map((verse) => {
+      const arabic = String((verse && verse.arabic) || '').replace(/\s+/g, '')
+      const translit = String((verse && verse.translit) || '').replace(/\s+/g, '')
+      return Math.max(1, arabic.length + Math.max(0, Math.round(translit.length * 0.2)))
+    })
+
+    const totalWeight = weights.reduce((sum, value) => sum + value, 0) || 1
+    let consumed = 0
+
+    return verses.map((verse, index) => {
+      const weight = weights[index]
+      const startRatio = consumed / totalWeight
+      consumed += weight
+      const endRatio = index === verses.length - 1 ? 1 : consumed / totalWeight
+      return {
+        domIndex: Number(verse && verse.index) || index + 1,
+        surahNumber: Number(chapter.surahNumber) || 0,
+        ayahNumber: Number(verse && verse.index) || index + 1,
+        url: chapter.audioUrl,
+        fullSurah: true,
+        startRatio,
+        endRatio,
+      }
+    })
+  }
+
   class AudioPlayer {
     constructor(opts = {}) {
       // This module is UI + playback:
@@ -91,17 +121,20 @@
       this.currentIndex = 0
       this.enabled = false
       this.lastActiveDomIndex = null
+      this.pendingSeekRatio = null
 
       this.audio.addEventListener('ended', () => this._onEnded())
       this.audio.addEventListener('error', () => this._onError())
       this.audio.addEventListener('play', () => this._render())
       this.audio.addEventListener('pause', () => this._render())
+      this.audio.addEventListener('loadedmetadata', () => this._onLoadedMetadata())
+      this.audio.addEventListener('timeupdate', () => this._onTimeUpdate())
 
       this._render()
     }
 
     syncUI({ activePage, chapter, mode }) {
-      const shouldEnable = (activePage === 'chapter' || activePage === 'quran') && !!chapter && mode === 'read'
+      const shouldEnable = (activePage === 'chapter' || activePage === 'quran' || activePage === 'reading') && !!chapter && mode === 'read'
       this.enabled = shouldEnable
 
       if (!this.enabled) {
@@ -127,6 +160,13 @@
 
       this.audio.pause()
       this.audio.src = ''
+      this.pendingSeekRatio = null
+
+      if (chapter && chapter.audioMode === 'full-surah' && typeof chapter.audioUrl === 'string' && chapter.audioUrl) {
+        this.items = buildEstimatedFullSurahItems(chapter)
+        this._render()
+        return
+      }
 
       const reciter = getSelectedReciter()
       if (!reciter) {
@@ -211,8 +251,8 @@
 
     play() {
       if (!this.enabled) return
-
-      const reciter = getSelectedReciter()
+      const isFullSurah = !!(this.chapter && this.chapter.audioMode === 'full-surah')
+      const reciter = isFullSurah ? { name: this.chapter.reciterName || '' } : getSelectedReciter()
       if (!reciter) {
         this._render()
         return
@@ -228,8 +268,11 @@
 
       if (this.audio.src !== item.url) {
         this.audio.pause()
+        this.pendingSeekRatio = isFullSurah ? Number(item.startRatio || 0) : 0
         this.audio.src = item.url
         this.audio.load()
+      } else if (isFullSurah) {
+        this._seekToRatio(Number(item.startRatio || 0))
       }
 
       this._setHighlight(item.domIndex)
@@ -265,6 +308,15 @@
 
     _onEnded() {
       if (!this.items.length) return
+      if (this.chapter && this.chapter.audioMode === 'full-surah') {
+        if (this.loop) {
+          this.currentIndex = 0
+          this.play()
+        } else {
+          this.pause()
+        }
+        return
+      }
       const nextIndex = this.currentIndex + 1
       if (nextIndex >= this.items.length) {
         if (this.loop) {
@@ -283,6 +335,10 @@
       // Network failure / 404 / decode error:
       // skip current ayah and try the next one to keep the flow going.
       if (!this.items.length) return
+      if (this.chapter && this.chapter.audioMode === 'full-surah') {
+        this.pause()
+        return
+      }
       const nextIndex = this.currentIndex + 1
       if (nextIndex >= this.items.length) {
         this.pause()
@@ -292,12 +348,54 @@
       this.play()
     }
 
+    _onLoadedMetadata() {
+      if (this.chapter && this.chapter.audioMode === 'full-surah' && this.pendingSeekRatio !== null) {
+        this._seekToRatio(this.pendingSeekRatio)
+      }
+    }
+
+    _seekToRatio(ratio) {
+      const duration = Number(this.audio.duration)
+      const safeRatio = Number.isFinite(ratio) ? Math.max(0, Math.min(1, ratio)) : 0
+      if (!Number.isFinite(duration) || duration <= 0) {
+        this.pendingSeekRatio = safeRatio
+        return
+      }
+      const target = duration * safeRatio
+      if (Math.abs((Number(this.audio.currentTime) || 0) - target) > 0.35) {
+        try {
+          this.audio.currentTime = target
+        } catch {
+          this.pendingSeekRatio = safeRatio
+          return
+        }
+      }
+      this.pendingSeekRatio = null
+    }
+
+    _onTimeUpdate() {
+      if (!(this.chapter && this.chapter.audioMode === 'full-surah')) return
+      if (!this.items.length) return
+      const duration = Number(this.audio.duration)
+      const currentTime = Number(this.audio.currentTime)
+      if (!Number.isFinite(duration) || duration <= 0 || !Number.isFinite(currentTime)) return
+      const ratio = currentTime / duration
+      let nextIndex = this.items.findIndex((item) => ratio >= item.startRatio && ratio < item.endRatio)
+      if (nextIndex === -1) nextIndex = this.items.length - 1
+      if (nextIndex !== this.currentIndex) {
+        this.currentIndex = nextIndex
+        const item = this.items[this.currentIndex]
+        if (item) this._setHighlight(item.domIndex)
+        this._render()
+      }
+    }
+
     _setHighlight(domIndex) {
       if (!Number.isFinite(domIndex)) return
 
       if (this.lastActiveDomIndex && this.lastActiveDomIndex !== domIndex) {
         const prev = document.getElementById(`v-${this.lastActiveDomIndex}`)
-        if (prev) prev.classList.remove('karaoke-active')
+        if (prev) prev.classList.remove('karaoke-active', 'highlight')
       }
 
       this.lastActiveDomIndex = domIndex
