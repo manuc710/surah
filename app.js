@@ -233,6 +233,37 @@ function getReciterInitials(name) {
     .join('')
 }
 
+function hashString(value) {
+  let h = 0
+  const text = String(value || '')
+  for (let i = 0; i < text.length; i++) {
+    h = (h * 31 + text.charCodeAt(i)) >>> 0
+  }
+  return h
+}
+
+function getReciterThemeStyle(reciter) {
+  const seed = reciter && typeof reciter === 'object' ? `${reciter.name || ''}|${reciter.folder || ''}` : String(reciter || '')
+  const base = hashString(seed)
+  const h1 = base % 360
+  const h2 = (h1 + 36 + (base % 45)) % 360
+  const h3 = (h1 + 180 + (base % 35)) % 360
+  const accent = `hsl(${h1} 84% 62%)`
+  const accentAlt = `hsl(${h2} 80% 60%)`
+  const accentDeep = `hsl(${h3} 74% 54%)`
+  const glow1 = `hsla(${h1} 90% 62% / 0.34)`
+  const glow2 = `hsla(${h2} 92% 60% / 0.24)`
+  const glow3 = `hsla(${h3} 85% 56% / 0.18)`
+  return [
+    `--reader-accent:${accent}`,
+    `--reader-accent-alt:${accentAlt}`,
+    `--reader-accent-deep:${accentDeep}`,
+    `--reader-glow-1:${glow1}`,
+    `--reader-glow-2:${glow2}`,
+    `--reader-glow-3:${glow3}`,
+  ].join(';')
+}
+
 function saveSubSettings() {
   saveJSON('subSettings', state.subSettings)
   updateSubtitles(audio.currentTime)
@@ -942,6 +973,7 @@ function renderReciterCards({
       const card = el('button', {
         type: 'button',
         class: isSelected ? 'reader-card selected' : 'reader-card',
+        style: getReciterThemeStyle(r),
         onclick: () => onChoose(r),
       })
       if (isSelected) card.appendChild(el('span', { class: 'reader-badge' }, ['Выбрано']))
@@ -985,7 +1017,7 @@ function renderReaderProfile() {
   }
 
   root.appendChild(
-    el('div', { class: 'reader-hero' }, [
+    el('div', { class: 'reader-hero', style: getReciterThemeStyle(reciter) }, [
       el('div', { class: 'reader-hero-banner' }, [
         el('div', { class: 'reader-hero-banner-glow' }),
         el('div', { class: 'reader-hero-banner-pattern' }),
@@ -1463,7 +1495,7 @@ function renderReading() {
     ensureQuranListLoaded()
 
     root.appendChild(
-      el('div', { class: 'reader-hero' }, [
+      el('div', { class: 'reader-hero', style: getReciterThemeStyle(readingReciter) }, [
         el('div', { class: 'reader-hero-banner' }, [
           el('div', { class: 'reader-hero-banner-glow' }),
           el('div', { class: 'reader-hero-banner-pattern' }),
