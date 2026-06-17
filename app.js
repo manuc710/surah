@@ -1164,9 +1164,10 @@ function renderReciterCards({
   getSelected,
   onChoose,
 }) {
-  root.appendChild(el('h1', {}, [title]))
+  const compactStickySearch = searchId === 'readers-search' || searchId === 'reading-search'
+  root.appendChild(el('h1', title === 'Чтецы' ? { style: 'text-align:center;' } : {}, [title]))
   root.appendChild(
-    el('div', { class: 'searchbar', style: 'margin-top:16px' }, [
+    el('div', { class: compactStickySearch ? 'searchbar compact-sticky-search' : 'searchbar', style: 'margin-top:16px' }, [
       el('input', {
         id: searchId,
         value: '',
