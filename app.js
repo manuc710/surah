@@ -1851,6 +1851,7 @@ function renderReading() {
         class: 'reader-surah-row',
         onclick: () => {
           writeSelectedReadingReciter(readingReciter)
+          state.pendingReadingAutoplay = true
           gotoReading(readingReciter.folder, sn)
         },
       })
@@ -2801,12 +2802,6 @@ function renderPlayer() {
   const prevTitle = isKaraoke ? (isFullSurah ? 'Предыдущая сура' : 'Предыдущий аят') : 'Предыдущая'
   const nextTitle = isKaraoke ? (isFullSurah ? 'Следующая сура' : 'Следующий аят') : 'Следующая'
   const controls = [
-    el('button', {
-      class: `btn-icon ${state.subSettings.enabled ? 'active' : ''}`,
-      title: 'Субтитры',
-      html: ccIcon,
-      onclick: toggleSubs,
-    }),
     el('button', { class: 'btn-icon', title: prevTitle, html: prevIcon, onclick: goPrev }),
     el('button', {
       class: 'btn-play',
