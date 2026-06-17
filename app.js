@@ -1182,17 +1182,17 @@ function renderReaderProfile() {
           el('div', { class: 'reader-hero-kicker' }, ['Чтец']),
           el('h1', { class: 'reader-hero-title' }, [reciter.name]),
           el('p', { class: 'reader-hero-subtitle' }, [
-            `${surahNumbers.length} сур${surahNumbers.length === 1 ? 'а' : ''} • mp3quran`,
+            `${surahNumbers.length} сур${surahNumbers.length === 1 ? 'а' : ''} • записано`,
           ]),
         ]),
       ]),
       el('div', { class: 'actions', style: 'margin-top:14px; justify-content:flex-start;' }, [
-        el('button', { class: 'btn primary reader-play-all', onclick: playAll, title: 'Играть все' }, [
+        el('button', { class: 'btn primary reader-play-all', onclick: playAll, title: 'Слушать все' }, [
           el('span', {
             class: 'reader-play-all-svg',
             html: '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="8 5 19 12 8 19 8 5"></polygon></svg>',
           }),
-          el('span', { class: 'reader-play-all-text' }, ['Играть все']),
+          el('span', { class: 'reader-play-all-text' }, ['Слушать все']),
         ]),
       ]),
     ]),
@@ -2334,6 +2334,7 @@ window.renderPlayer = renderPlayer
 function renderPlayer() {
   const host = $('#player')
   const container = $('#player-container')
+  const wrapper = $('#player-wrapper')
   const chapter =
     state.activePage === 'reader'
       ? state.quranCurrent
@@ -2356,6 +2357,7 @@ function renderPlayer() {
   if (!isKaraoke && !showLocal) {
     host.innerHTML = ''
     if (container) container.classList.add('hidden')
+    if (wrapper) wrapper.classList.remove('spotify-player-shell')
     document.body.classList.remove('player-open')
     return
   }
@@ -2363,6 +2365,7 @@ function renderPlayer() {
   if (!chapter) {
     host.innerHTML = ''
     if (container) container.classList.add('hidden')
+    if (wrapper) wrapper.classList.remove('spotify-player-shell')
     document.body.classList.remove('player-open');
     return
   }
@@ -2425,6 +2428,8 @@ function renderPlayer() {
 
   const isFullSurah =
     !!(isKaraoke && kp && kp.chapter && kp.chapter.audioMode === 'full-surah' && (state.activePage === 'reader' || state.activePage === 'quran'))
+  const spotifyReaderPlayer = state.activePage === 'reader' && isFullSurah
+  if (wrapper) wrapper.classList.toggle('spotify-player-shell', spotifyReaderPlayer)
 
   const goPrevSurah = () => {
     const reciter = getActiveFullQuranReciter()
@@ -2541,27 +2546,77 @@ function renderPlayer() {
     }),
   ]
 
+  const playerClass = [
+    'player',
+    expanded ? 'expanded' : '',
+    spotifyReaderPlayer ? 'spotify-player' : '',
+  ].filter(Boolean).join(' ')
+
+  const titleHref = (() => {
+    const isQuranPage = state.activePage === 'quran' || state.activePage === 'reader'
+    const isReadingPage = state.activePage === 'reading'
+    return isQuranPage
+      ? `#page=quran&surah=${encodeURIComponent(chapter.surahNumber || '')}`
+      : isReadingPage
+        ? `#page=reading&surah=${encodeURIComponent(chapter.surahNumber || '')}`
+        : `#page=chapter&chapter=${encodeURIComponent(chapter.id)}`
+  })()
+
+  const titleLabel = (() => {
+    const isQuranPage = state.activePage === 'quran' || state.activePage === 'reader'
+    const isReadingPage = state.activePage === 'reading'
+    return isQuranPage || isReadingPage
+      ? String(chapter.displayTitle || `Сура ${chapter.surahNumber || ''}`)
+      : `${chapter.id.replace('chapter', '')}. ${chapter.displayTitle}`
+  })()
+
+  if (spotifyReaderPlayer) {
+    const reciterName = String((chapter && chapter.reciterName) || '')
+    const currentAyah = kp && kp.items && kp.items[kp.currentIndex] ? kp.items[kp.currentIndex] : null
+    const currentAyahText =
+      currentAyah && Number.isFinite(Number(currentAyah.ayahNumber)) && Array.isArray(kp && kp.items) && kp.items.length
+        ? `Аят ${currentAyah.ayahNumber} / ${kp.items[kp.items.length - 1].ayahNumber}`
+        : 'Полная сура'
+    const eqBars = Array.from({ length: 24 }, (_, index) =>
+      el('span', {
+        class: `spotify-eq-bar b${(index % 6) + 1}`,
+        style: `animation-delay:${(index % 8) * 0.12}s`,
+      }),
+    )
+
+    host.appendChild(
+      el('div', { class: playerClass }, [
+        el('div', { class: 'spotify-player-bg' }, [
+          el('div', { class: 'spotify-player-glow' }),
+          el('div', { class: 'spotify-player-eq' }, eqBars),
+        ]),
+        el('div', { class: 'spotify-player-head' }, [
+          el('div', { class: 'spotify-player-cover', html: imageOrSvgHTML }),
+          el('div', { class: 'spotify-player-meta' }, [
+            el('div', { class: 'spotify-player-kicker' }, ['Сейчас играет']),
+            el('a', { class: 'ptitle spotify-player-title', href: titleHref }, [titleLabel]),
+            el('div', { class: 'spotify-player-subtitle' }, [
+              `${reciterName ? `${reciterName} • ` : ''}${currentAyahText}`,
+            ]),
+          ]),
+        ]),
+        el('div', { class: 'controls spotify-player-controls' }, controls),
+      ]),
+    )
+
+    updatePlayerProgress();
+    return
+  }
+
   host.appendChild(
-    el('div', { class: expanded ? 'player expanded' : 'player' }, [
+    el('div', { class: playerClass }, [
       
       // Верхний ряд: Аватар + Инфо + Кнопки
       el('div', { class: 'row' }, [
         el('div', { class: 'left' }, [
           el('div', { class: 'avatar', html: imageOrSvgHTML }),
           el('div', { class: 'info' }, [
-            (() => {
-              const isQuranPage = state.activePage === 'quran' || state.activePage === 'reader'
-              const isReadingPage = state.activePage === 'reading'
-              const href = isQuranPage
-                ? `#page=quran&surah=${encodeURIComponent(chapter.surahNumber || '')}`
-                : isReadingPage
-                  ? `#page=reading&surah=${encodeURIComponent(chapter.surahNumber || '')}`
-                : `#page=chapter&chapter=${encodeURIComponent(chapter.id)}`
-              const label = isQuranPage || isReadingPage
-                ? String(chapter.displayTitle || `Сура ${chapter.surahNumber || ''}`)
-                : `${chapter.id.replace('chapter', '')}. ${chapter.displayTitle}`
-              return el('a', { class: 'ptitle', href }, [label])
-            })(),
+            el('a', { class: 'ptitle', href: titleHref }, [titleLabel]),
             karaokeSubtitle
           ].filter(Boolean)),
         ]),
