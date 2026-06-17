@@ -122,15 +122,34 @@
       this.enabled = false
       this.lastActiveDomIndex = null
       this.pendingSeekRatio = null
+      this._notifyRaf = 0
 
-      this.audio.addEventListener('ended', () => this._onEnded())
+      this.audio.addEventListener('ended', () => {
+        this._onEnded()
+        this._notifyApp()
+      })
       this.audio.addEventListener('error', () => this._onError())
-      this.audio.addEventListener('play', () => this._render())
-      this.audio.addEventListener('pause', () => this._render())
+      this.audio.addEventListener('play', () => {
+        this._render()
+        this._notifyApp()
+      })
+      this.audio.addEventListener('pause', () => {
+        this._render()
+        this._notifyApp()
+      })
       this.audio.addEventListener('loadedmetadata', () => this._onLoadedMetadata())
       this.audio.addEventListener('timeupdate', () => this._onTimeUpdate())
 
       this._render()
+    }
+
+    _notifyApp() {
+      if (this._notifyRaf) return
+      this._notifyRaf = requestAnimationFrame(() => {
+        this._notifyRaf = 0
+        const fn = window.__APP_RENDER__
+        if (typeof fn === 'function') fn()
+      })
     }
 
     syncUI({ activePage, chapter, mode }) {
@@ -268,11 +287,12 @@
 
       if (this.audio.src !== item.url) {
         this.audio.pause()
-        this.pendingSeekRatio = isFullSurah ? Number(item.startRatio || 0) : 0
+        const ratio = isFullSurah ? Number(item.startRatio || 0) : 0
+        this.pendingSeekRatio = isFullSurah && Number.isFinite(ratio) && ratio > 0.001 ? ratio : null
         this.audio.src = item.url
-        this.audio.load()
       } else if (isFullSurah) {
-        this._seekToRatio(Number(item.startRatio || 0))
+        const ratio = Number(item.startRatio || 0)
+        if (Number.isFinite(ratio) && ratio > 0.001) this._seekToRatio(ratio)
       }
 
       this._setHighlight(item.domIndex)
@@ -312,6 +332,8 @@
         if (this.loop) {
           this.currentIndex = 0
           this.play()
+        } else if (this._handleSequenceEnd()) {
+          this._render()
         } else {
           this.pause()
         }
@@ -322,6 +344,8 @@
         if (this.loop) {
           this.currentIndex = 0
           this.play()
+        } else if (this._handleSequenceEnd()) {
+          this._render()
         } else {
           this.pause()
         }
@@ -329,6 +353,22 @@
       }
       this.currentIndex = nextIndex
       this.play()
+    }
+
+    _handleSequenceEnd() {
+      const handler = typeof window.__AUDIO_PLAYER_ON_SEQUENCE_END__ === 'function' ? window.__AUDIO_PLAYER_ON_SEQUENCE_END__ : null
+      if (!handler || !this.chapter) return false
+      try {
+        return handler({
+          chapter: this.chapter,
+          items: this.items,
+          currentIndex: this.currentIndex,
+          isFullSurah: !!(this.chapter && this.chapter.audioMode === 'full-surah'),
+        }) === true
+      } catch (err) {
+        console.error('Failed to advance to the next surah:', err)
+        return false
+      }
     }
 
     _onError() {

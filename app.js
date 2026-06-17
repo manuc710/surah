@@ -85,6 +85,7 @@ const state = {
   readingCache: {},
   readingCurrent: null,
   pendingQuranAutoplay: false,
+  pendingReadingAutoplay: false,
   surah114: null,
   surah114Loading: false,
   surah114Error: '',
@@ -965,6 +966,54 @@ async function playReaderSurah(reciter, surahNumber) {
   }
 }
 
+function getReciterSurahSequence(reciter) {
+  const list = Array.isArray(reciter && reciter.surahs) && reciter.surahs.length
+    ? reciter.surahs
+    : Array.from({ length: 114 }, (_, index) => index + 1)
+  return Array.from(new Set(list.map((value) => Number(value)).filter((value) => Number.isFinite(value) && value >= 1 && value <= 114))).sort((a, b) => a - b)
+}
+
+function getNextReciterSurahNumber(reciter, currentSurahNumber) {
+  const current = Number(currentSurahNumber)
+  if (!Number.isFinite(current) || current < 1 || current > 114) return null
+  const list = getReciterSurahSequence(reciter)
+  return list.find((value) => value > current) || null
+}
+
+function handleKaraokeSequenceEnd() {
+  if (state.activePage === 'reading') {
+    const reciter = getActiveReadingReciter()
+    const current = Number((state.readingCurrent && state.readingCurrent.surahNumber) || state.readingSurahNumber)
+    const next = getNextReciterSurahNumber(reciter, current)
+    if (!reciter || !next) return false
+    writeSelectedReadingReciter(reciter)
+    state.pendingReadingAutoplay = true
+    gotoReading(reciter.folder, next)
+    return true
+  }
+
+  if (state.activePage !== 'reader' && state.activePage !== 'quran') return false
+
+  const reciter = getActiveFullQuranReciter()
+  const current = Number((state.quranCurrent && state.quranCurrent.surahNumber) || state.quranSurahNumber)
+  const next = getNextReciterSurahNumber(reciter, current)
+  if (!reciter || !next) return false
+
+  if (state.activePage === 'reader') {
+    playReaderSurah(reciter, next).catch((err) => {
+      console.error('Failed to autoplay next reader surah:', err)
+    })
+    return true
+  }
+
+  writeSelectedQuranReciter(reciter)
+  state.pendingQuranAutoplay = true
+  gotoQuran(next, state.quranTranslation)
+  return true
+}
+
+window.__AUDIO_PLAYER_ON_SEQUENCE_END__ = handleKaraokeSequenceEnd
+
 function renderReciterCards({
   root,
   title,
@@ -1098,6 +1147,10 @@ function renderReaderProfile() {
     ]),
   )
   const list = el('div', { class: 'reader-surah-list' })
+  const kp = window.karaokePlayer
+  const currentPlayingSurahNumber =
+    kp && kp.chapter && Number.isFinite(Number(kp.chapter.surahNumber)) ? Number(kp.chapter.surahNumber) : null
+  const isKpPlaying = !!(kp && kp.audio && !kp.audio.paused && !!kp.audio.src)
 
   for (const sn of surahNumbers) {
     const meta = getSurahMetaForReader(sn)
@@ -1106,10 +1159,17 @@ function renderReaderProfile() {
     const ayahs = Number((meta && meta.numberOfAyahs) || 0)
     const isActive =
       (state.activePage === 'reader' && state.quranCurrent && state.quranCurrent.surahNumber === sn) || state.quranSurahNumber === sn
+    const isThisPlaying = Number.isFinite(currentPlayingSurahNumber) && currentPlayingSurahNumber === sn && isKpPlaying
     const row = el('button', {
       type: 'button',
       class: isActive ? 'reader-surah-row active' : 'reader-surah-row',
-      onclick: () => playReaderSurah(reciter, sn),
+      onclick: () => {
+        if (Number.isFinite(currentPlayingSurahNumber) && currentPlayingSurahNumber === sn && kp && typeof kp.togglePlay === 'function') {
+          kp.togglePlay()
+          return
+        }
+        playReaderSurah(reciter, sn)
+      },
     })
     row.appendChild(el('div', { class: 'reader-surah-num' }, [String(sn).padStart(2, '0')]))
     row.appendChild(
@@ -1119,7 +1179,7 @@ function renderReaderProfile() {
       ].filter(Boolean)),
     )
     row.appendChild(el('div', { class: 'reader-surah-count' }, [ayahs ? String(ayahs) : '']))
-    row.appendChild(el('div', { class: 'reader-surah-action' }, ['▶']))
+    row.appendChild(el('div', { class: 'reader-surah-action' }, [isThisPlaying ? '⏸' : '▶']))
     list.appendChild(row)
   }
 
@@ -1574,6 +1634,10 @@ function renderReading() {
       ]),
     )
     const list = el('div', { class: 'reader-surah-list' })
+    const kp = window.karaokePlayer
+    const currentPlayingSurahNumber =
+      kp && kp.chapter && Number.isFinite(Number(kp.chapter.surahNumber)) ? Number(kp.chapter.surahNumber) : null
+    const isKpPlaying = !!(kp && kp.audio && !kp.audio.paused && !!kp.audio.src)
     for (const s of state.quranList) {
       const sn = Number(s && s.number)
       if (!Number.isFinite(sn)) continue
@@ -1581,6 +1645,7 @@ function renderReading() {
       const translit = String((meta && meta.transliteratedName) || `Сура ${sn}`)
       const arabic = String((meta && meta.arabicName) || '')
       const ayahs = Number((meta && meta.numberOfAyahs) || 0)
+      const isThisPlaying = Number.isFinite(currentPlayingSurahNumber) && currentPlayingSurahNumber === sn && isKpPlaying
       const row = el('button', {
         type: 'button',
         class: 'reader-surah-row',
@@ -1597,7 +1662,7 @@ function renderReading() {
         ].filter(Boolean)),
       )
       row.appendChild(el('div', { class: 'reader-surah-count' }, [ayahs ? String(ayahs) : '']))
-      row.appendChild(el('div', { class: 'reader-surah-action' }, ['▶']))
+      row.appendChild(el('div', { class: 'reader-surah-action' }, [isThisPlaying ? '⏸' : '▶']))
       list.appendChild(row)
     }
     root.appendChild(list)
@@ -2455,7 +2520,18 @@ function render() {
       }, 0)
     }
   }
+  if (state.pendingReadingAutoplay && state.activePage === 'reading' && state.readingCurrent && !state.readingCurrent.error) {
+    state.pendingReadingAutoplay = false
+    if (window.karaokePlayer && typeof window.karaokePlayer.play === 'function') {
+      setTimeout(() => {
+        if (state.activePage !== 'reading') return
+        window.karaokePlayer.play()
+      }, 0)
+    }
+  }
 }
+
+window.__APP_RENDER__ = render
 
 async function init() {
   const data =
