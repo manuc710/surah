@@ -50,7 +50,7 @@ const savedQuranTranslation = loadJSON('quranTranslation', 'ru.kuliev')
 const state = {
   chapters: [],
   byId: new Map(),
-  activePage: 'surahs', // surahs | chapter | bookmarks | settings | readers | reader | reading | quran | surah114
+  activePage: 'home', // home | surahs | chapter | bookmarks | settings | readers | reader | reading | quran | surah114
   q: '',
   quranQ: '',
   readingQ: '',
@@ -59,12 +59,14 @@ const state = {
   verseFocus: null,
   activeVerseId: null,
   bookmarks: new Set(loadJSON('bookmarks', [])),
+  favoriteReciters: new Set(loadJSON('favoriteReciters', [])),
+  favoriteReaderSurahs: new Set(loadJSON('favoriteReaderSurahs', [])),
   notes: loadJSON('notes', {}),
   playbackRate: Number.isFinite(Number(savedSettings.playbackRate)) ? Number(savedSettings.playbackRate) : 1,
   volume: Number.isFinite(Number(savedSettings.volume)) ? Number(savedSettings.volume) : 1,
   subSettings: loadJSON('subSettings', { enabled: true, fontSize: 20, color: '#ffffff', bgOpacity: 0.7 }),
   viewMode: loadJSON('viewMode', {}),
-  ui: { modePickerOpen: false },
+  ui: { modePickerOpen: false, favoritesTab: loadJSON('favoritesTab', 'surahs') },
   audioLoadToken: 0,
   audioSourceToken: 0,
   audioCandidates: null,
@@ -789,7 +791,7 @@ function updateSubtitles(currentTime) {
 function parseHash() {
   const raw = (window.location.hash || '').replace(/^#/, '')
   const params = new URLSearchParams(raw)
-  const page = params.get('page') || 'surahs'
+  const page = params.get('page') || 'home'
   const chapter = params.get('chapter')
   const reciter = params.get('reciter')
   const surah = params.get('surah')
@@ -812,6 +814,9 @@ function setHash(obj) {
 
 function gotoSurahs() {
   setHash({ page: 'surahs' })
+}
+function gotoHome() {
+  setHash({ page: 'home' })
 }
 function gotoReaders() {
   setHash({ page: 'readers' })
@@ -863,9 +868,9 @@ window.addEventListener('hashchange', () => {
 
 function syncFromHash() {
   const { page, chapter, reciter, surah, v, tr } = parseHash()
-  state.activePage = ['chapter', 'bookmarks', 'settings', 'readers', 'reader', 'reading', 'surahs', 'quran', 'surah114'].includes(page)
+  state.activePage = ['home', 'chapter', 'bookmarks', 'settings', 'readers', 'reader', 'reading', 'surahs', 'quran', 'surah114'].includes(page)
     ? page
-    : 'surahs'
+    : 'home'
   state.chapterId = chapter && state.byId.has(chapter) ? chapter : state.chapterId
   state.readerFolder = typeof reciter === 'string' && reciter ? reciter : null
   state.quranSurahNumber = state.activePage === 'quran' && Number.isFinite(surah) && surah >= 1 && surah <= 114 ? surah : null
@@ -894,6 +899,72 @@ function setNote(chapterId, verseIndex, note) {
   render()
 }
 
+function reciterFavoriteKey(scope, folder) {
+  const normalizedScope = String(scope || '').trim()
+  const normalizedFolder = String(folder || '').trim()
+  if (!normalizedScope || !normalizedFolder) return ''
+  return `${normalizedScope}:${normalizedFolder}`
+}
+
+function surahFavoriteKey(scope, folder, surahNumber) {
+  const base = reciterFavoriteKey(scope, folder)
+  const sn = Number(surahNumber)
+  if (!base || !Number.isFinite(sn) || sn < 1 || sn > 114) return ''
+  return `${base}:${sn}`
+}
+
+function parseReciterFavoriteKey(id) {
+  const parts = String(id || '').split(':')
+  const scope = String(parts.shift() || '').trim()
+  const folder = parts.join(':').trim()
+  if (!scope || !folder) return null
+  return { scope, folder }
+}
+
+function parseSurahFavoriteKey(id) {
+  const parts = String(id || '').split(':')
+  const scope = String(parts.shift() || '').trim()
+  const surahRaw = parts.pop()
+  const folder = parts.join(':').trim()
+  const surahNumber = Number(surahRaw)
+  if (!scope || !folder || !Number.isFinite(surahNumber) || surahNumber < 1 || surahNumber > 114) return null
+  return { scope, folder, surahNumber }
+}
+
+function isReciterFavorite(scope, folder) {
+  const id = reciterFavoriteKey(scope, folder)
+  return !!id && state.favoriteReciters.has(id)
+}
+
+function toggleReciterFavorite(scope, folder) {
+  const id = reciterFavoriteKey(scope, folder)
+  if (!id) return
+  if (state.favoriteReciters.has(id)) state.favoriteReciters.delete(id)
+  else state.favoriteReciters.add(id)
+  saveJSON('favoriteReciters', Array.from(state.favoriteReciters))
+  render()
+}
+
+function isReaderSurahFavorite(scope, folder, surahNumber) {
+  const id = surahFavoriteKey(scope, folder, surahNumber)
+  return !!id && state.favoriteReaderSurahs.has(id)
+}
+
+function toggleReaderSurahFavorite(scope, folder, surahNumber) {
+  const id = surahFavoriteKey(scope, folder, surahNumber)
+  if (!id) return
+  if (state.favoriteReaderSurahs.has(id)) state.favoriteReaderSurahs.delete(id)
+  else state.favoriteReaderSurahs.add(id)
+  saveJSON('favoriteReaderSurahs', Array.from(state.favoriteReaderSurahs))
+  render()
+}
+
+function getHeartIcon(active) {
+  return active
+    ? `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.716-4.35-9.193-8.12C1.093 10.287 2.01 6.72 4.97 5.266c2.01-.987 4.309-.47 5.724 1.207L12 7.97l1.306-1.497c1.415-1.678 3.714-2.194 5.724-1.207 2.96 1.454 3.877 5.021 2.163 7.614C18.716 16.65 12 21 12 21z"/></svg>`
+    : `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.716-4.35-9.193-8.12C1.093 10.287 2.01 6.72 4.97 5.266c2.01-.987 4.309-.47 5.724 1.207L12 7.97l1.306-1.497c1.415-1.678 3.714-2.194 5.724-1.207 2.96 1.454 3.877 5.021 2.163 7.614C18.716 16.65 12 21 12 21z"/></svg>`
+}
+
 async function copyText(text) {
   try {
     await navigator.clipboard.writeText(text)
@@ -913,7 +984,7 @@ function renderNav() {
   if (navSurahs)
     navSurahs.classList.toggle(
       'active',
-      state.activePage === 'surahs' || state.activePage === 'chapter' || state.activePage === 'quran' || state.activePage === 'surah114',
+      state.activePage === 'home' || state.activePage === 'surahs' || state.activePage === 'chapter' || state.activePage === 'quran' || state.activePage === 'surah114',
     )
   if (navReaders) navReaders.classList.toggle('active', state.activePage === 'readers' || state.activePage === 'reader')
   if (navReading) navReading.classList.toggle('active', state.activePage === 'reading')
@@ -1009,6 +1080,16 @@ function getReaderRowPlaybackState(reciter, surahNumber) {
   const activeReciterName = String((kp.chapter && kp.chapter.reciterName) || '')
   const currentReciterName = String((reciter && reciter.name) || '')
   const isCurrent = currentSurahNumber === sn && activeReciterName === currentReciterName
+  const isPlaying = isCurrent && !!kp.audio && !kp.audio.paused && !!kp.audio.src
+  return { isCurrent, isPlaying }
+}
+
+function getReciterHeroPlaybackState(reciter) {
+  const kp = window.karaokePlayer
+  if (!kp || !kp.chapter || !reciter) return { isCurrent: false, isPlaying: false }
+  const activeReciterName = String((kp.chapter && kp.chapter.reciterName) || '')
+  const currentReciterName = String((reciter && reciter.name) || '')
+  const isCurrent = !!activeReciterName && activeReciterName === currentReciterName
   const isPlaying = isCurrent && !!kp.audio && !kp.audio.paused && !!kp.audio.src
   return { isCurrent, isPlaying }
 }
@@ -1146,6 +1227,7 @@ function renderReciterCards({
 function renderReaderProfile() {
   const root = $('#view')
   root.innerHTML = ''
+  const favoriteScope = 'quran'
 
   const reciter = getFullQuranReciterByFolder(state.readerFolder || '') || getActiveFullQuranReciter()
   if (!reciter) {
@@ -1163,7 +1245,12 @@ function renderReaderProfile() {
   if (surahNumbers.length && reciter.server) {
     warmupAudioOrigin(buildMp3QuranSurahUrl(reciter.server, surahNumbers[0]))
   }
+  const heroPlayback = getReciterHeroPlaybackState(reciter)
   const playAll = () => {
+    if (heroPlayback.isCurrent && window.karaokePlayer && typeof window.karaokePlayer.togglePlay === 'function') {
+      window.karaokePlayer.togglePlay()
+      return
+    }
     playReaderSurah(reciter, surahNumbers[0] || 1)
   }
 
@@ -1175,6 +1262,14 @@ function renderReaderProfile() {
       ]),
       el('div', { class: 'reader-hero-top' }, [
         el('button', { class: 'btn', onclick: gotoReaders }, ['← Все чтецы']),
+        el('button', {
+          type: 'button',
+          class: `reader-hero-favorite${isReciterFavorite(favoriteScope, reciter.folder) ? ' active' : ''}`,
+          title: isReciterFavorite(favoriteScope, reciter.folder) ? 'Remove reciter from favorites' : 'Add reciter to favorites',
+          'aria-label': isReciterFavorite(favoriteScope, reciter.folder) ? 'Remove reciter from favorites' : 'Add reciter to favorites',
+          html: getHeartIcon(isReciterFavorite(favoriteScope, reciter.folder)),
+          onclick: () => toggleReciterFavorite(favoriteScope, reciter.folder),
+        }),
       ]),
       el('div', { class: 'reader-hero-head' }, [
         renderReciterAvatar(reciter, 'reader-hero-avatar'),
@@ -1187,12 +1282,19 @@ function renderReaderProfile() {
         ]),
       ]),
       el('div', { class: 'actions', style: 'margin-top:14px; justify-content:flex-start;' }, [
-        el('button', { class: 'btn primary reader-play-all', onclick: playAll, title: 'Слушать все' }, [
+        el('button', {
+          class: 'btn primary reader-play-all',
+          onclick: playAll,
+          title: heroPlayback.isPlaying ? 'Пауза' : 'Слушать все',
+          style: 'background-color:#1c3e3c;',
+        }, [
           el('span', {
             class: 'reader-play-all-svg',
-            html: '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="8 5 19 12 8 19 8 5"></polygon></svg>',
+            html: heroPlayback.isPlaying
+              ? '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="7" y="5" width="4" height="14"></rect><rect x="13" y="5" width="4" height="14"></rect></svg>'
+              : '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="8 5 19 12 8 19 8 5"></polygon></svg>',
           }),
-          el('span', { class: 'reader-play-all-text' }, ['Слушать все']),
+          el('span', { class: 'reader-play-all-text' }, [heroPlayback.isPlaying ? 'Пауза' : 'Слушать все']),
         ]),
       ]),
     ]),
@@ -1218,6 +1320,8 @@ function renderReaderProfile() {
     const isActive =
       (state.activePage === 'reader' && state.quranCurrent && state.quranCurrent.surahNumber === sn) || state.quranSurahNumber === sn
     const playback = getReaderRowPlaybackState(reciter, sn)
+    const isFavorite = isReaderSurahFavorite(favoriteScope, reciter.folder, sn)
+    const item = el('div', { class: 'reader-surah-item' })
     const row = el('button', {
       type: 'button',
       class: isActive ? 'reader-surah-row active' : 'reader-surah-row',
@@ -1238,10 +1342,39 @@ function renderReaderProfile() {
     )
     row.appendChild(el('div', { class: 'reader-surah-count' }, [ayahs ? String(ayahs) : '']))
     row.appendChild(el('div', { class: 'reader-surah-action' }, [playback.isPlaying ? '⏸' : '▶']))
-    list.appendChild(row)
+    item.appendChild(row)
+    item.appendChild(
+      el('button', {
+        type: 'button',
+        class: `reader-surah-favorite${isFavorite ? ' active' : ''}`,
+        title: isFavorite ? 'Remove surah from favorites' : 'Add surah to favorites',
+        'aria-label': isFavorite ? 'Remove surah from favorites' : 'Add surah to favorites',
+        html: getHeartIcon(isFavorite),
+        onclick: (e) => {
+          e.stopPropagation()
+          toggleReaderSurahFavorite(favoriteScope, reciter.folder, sn)
+        },
+      }),
+    )
+    list.appendChild(item)
   }
 
   root.appendChild(list)
+}
+
+function renderHome() {
+  const root = $('#view')
+  root.innerHTML = ''
+  root.dataset.page = 'home'
+
+  root.appendChild(el('h1', {}, ['Главная']))
+  root.appendChild(el('p', { class: 'muted' }, ['Выберите раздел для чтения и прослушивания.']))
+  root.appendChild(
+    el('div', { class: 'actions', style: 'margin-top:16px; justify-content:flex-start;' }, [
+      el('button', { class: 'btn primary', onclick: gotoSurahs }, ['Короткые суры']),
+      el('button', { class: 'btn', onclick: () => gotoQuran(null, state.quranTranslation) }, ['Полный Коран (114)']),
+    ]),
+  )
 }
 
 function renderSettings() {
@@ -1249,9 +1382,10 @@ function renderSettings() {
   root.innerHTML = ''
   root.appendChild(el('h1', {}, ['Настройки']))
   root.appendChild(el('p', { class: 'muted' }, ['Раздел настроек находится в разработке.']))
+  const favoritesCount = (state.favoriteReciters ? state.favoriteReciters.size : 0) + (state.favoriteReaderSurahs ? state.favoriteReaderSurahs.size : 0)
   root.appendChild(
     el('div', { class: 'actions', style: 'margin-top:14px; justify-content:flex-start;' }, [
-      el('button', { class: 'btn', onclick: gotoBookmarks }, [`Избранное (${state.bookmarks.size})`]),
+      el('button', { class: 'btn', onclick: gotoBookmarks }, [`Избранное (${favoritesCount})`]),
     ]),
   )
 }
@@ -1625,6 +1759,7 @@ function renderQuran() {
 function renderReading() {
   const root = $('#view')
   root.innerHTML = ''
+  const favoriteScope = 'reading'
 
   const selectedReciter = getActiveReadingReciter()
   const activeSurah = state.readingSurahNumber
@@ -1661,6 +1796,14 @@ function renderReading() {
         ]),
         el('div', { class: 'reader-hero-top' }, [
           el('button', { class: 'btn', onclick: () => gotoReading() }, ['← Все чтецы']),
+          el('button', {
+            type: 'button',
+            class: `reader-hero-favorite${isReciterFavorite(favoriteScope, readingReciter.folder) ? ' active' : ''}`,
+            title: isReciterFavorite(favoriteScope, readingReciter.folder) ? 'Remove reciter from favorites' : 'Add reciter to favorites',
+            'aria-label': isReciterFavorite(favoriteScope, readingReciter.folder) ? 'Remove reciter from favorites' : 'Add reciter to favorites',
+            html: getHeartIcon(isReciterFavorite(favoriteScope, readingReciter.folder)),
+            onclick: () => toggleReciterFavorite(favoriteScope, readingReciter.folder),
+          }),
         ]),
         el('div', { class: 'reader-hero-head' }, [
           renderReciterAvatar(readingReciter, 'reader-hero-avatar'),
@@ -1700,6 +1843,8 @@ function renderReading() {
       const arabic = String((meta && meta.arabicName) || '')
       const ayahs = Number((meta && meta.numberOfAyahs) || 0)
       const playback = getReaderRowPlaybackState(readingReciter, sn)
+      const isFavorite = isReaderSurahFavorite(favoriteScope, readingReciter.folder, sn)
+      const item = el('div', { class: 'reader-surah-item' })
       const row = el('button', {
         type: 'button',
         class: 'reader-surah-row',
@@ -1717,7 +1862,21 @@ function renderReading() {
       )
       row.appendChild(el('div', { class: 'reader-surah-count' }, [ayahs ? String(ayahs) : '']))
       row.appendChild(el('div', { class: 'reader-surah-action' }, [playback.isPlaying ? '⏸' : '▶']))
-      list.appendChild(row)
+      item.appendChild(row)
+      item.appendChild(
+        el('button', {
+          type: 'button',
+          class: `reader-surah-favorite${isFavorite ? ' active' : ''}`,
+          title: isFavorite ? 'Remove surah from favorites' : 'Add surah to favorites',
+          'aria-label': isFavorite ? 'Remove surah from favorites' : 'Add surah to favorites',
+          html: getHeartIcon(isFavorite),
+          onclick: (e) => {
+            e.stopPropagation()
+            toggleReaderSurahFavorite(favoriteScope, readingReciter.folder, sn)
+          },
+        }),
+      )
+      list.appendChild(item)
     }
     root.appendChild(list)
     return
@@ -2076,10 +2235,10 @@ function renderSurahs() {
   if (root.dataset.page !== 'surahs') {
     root.innerHTML = ''
     root.dataset.page = 'surahs'
-
+    root.appendChild(el('h1', {}, ['Короткые суры']))
     root.appendChild(
-      el('div', { class: 'actions', style: 'margin-top:10px' }, [
-        el('button', { class: 'btn primary', onclick: () => gotoQuran(null, state.quranTranslation) }, ['Полный Коран (114)']),
+      el('div', { class: 'actions', style: 'margin-top:10px; justify-content:flex-start;' }, [
+        el('button', { class: 'btn', onclick: gotoHome }, ['← Главная']),
       ]),
     )
 
@@ -2161,51 +2320,144 @@ function updateSurahsList() {
 function renderBookmarks() {
   const root = $('#view')
   root.innerHTML = ''
-  root.appendChild(el('h1', {}, ['Закладки']))
+  root.appendChild(el('h1', {}, ['Избранное']))
 
-  const items = Array.from(state.bookmarks)
+  ensureQuranListLoaded()
+
+  const reciterFavorites = Array.from(state.favoriteReciters || [])
     .map((id) => {
-      const [chapterId, verseStr] = id.split(':')
-      const verseIndex = Number(verseStr)
-      const ch = state.byId.get(chapterId)
-      const verse = ch ? ch.verses.find((v) => v.index === verseIndex) : null
-      return ch && verse ? { id, ch, verse, verseIndex } : null
+      const parsed = parseReciterFavoriteKey(id)
+      if (!parsed) return null
+      const { scope, folder } = parsed
+      const reciter =
+        scope === 'quran' ? getFullQuranReciterByFolder(folder) : scope === 'reading' ? getReadingReciterByFolder(folder) : null
+      const name = reciter && reciter.name ? String(reciter.name) : folder
+      return { id, scope, folder, name }
+    })
+    .filter(Boolean)
+    .sort((a, b) => String(a.name).localeCompare(String(b.name), 'ru'))
+
+  const surahFavorites = Array.from(state.favoriteReaderSurahs || [])
+    .map((id) => {
+      const parsed = parseSurahFavoriteKey(id)
+      if (!parsed) return null
+      const { scope, folder, surahNumber: sn } = parsed
+      const reciter =
+        scope === 'quran' ? getFullQuranReciterByFolder(folder) : scope === 'reading' ? getReadingReciterByFolder(folder) : null
+      const reciterName = reciter && reciter.name ? String(reciter.name) : folder
+      const meta = getSurahMetaForReader(sn)
+      const surahTitle = String((meta && meta.transliteratedName) || `Сура ${sn}`)
+      const arabic = String((meta && meta.arabicName) || '')
+      return { id, scope, folder, sn, reciterName, surahTitle, arabic }
     })
     .filter(Boolean)
     .sort((a, b) => {
-      const ai = state.chapters.findIndex((c) => c.id === a.ch.id)
-      const bi = state.chapters.findIndex((c) => c.id === b.ch.id)
-      if (ai !== bi) return ai - bi
-      return a.verseIndex - b.verseIndex
+      if (a.reciterName !== b.reciterName) return String(a.reciterName).localeCompare(String(b.reciterName), 'ru')
+      return a.sn - b.sn
     })
 
-  if (!items.length) {
-    root.appendChild(
-      el('p', { class: 'muted' }, [
-        'Пока пусто. Добавляйте закладки звёздочкой в главе. ',
-        el('a', { href: '#page=surahs' }, ['К списку сур']),
+  const favoritesTabRaw = state.ui && typeof state.ui.favoritesTab === 'string' ? state.ui.favoritesTab : 'surahs'
+  const favoritesTab = favoritesTabRaw === 'reciters' ? 'reciters' : 'surahs'
+  if (state.ui) state.ui.favoritesTab = favoritesTab
+
+  const setTab = (tab) => {
+    if (!state.ui) state.ui = { modePickerOpen: false }
+    state.ui.favoritesTab = tab === 'reciters' ? 'reciters' : 'surahs'
+    saveJSON('favoritesTab', state.ui.favoritesTab)
+    renderBookmarks()
+  }
+
+  root.appendChild(
+    el('div', { class: 'favorites-tabs' }, [
+      el('button', { class: `favorites-tab${favoritesTab === 'reciters' ? ' active' : ''}`, onclick: () => setTab('reciters') }, [
+        `Чтецы • ${reciterFavorites.length}`,
       ]),
-    )
+      el('button', { class: `favorites-tab${favoritesTab === 'surahs' ? ' active' : ''}`, onclick: () => setTab('surahs') }, [
+        `Суры • ${surahFavorites.length}`,
+      ]),
+    ]),
+  )
+
+  if (favoritesTab === 'reciters') {
+    if (!reciterFavorites.length) {
+      root.appendChild(el('p', { class: 'muted', style: 'margin-top:12px' }, ['Пока нет избранных чтецов.']))
+      return
+    }
+    const list = el('div', { class: 'list', style: 'margin-top:12px' })
+    for (const r of reciterFavorites) {
+      list.appendChild(
+        el('div', {
+          class: 'favorites-item',
+          onclick: () => {
+            if (r.scope === 'reading') gotoReading(r.folder)
+            else gotoReader(r.folder)
+          },
+        }, [
+          el('div', {}, [
+            el('div', { class: 'title' }, [r.name]),
+          ]),
+          el('button', {
+            type: 'button',
+            class: `reader-surah-favorite active`,
+            title: 'Убрать из избранного',
+            'aria-label': 'Убрать из избранного',
+            html: getHeartIcon(true),
+            onclick: (e) => {
+              e.stopPropagation()
+              toggleReciterFavorite(r.scope, r.folder)
+            },
+          }),
+        ]),
+      )
+    }
+    root.appendChild(list)
     return
   }
 
-  const list = el('div', { class: 'list' })
-  for (const it of items) {
+  if (!surahFavorites.length) {
+    root.appendChild(el('p', { class: 'muted', style: 'margin-top:12px' }, ['Пока нет избранных сур.']))
+    return
+  }
+
+  const list = el('div', { class: 'list', style: 'margin-top:12px' })
+  for (const s of surahFavorites) {
     list.appendChild(
-      el('div', { class: 'listItem' }, [
+      el('div', {
+        class: 'favorites-item',
+        onclick: () => {
+          if (s.scope === 'reading') {
+            const reciter = getReadingReciterByFolder(s.folder)
+            if (reciter) writeSelectedReadingReciter(reciter)
+            state.pendingReadingAutoplay = true
+            gotoReading(s.folder, s.sn)
+            return
+          }
+          const reciter = getFullQuranReciterByFolder(s.folder)
+          if (!reciter) {
+            gotoReaders()
+            return
+          }
+          gotoReader(s.folder)
+          setTimeout(() => {
+            playReaderSurah(reciter, s.sn).catch(() => {})
+          }, 0)
+        },
+      }, [
         el('div', {}, [
-          el('div', { class: 'title' }, [
-            el(
-              'a',
-              { href: `#page=chapter&chapter=${encodeURIComponent(it.ch.id)}&v=${it.verseIndex}` },
-              [it.ch.displayTitle],
-            ),
-            ' ',
-            el('span', { class: 'muted' }, [`— аят ${it.verseIndex}`]),
-          ]),
-          el('div', { class: 'text' }, [it.verse.translation]),
+          el('div', { class: 'title' }, [`${String(s.sn).padStart(2, '0')}. ${s.surahTitle}`]),
+          el('div', { class: 'text' }, [s.reciterName]),
         ]),
-        el('button', { class: 'btn', onclick: () => toggleBookmark(it.ch.id, it.verseIndex) }, ['Убрать']),
+        el('button', {
+          type: 'button',
+          class: `reader-surah-favorite active`,
+          title: 'Убрать из избранного',
+          'aria-label': 'Убрать из избранного',
+          html: getHeartIcon(true),
+          onclick: (e) => {
+            e.stopPropagation()
+            toggleReaderSurahFavorite(s.scope, s.folder, s.sn)
+          },
+        }),
       ]),
     )
   }
@@ -2335,33 +2587,36 @@ function renderPlayer() {
   const host = $('#player')
   const container = $('#player-container')
   const wrapper = $('#player-wrapper')
-  const chapter =
+  const kp = window.karaokePlayer
+  const pageChapter =
     state.activePage === 'reader'
       ? state.quranCurrent
       : state.activePage === 'reading'
-      ? state.readingCurrent
-      : state.activePage === 'quran'
-        ? state.quranCurrent
-        : state.chapterId
-          ? state.byId.get(state.chapterId)
-          : null
+        ? state.readingCurrent
+        : state.activePage === 'quran'
+          ? state.quranCurrent
+          : state.chapterId
+            ? state.byId.get(state.chapterId)
+            : null
+  const chapter = pageChapter || (kp && kp.chapter) || state.readingCurrent || state.quranCurrent || (state.chapterId ? state.byId.get(state.chapterId) : null)
 
-  // Always show player if karaoke is active or local is active
+  const playerPages = ['home', 'surahs', 'chapter', 'readers', 'reader', 'reading', 'quran', 'surah114']
+  const canShowPlayer = playerPages.includes(state.activePage)
   const isKaraoke =
-    (state.activePage === 'quran') ||
-    (state.activePage === 'reader') ||
-    (state.activePage === 'reading') ||
+    state.activePage === 'quran' ||
+    state.activePage === 'reader' ||
+    state.activePage === 'reading' ||
+    (kp && kp.chapter && kp.audio && !!kp.audio.src) ||
     (state.activePage === 'chapter' && getChapterMode(chapter?.id) === 'read')
-  const showLocal = state.activePage === 'chapter' || state.activePage === 'surahs'
-  
-  if (!isKaraoke && !showLocal) {
+
+  if (!canShowPlayer) {
     host.innerHTML = ''
     if (container) container.classList.add('hidden')
     if (wrapper) wrapper.classList.remove('spotify-player-shell')
     document.body.classList.remove('player-open')
     return
   }
-  
+
   if (!chapter) {
     host.innerHTML = ''
     if (container) container.classList.add('hidden')
@@ -2373,7 +2628,6 @@ function renderPlayer() {
   if (container) container.classList.remove('hidden')
   document.body.classList.add('player-open');
 
-  const kp = window.karaokePlayer
   let isPlaying = false
   if (isKaraoke && kp) {
     isPlaying = !kp.audio.paused && !!kp.audio.src
@@ -2400,9 +2654,9 @@ function renderPlayer() {
     : userIcon;
 
   host.innerHTML = ''
-  const expanded = state.activePage === 'chapter' && getChapterMode(chapter.id) === 'listen'
+  if (wrapper) wrapper.classList.add('spotify-player-shell')
 
-  let karaokeSubtitle = null
+  let subtitleText = state.playerLoading ? 'Загрузка аудио...' : (state.playerAudioLabel || 'Локальное аудио')
   if (isKaraoke && kp && kp.items.length > 0) {
     const curAyah = kp.items[kp.currentIndex]
     if (curAyah) {
@@ -2410,14 +2664,10 @@ function renderPlayer() {
         state.activePage === 'quran'
           ? String((state.quranCurrent && state.quranCurrent.reciterName) || '')
           : String((readSelectedReciter() && readSelectedReciter().name) || '')
-      const isFullSurah = !!curAyah.fullSurah
-      const currentAyahText = Number.isFinite(Number(curAyah.ayahNumber)) ? `Аят ${curAyah.ayahNumber} / ${kp.items[kp.items.length - 1].ayahNumber}` : 'Полная сура'
-      karaokeSubtitle = el('div', { class: 'player-subtitle muted', style: 'font-size: 11.5px; margin-top: 2px;' }, [
-        isFullSurah
-          ? `${reciterName ? reciterName + ' • ' : ''}${currentAyahText}`
-          : `${reciterName ? reciterName + ' • ' : ''}${currentAyahText}`
-      ])
+      subtitleText = reciterName || 'Чтец'
     }
+  } else if (state.playerError) {
+    subtitleText = state.playerError
   }
 
   const toggleSubs = () => {
@@ -2427,9 +2677,11 @@ function renderPlayer() {
   }
 
   const isFullSurah =
-    !!(isKaraoke && kp && kp.chapter && kp.chapter.audioMode === 'full-surah' && (state.activePage === 'reader' || state.activePage === 'quran'))
-  const spotifyReaderPlayer = state.activePage === 'reader' && isFullSurah
-  if (wrapper) wrapper.classList.toggle('spotify-player-shell', spotifyReaderPlayer)
+    !!(isKaraoke &&
+      kp &&
+      kp.chapter &&
+      kp.chapter.audioMode === 'full-surah' &&
+      (state.activePage === 'reader' || state.activePage === 'quran'))
 
   const goPrevSurah = () => {
     const reciter = getActiveFullQuranReciter()
@@ -2548,8 +2800,7 @@ function renderPlayer() {
 
   const playerClass = [
     'player',
-    expanded ? 'expanded' : '',
-    spotifyReaderPlayer ? 'spotify-player' : '',
+    'spotify-player',
   ].filter(Boolean).join(' ')
 
   const titleHref = (() => {
@@ -2570,71 +2821,38 @@ function renderPlayer() {
       : `${chapter.id.replace('chapter', '')}. ${chapter.displayTitle}`
   })()
 
-  if (spotifyReaderPlayer) {
-    const reciterName = String((chapter && chapter.reciterName) || '')
-    const currentAyah = kp && kp.items && kp.items[kp.currentIndex] ? kp.items[kp.currentIndex] : null
-    const currentAyahText =
-      currentAyah && Number.isFinite(Number(currentAyah.ayahNumber)) && Array.isArray(kp && kp.items) && kp.items.length
-        ? `Аят ${currentAyah.ayahNumber} / ${kp.items[kp.items.length - 1].ayahNumber}`
-        : 'Полная сура'
-    const eqBars = Array.from({ length: 24 }, (_, index) =>
-      el('span', {
-        class: `spotify-eq-bar b${(index % 6) + 1}`,
-        style: `animation-delay:${(index % 8) * 0.12}s`,
-      }),
-    )
-
-    host.appendChild(
-      el('div', { class: playerClass }, [
-        el('div', { class: 'spotify-player-bg' }, [
-          el('div', { class: 'spotify-player-glow' }),
-          el('div', { class: 'spotify-player-eq' }, eqBars),
-        ]),
-        el('div', { class: 'spotify-player-head' }, [
-          el('div', { class: 'spotify-player-cover', html: imageOrSvgHTML }),
-          el('div', { class: 'spotify-player-meta' }, [
-            el('div', { class: 'spotify-player-kicker' }, ['Сейчас играет']),
-            el('a', { class: 'ptitle spotify-player-title', href: titleHref }, [titleLabel]),
-            el('div', { class: 'spotify-player-subtitle' }, [
-              `${reciterName ? `${reciterName} • ` : ''}${currentAyahText}`,
-            ]),
-          ]),
-        ]),
-        el('div', { class: 'controls spotify-player-controls' }, controls),
-      ]),
-    )
-
-    updatePlayerProgress();
-    return
-  }
+  const eqBars = Array.from({ length: 24 }, (_, index) =>
+    el('span', {
+      class: `spotify-eq-bar b${(index % 6) + 1}`,
+      style: `animation-delay:${(index % 8) * 0.12}s`,
+    }),
+  )
 
   host.appendChild(
     el('div', { class: playerClass }, [
-      
-      // Верхний ряд: Аватар + Инфо + Кнопки
-      el('div', { class: 'row' }, [
-        el('div', { class: 'left' }, [
-          el('div', { class: 'avatar', html: imageOrSvgHTML }),
-          el('div', { class: 'info' }, [
-            el('a', { class: 'ptitle', href: titleHref }, [titleLabel]),
-            karaokeSubtitle
-          ].filter(Boolean)),
-        ]),
-        
-        el('div', { class: 'controls' }, controls),
+      el('div', { class: 'spotify-player-bg' }, [
+        el('div', { class: 'spotify-player-glow' }),
+        el('div', { class: 'spotify-player-eq' }, eqBars),
       ]),
-      
+      el('div', { class: 'spotify-player-head' }, [
+        el('div', { class: 'spotify-player-cover', html: imageOrSvgHTML }),
+        el('div', { class: 'spotify-player-meta' }, [
+          el('div', { class: 'spotify-player-kicker' }, ['Сейчас играет']),
+          el('a', { class: 'ptitle spotify-player-title', href: titleHref }, [titleLabel]),
+          el('div', { class: 'spotify-player-subtitle' }, [subtitleText]),
+        ]),
+      ]),
+      el('div', { class: 'controls spotify-player-controls' }, controls),
     ])
   )
 
-  
-  // Инициализация субтитров и прогресса при рендеринге плеера
-  updatePlayerProgress();
+  updatePlayerProgress()
 }
 
 function render() {
   renderNav()
-  if (state.activePage === 'bookmarks') renderBookmarks()
+  if (state.activePage === 'home') renderHome()
+  else if (state.activePage === 'bookmarks') renderBookmarks()
   else if (state.activePage === 'chapter') renderChapter()
   else if (state.activePage === 'readers') renderReaders()
   else if (state.activePage === 'reader') renderReaderProfile()
@@ -2643,20 +2861,27 @@ function render() {
   else if (state.activePage === 'quran') renderQuran()
   else if (state.activePage === 'surah114') renderSurah114()
   else if (state.activePage === 'surahs') renderSurahs()
-  else renderSurahs()
+  else renderHome()
   renderPlayer()
   syncListenModeClass()
   if (window.karaokePlayer && typeof window.karaokePlayer.syncUI === 'function') {
+    const kp = window.karaokePlayer
     if (state.activePage === 'quran' && state.quranSurahNumber && state.quranCurrent && state.quranCurrent.verses) {
-      window.karaokePlayer.syncUI({ activePage: 'quran', chapter: state.quranCurrent, mode: 'read' })
+      kp.syncUI({ activePage: 'quran', chapter: state.quranCurrent, mode: 'read' })
     } else if (state.activePage === 'reader' && state.quranCurrent && state.quranCurrent.verses) {
-      window.karaokePlayer.syncUI({ activePage: 'reader', chapter: state.quranCurrent, mode: 'read' })
+      kp.syncUI({ activePage: 'reader', chapter: state.quranCurrent, mode: 'read' })
     } else if (state.activePage === 'reading' && state.readingSurahNumber && state.readingCurrent && state.readingCurrent.verses) {
-      window.karaokePlayer.syncUI({ activePage: 'reading', chapter: state.readingCurrent, mode: 'read' })
+      kp.syncUI({ activePage: 'reading', chapter: state.readingCurrent, mode: 'read' })
     } else {
-      const chapter = state.chapterId ? state.byId.get(state.chapterId) : null
-      const mode = chapter ? getChapterMode(chapter.id) : null
-      window.karaokePlayer.syncUI({ activePage: state.activePage, chapter, mode })
+      const fallbackChapter = (state.chapterId ? state.byId.get(state.chapterId) : null) || kp.chapter || null
+      const fallbackId = String((fallbackChapter && fallbackChapter.id) || '')
+      const fallbackPage = fallbackId.startsWith('reading-')
+        ? 'reading'
+        : fallbackId.startsWith('quran-') || (fallbackChapter && fallbackChapter.audioMode === 'full-surah')
+          ? 'reader'
+          : 'chapter'
+      const mode = fallbackChapter ? (fallbackPage === 'chapter' ? getChapterMode(fallbackChapter.id) : 'read') : null
+      kp.syncUI({ activePage: fallbackChapter ? fallbackPage : state.activePage, chapter: fallbackChapter, mode })
     }
   }
   if (state.pendingQuranAutoplay && state.activePage === 'quran' && state.quranCurrent && !state.quranCurrent.error) {
@@ -2704,7 +2929,7 @@ async function init() {
   if ($('#nav-surahs')) {
     $('#nav-surahs').addEventListener('click', (e) => {
       e.preventDefault()
-      gotoSurahs()
+      gotoHome()
     })
   }
   if ($('#nav-readers')) {
