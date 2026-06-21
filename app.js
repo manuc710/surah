@@ -66,7 +66,7 @@ const state = {
   volume: Number.isFinite(Number(savedSettings.volume)) ? Number(savedSettings.volume) : 1,
   subSettings: loadJSON('subSettings', { enabled: true, fontSize: 20, color: '#ffffff', bgOpacity: 0.7 }),
   viewMode: loadJSON('viewMode', {}),
-  ui: { modePickerOpen: false, favoritesTab: loadJSON('favoritesTab', 'surahs') },
+  ui: { modePickerOpen: false, favoritesTab: loadJSON('favoritesTab', 'surahs'), audioUnlockPrompt: null },
   audioLoadToken: 0,
   audioSourceToken: 0,
   audioCandidates: null,
@@ -655,6 +655,46 @@ function setVolume(v) {
   saveJSON('settings', { playbackRate: state.playbackRate, volume: n })
 }
 
+function showAudioUnlockPrompt(mode = 'main') {
+  const nextMode = mode === 'karaoke' ? 'karaoke' : 'main'
+  const current = state.ui && state.ui.audioUnlockPrompt ? state.ui.audioUnlockPrompt.mode : null
+  if (current === nextMode) return
+  state.ui.audioUnlockPrompt = { mode: nextMode }
+  renderPlayer()
+}
+
+function clearAudioUnlockPrompt() {
+  if (!state.ui || !state.ui.audioUnlockPrompt) return
+  state.ui.audioUnlockPrompt = null
+}
+
+async function retryBlockedPlayback({ isKaraoke, chapter } = {}) {
+  clearAudioUnlockPrompt()
+  if (isKaraoke) {
+    if (window.karaokePlayer && typeof window.karaokePlayer.play === 'function') {
+      window.karaokePlayer.play()
+    }
+    return
+  }
+
+  if (state.playerLoading || !audio.src || audio.src.endsWith('undefined')) {
+    if (chapter && chapter.id) {
+      setChapter(chapter.id, { autoplay: true })
+    }
+    return
+  }
+
+  try {
+    await audio.play()
+  } catch {
+    showAudioUnlockPrompt('main')
+  }
+}
+
+window.__APP_AUDIO_PLAY_BLOCKED__ = ({ mode } = {}) => {
+  showAudioUnlockPrompt(mode === 'karaoke' ? 'karaoke' : 'main')
+}
+
 let prefetchAudio = null
 
 function setAudioCandidates(candidates, token) {
@@ -724,7 +764,11 @@ function setChapter(chapterId, { autoplay = false } = {}) {
       state.playerAudioLabel = r.label || ''
       setAudioCandidates(candidates, token)
       renderPlayer()
-      if (autoplay) audio.play().catch(() => {})
+      if (autoplay) {
+        audio.play().catch(() => {
+          showAudioUnlockPrompt('main')
+        })
+      }
       prefetchNextChapterAudio()
     })
     .catch(() => {
@@ -877,6 +921,7 @@ function updatePlayerProgress() {
     state.activePage === 'prayer'
   const activeAudio = isKaraoke && kp && kp.audio ? kp.audio : audio
   const isPlaying = !!activeAudio && !activeAudio.paused && !!activeAudio.src
+  if (isPlaying) clearAudioUnlockPrompt()
   const currentTime = Number.isFinite(activeAudio && activeAudio.currentTime) ? activeAudio.currentTime : 0
   const btnPlay = document.querySelector('.btn-play')
   if (btnPlay) {
@@ -2998,7 +3043,11 @@ function renderPlayer() {
         updatePlayerProgress()
       })
     }
-    if (audio.paused) audio.play().catch(() => {})
+    if (audio.paused) {
+      audio.play().catch(() => {
+        showAudioUnlockPrompt('main')
+      })
+    }
     else audio.pause()
   }
 
@@ -3029,6 +3078,7 @@ function renderPlayer() {
   const repeatActive = isKaraoke ? !!(kp && kp.loop) : !!audio.loop
   const prevTitle = isKaraoke ? (isFullSurah ? 'Предыдущая сура' : 'Предыдущий аят') : 'Предыдущая'
   const nextTitle = isKaraoke ? (isFullSurah ? 'Следующая сура' : 'Следующий аят') : 'Следующая'
+  const unlockPrompt = state.ui && state.ui.audioUnlockPrompt ? state.ui.audioUnlockPrompt : null
   const controls = prayerLocked
     ? [
         el('div', { class: 'prayer-player-lock' }, [
@@ -3052,6 +3102,19 @@ function renderPlayer() {
           onclick: toggleRepeat,
         }),
       ]
+
+  const unlockPromptNode = !prayerLocked && unlockPrompt
+    ? el('div', { class: 'player-unlock-prompt' }, [
+        el('div', { class: 'player-unlock-prompt-text' }, ['На телефоне браузер ждёт дополнительное нажатие для запуска аудио.']),
+        el('button', {
+          type: 'button',
+          class: 'btn primary player-unlock-btn',
+          onclick: () => {
+            retryBlockedPlayback({ isKaraoke, chapter }).catch(() => {})
+          },
+        }, ['Нажмите, чтобы слушать']),
+      ])
+    : null
 
   const playerClass = [
     'player',
@@ -3097,6 +3160,7 @@ function renderPlayer() {
         ]),
       ]),
       el('div', { class: 'controls spotify-player-controls' }, controls),
+      unlockPromptNode,
     ])
   )
 

@@ -323,7 +323,10 @@
       }
 
       this._setHighlight(item.domIndex)
-      this.audio.play().catch(() => {})
+      this.audio.play().catch(() => {
+        const notifyBlocked = window.__APP_AUDIO_PLAY_BLOCKED__
+        if (typeof notifyBlocked === 'function') notifyBlocked({ mode: 'karaoke' })
+      })
       this._render()
     }
 
