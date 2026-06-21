@@ -146,6 +146,7 @@
       this.enabled = false
       this.lastActiveDomIndex = null
       this.pendingSeekRatio = null
+      this.pendingAutoplay = false
       this._notifyRaf = 0
 
       this.audio.addEventListener('ended', () => {
@@ -203,6 +204,7 @@
       this.currentIndex = 0
       this.lastActiveDomIndex = null
       this._clearHighlight()
+      this.pendingAutoplay = false
 
       this.audio.pause()
       this.audio.src = ''
@@ -242,7 +244,10 @@
                 url: ayah255.audio[reciter.folder] || ayah255.audio['05']
               }
             ]
+            const shouldAutoplay = this.pendingAutoplay
+            this.pendingAutoplay = false
             this._render()
+            if (shouldAutoplay) this.play()
           })
           .catch(err => {
             console.error('Failed to load Ayat Al-Kursi audio:', err)
@@ -269,6 +274,16 @@
       fetch(`https://equran.id/api/v2/surat/${surahNumber}`)
         .then(res => res.json())
         .then(data => {
+          // #region debug-point C:equran-fetch-resolved
+          if (typeof window.pushPlaybackDebugLog === 'function') {
+            window.pushPlaybackDebugLog('equran-fetch-resolved', {
+              chapterId: this.chapter && this.chapter.id,
+              surahNumber,
+              ayahCount: data && data.data && Array.isArray(data.data.ayat) ? data.data.ayat.length : 0,
+              reciterFolder: reciter.folder,
+            })
+          }
+          // #endregion
           if (!data || !data.data || !Array.isArray(data.data.ayat)) return
           
           this.items = data.data.ayat.map((ayah) => {
@@ -280,10 +295,21 @@
               url: ayah.audio[reciter.folder] || ayah.audio['05'] // Fallback to Mishary if reciter not found
             }
           })
-          
+          const shouldAutoplay = this.pendingAutoplay
+          this.pendingAutoplay = false
           this._render()
+          if (shouldAutoplay) this.play()
         })
         .catch(err => {
+          // #region debug-point D:equran-fetch-failed
+          if (typeof window.pushPlaybackDebugLog === 'function') {
+            window.pushPlaybackDebugLog('equran-fetch-failed', {
+              chapterId: this.chapter && this.chapter.id,
+              surahNumber,
+              message: err && err.message ? err.message : String(err),
+            })
+          }
+          // #endregion
           console.error('Failed to load audio data:', err)
           this._render()
         })
@@ -305,6 +331,7 @@
       }
 
       if (!this.items.length) {
+        this.pendingAutoplay = true
         this._render()
         return
       }
@@ -322,8 +349,29 @@
         if (Number.isFinite(ratio) && ratio > 0.001) this._seekToRatio(ratio)
       }
 
+      // #region debug-point B:audio-player-play-attempt
+      if (typeof window.pushPlaybackDebugLog === 'function') {
+        window.pushPlaybackDebugLog('audio-player-play-attempt', {
+          chapterId: this.chapter && this.chapter.id,
+          isFullSurah,
+          itemUrl: item.url,
+          hasItems: this.items.length,
+        })
+      }
+      // #endregion
       this._setHighlight(item.domIndex)
       this.audio.play().catch(() => {
+        // #region debug-point B:audio-player-play-rejected
+        if (typeof window.pushPlaybackDebugLog === 'function') {
+          window.pushPlaybackDebugLog('audio-player-play-rejected', {
+            chapterId: this.chapter && this.chapter.id,
+            isFullSurah,
+            itemUrl: item.url,
+            readyState: this.audio.readyState,
+            networkState: this.audio.networkState,
+          })
+        }
+        // #endregion
         const notifyBlocked = window.__APP_AUDIO_PLAY_BLOCKED__
         if (typeof notifyBlocked === 'function') notifyBlocked({ mode: 'karaoke' })
       })
@@ -331,11 +379,13 @@
     }
 
     pause() {
+      this.pendingAutoplay = false
       this.audio.pause()
       this._render()
     }
 
     stop({ clearHighlight = false } = {}) {
+      this.pendingAutoplay = false
       this.audio.pause()
       this.audio.src = ''
       if (clearHighlight) this._clearHighlight()

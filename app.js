@@ -66,7 +66,7 @@ const state = {
   volume: Number.isFinite(Number(savedSettings.volume)) ? Number(savedSettings.volume) : 1,
   subSettings: loadJSON('subSettings', { enabled: true, fontSize: 20, color: '#ffffff', bgOpacity: 0.7 }),
   viewMode: loadJSON('viewMode', {}),
-  ui: { modePickerOpen: false, favoritesTab: loadJSON('favoritesTab', 'surahs'), audioUnlockPrompt: null },
+  ui: { modePickerOpen: false, favoritesTab: loadJSON('favoritesTab', 'surahs') },
   audioLoadToken: 0,
   audioSourceToken: 0,
   audioCandidates: null,
@@ -639,6 +639,86 @@ audio.preload = 'metadata'
 audio.playbackRate = state.playbackRate
 audio.volume = clamp(state.volume, 0, 1)
 
+const SILENT_AUDIO_DATA_URI = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA'
+let audioPlaybackUnlocked = false
+let audioPlaybackUnlockPromise = null
+let audioPlaybackUnlockArmed = false
+
+// #region debug-point shared:playback-journal
+function pushPlaybackDebugLog(event, payload = {}) {
+  try {
+    const key = 'published-surah-playback-debug'
+    const existing = JSON.parse(sessionStorage.getItem(key) || '[]')
+    existing.push({
+      ts: new Date().toISOString(),
+      event,
+      page: state.activePage,
+      chapterId: state.chapterId,
+      ...payload,
+    })
+    sessionStorage.setItem(key, JSON.stringify(existing.slice(-80)))
+  } catch {}
+}
+
+window.__PLAYBACK_DEBUG_READ__ = () => {
+  try {
+    return JSON.parse(sessionStorage.getItem('published-surah-playback-debug') || '[]')
+  } catch {
+    return []
+  }
+}
+window.pushPlaybackDebugLog = pushPlaybackDebugLog
+// #endregion
+
+function primeAudioPlaybackSession() {
+  if (audioPlaybackUnlocked) return Promise.resolve(true)
+  if (audioPlaybackUnlockPromise) return audioPlaybackUnlockPromise
+
+  const primer = new Audio(SILENT_AUDIO_DATA_URI)
+  primer.preload = 'auto'
+  primer.muted = true
+  primer.playsInline = true
+
+  audioPlaybackUnlockPromise = primer.play()
+    .then(() => {
+      try {
+        primer.pause()
+        primer.currentTime = 0
+      } catch {}
+      audioPlaybackUnlocked = true
+      pushPlaybackDebugLog('gesture-audio-primed')
+      return true
+    })
+    .catch((err) => {
+      pushPlaybackDebugLog('gesture-audio-prime-failed', {
+        message: err && err.message ? err.message : String(err),
+      })
+      return false
+    })
+    .finally(() => {
+      audioPlaybackUnlockPromise = null
+    })
+
+  return audioPlaybackUnlockPromise
+}
+
+function armAudioPlaybackUnlock() {
+  if (audioPlaybackUnlockArmed) return
+  audioPlaybackUnlockArmed = true
+  const events = ['pointerdown', 'touchstart', 'click']
+  const handler = () => {
+    primeAudioPlaybackSession().then((ok) => {
+      if (!ok) return
+      for (const type of events) {
+        document.removeEventListener(type, handler, true)
+      }
+    })
+  }
+  for (const type of events) {
+    document.addEventListener(type, handler, true)
+  }
+}
+
 function setPlaybackRate(rate) {
   const r = Number(rate)
   if (!Number.isFinite(r) || r <= 0) return
@@ -655,44 +735,8 @@ function setVolume(v) {
   saveJSON('settings', { playbackRate: state.playbackRate, volume: n })
 }
 
-function showAudioUnlockPrompt(mode = 'main') {
-  const nextMode = mode === 'karaoke' ? 'karaoke' : 'main'
-  const current = state.ui && state.ui.audioUnlockPrompt ? state.ui.audioUnlockPrompt.mode : null
-  if (current === nextMode) return
-  state.ui.audioUnlockPrompt = { mode: nextMode }
-  renderPlayer()
-}
-
-function clearAudioUnlockPrompt() {
-  if (!state.ui || !state.ui.audioUnlockPrompt) return
-  state.ui.audioUnlockPrompt = null
-}
-
-async function retryBlockedPlayback({ isKaraoke, chapter } = {}) {
-  clearAudioUnlockPrompt()
-  if (isKaraoke) {
-    if (window.karaokePlayer && typeof window.karaokePlayer.play === 'function') {
-      window.karaokePlayer.play()
-    }
-    return
-  }
-
-  if (state.playerLoading || !audio.src || audio.src.endsWith('undefined')) {
-    if (chapter && chapter.id) {
-      setChapter(chapter.id, { autoplay: true })
-    }
-    return
-  }
-
-  try {
-    await audio.play()
-  } catch {
-    showAudioUnlockPrompt('main')
-  }
-}
-
 window.__APP_AUDIO_PLAY_BLOCKED__ = ({ mode } = {}) => {
-  showAudioUnlockPrompt(mode === 'karaoke' ? 'karaoke' : 'main')
+  pushPlaybackDebugLog('play-blocked', { mode: mode === 'karaoke' ? 'karaoke' : 'main' })
 }
 
 let prefetchAudio = null
@@ -753,6 +797,14 @@ function setChapter(chapterId, { autoplay = false } = {}) {
 
   resolveAudioForChapter(ch)
     .then((r) => {
+      // #region debug-point A:set-chapter-resolved
+      pushPlaybackDebugLog('set-chapter-resolved', {
+        autoplay,
+        label: r && r.label,
+        candidateCount: r && Array.isArray(r.candidates) ? r.candidates.length : 0,
+        firstCandidate: r && Array.isArray(r.candidates) ? r.candidates[0] : '',
+      })
+      // #endregion
       if (state.audioLoadToken !== token) return
       const candidates = r && Array.isArray(r.candidates) ? r.candidates : []
       if (!candidates.length || !candidates[0]) {
@@ -766,7 +818,13 @@ function setChapter(chapterId, { autoplay = false } = {}) {
       renderPlayer()
       if (autoplay) {
         audio.play().catch(() => {
-          showAudioUnlockPrompt('main')
+          // #region debug-point B:set-chapter-autoplay-rejected
+          pushPlaybackDebugLog('set-chapter-autoplay-rejected', {
+            src: audio.currentSrc || audio.src,
+            readyState: audio.readyState,
+            networkState: audio.networkState,
+          })
+          // #endregion
         })
       }
       prefetchNextChapterAudio()
@@ -810,6 +868,15 @@ audio.addEventListener('pause', updatePlayerProgress)
 audio.addEventListener('ended', updatePlayerProgress)
 audio.addEventListener('seeked', updatePlayerProgress)
 audio.addEventListener('error', () => {
+  // #region debug-point A:shared-audio-error
+  pushPlaybackDebugLog('shared-audio-error', {
+    src: audio.currentSrc || audio.src,
+    readyState: audio.readyState,
+    networkState: audio.networkState,
+    candidateIndex: state.audioCandidateIndex,
+    candidateCount: Array.isArray(state.audioCandidates) ? state.audioCandidates.length : 0,
+  })
+  // #endregion
   if (state.audioSourceToken !== state.audioLoadToken) return
   if (!state.chapterId) return
   const list = state.audioCandidates
@@ -921,7 +988,6 @@ function updatePlayerProgress() {
     state.activePage === 'prayer'
   const activeAudio = isKaraoke && kp && kp.audio ? kp.audio : audio
   const isPlaying = !!activeAudio && !activeAudio.paused && !!activeAudio.src
-  if (isPlaying) clearAudioUnlockPrompt()
   const currentTime = Number.isFinite(activeAudio && activeAudio.currentTime) ? activeAudio.currentTime : 0
   const btnPlay = document.querySelector('.btn-play')
   if (btnPlay) {
@@ -1237,6 +1303,14 @@ function getSurahMetaForReader(surahNumber) {
 async function playReaderSurah(reciter, surahNumber) {
   const sn = Number(surahNumber)
   if (!reciter || !Number.isFinite(sn) || sn < 1 || sn > 114) return
+  // #region debug-point B:reader-click-start
+  pushPlaybackDebugLog('reader-click-start', {
+    surahNumber: sn,
+    reciterFolder: reciter.folder,
+    reciterServer: reciter.server,
+  })
+  // #endregion
+  await primeAudioPlaybackSession()
   writeSelectedQuranReciter(reciter)
   state.pendingQuranAutoplay = false
   warmupAudioOrigin(buildMp3QuranSurahUrl(reciter.server, sn))
@@ -1251,6 +1325,13 @@ async function playReaderSurah(reciter, surahNumber) {
     window.karaokePlayer.setChapter(chapter)
   }
   if (window.karaokePlayer && typeof window.karaokePlayer.play === 'function') {
+    // #region debug-point B:reader-play-invoked
+    pushPlaybackDebugLog('reader-play-invoked', {
+      surahNumber: sn,
+      chapterId: chapter.id,
+      audioUrl: chapter.audioUrl,
+    })
+    // #endregion
     window.karaokePlayer.play()
   }
 }
@@ -1533,12 +1614,12 @@ function renderReaderProfile() {
     const row = el('button', {
       type: 'button',
       class: isActive ? 'reader-surah-row active' : 'reader-surah-row',
-      onclick: () => {
+      onclick: async () => {
         if (playback.isCurrent && kp && typeof kp.togglePlay === 'function') {
           kp.togglePlay()
           return
         }
-        playReaderSurah(reciter, sn)
+        await playReaderSurah(reciter, sn)
       },
     })
     row.appendChild(el('div', { class: 'reader-surah-num' }, [String(sn).padStart(2, '0')]))
@@ -2039,7 +2120,8 @@ function renderReading() {
       const row = el('button', {
         type: 'button',
         class: 'reader-surah-row',
-        onclick: () => {
+        onclick: async () => {
+          await primeAudioPlaybackSession()
           writeSelectedReadingReciter(readingReciter)
           state.pendingReadingAutoplay = true
           gotoReading(readingReciter.folder, sn)
@@ -2692,8 +2774,9 @@ function renderBookmarks() {
     list.appendChild(
       el('div', {
         class: 'favorites-item',
-        onclick: () => {
+        onclick: async () => {
           if (s.scope === 'reading') {
+            await primeAudioPlaybackSession()
             const reciter = getReadingReciterByFolder(s.folder)
             if (reciter) writeSelectedReadingReciter(reciter)
             state.pendingReadingAutoplay = true
@@ -3022,10 +3105,11 @@ function renderPlayer() {
     prevChapter()
   }
 
-  const toggleMainPlay = () => {
+  const toggleMainPlay = async () => {
     if (isKaraoke) {
       if (kp) {
         if (audio && !audio.paused) audio.pause()
+        if (kp.audio && kp.audio.paused) await primeAudioPlaybackSession()
         kp.togglePlay()
       }
       return
@@ -3044,9 +3128,8 @@ function renderPlayer() {
       })
     }
     if (audio.paused) {
-      audio.play().catch(() => {
-        showAudioUnlockPrompt('main')
-      })
+      await primeAudioPlaybackSession()
+      audio.play().catch(() => {})
     }
     else audio.pause()
   }
@@ -3078,7 +3161,6 @@ function renderPlayer() {
   const repeatActive = isKaraoke ? !!(kp && kp.loop) : !!audio.loop
   const prevTitle = isKaraoke ? (isFullSurah ? 'Предыдущая сура' : 'Предыдущий аят') : 'Предыдущая'
   const nextTitle = isKaraoke ? (isFullSurah ? 'Следующая сура' : 'Следующий аят') : 'Следующая'
-  const unlockPrompt = state.ui && state.ui.audioUnlockPrompt ? state.ui.audioUnlockPrompt : null
   const controls = prayerLocked
     ? [
         el('div', { class: 'prayer-player-lock' }, [
@@ -3102,19 +3184,6 @@ function renderPlayer() {
           onclick: toggleRepeat,
         }),
       ]
-
-  const unlockPromptNode = !prayerLocked && unlockPrompt
-    ? el('div', { class: 'player-unlock-prompt' }, [
-        el('div', { class: 'player-unlock-prompt-text' }, ['На телефоне браузер ждёт дополнительное нажатие для запуска аудио.']),
-        el('button', {
-          type: 'button',
-          class: 'btn primary player-unlock-btn',
-          onclick: () => {
-            retryBlockedPlayback({ isKaraoke, chapter }).catch(() => {})
-          },
-        }, ['Нажмите, чтобы слушать']),
-      ])
-    : null
 
   const playerClass = [
     'player',
@@ -3160,7 +3229,6 @@ function renderPlayer() {
         ]),
       ]),
       el('div', { class: 'controls spotify-player-controls' }, controls),
-      unlockPromptNode,
     ])
   )
 
@@ -3263,6 +3331,7 @@ function render() {
 window.__APP_RENDER__ = render
 
 async function init() {
+  armAudioPlaybackUnlock()
   const data =
     (window.__CHAPTERS__ && typeof window.__CHAPTERS__ === 'object' && window.__CHAPTERS__) ||
     (await (await fetch('chapters.json')).json())

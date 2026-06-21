@@ -1982,31 +1982,6 @@ body.listen-mode .verses{display:none;}
   text-transform:uppercase;
 }
 
-.player-unlock-prompt{
-  position:relative;
-  z-index:1;
-  display:flex;
-  flex-wrap:wrap;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
-  padding:12px 14px;
-  border-radius:18px;
-  border:1px solid rgba(251, 191, 36, 0.24);
-  background:rgba(251, 191, 36, 0.10);
-}
-
-.player-unlock-prompt-text{
-  flex:1 1 220px;
-  font-size:12px;
-  line-height:1.4;
-  color:#fde68a;
-}
-
-.player-unlock-btn{
-  flex:0 0 auto;
-  white-space:nowrap;
-}
 
 @keyframes spotifyEq{
   0%{transform:scaleY(.45); opacity:.34}
@@ -2456,12 +2431,6 @@ body.listen-mode .verses{display:none;}
   .prayer-player-lock{
     width:100%;
     justify-content:center;
-  }
-  .player-unlock-prompt{
-    padding:10px 12px;
-  }
-  .player-unlock-btn{
-    width:100%;
   }
 }
 
