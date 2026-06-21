@@ -1364,7 +1364,7 @@ async function playReaderSurah(reciter, surahNumber) {
     reciterServer: reciter.server,
   })
   // #endregion
-  await primeAudioPlaybackSession()
+  void primeAudioPlaybackSession()
   writeSelectedQuranReciter(reciter)
   state.pendingQuranAutoplay = false
   warmupAudioOrigin(buildMp3QuranSurahUrl(reciter.server, sn))
@@ -1671,12 +1671,12 @@ function renderReaderProfile() {
     const row = el('button', {
       type: 'button',
       class: isActive ? 'reader-surah-row active' : 'reader-surah-row',
-      onclick: async () => {
+      onclick: () => {
         if (playback.isCurrent && kp && typeof kp.togglePlay === 'function') {
           kp.togglePlay()
           return
         }
-        await playReaderSurah(reciter, sn)
+        playReaderSurah(reciter, sn).catch(() => {})
       },
     })
     row.appendChild(el('div', { class: 'reader-surah-num' }, [String(sn).padStart(2, '0')]))
@@ -2136,8 +2136,8 @@ function renderReading() {
       const row = el('button', {
         type: 'button',
         class: 'reader-surah-row',
-        onclick: async () => {
-          await primeAudioPlaybackSession()
+        onclick: () => {
+          void primeAudioPlaybackSession()
           writeSelectedReadingReciter(readingReciter)
           state.pendingReadingAutoplay = true
           gotoReading(readingReciter.folder, sn)
@@ -2790,9 +2790,9 @@ function renderBookmarks() {
     list.appendChild(
       el('div', {
         class: 'favorites-item',
-        onclick: async () => {
+        onclick: () => {
           if (s.scope === 'reading') {
-            await primeAudioPlaybackSession()
+            void primeAudioPlaybackSession()
             const reciter = getReadingReciterByFolder(s.folder)
             if (reciter) writeSelectedReadingReciter(reciter)
             state.pendingReadingAutoplay = true
@@ -3121,11 +3121,11 @@ function renderPlayer() {
     prevChapter()
   }
 
-  const toggleMainPlay = async () => {
+  const toggleMainPlay = () => {
     if (isKaraoke) {
       if (kp) {
         if (audio && !audio.paused) audio.pause()
-        if (kp.audio && kp.audio.paused) await primeAudioPlaybackSession()
+        if (kp.audio && kp.audio.paused) void primeAudioPlaybackSession()
         kp.togglePlay()
       }
       return
@@ -3144,7 +3144,7 @@ function renderPlayer() {
       })
     }
     if (audio.paused) {
-      await primeAudioPlaybackSession()
+      void primeAudioPlaybackSession()
       audio.play().catch(() => {})
     }
     else audio.pause()
