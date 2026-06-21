@@ -10,14 +10,38 @@
   }
 
   function getSelectedReciter() {
-    const raw = localStorage.getItem('selectedReciter') || localStorage.getItem('kyrilquran_html.selectedReciter')
-    if (!raw) return null
+    const raw =
+      localStorage.getItem('selectedReciter') ||
+      localStorage.getItem('kyrilquran_html.selectedReciter') ||
+      localStorage.getItem('selectedReadingReciter') ||
+      localStorage.getItem('kyrilquran_html.selectedReadingReciter') ||
+      localStorage.getItem('selectedQuranReciter') ||
+      localStorage.getItem('kyrilquran_html.selectedQuranReciter')
+    if (!raw) {
+      return {
+        name: 'Misyari Rasyid Al-Afasi',
+        arabic: '',
+        folder: '05',
+      }
+    }
     const v = safeParseJSON(raw)
-    if (!v || typeof v !== 'object') return null
+    if (!v || typeof v !== 'object') {
+      return {
+        name: 'Misyari Rasyid Al-Afasi',
+        arabic: '',
+        folder: '05',
+      }
+    }
     const folder = typeof v.folder === 'string' ? v.folder.trim() : ''
-    if (!folder) return null
+    if (!folder) {
+      return {
+        name: 'Misyari Rasyid Al-Afasi',
+        arabic: '',
+        folder: '05',
+      }
+    }
     return {
-      name: typeof v.name === 'string' ? v.name : '',
+      name: typeof v.name === 'string' && v.name.trim() ? v.name : 'Misyari Rasyid Al-Afasi',
       arabic: typeof v.arabic === 'string' ? v.arabic : '',
       folder,
     }

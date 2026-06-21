@@ -489,10 +489,12 @@ function setChapterMode(chapterId, mode) {
 
 async function resolveAudioForChapter(chapter) {
   if (!chapter) return { candidates: [], label: '' }
-  // Provide full path if it's a relative path starting with kyril
-  let url = chapter.audioUrl
-  if (url && !url.startsWith('http') && !url.startsWith('/')) {
-    url = `/${url}`
+  // Keep relative asset paths compatible with GitHub Pages subfolders like /surah/.
+  let url = String(chapter.audioUrl || '')
+  if (url) {
+    try {
+      url = new URL(url, window.location.href).toString()
+    } catch {}
   }
   if (!url) return { candidates: [], label: '' }
   return { candidates: [url], label: 'Локальное аудио' }
