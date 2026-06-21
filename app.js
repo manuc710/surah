@@ -639,7 +639,7 @@ audio.preload = 'metadata'
 audio.playbackRate = state.playbackRate
 audio.volume = clamp(state.volume, 0, 1)
 
-const SILENT_AUDIO_DATA_URI = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA'
+const SILENT_AUDIO_DATA_URI = 'data:audio/mp3;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU2LjM2LjEwMAAAAAAAAAAAAAAA//OEAAAAAAAAAAAAAAAAAAAAAAAASW5mbwAAAA8AAAAEAAABIADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV6urq6urq6urq6urq6urq6urq6urq6urq6v////////////////////////////////8AAAAATGF2YzU2LjQxAAAAAAAAAAAAAAAAJAAAAAAAAAAAASDs90hvAAAAAAAAAAAAAAAAAAAA//MUZAAAAAGkAAAAAAAAA0gAAAAATEFN//MUZAMAAAGkAAAAAAAAA0gAAAAARTMu//MUZAYAAAGkAAAAAAAAA0gAAAAAOTku//MUZAkAAAGkAAAAAAAAA0gAAAAANVVV'
 let audioPlaybackUnlocked = false
 let audioPlaybackUnlockPromise = null
 let audioPlaybackUnlockArmed = false
@@ -674,30 +674,35 @@ function primeAudioPlaybackSession() {
   if (audioPlaybackUnlocked) return Promise.resolve(true)
   if (audioPlaybackUnlockPromise) return audioPlaybackUnlockPromise
 
-  const primer = new Audio(SILENT_AUDIO_DATA_URI)
-  primer.preload = 'auto'
-  primer.muted = true
-  primer.playsInline = true
+  const fallbackLocalPrimerUrl = new URL('kyril/part01/mp3/al_fatixa.mp3', window.location.href).toString()
+  const candidates = [SILENT_AUDIO_DATA_URI, fallbackLocalPrimerUrl]
 
-  audioPlaybackUnlockPromise = primer.play()
-    .then(() => {
+  audioPlaybackUnlockPromise = (async () => {
+    for (const src of candidates) {
+      const primer = new Audio(src)
+      primer.preload = 'auto'
+      primer.muted = true
+      primer.playsInline = true
       try {
-        primer.pause()
-        primer.currentTime = 0
-      } catch {}
-      audioPlaybackUnlocked = true
-      pushPlaybackDebugLog('gesture-audio-primed')
-      return true
-    })
-    .catch((err) => {
-      pushPlaybackDebugLog('gesture-audio-prime-failed', {
-        message: err && err.message ? err.message : String(err),
-      })
-      return false
-    })
-    .finally(() => {
-      audioPlaybackUnlockPromise = null
-    })
+        await primer.play()
+        try {
+          primer.pause()
+          primer.currentTime = 0
+        } catch {}
+        audioPlaybackUnlocked = true
+        pushPlaybackDebugLog('gesture-audio-primed', { primer: src === SILENT_AUDIO_DATA_URI ? 'silent-data-uri' : 'local-fallback' })
+        return true
+      } catch (err) {
+        pushPlaybackDebugLog('gesture-audio-prime-failed', {
+          primer: src === SILENT_AUDIO_DATA_URI ? 'silent-data-uri' : 'local-fallback',
+          message: err && err.message ? err.message : String(err),
+        })
+      }
+    }
+    return false
+  })().finally(() => {
+    audioPlaybackUnlockPromise = null
+  })
 
   return audioPlaybackUnlockPromise
 }
