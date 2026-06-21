@@ -50,7 +50,7 @@ const savedQuranTranslation = loadJSON('quranTranslation', 'ru.kuliev')
 const state = {
   chapters: [],
   byId: new Map(),
-  activePage: 'home', // home | surahs | chapter | bookmarks | settings | readers | reader | reading | quran | surah114
+  activePage: 'home', // home | surahs | chapter | bookmarks | settings | readers | reader | reading | prayer | quran | surah114
   q: '',
   quranQ: '',
   readingQ: '',
@@ -86,6 +86,9 @@ const state = {
   readingSurahNumber: null,
   readingCache: {},
   readingCurrent: null,
+  prayerSurahNumber: null,
+  prayerCache: {},
+  prayerCurrent: null,
   pendingQuranAutoplay: false,
   pendingReadingAutoplay: false,
   pendingChapterAutoplay: false,
@@ -113,6 +116,43 @@ const READING_RECITERS = [
   { name: 'Misyari Rasyid Al-Afasi', folder: '05', subtitle: 'Точный verse-by-verse' },
   { name: 'Yasser Al-Dosari', folder: '06', subtitle: 'Точный verse-by-verse' },
 ]
+
+const LOCAL_AUDIO_BASE_TO_SURAH = {
+  ad_duxa: 93,
+  al_adiyat: 100,
+  al_alya: 87,
+  al_alyaq: 96,
+  al_asr: 103,
+  al_balyad: 90,
+  al_bayyina: 98,
+  al_burudj: 85,
+  al_fadjr: 89,
+  al_falaq: 113,
+  al_fatixa: 1,
+  al_fil: 105,
+  al_gashiya: 88,
+  al_ixlas: 112,
+  al_kadr: 97,
+  al_karia: 101,
+  al_kausar: 108,
+  al_kofirun: 109,
+  al_lyayl: 92,
+  al_masad: 111,
+  al_maun: 107,
+  al_mulk: 67,
+  al_xumaza: 104,
+  an_nas: 114,
+  an_nasr: 110,
+  ash_shams: 91,
+  ash_sharx: 94,
+  at_takasur: 102,
+  at_tariq: 86,
+  at_tin: 95,
+  ayatalkursi: 2,
+  az_zalzalya: 99,
+  kuraysh: 106,
+  yasin: 36,
+}
 
 function getFullQuranReciters() {
   const data = window.__MP3QURAN_RECITERS__
@@ -211,6 +251,100 @@ function writeSelectedReadingReciter(reciter) {
 
 function getActiveReadingReciter() {
   return readSelectedReadingReciter() || getReadingReciterByFolder('05') || READING_RECITERS[0] || null
+}
+
+function getAudioBaseNameFromUrl(url) {
+  const match = String(url || '').match(/\/([^/]+)\.mp3$/i)
+  return match ? match[1] : ''
+}
+
+function getSurahNumberFromChapterSource(chapter) {
+  if (!chapter || typeof chapter !== 'object') return null
+  const sn = Number(chapter.surahNumber)
+  if (Number.isFinite(sn) && sn >= 1 && sn <= 114) return sn
+  const fromAudio = LOCAL_AUDIO_BASE_TO_SURAH[getAudioBaseNameFromUrl(chapter.audioUrl)]
+  return Number.isFinite(fromAudio) ? fromAudio : null
+}
+
+function getPrayerReciter() {
+  const readingReciter = getActiveReadingReciter()
+  const quranReciter = getActiveFullQuranReciter()
+  const preferredFromQuran = quranReciter ? getReadingReciterByFolder(quranReciter.folder) : null
+  return preferredFromQuran || readingReciter || READING_RECITERS[0] || null
+}
+
+function resolvePrayerTargetSurahNumber() {
+  const direct = Number(state.prayerSurahNumber)
+  if (Number.isFinite(direct) && direct >= 1 && direct <= 114) return direct
+
+  const kpChapter = window.karaokePlayer && window.karaokePlayer.chapter ? window.karaokePlayer.chapter : null
+  const candidates = [
+    state.prayerCurrent,
+    state.readingCurrent,
+    state.quranCurrent,
+    kpChapter,
+    state.chapterId ? state.byId.get(state.chapterId) : null,
+  ]
+
+  for (const chapter of candidates) {
+    const sn = getSurahNumberFromChapterSource(chapter)
+    if (Number.isFinite(sn) && sn >= 1 && sn <= 114) return sn
+  }
+  return 1
+}
+
+function buildPrayerChapterFromSurahNumber(surahNumber, reciter) {
+  const local = getLocalQuran114()
+  const sn = Number(surahNumber)
+  if (!local || !reciter || !Number.isFinite(sn) || sn < 1 || sn > 114) return null
+  const surah = local.surahs.find((item) => Number(item && item.number) === sn)
+  if (!surah) return null
+  return {
+    id: `prayer-${sn}-${reciter.folder}`,
+    cacheKey: `prayer:${sn}:${reciter.folder}`,
+    surahNumber: sn,
+    arabicTitle: String(surah.arabicName || ''),
+    displayTitle: `${sn}. ${String(surah.transliteratedName || '')}`,
+    title: '',
+    reciterName: String(reciter.name || ''),
+    reciterFolder: String(reciter.folder || ''),
+    playerSubtitle: 'Помощник намаза',
+    verses: Array.isArray(surah.verses)
+      ? surah.verses.map((v) => ({
+          index: Number(v && v.index),
+          arabic: String((v && v.arabic) || ''),
+          translit: String((v && v.translit) || ''),
+          audio: (v && v.audio) || {},
+        }))
+      : [],
+  }
+}
+
+function ensurePrayerChapterLoaded(surahNumber = null) {
+  const sn = Number(surahNumber || resolvePrayerTargetSurahNumber())
+  const reciter = getPrayerReciter()
+  if (!reciter || !Number.isFinite(sn) || sn < 1 || sn > 114) {
+    state.prayerCurrent = null
+    return
+  }
+
+  state.prayerSurahNumber = sn
+  writeSelectedReadingReciter(reciter)
+
+  const cacheKey = `prayer:${sn}:${reciter.folder}`
+  if (state.prayerCurrent && state.prayerCurrent.cacheKey === cacheKey) return
+  if (state.prayerCache[cacheKey]) {
+    state.prayerCurrent = state.prayerCache[cacheKey]
+    return
+  }
+
+  const chapter = buildPrayerChapterFromSurahNumber(sn, reciter)
+  if (!chapter) {
+    state.prayerCurrent = { id: `prayer-${sn}`, cacheKey, surahNumber: sn, error: 'Не удалось подготовить суру для намаза' }
+    return
+  }
+  state.prayerCache[cacheKey] = chapter
+  state.prayerCurrent = chapter
 }
 
 function padSurahNumber(n) {
@@ -737,7 +871,8 @@ function updatePlayerProgress() {
   const isKaraoke =
     state.activePage === 'quran' ||
     state.activePage === 'reader' ||
-    state.activePage === 'reading'
+    state.activePage === 'reading' ||
+    state.activePage === 'prayer'
   const activeAudio = isKaraoke && kp && kp.audio ? kp.audio : audio
   const isPlaying = !!activeAudio && !activeAudio.paused && !!activeAudio.src
   const currentTime = Number.isFinite(activeAudio && activeAudio.currentTime) ? activeAudio.currentTime : 0
@@ -838,6 +973,9 @@ function gotoReaders() {
 function gotoReading(reciter = null, surah = null) {
   setHash({ page: 'reading', reciter, surah })
 }
+function gotoPrayer(surah = null) {
+  setHash({ page: 'prayer', surah })
+}
 function gotoReader(reciterFolder) {
   setHash({ page: 'reader', reciter: reciterFolder })
 }
@@ -864,6 +1002,7 @@ window.addEventListener('hashchange', () => {
     readerFolder: state.readerFolder,
     quranSurahNumber: state.quranSurahNumber,
     readingSurahNumber: state.readingSurahNumber,
+    prayerSurahNumber: state.prayerSurahNumber,
   }
   const prevChapterId = state.chapterId
   syncFromHash()
@@ -874,6 +1013,7 @@ window.addEventListener('hashchange', () => {
     prevState.readerFolder !== state.readerFolder ||
     prevState.quranSurahNumber !== state.quranSurahNumber ||
     prevState.readingSurahNumber !== state.readingSurahNumber
+    || prevState.prayerSurahNumber !== state.prayerSurahNumber
   if (shouldScrollTop) window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
   if (state.chapterId && state.chapterId !== prevChapterId) {
     setChapter(state.chapterId, { autoplay: false })
@@ -882,13 +1022,14 @@ window.addEventListener('hashchange', () => {
 
 function syncFromHash() {
   const { page, chapter, reciter, surah, v, tr } = parseHash()
-  state.activePage = ['home', 'chapter', 'bookmarks', 'settings', 'readers', 'reader', 'reading', 'surahs', 'quran', 'surah114'].includes(page)
+  state.activePage = ['home', 'chapter', 'bookmarks', 'settings', 'readers', 'reader', 'reading', 'prayer', 'surahs', 'quran', 'surah114'].includes(page)
     ? page
     : 'home'
   state.chapterId = chapter && state.byId.has(chapter) ? chapter : state.chapterId
   state.readerFolder = typeof reciter === 'string' && reciter ? reciter : null
   state.quranSurahNumber = state.activePage === 'quran' && Number.isFinite(surah) && surah >= 1 && surah <= 114 ? surah : null
   state.readingSurahNumber = state.activePage === 'reading' && Number.isFinite(surah) && surah >= 1 && surah <= 114 ? surah : null
+  state.prayerSurahNumber = state.activePage === 'prayer' && Number.isFinite(surah) && surah >= 1 && surah <= 114 ? surah : resolvePrayerTargetSurahNumber()
   state.verseFocus = Number.isFinite(v) && v > 0 ? v : null
   if (typeof tr === 'string' && tr) state.quranTranslation = tr
 }
@@ -993,6 +1134,7 @@ function renderNav() {
   const navSurahs = $('#nav-surahs')
   const navReaders = $('#nav-readers')
   const navReading = $('#nav-reading')
+  const navPrayer = $('#nav-prayer')
   const navSettings = $('#nav-settings')
 
   if (navSurahs)
@@ -1002,6 +1144,7 @@ function renderNav() {
     )
   if (navReaders) navReaders.classList.toggle('active', state.activePage === 'readers' || state.activePage === 'reader')
   if (navReading) navReading.classList.toggle('active', state.activePage === 'reading')
+  if (navPrayer) navPrayer.classList.toggle('active', state.activePage === 'prayer')
   if (navSettings) navSettings.classList.toggle('active', state.activePage === 'settings' || state.activePage === 'bookmarks')
 }
 
@@ -1931,6 +2074,85 @@ function renderReading() {
   root.appendChild(versesHost)
 }
 
+function renderPrayer() {
+  const root = $('#view')
+  root.innerHTML = ''
+  const prayerSurahNumber = resolvePrayerTargetSurahNumber()
+  ensurePrayerChapterLoaded(prayerSurahNumber)
+
+  const chapter = state.prayerCurrent && state.prayerCurrent.surahNumber === prayerSurahNumber ? state.prayerCurrent : null
+  const reciter = getPrayerReciter()
+
+  root.appendChild(
+    el('div', { class: 'prayer-page' }, [
+      el('div', { class: 'prayer-hero' }, [
+        el('div', { class: 'prayer-hero-kicker' }, ['🕌 Помощник намаза']),
+        el('h1', { class: 'prayer-hero-title' }, [chapter ? chapter.displayTitle : 'Подготовка режима намаза']),
+        chapter && chapter.arabicTitle ? el('div', { class: 'prayer-hero-arabic' }, [chapter.arabicTitle]) : null,
+        el('p', { class: 'prayer-hero-subtitle' }, [
+          reciter ? `Чтец: ${reciter.name}` : 'Выбран verse-by-verse режим для синхронизации по движениям.',
+        ]),
+        el('div', { class: 'prayer-actions' }, [
+          el('button', {
+            class: 'btn',
+            onclick: () => {
+              if (window.history.length > 1) window.history.back()
+              else gotoHome()
+            },
+          }, ['← Назад']),
+          el('button', {
+            class: 'btn primary',
+            onclick: () => {
+              if (window.PrayerMode && typeof window.PrayerMode.recalibrate === 'function') {
+                window.PrayerMode.recalibrate()
+              }
+            },
+          }, ['Калибровка']),
+        ]),
+      ]),
+      el('div', { class: 'prayer-status-grid' }, [
+        el('div', { class: 'prayer-status-card' }, [
+          el('div', { class: 'prayer-status-label' }, ['Текущая поза']),
+          el('div', { class: 'prayer-status-value', id: 'prayer-current-pose' }, ['Ожидание']),
+        ]),
+        el('div', { class: 'prayer-status-card' }, [
+          el('div', { class: 'prayer-status-label' }, ['Ракааты']),
+          el('div', { class: 'prayer-status-value', id: 'prayer-rakah-count' }, ['0']),
+        ]),
+      ]),
+      el('div', { class: 'prayer-pose-message', id: 'prayer-pose-message' }, [
+        'Телефон в вертикальном положении, чтение продолжается',
+      ]),
+      el('div', { class: 'prayer-inline-note' }, [
+        'Ручные кнопки плеера в этом режиме скрыты: воспроизведение ставится на паузу и продолжается по движениям телефона.',
+      ]),
+    ].filter(Boolean)),
+  )
+
+  if (!chapter) {
+    root.appendChild(el('p', { class: 'muted', style: 'margin-top:16px' }, ['Подготовка суры для режима намаза…']))
+    return
+  }
+  if (chapter.error) {
+    root.appendChild(el('div', { class: 'player-error', style: 'margin-top:16px' }, [String(chapter.error)]))
+    return
+  }
+
+  const versesHost = el('div', { class: 'verses prayer-verses' })
+  for (const verse of chapter.verses || []) {
+    const verseNode = el('div', { class: 'verse prayer-verse', id: `v-${verse.index}` })
+    verseNode.appendChild(
+      el('div', { class: 'meta' }, [
+        el('div', { class: 'verse-meta-left' }, [el('div', { class: 'num' }, [String(verse.index)])]),
+      ]),
+    )
+    verseNode.appendChild(el('div', { class: 'arabic' }, [String(verse.arabic || '')]))
+    verseNode.appendChild(el('div', { class: 'translit' }, [String(verse.translit || '')]))
+    versesHost.appendChild(verseNode)
+  }
+  root.appendChild(versesHost)
+}
+
 function renderSurah114() {
   const root = $('#view')
   root.innerHTML = ''
@@ -2593,6 +2815,8 @@ function renderPlayer() {
       ? state.quranCurrent
       : state.activePage === 'reading'
         ? state.readingCurrent
+        : state.activePage === 'prayer'
+          ? state.prayerCurrent
         : state.activePage === 'quran'
           ? state.quranCurrent
           : state.activePage === 'chapter' && state.chapterId
@@ -2609,15 +2833,17 @@ function renderPlayer() {
     (state.chapterId ? state.byId.get(state.chapterId) : null)
   const activeKpChapter = kp && kp.chapter ? kp.chapter : null
 
-  const playerPages = ['home', 'surahs', 'chapter', 'readers', 'reader', 'reading', 'quran', 'surah114']
+  const playerPages = ['home', 'surahs', 'chapter', 'readers', 'reader', 'reading', 'prayer', 'quran', 'surah114']
   const canShowPlayer = playerPages.includes(state.activePage)
   const isKaraoke =
     state.activePage === 'quran' ||
     state.activePage === 'reader' ||
     state.activePage === 'reading' ||
+    state.activePage === 'prayer' ||
     (kp && kp.chapter && kp.audio && !!kp.audio.src) ||
     (state.activePage === 'chapter' && getChapterMode(chapter?.id) === 'read')
   const activeAudio = isKaraoke && kp && kp.audio ? kp.audio : audio
+  const prayerLocked = state.activePage === 'prayer'
 
   if (!canShowPlayer) {
     host.innerHTML = ''
@@ -2801,22 +3027,29 @@ function renderPlayer() {
   const repeatActive = isKaraoke ? !!(kp && kp.loop) : !!audio.loop
   const prevTitle = isKaraoke ? (isFullSurah ? 'Предыдущая сура' : 'Предыдущий аят') : 'Предыдущая'
   const nextTitle = isKaraoke ? (isFullSurah ? 'Следующая сура' : 'Следующий аят') : 'Следующая'
-  const controls = [
-    el('button', { class: 'btn-icon', title: prevTitle, html: prevIcon, onclick: goPrev }),
-    el('button', {
-      class: 'btn-play',
-      title: isPlaying ? 'Пауза' : 'Играть',
-      html: isPlaying ? pauseIcon : playIcon,
-      onclick: toggleMainPlay,
-    }),
-    el('button', { class: 'btn-icon', title: nextTitle, html: nextIcon, onclick: goNext }),
-    el('button', {
-      class: `btn-icon repeat-btn ${repeatActive ? 'active' : ''}`,
-      title: repeatActive ? 'Повтор включен' : 'Повтор выключен',
-      html: repeatIcon,
-      onclick: toggleRepeat,
-    }),
-  ]
+  const controls = prayerLocked
+    ? [
+        el('div', { class: 'prayer-player-lock' }, [
+          el('span', { class: 'prayer-player-lock-badge' }, ['🕌']),
+          el('span', { class: 'prayer-player-lock-text' }, ['Управление по позам']),
+        ]),
+      ]
+    : [
+        el('button', { class: 'btn-icon', title: prevTitle, html: prevIcon, onclick: goPrev }),
+        el('button', {
+          class: 'btn-play',
+          title: isPlaying ? 'Пауза' : 'Играть',
+          html: isPlaying ? pauseIcon : playIcon,
+          onclick: toggleMainPlay,
+        }),
+        el('button', { class: 'btn-icon', title: nextTitle, html: nextIcon, onclick: goNext }),
+        el('button', {
+          class: `btn-icon repeat-btn ${repeatActive ? 'active' : ''}`,
+          title: repeatActive ? 'Повтор включен' : 'Повтор выключен',
+          html: repeatIcon,
+          onclick: toggleRepeat,
+        }),
+      ]
 
   const playerClass = [
     'player',
@@ -2831,6 +3064,8 @@ function renderPlayer() {
       ? `#page=quran&surah=${encodeURIComponent(chapter.surahNumber || '')}`
       : isReadingChapter
         ? `#page=reading&surah=${encodeURIComponent(chapter.surahNumber || '')}`
+        : chapterId.startsWith('prayer-')
+          ? `#page=prayer&surah=${encodeURIComponent(chapter.surahNumber || '')}`
         : `#page=chapter&chapter=${encodeURIComponent(chapter.id)}`
   })()
 
@@ -2874,6 +3109,7 @@ function render() {
   else if (state.activePage === 'readers') renderReaders()
   else if (state.activePage === 'reader') renderReaderProfile()
   else if (state.activePage === 'reading') renderReading()
+  else if (state.activePage === 'prayer') renderPrayer()
   else if (state.activePage === 'settings') renderSettings()
   else if (state.activePage === 'quran') renderQuran()
   else if (state.activePage === 'surah114') renderSurah114()
@@ -2889,6 +3125,8 @@ function render() {
       kp.syncUI({ activePage: 'reader', chapter: state.quranCurrent, mode: 'read' })
     } else if (state.activePage === 'reading' && state.readingSurahNumber && state.readingCurrent && state.readingCurrent.verses) {
       kp.syncUI({ activePage: 'reading', chapter: state.readingCurrent, mode: 'read' })
+    } else if (state.activePage === 'prayer' && state.prayerCurrent && state.prayerCurrent.verses) {
+      kp.syncUI({ activePage: 'prayer', chapter: state.prayerCurrent, mode: 'read' })
     } else {
       const fallbackChapter =
         kp.chapter ||
@@ -2901,12 +3139,30 @@ function render() {
       const fallbackId = String((fallbackChapter && fallbackChapter.id) || '')
       const fallbackPage = fallbackId.startsWith('reading-')
         ? 'reading'
+        : fallbackId.startsWith('prayer-')
+          ? 'prayer'
         : fallbackId.startsWith('quran-') || (fallbackChapter && fallbackChapter.audioMode === 'full-surah')
           ? 'reader'
           : 'chapter'
       const mode = fallbackChapter ? (fallbackPage === 'chapter' ? getChapterMode(fallbackChapter.id) : 'read') : null
       kp.syncUI({ activePage: fallbackChapter ? fallbackPage : state.activePage, chapter: fallbackChapter, mode })
     }
+  }
+  if (window.PrayerMode && typeof window.PrayerMode.sync === 'function') {
+    window.PrayerMode.sync({
+      active: state.activePage === 'prayer' && !!state.prayerCurrent && !state.prayerCurrent.error,
+      autoStart: true,
+      play: () => {
+        if (window.karaokePlayer && typeof window.karaokePlayer.play === 'function') {
+          window.karaokePlayer.play()
+        }
+      },
+      pause: () => {
+        if (window.karaokePlayer && typeof window.karaokePlayer.pause === 'function') {
+          window.karaokePlayer.pause()
+        }
+      },
+    })
   }
   if (state.pendingChapterAutoplay && state.activePage === 'chapter' && state.chapterId) {
     const currentChapterId = state.chapterId
@@ -2976,6 +3232,16 @@ async function init() {
     $('#nav-reading').addEventListener('click', (e) => {
       e.preventDefault()
       gotoReading()
+    })
+  }
+  if ($('#nav-prayer')) {
+    $('#nav-prayer').addEventListener('click', async (e) => {
+      e.preventDefault()
+      const targetSurah = resolvePrayerTargetSurahNumber()
+      if (window.PrayerMode && typeof window.PrayerMode.preparePermissionRequest === 'function') {
+        await window.PrayerMode.preparePermissionRequest()
+      }
+      gotoPrayer(targetSurah)
     })
   }
   if ($('#nav-settings')) {

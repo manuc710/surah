@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="app.css?v=quran-9" />
+    <link rel="stylesheet" href="app.css?v=quran-10" />
   </head>
   <body>
     <header class="topbar">
@@ -35,6 +35,10 @@
           <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 0 4 24z"/><path d="M8 7h8"/><path d="M8 11h8"/></svg></span>
           <span class="nav-text">Чтение</span>
         </a>
+        <a href="#page=prayer" class="nav-item" id="nav-prayer" aria-label="Намаз" title="Намаз">
+          <span class="nav-icon">🕌</span>
+          <span class="nav-text">Намаз</span>
+        </a>
         <a href="#page=settings" class="nav-item" id="nav-settings" aria-label="Настройки" title="Настройки">
           <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>
           <span class="nav-text">Настройки</span>
@@ -42,10 +46,32 @@
       </nav>
     </div>
 
+    <div class="prayer-pose-indicator hidden" id="prayer-pose-indicator" aria-live="polite">
+      <div class="prayer-pose-indicator-badge" id="prayer-pose-indicator-badge">⚪</div>
+      <div class="prayer-pose-indicator-text">
+        <div class="prayer-pose-indicator-title" id="prayer-pose-indicator-title">Ожидание</div>
+        <div class="prayer-pose-indicator-subtitle" id="prayer-pose-indicator-subtitle">Подготовка датчиков</div>
+      </div>
+    </div>
+
+    <div class="prayer-calibration-backdrop hidden" id="prayer-calibration-backdrop">
+      <div class="prayer-calibration-modal" role="dialog" aria-modal="true" aria-labelledby="prayer-calibration-title">
+        <div class="prayer-calibration-kicker">Помощник намаза</div>
+        <h2 class="prayer-calibration-title" id="prayer-calibration-title">Калибровка</h2>
+        <p class="prayer-calibration-text" id="prayer-calibration-text">Встаньте прямо для калибровки. Нажмите "Готово".</p>
+        <p class="prayer-calibration-note hidden" id="prayer-calibration-note"></p>
+        <div class="prayer-calibration-actions">
+          <button type="button" class="btn primary" id="prayer-calibration-confirm">Готово</button>
+          <button type="button" class="btn" id="prayer-calibration-close">Закрыть</button>
+        </div>
+      </div>
+    </div>
+
     <script src="chapters-data.js?v=karaoke-5"></script>
     <script src="114.js?v=114-1"></script>
     <script src="mp3quran-reciters.js?v=mp3quran-1"></script>
-    <script src="audioPlayer.js?v=karaoke-5" defer></script>
-    <script src="app.js?v=karaoke-29" defer></script>
+    <script src="audioPlayer.js?v=karaoke-6" defer></script>
+    <script src="prayerMode.js?v=prayer-1" defer></script>
+    <script src="app.js?v=karaoke-30" defer></script>
   </body>
 </html>

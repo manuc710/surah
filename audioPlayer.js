@@ -153,7 +153,10 @@
     }
 
     syncUI({ activePage, chapter, mode }) {
-      const shouldEnable = (activePage === 'chapter' || activePage === 'quran' || activePage === 'reader' || activePage === 'reading') && !!chapter && mode === 'read'
+      const shouldEnable =
+        (activePage === 'chapter' || activePage === 'quran' || activePage === 'reader' || activePage === 'reading' || activePage === 'prayer') &&
+        !!chapter &&
+        mode === 'read'
       this.enabled = shouldEnable
 
       if (!this.enabled) {

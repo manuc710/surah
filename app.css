@@ -1155,8 +1155,16 @@ h1{margin:10px 0 12px; font-size:28px}
     min-width:40px;
     min-height:40px;
   }
+  .player.spotify-player .spotify-player-title{
+    font-size:13px;
+    line-height:16px;
+  }
   .player.spotify-player .spotify-player-subtitle{
-    font-size:12px;
+    font-size:11px;
+    line-height:14px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
   }
   .bottom-nav{
     border-radius:22px;
@@ -1204,6 +1212,14 @@ h1{margin:10px 0 12px; font-size:28px}
   .player.spotify-player .btn-play{
     min-width:36px;
     min-height:36px;
+  }
+  .player.spotify-player .spotify-player-title{
+    font-size:12px;
+    line-height:14px;
+  }
+  .player.spotify-player .spotify-player-subtitle{
+    font-size:10px;
+    line-height:12px;
   }
 }
 
@@ -1548,6 +1564,11 @@ body.listen-mode .verses{display:none;}
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#nav-prayer .nav-icon{
+  font-size:20px;
+  line-height:1;
 }
 
 .nav-icon svg {
@@ -1937,6 +1958,30 @@ body.listen-mode .verses{display:none;}
   height:22px;
 }
 
+.prayer-player-lock{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.10);
+  background:rgba(255,255,255,.05);
+  color:#e2e8f0;
+  white-space:nowrap;
+}
+
+.prayer-player-lock-badge{
+  font-size:16px;
+  line-height:1;
+}
+
+.prayer-player-lock-text{
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+}
+
 @keyframes spotifyEq{
   0%{transform:scaleY(.45); opacity:.34}
   100%{transform:scaleY(1); opacity:.95}
@@ -2128,6 +2173,280 @@ body.listen-mode .verses{display:none;}
   background: rgba(251, 191, 36, 0.2);
   border-color: rgba(251, 191, 36, 0.35);
   color: var(--text);
+}
+
+.prayer-page{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.prayer-hero{
+  position:relative;
+  overflow:hidden;
+  padding:20px;
+  border-radius:28px;
+  border:1px solid rgba(255,255,255,.08);
+  background:
+    radial-gradient(circle at 20% 18%, rgba(56, 189, 248, 0.18), rgba(56, 189, 248, 0) 28%),
+    radial-gradient(circle at 82% 10%, rgba(34, 197, 94, 0.16), rgba(34, 197, 94, 0) 24%),
+    linear-gradient(180deg, rgba(8, 15, 28, 0.98), rgba(15, 23, 42, 0.96));
+  box-shadow:0 18px 38px rgba(0,0,0,.24);
+}
+
+.prayer-hero-kicker{
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  color:#94a3b8;
+}
+
+.prayer-hero-title{
+  margin:10px 0 0;
+  font-size:28px;
+  line-height:1.1;
+  color:#fff;
+}
+
+.prayer-hero-arabic{
+  margin-top:10px;
+  font-family:'Noto Naskh Arabic', 'Amiri', serif;
+  font-size:30px;
+  line-height:1.35;
+  color:#fffbeb;
+}
+
+.prayer-hero-subtitle{
+  margin:10px 0 0;
+  color:#cbd5e1;
+}
+
+.prayer-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:16px;
+}
+
+.prayer-status-grid{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:12px;
+}
+
+.prayer-status-card{
+  padding:16px;
+  border-radius:20px;
+  border:1px solid rgba(255,255,255,.08);
+  background:rgba(30, 41, 59, 0.72);
+}
+
+.prayer-status-label{
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:#94a3b8;
+}
+
+.prayer-status-value{
+  margin-top:8px;
+  font-size:24px;
+  font-weight:700;
+  color:#fff;
+}
+
+.prayer-pose-message,
+.prayer-inline-note{
+  padding:14px 16px;
+  border-radius:18px;
+  border:1px solid rgba(56, 189, 248, 0.18);
+  background:rgba(15, 23, 42, 0.72);
+  color:#dbeafe;
+}
+
+.prayer-inline-note{
+  color:#cbd5e1;
+  border-color:rgba(255,255,255,.08);
+}
+
+.prayer-verses{
+  gap:16px;
+}
+
+.prayer-verse{
+  border-radius:18px;
+  padding:20px;
+}
+
+.prayer-verse .arabic{
+  font-size:clamp(30px, 4.5vw, 42px);
+  line-height:1.9;
+}
+
+.prayer-verse .translit{
+  margin-top:14px;
+  font-size:16px;
+  line-height:1.6;
+}
+
+.prayer-pose-indicator{
+  position:fixed;
+  top:calc(82px + env(safe-area-inset-top));
+  right:16px;
+  z-index:70;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 12px;
+  border-radius:18px;
+  border:1px solid rgba(255,255,255,.08);
+  background:rgba(15, 23, 42, 0.88);
+  backdrop-filter:blur(14px);
+  box-shadow:0 16px 34px rgba(0,0,0,.28);
+}
+
+.prayer-pose-indicator.hidden,
+.prayer-calibration-backdrop.hidden,
+.prayer-calibration-note.hidden{
+  display:none;
+}
+
+.prayer-pose-indicator-badge{
+  font-size:20px;
+  line-height:1;
+}
+
+.prayer-pose-indicator-title{
+  font-size:14px;
+  font-weight:700;
+  color:#fff;
+}
+
+.prayer-pose-indicator-subtitle{
+  margin-top:2px;
+  font-size:12px;
+  color:#cbd5e1;
+}
+
+.prayer-pose-indicator[data-pose="qiyam"]{
+  border-color:rgba(34, 197, 94, 0.26);
+}
+
+.prayer-pose-indicator[data-pose="ruku"]{
+  border-color:rgba(251, 191, 36, 0.28);
+}
+
+.prayer-pose-indicator[data-pose="sujud"]{
+  border-color:rgba(248, 113, 113, 0.32);
+}
+
+.prayer-pose-indicator[data-pose="jalsa"]{
+  border-color:rgba(96, 165, 250, 0.32);
+}
+
+.prayer-calibration-backdrop{
+  position:fixed;
+  inset:0;
+  z-index:90;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  background:rgba(2, 6, 23, 0.72);
+  backdrop-filter:blur(8px);
+}
+
+.prayer-calibration-modal{
+  width:min(100%, 420px);
+  padding:22px;
+  border-radius:24px;
+  border:1px solid rgba(255,255,255,.08);
+  background:linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.96));
+  box-shadow:0 24px 50px rgba(0,0,0,.35);
+}
+
+.prayer-calibration-kicker{
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  color:#94a3b8;
+}
+
+.prayer-calibration-title{
+  margin:10px 0 0;
+  font-size:24px;
+  color:#fff;
+}
+
+.prayer-calibration-text{
+  margin:12px 0 0;
+  color:#e2e8f0;
+}
+
+.prayer-calibration-note{
+  margin:12px 0 0;
+  padding:10px 12px;
+  border-radius:14px;
+  border:1px solid rgba(251, 191, 36, 0.24);
+  background:rgba(251, 191, 36, 0.10);
+  color:#fde68a;
+}
+
+.prayer-calibration-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:18px;
+}
+
+@media (max-width:560px){
+  #nav-prayer .nav-icon{
+    font-size:18px;
+  }
+  .prayer-status-grid{
+    grid-template-columns:1fr;
+  }
+  .prayer-hero{
+    padding:18px 16px;
+    border-radius:24px;
+  }
+  .prayer-hero-title{
+    font-size:24px;
+  }
+  .prayer-hero-arabic{
+    font-size:26px;
+  }
+  .prayer-verse{
+    padding:16px;
+  }
+  .prayer-verse .arabic{
+    font-size:clamp(26px, 8vw, 34px);
+  }
+  .prayer-pose-indicator{
+    top:calc(72px + env(safe-area-inset-top));
+    right:12px;
+    left:12px;
+  }
+  .prayer-player-lock{
+    width:100%;
+    justify-content:center;
+  }
+}
+
+@media (max-width:420px){
+  .prayer-pose-indicator{
+    padding:8px 10px;
+  }
+  .prayer-pose-indicator-title{
+    font-size:13px;
+  }
+  .prayer-pose-indicator-subtitle{
+    font-size:11px;
+  }
+  .prayer-calibration-modal{
+    padding:18px;
+    border-radius:20px;
+  }
 }
 
 /* Removed mini-player */
