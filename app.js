@@ -320,6 +320,55 @@ function buildPrayerChapterFromSurahNumber(surahNumber, reciter) {
   }
 }
 
+function ensureLocalQuranSurahLoaded(surahNumber) {
+  const sn = Number(surahNumber)
+  if (!Number.isFinite(sn) || sn < 1 || sn > 114) return null
+  const local = getLocalQuran114()
+  if (!local) return null
+
+  const selectedReciter = getActiveFullQuranReciter()
+  const reciterKey = selectedReciter && selectedReciter.folder ? selectedReciter.folder : 'none'
+  const cacheKey = `${sn}:id:${reciterKey}`
+  if (state.quranCurrent && state.quranCurrent.cacheKey === cacheKey) return state.quranCurrent
+  if (state.quranCache[cacheKey]) {
+    state.quranCurrent = state.quranCache[cacheKey]
+    return state.quranCurrent
+  }
+
+  const surah = local.surahs.find((item) => Number(item && item.number) === sn)
+  if (!surah) {
+    state.quranCurrent = { id: `quran-${sn}`, cacheKey, surahNumber: sn, error: 'Не удалось загрузить суру' }
+    return state.quranCurrent
+  }
+
+  const chapter = {
+    id: `quran-${sn}`,
+    cacheKey,
+    surahNumber: sn,
+    arabicTitle: String(surah.arabicName || ''),
+    displayTitle: `${sn}. ${String(surah.transliteratedName || '')}`,
+    title: '',
+    audioMode: selectedReciter ? 'full-surah' : '',
+    audioUrl: selectedReciter ? buildMp3QuranSurahUrl(selectedReciter.server, sn) : '',
+    reciterName: selectedReciter ? String(selectedReciter.name || '') : '',
+    reciterStyle: selectedReciter ? String(selectedReciter.style || '') : '',
+    audioFull: surah.audioFull || {},
+    verses: Array.isArray(surah.verses)
+      ? surah.verses.map((v) => ({
+          index: Number(v && v.index),
+          arabic: String((v && v.arabic) || ''),
+          translit: String((v && v.translit) || ''),
+          audio: (v && v.audio) || {},
+        }))
+      : [],
+  }
+  state.quranCache[cacheKey] = chapter
+  state.quranCurrent = chapter
+  state.quranTranslation = 'id'
+  saveJSON('quranTranslation', 'id')
+  return chapter
+}
+
 function ensurePrayerChapterLoaded(surahNumber = null) {
   const sn = Number(surahNumber || resolvePrayerTargetSurahNumber())
   const reciter = getPrayerReciter()
@@ -1319,8 +1368,11 @@ async function playReaderSurah(reciter, surahNumber) {
   writeSelectedQuranReciter(reciter)
   state.pendingQuranAutoplay = false
   warmupAudioOrigin(buildMp3QuranSurahUrl(reciter.server, sn))
-  await ensureQuranSurahLoaded(sn, state.quranTranslation)
-  const chapter = state.quranCurrent && state.quranCurrent.surahNumber === sn ? state.quranCurrent : null
+  let chapter = ensureLocalQuranSurahLoaded(sn)
+  if (!chapter) {
+    await ensureQuranSurahLoaded(sn, state.quranTranslation)
+    chapter = state.quranCurrent && state.quranCurrent.surahNumber === sn ? state.quranCurrent : null
+  }
   if (!chapter || chapter.error) {
     render()
     return
@@ -1734,48 +1786,7 @@ async function ensureQuranListLoaded() {
 async function ensureQuranSurahLoaded(surahNumber, translationId) {
   const sn = Number(surahNumber)
   if (!Number.isFinite(sn) || sn < 1 || sn > 114) return
-  const local = getLocalQuran114()
-  if (local) {
-    const selectedReciter = getActiveFullQuranReciter()
-    const reciterKey = selectedReciter && selectedReciter.folder ? selectedReciter.folder : 'none'
-    const cacheKey = `${sn}:id:${reciterKey}`
-    if (state.quranCurrent && state.quranCurrent.cacheKey === cacheKey) return
-    if (state.quranCache[cacheKey]) {
-      state.quranCurrent = state.quranCache[cacheKey]
-      return
-    }
-    const surah = local.surahs.find((item) => Number(item && item.number) === sn)
-    if (!surah) {
-      state.quranCurrent = { id: `quran-${sn}`, cacheKey, surahNumber: sn, error: 'Не удалось загрузить суру' }
-      return
-    }
-    const chapter = {
-      id: `quran-${sn}`,
-      cacheKey,
-      surahNumber: sn,
-      arabicTitle: String(surah.arabicName || ''),
-      displayTitle: `${sn}. ${String(surah.transliteratedName || '')}`,
-      title: '',
-      audioMode: selectedReciter ? 'full-surah' : '',
-      audioUrl: selectedReciter ? buildMp3QuranSurahUrl(selectedReciter.server, sn) : '',
-      reciterName: selectedReciter ? String(selectedReciter.name || '') : '',
-      reciterStyle: selectedReciter ? String(selectedReciter.style || '') : '',
-      audioFull: surah.audioFull || {},
-      verses: Array.isArray(surah.verses)
-        ? surah.verses.map((v) => ({
-            index: Number(v && v.index),
-            arabic: String((v && v.arabic) || ''),
-            translit: String((v && v.translit) || ''),
-            audio: (v && v.audio) || {},
-          }))
-        : [],
-    }
-    state.quranCache[cacheKey] = chapter
-    state.quranCurrent = chapter
-    state.quranTranslation = 'id'
-    saveJSON('quranTranslation', 'id')
-    return
-  }
+  if (ensureLocalQuranSurahLoaded(sn)) return
   const tr = typeof translationId === 'string' && translationId ? translationId : 'id'
   const cacheKey = `${sn}:${tr}`
   if (state.quranCurrent && state.quranCurrent.cacheKey === cacheKey) return
